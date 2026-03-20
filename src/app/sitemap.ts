@@ -15,6 +15,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/contact`, lastModified: currentDate, changeFrequency: 'monthly', priority: 0.5 },
   ];
 
+  // Guide pages
+  const guidePages: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/guides`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${BASE_URL}/guides/mlm-vs-affiliate-marketing`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${BASE_URL}/guides/best-mlm-companies-2026`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${BASE_URL}/guides/residual-income-math`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${BASE_URL}/guides/how-to-evaluate-home-business`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${BASE_URL}/guides/real-cost-mlm-team`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.7 },
+  ];
+
   // Category pages
   const categories: CompanyCategory[] = ['mlm', 'affiliate', 'direct_sales', 'other'];
   const categoryPages: MetadataRoute.Sitemap = categories.map((category) => ({
@@ -47,5 +57,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   }).filter((page): page is NonNullable<typeof page> => page !== null);
 
-  return [...staticPages, ...categoryPages, ...companyPages, ...comparisonPageUrls];
+  return [...staticPages, ...guidePages, ...categoryPages, ...companyPages, ...comparisonPageUrls];
 }
