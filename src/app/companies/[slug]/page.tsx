@@ -270,8 +270,17 @@ export default async function CompanyPage({ params }: PageProps) {
               </section>
             )}
 
+            {/* HBA Official Reviews Widget */}
+            {company.slug === 'home-business-academy' && (
+              <section>
+                <h2 className="text-xl font-bold text-gray-900 mb-2">Member Reviews</h2>
+                <p className="text-sm text-gray-500 mb-4">Real reviews from verified HBA members via thehba.app/reviews</p>
+                <script src="https://thehba.app/widget/reviews.js" data-hba-reviews data-layout="carousel" data-theme="auto" async></script>
+              </section>
+            )}
+
             {/* User Reviews */}
-            {reviews.length > 0 && (
+            {company.slug !== 'home-business-academy' && reviews.length > 0 && (
               <section>
                 <h2 className="text-xl font-bold text-gray-900 mb-4">User Reviews</h2>
                 <div className="space-y-4">

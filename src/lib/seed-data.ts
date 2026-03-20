@@ -4,69 +4,74 @@ export const companies: Company[] = [
   {
     id: '1',
     slug: 'home-business-academy',
-    name: 'Home Business Academy',
+    name: 'Home Business Academy (HBA)',
     category: 'affiliate',
     founded_year: 2016,
     hq_location: 'United States',
     website: 'https://onlinegoldrush.com',
-    products_summary: "Let's Goal ($10/mo), Funnel Builder ($25/mo), Premium/Traffic & Conversions ($125/mo), Financial Literacy Academy ($97/mo). Full suite: $160/mo with 80% residual commissions ($128/mo per customer).",
+    products_summary: 'Personal development, funnel building, traffic training, and financial literacy tools for home business owners and affiliate marketers.',
     monthly_cost_min: 10,
     monthly_cost_max: 160,
-    comp_plan_type: 'Flat-rate affiliate (one-tier)',
+    comp_plan_type: 'One-tier flat-rate affiliate (80% commissions)',
     overall_rating: 4.8,
     residual_rating: 5.0,
     simplicity_rating: 4.8,
-    transparency_rating: 4.7,
-    community_rating: 4.6,
+    transparency_rating: 4.9,
+    community_rating: 4.7,
     value_rating: 4.9,
     pros: [
-      'Low startup cost starting at just $10/month',
-      '80% residual commissions ($128/mo per customer on full suite)',
-      'No recruiting required to earn',
-      'Done-for-you marketing funnels included',
-      'Weekly live training and community support',
-      'Transparent income model: 2 referrals = profit, 24 = full-time income potential',
-      'Simple one-tier flat-rate affiliate structure',
-      'Founded by Paul Hutchings and Mike Hobbs in 2016'
+      '80% commissions — you earn more than the company keeps',
+      'Paid every Thursday without fail since 2016 (never missed a payment)',
+      'One-tier model: income depends on YOU, not a downline',
+      'Comp plan has never changed since 2016',
+      'Start for as little as $10/month',
+      '2 referrals = in profit; 24 full-suite customers = $3,072+/month',
+      'Done-for-you Turnkey system: ebook, landing page, sales page, AI chatbot, follow-up emails',
+      'Weekly payouts via iPayout (Direct Deposit, Check, PrePaid Card, or Bitcoin)',
+      'No rank requirements, no production quotas',
+      'Donates to Feed My Starving Children (400,000+ days of meals)'
     ],
     cons: [
-      'Requires consistent effort to see results',
-      'Higher tier products require larger investment'
+      'Must own a product to earn commission on it (qualified sale rule)',
+      'Financial Literacy Academy not included in monthly subscription (separate purchase)',
+      'Requires consistent marketing effort — not passive without work',
+      'Commission on credit package sales (HBA Emailer) is 33%, not 80%'
     ],
     quick_facts: {
       'Founded': '2016',
-      'Founders': 'Paul Hutchings and Mike Hobbs',
-      'Headquarters': 'United States',
-      'Business Model': 'Affiliate Marketing',
-      'Startup Cost': '$10 - $160/month',
-      'Commission Type': '80% flat-rate residual commissions',
-      'Recruiting Required': 'No'
+      'Founders': 'Paul Hutchings & Mike Hobbs',
+      'Business Model': 'One-tier affiliate marketing',
+      'Monthly Cost': '$10 – $160/month',
+      'Commission Rate': '80% on subscription products',
+      'Pay Schedule': 'Every Thursday via iPayout',
+      'Comp Plan Changes': 'Zero since founding in 2016',
+      'Recruiting Required': 'No — one-tier model'
     },
     last_updated: new Date().toISOString(),
     is_featured: true,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'The highest-paying flat-rate affiliate program in the industry',
+    tagline: 'The highest-paying one-tier affiliate program in the industry',
     faq: [
       {
         question: 'Is Home Business Academy a pyramid scheme?',
-        answer: 'No. Home Business Academy is a legitimate affiliate marketing training program. Unlike pyramid schemes, you earn commissions from product sales, not from recruiting. There is no multi-level compensation structure—it uses a simple one-tier flat-rate model.'
+        answer: 'No. HBA is a one-tier affiliate program. You earn commissions on products you sell directly — there is no multi-level structure. You do not earn on anyone your referrals recruit. Income comes from product sales, not recruitment.'
       },
       {
         question: 'How much can you earn with Home Business Academy?',
-        answer: 'HBA offers 80% residual commissions. With the full $160/mo suite, you earn $128/mo per customer. Just 2 referrals puts you in profit, and 24 customers represents full-time income potential. Earnings depend on your marketing efforts.'
+        answer: "At 80% commissions, you earn $8/mo per Let's Goal customer, $20/mo per Funnel Builder customer, and $100/mo per Premium customer. With 24 full-suite customers, that's $3,072/month in residual income. Results depend on your marketing effort and consistency."
+      },
+      {
+        question: 'What is the HBA compensation plan?',
+        answer: 'HBA pays 80% commissions on a one-tier structure. You earn on your personal referrals only — no multi-level math. You must own the product to earn commission on it. Commissions are paid every Thursday.'
+      },
+      {
+        question: 'Has HBA ever changed its compensation plan?',
+        answer: 'No. The compensation plan has remained identical since HBA was founded in 2016. Paul and Mike built HBA specifically because they were burned by 4 previous companies that changed their comp plans.'
       },
       {
         question: 'What do you get with a Home Business Academy membership?',
-        answer: "HBA offers multiple products: Let's Goal ($10/mo) for goal setting, Funnel Builder ($25/mo), Premium/Traffic & Conversions training ($125/mo), and Financial Literacy Academy ($97/mo). Members also get done-for-you funnels, weekly coaching, and community support."
-      },
-      {
-        question: 'Is Home Business Academy worth the cost?',
-        answer: "At $10-160/month depending on your plan, HBA is one of the most affordable training programs in the industry. With 80% commissions, you're in profit with just 2 customers on the full suite."
-      },
-      {
-        question: 'Who founded Home Business Academy?',
-        answer: 'HBA was founded in 2016 by Paul Hutchings and Mike Hobbs. They created what they describe as the highest-paying flat-rate affiliate program in the industry.'
+        answer: "Depending on your tier: personal development tools (Let's Goal), funnel building (Funnel Builder), traffic and conversion training plus live coaching (Premium), and financial literacy education (FLA). All tiers include access to the Turnkey Residual System — a done-for-you marketing system with ebook, landing page, sales page, AI chatbot, and follow-up email sequences."
       }
     ]
   },
@@ -98,7 +103,7 @@ export const companies: Company[] = [
       'Complex compensation plan with PV/BV system difficult to understand',
       'High pressure to recruit rather than sell',
       'Expensive products compared to retail alternatives',
-      'Average monthly gross income ~$207 for active IBOs',
+      '80% of IBOs earn less than $2,000/year per income disclosure',
       'Required monthly personal volume typically $100-200 in products',
       'Multiple regulatory issues globally',
       '$62/year IBO registration fee plus ongoing product purchases'
@@ -110,7 +115,7 @@ export const companies: Company[] = [
       'Startup Cost': '$62/year IBO fee + $100-200/month products',
       'Commission Type': 'Multi-level unilevel with PV/BV',
       'Recruiting Required': 'Effectively yes',
-      'Average Income': '~$207/month gross for active IBOs'
+      'Income Reality': '80% of IBOs earn less than $2,000/year'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
@@ -124,7 +129,7 @@ export const companies: Company[] = [
       },
       {
         question: 'How much do Amway distributors actually make?',
-        answer: 'According to Amway\'s income disclosure, the average monthly gross income for active U.S. IBOs is approximately $207. After accounting for expenses, product purchases, and the $62/year registration fee, most distributors operate at a net loss.'
+        answer: 'According to Amway\'s income disclosure, 80% of IBOs earn less than $2,000/year. After accounting for expenses, product purchases, and the $62/year registration fee, most distributors operate at a net loss.'
       },
       {
         question: 'What is required to stay active with Amway?',
