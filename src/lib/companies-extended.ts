@@ -3097,4 +3097,181 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '127',
+    slug: 'lularoe',
+    name: 'LuLaRoe',
+    category: 'mlm',
+    founded_year: 2012,
+    hq_location: 'Corona, California, USA',
+    website: 'https://lularoe.com',
+    products_summary: 'Colorful patterned clothing and leggings MLM founded by DeAnne and Mark Stidham in 2012. At its peak had 80,000+ retailers. Paid $4.75 million to Washington State AG to settle pyramid scheme lawsuit. Subject of the Amazon Prime documentary "LuLaRich." Still operating but significantly scaled back.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 100,
+    comp_plan_type: 'Multi-level with inventory purchase requirements',
+    overall_rating: 1.8,
+    residual_rating: 1.5,
+    simplicity_rating: 2.0,
+    transparency_rating: 1.5,
+    community_rating: 2.5,
+    value_rating: 1.5,
+    pros: [
+      'Unique, recognizable patterned clothing with a dedicated fan base',
+      'Flexible home-based business model',
+      'Company still operating post-settlement'
+    ],
+    cons: [
+      'Paid $4.75 million to settle Washington State pyramid scheme lawsuit',
+      'Settlement prohibits operating a pyramid scheme and requires accurate income disclosures',
+      'Subject of Amazon Prime documentary "LuLaRich" exposing business practices',
+      'Former retailers reported losing tens of thousands of dollars in unsellable inventory',
+      'Peak 80,000+ retailers crashed — massive oversaturation destroyed most businesses',
+      'Clothing quality issues and legging defects generated enormous negative press'
+    ],
+    quick_facts: {
+      'Founded': '2012',
+      'Headquarters': 'Corona, California',
+      'Founders': 'DeAnne & Mark Stidham',
+      'Settlement': '$4.75M to Washington State AG — pyramid scheme lawsuit',
+      'Documentary': 'LuLaRich (Amazon Prime, 2021)'
+    },
+    faq: [
+      {
+        question: 'Is LuLaRoe a pyramid scheme?',
+        answer: 'LuLaRoe paid $4.75 million to settle a Washington State Attorney General lawsuit asserting it operated a pyramid scheme. The settlement prohibits the company from operating a pyramid scheme and requires accurate income disclosures. The Amazon Prime documentary "LuLaRich" detailed the practices that led to the lawsuit.'
+      },
+      {
+        question: 'Is LuLaRoe still in business?',
+        answer: 'Yes. LuLaRoe is still operating as of 2025, but at a significantly reduced scale compared to its peak of 80,000+ retailers. The company has faced major scrutiny, multiple lawsuits, and continues under the terms of its settlement with Washington State.'
+      },
+      {
+        question: 'Did LuLaRoe retailers make money?',
+        answer: 'Many LuLaRoe retailers reported significant financial losses, particularly as the market became oversaturated with 80,000+ retailers all competing in the same model. Former retailers documented losing $10,000-$100,000+ in unsellable inventory in the Amazon documentary LuLaRich.'
+      }
+    ],
+    tagline: 'Patterned leggings MLM — $4.75M pyramid scheme settlement, subject of Amazon documentary',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '128',
+    slug: 'acn-inc',
+    name: 'ACN Inc.',
+    category: 'mlm',
+    founded_year: 1993,
+    hq_location: 'Concord, North Carolina, USA',
+    website: 'https://acn.com',
+    products_summary: 'Telecom and energy services MLM founded in 1993. Sells phone, internet, TV, and energy services through a network of Independent Business Owners (IBOs). Known for being endorsed by Donald Trump on Celebrity Apprentice. Federal lawsuit filed dismissed in January 2024, with plaintiffs directed to refile in state courts.',
+    monthly_cost_min: 500,
+    monthly_cost_max: 500,
+    comp_plan_type: 'Multi-level residual commissions on customer service bills',
+    overall_rating: 2.2,
+    residual_rating: 2.5,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 2.5,
+    value_rating: 2.0,
+    pros: [
+      'Services people already need (phone, internet, energy) — easier sell than supplements',
+      'Residual commissions on recurring service bills',
+      'International presence in 25+ countries',
+      'Founded 1993 — over 30 years in business'
+    ],
+    cons: [
+      'Only 1% of representatives earn income consistent with top of compensation plan',
+      '$499 startup fee required',
+      'Customers must switch providers — significant barrier vs. supplements',
+      'Federal lawsuit filed against ACN (dismissed January 2024, state courts pending)',
+      'Trump endorsement on Celebrity Apprentice raised ethical concerns — paid endorsement',
+      'Competition from lower-cost telecom providers makes customer acquisition difficult'
+    ],
+    quick_facts: {
+      'Founded': '1993',
+      'Headquarters': 'Concord, North Carolina',
+      'Startup Fee': '$499',
+      'Top Earners': 'Only 1% earn top-plan income (per ACN disclosure)',
+      'Notable': 'Featured on Donald Trump\'s Celebrity Apprentice (paid endorsement)'
+    },
+    faq: [
+      {
+        question: 'Is ACN a legitimate business?',
+        answer: 'ACN is a legal MLM selling real telecom and energy services. However, per their own income disclosure, only 1% of representatives earn income consistent with the top of the compensation plan. The $499 startup fee and difficulty convincing customers to switch service providers are significant barriers.'
+      },
+      {
+        question: 'Did Donald Trump endorse ACN?',
+        answer: 'Donald Trump promoted ACN on Celebrity Apprentice and at speaking events. It was later revealed Trump was paid for these endorsements. Trump stated in 2015 that he only promoted the company, never endorsed it as a business opportunity. Lawsuits were filed by former ACN participants citing Trump\'s promotion.'
+      },
+      {
+        question: 'How do ACN representatives make money?',
+        answer: 'ACN IBOs earn residual commissions on customers\' monthly service bills for telecom, internet, TV, and energy. The appeal is that customers pay bills every month, creating recurring income. In practice, customer acquisition is difficult and most IBOs earn very modest income.'
+      }
+    ],
+    tagline: 'Telecom MLM with Trump endorsement — only 1% earn top-plan income',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '129',
+    slug: 'melaleuca',
+    name: 'Melaleuca',
+    category: 'direct_sales',
+    founded_year: 1985,
+    hq_location: 'Idaho Falls, Idaho, USA',
+    website: 'https://melaleuca.com',
+    products_summary: 'Wellness company founded by Frank VanderSloot selling health, wellness, cleaning, and personal care products. Self-described as "referral marketing" — not MLM. Customers must purchase a minimum monthly order (~$75+). One of the few direct sales companies with genuinely positive reputation among its members.',
+    monthly_cost_min: 75,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Single-level referral commissions (company insists it is not MLM)',
+    overall_rating: 3.2,
+    residual_rating: 3.0,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.5,
+    community_rating: 4.0,
+    value_rating: 3.0,
+    pros: [
+      'One of the better-regarded direct sales companies — genuine customer loyalty',
+      'Products sold to real consumers, not just to distributors',
+      'Founder Frank VanderSloot known for ethical business leadership',
+      'Transparent income statistics available on website',
+      'Some Marketing Executives earn meaningful supplemental income',
+      'Single-level structure reduces recruiting pressure vs. traditional MLM'
+    ],
+    cons: [
+      'Required monthly minimum purchase (~$75-150) to stay active',
+      'Most Marketing Executives earn modest supplemental income ($250-500/month)',
+      'Customer acquisition requires convincing friends/family to switch brands',
+      'Products not available in retail — subscription-only model limits reach',
+      'Company insists it is "not MLM" but structure has multi-level elements'
+    ],
+    quick_facts: {
+      'Founded': '1985',
+      'Headquarters': 'Idaho Falls, Idaho',
+      'Founder': 'Frank VanderSloot',
+      'Monthly Minimum': '~$75-150 product order',
+      'Classification': 'Self-described "referral marketing" (not MLM per company)'
+    },
+    faq: [
+      {
+        question: 'Is Melaleuca an MLM?',
+        answer: 'Melaleuca strongly insists it is not an MLM, calling itself a "wellness company" and "referral marketing" company. The structure has some MLM-like elements (residual commissions from referred customers) but differs in that there are no distributor ranks, no required product purchases to recruit, and products are primarily sold to end consumers, not to distributors themselves.'
+      },
+      {
+        question: 'How much do Melaleuca Marketing Executives earn?',
+        answer: 'Per Melaleuca\'s income statistics, Marketing Executives can earn $250-$2,500+/month depending on their customer base. The company states the opportunity is possible for "average, everyday families." Most active Marketing Executives earn supplemental income rather than full-time wages.'
+      },
+      {
+        question: 'Are Melaleuca products good?',
+        answer: 'Melaleuca has a generally positive reputation for product quality, particularly their Renew lotion and EcoSense cleaning products. Products are competitively priced compared to premium natural brands but require a subscription purchase commitment.'
+      }
+    ],
+    tagline: 'Idaho wellness company — calls itself "referral marketing" not MLM, generally positive reputation',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
