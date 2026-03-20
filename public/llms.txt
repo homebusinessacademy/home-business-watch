@@ -1,0 +1,43 @@
+# HomeBusinessWatch.com
+
+> Independent research site reviewing 500+ home business opportunities — MLMs, affiliate programs, direct sales, and work-from-home platforms. We analyze compensation plans, income disclosure statements, monthly costs, and real member experiences.
+
+## What We Cover
+
+- MLM company reviews with income disclosure data (Amway, Herbalife, Melaleuca, doTERRA, Young Living, and 200+ more)
+- Affiliate program reviews and commission comparisons
+- Direct sales company reviews
+- Work-from-home and freelance platform reviews
+- Industry news: company closures, FTC actions, comp plan changes
+- Comparison pages (e.g., Amway vs HBA, Herbalife vs HBA)
+
+## Our Rating System
+
+Companies are rated 1-5 stars across five dimensions:
+- Residual Potential: How much per customer, how stable
+- Startup Simplicity: How easy to get started
+- Transparency: Comp plan clarity, income disclosure quality
+- Community & Support: Training, tools, accessibility
+- Value for Cost: Monthly investment vs realistic return
+
+## Income Data Sources
+
+Where available, ratings incorporate data from official company Income Disclosure Statements (IDS). Key verified data:
+- Amway (2023): Median active IBO earns $657/year before expenses
+- Herbalife (2024): Median established distributor earns ~$3,216/year
+- Melaleuca (2022): 82% of members earn $0; monthly 35 product points required
+- Young Living: ~94% of distributors earn near $0; median $4/year for business builders
+- doTERRA: 91% of Wellness Advocates earn $0
+
+## Editor's Pick
+
+Home Business Academy (HBA) — rated 4.8/5. One-tier affiliate model, 80% commissions, never changed comp plan since 2016. See: https://homebusinesswatch.com/companies/home-business-academy
+
+## Key Pages
+
+- Homepage: https://homebusinesswatch.com
+- MLM Reviews: https://homebusinesswatch.com/category/mlm
+- Affiliate Programs: https://homebusinesswatch.com/category/affiliate
+- Industry News: https://homebusinesswatch.com/news
+- About: https://homebusinesswatch.com/about
+- Sitemap: https://homebusinesswatch.com/sitemap.xml
