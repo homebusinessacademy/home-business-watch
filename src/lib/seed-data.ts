@@ -356,10 +356,10 @@ export const companyUpdates: CompanyUpdate[] = [
   {
     id: '1',
     company_id: '1',
-    title: 'Home Business Academy Launches New AI-Powered Funnel Builder',
-    summary: 'HBA introduces cutting-edge AI tools to help affiliates create high-converting funnels in minutes.',
-    source_url: 'https://onlinegoldrush.com',
-    published_at: new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
+    title: 'HBA Launches Built-In Email Marketing Tool',
+    summary: 'Home Business Academy released its own integrated emailer — pay-as-you-go credits, 300 free emails to start, no domain setup required, and Email Alchemist AI writing tool included for Premium members.',
+    source_url: 'https://thehba.app',
+    published_at: new Date('2026-03-17').toISOString(),
     created_at: new Date().toISOString()
   },
   {
