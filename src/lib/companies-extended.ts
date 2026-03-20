@@ -1182,4 +1182,297 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '115',
+    slug: 'forever-living-products',
+    name: 'Forever Living Products',
+    category: 'mlm',
+    founded_year: 1978,
+    hq_location: 'Scottsdale, Arizona, USA',
+    website: 'https://foreverliving.com',
+    products_summary: 'World\'s largest grower, manufacturer, and distributor of aloe vera products including drinks, skincare, supplements, and personal care items. Sold through Forever Business Owners (FBOs) in 160+ countries.',
+    monthly_cost_min: 100,
+    monthly_cost_max: 300,
+    comp_plan_type: 'Multi-level with case credit qualification system',
+    overall_rating: 2.2,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 1.5,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'Vertically integrated — grows, manufactures, and sells its own aloe vera',
+      'Global presence in 160+ countries',
+      'Aloe vera products have genuine consumer demand',
+      'Founded 1978 — over 45 years in business'
+    ],
+    cons: [
+      'Forever Living does not publish an income disclosure — major transparency concern',
+      'FBOs are prohibited from making income representations per company policy',
+      'Required to maintain ~$200/month in product purchases to qualify for commissions',
+      'Products significantly overpriced vs. comparable retail aloe products',
+      'Compensation plan based on complex Case Credit (CC) system'
+    ],
+    quick_facts: {
+      'Founded': '1978',
+      'Headquarters': 'Scottsdale, Arizona',
+      'Income Disclosure': 'Not publicly published ⚠️',
+      'Monthly Requirement': '~$200+ in products to qualify',
+      'Markets': '160+ countries'
+    },
+    faq: [
+      {
+        question: 'Is Forever Living a pyramid scheme?',
+        answer: 'Forever Living is a legal MLM company selling real aloe vera products. However, the company does not publish an income disclosure, which makes it difficult to assess typical earnings. FBOs are also prohibited from making income representations.'
+      },
+      {
+        question: 'How much does it cost to join Forever Living?',
+        answer: 'Initial enrollment costs vary by country but typically require purchasing a starter pack (~$200-300 in products). To earn commissions, FBOs must maintain ongoing monthly product purchases, typically valued at 2+ case credits (~$200+).'
+      },
+      {
+        question: 'Does Forever Living publish income disclosures?',
+        answer: 'No. Unlike most major MLMs, Forever Living does not publish a public income disclosure statement. This lack of transparency is a significant concern for those evaluating the business opportunity.'
+      }
+    ],
+    tagline: 'World\'s largest aloe vera MLM — no public income disclosure',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '116',
+    slug: 'pampered-chef',
+    name: 'Pampered Chef',
+    category: 'direct_sales',
+    founded_year: 1980,
+    hq_location: 'Addison, Illinois, USA',
+    website: 'https://pamperedchef.com',
+    products_summary: 'Kitchen tools, cookware, and food products sold through cooking shows and direct sales. Owned by Berkshire Hathaway since 2002. Known for quality products and the cooking show party model.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 60,
+    comp_plan_type: 'Direct sales with tiered commission (20-25%) and team bonuses',
+    overall_rating: 3.0,
+    residual_rating: 2.0,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.0,
+    community_rating: 3.5,
+    value_rating: 3.0,
+    pros: [
+      'Owned by Berkshire Hathaway (Warren Buffett) — financially stable, reputable owner',
+      'High-quality kitchen products with genuine consumer appeal',
+      'No required monthly purchase to stay active',
+      'Cooking show model creates a natural selling environment',
+      '20-25% commissions on personal sales'
+    ],
+    cons: [
+      'Party-based selling model requires ongoing social networking',
+      'Most consultants earn supplemental income, not full-time wages',
+      'Products priced at premium vs. comparable kitchen tools',
+      'Cooking show invitations can strain personal relationships',
+      'Market saturation in some areas'
+    ],
+    quick_facts: {
+      'Founded': '1980',
+      'Headquarters': 'Addison, Illinois',
+      'Owner': 'Berkshire Hathaway (since 2002)',
+      'Commission': '20-25% on personal sales',
+      'Starter Kit': '~$109'
+    },
+    faq: [
+      {
+        question: 'Who owns Pampered Chef?',
+        answer: 'Warren Buffett\'s Berkshire Hathaway acquired Pampered Chef in 2002. This makes it one of the few direct sales companies with a well-capitalized, publicly traded parent company.'
+      },
+      {
+        question: 'How much do Pampered Chef consultants earn?',
+        answer: 'Pampered Chef consultants earn 20-25% commission on personal sales. Based on the Canadian 2024 income disclosure, most active consultants earn modest supplemental income. A smaller percentage advance to Director and above, earning meaningful additional team bonuses.'
+      },
+      {
+        question: 'Do you need to host parties to sell Pampered Chef?',
+        answer: 'Cooking shows (parties) are the traditional selling method, but consultants can also sell online through their personal Pampered Chef website. However, hosting parties typically generates the best sales results.'
+      }
+    ],
+    tagline: 'Berkshire Hathaway-owned kitchen products direct sales company',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '157',
+    slug: 'legendary-marketer',
+    name: 'Legendary Marketer',
+    category: 'affiliate',
+    founded_year: 2016,
+    hq_location: 'St. Petersburg, Florida, USA',
+    website: 'https://legendarymarketer.com',
+    products_summary: '⚠️ CLOSED FEBRUARY 2026. Online marketing training program founded by David Sharpe offering courses on affiliate marketing, digital products, and online business. Announced closure after 9 years in business in February 2026.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate program (closed — no longer accepting affiliates)',
+    overall_rating: 2.5,
+    residual_rating: 1.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 3.0,
+    value_rating: 1.5,
+    pros: [
+      'Was one of the more transparent high-ticket affiliate programs',
+      'Low $2.95 entry point (15-Day Business Builder Challenge) made it accessible',
+      'David Sharpe was a recognizable and credible face in the industry',
+      'Produced genuinely useful affiliate marketing training content'
+    ],
+    cons: [
+      '⚠️ OFFICIALLY CLOSED — announced shutdown in February 2026 after 9 years',
+      'Affiliates can no longer earn commissions — program is defunct',
+      'High-ticket upsells ($2,500-$25,000) were primary revenue source',
+      'Significant income claims by affiliates drew FTC scrutiny concerns',
+      'Many affiliates built entire businesses around LM — those businesses are now disrupted'
+    ],
+    quick_facts: {
+      'Founded': '2016',
+      'Closed': '⚠️ February 2026',
+      'Founder': 'David Sharpe',
+      'Status': 'PERMANENTLY CLOSED — affiliate program no longer active',
+      'Years in Business': '9 years (2016-2026)'
+    },
+    faq: [
+      {
+        question: 'Is Legendary Marketer still open?',
+        answer: 'No. Legendary Marketer officially closed in February 2026 after 9 years in business. Founder David Sharpe announced the shutdown on social media, ending the affiliate program and all courses. Affiliates can no longer earn commissions.'
+      },
+      {
+        question: 'Why did Legendary Marketer close?',
+        answer: 'David Sharpe announced the closure on social media in February 2026, describing it as "ending our 9-year run." The specific reasons were not fully disclosed publicly. The platform had faced increasing competition and scrutiny of income claims made by affiliates.'
+      },
+      {
+        question: 'What should former Legendary Marketer affiliates do now?',
+        answer: 'Former LM affiliates should explore alternative affiliate programs with sustainable recurring income models. Platforms like HBA, ClickFunnels, and ConvertKit offer legitimate recurring commission programs.'
+      }
+    ],
+    tagline: '⚠️ CLOSED FEBRUARY 2026 — Online marketing training program after 9-year run',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '158',
+    slug: 'jvzoo',
+    name: 'JVZoo',
+    category: 'affiliate',
+    founded_year: 2011,
+    hq_location: 'Plant City, Florida, USA',
+    website: 'https://jvzoo.com',
+    products_summary: 'Digital product marketplace and affiliate network specializing in internet marketing, software, and online business tools. Popular for product launches with instant commissions.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate marketplace — varies by product (typically 30-70%)',
+    overall_rating: 3.0,
+    residual_rating: 2.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 2.5,
+    community_rating: 3.0,
+    value_rating: 3.0,
+    pros: [
+      'Free to join as an affiliate',
+      'High commission rates (30-70% common on digital products)',
+      'Instant or same-day payments via PayPal for approved affiliates',
+      'Large marketplace of internet marketing products',
+      'Good for promoting product launches to email lists'
+    ],
+    cons: [
+      'Many low-quality "get rich quick" products on the platform',
+      'Product quality varies wildly — due diligence required',
+      'New affiliates must request approval per product — not instant access',
+      'Platform has reputation for promoting overhyped products',
+      'High refund rates on some products damage reputation'
+    ],
+    quick_facts: {
+      'Founded': '2011',
+      'Headquarters': 'Plant City, Florida',
+      'Specialty': 'Internet marketing and software digital products',
+      'Commission Rate': '30-70% typical',
+      'Cost to Join': 'Free'
+    },
+    faq: [
+      {
+        question: 'Is JVZoo legitimate?',
+        answer: 'JVZoo is a legitimate marketplace that has paid out millions in commissions. However, product quality varies significantly. Many products make exaggerated income claims. Careful vetting of products before promoting is essential.'
+      },
+      {
+        question: 'JVZoo vs ClickBank — which is better?',
+        answer: 'Both are legitimate digital product marketplaces. ClickBank has a larger selection and better brand recognition. JVZoo is more focused on internet marketing tools and software with faster payment options. Both require careful product vetting.'
+      },
+      {
+        question: 'How do you get approved as a JVZoo affiliate?',
+        answer: 'Create a free JVZoo account, then request approval from individual product vendors. New affiliates with no sales history may face more rejections. Building a track record with smaller products first helps.'
+      }
+    ],
+    tagline: 'Digital product marketplace for internet marketing affiliates',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '159',
+    slug: 'rakuten-advertising',
+    name: 'Rakuten Advertising',
+    category: 'affiliate',
+    founded_year: 1996,
+    hq_location: 'New York City, New York, USA',
+    website: 'https://rakutenadvertising.com',
+    products_summary: 'One of the largest global affiliate networks (formerly LinkShare), owned by Japanese e-commerce giant Rakuten. Features premium brand partnerships across fashion, retail, finance, and travel.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate network — commission rates vary by merchant',
+    overall_rating: 3.7,
+    residual_rating: 2.5,
+    simplicity_rating: 3.0,
+    transparency_rating: 3.5,
+    community_rating: 3.0,
+    value_rating: 3.8,
+    pros: [
+      'Access to premium brand advertisers (Walmart, Best Buy, Macy\'s, etc.)',
+      'Free to join for publishers/affiliates',
+      'Backed by Rakuten — financially stable global company',
+      'Strong tracking and attribution technology',
+      'Good for high-volume content sites with established traffic'
+    ],
+    cons: [
+      'Interface less user-friendly than CJ or ShareASale',
+      'Minimum $50 payout threshold',
+      'Smaller overall network than CJ Affiliate or ShareASale',
+      'Some advertisers require significant traffic/audience to approve',
+      'Support response times can be slow'
+    ],
+    quick_facts: {
+      'Founded': '1996 (as LinkShare)',
+      'Headquarters': 'New York City',
+      'Parent Company': 'Rakuten Group (Japan)',
+      'Cost to Join': 'Free',
+      'Specialty': 'Premium retail and brand advertisers'
+    },
+    faq: [
+      {
+        question: 'What is Rakuten Advertising?',
+        answer: 'Rakuten Advertising (formerly LinkShare) is one of the oldest affiliate networks, founded in 1996. It connects publishers with premium advertisers including major retailers. It is owned by Japanese e-commerce giant Rakuten.'
+      },
+      {
+        question: 'Rakuten Advertising vs CJ Affiliate — which is better?',
+        answer: 'Both networks feature major brand advertisers. CJ has a larger network and better-known brands overall. Rakuten has strength in retail (Walmart, Best Buy) and is a good complement to CJ for diverse monetization.'
+      },
+      {
+        question: 'Is Rakuten Advertising free to join?',
+        answer: 'Yes, joining as a publisher/affiliate is free. You apply to individual advertiser programs within the network, many of which have their own traffic and content requirements.'
+      }
+    ],
+    tagline: 'Global affiliate network with premium retail brand partnerships',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
