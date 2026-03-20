@@ -41,7 +41,7 @@ Submitted via homebusinesswatch.com/contact
       },
       body: JSON.stringify({
         from: 'HomeBusinessWatch Contact <onboarding@resend.dev>',
-        to: ['assistant@paulhutchings.net'],
+        to: ['paulmhutchings@gmail.com'],
         reply_to: email,
         subject,
         text,
