@@ -1,78 +1,169 @@
-import { Metadata } from 'next';
+'use client';
 
-export const metadata: Metadata = {
-  title: 'Contact HomeBusinessWatch',
-  description: 'Contact HomeBusinessWatch to report inaccurate information, suggest a company, or ask a question.',
-};
+import { useState } from 'react';
+
+const API_ENDPOINT = '/api/contact';
 
 export default function ContactPage() {
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const [reason, setReason] = useState('');
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setStatus('sending');
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const res = await fetch(API_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: formData.get('name'),
+          email: formData.get('email'),
+          reason: formData.get('reason'),
+          company: formData.get('company') || '',
+          message: formData.get('message'),
+        }),
+      });
+
+      if (res.ok) {
+        setStatus('success');
+        form.reset();
+      } else {
+        setStatus('error');
+      }
+    } catch {
+      setStatus('error');
+    }
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       <section className="bg-gradient-to-b from-navy-900 to-navy-800 text-white py-12">
         <div className="container mx-auto px-4 max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
-          <p className="text-gray-300 text-lg">We&apos;re always looking to improve our data.</p>
+          <p className="text-gray-300 text-lg">Found an error? Suggest a company. Ask a question.</p>
         </div>
       </section>
 
       <section className="py-12">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <div className="grid gap-6">
-
-            <div className="bg-white rounded-xl border border-gray-200 p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Get In Touch</h2>
-
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Report Inaccurate Information</h3>
-                    <p className="text-gray-600 text-sm">Found something wrong in one of our reviews? Let us know the company, what&apos;s incorrect, and a source if you have one. We update our database regularly.</p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Suggest a Missing Company</h3>
-                    <p className="text-gray-600 text-sm">Know a home business opportunity we haven&apos;t reviewed? Send us the company name and website and we&apos;ll add it to our research queue.</p>
-                  </div>
-                </div>
-
-                <div className="flex gap-4">
-                  <div className="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <svg className="w-5 h-5 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">General Questions</h3>
-                    <p className="text-gray-600 text-sm">Have a question about a company, our rating system, or anything else? We&apos;re happy to help.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="mt-8 p-6 bg-gray-50 rounded-xl">
-                <p className="text-gray-700 font-medium mb-2">📧 Email us at:</p>
-                <a
-                  href="mailto:contact@homebusinesswatch.com"
-                  className="text-navy-600 hover:text-navy-800 font-semibold text-lg"
-                >
-                  contact@homebusinesswatch.com
-                </a>
-                <p className="text-gray-500 text-sm mt-2">We typically respond within 1-2 business days.</p>
-              </div>
+        <div className="container mx-auto px-4 max-w-2xl">
+          {status === 'success' ? (
+            <div className="bg-white rounded-xl border border-gray-200 p-10 text-center">
+              <div className="text-5xl mb-4">✅</div>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h2>
+              <p className="text-gray-600">Thanks for reaching out. We typically respond within 1-2 business days.</p>
+              <button
+                onClick={() => setStatus('idle')}
+                className="mt-6 text-navy-600 hover:text-navy-800 font-medium underline"
+              >
+                Send another message
+              </button>
             </div>
+          ) : (
+            <div className="bg-white rounded-xl border border-gray-200 p-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h2>
 
-          </div>
+              <form onSubmit={handleSubmit} className="space-y-5">
+                {/* Reason */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    What&apos;s this about? <span className="text-red-500">*</span>
+                  </label>
+                  <select
+                    name="reason"
+                    required
+                    value={reason}
+                    onChange={e => setReason(e.target.value)}
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 focus:ring-2 focus:ring-navy-500 focus:border-navy-500"
+                  >
+                    <option value="">Select a reason...</option>
+                    <option value="Report inaccurate data">Report inaccurate data</option>
+                    <option value="Suggest a missing company">Suggest a missing company</option>
+                    <option value="General question">General question</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+
+                {/* Name */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    Your Name <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    placeholder="Jane Smith"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 focus:ring-2 focus:ring-navy-500 focus:border-navy-500"
+                  />
+                </div>
+
+                {/* Email */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    Your Email <span className="text-red-500">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="you@example.com"
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 focus:ring-2 focus:ring-navy-500 focus:border-navy-500"
+                  />
+                </div>
+
+                {/* Company (conditional) */}
+                {(reason === 'Report inaccurate data' || reason === 'Suggest a missing company') && (
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">
+                      Company Name
+                    </label>
+                    <input
+                      type="text"
+                      name="company"
+                      placeholder="e.g. Amway, Herbalife..."
+                      className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 focus:ring-2 focus:ring-navy-500 focus:border-navy-500"
+                    />
+                  </div>
+                )}
+
+                {/* Message */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-1">
+                    Message <span className="text-red-500">*</span>
+                  </label>
+                  <textarea
+                    name="message"
+                    required
+                    rows={5}
+                    placeholder={
+                      reason === 'Report inaccurate data'
+                        ? 'What is incorrect and what is the correct information? Include a source if you have one.'
+                        : reason === 'Suggest a missing company'
+                        ? 'Company name, website, and why you think it should be reviewed.'
+                        : 'Your message...'
+                    }
+                    className="w-full border border-gray-300 rounded-lg px-4 py-2.5 text-gray-900 focus:ring-2 focus:ring-navy-500 focus:border-navy-500 resize-none"
+                  />
+                </div>
+
+                {status === 'error' && (
+                  <p className="text-red-600 text-sm">Something went wrong. Please try again.</p>
+                )}
+
+                <button
+                  type="submit"
+                  disabled={status === 'sending'}
+                  className="w-full bg-navy-800 hover:bg-navy-900 disabled:opacity-60 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+                >
+                  {status === 'sending' ? 'Sending...' : 'Send Message'}
+                </button>
+              </form>
+            </div>
+          )}
         </div>
       </section>
     </div>
