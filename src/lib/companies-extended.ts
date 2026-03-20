@@ -1483,10 +1483,10 @@ export const extendedCompanies: Company[] = [
     founded_year: 2019,
     hq_location: 'United Kingdom',
     website: 'https://olspsystem.com',
-    products_summary: 'Online marketing platform and affiliate system founded by Wayne Crowe. Provides tools, traffic training, and done-for-you lead generation for affiliate marketers. Recently relaunched in 2026 with significant changes to pricing and compensation structure.',
+    products_summary: 'Online marketing platform and affiliate system founded by Wayne Crowe. Provides tools, traffic training, and done-for-you lead generation for affiliate marketers. Relaunched in 2026 with new pricing: $199/month or $1,997/year, offering 200% commissions + 2-tier earnings. Removed the one-time lifetime membership option that affiliates had relied on.',
     monthly_cost_min: 7,
     monthly_cost_max: 199,
-    comp_plan_type: '2-tier affiliate commissions — monthly/annual subscriptions (lifetime option removed 2026)',
+    comp_plan_type: '200% commissions + 2-tier — $199/mo or $1,997/yr (lifetime option removed 2026)',
     overall_rating: 2.8,
     residual_rating: 2.5,
     simplicity_rating: 3.0,
@@ -1496,26 +1496,26 @@ export const extendedCompanies: Company[] = [
     pros: [
       'Low entry point — $7 Mega Link to start',
       'Done-for-you traffic generation appeals to beginners',
+      'New 2026 structure: 200% commissions + 2-tier earnings on $199/mo plan',
       'Active Facebook community with regular training',
-      'Wayne Crowe is accessible and engages with members',
-      '2-tier commissions allow earning from referrals\' referrals'
+      'Wayne Crowe is accessible and engages with members'
     ],
     cons: [
-      '⚠️ MAJOR CHANGE 2026: Live Profit Builders ($49 lifetime, $24.50 commission) removed — monthly only now',
-      'Affiliates who built around the $49 lifetime offer lost that income stream overnight',
-      'Total cost can escalate quickly: $7 entry → $99-$199+/month for full tools',
-      'Business model centers on selling OLSP itself, not external products',
-      'Comp plan changes signal instability — exactly the risk Paul Hutchings warned about',
-      '50% commission on $199/month is far less attractive without the high-ticket lifetime option'
+      '⚠️ 2026 RELAUNCH: One-time lifetime membership removed — now $199/mo or $1,997/yr only',
+      'Affiliates say "99% of people will choose monthly over yearly" — killing the big annual commission paydays',
+      'Former affiliates calling the change "an easy way to leave a company" — significant community pushback',
+      'Business model centers on selling OLSP itself rather than independent external products',
+      'Comp plan changes signal instability — exactly the kind of change Paul Hutchings built HBA to avoid',
+      'Entry cost escalates quickly: $7 Mega Link → $199/mo for full community builder access'
     ],
     quick_facts: {
       'Founded': '~2019',
       'Founder': 'Wayne Crowe (UK)',
       'Entry Price': '$7 (Mega Link)',
       'Monthly Cost': '$99–$199+ for full access',
-      '2026 Change': '⚠️ Live Profit Builders ($49 lifetime) removed — monthly only now',
-    'Old Community Builders': '$199/mo → $99.50 commission (50%)',
-    'Old Live Profit Builders': '$49 lifetime → $24.50 commission (now gone)'
+      '2026 Change': '⚠️ Lifetime option removed — now $199/mo or $1,997/yr',
+    'New Pricing': '$199/mo or $1,997/yr — 200% commissions + 2-tier',
+    'Old Lifetime Option': '$49 one-time (REMOVED in 2026 relaunch)'
     },
     faq: [
       {
