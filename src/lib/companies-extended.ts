@@ -3210,4 +3210,233 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '303',
+    slug: 'bitconnect',
+    name: 'BitConnect',
+    category: 'other',
+    founded_year: 2016,
+    hq_location: 'India / UK (defunct)',
+    website: 'N/A — collapsed',
+    products_summary: '⚠️ FRAUD — $2.4 BILLION PONZI SCHEME. BitConnect was a cryptocurrency lending platform that promised returns of up to 40% per month. It collapsed in January 2018 after cease and desist orders from multiple US states. Founder Satishkumar Kumbhani was indicted by a US grand jury in 2022 for orchestrating the $2.4 billion fraud. Promoter Glenn Arcaro pleaded guilty and was sentenced to 38 months in prison.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ FRAUD — Crypto Ponzi scheme with MLM referral structure',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 1.0,
+    transparency_rating: 1.0,
+    community_rating: 1.0,
+    value_rating: 1.0,
+    pros: [
+      'There are no legitimate pros — BitConnect was a criminal Ponzi scheme'
+    ],
+    cons: [
+      '⚠️ FRAUD — $2.4 billion stolen from investors worldwide (DOJ indictment)',
+      'Promised returns of 40%+/month — mathematically impossible and a classic Ponzi red flag',
+      'Collapsed January 2018 — BCC token crashed from ~$400 to near zero in hours',
+      'Founder Satishkumar Kumbhani indicted by US grand jury 2022 — fugitive',
+      'Top US promoter Glenn Arcaro pleaded guilty, sentenced to 38 months in prison',
+      'Thousands of victims worldwide lost life savings'
+    ],
+    quick_facts: {
+      'Founded': '2016',
+      'Collapsed': 'January 2018',
+      'Total Fraud': '$2.4 billion (DOJ indictment)',
+      'Founder Status': 'Satishkumar Kumbhani — indicted, fugitive',
+      'Top Promoter': 'Glenn Arcaro — pleaded guilty, 38 months prison'
+    },
+    faq: [
+      {
+        question: 'What was BitConnect?',
+        answer: 'BitConnect was a cryptocurrency lending platform that promised investors returns of up to 40% per month through a "trading bot." It was a Ponzi scheme — early investors were paid using money from new investors. It collapsed in January 2018 when US state regulators issued cease and desist orders, wiping out an estimated $2.4 billion in investor funds.'
+      },
+      {
+        question: 'Who ran BitConnect?',
+        answer: 'BitConnect was founded by Satishkumar Kumbhani of India. He was indicted by a US grand jury in 2022 but remains a fugitive. The top US promoter, Glenn Arcaro, pleaded guilty and was sentenced to 38 months in prison in 2022.'
+      },
+      {
+        question: 'Can BitConnect victims get their money back?',
+        answer: 'The DOJ has taken action to recover funds and has distributed some recovered assets to victims. However, the vast majority of the $2.4 billion in losses has not been recovered. If you were a victim, check the DOJ\'s victim notification system.'
+      }
+    ],
+    tagline: '⚠️ $2.4 BILLION CRYPTO PONZI — collapsed January 2018, founder is fugitive',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '304',
+    slug: 'zeek-rewards',
+    name: 'ZeekRewards',
+    category: 'other',
+    founded_year: 2010,
+    hq_location: 'Lexington, North Carolina, USA (defunct)',
+    website: 'N/A — shut down by SEC',
+    products_summary: '⚠️ FRAUD — $600 MILLION PONZI SCHEME SHUT DOWN BY SEC. ZeekRewards was an online penny auction and profit-sharing scheme shut down by the SEC in August 2012. It had 1 million+ participants in 225 countries. Founder Paul Burks was convicted of fraud. Over $375 million had been paid out to early investors using money from new participants.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ FRAUD — Penny auction / profit sharing Ponzi scheme',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 1.0,
+    transparency_rating: 1.0,
+    community_rating: 1.0,
+    value_rating: 1.0,
+    pros: [
+      'No legitimate pros — ZeekRewards was a criminal Ponzi scheme'
+    ],
+    cons: [
+      '⚠️ FRAUD — $600 million Ponzi scheme shut down by SEC August 2012',
+      'Over 1 million participants in 225 countries defrauded',
+      'Grew to $8.4 million in daily revenue by Q3 2012 before collapse',
+      'Founder Paul Burks convicted of wire fraud and other charges',
+      'At least 9 other defendants convicted or pleaded guilty',
+      'Most victims recovered only cents on the dollar through court proceedings'
+    ],
+    quick_facts: {
+      'Founded': '2010',
+      'Shut Down': 'August 2012 by SEC',
+      'Total Fraud': '$600 million',
+      'Participants': '1 million+ in 225 countries',
+      'Founder': 'Paul Burks — convicted of wire fraud'
+    },
+    faq: [
+      {
+        question: 'What was ZeekRewards?',
+        answer: 'ZeekRewards was marketed as a penny auction profit-sharing program where participants could earn by recruiting others and placing daily bids. The SEC determined it was a Ponzi scheme — the $600M in "profits" were actually being funded by new participants\' money. It was shut down by the SEC in August 2012.'
+      },
+      {
+        question: 'Were ZeekRewards participants criminally prosecuted?',
+        answer: 'Founder Paul Burks was convicted on charges including wire fraud. At least 9 other defendants — including promoters who earned over $1 million — were convicted or pleaded guilty to various fraud charges.'
+      },
+      {
+        question: 'Did ZeekRewards victims get their money back?',
+        answer: 'A court-appointed receiver worked to recover and distribute funds. Due to the nature of Ponzi schemes, most victims recovered only a fraction of their losses. Net winners (those who received more than they invested) were required to disgorge their profits.'
+      }
+    ],
+    tagline: '⚠️ $600 MILLION PONZI SCHEME — shut down by SEC 2012, founder convicted',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '305',
+    slug: 'vemma',
+    name: 'Vemma Nutrition',
+    category: 'mlm',
+    founded_year: 2004,
+    hq_location: 'Scottsdale, Arizona, USA',
+    website: 'https://vemma.com',
+    products_summary: 'Health and energy drink MLM halted by the FTC on August 21, 2015 as an alleged pyramid scheme. Known for its Verve energy drink and targeting college students. Settled with the FTC in December 2016, agreeing to ban pyramid scheme practices and pay $238 million judgment (largely suspended). Still operating under the settlement terms.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level (reformed post-FTC settlement)',
+    overall_rating: 1.5,
+    residual_rating: 1.5,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 2.0,
+    value_rating: 1.5,
+    pros: [
+      'Still operating — has reformed practices under FTC settlement',
+      'Verve energy drink has some brand recognition',
+      'Settlement required improved income disclosure transparency'
+    ],
+    cons: [
+      'FTC halted operations August 2015 as alleged pyramid scheme',
+      'Specifically targeted college students — criticized for predatory recruiting tactics',
+      'Settled with FTC December 2016 — $238 million judgment (largely suspended)',
+      'Settlement permanently bans business practices that FTC alleged created pyramid scheme',
+      'Required to verify that participants actually make retail sales before paying bonuses',
+      'Reputation severely damaged by FTC action'
+    ],
+    quick_facts: {
+      'Founded': '2004',
+      'Headquarters': 'Scottsdale, Arizona',
+      'FTC Action': 'Halted August 21, 2015 as alleged pyramid scheme',
+      'FTC Settlement': '$238 million judgment (largely suspended), December 2016',
+      'Status': 'Operating under FTC settlement terms'
+    },
+    faq: [
+      {
+        question: 'Did the FTC shut down Vemma?',
+        answer: 'The FTC halted Vemma\'s operations on August 21, 2015, alleging it operated as a pyramid scheme that primarily rewarded recruitment over retail sales. Vemma settled with the FTC in December 2016, agreeing to ban the alleged pyramid scheme practices and paying a $238 million judgment (largely suspended based on inability to pay).'
+      },
+      {
+        question: 'Is Vemma still in business?',
+        answer: 'Yes. Vemma continues to operate under the terms of its FTC settlement. The settlement permanently bans the business practices that the FTC alleged created a pyramid scheme, including requiring proof of actual retail sales before paying recruitment bonuses.'
+      },
+      {
+        question: 'Why did Vemma target college students?',
+        answer: 'Vemma\'s "Young People Revolution" (YPR) program specifically recruited college students, promising financial freedom and a luxury lifestyle. The FTC criticized this targeting as predatory, noting that young people were encouraged to spend money on products and recruitment while their actual earnings were minimal.'
+      }
+    ],
+    tagline: 'Energy drink MLM — FTC halted as pyramid scheme 2015, settled 2016, still operating',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '130',
+    slug: 'world-financial-group',
+    name: 'World Financial Group (WFG)',
+    category: 'mlm',
+    founded_year: 1991,
+    hq_location: 'Johns Creek, Georgia, USA',
+    website: 'https://worldfinancialgroup.com',
+    products_summary: 'Financial services MLM selling life insurance, annuities, mutual funds, and other financial products through a network of agents. Subsidiary of Transamerica (owned by Aegon). Known for aggressive recruiting tactics and targeting immigrant communities. Subject to IUL fraud lawsuits.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 200,
+    comp_plan_type: 'Multi-level with licensing requirements',
+    overall_rating: 2.0,
+    residual_rating: 2.0,
+    simplicity_rating: 1.8,
+    transparency_rating: 1.5,
+    community_rating: 2.5,
+    value_rating: 1.8,
+    pros: [
+      'Sells legitimate financial products (life insurance, investments)',
+      'Can lead to a real career in financial services with proper licensing',
+      'Parent company Transamerica (Aegon) is a regulated financial institution',
+      'Training provided for licensing requirements'
+    ],
+    cons: [
+      'Aggressive recruiting tactics — heavily targets immigrant communities',
+      'Most agents earn little to nothing after licensing costs and required product purchases',
+      'Subject to IUL (Indexed Universal Life) fraud lawsuits for inadequate fee disclosure',
+      'WFG agents criticized for recommending high-commission products over client\'s best interests',
+      'Licensing costs ($200+) required before earning any income',
+      'MLM recruiting culture conflicts with fiduciary duty to clients'
+    ],
+    quick_facts: {
+      'Founded': '1991',
+      'Headquarters': 'Johns Creek, Georgia',
+      'Parent Company': 'Transamerica (owned by Aegon)',
+      'Products': 'Life insurance, annuities, mutual funds',
+      'Notable': 'IUL fraud lawsuits for inadequate fee disclosure'
+    },
+    faq: [
+      {
+        question: 'Is WFG (World Financial Group) a pyramid scheme?',
+        answer: 'WFG is a legal MLM selling real financial products. However, critics argue its business model prioritizes recruiting over client-focused financial advice, creating conflicts of interest. Agents earn both from client sales and from recruiting new agents — a structure that can incentivize recommending high-commission products over suitable ones.'
+      },
+      {
+        question: 'Is WFG legit for financial advice?',
+        answer: 'WFG agents are licensed but not necessarily fiduciaries — they are not legally required to act in clients\' best interests. WFG has faced lawsuits alleging agents recommended unsuitable Indexed Universal Life (IUL) products without adequately disclosing fees. Consumers seeking financial advice should consider fee-only fiduciary advisors.'
+      },
+      {
+        question: 'How much do WFG agents earn?',
+        answer: 'WFG does not publish a transparent income disclosure. Given licensing requirements (~$200+ to get started), required product purchases, and the MLM structure, most new agents earn very little in their first year. A small percentage build successful teams and earn significant income.'
+      }
+    ],
+    tagline: 'Financial services MLM — Transamerica subsidiary, IUL fraud lawsuits, targets immigrant communities',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
