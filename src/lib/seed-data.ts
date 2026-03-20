@@ -1,4 +1,5 @@
 import { Company, CompanyUpdate, UserReview, ComparisonPage } from '@/types';
+import { extendedCompanies } from './companies-extended';
 
 export const companies: Company[] = [
   {
@@ -476,23 +477,25 @@ export const comparisonPages: ComparisonPage[] = [
 ];
 
 // Helper function to get a company by slug
+export const allCompanies: Company[] = [...companies, ...extendedCompanies];
+
 export function getCompanyBySlug(slug: string): Company | undefined {
-  return companies.find(c => c.slug === slug);
+  return allCompanies.find(c => c.slug === slug);
 }
 
 // Helper function to get companies by category
 export function getCompaniesByCategory(category: string): Company[] {
-  return companies.filter(c => c.category === category && c.is_published);
+  return allCompanies.filter(c => c.category === category && c.is_published);
 }
 
 // Helper function to get featured companies
 export function getFeaturedCompanies(): Company[] {
-  return companies.filter(c => c.is_featured && c.is_published);
+  return allCompanies.filter(c => c.is_featured && c.is_published);
 }
 
 // Helper function to get recently updated companies
 export function getRecentlyUpdatedCompanies(limit: number = 6): Company[] {
-  return [...companies]
+  return [...allCompanies]
     .filter(c => c.is_published)
     .sort((a, b) => new Date(b.last_updated).getTime() - new Date(a.last_updated).getTime())
     .slice(0, limit);

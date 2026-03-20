@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { QuickFactsBox, RatingBreakdown, StarRating } from '@/components';
-import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, companies, getCompanyComparison } from '@/lib/seed-data';
+import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, allCompanies, getCompanyComparison } from '@/lib/seed-data';
 import HBAReviewsSection from '@/components/HBAReviewsSection';
 import { CATEGORY_LABELS } from '@/types';
 
@@ -11,7 +11,7 @@ interface PageProps {
 }
 
 export async function generateStaticParams() {
-  return companies.map((company) => ({
+  return allCompanies.map((company) => ({
     slug: company.slug,
   }));
 }
@@ -404,7 +404,7 @@ export default async function CompanyPage({ params }: PageProps) {
             <div className="bg-white rounded-lg border border-gray-200 p-6">
               <h3 className="font-bold text-gray-900 mb-4">Related Companies</h3>
               <div className="space-y-3">
-                {companies
+                {allCompanies
                   .filter(c => c.category === company.category && c.slug !== company.slug)
                   .slice(0, 3)
                   .map((related) => (
