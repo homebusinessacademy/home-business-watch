@@ -2919,4 +2919,182 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '300',
+    slug: 'onecoin',
+    name: 'OneCoin',
+    category: 'other',
+    founded_year: 2014,
+    hq_location: 'Sofia, Bulgaria (operations worldwide)',
+    website: 'N/A — defunct',
+    products_summary: '⚠️ FRAUD — THE LARGEST CRYPTOCURRENCY SCAM IN HISTORY. OneCoin defrauded investors of an estimated $4-25 billion worldwide between 2014-2017. Founded by Ruja Ignatova ("Cryptoqueen"), who disappeared in 2017 and remains a fugitive. The FBI offers a $5 million reward for information leading to her arrest (increased from $250K in June 2024). OneCoin was never a real cryptocurrency — there was no blockchain.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ FRAUD — Ponzi/pyramid scheme disguised as cryptocurrency MLM',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 1.0,
+    transparency_rating: 1.0,
+    community_rating: 1.0,
+    value_rating: 1.0,
+    pros: [
+      'There are no legitimate pros — OneCoin was a complete fraud'
+    ],
+    cons: [
+      '⚠️ FRAUD — Estimated $4-25 billion stolen from investors worldwide',
+      'OneCoin was never a real cryptocurrency — no blockchain ever existed',
+      'Founder Ruja Ignatova ("Cryptoqueen") disappeared in 2017 — still a fugitive',
+      'FBI offering $5 million reward for information leading to arrest (2024)',
+      'Co-founder Sebastian Greenwood sentenced to 20 years in federal prison (2024)',
+      'Ruja\'s brother Konstantin Ignatov pleaded guilty to fraud charges',
+      'UK court issued global asset freeze orders on associates (2024)',
+      'Millions of victims across 175 countries lost life savings'
+    ],
+    quick_facts: {
+      'Founded': '2014',
+      'Status': '⚠️ CRIMINAL FRAUD — Defunct',
+      'Founder': 'Ruja Ignatova ("Cryptoqueen") — FBI fugitive',
+      'Estimated Fraud': '$4-25 billion stolen from investors',
+      'FBI Reward': '$5 million for information on Ruja\'s whereabouts (2024)',
+      'Co-Founder Sentence': 'Sebastian Greenwood — 20 years federal prison (2024)'
+    },
+    faq: [
+      {
+        question: 'Is OneCoin a real cryptocurrency?',
+        answer: 'No. OneCoin was never a real cryptocurrency. There was no blockchain — it was entirely fabricated. Victims were sold "educational packages" that came with fake coins stored on a centralized database controlled by OneCoin. The coins could never be traded on real exchanges.'
+      },
+      {
+        question: 'Where is Ruja Ignatova (the Cryptoqueen) now?',
+        answer: 'Ruja Ignatova disappeared in October 2017 after being secretly indicted by US authorities. She has not been seen publicly since. The FBI increased its reward for information leading to her arrest to $5 million in June 2024. She was placed on the FBI\'s Ten Most Wanted Fugitives list.'
+      },
+      {
+        question: 'How much money did OneCoin steal?',
+        answer: 'Estimates range from $4 billion to $25 billion stolen from an estimated 3 million victims in 175 countries between 2014-2017. It is widely considered the largest cryptocurrency fraud in history. Many victims lost their entire life savings.'
+      },
+      {
+        question: 'Can OneCoin victims get their money back?',
+        answer: 'Recovering funds is extremely difficult. Some asset recovery efforts are ongoing through court proceedings in the UK and other jurisdictions. A UK court issued worldwide freezing orders on Ignatova\'s assets in August 2024. Most victims are unlikely to recover significant funds.'
+      }
+    ],
+    tagline: '⚠️ THE LARGEST CRYPTO FRAUD IN HISTORY — $4-25B stolen, founder is FBI fugitive',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '301',
+    slug: 'digital-altitude-mobe',
+    name: 'Digital Altitude / MOBE',
+    category: 'affiliate',
+    founded_year: 2014,
+    hq_location: 'USA / Malaysia (operations shut down)',
+    website: 'N/A — shut down by FTC',
+    products_summary: '⚠️ SHUT DOWN BY FTC. Digital Altitude and MOBE (My Online Business Education) were high-ticket internet marketing coaching programs shut down by the FTC in 2018. Digital Altitude settled with the FTC for fraud. MOBE\'s Matt Lloyd was ordered to pay $12.9 million. Both programs claimed members could make "six figures in 90 days" — claims the FTC deemed deceptive.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ SHUT DOWN BY FTC 2018 — high-ticket coaching scheme',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 1.0,
+    transparency_rating: 1.0,
+    community_rating: 1.0,
+    value_rating: 1.0,
+    pros: [
+      'No legitimate pros — both programs were shut down by the FTC for fraud'
+    ],
+    cons: [
+      '⚠️ Digital Altitude: FTC settlement 2019 for deceptive income claims',
+      '⚠️ MOBE: FTC shut down June 2018, Matt Lloyd ordered to pay $12.9 million',
+      'Both programs claimed "six figures in 90 days" — deemed deceptive by FTC',
+      'Thousands of victims paid $1,000-$50,000+ in high-ticket upsells',
+      'Both programs are permanently shut down',
+      'David Sharpe (later of Legendary Marketer) was a co-founder of Empower Network, a similar program that also went bankrupt'
+    ],
+    quick_facts: {
+      'Digital Altitude Founded': '2014 (by Michael Force)',
+      'MOBE Founded': '~2012 (by Matt Lloyd)',
+      'FTC Action': 'Both shut down 2018',
+      'MOBE Settlement': 'Matt Lloyd ordered to pay $12.9 million',
+      'Digital Altitude': 'Executives settled 2019 for deceptive income claims',
+      'Status': '⚠️ PERMANENTLY SHUT DOWN'
+    },
+    faq: [
+      {
+        question: 'What happened to Digital Altitude?',
+        answer: 'The FTC took action against Digital Altitude in 2018, and four executives settled in March 2019 over allegations of deceiving consumers with claims of making "six figures in 90 days." The program was permanently shut down.'
+      },
+      {
+        question: 'What happened to MOBE?',
+        answer: 'The FTC halted MOBE (My Online Business Education) in June 2018, calling it a "massive internet business coaching scheme." MOBE\'s founder Matt Lloyd was ordered to pay $12.9 million. The program was permanently shut down and consumers were warned not to pay any money to MOBE.'
+      },
+      {
+        question: 'Were Digital Altitude and MOBE related?',
+        answer: 'Both were similar high-ticket internet marketing coaching programs operating at the same time. Both used similar business models with escalating upsells ranging from hundreds to tens of thousands of dollars. Both were shut down by the FTC for deceptive income claims in 2018.'
+      }
+    ],
+    tagline: '⚠️ SHUT DOWN BY FTC 2018 — deceptive high-ticket coaching schemes',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '302',
+    slug: 'empower-network',
+    name: 'Empower Network',
+    category: 'affiliate',
+    founded_year: 2011,
+    hq_location: 'Tampa, Florida, USA (defunct)',
+    website: 'N/A — bankrupt',
+    products_summary: '⚠️ BANKRUPT 2017. Blogging and internet marketing MLM founded by David Wood and David Sharpe in 2011. At its peak had 100,000+ affiliates promoting viral blog posts and digital training products. Filed for bankruptcy in August 2017 following David Wood\'s highly publicized personal struggles. David Sharpe later founded Legendary Marketer (also now closed).',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ BANKRUPT — defunct MLM/affiliate program',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 1.0,
+    transparency_rating: 1.0,
+    community_rating: 1.0,
+    value_rating: 1.0,
+    pros: [
+      'Was genuinely innovative — pioneered viral blog-based affiliate marketing in 2011',
+      'Provided income for some early affiliates before collapse',
+      'David Sharpe\'s teaching was considered valuable by some members'
+    ],
+    cons: [
+      '⚠️ Filed for bankruptcy August 2017 — all affiliates lost income overnight',
+      'Co-founder David Wood experienced public personal breakdown before bankruptcy',
+      'David Sharpe left in 2015 amid personal and professional conflicts',
+      'Illustrates the catastrophic risk of building income on someone else\'s platform',
+      'Many affiliates lost significant income when the company collapsed',
+      'Successor Legendary Marketer (David Sharpe) also closed in February 2026'
+    ],
+    quick_facts: {
+      'Founded': '2011',
+      'Founders': 'David Wood & David Sharpe',
+      'Peak Affiliates': '100,000+',
+      'Bankruptcy Filed': 'August 2017',
+      'David Sharpe\'s Next Venture': 'Legendary Marketer (also closed February 2026)'
+    },
+    faq: [
+      {
+        question: 'Why did Empower Network fail?',
+        answer: 'Empower Network filed for bankruptcy in August 2017. Co-founder David Wood cited an accounting error and his own personal struggles (which became very public) as contributing factors. The company had been declining for years before the final collapse.'
+      },
+      {
+        question: 'What happened to David Sharpe after Empower Network?',
+        answer: 'David Sharpe left Empower Network in 2015 and went on to found Legendary Marketer in 2016. Legendary Marketer grew significantly before David Sharpe announced its closure in February 2026 — ending another 9-year run. Two major internet marketing platforms, both gone.'
+      },
+      {
+        question: 'What happened to Empower Network affiliates?',
+        answer: 'When Empower Network filed for bankruptcy in 2017, all affiliate agreements and income streams ended immediately. Affiliates who had built significant income from the platform lost everything. This is one of the most cited examples of the risk of MLM income dependency.'
+      }
+    ],
+    tagline: '⚠️ BANKRUPT 2017 — Pioneer internet marketing MLM, co-founded by David Sharpe (Legendary Marketer)',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];

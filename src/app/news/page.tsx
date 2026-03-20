@@ -51,6 +51,18 @@ const newsItems = [
     impact: 'High',
   },
   {
+    id: 'onecoin-reward-2024',
+    date: '2024-06-01',
+    category: 'Criminal Fraud',
+    categoryColor: 'red',
+    title: 'FBI Increases Reward for OneCoin "Cryptoqueen" to $5 Million',
+    summary: 'The FBI increased its reward for information leading to the arrest of Ruja Ignatova — the "Cryptoqueen" behind the OneCoin fraud — to $5 million in June 2024, up from $250,000. Ignatova has been missing since 2017 after being secretly indicted. OneCoin defrauded an estimated 3 million victims of $4-25 billion worldwide. A UK court also issued worldwide asset freeze orders on her associates in August 2024. Co-founder Sebastian Greenwood was sentenced to 20 years in federal prison.',
+    companySlug: 'onecoin',
+    companyName: 'OneCoin',
+    source: 'FBI, ICIJ',
+    impact: 'High',
+  },
+  {
     id: 'rodan-fields-pivot-2024',
     date: '2024-07-16',
     category: 'Business Model Change',
