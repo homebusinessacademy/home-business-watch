@@ -1501,8 +1501,8 @@ export const extendedCompanies: Company[] = [
       '2-tier commissions allow earning from referrals\' referrals'
     ],
     cons: [
-      '⚠️ MAJOR CHANGE 2026: Lifetime membership option removed — moved to monthly/annual only',
-      'Many affiliates who built their business around the lifetime offer are now disrupted',
+      '⚠️ MAJOR CHANGE 2026: Live Profit Builders ($49 lifetime, $24.50 commission) removed — monthly only now',
+      'Affiliates who built around the $49 lifetime offer lost that income stream overnight',
       'Total cost can escalate quickly: $7 entry → $99-$199+/month for full tools',
       'Business model centers on selling OLSP itself, not external products',
       'Comp plan changes signal instability — exactly the risk Paul Hutchings warned about',
@@ -1513,7 +1513,9 @@ export const extendedCompanies: Company[] = [
       'Founder': 'Wayne Crowe (UK)',
       'Entry Price': '$7 (Mega Link)',
       'Monthly Cost': '$99–$199+ for full access',
-      '2026 Change': '⚠️ Lifetime membership removed, monthly/annual only'
+      '2026 Change': '⚠️ Live Profit Builders ($49 lifetime) removed — monthly only now',
+    'Old Community Builders': '$199/mo → $99.50 commission (50%)',
+    'Old Live Profit Builders': '$49 lifetime → $24.50 commission (now gone)'
     },
     faq: [
       {
