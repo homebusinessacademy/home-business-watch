@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import { companies } from '@/lib/seed-data';
+import { allCompanies as companies } from '@/lib/seed-data';
 
 export function SearchBar() {
   const [query, setQuery] = useState('');

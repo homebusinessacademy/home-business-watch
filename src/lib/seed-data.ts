@@ -113,8 +113,9 @@ export const companies: Company[] = [
       'Nutrilite is the world\'s #1 selling nutritional supplement brand'
     ],
     cons: [
-      '2024 average annual earnings for U.S. IBOs: $723 before expenses (per Amway income disclosure)',
-      '40% of U.S. IBOs received zero payments in 2024',
+      '2023 IDS: Median active IBO earns only $657/year before expenses',
+      '2023 Income Disclosure: 66% earned something; 34% earned $0',
+      'Top 1% average $41,456/yr — vast majority earn near nothing',
       'Notoriously complex PV/BV compensation system',
       '$62/year annual renewal fee plus ongoing product purchase expectations',
       'Strong recruitment culture — meaningful income requires large downline'
@@ -123,7 +124,7 @@ export const companies: Company[] = [
       'Founded': '1959',
       'Headquarters': 'Ada, Michigan, USA',
       'Annual Revenue': '~$7.7 billion',
-      '2024 Avg. Earnings': '$723/year before expenses (per Amway)',
+      '2023 Income Disclosure': 'Median earnings $657/yr before expenses. 66% earned something; 34% earned $0. Top 1% avg $41,456/yr.',
       'Annual IBO Fee': '$62 renewal'
     },
     last_updated: new Date().toISOString(),
@@ -175,12 +176,12 @@ export const companies: Company[] = [
       'Some quality nutritional products'
     ],
     cons: [
+      '2024 IDS: Median earnings ~$3,216/yr; roughly half earn nothing in a typical month',
       'Paid $200M FTC settlement in 2016 for deceptive practices',
       'Very complex compensation structure',
       'Minimum autoship of $94.10/month to stay active',
       'Products significantly overpriced',
       'Heavy emphasis on recruitment',
-      '~50% of distributors earned $0 according to income disclosure',
       'Controversial "nutrition club" model',
       'Multiple lawsuits and regulatory actions'
     ],
@@ -188,11 +189,9 @@ export const companies: Company[] = [
       'Founded': '1980',
       'Headquarters': 'Los Angeles, California',
       'Business Model': 'Multi-Level Marketing',
+      '2024 Income Disclosure': 'Median established distributor earns $3,216/yr. ~50% earn nothing in a typical month.',
       'Minimum Autoship': '$94.10/month to stay active',
-      'Commission Type': 'Multi-level breakaway',
-      'Recruiting Required': 'Effectively yes',
-      'FTC Settlement': '$200 million (2016)',
-      'Income Reality': '~50% of distributors earned $0'
+      'FTC Settlement': '$200 million (2016)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,

@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { CompanyCard } from '@/components';
+import { CategoryFilter } from '@/components';
 import { allCompanies as companies, getCompaniesByCategory } from '@/lib/seed-data';
 import { CompanyCategory, CATEGORY_LABELS, CATEGORY_DESCRIPTIONS } from '@/types';
 
@@ -165,45 +165,13 @@ export default async function CategoryPage({ params }: PageProps) {
                     </div>
                   </div>
 
-                  <div className="pt-4 border-t border-gray-200">
-                    <label className="block text-sm font-medium text-gray-700 mb-2">
-                      Sort By
-                    </label>
-                    <select className="w-full rounded-lg border-gray-300 text-sm">
-                      <option>Highest Rating</option>
-                      <option>Lowest Cost</option>
-                      <option>Most Recent</option>
-                      <option>Alphabetical</option>
-                    </select>
-                  </div>
                 </div>
               </div>
             </aside>
 
-            {/* Company Grid */}
+            {/* Company Grid with live filter/sort */}
             <div className="flex-1">
-              {sortedCompanies.length === 0 ? (
-                <div className="text-center py-12">
-                  <p className="text-gray-600">No companies found in this category yet.</p>
-                  <Link href="/" className="text-navy-600 hover:text-navy-800 font-medium mt-2 inline-block">
-                    Browse all companies →
-                  </Link>
-                </div>
-              ) : (
-                <>
-                  <div className="flex items-center justify-between mb-6">
-                    <p className="text-gray-600">
-                      Showing {sortedCompanies.length} {sortedCompanies.length === 1 ? 'company' : 'companies'}
-                    </p>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {sortedCompanies.map((company) => (
-                      <CompanyCard key={company.slug} company={company} />
-                    ))}
-                  </div>
-                </>
-              )}
+              <CategoryFilter companies={sortedCompanies} />
             </div>
           </div>
         </div>

@@ -3057,6 +3057,7 @@ export const extendedCompanies: Company[] = [
       'Company still operating post-settlement'
     ],
     cons: [
+      'Thousands of consultants lost money; multiple class-action lawsuits',
       'Paid $4.75 million to settle Washington State pyramid scheme lawsuit',
       'Settlement prohibits operating a pyramid scheme and requires accurate income disclosures',
       'Subject of Amazon Prime documentary "LuLaRich" exposing business practices',
@@ -3068,6 +3069,7 @@ export const extendedCompanies: Company[] = [
       'Founded': '2012',
       'Headquarters': 'Corona, California',
       'Founders': 'DeAnne & Mark Stidham',
+      'Legal Issues': 'Multiple lawsuits from former consultants; FTC investigation; Washington state AG settlement',
       'Settlement': '$4.75M to Washington State AG — pyramid scheme lawsuit',
       'Documentary': 'LuLaRich (Amazon Prime, 2021)'
     },

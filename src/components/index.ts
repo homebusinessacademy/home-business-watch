@@ -6,3 +6,4 @@ export { SearchBar } from './SearchBar';
 export { ComparisonTable } from './ComparisonTable';
 export { Header } from './Header';
 export { Footer } from './Footer';
+export { CategoryFilter } from './CategoryFilter';

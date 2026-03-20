@@ -414,6 +414,7 @@ export const companiesBatchB2: Company[] = [
       'No more recruitment-based compensation'
     ],
     cons: [
+      'FTC found pyramid scheme structure in 2019; paid $150M settlement',
       '$150 million FTC settlement in 2019 for pyramid scheme operation',
       'FTC found 72% of distributors made no money, many lost thousands',
       'Top distributors paid $4 million in consumer redress',
@@ -423,7 +424,7 @@ export const companiesBatchB2: Company[] = [
     quick_facts: {
       'Founded': '1993',
       'Headquarters': 'Plano, Texas',
-      'FTC Settlement': '$150 million (2019)',
+      'FTC Action': 'FTC $150M settlement 2019; found to be a pyramid scheme. Now operates as single-level affiliate only.',
       'FTC Finding': '72% of distributors earned nothing',
       'Current Model': 'Single-level affiliate (no MLM)',
       'Previous Endorsers': 'Drew Brees, various NFL players'

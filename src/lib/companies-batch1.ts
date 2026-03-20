@@ -226,19 +226,20 @@ export const companiesBatch1: Company[] = [
       'Company grew rapidly and has significant brand recognition'
     ],
     cons: [
+      '91% of Wellness Advocates earn $0; monthly LRP purchase required',
       'Products are significantly overpriced vs comparable alternatives',
       'FTC warning letter received regarding income claims (2019)',
-      'Income disclosure shows majority earn under \$1,000/year',
-      'Pressure to maintain monthly Loyalty Rewards Program (LRP) orders',
+      'Managers-Executives (9%) avg up to $1,600/yr — vast majority earn nothing',
+      'Pressure to maintain monthly Loyalty Rewards Program (LRP) orders (100 PV)',
       'Therapeutic claims for oils are not FDA-approved'
     ],
     quick_facts: {
       'Founded': '2008',
       'Headquarters': 'Pleasant Grove, Utah',
       'Business Model': 'Multi-level marketing',
-      'Monthly Autoship': 'LRP minimum ~35 PV (\$35-50)',
-      'FTC': 'Warning letter for income claims (2019)',
-      'Revenue': '~$1.5B annually'
+      'Income Disclosure': '91% of Wellness Advocates earned $0. Managers-Executives (9%) avg up to $1,600/yr. Monthly 100 LRP required.',
+      'Monthly Autoship': 'LRP minimum ~100 PV required',
+      'FTC': 'Warning letter for income claims (2019)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
@@ -276,19 +277,19 @@ export const companiesBatch1: Company[] = [
       'Strong brand loyalty among existing customers'
     ],
     cons: [
+      '~94% of distributors earn near $0; median income $4/yr for business builders',
       'FTC warning letter for COVID-19 treatment claims (2020)',
       'Products significantly overpriced vs retail alternatives',
-      'Income disclosure shows vast majority earn under \$500/year',
-      'Required Essential Rewards autoship to qualify for commissions',
+      'Required Essential Rewards autoship (100 PV monthly) to qualify for commissions',
       'History of founder controversies (Gary Young)'
     ],
     quick_facts: {
       'Founded': '1993',
       'Headquarters': 'Lehi, Utah',
       'Business Model': 'Multi-level marketing',
+      'Income Disclosure': '~94% of members who built a business earned median $4/yr. Monthly 100 PV autoship required to earn.',
       'FTC Action': 'Warning letter for COVID-19 claims (2020)',
-      'Monthly Requirement': 'Essential Rewards ~100 PV minimum',
-      'Starter Kit': '~$165-$260'
+      'Monthly Requirement': 'Essential Rewards ~100 PV minimum'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
@@ -808,42 +809,41 @@ export const companiesBatch1: Company[] = [
     category: 'direct_sales',
     founded_year: 1948,
     hq_location: 'Orlando, Florida, USA',
-    website: 'https://tupperware.com',
-    products_summary: 'Iconic food storage containers, kitchen products, and home goods sold through Tupperware Parties and direct sales. One of the most recognized brand names in the world. Filed for Chapter 11 bankruptcy in September 2023 after years of declining sales.',
+    website: 'defunct - brand sold after bankruptcy',
+    products_summary: 'Iconic food storage containers and kitchen products. Filed Chapter 11 bankruptcy September 2023, brand sold in 2024. One of the most recognized brand names in the world that failed to adapt to modern retail.',
     monthly_cost_min: 0,
     monthly_cost_max: 109,
-    comp_plan_type: 'Direct sales with team building',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    comp_plan_type: 'Direct sales (Defunct)',
+    overall_rating: 1.5,
+    residual_rating: 1.0,
     simplicity_rating: 2.5,
     transparency_rating: 2.5,
     community_rating: 2.5,
     value_rating: 2.0,
     pros: [
       'Iconic brand recognized worldwide',
-      'Products have genuine utility and loyal customer base',
+      'Products had genuine utility and loyal customer base',
       '75+ year history and brand legacy'
     ],
     cons: [
-      'Filed Chapter 11 bankruptcy in September 2023',
-      'Business uncertainty following bankruptcy filing',
+      'Company no longer operating as direct sales - brand sold after bankruptcy',
+      'Filed Chapter 11 bankruptcy September 2023',
+      'Consultants lost their businesses when company restructured',
       'Direct sales model disrupted by Amazon and retail competition',
-      'Declining sales for multiple consecutive years before bankruptcy',
-      'Future of consultant income stream uncertain'
+      'Declining sales for multiple consecutive years before bankruptcy'
     ],
     quick_facts: {
+      'Status': 'DEFUNCT - Filed bankruptcy 2023, brand sold',
       'Founded': '1948',
       'Headquarters': 'Orlando, Florida',
-      'Business Model': 'Direct sales (Tupperware Parties)',
       'Bankruptcy': 'Chapter 11 filed September 2023',
-      'Status': 'Operating under bankruptcy proceedings',
-      'Revenue': 'Declining — \$1.3B (2021) to lower'
+      'Brand Sold': '2024 - direct sales ended'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Iconic food storage company — filed bankruptcy in 2023',
+    tagline: 'Iconic brand (Defunct - Filed Bankruptcy 2023, Brand Sold)',
     faq: [
       { question: 'Did Tupperware go bankrupt?', answer: 'Yes. Tupperware Brands filed for Chapter 11 bankruptcy protection in September 2023 after years of declining sales and debt problems. The company had warned of potential bankruptcy earlier in 2023.' },
       { question: 'Is Tupperware still in business?', answer: 'As of 2024, Tupperware is attempting to restructure and continue operations through bankruptcy proceedings. The company is seeking buyers or investors. Business operations continue but the future is uncertain.' },
@@ -859,9 +859,9 @@ export const companiesBatch1: Company[] = [
     hq_location: 'Idaho Falls, Idaho, USA',
     website: 'https://melaleuca.com',
     products_summary: 'Wellness products including cleaning supplies, supplements, and personal care items sold through a membership model. Members earn commissions by referring other customers (not classic recruiting). Melaleuca emphasizes it is NOT an MLM — customers buy for themselves.',
-    monthly_cost_min: 35,
+    monthly_cost_min: 55,
     monthly_cost_max: 75,
-    comp_plan_type: 'Customer referral (hybrid direct sales)',
+    comp_plan_type: 'Unilevel with Director ranks (Marketing Executive program)',
     overall_rating: 3.4,
     residual_rating: 3.0,
     simplicity_rating: 3.5,
@@ -876,8 +876,9 @@ export const companiesBatch1: Company[] = [
       'Mission-based (wellness, eco-friendly positioning)'
     ],
     cons: [
+      '82% of members earn $0; monthly product purchase required to qualify for commissions',
       'Must convert customers from existing brands they already use',
-      'Monthly membership purchase requirement (\$35-75)',
+      'Monthly membership purchase requirement (35 product points ~$55-70/mo)',
       'Some people find the business model confusing',
       'Commissions from referrals can be modest',
       'Products not available in retail — only through members'
@@ -886,8 +887,8 @@ export const companiesBatch1: Company[] = [
       'Founded': '1985',
       'Headquarters': 'Idaho Falls, Idaho',
       'Business Model': 'Customer referral / direct sales (not MLM)',
-      'Monthly Membership': '\$35-75 minimum purchase',
-      'Products': 'Household, supplements, personal care',
+      '2022 Income Disclosure': '82% of members earn $0 (customers only). Product Advocates avg $110-510/yr. Monthly 35 product points required to earn.',
+      'Monthly Minimum': '35 product points (~$55-70/mo) to earn commissions',
       'Member Count': '2+ million customers'
     },
     last_updated: new Date().toISOString(),

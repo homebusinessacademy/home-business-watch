@@ -74,7 +74,14 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
+        {/* Disclaimer Section */}
+        <div className="border-t border-gray-800 mt-8 pt-6">
+          <p className="text-xs text-gray-500 leading-relaxed max-w-4xl">
+            Information on this site is based on publicly available data including company income disclosure statements, FTC records, and BBB filings. Always verify current terms, costs, and income potential directly with each company before joining. Past earnings of top performers are not typical. See each company&apos;s income disclosure statement for typical results.
+          </p>
+        </div>
+
+        <div className="border-t border-gray-800 mt-6 pt-6 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
           <p>&copy; {new Date().getFullYear()} HomeBusinessWatch.com. All rights reserved.</p>
           <p className="mt-2 md:mt-0">
             Affiliate Disclosure: We may earn commissions from qualifying purchases.
