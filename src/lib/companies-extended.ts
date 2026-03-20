@@ -3609,4 +3609,118 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '306',
+    slug: 'numis-network',
+    name: 'Numis Network',
+    category: 'mlm',
+    founded_year: 2009,
+    hq_location: 'Tampa, Florida, USA (defunct)',
+    website: 'N/A — merged with WorldVentures 2013',
+    products_summary: '⚠️ DEFUNCT — merged with WorldVentures in July 2013, which itself filed for bankruptcy in 2020. Numis Network was a unique MLM that sold numismatic (collectible) coins — rare U.S. Mint coins, gold and silver — through a direct sales model. Founded by MLM veterans Ian Cordell, Chris Kent, and Jake Kevorkian in 2009.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ DEFUNCT — merged into WorldVentures (bankrupt 2020)',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 1.0,
+    transparency_rating: 1.0,
+    community_rating: 1.0,
+    value_rating: 1.0,
+    pros: [
+      'Unique and innovative concept — collectible numismatic coins in MLM format',
+      'Founded by experienced MLM veterans with real industry knowledge',
+      'Numismatic coins are legitimate collectible assets with real market value'
+    ],
+    cons: [
+      '⚠️ No longer exists — merged with WorldVentures on July 19, 2013',
+      'WorldVentures (the acquiring company) filed for bankruptcy in 2020',
+      'Most distributors who joined Numis Network ultimately lost their business twice',
+      'Collectible coins are a niche market with limited mass appeal',
+      'MLM model for collectibles was an unusual concept that proved unsustainable'
+    ],
+    quick_facts: {
+      'Founded': '2009',
+      'Headquarters': 'Tampa, Florida',
+      'Founders': 'Ian Cordell, Chris Kent, Jake Kevorkian',
+      'Merged': 'WorldVentures — July 19, 2013',
+      'Status': '⚠️ DEFUNCT (WorldVentures also bankrupt 2020)'
+    },
+    faq: [
+      {
+        question: 'What happened to Numis Network?',
+        answer: 'Numis Network merged with WorldVentures, a luxury travel MLM, on July 19, 2013. Distributors could choose to sell WorldVentures travel products, continue selling coins, or both. WorldVentures itself filed for bankruptcy in 2020, effectively ending both opportunities.'
+      },
+      {
+        question: 'Was Numis Network a scam?',
+        answer: 'Numis Network sold real numismatic coins and was not considered a scam. The company was founded by legitimate MLM industry veterans. However, the business model proved unsustainable, leading to the 2013 merger with WorldVentures. Like most MLMs, the majority of distributors likely earned little to nothing.'
+      },
+      {
+        question: 'Are numismatic coins a good investment?',
+        answer: 'Numismatic (collectible) coins can be legitimate investments, but the market is niche and values are highly speculative. Buying coins through an MLM at inflated prices to earn commissions is generally considered a poor investment strategy compared to buying directly from coin dealers.'
+      }
+    ],
+    tagline: '⚠️ DEFUNCT — numismatic coin MLM merged with WorldVentures 2013 (also bankrupt)',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '307',
+    slug: 'ilearning-global',
+    name: 'iLearning Global',
+    category: 'affiliate',
+    founded_year: 2008,
+    hq_location: 'USA (defunct)',
+    website: 'N/A — closed March 2010',
+    products_summary: '⚠️ CLOSED MARCH 2010. Online education and personal development MLM that featured content from well-known speakers including Brian Tracy and Alex Dey. Terminated all distributors on March 17, 2010 — citing competitive pressures and lack of market demand as free educational content became widely available online.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ CLOSED — MLM model terminated March 17, 2010',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 1.0,
+    transparency_rating: 1.0,
+    community_rating: 1.0,
+    value_rating: 1.0,
+    pros: [
+      'Featured content from legitimate personal development experts (Brian Tracy)',
+      'Online education was an innovative MLM category in 2008',
+      'Concept was ahead of its time — online learning is now a massive industry'
+    ],
+    cons: [
+      '⚠️ CLOSED — terminated all distributors March 17, 2010 with 30 days notice',
+      'Closed because free educational content became widely available online — business model undermined',
+      'Distributors who built businesses lost all income overnight',
+      'Classic example of MLM income disappearing when company changes direction',
+      'All commission streams ended when company closed'
+    ],
+    quick_facts: {
+      'Founded': '2008',
+      'Closed': '⚠️ March 17, 2010',
+      'Reason': 'Lack of market demand; free content available online',
+      'Featured Speakers': 'Brian Tracy, Alex Dey, others',
+      'Notice Given': '30 days to distributors'
+    },
+    faq: [
+      {
+        question: 'Why did iLearning Global close?',
+        answer: 'iLearning Global terminated its MLM model on March 17, 2010, citing competitive pressures and lack of market demand. The rise of free educational content online (YouTube, blogs, podcasts) made it difficult to charge subscription fees for educational content. The company gave distributors 30 days notice.'
+      },
+      {
+        question: 'What happened to iLearning Global distributors?',
+        answer: 'All iLearning Global distributors had their agreements terminated on April 17, 2010. Those who had built significant income from the platform lost it entirely. This is a frequently cited example of the inherent risk of building income on someone else\'s platform.'
+      },
+      {
+        question: 'Was iLearning Global legitimate?',
+        answer: 'iLearning Global offered real educational content from credible speakers and was not considered a scam. The business model simply could not compete with free online educational content. The sudden closure, however, demonstrated the risk that MLM participants face when companies change direction.'
+      }
+    ],
+    tagline: '⚠️ CLOSED March 2010 — online education MLM terminated after free content made it obsolete',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
