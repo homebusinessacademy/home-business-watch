@@ -63,6 +63,18 @@ const newsItems = [
     impact: 'High',
   },
   {
+    id: 'avon-bankruptcy-2024',
+    date: '2024-08-12',
+    category: 'Bankruptcy',
+    categoryColor: 'red',
+    title: 'Avon Products Inc. Files for Bankruptcy — 138-Year-Old Beauty Icon',
+    summary: 'Avon Products Inc. filed for Chapter 11 bankruptcy in August 2024, driven primarily by over $225 million in talcum powder personal injury lawsuit liabilities. U.S. operations continue under LG Household & Health Care Ltd., while international operations were affected. The Avon Company (U.S.) issued a statement reassuring Representatives that U.S. business continues unaffected.',
+    companySlug: 'avon-products',
+    companyName: 'Avon Products',
+    source: 'Davis Polk, British Beauty Council',
+    impact: 'High',
+  },
+  {
     id: 'beachbody-pivot-2024',
     date: '2024-09-30',
     category: 'Business Model Change',

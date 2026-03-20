@@ -2449,4 +2449,240 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '119',
+    slug: 'avon-products',
+    name: 'Avon Products',
+    category: 'direct_sales',
+    founded_year: 1886,
+    hq_location: 'London, UK (international operations) / US under LG H&H',
+    website: 'https://avon.com',
+    products_summary: 'Iconic door-to-door beauty company founded in 1886. Avon Products Inc. filed for bankruptcy in August 2024 due to $225M+ in talcum powder lawsuit liabilities. U.S. operations continue under LG Household & Health Care Ltd. International operations affected by bankruptcy.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 25,
+    comp_plan_type: 'Direct sales with multi-level team earnings',
+    overall_rating: 2.0,
+    residual_rating: 1.5,
+    simplicity_rating: 3.0,
+    transparency_rating: 2.0,
+    community_rating: 2.5,
+    value_rating: 2.0,
+    pros: [
+      'Iconic 138-year-old brand with global recognition',
+      'U.S. operations continue under LG Household & Health Care Ltd.',
+      'Low startup cost — starter kit available',
+      'Broad product catalog: cosmetics, skincare, fashion accessories'
+    ],
+    cons: [
+      '⚠️ Avon Products Inc. filed for Chapter 11 bankruptcy in August 2024',
+      'Bankruptcy triggered by $225M+ in talcum powder personal injury lawsuit liabilities',
+      'International operations significantly affected by bankruptcy proceedings',
+      'Business opportunity highly uncertain given ongoing restructuring',
+      'Competition from Sephora, Ulta, Amazon has eroded direct sales model',
+      'Most representatives earn very little — no public U.S. income disclosure'
+    ],
+    quick_facts: {
+      'Founded': '1886',
+      'Status': '⚠️ Avon Products Inc. filed bankruptcy August 2024',
+      'U.S. Owner': 'LG Household & Health Care Ltd. (post-bankruptcy)',
+      'Bankruptcy Cause': '$225M+ talcum powder lawsuit liabilities',
+      'Former Parent': 'Natura & Co (sold Avon US operations)'
+    },
+    faq: [
+      {
+        question: 'Did Avon go out of business?',
+        answer: 'Avon Products Inc. filed for Chapter 11 bankruptcy in August 2024 due to massive talcum powder lawsuit liabilities exceeding $225 million. U.S. operations continue under LG Household & Health Care Ltd. International operations were affected by the bankruptcy proceedings.'
+      },
+      {
+        question: 'Is it safe to sell Avon in 2025?',
+        answer: 'Given the ongoing bankruptcy and restructuring, the Avon business opportunity carries significant risk. U.S. Representatives continue under LG H&H ownership, but the business model was already struggling against modern beauty retail before the bankruptcy.'
+      },
+      {
+        question: 'Why did Avon file for bankruptcy?',
+        answer: 'Avon Products Inc. filed bankruptcy primarily due to $225+ million in costs defending and settling personal injury lawsuits related to talcum powder in its products. The company\'s revenues had also been declining as consumers shifted to specialty retailers and e-commerce.'
+      }
+    ],
+    tagline: '⚠️ 138-year-old beauty icon — Avon Products Inc. filed bankruptcy August 2024',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '120',
+    slug: 'younique',
+    name: 'Younique',
+    category: 'mlm',
+    founded_year: 2012,
+    hq_location: 'Lehi, Utah, USA',
+    website: 'https://youniqueproducts.com',
+    products_summary: 'Social media-focused makeup and skincare MLM founded in 2012 by Derek Maxfield and Melanie Huscroft. Known for its Moodstruck mascara and pioneering the "virtual makeup party" model on Facebook. Coty Inc. sold its 60% stake back to Younique in 2019.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 75,
+    comp_plan_type: 'Multi-level with color status ranks (White through Black)',
+    overall_rating: 2.0,
+    residual_rating: 1.8,
+    simplicity_rating: 3.0,
+    transparency_rating: 1.5,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'Pioneered social media direct sales model on Facebook',
+      'Strong brand recognition among MLM makeup buyers',
+      'Virtual party model allows selling from anywhere',
+      'Some popular products (Moodstruck mascara)'
+    ],
+    cons: [
+      'Does not publish a transparent income disclosure — major concern',
+      'Per disclosed data: 57% of Presenters earned average $833/year, 34% earned average $190/year',
+      'Coty Inc. divested its 60% stake in 2019 — confidence signal',
+      'Products considered overpriced vs. retail makeup alternatives',
+      'Social media selling model creates strain on personal relationships',
+      'Required monthly purchase (~$125 Presenter Status Volume) to stay active'
+    ],
+    quick_facts: {
+      'Founded': '2012',
+      'Headquarters': 'Lehi, Utah',
+      'Founders': 'Derek Maxfield & Melanie Huscroft',
+      'Income Disclosure': 'No full public disclosure ⚠️',
+      'Notable': 'Coty sold its 60% stake back to Younique in 2019'
+    },
+    faq: [
+      {
+        question: 'Is Younique a pyramid scheme?',
+        answer: 'Younique is a legal MLM with real makeup products. However, it does not publish a full income disclosure. Limited disclosed data shows 57% of Presenters earning an average $833/year and 34% earning only $190/year — before expenses including required product purchases.'
+      },
+      {
+        question: 'Why did Coty sell its Younique stake?',
+        answer: 'Coty Inc. acquired a 60% stake in Younique in 2017 for $600 million, then sold it back to Younique in 2019 for a fraction of the price. The exit was attributed to the challenging MLM market and underperformance vs. projections.'
+      },
+      {
+        question: 'Do Younique products work?',
+        answer: 'Younique\'s Moodstruck mascara has a dedicated following. Other products receive mixed reviews. The products are significantly overpriced compared to comparable makeup at Sephora, Ulta, or even drugstore brands.'
+      }
+    ],
+    tagline: 'Social media makeup MLM — no public income disclosure, Coty exited investment',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '121',
+    slug: 'optavia-medifast',
+    name: 'OPTAVIA / Medifast',
+    category: 'mlm',
+    founded_year: 1981,
+    hq_location: 'Baltimore, Maryland, USA',
+    website: 'https://optavia.com',
+    products_summary: 'Weight loss program sold through a network of Coaches. Medifast (NYSE: MED) is the publicly traded parent company. OPTAVIA is their direct sales/MLM channel. Sells pre-packaged "fuelings" (meal replacements) with 1-on-1 health coaching. Revenue peaked at $1.5B in 2022 and has since declined significantly.',
+    monthly_cost_min: 300,
+    monthly_cost_max: 500,
+    comp_plan_type: 'Multi-level with client-based coaching model',
+    overall_rating: 2.4,
+    residual_rating: 2.0,
+    simplicity_rating: 2.5,
+    transparency_rating: 3.0,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'Publicly traded parent company (NYSE: MED) — financial transparency',
+      'Structured weight loss program with real clinical support',
+      'Coaches earn from client product orders — not purely recruiting',
+      'Some clients achieve genuine weight loss results'
+    ],
+    cons: [
+      'Very expensive program — clients spend $300-500+/month on fuelings',
+      'Revenue peaked at $1.5B in 2022, declining significantly since — business contraction',
+      'Most Coaches earn very modest income from client base management',
+      'Program is difficult to sustain long-term — high dropout/churn rates',
+      'Products (fuelings) are heavily processed meal replacements',
+      'Coach income heavily dependent on continuous client recruitment'
+    ],
+    quick_facts: {
+      'Founded': '1981 (Medifast)',
+      'Headquarters': 'Baltimore, Maryland',
+      'Stock Ticker': 'NYSE: MED',
+      'Monthly Client Cost': '$300-500+ for program',
+      '2022 Peak Revenue': '$1.5 billion (declining since)'
+    },
+    faq: [
+      {
+        question: 'Is OPTAVIA an MLM?',
+        answer: 'OPTAVIA operates through an MLM-style distribution model where Coaches earn commissions from their clients\' product purchases and from recruiting new Coaches. The parent company, Medifast, is publicly traded (NYSE: MED).'
+      },
+      {
+        question: 'How much do OPTAVIA Coaches earn?',
+        answer: 'Per Medifast\'s income disclosure, most OPTAVIA Coaches earn modest supplemental income. Coach earnings are primarily driven by the size and activity of their client base. Revenue has been declining from the 2022 peak, creating challenges for Coach income.'
+      },
+      {
+        question: 'Is OPTAVIA effective for weight loss?',
+        answer: 'Clinical studies show meal replacement programs can be effective for short-term weight loss. However, the program\'s high cost ($300-500+/month), reliance on processed food products, and high dropout rates raise questions about long-term sustainability.'
+      }
+    ],
+    tagline: 'Publicly traded weight loss MLM — $1.5B peak revenue in 2022, declining since',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '122',
+    slug: 'jeunesse-global',
+    name: 'Jeunesse Global',
+    category: 'mlm',
+    founded_year: 2009,
+    hq_location: 'Lake Mary, Florida, USA',
+    website: 'https://jeunesseglobal.com',
+    products_summary: 'Anti-aging skincare and nutritional supplements MLM founded by Randy Ray and Wendy Lewis in 2009. Known for Luminesce serum, Instantly Ageless, and NV makeup. Rapid growth in Asia Pacific markets. Subject to multiple lawsuits and regulatory investigations.',
+    monthly_cost_min: 50,
+    monthly_cost_max: 300,
+    comp_plan_type: 'Binary hybrid multi-level compensation plan',
+    overall_rating: 2.0,
+    residual_rating: 1.8,
+    simplicity_rating: 1.8,
+    transparency_rating: 1.5,
+    community_rating: 2.5,
+    value_rating: 1.8,
+    pros: [
+      'Rapidly growing company with strong Asia Pacific presence',
+      'Some popular products with genuine before/after results (Instantly Ageless)',
+      'Multiple income streams including retail, team bonuses, and rank bonuses',
+      'Founded by experienced direct sales entrepreneurs'
+    ],
+    cons: [
+      'Multiple class action lawsuits alleging pyramid scheme characteristics',
+      'FTC and DOJ investigations reported',
+      'Complex binary hybrid compensation plan heavily favors early joiners',
+      'Income disclosure shows vast majority of distributors earn little to nothing',
+      'Aggressive recruiting tactics reported by former distributors',
+      'Products priced at extreme premium vs. comparable skincare'
+    ],
+    quick_facts: {
+      'Founded': '2009',
+      'Headquarters': 'Lake Mary, Florida',
+      'Founders': 'Randy Ray & Wendy Lewis',
+      'Legal Issues': 'Multiple class action lawsuits, regulatory investigations',
+      'Primary Market': 'Asia Pacific'
+    },
+    faq: [
+      {
+        question: 'Is Jeunesse Global a scam?',
+        answer: 'Jeunesse is a legal MLM company with real products. However, it has faced multiple class action lawsuits alleging pyramid scheme characteristics and has been subject to regulatory investigation. Income outcomes for most distributors are poor, and the compensation plan is complex and favors early joiners.'
+      },
+      {
+        question: 'What lawsuits has Jeunesse faced?',
+        answer: 'Jeunesse has faced multiple class action lawsuits alleging it operates as a pyramid scheme, that income claims are deceptive, and that the business model prioritizes recruitment over retail sales. The company has settled some lawsuits while others remain ongoing.'
+      },
+      {
+        question: 'What are Jeunesse\'s best products?',
+        answer: 'Instantly Ageless (a temporary eye cream that reduces wrinkles within minutes) is Jeunesse\'s most viral product and generates significant social media buzz. Luminesce serum is also popular. Both are heavily overpriced vs. clinical alternatives.'
+      }
+    ],
+    tagline: 'Anti-aging MLM with multiple lawsuits — rapid growth in Asia Pacific',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
