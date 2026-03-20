@@ -10,6 +10,7 @@ export function Header() {
     { href: '/category/mlm', label: 'MLM Reviews' },
     { href: '/category/affiliate', label: 'Affiliate Programs' },
     { href: '/category/other', label: 'Work From Home' },
+    { href: '/guides', label: 'Guides' },
     { href: '/news', label: '📰 News' },
   ];
 
