@@ -768,4 +768,418 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '111',
+    slug: 'amway',
+    name: 'Amway',
+    category: 'mlm',
+    founded_year: 1959,
+    hq_location: 'Ada, Michigan, USA',
+    website: 'https://amway.com',
+    products_summary: 'One of the world\'s largest direct sales companies selling health, beauty, and home care products including the Nutrilite supplement line and Artistry skincare. Privately held by the DeVos and Van Andel families.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 200,
+    comp_plan_type: 'Multi-level unilevel with PV/BV qualification system',
+    overall_rating: 2.3,
+    residual_rating: 2.0,
+    simplicity_rating: 1.5,
+    transparency_rating: 2.5,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'One of the most established direct sales companies — founded 1959',
+      'Global presence in 100+ countries with $7.7 billion in revenue',
+      'No cost to register as an IBO',
+      'Nutrilite is the world\'s #1 selling nutritional supplement brand',
+      'Strong brand recognition worldwide'
+    ],
+    cons: [
+      '2024 average annual earnings for U.S. IBOs at Founders Platinum level and below: $723 before expenses (per Amway)',
+      '40% of U.S. IBOs received zero payments in 2024',
+      'Notoriously complex PV/BV compensation system',
+      'Annual renewal fee of $62 plus ongoing product purchase expectations',
+      'Strong recruitment culture — meaningful income requires large downline',
+      'Controversial reputation — subject of documentaries and lawsuits'
+    ],
+    quick_facts: {
+      'Founded': '1959',
+      'Headquarters': 'Ada, Michigan',
+      'Annual Revenue': '~$7.7 billion (2023)',
+      '2024 Avg. Earnings': '$723/year before expenses (Founders Platinum and below)',
+      'Annual IBO Fee': '$62 renewal'
+    },
+    faq: [
+      {
+        question: 'Is Amway a pyramid scheme?',
+        answer: 'Amway is a legal MLM company, not a pyramid scheme. In 1979, the FTC ruled Amway was a legitimate business. However, critics note that the business model heavily rewards recruitment, and per Amway\'s own 2024 income disclosure, 40% of IBOs earned nothing and the average earning IBO made only $723/year before expenses.'
+      },
+      {
+        question: 'How much do Amway IBOs earn on average?',
+        answer: 'Per Amway\'s 2024 U.S. income disclosure, the average annual earnings for IBOs at Founders Platinum level and below (the vast majority) were $723 before expenses. 40% of registered IBOs received zero payments.'
+      },
+      {
+        question: 'What does Amway sell?',
+        answer: 'Amway sells health supplements (Nutrilite — world\'s #1 supplement brand), Artistry skincare and cosmetics, eSpring water treatment, and Atmosphere air purifiers. Products are generally considered quality but significantly overpriced vs. retail alternatives.'
+      },
+      {
+        question: 'Is it free to join Amway?',
+        answer: 'There is no cost to initially register as an Amway IBO, but there is an annual renewal fee of approximately $62. While no product purchase is technically required to remain an IBO, meaningful income requires active selling and/or building a team that buys products.'
+      }
+    ],
+    tagline: 'World\'s largest direct sales company, founded 1959',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '112',
+    slug: 'tupperware',
+    name: 'Tupperware Brands',
+    category: 'direct_sales',
+    founded_year: 1948,
+    hq_location: 'Orlando, Florida, USA (operations winding down)',
+    website: 'https://tupperware.com',
+    products_summary: 'Iconic food storage containers, kitchen products, and cookware sold through home parties and direct sales. Filed Chapter 11 bankruptcy in September 2024 after years of declining sales.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 100,
+    comp_plan_type: 'Direct sales / party plan (operations winding down post-bankruptcy)',
+    overall_rating: 1.5,
+    residual_rating: 1.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 2.0,
+    value_rating: 2.0,
+    pros: [
+      'Iconic brand with 76 years of history and genuine product recognition',
+      'Products are functional and durable',
+      'Strong nostalgia factor — many consumers grew up with Tupperware'
+    ],
+    cons: [
+      'Filed Chapter 11 bankruptcy in September 2024 — future highly uncertain',
+      'Business opportunity is NOT recommended — company is in liquidation proceedings',
+      'Sales declining for years as consumers shift to Amazon, TikTok Shop',
+      'Consultant income was already low before bankruptcy',
+      'Party plan model considered outdated in digital age'
+    ],
+    quick_facts: {
+      'Founded': '1948',
+      'Headquarters': 'Orlando, Florida',
+      'Status': '⚠️ Filed Chapter 11 bankruptcy September 2024',
+      'Business Model': 'Direct sales / party plan',
+      'Recommendation': 'Do not join — company in bankruptcy proceedings'
+    },
+    faq: [
+      {
+        question: 'Did Tupperware go bankrupt?',
+        answer: 'Yes. Tupperware Brands filed for Chapter 11 bankruptcy protection in Delaware on September 18, 2024, citing mounting losses and poor demand. The company had been struggling for years as consumers shifted to online retailers.'
+      },
+      {
+        question: 'Can you still sell Tupperware?',
+        answer: 'As of late 2024/2025, Tupperware operations are in various stages of wind-down following bankruptcy. We do not recommend joining as a consultant given the company\'s financial situation.'
+      },
+      {
+        question: 'Why did Tupperware fail?',
+        answer: 'Tupperware\'s party plan model became outdated as consumers moved to Amazon and social commerce. Declining sales, high debt, and an inability to adapt to digital retail led to the 2024 bankruptcy filing.'
+      }
+    ],
+    tagline: '⚠️ Iconic food storage brand — filed Chapter 11 bankruptcy September 2024',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '113',
+    slug: 'usana-health-sciences',
+    name: 'USANA Health Sciences',
+    category: 'mlm',
+    founded_year: 1992,
+    hq_location: 'Salt Lake City, Utah, USA',
+    website: 'https://usana.com',
+    products_summary: 'Nutritional supplements, diet and energy products, and personal care products sold through a network of Associates. Publicly traded on NYSE (USNA). Revenue declined from $921M (2023) to $855M (2024).',
+    monthly_cost_min: 100,
+    monthly_cost_max: 300,
+    comp_plan_type: 'Binary multi-level compensation plan',
+    overall_rating: 2.4,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 3.0,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'Publicly traded (NYSE: USNA) — financial transparency via SEC filings',
+      'Products generally well-regarded for quality and manufacturing standards',
+      'Strong presence in Asia Pacific markets',
+      'No required autoship order — flexible purchase structure'
+    ],
+    cons: [
+      'Revenue declining — $921M (2023) to $855M (2024), net earnings dropped from $63.8M to $42M',
+      'Binary compensation plan is complex and favors positioning over effort',
+      'Products significantly overpriced vs. comparable retail supplements',
+      'Majority of Associates earn minimal income',
+      'Heavy recruiting emphasis to advance and earn meaningful commissions'
+    ],
+    quick_facts: {
+      'Founded': '1992',
+      'Headquarters': 'Salt Lake City, Utah',
+      'Stock Ticker': 'NYSE: USNA',
+      '2024 Revenue': '$855 million (down from $921M in 2023)',
+      'Business Model': 'Multi-level marketing (binary plan)'
+    },
+    faq: [
+      {
+        question: 'Is USANA a good MLM?',
+        answer: 'USANA has higher quality products than many MLMs and is publicly traded for transparency. However, like most MLMs, the majority of Associates earn little to no income. Revenue has been declining, and the binary compensation plan favors those who join early.'
+      },
+      {
+        question: 'Is USANA publicly traded?',
+        answer: 'Yes. USANA Health Sciences (USNA) trades on the NYSE. Full-year 2024 results showed net sales of $855 million and net earnings of $42 million — down from $921M and $63.8M respectively in 2023.'
+      },
+      {
+        question: 'What are USANA\'s best products?',
+        answer: 'USANA\'s CellSentials (multivitamin/antioxidant), BiOmega (fish oil), and Active Nutrition products are among their most popular. Products are manufactured to pharmaceutical-grade standards in their own facility.'
+      }
+    ],
+    tagline: 'Publicly traded nutrition MLM with declining revenue trend',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '114',
+    slug: 'scentsy',
+    name: 'Scentsy',
+    category: 'direct_sales',
+    founded_year: 2004,
+    hq_location: 'Meridian, Idaho, USA',
+    website: 'https://scentsy.com',
+    products_summary: 'Fragrance products including wickless candles, wax warmers, diffusers, and personal care items sold through a network of independent Consultants via home parties and social selling.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 75,
+    comp_plan_type: 'Direct sales with multi-level team bonuses',
+    overall_rating: 2.8,
+    residual_rating: 2.0,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.0,
+    community_rating: 3.5,
+    value_rating: 2.5,
+    pros: [
+      'Unique and popular products with genuine consumer demand',
+      'Wickless candle safety angle resonates with safety-conscious buyers',
+      'Low startup cost — $99 starter kit',
+      'Idaho-based company with reputation for treating consultants well',
+      'Wide product catalog updated seasonally'
+    ],
+    cons: [
+      'Most consultants earn modest supplemental income, not full-time wages',
+      'Fragrance market is competitive with many retail alternatives',
+      'Seasonal products require ongoing purchasing by consultants to demo',
+      'Party plan/social selling model requires continuous networking',
+      'Quarterly minimums (~$150 PRV) required to stay active'
+    ],
+    quick_facts: {
+      'Founded': '2004',
+      'Headquarters': 'Meridian, Idaho',
+      'Starter Kit': '$99',
+      'Quarterly Minimum': '~$150 PRV to stay active',
+      'Products': 'Wickless candles, wax warmers, diffusers, body care'
+    },
+    faq: [
+      {
+        question: 'Is Scentsy a pyramid scheme?',
+        answer: 'No. Scentsy is a legitimate direct sales company with popular fragrance products. Unlike some MLMs, Scentsy has genuine retail customers and products with consumer demand outside the distributor network.'
+      },
+      {
+        question: 'How much do Scentsy Consultants earn?',
+        answer: 'Scentsy pays a 20-25% commission on personal sales plus team bonuses for higher ranks. Most active consultants earn supplemental income ($200-$1,000/month) rather than full-time wages. A small percentage of high-ranking consultants earn significant income.'
+      },
+      {
+        question: 'What is the startup cost for Scentsy?',
+        answer: 'The Scentsy Starter Kit costs $99 and includes testers, business supplies, and samples. To remain active and earn commissions, consultants must generate at least $150 in PRV (Personal Retail Volume) per quarter.'
+      }
+    ],
+    tagline: 'Wickless candle and fragrance direct sales company founded in Idaho',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '154',
+    slug: 'clickfunnels-affiliate',
+    name: 'ClickFunnels Affiliate Program',
+    category: 'affiliate',
+    founded_year: 2014,
+    hq_location: 'Boise, Idaho, USA',
+    website: 'https://clickfunnels.com',
+    products_summary: 'Sales funnel software and marketing platform co-founded by Russell Brunson. Affiliates earn recurring commissions promoting ClickFunnels subscriptions and related products like books, courses, and the One Funnel Away Challenge.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate — 20-40% recurring commissions',
+    overall_rating: 3.5,
+    residual_rating: 4.0,
+    simplicity_rating: 3.0,
+    transparency_rating: 3.5,
+    community_rating: 4.0,
+    value_rating: 3.5,
+    pros: [
+      'Strong recurring commissions (20-40%) on software subscriptions',
+      'Proven high-converting sales funnels and webinars for affiliates to promote',
+      'Multiple products to promote: software, books (DotCom Secrets, Expert Secrets), courses',
+      'Large, engaged online marketing community',
+      'Russell Brunson is a well-known authority in the marketing space'
+    ],
+    cons: [
+      'ClickFunnels product itself is expensive ($97-$297/mo) — limits conversion rate',
+      'Highly competitive affiliate space — many marketers promoting the same offer',
+      'ClickFunnels 2.0 transition caused some affiliate friction',
+      'Affiliate tracking dashboard can be complex for beginners',
+      'Requires marketing knowledge and audience to see meaningful results'
+    ],
+    quick_facts: {
+      'Founded': '2014',
+      'Headquarters': 'Boise, Idaho',
+      'Commission Rate': '20-40% recurring',
+      'Cookie Duration': '45 days',
+      'Cost to Join': 'Free'
+    },
+    faq: [
+      {
+        question: 'How much commission does ClickFunnels pay affiliates?',
+        answer: 'ClickFunnels pays 20% recurring commission to standard affiliates and 40% to Dream Car affiliates (100+ active referrals). At $97/mo, a standard affiliate earns ~$19.40/month per referral indefinitely.'
+      },
+      {
+        question: 'What is the ClickFunnels Dream Car program?',
+        answer: 'The Dream Car contest pays affiliates $500/month toward a car lease when they reach 100 active referrals, and $1,000/month at 200 active referrals, in addition to commissions.'
+      },
+      {
+        question: 'Is promoting ClickFunnels a good affiliate opportunity?',
+        answer: 'ClickFunnels has strong recurring commissions but the space is extremely competitive. Success requires an established audience interested in online marketing and sales funnels.'
+      }
+    ],
+    tagline: 'Recurring commission affiliate program for popular sales funnel software',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '155',
+    slug: 'convertkit',
+    name: 'ConvertKit (now Kit)',
+    category: 'affiliate',
+    founded_year: 2013,
+    hq_location: 'Boise, Idaho, USA',
+    website: 'https://kit.com',
+    products_summary: 'Email marketing platform built for creators — bloggers, YouTubers, podcasters, and course creators. Rebranded from ConvertKit to Kit in 2024. Offers 30% recurring affiliate commissions.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate — 30% recurring commission for 24 months',
+    overall_rating: 4.0,
+    residual_rating: 4.0,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.5,
+    community_rating: 4.0,
+    value_rating: 4.0,
+    pros: [
+      '30% recurring commission for 24 months — strong passive income potential',
+      'Free plan available ($0) makes it easy to recommend honestly',
+      'Genuinely popular product among content creators',
+      'Creator-focused features (landing pages, automations, digital products)',
+      'Rebranded to Kit in 2024 — growing beyond just email'
+    ],
+    cons: [
+      '24-month commission limit (not lifetime recurring like some programs)',
+      'Market getting more competitive from Beehiiv, Ghost, Substack',
+      'Not suitable for e-commerce businesses (focused on creators)',
+      'Free plan has limited features — paid plans start at $25+/month'
+    ],
+    quick_facts: {
+      'Founded': '2013',
+      'Headquarters': 'Boise, Idaho',
+      'Rebranded': 'ConvertKit → Kit (2024)',
+      'Commission Rate': '30% recurring for 24 months',
+      'Cost to Join': 'Free'
+    },
+    faq: [
+      {
+        question: 'How much can you earn as a ConvertKit/Kit affiliate?',
+        answer: 'Kit pays 30% recurring commissions for 24 months. If you refer a customer paying $100/month, you earn $30/month for 2 years ($720 total per customer). Building a portfolio of referrals creates meaningful recurring income.'
+      },
+      {
+        question: 'Why did ConvertKit rebrand to Kit?',
+        answer: 'ConvertKit rebranded to Kit in 2024 to better reflect its evolution beyond email marketing into a broader creator platform including digital product sales, landing pages, and more.'
+      },
+      {
+        question: 'ConvertKit vs Beehiiv for affiliates?',
+        answer: 'Kit pays 30% recurring (24 months) while Beehiiv pays 50% recurring (12 months). Kit has a larger existing customer base; Beehiiv is growing faster. Both are legitimate affiliate opportunities for the creator niche.'
+      }
+    ],
+    tagline: 'Creator-focused email platform with 30% recurring affiliate commissions',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '156',
+    slug: 'shopify-affiliate',
+    name: 'Shopify Affiliate Program',
+    category: 'affiliate',
+    founded_year: 2006,
+    hq_location: 'Ottawa, Ontario, Canada',
+    website: 'https://shopify.com/affiliates',
+    products_summary: 'Earn commissions promoting Shopify — the world\'s largest e-commerce platform. Affiliates earn a flat bounty per new merchant referral. Shopify powers over 1.7 million businesses globally.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate — flat bounty per new paid merchant (up to $150)',
+    overall_rating: 3.8,
+    residual_rating: 2.5,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.0,
+    community_rating: 3.5,
+    value_rating: 4.0,
+    pros: [
+      'Shopify is the world\'s leading e-commerce platform — easy to recommend',
+      'High brand recognition increases conversion rates',
+      'Up to $150 bounty per new merchant referred',
+      'Free 14-day trial offer makes referral easier',
+      'Massive market of potential merchants'
+    ],
+    cons: [
+      'One-time bounty only — no recurring commissions',
+      'Bounty paid only when referred merchant starts paying (after free trial)',
+      'Highly competitive affiliate space',
+      'Shopify pricing has increased — harder conversion at higher price points',
+      'Limited to e-commerce audience'
+    ],
+    quick_facts: {
+      'Founded': '2006',
+      'Headquarters': 'Ottawa, Canada',
+      'Commission': 'Up to $150 flat bounty per new paid merchant',
+      'Commission Type': 'One-time (not recurring)',
+      'Cost to Join': 'Free (application required)'
+    },
+    faq: [
+      {
+        question: 'How much do Shopify affiliates earn per referral?',
+        answer: 'Shopify pays up to $150 for each new merchant you refer who starts a paid plan. The exact amount varies by plan. Unlike some affiliate programs, this is a one-time bounty, not a recurring commission.'
+      },
+      {
+        question: 'Is the Shopify affiliate program worth it?',
+        answer: 'Shopify\'s affiliate program is worthwhile for content creators in the e-commerce, dropshipping, or entrepreneurship niche. The one-time bounty model means you need consistent new referrals rather than building a passive recurring base.'
+      },
+      {
+        question: 'How do I apply for the Shopify affiliate program?',
+        answer: 'Apply at shopify.com/affiliates. Shopify reviews applications and approves creators with relevant content and an established audience. You need an active website or content channel to qualify.'
+      }
+    ],
+    tagline: 'Earn bounties promoting the world\'s largest e-commerce platform',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
