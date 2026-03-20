@@ -197,6 +197,8 @@ const impactColors: Record<string, string> = {
   Positive: 'text-emerald-600',
 };
 
+const sortedNews = [...newsItems].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
 export default function NewsPage() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -221,7 +223,7 @@ export default function NewsPage() {
       <section className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
           <div className="space-y-6">
-            {newsItems.map((item) => (
+            {sortedNews.map((item) => (
               <article key={item.id} className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow">
                 <div className="flex flex-wrap items-center gap-3 mb-3">
                   <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${categoryColors[item.categoryColor] || 'bg-gray-100 text-gray-600'}`}>
