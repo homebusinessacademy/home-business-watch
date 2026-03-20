@@ -1,8 +1,19 @@
 import { Company, CompanyUpdate, UserReview, ComparisonPage } from '@/types';
 import { extendedCompanies } from './companies-extended';
+import { companiesBatchA1 } from './companies-batch-a1';
 import { companiesBatchA2 } from './companies-batch-a2';
 import { companiesBatchA3 } from './companies-batch-a3';
-import { companiesBatchA1 } from './companies-batch-a1';
+import { companiesBatchB1 } from './companies-batch-b1';
+import { companiesBatchB2 } from './companies-batch-b2';
+import { companiesBatchC1a } from './companies-batch-c1a';
+import { companiesBatchC1b } from './companies-batch-c1b';
+import { companiesBatchC2a } from './companies-batch-c2a';
+import { companiesBatchC2b } from './companies-batch-c2b';
+import { companiesBatchC3 } from './companies-batch-c3';
+import { companiesBatchC4a } from './companies-batch-c4a';
+import { companiesBatchC4b } from './companies-batch-c4b';
+import { companiesBatchC5 } from './companies-batch-c5';
+import { companiesBatchC6 } from './companies-batch-c6';
 
 export const companies: Company[] = [
   {
@@ -484,7 +495,24 @@ export const comparisonPages: ComparisonPage[] = [
 ];
 
 // Helper function to get a company by slug
-export const allCompanies: Company[] = [...companies, ...extendedCompanies, ...companiesBatchA2, ...companiesBatchA3, ...companiesBatchA1];
+export const allCompanies: Company[] = [
+  ...companies,
+  ...extendedCompanies,
+  ...companiesBatchA1,
+  ...companiesBatchA2,
+  ...companiesBatchA3,
+  ...companiesBatchB1,
+  ...companiesBatchB2,
+  ...companiesBatchC1a,
+  ...companiesBatchC1b,
+  ...companiesBatchC2a,
+  ...companiesBatchC2b,
+  ...companiesBatchC3,
+  ...companiesBatchC4a,
+  ...companiesBatchC4b,
+  ...companiesBatchC5,
+  ...companiesBatchC6,
+];
 
 export function getCompanyBySlug(slug: string): Company | undefined {
   return allCompanies.find(c => c.slug === slug);
