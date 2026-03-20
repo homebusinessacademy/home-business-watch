@@ -490,6 +490,291 @@ export const comparisonPages: ComparisonPage[] = [
       ]
     },
     last_updated: new Date().toISOString()
+  },
+  // doTERRA vs Home Business Academy
+  {
+    id: '3',
+    company_id: '101',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy wins for most people looking to build residual income. doTERRA has quality products but requires a 100 PV monthly autoship ($100-150/mo) to earn commissions, and 91% of Wellness Advocates earn $0. HBA\'s one-tier model, 80% commissions, and no mandatory recruiting make it a cleaner path to real income.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Monthly Minimum', company_value: '100 LRP points (~$100-150/mo) required to earn', vs_company_value: '$10-160/month, no earning minimum', winner: 'vs_company' },
+        { category: 'Typical Earnings', company_value: '91% earn $0; top 1% avg $40K/yr', vs_company_value: '80% commissions: $128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Business Model', company_value: 'MLM — unilevel with recruiting bonuses', vs_company_value: 'One-tier affiliate — earn on direct referrals only', winner: 'vs_company' },
+        { category: 'Comp Plan Stability', company_value: 'New comp plan launched 2023', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
+        { category: 'Product Type', company_value: 'Essential oils (physical, perishable)', vs_company_value: 'Digital training tools (no inventory)', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Young Living vs Home Business Academy
+  {
+    id: '4',
+    company_id: '102',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy is the stronger business opportunity. Young Living\'s income disclosure shows ~94% of distributors who tried to build a business earned a median of $4/year. HBA\'s transparent one-tier model, 80% commissions, and never-changed comp plan make it a far more reliable path to residual income.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Typical Earnings', company_value: '~94% earn near $0; median $4/yr for business builders', vs_company_value: '$128/mo per full-suite customer, paid every Thursday', winner: 'vs_company' },
+        { category: 'Monthly Autoship', company_value: '100 PV/month required to stay active and earn', vs_company_value: 'No mandatory autoship', winner: 'vs_company' },
+        { category: 'Business Model', company_value: 'Stairstep breakaway MLM', vs_company_value: 'One-tier flat affiliate commissions', winner: 'vs_company' },
+        { category: 'Startup Cost', company_value: 'Premium Starter Kit $165+', vs_company_value: 'Start for $10/month', winner: 'vs_company' },
+        { category: 'Income Transparency', company_value: 'IDS shows median $4/year for business builders', vs_company_value: 'Clear math: 2 referrals = profit', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Melaleuca vs Home Business Academy
+  {
+    id: '5',
+    company_id: '129',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Both companies have been around for decades and have loyal communities, but Home Business Academy wins on earning potential. Melaleuca\'s 2022 income disclosure shows 82% of members earn $0, and Product Advocates average just $110-510/year. HBA\'s 80% commissions and one-tier model produce significantly higher income per customer.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Monthly Minimum', company_value: '35 product points (~$55-70/mo) to earn commissions', vs_company_value: 'No monthly purchase required to earn', winner: 'vs_company' },
+        { category: 'Typical Earnings', company_value: '82% earn $0; Product Advocates avg $110-510/yr', vs_company_value: '80% commissions: $128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Company Stability', company_value: 'Founded 1985, 40 years in business', vs_company_value: 'Founded 2016, never changed comp plan', winner: 'tie' },
+        { category: 'Business Model', company_value: '8-level MLM organization with Director ranks', vs_company_value: 'One-tier affiliate — income depends on YOU', winner: 'vs_company' },
+        { category: 'Products', company_value: 'Physical household/wellness products', vs_company_value: 'Digital training and tools', winner: 'tie' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // USANA vs Home Business Academy
+  {
+    id: '6',
+    company_id: '113',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy is the better business opportunity for most people. USANA requires expensive monthly autoship ($120-200/mo) just to qualify for commissions, and the majority of Associates earn very little. HBA\'s $10 entry point and 80% flat commissions make it far more accessible and profitable.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Monthly Minimum', company_value: '$120-200/month autoship required', vs_company_value: '$10/month minimum, no earning requirement', winner: 'vs_company' },
+        { category: 'Commission Rate', company_value: 'Complex multi-level points system', vs_company_value: '80% flat residual commissions', winner: 'vs_company' },
+        { category: 'Startup Cost', company_value: '$30-150 enrollment + monthly autoship', vs_company_value: '$10/month, no inventory', winner: 'vs_company' },
+        { category: 'Business Model', company_value: 'Binary MLM with weekly qualifications', vs_company_value: 'One-tier affiliate, earn on direct referrals', winner: 'vs_company' },
+        { category: 'Per-Customer Income', company_value: 'Low per-customer residual due to binary splits', vs_company_value: '$128/mo per full-suite customer (24 = $3,072/mo)', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Primerica vs Home Business Academy
+  {
+    id: '7',
+    company_id: '103',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Different models for different goals. Primerica is a licensed insurance career path — legitimate but requires Series 6/63 licensing, cold calling, and recruiting. Home Business Academy is a simpler digital affiliate model with no licensing, no cold calling, and higher earning efficiency per customer. For most home business seekers, HBA is the faster path to income.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Licensing Required', company_value: 'State insurance license required ($200-500)', vs_company_value: 'No licensing required', winner: 'vs_company' },
+        { category: 'Business Model', company_value: 'MLM insurance distribution, recruiting-heavy', vs_company_value: 'One-tier digital affiliate', winner: 'vs_company' },
+        { category: 'Typical Earnings', company_value: '$7,757/yr median for active reps', vs_company_value: '80% residual: $128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Activity Required', company_value: 'Cold calling, meetings, insurance sales', vs_company_value: 'Online marketing, content creation', winner: 'tie' },
+        { category: 'Comp Plan Stability', company_value: 'Multi-level, recruiting required for promotion', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Mary Kay vs Home Business Academy
+  {
+    id: '8',
+    company_id: '104',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy wins on earning potential and simplicity. Mary Kay requires buying inventory upfront and has a stairstep breakaway compensation structure. Most consultants earn very little — one study found 73% of consultants earned less than $1,000/year before expenses. HBA\'s digital model requires no inventory and pays 80% commissions.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Inventory Required', company_value: '$100 starter kit + ongoing inventory purchases', vs_company_value: 'No physical inventory', winner: 'vs_company' },
+        { category: 'Commission Structure', company_value: 'Stairstep breakaway MLM', vs_company_value: 'Flat 80% one-tier residual', winner: 'vs_company' },
+        { category: 'Typical Earnings', company_value: '73%+ earn under $1,000/year before expenses', vs_company_value: '2 referrals = in profit; 24 = $3,072/month', winner: 'vs_company' },
+        { category: 'Startup Cost', company_value: '$100 starter kit + ongoing product orders', vs_company_value: '$10-160/month, no inventory', winner: 'vs_company' },
+        { category: 'Product Model', company_value: 'Physical cosmetics, inventory-based selling', vs_company_value: 'Digital tools and training', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // MONAT vs Home Business Academy
+  {
+    id: '9',
+    company_id: '107',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy is the stronger opportunity. MONAT has faced thousands of BBB complaints about product issues, multiple class action lawsuits, and a 2024 income disclosure showing average Market Partner earnings of just $758/year. HBA\'s 80% commissions, zero lawsuits, and no recruiting requirement make it a far cleaner choice.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Legal Issues', company_value: 'Multiple class action lawsuits, BBB complaints', vs_company_value: 'No FTC actions, no lawsuits', winner: 'vs_company' },
+        { category: 'Typical Earnings', company_value: 'Avg $758/year for all Market Partners (2024)', vs_company_value: '$128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Monthly Cost', company_value: '$30-100/month product requirement', vs_company_value: '$10-160/month, no autoship', winner: 'vs_company' },
+        { category: 'Business Model', company_value: 'MLM with recruiting income', vs_company_value: 'One-tier affiliate, no recruiting needed', winner: 'vs_company' },
+        { category: 'Product Type', company_value: 'Physical hair care (shipping, returns)', vs_company_value: 'Digital products (no inventory)', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Isagenix vs Home Business Academy
+  {
+    id: '10',
+    company_id: '106',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy offers a more accessible and transparent earning model. Isagenix requires $100-150/month in autoship to qualify for commissions, and most Associates earn very little. HBA\'s digital model with 80% flat commissions and no mandatory autoship is a simpler, more profitable path for most people.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Monthly Autoship', company_value: '100-150 BV/month required to earn', vs_company_value: 'No autoship required', winner: 'vs_company' },
+        { category: 'Commission Rate', company_value: 'Binary + team commissions, complex structure', vs_company_value: '80% flat residual commissions', winner: 'vs_company' },
+        { category: 'Entry Cost', company_value: '$200-500 enrollment packs', vs_company_value: '$10/month starter', winner: 'vs_company' },
+        { category: 'Income per Customer', company_value: 'Low residual per customer in binary model', vs_company_value: '$128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Comp Plan History', company_value: 'Multiple comp plan changes over the years', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // It Works vs Home Business Academy
+  {
+    id: '11',
+    company_id: '131',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy wins convincingly. It Works! is known for the body wrap, but its income model requires monthly autoship and heavy recruiting. Most distributors earn very little. HBA\'s one-tier digital affiliate model with 80% commissions and no inventory is a far cleaner business.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Monthly Requirement', company_value: '$80-200/month autoship to stay active', vs_company_value: '$10-160/month, no autoship', winner: 'vs_company' },
+        { category: 'Business Model', company_value: 'Binary MLM with recruiting emphasis', vs_company_value: 'One-tier digital affiliate', winner: 'vs_company' },
+        { category: 'Inventory', company_value: 'Physical products (wraps, supplements)', vs_company_value: 'Digital products, no inventory', winner: 'vs_company' },
+        { category: 'Comp Plan Stability', company_value: 'Changed multiple times', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
+        { category: 'Entry Cost', company_value: '$99-500 starter kit', vs_company_value: '$10/month', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // ClickBank vs Home Business Academy
+  {
+    id: '12',
+    company_id: '5',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Both are legitimate affiliate platforms, but they serve different purposes. ClickBank is a marketplace for one-time digital product sales with highly variable commission rates and quality. Home Business Academy offers recurring residual commissions on subscription products — providing stable monthly income rather than unpredictable one-time payouts.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Income Type', company_value: 'Mostly one-time commissions', vs_company_value: 'Recurring monthly residual commissions', winner: 'vs_company' },
+        { category: 'Product Quality', company_value: 'Variable — from excellent to low-quality', vs_company_value: 'Consistent: personal dev, funnels, training tools', winner: 'vs_company' },
+        { category: 'Commission Rate', company_value: '20-75% (varies by vendor)', vs_company_value: '80% flat residual', winner: 'vs_company' },
+        { category: 'Per-Customer Value', company_value: 'One-time payout, no residual', vs_company_value: '$128/month recurring per full-suite customer', winner: 'vs_company' },
+        { category: 'Done-For-You System', company_value: 'No — must build own funnels/email sequences', vs_company_value: 'Full turnkey system included', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Wealthy Affiliate vs Home Business Academy
+  {
+    id: '13',
+    company_id: '153',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Both target online marketers, but with different models. Wealthy Affiliate focuses on training and building niche affiliate sites — a slow, long-term SEO strategy. Home Business Academy provides a turnkey system, done-for-you funnels, and 80% residual commissions — a faster path to consistent monthly income for most people.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Time to Income', company_value: 'Months to years of SEO work before income', vs_company_value: 'Turnkey system, potential income from day one', winner: 'vs_company' },
+        { category: 'Commission Model', company_value: 'Affiliate commissions on own content', vs_company_value: '80% residual on subscription products', winner: 'vs_company' },
+        { category: 'Done-For-You', company_value: 'Training only — must build everything yourself', vs_company_value: 'Full funnel, email sequence, chatbot included', winner: 'vs_company' },
+        { category: 'Monthly Cost', company_value: '$49-99/month membership', vs_company_value: '$10-160/month with income potential built in', winner: 'vs_company' },
+        { category: 'Community', company_value: 'Large active community, good training', vs_company_value: 'Smaller but focused on affiliate income', winner: 'tie' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Legendary Marketer vs Home Business Academy
+  {
+    id: '14',
+    company_id: '157',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Important update: Legendary Marketer officially closed on February 16, 2026. Home Business Academy remains the active, stable choice. Even before the closure, HBA offered a more straightforward 80% residual commission model versus Legendary\'s high-ticket affiliate structure. HBA has never missed a payout and has never changed its comp plan.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Current Status', company_value: 'CLOSED — shut down February 16, 2026', vs_company_value: 'Active since 2016, never missed a commission', winner: 'vs_company' },
+        { category: 'Commission Model', company_value: 'High-ticket one-time commissions (while active)', vs_company_value: '80% residual monthly commissions', winner: 'vs_company' },
+        { category: 'Income Stability', company_value: 'One-time payouts, then nothing', vs_company_value: '$128/mo recurring per full-suite customer', winner: 'vs_company' },
+        { category: 'Business Risk', company_value: 'Company closed with no warning', vs_company_value: 'Comp plan unchanged since 2016', winner: 'vs_company' },
+        { category: 'Entry Cost', company_value: '$2,500-30,000 courses (while active)', vs_company_value: '$10-160/month', winner: 'vs_company' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // eXp Realty vs Home Business Academy
+  {
+    id: '15',
+    company_id: '195',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Different audiences, different models. eXp Realty is a cloud-based real estate brokerage — great if you\'re a licensed agent. Home Business Academy is a digital affiliate program requiring no license. For people without a real estate license looking for home-based income, HBA is far more accessible and faster to start.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'License Required', company_value: 'Real estate license required in your state', vs_company_value: 'No license required', winner: 'vs_company' },
+        { category: 'Monthly Fee', company_value: '$85/month + transaction fees', vs_company_value: '$10-160/month', winner: 'vs_company' },
+        { category: 'Revenue Share Model', company_value: 'Revenue share on agent recruits (MLM-like)', vs_company_value: 'One-tier affiliate, no recruiting needed', winner: 'vs_company' },
+        { category: 'Time to Start', company_value: 'Weeks-months to get licensed', vs_company_value: 'Start same day', winner: 'vs_company' },
+        { category: 'Residual Potential', company_value: 'High if you recruit top producing agents', vs_company_value: '$128/mo per full-suite customer, all from your effort', winner: 'tie' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Rodan + Fields vs Home Business Academy
+  {
+    id: '16',
+    company_id: '110',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy wins clearly. Rodan + Fields pivoted away from MLM in September 2024 — former consultants lost their multi-level residual income overnight. HBA\'s comp plan has never changed since 2016. This comparison illustrates exactly why the one-tier model matters: your income depends on your effort, not a company decision.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Business Model Change', company_value: 'Ended MLM model Sept 2024 — consultants lost downline income', vs_company_value: 'Comp plan unchanged since 2016', winner: 'vs_company' },
+        { category: 'Monthly Cost', company_value: '$80-200/month product requirement', vs_company_value: '$10-160/month, no autoship', winner: 'vs_company' },
+        { category: 'Income Stability', company_value: 'Multi-level income eliminated in 2024', vs_company_value: 'Paid every Thursday since 2016', winner: 'vs_company' },
+        { category: 'Current Model', company_value: 'Single-level affiliate now (post-pivot)', vs_company_value: 'One-tier residual — original model since founding', winner: 'vs_company' },
+        { category: 'Products', company_value: 'Dermatologist skincare regimens', vs_company_value: 'Digital training and marketing tools', winner: 'tie' },
+      ]
+    },
+    last_updated: new Date().toISOString()
+  },
+  // Nu Skin vs Home Business Academy
+  {
+    id: '17',
+    company_id: '105',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Home Business Academy is the better home business choice. Nu Skin requires $50-150/month autoship, has a complex stairstep breakaway comp plan, and has faced multiple FTC and international regulatory actions. HBA\'s simple one-tier model with 80% commissions, zero regulatory issues, and never-changed comp plan is the clear winner.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Regulatory History', company_value: 'FTC settlements, China government fines', vs_company_value: 'No regulatory actions', winner: 'vs_company' },
+        { category: 'Monthly Autoship', company_value: '$50-150/month to maintain active status', vs_company_value: 'No mandatory autoship', winner: 'vs_company' },
+        { category: 'Commission Structure', company_value: 'Complex stairstep breakaway MLM', vs_company_value: 'Flat 80% one-tier residual', winner: 'vs_company' },
+        { category: 'Comp Plan Changes', company_value: 'Multiple revisions over the years', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
+        { category: 'Products', company_value: 'Anti-aging skincare and supplements', vs_company_value: 'Digital training and business tools', winner: 'tie' },
+      ]
+    },
+    last_updated: new Date().toISOString()
   }
 ];
 
