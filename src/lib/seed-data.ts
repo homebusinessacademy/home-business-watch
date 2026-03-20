@@ -34,8 +34,7 @@ export const companies: Company[] = [
     ],
     cons: [
       'Must own a product to earn commission on it (qualified sale rule)',
-      'Requires consistent marketing effort — not passive without work',
-      'Income requires consistent marketing effort and audience building'
+      'Requires consistent marketing effort — not passive without work'
     ],
     quick_facts: {
       'Founded': '2016',
