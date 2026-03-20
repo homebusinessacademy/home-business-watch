@@ -35,7 +35,7 @@ export const companies: Company[] = [
       'Must own a product to earn commission on it (qualified sale rule)',
       'Financial Literacy Academy not included in monthly subscription (separate purchase)',
       'Requires consistent marketing effort — not passive without work',
-      'Commission on credit package sales (HBA Emailer) is 33%, not 80%'
+      'Income requires consistent marketing effort and audience building'
     ],
     quick_facts: {
       'Founded': '2016',
