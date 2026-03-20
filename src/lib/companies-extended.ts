@@ -1541,4 +1541,299 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '161',
+    slug: 'impact-affiliate',
+    name: 'Impact (impact.com)',
+    category: 'affiliate',
+    founded_year: 2008,
+    hq_location: 'Santa Barbara, California, USA',
+    website: 'https://impact.com',
+    products_summary: 'Enterprise-grade partnership management platform connecting publishers with major brand advertisers. Features advanced tracking, fraud detection, and flexible commission structures. Free for publishers — brands pay $2,500+/month.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate network — commission rates vary by brand partner',
+    overall_rating: 4.0,
+    residual_rating: 3.0,
+    simplicity_rating: 3.0,
+    transparency_rating: 4.0,
+    community_rating: 3.5,
+    value_rating: 4.0,
+    pros: [
+      'Free for publishers/affiliates to join',
+      'Access to premium enterprise brands not available on smaller networks',
+      'Advanced real-time tracking and cross-device attribution',
+      'Flexible payout structures including performance bonuses',
+      'Strong fraud detection protects affiliate earnings'
+    ],
+    cons: [
+      'Steeper learning curve than beginner-friendly networks',
+      'Application process can be selective — not instant access',
+      'Best suited for established publishers with meaningful traffic',
+      'Customer support quality varies',
+      'Interface complexity can overwhelm beginners'
+    ],
+    quick_facts: {
+      'Founded': '2008',
+      'Headquarters': 'Santa Barbara, California',
+      'Cost for Publishers': 'Free',
+      'Brand Cost': '$2,500+/month (enterprise pricing)',
+      'Best For': 'Established publishers and content creators'
+    },
+    faq: [
+      {
+        question: 'Is Impact.com free for affiliates?',
+        answer: 'Yes. Publishers and affiliates join Impact for free. The platform charges brands/advertisers — starting at $2,500/month for enterprise access. Affiliates earn commissions set by individual brand partners.'
+      },
+      {
+        question: 'Impact vs ShareASale — which is better for affiliates?',
+        answer: 'Impact has more premium enterprise brands and better technology, but is more complex. ShareASale has more total programs and is more beginner-friendly. Impact is better for established publishers; ShareASale is better for those just starting out.'
+      },
+      {
+        question: 'What brands are on Impact?',
+        answer: 'Impact features major brands across retail, travel, finance, and software including Adidas, Airbnb, Lenovo, and many Fortune 500 companies. Brand availability varies by niche.'
+      }
+    ],
+    tagline: 'Enterprise affiliate network with premium brand partnerships',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '162',
+    slug: 'awin',
+    name: 'Awin',
+    category: 'affiliate',
+    founded_year: 2000,
+    hq_location: 'Berlin, Germany',
+    website: 'https://awin.com',
+    products_summary: 'Global affiliate network formed from the merger of Zanox and Affiliate Window. Owns ShareASale. Features 25,000+ advertisers across 180 countries with a $5 publisher sign-up deposit (refunded on first payment).',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate network — commission rates vary by advertiser',
+    overall_rating: 3.8,
+    residual_rating: 2.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.5,
+    community_rating: 3.0,
+    value_rating: 4.0,
+    pros: [
+      'One of the largest global networks — 25,000+ advertisers in 180 countries',
+      'Owns ShareASale — access to both networks from one company',
+      '$5 sign-up deposit refunded on first payment',
+      'Strong international advertiser selection',
+      'Access plan available for smaller publishers'
+    ],
+    cons: [
+      '$5 deposit required upfront (refunded but still a barrier)',
+      'Publisher support can be limited — community noted weak direct support',
+      'Interface less polished than newer platforms',
+      'Application approval per advertiser required',
+      '2.5% transaction tracking fee on the Access plan'
+    ],
+    quick_facts: {
+      'Founded': '2000 (Zanox + Affiliate Window merger)',
+      'Headquarters': 'Berlin, Germany',
+      'Advertisers': '25,000+ across 180 countries',
+      'Sign-Up Deposit': '$5 (refunded on first payment)',
+      'Owns': 'ShareASale'
+    },
+    faq: [
+      {
+        question: 'Is Awin free to join as an affiliate?',
+        answer: 'Awin requires a $5 deposit when joining as a publisher. This is refunded when you receive your first commission payment. The deposit helps prevent spam accounts.'
+      },
+      {
+        question: 'Awin vs ShareASale — what\'s the difference?',
+        answer: 'Awin owns ShareASale. Awin focuses more on international advertisers and larger brands, while ShareASale is more US-centric with a wider variety of programs. Many affiliates use both.'
+      },
+      {
+        question: 'What is the Awin Access plan?',
+        answer: 'Awin Access is a self-managed publisher plan for smaller affiliates. It charges a 2.5% transaction fee but allows access to the full advertiser marketplace. Larger publishers can negotiate custom arrangements.'
+      }
+    ],
+    tagline: 'Global affiliate network with 25,000+ advertisers — owns ShareASale',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '163',
+    slug: 'digistore24',
+    name: 'Digistore24',
+    category: 'affiliate',
+    founded_year: 2012,
+    hq_location: 'Hameln, Germany',
+    website: 'https://digistore24.com',
+    products_summary: 'Digital product marketplace and affiliate network with 8,500+ offers spanning health, business, self-help, and software. Popular in Europe and growing in the US. Free for affiliates — vendors pay 7.9% + $1 per transaction.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate marketplace — commission rates set by vendors (typically 40-75%)',
+    overall_rating: 3.3,
+    residual_rating: 2.5,
+    simplicity_rating: 3.8,
+    transparency_rating: 3.0,
+    community_rating: 3.0,
+    value_rating: 3.5,
+    pros: [
+      'Free to join as an affiliate',
+      '8,500+ offers across multiple niches',
+      'Fast payout — weekly payments available',
+      'Stronger in European markets than ClickBank',
+      'Good for health, finance, and self-help niches'
+    ],
+    cons: [
+      'Smaller selection than ClickBank in the US market',
+      'Product quality varies — due diligence required',
+      'Less brand recognition among US audiences',
+      'Some overhyped products similar to ClickBank',
+      'Customer support can be slow'
+    ],
+    quick_facts: {
+      'Founded': '2012',
+      'Headquarters': 'Hameln, Germany',
+      'Offers': '8,500+',
+      'Cost to Join': 'Free for affiliates',
+      'Payout': 'Weekly available'
+    },
+    faq: [
+      {
+        question: 'Digistore24 vs ClickBank — which is better?',
+        answer: 'Digistore24 is stronger in European markets and has a more transparent fee structure for vendors. ClickBank has a larger US selection and more brand recognition. Both require careful product vetting. Many affiliates use both platforms.'
+      },
+      {
+        question: 'Is Digistore24 free for affiliates?',
+        answer: 'Yes, completely free. Digistore24 charges vendors 7.9% + $1 per transaction (or 4.9% for amounts over $400). Affiliates earn commission rates set by individual vendors, typically 40-75%.'
+      },
+      {
+        question: 'What niches work best on Digistore24?',
+        answer: 'Digistore24 performs well in health and wellness, personal development, business and finance, and software tools. European audiences are particularly well-served given the platform\'s German origins.'
+      }
+    ],
+    tagline: 'European digital product marketplace — strong alternative to ClickBank',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '164',
+    slug: 'warriorplus',
+    name: 'WarriorPlus',
+    category: 'affiliate',
+    founded_year: 2006,
+    hq_location: 'Online',
+    website: 'https://warriorplus.com',
+    products_summary: 'Digital product marketplace specializing in internet marketing tools, software, and online business courses. Known for product launches with instant PayPal commissions. Free to join, with commissions ranging from 50-100%.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate marketplace — 50-100% commissions, instant PayPal payments',
+    overall_rating: 3.0,
+    residual_rating: 2.0,
+    simplicity_rating: 3.5,
+    transparency_rating: 2.5,
+    community_rating: 3.0,
+    value_rating: 3.0,
+    pros: [
+      'Free to join as an affiliate',
+      '50-100% commissions — among the highest in digital marketing',
+      'Instant PayPal payments on many offers',
+      'Active marketplace with frequent new product launches',
+      'Good for email list promotions and launches'
+    ],
+    cons: [
+      'Notorious for low-quality "make money online" products',
+      'Many products make exaggerated income claims',
+      'High refund rates on lower-quality products damage reputation',
+      'Requires vendor approval per product for new affiliates',
+      'Platform dominated by get-rich-quick style offers'
+    ],
+    quick_facts: {
+      'Founded': '2006',
+      'Specialty': 'Internet marketing tools and courses',
+      'Commission Range': '50-100%',
+      'Payment': 'Instant PayPal on many offers',
+      'Cost to Join': 'Free'
+    },
+    faq: [
+      {
+        question: 'Is WarriorPlus legitimate?',
+        answer: 'WarriorPlus is a legitimate platform that has processed millions in affiliate commissions. However, it has a reputation for hosting low-quality products with exaggerated claims. Careful product vetting is essential before promoting anything.'
+      },
+      {
+        question: 'WarriorPlus vs JVZoo — which is better?',
+        answer: 'Both are similar internet marketing affiliate marketplaces. WarriorPlus is known for faster PayPal payments and a slightly more active launch calendar. JVZoo has a larger product catalog. Both require the same careful vetting approach.'
+      },
+      {
+        question: 'How do you make money as a WarriorPlus affiliate?',
+        answer: 'Most successful WarriorPlus affiliates build email lists and promote product launches to their subscribers. Cold traffic rarely converts well on IM offers. Building an audience in the make-money-online or marketing niche is typically required.'
+      }
+    ],
+    tagline: 'Internet marketing affiliate marketplace with instant PayPal commissions',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '165',
+    slug: 'partnerstack',
+    name: 'PartnerStack',
+    category: 'affiliate',
+    founded_year: 2015,
+    hq_location: 'Toronto, Ontario, Canada',
+    website: 'https://partnerstack.com',
+    products_summary: 'B2B SaaS affiliate and partner network specializing in software companies. Features recurring commissions on SaaS subscriptions. Top SaaS brands like Notion, Freshbooks, and Webflow use PartnerStack for their affiliate programs.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'B2B SaaS affiliate network — typically 20-50% recurring commissions',
+    overall_rating: 4.1,
+    residual_rating: 4.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 4.0,
+    community_rating: 3.5,
+    value_rating: 4.0,
+    pros: [
+      'Specializes in SaaS recurring commissions — strong passive income potential',
+      'Free for publishers to join',
+      'Access to top SaaS brands: Notion, Freshbooks, Webflow, Monday.com',
+      'Typically 20-50% recurring commissions on software subscriptions',
+      'B2B audience often has higher LTV than consumer products'
+    ],
+    cons: [
+      'Focused on B2B/SaaS — not suitable for all audiences',
+      'Requires technology or business-focused content to convert',
+      'Some programs have minimum traffic or audience requirements',
+      'Commission payments via Stripe — may not suit all publishers',
+      'Smaller marketplace than CJ or ShareASale'
+    ],
+    quick_facts: {
+      'Founded': '2015',
+      'Headquarters': 'Toronto, Canada',
+      'Specialty': 'B2B SaaS and software companies',
+      'Commission Type': 'Typically 20-50% recurring',
+      'Cost to Join': 'Free'
+    },
+    faq: [
+      {
+        question: 'What is PartnerStack best for?',
+        answer: 'PartnerStack is ideal for content creators, bloggers, and YouTubers whose audience includes businesses and professionals who buy software tools. If you create content about productivity, marketing, or business tools, PartnerStack\'s recurring SaaS commissions can be very lucrative.'
+      },
+      {
+        question: 'What companies use PartnerStack?',
+        answer: 'Notable PartnerStack programs include Notion, Freshbooks, Webflow, Monday.com, Brevo (formerly Sendinblue), and hundreds of other SaaS companies. Most offer 20-50% recurring commissions.'
+      },
+      {
+        question: 'How does PartnerStack compare to other affiliate networks?',
+        answer: 'PartnerStack is uniquely focused on B2B SaaS, while networks like ShareASale and CJ cover all categories. For technology and business audiences, PartnerStack\'s recurring SaaS commissions often outperform traditional retail affiliate programs.'
+      }
+    ],
+    tagline: 'B2B SaaS affiliate network with recurring commissions from top software brands',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
