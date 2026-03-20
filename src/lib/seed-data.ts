@@ -1,5 +1,7 @@
 import { Company, CompanyUpdate, UserReview, ComparisonPage } from '@/types';
 import { extendedCompanies } from './companies-extended';
+import { companiesBatchA2 } from './companies-batch-a2';
+import { companiesBatchA3 } from './companies-batch-a3';
 
 export const companies: Company[] = [
   {
@@ -481,7 +483,7 @@ export const comparisonPages: ComparisonPage[] = [
 ];
 
 // Helper function to get a company by slug
-export const allCompanies: Company[] = [...companies, ...extendedCompanies];
+export const allCompanies: Company[] = [...companies, ...extendedCompanies, ...companiesBatchA2, ...companiesBatchA3];
 
 export function getCompanyBySlug(slug: string): Company | undefined {
   return allCompanies.find(c => c.slug === slug);
