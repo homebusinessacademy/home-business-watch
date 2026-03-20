@@ -3190,12 +3190,14 @@ export const extendedCompanies: Company[] = [
       'Headquarters': 'Idaho Falls, Idaho',
       'Founder': 'Frank VanderSloot',
       'Monthly Minimum': '~$75-150 product order',
-      'Classification': 'Self-described "referral marketing" (not MLM per company)'
+      'Classification': 'MLM — 8-level organization, ranks from Product Advocate to Presidential Director',
+      'Monthly Minimum': '35 product points (~$55-70/mo) required to earn commissions',
+      '2022 Income Disclosure': '82% earn $0; Product Advocates avg $110-510/yr; Directors avg $2,073/yr'
     },
     faq: [
       {
         question: 'Is Melaleuca an MLM?',
-        answer: 'Melaleuca strongly insists it is not an MLM, calling itself a "wellness company" and "referral marketing" company. The structure has some MLM-like elements (residual commissions from referred customers) but differs in that there are no distributor ranks, no required product purchases to recruit, and products are primarily sold to end consumers, not to distributors themselves.'
+        answer: 'Melaleuca calls itself a "referral marketing" company, not an MLM — but the structure is MLM in practice. There is an 8-level Marketing Executive organization with ranks (Product Advocate, Director 1-9, Senior Director, Executive Director, etc.), and members must purchase a minimum of 35 product points (~$55-70/mo) every month to qualify for commissions. Marketing Executives earn residual commissions based on their organization\'s purchases. The 2022 income disclosure shows 82% of members earn $0 (customers only), and Product Advocates average just $110-510/year.'
       },
       {
         question: 'How much do Melaleuca Marketing Executives earn?',
@@ -3206,7 +3208,7 @@ export const extendedCompanies: Company[] = [
         answer: 'Melaleuca has a generally positive reputation for product quality, particularly their Renew lotion and EcoSense cleaning products. Products are competitively priced compared to premium natural brands but require a subscription purchase commitment.'
       }
     ],
-    tagline: 'Idaho wellness company — calls itself "referral marketing" not MLM, generally positive reputation',
+    tagline: 'Idaho wellness MLM — 8-level organization, monthly product purchase required to earn commissions',
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
