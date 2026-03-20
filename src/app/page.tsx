@@ -71,6 +71,21 @@ export default function HomePage() {
             <p className="mt-4 text-sm text-gray-400">
               Search by company name, category, or type
             </p>
+            <div className="mt-6 inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-5 py-3">
+              <span className="text-2xl">📖</span>
+              <div className="text-left">
+                <p className="text-white text-sm font-semibold">Free Ebook: The Residual Income Shortcut</p>
+                <p className="text-gray-300 text-xs">The model that replaced 600 MLM team members with 24 customers</p>
+              </div>
+              <a
+                href="https://onlinegoldrush.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="whitespace-nowrap bg-amber-500 hover:bg-amber-600 text-white text-sm font-bold px-4 py-2 rounded-lg transition-colors"
+              >
+                Get it Free →
+              </a>
+            </div>
           </div>
         </div>
       </section>

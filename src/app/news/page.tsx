@@ -266,19 +266,26 @@ export default function NewsPage() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-12 bg-white border-t border-gray-200">
+      {/* Ebook CTA */}
+      <section className="py-12 bg-amber-50 border-t border-amber-200">
         <div className="container mx-auto px-4 max-w-2xl text-center">
-          <h3 className="text-2xl font-bold text-gray-900 mb-3">Looking for a Stable Alternative?</h3>
-          <p className="text-gray-600 mb-6">
-            Tired of comp plan changes and company closures? HBA has never changed its compensation plan since 2016 and has never missed a commission payment.
+          <div className="text-4xl mb-3">📖</div>
+          <h3 className="text-2xl font-bold text-gray-900 mb-3">Every story on this page teaches the same lesson.</h3>
+          <p className="text-gray-600 mb-2">
+            Comp plans change. Companies close. The only income you can count on is the kind that doesn't depend on a company's next decision.
           </p>
-          <Link
-            href="/companies/home-business-academy"
+          <p className="text-gray-700 font-medium mb-6">
+            The free ebook shows you the model that replaced a 600-person MLM team with 24 customers.
+          </p>
+          <a
+            href="https://onlinegoldrush.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold px-8 py-3 rounded-lg transition-colors"
           >
-            See Why HBA Rates #1 →
-          </Link>
+            Get the Free Ebook: The Residual Income Shortcut →
+          </a>
+          <p className="text-xs text-gray-500 mt-3">Free. No credit card. No catch.</p>
         </div>
       </section>
     </div>

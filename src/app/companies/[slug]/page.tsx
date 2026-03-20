@@ -400,6 +400,29 @@ export default async function CompanyPage({ params }: PageProps) {
               </div>
             )}
 
+            {/* Ebook Widget */}
+            <div className="bg-gradient-to-br from-amber-50 to-amber-100 border border-amber-200 rounded-xl p-6">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-2xl">📖</span>
+                <span className="text-xs font-semibold text-amber-700 uppercase tracking-wide">Free Ebook</span>
+              </div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2 leading-tight">
+                The Residual Income Shortcut
+              </h3>
+              <p className="text-gray-600 text-sm mb-4">
+                Tired of MLM math that never adds up? This free guide shows the model that replaced a 600-person team with 24 customers.
+              </p>
+              <a
+                href="https://onlinegoldrush.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full bg-amber-500 hover:bg-amber-600 text-white text-center px-4 py-2.5 rounded-lg font-semibold text-sm transition-colors"
+              >
+                Get the Free Ebook →
+              </a>
+              <p className="text-xs text-gray-500 text-center mt-2">No credit card required</p>
+            </div>
+
             {/* Related Companies */}
             <div className="bg-white rounded-lg border border-gray-200 p-6">
               <h3 className="font-bold text-gray-900 mb-4">Related Companies</h3>

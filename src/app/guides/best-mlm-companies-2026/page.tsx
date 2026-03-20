@@ -1,3 +1,4 @@
+import { EbookBanner } from '@/components';
 import { Metadata } from 'next';
 import Link from 'next/link';
 
@@ -71,6 +72,8 @@ export default function BestMLMCompanies2026Page() {
       </section>
 
       {/* Article Content */}
+      {/* Ebook Banner */}
+      <EbookBanner />
       <article className="py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
