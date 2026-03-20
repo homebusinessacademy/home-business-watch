@@ -1836,4 +1836,487 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '201',
+    slug: 'fiverr',
+    name: 'Fiverr',
+    category: 'other',
+    founded_year: 2010,
+    hq_location: 'Tel Aviv, Israel',
+    website: 'https://fiverr.com',
+    products_summary: 'Global freelance marketplace connecting buyers with sellers of digital services including graphic design, writing, programming, video editing, marketing, and more. Sellers ("Sellers") set their own prices starting at $5.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Freelance marketplace — seller keeps 80% (Fiverr takes 20%)',
+    overall_rating: 4.0,
+    residual_rating: 2.0,
+    simplicity_rating: 4.5,
+    transparency_rating: 4.0,
+    community_rating: 3.5,
+    value_rating: 4.5,
+    pros: [
+      'Free to join and start selling immediately',
+      'Massive buyer marketplace — millions of active buyers',
+      'Flexible — work on your own schedule, set your own prices',
+      'No cold outreach needed — buyers come to you through search',
+      'Fiverr Pro program for top sellers with premium pricing',
+      'Global market — work with clients worldwide'
+    ],
+    cons: [
+      'Fiverr takes 20% commission on every sale',
+      'Highly competitive in popular categories (writing, design)',
+      'Income is active — you stop working, income stops',
+      'New sellers may struggle to get initial reviews',
+      'Pricing pressure — race to the bottom in some categories',
+      'Algorithm changes can affect seller visibility'
+    ],
+    quick_facts: {
+      'Founded': '2010',
+      'Headquarters': 'Tel Aviv, Israel',
+      'Cost to Join': 'Free',
+      'Commission': 'Fiverr takes 20% of each order',
+      'Best For': 'Skilled freelancers in design, writing, tech, marketing'
+    },
+    faq: [
+      {
+        question: 'Can you make good money on Fiverr?',
+        answer: 'Yes — top Fiverr sellers earn $5,000-$50,000+/month. Success depends on your skill set, niche selection, gig optimization, and reviews. High-skill categories (programming, video production, specialized writing) command much higher rates than commodity services.'
+      },
+      {
+        question: 'How much does Fiverr take from sellers?',
+        answer: 'Fiverr charges sellers a 20% service fee on all earnings. If a buyer pays $100, the seller receives $80. Fiverr also charges buyers a service fee of 5.5% (minimum $2.50) on top of the seller\'s price.'
+      },
+      {
+        question: 'Is Fiverr good for beginners?',
+        answer: 'Fiverr is one of the best starting points for freelancers because buyers come to you. The challenge is getting initial reviews. Starting with competitive pricing, creating multiple gigs, and optimizing for search terms helps new sellers get traction.'
+      }
+    ],
+    tagline: 'World\'s largest freelance marketplace — work from anywhere, on your terms',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '202',
+    slug: 'upwork',
+    name: 'Upwork',
+    category: 'other',
+    founded_year: 2015,
+    hq_location: 'San Francisco, California, USA',
+    website: 'https://upwork.com',
+    products_summary: 'Leading freelance platform for professional services connecting businesses with independent talent. Focuses on longer-term client relationships and higher-value projects in tech, design, writing, marketing, and more.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Freelance marketplace — sliding commission: 20% up to $500, 10% $500-$10K, 5% above $10K per client',
+    overall_rating: 4.1,
+    residual_rating: 2.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 4.0,
+    community_rating: 3.5,
+    value_rating: 4.0,
+    pros: [
+      'Higher-value projects than Fiverr — better for professionals',
+      'Commission drops to 5% for long-term clients over $10K — very fair',
+      'Top Rated and Expert Vetted badges increase earning potential significantly',
+      'Fixed-price and hourly contract options',
+      'Strong client pool — major companies hire on Upwork',
+      'Upwork Payment Protection for both parties'
+    ],
+    cons: [
+      'Highly competitive for new freelancers without reviews',
+      '20% commission until $500 earned per client',
+      'Connects system — you spend credits to apply to jobs',
+      'Can take months to land first clients without a track record',
+      'Some clients have very low budgets'
+    ],
+    quick_facts: {
+      'Founded': '2015 (merger of oDesk and Elance)',
+      'Headquarters': 'San Francisco, California',
+      'Cost to Join': 'Free (10 free Connects/month)',
+      'Commission': '20% → 10% → 5% sliding scale per client',
+      'Best For': 'Professionals in tech, design, writing, marketing'
+    },
+    faq: [
+      {
+        question: 'Is Upwork worth it for freelancers?',
+        answer: 'Yes, especially for professionals with marketable skills. The sliding commission structure rewards long-term client relationships. Top Rated freelancers on Upwork consistently earn $50-$200+/hour. The platform takes time to build on but is one of the most legitimate freelance income paths available.'
+      },
+      {
+        question: 'Upwork vs Fiverr — which is better?',
+        answer: 'Upwork is better for professional services and longer-term projects. Fiverr is better for project-based work with a clear deliverable. Upwork clients tend to have higher budgets; Fiverr is more accessible for new freelancers. Many freelancers use both.'
+      },
+      {
+        question: 'How much can you earn on Upwork?',
+        answer: 'Earnings vary dramatically by skill and niche. Entry-level freelancers might earn $15-25/hour. Experienced developers, designers, and consultants routinely earn $75-200+/hour. Top freelancers with Expert Vetted status earn $150-500+/hour.'
+      }
+    ],
+    tagline: 'Professional freelance platform with sliding commissions — reward long-term client relationships',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '203',
+    slug: 'google-adsense',
+    name: 'Google AdSense',
+    category: 'affiliate',
+    founded_year: 2003,
+    hq_location: 'Mountain View, California, USA',
+    website: 'https://adsense.google.com',
+    products_summary: 'Google\'s advertising program allowing website and YouTube publishers to earn revenue by displaying targeted ads. Pays per click (CPC) and per thousand impressions (RPM). Free to join — Google takes ~32% of ad revenue.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Display advertising — CPC and CPM (publishers keep ~68% of ad revenue)',
+    overall_rating: 3.8,
+    residual_rating: 3.5,
+    simplicity_rating: 4.0,
+    transparency_rating: 3.5,
+    community_rating: 3.0,
+    value_rating: 4.0,
+    pros: [
+      'Free to join — no cost to publishers',
+      'Passive income once set up — ads run automatically',
+      'Trusted by millions of publishers worldwide',
+      'Works on websites AND YouTube channels',
+      'Payments via direct deposit — reliable monthly payments',
+      'Easy to implement — copy/paste code snippet'
+    ],
+    cons: [
+      'Low RPMs for most niches ($1-5/1,000 pageviews)',
+      'Requires significant traffic to earn meaningful income',
+      'Account can be banned for policy violations — sometimes without clear reason',
+      '$100 minimum payment threshold',
+      'Better alternatives (Mediavine, Raptive) available at higher traffic levels',
+      'Ad quality and relevance can vary'
+    ],
+    quick_facts: {
+      'Founded': '2003',
+      'Headquarters': 'Mountain View, California',
+      'Cost to Join': 'Free',
+      'Publisher Share': '~68% of ad revenue',
+      'Minimum Payout': '$100'
+    },
+    faq: [
+      {
+        question: 'How much does Google AdSense pay?',
+        answer: 'AdSense RPM (revenue per 1,000 pageviews) varies widely by niche: $1-3 for entertainment, $3-8 for lifestyle/food, $10-30 for finance/insurance. Most small sites earn $0.50-$5 per 1,000 visitors. Significant income requires hundreds of thousands of monthly visitors.'
+      },
+      {
+        question: 'When should I switch from AdSense to Mediavine or Raptive?',
+        answer: 'Mediavine requires 50,000 monthly sessions; Raptive requires 100,000 pageviews. Both pay 2-3x more than AdSense in most niches. If you qualify, switching is almost always worth it.'
+      },
+      {
+        question: 'Can my AdSense account be banned?',
+        answer: 'Yes. Google has strict policies and can ban accounts for invalid click activity, policy violations, or even mistakenly. Always follow AdSense policies carefully and avoid placing ads in ways that encourage accidental clicks.'
+      }
+    ],
+    tagline: 'Google\'s display advertising program — the starting point for publisher monetization',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '204',
+    slug: 'mediavine',
+    name: 'Mediavine',
+    category: 'affiliate',
+    founded_year: 2004,
+    hq_location: 'Lake Worth, Florida, USA',
+    website: 'https://mediavine.com',
+    products_summary: 'Premium ad management network for content creators requiring a minimum of 50,000 monthly sessions. Pays significantly higher RPMs than AdSense — typically $15-40+ per 1,000 visitors. Creator-first approach with 75% revenue share.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Ad management — publishers receive 75% of net ad revenue',
+    overall_rating: 4.4,
+    residual_rating: 4.0,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.5,
+    community_rating: 4.5,
+    value_rating: 4.5,
+    pros: [
+      '75% revenue share — significantly better than AdSense',
+      'RPMs typically 2-4x higher than AdSense in most niches',
+      'Exceptional publisher support and community',
+      'Creator-first philosophy — genuinely treats publishers as partners',
+      'Strong ad quality and page speed optimization',
+      'Transparent reporting and payment structure'
+    ],
+    cons: [
+      'Requires minimum 50,000 monthly sessions to apply',
+      'Not suitable for brand new websites',
+      'Exclusive contract — cannot run other ad networks simultaneously',
+      'RPMs vary significantly by niche and season',
+      'Travel and some niches saw RPM drops post-COVID'
+    ],
+    quick_facts: {
+      'Founded': '2004',
+      'Headquarters': 'Lake Worth, Florida',
+      'Minimum Traffic': '50,000 monthly sessions',
+      'Publisher Share': '75% of net ad revenue',
+      'Best For': 'Established content sites in food, lifestyle, travel, parenting'
+    },
+    faq: [
+      {
+        question: 'How much does Mediavine pay?',
+        answer: 'Mediavine RPMs typically range from $15-40+ per 1,000 sessions depending on niche, season, and traffic quality. Food, home decor, and personal finance blogs often earn the highest RPMs. Most publishers see 2-4x income increase switching from AdSense.'
+      },
+      {
+        question: 'How do I qualify for Mediavine?',
+        answer: 'You need a minimum of 50,000 monthly sessions (not pageviews), original content, and a site in good standing with Google. Apply through the Mediavine website — acceptance typically takes 2-4 weeks.'
+      },
+      {
+        question: 'Mediavine vs Raptive (AdThrive) — which is better?',
+        answer: 'Both are premium ad networks. Raptive requires 100,000 pageviews/month and is better for very high-traffic sites. Mediavine is more accessible (50,000 sessions) and is consistently praised for better publisher support. Most publishers are happy with either.'
+      }
+    ],
+    tagline: 'Premium ad management network — 75% revenue share, 2-4x better than AdSense',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '205',
+    slug: 'udemy-instructor',
+    name: 'Udemy (Course Instructor)',
+    category: 'other',
+    founded_year: 2010,
+    hq_location: 'San Francisco, California, USA',
+    website: 'https://udemy.com',
+    products_summary: 'World\'s largest online learning marketplace with 210,000+ courses and 73 million students. Instructors create and sell courses on any topic. Udemy takes 63% when they market your course; instructors keep 97% of sales from their own promotions.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Course marketplace — instructors earn 37% (Udemy sale) or 97% (own coupon)',
+    overall_rating: 4.0,
+    residual_rating: 4.0,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.5,
+    community_rating: 3.5,
+    value_rating: 4.0,
+    pros: [
+      'Free to create and publish courses',
+      'Access to 73 million students worldwide',
+      'Passive income once course is created — sells 24/7',
+      '97% revenue when you drive your own traffic via coupons',
+      'Udemy\'s marketplace can drive organic sales with no marketing effort',
+      'No technical skills needed — Udemy handles hosting and delivery'
+    ],
+    cons: [
+      'Udemy takes 63% on marketplace sales — instructors keep 37%',
+      'Frequent Udemy-wide sales (courses often discounted to $9.99) reduce per-sale revenue',
+      'High competition in popular categories',
+      'Udemy owns the customer relationship — limited ability to build email list',
+      'Revenue can be inconsistent due to Udemy\'s heavy discounting strategy'
+    ],
+    quick_facts: {
+      'Founded': '2010',
+      'Headquarters': 'San Francisco, California',
+      'Students': '73 million+',
+      'Courses': '210,000+',
+      'Instructor Revenue': '37% (Udemy sale) or 97% (own coupon)'
+    },
+    faq: [
+      {
+        question: 'How much can you earn as a Udemy instructor?',
+        answer: 'Top Udemy instructors earn $100,000-$1,000,000+/year. Average instructors with 2-5 courses in competitive niches might earn $1,000-$5,000/month. Success depends heavily on course quality, niche demand, and reviews.'
+      },
+      {
+        question: 'Why does Udemy take so much commission?',
+        answer: 'Udemy takes 63% on marketplace sales because they handle all marketing, payment processing, student support, and hosting. When you drive your own traffic using instructor coupons, you keep 97% — paying only a 3% transaction fee.'
+      },
+      {
+        question: 'Should I sell on Udemy or my own platform (Teachable/Kajabi)?',
+        answer: 'Udemy for discoverability and passive income from their marketplace. Your own platform (Teachable, Kajabi) for higher margins and owning the customer relationship. Many successful instructors use both — Udemy for traffic, own platform for premium offers.'
+      }
+    ],
+    tagline: 'World\'s largest course marketplace — 73M students, passive income potential',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '206',
+    slug: 'substack',
+    name: 'Substack',
+    category: 'other',
+    founded_year: 2017,
+    hq_location: 'San Francisco, California, USA',
+    website: 'https://substack.com',
+    products_summary: 'Newsletter and content subscription platform. Writers publish free and paid newsletters, keeping 90% of subscription revenue (Substack takes 10%). Top publications earn millions annually. Free to start — no cost until you monetize.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Newsletter platform — writers keep 90% of paid subscription revenue',
+    overall_rating: 4.2,
+    residual_rating: 4.0,
+    simplicity_rating: 4.5,
+    transparency_rating: 4.5,
+    community_rating: 4.0,
+    value_rating: 4.5,
+    pros: [
+      'Free to start — no fees until you charge subscribers',
+      'Writers keep 90% of subscription revenue',
+      'Simple, distraction-free writing interface',
+      'Built-in audience discovery via Substack recommendations',
+      'Own your subscriber list — can export anytime',
+      'Growing ecosystem with 35M+ active subscriptions'
+    ],
+    cons: [
+      '10% fee is higher than alternatives (Beehiiv, Ghost)',
+      'Discoverability limited — requires own audience building',
+      'No advanced email automation or segmentation',
+      'Substack can potentially change terms — platform risk',
+      'Better for writers; less suited for heavy HTML email designs'
+    ],
+    quick_facts: {
+      'Founded': '2017',
+      'Headquarters': 'San Francisco, California',
+      'Revenue Share': 'Writers keep 90%',
+      'Cost to Start': 'Free',
+      'Active Subscriptions': '35 million+ (2024)'
+    },
+    faq: [
+      {
+        question: 'How much can you earn on Substack?',
+        answer: 'Top Substack writers earn millions per year. A writer with 10,000 paid subscribers at $10/month earns ~$108,000/year after Substack\'s 10% fee. Even 500 paid subscribers at $8/month generates ~$43,200/year — a meaningful income stream.'
+      },
+      {
+        question: 'Is Substack free?',
+        answer: 'Yes. Substack is completely free to use for free newsletters. Substack only takes 10% when you charge paid subscribers. There are no monthly platform fees.'
+      },
+      {
+        question: 'Substack vs Beehiiv — which is better?',
+        answer: 'Beehiiv charges a monthly platform fee ($42+/month) but takes 0% of revenue. Substack is free but takes 10%. Beehiiv breaks even over Substack at ~$420/month in subscriber revenue. Beehiiv also has better analytics and monetization features for serious newsletter businesses.'
+      }
+    ],
+    tagline: 'Newsletter platform — writers keep 90%, free to start',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '207',
+    slug: 'patreon',
+    name: 'Patreon',
+    category: 'other',
+    founded_year: 2013,
+    hq_location: 'San Francisco, California, USA',
+    website: 'https://patreon.com',
+    products_summary: 'Membership platform for creators to earn recurring income from fans. Creators offer exclusive content, community access, and perks to paying members. Used by podcasters, artists, writers, musicians, and YouTubers.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Creator membership — Patreon takes 5-12% depending on plan',
+    overall_rating: 4.0,
+    residual_rating: 4.5,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.0,
+    community_rating: 4.0,
+    value_rating: 4.0,
+    pros: [
+      'Genuine recurring income — members pay monthly, consistently',
+      'Works for virtually any creator type (podcasters, artists, YouTubers)',
+      'Free to launch — only pay when you earn',
+      'Direct relationship with your most dedicated fans',
+      'Multiple membership tier options',
+      'Patreon handles payment processing and membership management'
+    ],
+    cons: [
+      'Patreon takes 5-12% depending on plan tier',
+      'Requires existing audience — doesn\'t bring you new fans',
+      'Member churn can be challenging to manage',
+      'Payment processor fees additional (~2.9% + $0.30)',
+      'Competition from alternatives (Ko-fi, Buy Me a Coffee)'
+    ],
+    quick_facts: {
+      'Founded': '2013',
+      'Headquarters': 'San Francisco, California',
+      'Creator Fee': '5% (Lite), 8% (Pro), 12% (Premium)',
+      'Cost to Start': 'Free',
+      'Creators': '250,000+ active creators'
+    },
+    faq: [
+      {
+        question: 'How much do Patreon creators earn?',
+        answer: 'Top Patreon creators earn $100,000+/month. The median Patreon creator earns much less — most creators with under 1,000 patrons earn $100-$2,000/month. Success correlates strongly with existing audience size and content quality.'
+      },
+      {
+        question: 'Is Patreon free to use?',
+        answer: 'Patreon is free to set up. They take a percentage of your earnings: 5% on Lite, 8% on Pro, and 12% on Premium. Payment processor fees (2.9% + $0.30 per transaction) are additional.'
+      },
+      {
+        question: 'What types of creators succeed on Patreon?',
+        answer: 'Podcasters, musicians, artists, comic creators, YouTubers, writers, and educators all thrive on Patreon. The key is offering exclusive value that fans can\'t get for free. Consistent, quality content and genuine community engagement drive retention.'
+      }
+    ],
+    tagline: 'Creator membership platform — genuine recurring income from your biggest fans',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '208',
+    slug: 'amazon-merch-on-demand',
+    name: 'Amazon Merch on Demand',
+    category: 'affiliate',
+    founded_year: 2015,
+    hq_location: 'Seattle, Washington, USA',
+    website: 'https://merch.amazon.com',
+    products_summary: 'Print-on-demand service allowing creators to sell custom t-shirts, hoodies, and other apparel on Amazon with no upfront costs. Amazon handles printing, shipping, and customer service. Creators earn royalties per sale.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Print-on-demand royalties — typically $2-10 per sale depending on product and price',
+    overall_rating: 3.8,
+    residual_rating: 3.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.5,
+    community_rating: 3.0,
+    value_rating: 4.0,
+    pros: [
+      'Zero upfront cost — no inventory or printing expenses',
+      'Amazon\'s massive marketplace provides built-in traffic',
+      'Truly passive — earn royalties while you sleep',
+      'Amazon handles fulfillment, customer service, and returns',
+      'Prime-eligible products increase conversion rates',
+      'Scale to thousands of designs with no additional cost'
+    ],
+    cons: [
+      'Invite/application required — approval not guaranteed',
+      'Royalties are relatively low ($2-10 per shirt)',
+      'Highly competitive — millions of designs on the platform',
+      'Limited to Amazon\'s product catalog',
+      'Tier system limits uploads until you reach sales milestones',
+      'Design copyright enforcement is your responsibility'
+    ],
+    quick_facts: {
+      'Founded': '2015',
+      'Headquarters': 'Seattle, Washington',
+      'Cost': 'Free (invite required)',
+      'Royalty': '$2-10 per item sold (varies by price point)',
+      'Products': 'T-shirts, hoodies, PopSockets, phone cases, and more'
+    },
+    faq: [
+      {
+        question: 'How much can you earn with Amazon Merch on Demand?',
+        answer: 'Successful Merch sellers with hundreds of designs earn $1,000-$10,000+/month. Most beginners earn $50-$500/month. Volume is key — more quality designs means more sales. Niche research and SEO are critical skills for success.'
+      },
+      {
+        question: 'Is Amazon Merch on Demand free?',
+        answer: 'Yes. There are no fees to join or use the service. Amazon handles all production and shipping costs. You earn a royalty each time a product sells. You need to request an invitation to join.'
+      },
+      {
+        question: 'What sells best on Amazon Merch?',
+        answer: 'Niche-specific designs outperform generic ones. Popular categories include humor/novelty, hobbies (fishing, hunting, gaming), occupations, family milestones, and holiday themes. Keyword research and trending topics are essential for visibility.'
+      }
+    ],
+    tagline: 'Sell custom apparel on Amazon with zero upfront cost — truly passive income',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
