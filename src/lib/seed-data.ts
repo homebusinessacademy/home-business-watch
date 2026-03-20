@@ -33,7 +33,6 @@ export const companies: Company[] = [
     ],
     cons: [
       'Must own a product to earn commission on it (qualified sale rule)',
-      'Financial Literacy Academy not included in monthly subscription (separate purchase)',
       'Requires consistent marketing effort — not passive without work',
       'Income requires consistent marketing effort and audience building'
     ],
