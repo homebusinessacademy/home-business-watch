@@ -65,10 +65,19 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <span className="text-gray-500">About Us (Coming Soon)</span>
+                <Link href="/about" className="hover:text-white transition-colors">
+                  About Us
+                </Link>
               </li>
               <li>
-                <span className="text-gray-500">Contact (Coming Soon)</span>
+                <Link href="/contact" className="hover:text-white transition-colors">
+                  Contact
+                </Link>
+              </li>
+              <li>
+                <Link href="/news" className="hover:text-white transition-colors">
+                  Industry News
+                </Link>
               </li>
             </ul>
           </div>
