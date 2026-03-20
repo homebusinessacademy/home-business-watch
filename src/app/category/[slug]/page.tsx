@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { CompanyCard } from '@/components';
-import { companies, getCompaniesByCategory } from '@/lib/seed-data';
+import { allCompanies as companies, getCompaniesByCategory } from '@/lib/seed-data';
 import { CompanyCategory, CATEGORY_LABELS, CATEGORY_DESCRIPTIONS } from '@/types';
 
 interface PageProps {

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { SearchBar, CompanyCard } from '@/components';
-import { companies, getRecentlyUpdatedCompanies, getFeaturedCompanies } from '@/lib/seed-data';
+import { allCompanies as companies, getRecentlyUpdatedCompanies, getFeaturedCompanies } from '@/lib/seed-data';
 import { RATING_DIMENSIONS } from '@/types';
 
 export default function HomePage() {
