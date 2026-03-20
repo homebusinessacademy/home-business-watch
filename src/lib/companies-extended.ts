@@ -3782,4 +3782,225 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '135',
+    slug: 'rain-international',
+    name: 'Rain International',
+    category: 'mlm',
+    founded_year: 2011,
+    hq_location: 'American Fork, Utah, USA',
+    website: 'https://rainintl.com',
+    products_summary: 'Seed-based nutrition MLM founded in 2011. Products are based on plant seeds, focusing on antioxidants and wellness. Subject to BBB National Programs monitoring for income claims (2025). Does not publish a public income disclosure — a significant transparency concern.',
+    monthly_cost_min: 50,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level binary',
+    overall_rating: 2.0,
+    residual_rating: 1.8,
+    simplicity_rating: 2.5,
+    transparency_rating: 1.5,
+    community_rating: 2.8,
+    value_rating: 2.0,
+    pros: [
+      'Unique seed-based nutrition concept differentiates from typical supplement MLMs',
+      'Founded 2011 — over 13 years in business',
+      'International presence in multiple markets'
+    ],
+    cons: [
+      'No public income disclosure published — major transparency red flag',
+      'BBB National Programs government referral in 2025 for income claim violations',
+      'Products significantly overpriced vs. comparable seed/antioxidant supplements',
+      'Binary compensation plan heavily favors early joiners',
+      'Most distributors earn minimal income per third-party reviews'
+    ],
+    quick_facts: {
+      'Founded': '2011',
+      'Headquarters': 'American Fork, Utah',
+      'Income Disclosure': 'Not published publicly ⚠️',
+      'BBB Status': 'Government referral 2025 for income claim issues',
+      'Products': 'Seed-based antioxidant supplements'
+    },
+    faq: [
+      {
+        question: 'Is Rain International a legitimate MLM?',
+        answer: 'Rain International sells real nutritional products and has been in business since 2011. However, the lack of a public income disclosure and a BBB National Programs government referral in 2025 for income claim violations are significant concerns for anyone evaluating the business opportunity.'
+      },
+      {
+        question: 'Does Rain International publish income disclosure?',
+        answer: 'No. Despite being in business since 2011, Rain International has not published a public income disclosure statement. This is a major transparency red flag — legitimate MLMs should disclose what typical participants actually earn.'
+      }
+    ],
+    tagline: 'Seed-based nutrition MLM — no public income disclosure, BBB income claim referral 2025',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '136',
+    slug: 'total-life-changes',
+    name: 'Total Life Changes',
+    category: 'mlm',
+    founded_year: 1999,
+    hq_location: 'Fair Haven, Michigan, USA',
+    website: 'https://totallifechanges.com',
+    products_summary: 'Health and wellness MLM known for its Iaso Tea detox tea and CBD/hemp products. Founded by Jack Fallon in 1999. Estimated $250M revenue in 2024. Popular in social media with strong African American community following.',
+    monthly_cost_min: 40,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level binary',
+    overall_rating: 2.3,
+    residual_rating: 2.0,
+    simplicity_rating: 3.0,
+    transparency_rating: 2.0,
+    community_rating: 3.5,
+    value_rating: 2.5,
+    pros: [
+      'Strong community following, particularly in African American wellness space',
+      'Iaso Tea has genuine viral popularity and brand recognition',
+      'Low entry point compared to many MLMs',
+      'CBD and hemp products align with growing wellness trend',
+      'Founded 1999 — 25+ years in business'
+    ],
+    cons: [
+      'Income disclosure data not prominently published or updated',
+      'Iaso Tea health claims are not clinically substantiated',
+      'Required autoship to maintain active distributor status',
+      'Binary compensation plan favors heavy recruiters',
+      'Most distributors earn minimal income'
+    ],
+    quick_facts: {
+      'Founded': '1999',
+      'Headquarters': 'Fair Haven, Michigan',
+      'Founder': 'Jack Fallon',
+      'Est. 2024 Revenue': '$250 million',
+      'Known For': 'Iaso Detox Tea, CBD/hemp products'
+    },
+    faq: [
+      {
+        question: 'Does Iaso Tea actually work for weight loss?',
+        answer: 'Iaso Tea is a detox/herbal tea blend marketed for weight loss and cleansing. While some users report positive experiences, the health claims are not clinically substantiated. Any initial weight loss is likely water weight from the detox effect rather than fat loss.'
+      },
+      {
+        question: 'Is Total Life Changes a good business opportunity?',
+        answer: 'Like most MLMs, the business opportunity is challenging for most participants. The company has a strong community following, particularly on social media, but income disclosure data is limited. The binary compensation plan rewards those who recruit heavily.'
+      }
+    ],
+    tagline: 'Iaso Tea and hemp wellness MLM with strong social media community',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '137',
+    slug: 'neora',
+    name: 'Neora (formerly Nerium International)',
+    category: 'mlm',
+    founded_year: 2011,
+    hq_location: 'Addison, Texas, USA',
+    website: 'https://neora.com',
+    products_summary: 'Anti-aging skincare and wellness MLM formerly known as Nerium International (rebranded 2019). Became the first direct selling company to defeat the FTC in a pyramid scheme lawsuit — the court ruled in Neora\'s favor in September 2023 on all five FTC claims. However, the court also ruled the FTC\'s position was "substantially justified," preventing Neora from recovering legal fees.',
+    monthly_cost_min: 50,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level unilevel',
+    overall_rating: 2.5,
+    residual_rating: 2.0,
+    simplicity_rating: 2.5,
+    transparency_rating: 2.5,
+    community_rating: 3.0,
+    value_rating: 2.5,
+    pros: [
+      'First direct selling company to defeat FTC in pyramid scheme lawsuit (September 2023)',
+      'Rebranded from Nerium to Neora in 2019 with expanded product line',
+      'Skincare products have genuine consumer following',
+      'Transparency about legal history — posts court victory on website'
+    ],
+    cons: [
+      'FTC sued alleging pyramid scheme — won the case but battle signals scrutiny',
+      'Court found FTC\'s position "substantially justified" despite Neora winning',
+      'Most brand partners earn minimal income after product purchase requirements',
+      'Products priced at premium vs. comparable skincare',
+      'Previous Nerium brand had controversial marketing claims'
+    ],
+    quick_facts: {
+      'Founded': '2011 (as Nerium International)',
+      'Rebranded': 'Neora (2019)',
+      'Headquarters': 'Addison, Texas',
+      'FTC Lawsuit': 'Won — court ruled in Neora\'s favor September 2023',
+      'Founder': 'Jeff Olson'
+    },
+    faq: [
+      {
+        question: 'Did Neora win its FTC lawsuit?',
+        answer: 'Yes. In September 2023, the district court ruled against the FTC on all five of its pyramid scheme claims against Neora. This made Neora the first direct selling company to defeat an FTC pyramid scheme lawsuit. However, the court also ruled in May 2024 that Neora could not recover its legal fees because the FTC\'s position was "substantially justified."'
+      },
+      {
+        question: 'Why did the FTC sue Neora?',
+        answer: 'The FTC sued Neora (then still operating under the Nerium name) alleging it operated as a pyramid scheme from the start, made deceptive health claims, and made misleading income claims. Despite winning in court, the case put a spotlight on how Neora\'s compensation structure was structured.'
+      },
+      {
+        question: 'Is Neora a good MLM to join?',
+        answer: 'Neora has real skincare products and won its FTC lawsuit, which is notable. However, like most MLMs, the income opportunity is difficult for most participants. The required monthly product purchases and recruiting-dependent income structure present challenges for the average brand partner.'
+      }
+    ],
+    tagline: 'First direct selling company to defeat FTC pyramid scheme lawsuit — September 2023',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '138',
+    slug: 'shaklee',
+    name: 'Shaklee Corporation',
+    category: 'mlm',
+    founded_year: 1956,
+    hq_location: 'Pleasanton, California, USA',
+    website: 'https://shaklee.com',
+    products_summary: 'One of the oldest nutrition MLMs in America, founded by Dr. Forrest C. Shaklee in 1956. Known for quality supplements, protein shakes, and cleaning products. First company to certify its products as Climate Neutral. Considered one of the more reputable MLMs due to product quality and 68-year track record.',
+    monthly_cost_min: 50,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level with rank advancement',
+    overall_rating: 2.8,
+    residual_rating: 2.5,
+    simplicity_rating: 2.5,
+    transparency_rating: 3.0,
+    community_rating: 3.5,
+    value_rating: 2.5,
+    pros: [
+      'Founded 1956 — 68-year track record, one of the oldest US nutrition MLMs',
+      'First company certified Climate Neutral — strong environmental commitment',
+      'Products generally well-regarded for quality',
+      'Provides public earnings data on website',
+      'Strong legacy brand with loyal long-term customer base'
+    ],
+    cons: [
+      'Most Shaklee Ambassadors earn modest supplemental income',
+      'Products significantly overpriced vs. comparable retail supplements',
+      'Required monthly purchases to maintain active status and earn commissions',
+      'MLM income structure still heavily dependent on team building',
+      'Legacy brand has slower growth compared to newer MLMs'
+    ],
+    quick_facts: {
+      'Founded': '1956',
+      'Headquarters': 'Pleasanton, California',
+      'Founder': 'Dr. Forrest C. Shaklee',
+      'Distinction': 'First company certified Climate Neutral',
+      'Earnings': 'Public data available on website'
+    },
+    faq: [
+      {
+        question: 'Is Shaklee a reputable MLM?',
+        answer: 'Shaklee is considered one of the more reputable MLMs in the industry. With 68 years in business, genuine product quality, environmental certifications, and public earnings data, it scores better than most on transparency. However, the income opportunity is still challenging for most participants.'
+      },
+      {
+        question: 'Are Shaklee products good quality?',
+        answer: 'Shaklee products are generally well-regarded for quality. The company was the first to earn Climate Neutral certification and has strong manufacturing standards. However, like most MLM brands, the products are significantly overpriced compared to comparable retail alternatives.'
+      }
+    ],
+    tagline: 'One of America\'s oldest nutrition MLMs — founded 1956, first Climate Neutral company',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];

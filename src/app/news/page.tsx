@@ -51,6 +51,18 @@ const newsItems = [
     impact: 'High',
   },
   {
+    id: 'neora-ftc-win-2023',
+    date: '2023-09-01',
+    category: 'Legal',
+    categoryColor: 'blue',
+    title: 'Neora Defeats FTC in Landmark Pyramid Scheme Lawsuit',
+    summary: 'In September 2023, a federal district court ruled in favor of Neora (formerly Nerium International) on all five FTC pyramid scheme claims — making Neora the first direct selling company to defeat an FTC pyramid scheme lawsuit. The court denied the FTC\'s requested relief on all claims. However, in May 2024 the court also ruled that Neora could not recover its legal fees because the FTC\'s position was "substantially justified," signaling the case was genuinely close.',
+    companySlug: 'neora',
+    companyName: 'Neora',
+    source: 'Federal Trade Commission, Neora.com',
+    impact: 'Medium',
+  },
+  {
     id: '7k-metals-pivot-2026',
     date: '2026-03-03',
     category: 'Business Model Change',
