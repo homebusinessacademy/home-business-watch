@@ -9,8 +9,8 @@ export function Header() {
   const navLinks = [
     { href: '/category/mlm', label: 'MLM Reviews' },
     { href: '/category/affiliate', label: 'Affiliate Programs' },
-    { href: '/category/direct_sales', label: 'Direct Sales' },
     { href: '/category/other', label: 'Work From Home' },
+    { href: '/news', label: '📰 News' },
   ];
 
   return (
