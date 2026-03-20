@@ -2319,4 +2319,69 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '117',
+    slug: 'livegood',
+    name: 'LiveGood',
+    category: 'mlm',
+    founded_year: 2022,
+    hq_location: 'Osprey, Florida, USA',
+    website: 'https://livegood.com',
+    products_summary: 'Health and wellness MLM founded by Ben Glinsky in 2022. Sells supplements, CBD products, and personal care items through a unique membership model ($9.95/month) with no required product purchases to earn. Explosive growth — estimated $85-125M in 2024 revenue, 350,000+ members globally.',
+    monthly_cost_min: 9,
+    monthly_cost_max: 10,
+    comp_plan_type: 'Forced matrix (2x15) — members pay $9.95/month, affiliates earn from matrix positions',
+    overall_rating: 2.8,
+    residual_rating: 2.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 2.5,
+    community_rating: 3.0,
+    value_rating: 3.0,
+    pros: [
+      'Very low membership cost — $9.95/month vs $100+ at most MLMs',
+      'No required product purchase to earn commissions',
+      'Explosive growth — 350,000+ members and estimated $85-125M revenue in 2024',
+      'Products positioned as "wholesale" pricing for members',
+      'Simple concept attracts beginners to the opportunity'
+    ],
+    cons: [
+      'Does not publish a transparent income disclosure statement',
+      'Forced matrix (2x15) heavily favors early joiners — late entrants struggle',
+      'Most income claims online are from top recruiters, not typical members',
+      'Rapid growth of new MLMs often followed by plateau or decline',
+      'Business model fundamentally relies on continuous recruitment',
+      'Founded only 2022 — no long-term track record of stability'
+    ],
+    quick_facts: {
+      'Founded': '2022',
+      'Headquarters': 'Osprey, Florida',
+      'Founder': 'Ben Glinsky',
+      'Membership Cost': '$9.95/month',
+      'Matrix Type': 'Forced 2x15 matrix',
+      '2024 Est. Revenue': '$85-125 million (1,600% growth)'
+    },
+    faq: [
+      {
+        question: 'Is LiveGood a pyramid scheme?',
+        answer: 'LiveGood is structured as a legal MLM with real products. However, like most matrix-based MLMs, income potential is heavily dependent on your position in the matrix and how early you joined. The forced 2x15 matrix rewards early adopters disproportionately.'
+      },
+      {
+        question: 'How does LiveGood make money?',
+        answer: 'LiveGood earns revenue through $9.95/month member subscriptions plus product sales. Affiliates who recruit new members earn commissions based on their matrix position. The low entry cost has been a key driver of the company\'s rapid growth.'
+      },
+      {
+        question: 'Is LiveGood\'s growth sustainable?',
+        answer: 'LiveGood\'s 1,600% revenue growth in 2024 is impressive but typical of new MLMs in their early surge phase. Historically, many MLMs experience rapid growth followed by plateau or decline as recruitment slows. LiveGood is too new to have a proven long-term track record.'
+      },
+      {
+        question: 'How much do LiveGood affiliates earn?',
+        answer: 'LiveGood does not publish a transparent income disclosure. Claims online vary widely. Like most MLMs, the majority of affiliates earn modest income or none. Top recruiters with large downlines earn significantly more. Without an official income disclosure, verify claims carefully.'
+      }
+    ],
+    tagline: 'Fast-growing $9.95/month wellness MLM — 350,000+ members since 2022',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
