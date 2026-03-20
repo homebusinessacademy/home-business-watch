@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { companies, comparisonPages } from '@/lib/seed-data';
+import { allCompanies as companies, comparisonPages } from '@/lib/seed-data';
 import { CompanyCategory } from '@/types';
 
 const BASE_URL = 'https://homebusinesswatch.com';
@@ -9,12 +9,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: BASE_URL,
-      lastModified: currentDate,
-      changeFrequency: 'daily',
-      priority: 1.0,
-    },
+    { url: BASE_URL, lastModified: currentDate, changeFrequency: 'daily', priority: 1.0 },
+    { url: `${BASE_URL}/news`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE_URL}/about`, lastModified: currentDate, changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE_URL}/contact`, lastModified: currentDate, changeFrequency: 'monthly', priority: 0.5 },
   ];
 
   // Category pages
