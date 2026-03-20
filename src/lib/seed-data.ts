@@ -45,7 +45,7 @@ export const companies: Company[] = [
       'Commission Rate': '80% on subscription products',
       'Pay Schedule': 'Every Thursday via iPayout',
       'Comp Plan Changes': 'Zero since founding in 2016',
-      'Recruiting Required': 'No — one-tier model'
+      'Income Model': 'One-tier — earn on your direct referrals'
     },
     last_updated: new Date().toISOString(),
     is_featured: true,
@@ -418,7 +418,7 @@ export const comparisonPages: ComparisonPage[] = [
         {
           category: 'Recruiting Required',
           company_value: 'Effectively required to profit',
-          vs_company_value: 'No recruiting required',
+          vs_company_value: 'One-tier: earn on your direct referrals',
           winner: 'vs_company'
         },
         {

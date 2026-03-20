@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { QuickFactsBox, RatingBreakdown, StarRating } from '@/components';
 import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, companies, getCompanyComparison } from '@/lib/seed-data';
+import HBAReviewsSection from '@/components/HBAReviewsSection';
 import { CATEGORY_LABELS } from '@/types';
 
 interface PageProps {
@@ -275,7 +276,7 @@ export default async function CompanyPage({ params }: PageProps) {
               <section>
                 <h2 className="text-xl font-bold text-gray-900 mb-2">Member Reviews</h2>
                 <p className="text-sm text-gray-500 mb-4">Real reviews from verified HBA members via thehba.app/reviews</p>
-                <script src="https://thehba.app/widget/reviews.js" data-hba-reviews data-layout="carousel" data-theme="auto" async></script>
+                <HBAReviewsSection />
               </section>
             )}
 
