@@ -63,6 +63,18 @@ const newsItems = [
     impact: 'High',
   },
   {
+    id: 'beachbody-pivot-2024',
+    date: '2024-09-30',
+    category: 'Business Model Change',
+    categoryColor: 'blue',
+    title: 'Beachbody (BODi) Exits MLM — Pivots to Single-Level Affiliate Model',
+    summary: 'Beachbody announced on September 30, 2024 that it would convert its multi-level marketing model to a single-level affiliate program, effective November 1, 2024. The pivot came alongside a 33% workforce reduction (170 employees). Former coaches who built multi-level teams lost residual income from their downlines. Previous income disclosure revealed 57% of coaches earned $0 annually, and only 1% earned more than $10,000/year.',
+    companySlug: 'beachbody-bodi',
+    companyName: 'Beachbody / BODi',
+    source: 'Business Wire, Investing.com',
+    impact: 'High',
+  },
+  {
     id: 'hba-emailer-launch-2026',
     date: '2026-03-17',
     category: 'New Feature',

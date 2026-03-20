@@ -2384,4 +2384,69 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '118',
+    slug: 'beachbody-bodi',
+    name: 'Beachbody / BODi',
+    category: 'affiliate',
+    founded_year: 1998,
+    hq_location: 'Los Angeles, California, USA',
+    website: 'https://bodi.com',
+    products_summary: 'Fitness and nutrition company behind P90X, Insanity, and 21 Day Fix. Rebranded from Beachbody to BODi in 2022. Pivoted from MLM to single-level affiliate model on November 1, 2024 — eliminating the multi-level coaching structure and cutting 33% of workforce (170 employees). Publicly traded on NYSE (BODI).',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Single-level affiliate (pivoted from MLM in November 2024)',
+    overall_rating: 3.0,
+    residual_rating: 2.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.5,
+    community_rating: 3.5,
+    value_rating: 3.0,
+    pros: [
+      'Pivoted from MLM to single-level affiliate model in November 2024 — more transparent structure',
+      'Iconic fitness brand — P90X, Insanity, and 21 Day Fix have broad recognition',
+      'Subscription streaming platform (BODi) includes 1,000s of workouts',
+      'Real, high-quality fitness products with genuine consumer demand',
+      'Affiliate model eliminates recruiting pressure of MLM'
+    ],
+    cons: [
+      'Former MLM coaches who built multi-level teams lost those residual income streams in the pivot',
+      'Previous MLM income disclosure: 57% of coaches earned $0 annually',
+      'Only 1% of former coaches earned more than $10,000/year under MLM model',
+      'Pivot came with 33% workforce reduction — company in financial restructuring',
+      'Publicly traded (NYSE: BODI) — share price has declined significantly',
+      'New affiliate program commissions lower than top MLM coach earnings'
+    ],
+    quick_facts: {
+      'Founded': '1998',
+      'Headquarters': 'Los Angeles, California',
+      'Stock Ticker': 'NYSE: BODI',
+      'MLM Pivot Date': 'November 1, 2024',
+      'Workforce Cut': '170 employees (33%) during pivot',
+      'Former Income Disclosure': '57% of coaches earned $0/year'
+    },
+    faq: [
+      {
+        question: 'Did Beachbody stop being an MLM?',
+        answer: 'Yes. On September 30, 2024, Beachbody (BODi) announced a pivot from its multi-level marketing model to a single-level affiliate program, effective November 1, 2024. The change eliminated the multi-level coaching compensation structure and resulted in 170 layoffs (33% of workforce).'
+      },
+      {
+        question: 'What happened to Beachbody coaches after the pivot?',
+        answer: 'Former Beachbody coaches who had built multi-level teams lost the residual income from their downline. The new affiliate model pays commissions only on direct personal sales. Many coaches who built their businesses around the team-building income were significantly impacted.'
+      },
+      {
+        question: 'How much did Beachbody coaches earn under the MLM model?',
+        answer: 'Per income disclosure data: 57% of coaches earned $0 in a given year. Only 1% of coaches earned more than $10,000/year. The average income across all coaches was approximately $3,000/year in 2020-2021 — before expenses including required product purchases.'
+      },
+      {
+        question: 'Is BODi (Beachbody) a good fitness product?',
+        answer: 'BODi\'s streaming fitness platform includes thousands of workouts from P90X, Insanity, 21 Day Fix, and more. As a fitness product, it has genuine value. As a business opportunity under either the old MLM or new affiliate model, results for most participants are modest.'
+      }
+    ],
+    tagline: 'Iconic fitness brand that pivoted from MLM to affiliate model in November 2024',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
