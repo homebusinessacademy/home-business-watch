@@ -3189,9 +3189,8 @@ export const extendedCompanies: Company[] = [
       'Founded': '1985',
       'Headquarters': 'Idaho Falls, Idaho',
       'Founder': 'Frank VanderSloot',
-      'Monthly Minimum': '~$75-150 product order',
-      'Classification': 'MLM — 8-level organization, ranks from Product Advocate to Presidential Director',
       'Monthly Minimum': '35 product points (~$55-70/mo) required to earn commissions',
+      'Classification': 'MLM — 8-level organization, ranks from Product Advocate to Presidential Director',
       '2022 Income Disclosure': '82% earn $0; Product Advocates avg $110-510/yr; Directors avg $2,073/yr'
     },
     faq: [
