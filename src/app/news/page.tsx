@@ -63,6 +63,18 @@ const newsItems = [
     impact: 'High',
   },
   {
+    id: 'beautycounter-terminated-2024',
+    date: '2024-04-17',
+    category: 'Closure',
+    categoryColor: 'red',
+    title: 'Beautycounter Terminates ALL MLM Distributors — April 17, 2024',
+    summary: 'Clean beauty brand Beautycounter sent termination notices to all Brand Advocates (MLM distributors) on April 17, 2024, shutting down its entire MLM distribution model with essentially no advance warning. Thousands of advocates who had built businesses around Beautycounter lost their income streams overnight. The company continues selling products through direct retail channels. This is a stark reminder of the risk of building income on a platform you don\'t control.',
+    companySlug: 'beautycounter',
+    companyName: 'Beautycounter',
+    source: 'BusinessForHome.org, Reddit r/antiMLM',
+    impact: 'High',
+  },
+  {
     id: 'avon-bankruptcy-2024',
     date: '2024-08-12',
     category: 'Bankruptcy',

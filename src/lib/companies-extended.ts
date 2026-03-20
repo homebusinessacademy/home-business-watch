@@ -2685,4 +2685,238 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '123',
+    slug: 'beautycounter',
+    name: 'Beautycounter',
+    category: 'mlm',
+    founded_year: 2013,
+    hq_location: 'Santa Monica, California, USA',
+    website: 'https://beautycounter.com',
+    products_summary: '⚠️ TERMINATED ALL MLM DISTRIBUTORS APRIL 2024. Clean beauty brand founded by Gregg Renfrew in 2013. Was known for advocating safer cosmetics legislation while operating an MLM distribution model. Terminated all Brand Advocate agreements on April 17, 2024, shutting down the MLM side of the business.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: '⚠️ MLM distribution model terminated April 17, 2024',
+    overall_rating: 1.5,
+    residual_rating: 1.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 2.0,
+    value_rating: 2.0,
+    pros: [
+      'Championed clean beauty and safer cosmetics legislation',
+      'High-quality products with genuine clean beauty positioning',
+      'Strong brand reputation in the natural/clean beauty space',
+      'Products now available through direct retail channels'
+    ],
+    cons: [
+      '⚠️ Terminated ALL Brand Advocate (MLM) agreements on April 17, 2024',
+      'Thousands of distributors lost their income streams overnight with 1-day notice',
+      'Business opportunity no longer exists — company exited MLM model entirely',
+      'Former advocates unable to earn commissions on ongoing sales',
+      'Demonstrates the fundamental risk of building income on someone else\'s platform'
+    ],
+    quick_facts: {
+      'Founded': '2013',
+      'Headquarters': 'Santa Monica, California',
+      'MLM Terminated': '⚠️ April 17, 2024 — ALL distributors terminated',
+      'Founder': 'Gregg Renfrew',
+      'Current Model': 'Direct retail only (no affiliate/MLM opportunity)'
+    },
+    faq: [
+      {
+        question: 'Did Beautycounter shut down its MLM?',
+        answer: 'Yes. Beautycounter terminated all Brand Advocate agreements on April 17, 2024, effectively shutting down its MLM distribution model. Thousands of advocates received written termination notices with essentially no advance warning. The company continues selling products through direct retail channels.'
+      },
+      {
+        question: 'Can you still sell Beautycounter products?',
+        answer: 'Beautycounter products are still sold, but no longer through an MLM distribution model. There is no brand advocate/distributor program to join. Products are sold directly through beautycounter.com.'
+      },
+      {
+        question: 'Why did Beautycounter shut down its MLM?',
+        answer: 'The specific reasons were not publicly disclosed. The shutdown followed a period of ownership and leadership changes. The abrupt termination highlighted the risk that MLM participants face when companies decide to change their business models with little notice.'
+      }
+    ],
+    tagline: '⚠️ Clean beauty brand that terminated ALL MLM distributors on April 17, 2024',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '124',
+    slug: 'pruvit',
+    name: 'Prüvit',
+    category: 'mlm',
+    founded_year: 2015,
+    hq_location: 'Springville, Utah, USA',
+    website: 'https://pruvit.com',
+    products_summary: 'Ketone supplement MLM founded by Brian Underwood. Sells exogenous ketone drinks (KETO//OS) and related products. Positions products as supporting ketosis, energy, and weight management. Subject to TINA.org income claims audit in 2024.',
+    monthly_cost_min: 80,
+    monthly_cost_max: 200,
+    comp_plan_type: 'Multi-level with rank-based Promoter system',
+    overall_rating: 2.1,
+    residual_rating: 1.8,
+    simplicity_rating: 2.5,
+    transparency_rating: 2.0,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'Ketone supplements have growing consumer interest with keto diet trend',
+      'Some users report genuine energy and mental clarity benefits',
+      'Active community with regular challenges and events',
+      'Products available in multiple flavors'
+    ],
+    cons: [
+      'Per income disclosure: R1 Promoters (16% of all Promoters) average only $304/year',
+      'Exogenous ketones are significantly overpriced vs. DIY or retail alternatives',
+      'Health claims by distributors audited by TINA.org for FTC compliance issues (2024)',
+      'Monthly autoship ~$80-200 required to stay active and earn',
+      'Scientific evidence for exogenous ketone benefits is mixed',
+      'Most Promoters earn far below the cost of their required product purchases'
+    ],
+    quick_facts: {
+      'Founded': '2015',
+      'Headquarters': 'Springville, Utah',
+      'Founder': 'Brian Underwood',
+      'Income Disclosure': 'R1 Promoters (largest group) avg. $304/year (2022)',
+      'TINA.org Audit': 'Income claims audited October 2024'
+    },
+    faq: [
+      {
+        question: 'Does Prüvit KETO//OS actually work?',
+        answer: 'Exogenous ketones can raise blood ketone levels, but the health benefits of this effect are debated in the scientific literature. Some users report increased energy and mental focus. However, the products are significantly overpriced compared to alternatives, and the ketogenic diet itself (without supplements) achieves similar results.'
+      },
+      {
+        question: 'How much do Prüvit Promoters earn?',
+        answer: 'Per Prüvit\'s own income disclosure, R1 Promoters (the largest active group, comprising 16% of all Promoters) averaged just $304/year in 2022. Given monthly autoship costs of $80-200, most Promoters lose money on the opportunity.'
+      },
+      {
+        question: 'Is Prüvit an MLM?',
+        answer: 'Yes. Prüvit operates a multi-level marketing compensation plan where Promoters earn commissions on product sales and from recruiting new Promoters. TINA.org audited Prüvit\'s income claims in 2024 for FTC compliance.'
+      }
+    ],
+    tagline: 'Ketone supplement MLM — R1 Promoters average $304/year per income disclosure',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '125',
+    slug: '4life-research',
+    name: '4Life Research',
+    category: 'mlm',
+    founded_year: 1998,
+    hq_location: 'Sandy, Utah, USA',
+    website: 'https://4life.com',
+    products_summary: 'Nutritional supplement MLM known for Transfer Factor products — supplements claimed to support immune health. Founded by David and Bianca Lisonbee in 1998. Estimated $300M revenue in 2024. Active in 80+ countries.',
+    monthly_cost_min: 80,
+    monthly_cost_max: 200,
+    comp_plan_type: 'Multi-level with Diamond bonus pool',
+    overall_rating: 2.3,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'Transfer Factor is a unique product category with patented technology',
+      'Founded 1998 — stable 26-year track record',
+      'Active in 80+ countries with global distributor base',
+      'Estimated $300M revenue in 2024 — financially stable'
+    ],
+    cons: [
+      'Income disclosure audited by TINA.org for compliance issues (2024)',
+      'Most distributors earn minimal income — typical MLM income distribution',
+      'Health claims for Transfer Factor products not evaluated by FDA',
+      'Required monthly purchases ($80-200) to maintain active status and qualify for commissions',
+      'Products significantly overpriced vs. comparable immune supplements'
+    ],
+    quick_facts: {
+      'Founded': '1998',
+      'Headquarters': 'Sandy, Utah',
+      'Founders': 'David & Bianca Lisonbee',
+      'Est. 2024 Revenue': '$300 million',
+      'Markets': '80+ countries'
+    },
+    faq: [
+      {
+        question: 'What are 4Life Transfer Factor products?',
+        answer: '4Life\'s flagship products are Transfer Factor supplements — proprietary extracts from cow colostrum and egg yolks claimed to support immune system function. The technology is patented. However, FDA has not evaluated these claims, and independent clinical evidence is limited.'
+      },
+      {
+        question: 'Is 4Life a legitimate MLM?',
+        answer: '4Life is a legitimate MLM company with 26 years in business and real products. However, like most MLMs, the income opportunity is challenging — most distributors earn minimal income after accounting for required monthly product purchases.'
+      },
+      {
+        question: 'How much do 4Life distributors earn?',
+        answer: '4Life has an income disclosure but specific average earnings data varies by rank. TINA.org audited 4Life\'s income claims in 2024 for FTC compliance. As with most MLMs, the vast majority of active distributors earn less than their monthly product purchase requirements.'
+      }
+    ],
+    tagline: 'Transfer factor immune supplement MLM — 26 years, 80+ countries',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '126',
+    slug: 'atomy',
+    name: 'Atomy',
+    category: 'mlm',
+    founded_year: 2009,
+    hq_location: 'Gongju, South Korea',
+    website: 'https://atomy.com',
+    products_summary: 'South Korean MLM founded by Han-Gil Park selling health, beauty, and household products. Known for its "absolute quality, absolute price" positioning offering premium products at accessible prices. Strong in Asia Pacific markets with over 20 million members globally.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 100,
+    comp_plan_type: 'Sliding scale / customer accumulation plan',
+    overall_rating: 2.5,
+    residual_rating: 2.0,
+    simplicity_rating: 2.5,
+    transparency_rating: 2.0,
+    community_rating: 3.0,
+    value_rating: 3.0,
+    pros: [
+      '"Absolute quality, absolute price" positioning — products claim to offer value vs. premium brands',
+      'Over 20 million members globally — significant scale',
+      'Free to join — no starter kit required',
+      'Strong in Asian markets with well-established infrastructure',
+      'No required monthly purchases to remain a member'
+    ],
+    cons: [
+      'Complex "pay to play" rank advancement system',
+      'Income potential heavily dependent on recruiting and team volume',
+      'Limited income disclosure transparency for Western markets',
+      'Primarily designed for and dominant in Asian markets — harder to build in US',
+      'Some critics label as having pyramid scheme characteristics in structure'
+    ],
+    quick_facts: {
+      'Founded': '2009',
+      'Headquarters': 'Gongju, South Korea',
+      'Founder': 'Han-Gil Park',
+      'Members': '20 million+ globally',
+      'Cost to Join': 'Free'
+    },
+    faq: [
+      {
+        question: 'Is Atomy a pyramid scheme?',
+        answer: 'Atomy is a legal MLM company with real products and free membership. However, its compensation structure requires significant team-building to advance ranks and earn meaningful income. Critics note the "pay to play" nature of rank advancement. Atomy operates legally under South Korea\'s Fair Trade Commission regulations.'
+      },
+      {
+        question: 'Is Atomy free to join?',
+        answer: 'Yes. Unlike most MLMs, Atomy has no starter kit cost and no required monthly purchases to remain a member. This low barrier to entry has contributed to their 20+ million member count, though membership numbers don\'t directly translate to active earners.'
+      },
+      {
+        question: 'Can you make money with Atomy in the US?',
+        answer: 'Atomy\'s business model works best in Asian markets where the company has strong brand recognition. Building an Atomy business in the US is challenging due to limited brand awareness, competition from established supplement brands, and the general difficulty of MLM income generation.'
+      }
+    ],
+    tagline: 'South Korean MLM with 20M+ members — "absolute quality, absolute price"',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
