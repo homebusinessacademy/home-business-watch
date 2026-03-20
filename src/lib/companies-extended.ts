@@ -4003,4 +4003,345 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '139',
+    slug: 'forever-living-aloe',
+    name: 'Aloe Vera of America (AloeCure)',
+    category: 'mlm',
+    founded_year: 1985,
+    hq_location: 'Irving, Texas, USA',
+    website: 'https://aloecure.com',
+    products_summary: 'Aloe vera health products MLM selling drinks, supplements, and skincare through independent distributors. One of several aloe-focused direct sales companies competing with Forever Living Products.',
+    monthly_cost_min: 30,
+    monthly_cost_max: 100,
+    comp_plan_type: 'Multi-level',
+    overall_rating: 2.0,
+    residual_rating: 1.8,
+    simplicity_rating: 2.5,
+    transparency_rating: 2.0,
+    community_rating: 2.5,
+    value_rating: 2.0,
+    pros: [
+      'Aloe vera has genuine health benefits and consumer demand',
+      'Natural/organic positioning appeals to wellness-conscious buyers',
+      'Low startup cost compared to many MLMs'
+    ],
+    cons: [
+      'Highly competitive niche — Forever Living dominates aloe MLM space',
+      'No public income disclosure available',
+      'Products overpriced vs. retail aloe alternatives',
+      'Limited brand recognition compared to larger competitors'
+    ],
+    quick_facts: {
+      'Founded': '1985',
+      'Headquarters': 'Irving, Texas',
+      'Products': 'Aloe vera drinks, supplements, skincare',
+      'Income Disclosure': 'Not publicly available ⚠️'
+    },
+    faq: [
+      {
+        question: 'Is AloeCure a legitimate MLM?',
+        answer: 'AloeCure sells real aloe vera products and is a legal MLM. However, it competes in a saturated niche dominated by Forever Living Products, and does not publish income disclosure data.'
+      },
+      {
+        question: 'Does aloe vera actually have health benefits?',
+        answer: 'Aloe vera has well-documented benefits for skin care and sunburn treatment. Some studies support benefits for digestive health. However, the dramatic health claims often made by MLM distributors exceed what clinical evidence supports.'
+      }
+    ],
+    tagline: 'Aloe vera wellness MLM competing in Forever Living\'s space',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '166',
+    slug: 'maxbounty',
+    name: 'MaxBounty',
+    category: 'affiliate',
+    founded_year: 2004,
+    hq_location: 'Ottawa, Ontario, Canada',
+    website: 'https://maxbounty.com',
+    products_summary: 'Performance marketing (CPA) affiliate network founded in 2004 in Ottawa. Specializes in cost-per-action offers including lead generation, app downloads, and email submits. Known for weekly payments and responsive affiliate managers.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'CPA affiliate network — pay per action (lead, install, sale)',
+    overall_rating: 3.8,
+    residual_rating: 2.0,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.8,
+    community_rating: 3.5,
+    value_rating: 4.0,
+    pros: [
+      'Weekly payments — faster than most networks',
+      'Dedicated affiliate managers for each publisher',
+      'Specializes in CPA (cost-per-action) — earn per lead, not just sale',
+      'Free to join',
+      'Strong reputation among performance marketers since 2004'
+    ],
+    cons: [
+      'Approval process can be selective for new affiliates',
+      'CPA marketing requires paid traffic expertise to profit',
+      'Phone interview required for new affiliates',
+      'Higher-paying offers require proven traffic volumes',
+      'Not suitable for beginners without paid media experience'
+    ],
+    quick_facts: {
+      'Founded': '2004',
+      'Headquarters': 'Ottawa, Canada',
+      'Network Type': 'CPA (Cost Per Action)',
+      'Payment Schedule': 'Weekly',
+      'Cost to Join': 'Free (application + phone interview)'
+    },
+    faq: [
+      {
+        question: 'What is CPA affiliate marketing?',
+        answer: 'CPA (Cost Per Action) marketing pays affiliates when a user completes a specific action — filling out a form, installing an app, signing up for a trial, or making a purchase. Unlike revenue share, you earn a fixed amount per completed action regardless of future customer value.'
+      },
+      {
+        question: 'Is MaxBounty good for beginners?',
+        answer: 'MaxBounty requires a phone interview and is better suited for affiliates with some experience. CPA marketing typically requires paid traffic (Facebook Ads, Google Ads, native ads) to generate volume, making it less suitable for beginners building organic audiences.'
+      },
+      {
+        question: 'MaxBounty vs ClickBank — which is better?',
+        answer: 'MaxBounty specializes in CPA (pay-per-lead/action) while ClickBank focuses on revenue share commissions on digital product sales. MaxBounty is better for paid traffic performance marketers; ClickBank is better for content marketers with organic audiences.'
+      }
+    ],
+    tagline: 'Weekly-paying CPA affiliate network since 2004 — best for performance marketers',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '167',
+    slug: 'flexoffers',
+    name: 'FlexOffers',
+    category: 'affiliate',
+    founded_year: 2008,
+    hq_location: 'Coconut Creek, Florida, USA',
+    website: 'https://flexoffers.com',
+    products_summary: 'Large affiliate network with 12,000+ advertisers across virtually every niche. Offers both CPA and revenue share programs. Known for competitive commission rates and a large selection of financial services, insurance, and retail programs.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate network — CPA and revenue share (varies by advertiser)',
+    overall_rating: 3.7,
+    residual_rating: 2.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.5,
+    community_rating: 3.0,
+    value_rating: 4.0,
+    pros: [
+      'Free to join',
+      '12,000+ advertisers — one of the largest networks',
+      'Strong financial services and insurance category',
+      'Net 7 payments for approved publishers (very fast)',
+      'Deep links and flexible tracking options'
+    ],
+    cons: [
+      '$25 minimum payout threshold',
+      'Interface not as polished as CJ or Impact',
+      'Some advertisers have traffic quality requirements',
+      'Less brand recognition than CJ or ShareASale among newcomers'
+    ],
+    quick_facts: {
+      'Founded': '2008',
+      'Headquarters': 'Coconut Creek, Florida',
+      'Advertisers': '12,000+',
+      'Cost to Join': 'Free',
+      'Payment': 'Net 7 for approved publishers'
+    },
+    faq: [
+      {
+        question: 'Is FlexOffers a good affiliate network?',
+        answer: 'Yes. FlexOffers is a legitimate, established network with 12,000+ advertisers. Its strength is in financial services, insurance, and retail categories. The Net 7 payment schedule is faster than most networks. It\'s a solid addition alongside ShareASale and CJ for diversifying affiliate income.'
+      },
+      {
+        question: 'FlexOffers vs ShareASale — which is better?',
+        answer: 'Both are strong mid-size affiliate networks. FlexOffers has more financial services advertisers and faster payments. ShareASale has slightly better brand recognition and a wider variety of e-commerce merchants. Most serious affiliates use both.'
+      }
+    ],
+    tagline: 'Large affiliate network — 12,000+ advertisers, Net 7 payments',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '168',
+    slug: 'ezoic',
+    name: 'Ezoic',
+    category: 'affiliate',
+    founded_year: 2010,
+    hq_location: 'Carlsbad, California, USA',
+    website: 'https://ezoic.com',
+    products_summary: 'AI-powered ad optimization platform for content publishers. Uses machine learning to optimize ad placement and maximize revenue. Entry-level alternative to Mediavine and Raptive — accessible with lower traffic requirements. Now has no minimum traffic requirement.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Ad management — publishers keep ~90% of ad revenue',
+    overall_rating: 3.5,
+    residual_rating: 3.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.0,
+    community_rating: 3.0,
+    value_rating: 3.8,
+    pros: [
+      'No minimum traffic requirement — accessible to new publishers',
+      'AI optimization often outperforms manually placed AdSense ads',
+      'Better RPMs than AdSense for most niches',
+      'Free to join and use',
+      'Good stepping stone between AdSense and Mediavine'
+    ],
+    cons: [
+      'RPMs lower than Mediavine or Raptive at comparable traffic',
+      'Can slow website page speed if not properly configured',
+      'Dashboard complexity can be overwhelming for beginners',
+      'Some publishers report inconsistent support',
+      'Must use Ezoic CDN which adds a layer of complexity'
+    ],
+    quick_facts: {
+      'Founded': '2010',
+      'Headquarters': 'Carlsbad, California',
+      'Minimum Traffic': 'None (removed requirement)',
+      'Publisher Share': '~90% of ad revenue',
+      'Best For': 'Publishers between AdSense and Mediavine traffic levels'
+    },
+    faq: [
+      {
+        question: 'Ezoic vs Google AdSense — which pays more?',
+        answer: 'Ezoic typically pays 50-300% more than AdSense because of AI optimization that tests thousands of ad placement combinations. Most publishers see significant RPM improvements switching from AdSense to Ezoic, especially in niches like finance, business, and technology.'
+      },
+      {
+        question: 'When should I switch from Ezoic to Mediavine?',
+        answer: 'When you reach Mediavine\'s 50,000 session minimum, it\'s worth applying. Mediavine generally pays higher RPMs than Ezoic and has better publisher support. However, Ezoic is a solid monetization option for growing sites below that threshold.'
+      }
+    ],
+    tagline: 'AI-powered ad optimization — better than AdSense, accessible to new publishers',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '209',
+    slug: 'amazon-fba',
+    name: 'Amazon FBA (Fulfillment by Amazon)',
+    category: 'other',
+    founded_year: 2006,
+    hq_location: 'Seattle, Washington, USA',
+    website: 'https://sell.amazon.com',
+    products_summary: 'Amazon\'s fulfillment program allowing sellers to store products in Amazon warehouses. Amazon handles storage, packing, shipping, and customer service. Sellers pay storage and fulfillment fees. One of the most popular e-commerce business models — accessible to entrepreneurs worldwide.',
+    monthly_cost_min: 40,
+    monthly_cost_max: 500,
+    comp_plan_type: 'E-commerce — seller keeps revenue minus Amazon fees (typically 25-40% total fees)',
+    overall_rating: 3.8,
+    residual_rating: 3.0,
+    simplicity_rating: 3.0,
+    transparency_rating: 4.0,
+    community_rating: 3.5,
+    value_rating: 3.5,
+    pros: [
+      'Access to Amazon\'s 300+ million customers and Prime audience',
+      'Amazon handles storage, packing, shipping, returns, and customer service',
+      'Prime badge significantly increases conversion rates',
+      'Scalable — can grow from side hustle to 7-figure business',
+      'Can be operated remotely from anywhere in the world',
+      'Proven business model with thousands of successful sellers'
+    ],
+    cons: [
+      'Significant upfront inventory investment required ($2,000-$10,000+ to start)',
+      'Amazon fees (FBA fees + referral fees) typically total 25-40% of revenue',
+      'Highly competitive — many niches are saturated',
+      'Amazon can suspend accounts or change rules without notice',
+      'Inventory storage fees can accumulate for slow-moving products',
+      'Requires market research, product sourcing, and PPC advertising knowledge'
+    ],
+    quick_facts: {
+      'Founded': '2006',
+      'Monthly Fees': '$39.99 Professional plan + FBA fees',
+      'Total Amazon Fees': 'Typically 25-40% of sale price',
+      'Startup Cost': '$2,000-$10,000+ for initial inventory',
+      'Best For': 'Entrepreneurs willing to invest capital and learn e-commerce'
+    },
+    faq: [
+      {
+        question: 'How much money do you need to start Amazon FBA?',
+        answer: 'Most successful FBA sellers recommend starting with $2,000-$5,000 minimum — covering product inventory, samples, Amazon fees, and initial advertising. Budget sellers can start with less ($500-$1,000) but have less margin for error. Courses and tools add additional costs.'
+      },
+      {
+        question: 'Is Amazon FBA still profitable in 2025?',
+        answer: 'Amazon FBA remains profitable but is more competitive than in 2015-2020. Successful sellers focus on differentiated products, strong branding, and superior customer reviews. Margins have compressed as more sellers enter, but experienced operators continue to build successful businesses.'
+      },
+      {
+        question: 'Amazon FBA vs dropshipping — which is better?',
+        answer: 'Amazon FBA typically offers better margins and faster shipping times than dropshipping. FBA requires more upfront capital for inventory. Dropshipping has no inventory risk but lower margins and more fulfillment complexity. Many e-commerce entrepreneurs try both to find what works for their situation.'
+      }
+    ],
+    tagline: 'Sell products using Amazon\'s warehouse and fulfillment network — scalable e-commerce business',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '210',
+    slug: 'etsy',
+    name: 'Etsy',
+    category: 'other',
+    founded_year: 2005,
+    hq_location: 'Brooklyn, New York, USA',
+    website: 'https://etsy.com',
+    products_summary: 'Global marketplace for handmade, vintage, and craft supply items. 7.5 million active sellers, 90 million active buyers. Free to create a shop — Etsy charges $0.20 per listing plus 6.5% transaction fee plus payment processing. One of the most accessible platforms for creative entrepreneurs.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 10,
+    comp_plan_type: 'Marketplace — sellers keep revenue minus $0.20 listing fee + 6.5% transaction + payment processing (~3%)',
+    overall_rating: 4.0,
+    residual_rating: 2.5,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.5,
+    community_rating: 4.0,
+    value_rating: 4.0,
+    pros: [
+      'Free to open a shop — only pay when you sell',
+      '90 million active buyers provide built-in marketplace traffic',
+      'Great for handmade, digital products, vintage, and craft supplies',
+      'Strong brand reputation — buyers trust Etsy',
+      'Easy to sell digital downloads (printables, templates) with no shipping',
+      'Transparent fee structure'
+    ],
+    cons: [
+      '6.5% transaction fee plus $0.20 listing fee plus ~3% payment processing',
+      'Competition is fierce in popular categories (jewelry, printables, art)',
+      'Etsy algorithm changes can significantly impact shop visibility',
+      'Income is primarily active — requires ongoing new listings and marketing',
+      'Customer service and returns handled by sellers',
+      'Etsy can suspend shops for policy violations'
+    ],
+    quick_facts: {
+      'Founded': '2005',
+      'Headquarters': 'Brooklyn, New York',
+      'Active Sellers': '7.5 million',
+      'Active Buyers': '90 million',
+      'Total Fees': '~10-12% of each sale (listing + transaction + payment)'
+    },
+    faq: [
+      {
+        question: 'How much can you earn on Etsy?',
+        answer: 'Etsy earnings vary dramatically. New sellers might earn $100-$500/month. Established shops with popular products earn $1,000-$10,000+/month. Top Etsy sellers earning $100,000+/year exist but represent a tiny fraction of the 7.5 million sellers. Success requires great products, photos, and SEO optimization.'
+      },
+      {
+        question: 'What sells best on Etsy?',
+        answer: 'Top categories include digital downloads (printables, templates, SVGs), handmade jewelry, custom gifts, wedding items, and art prints. Digital products are particularly attractive because they have no shipping, no inventory, and can generate income 24/7 from a single creation.'
+      },
+      {
+        question: 'Is Etsy good for beginners?',
+        answer: 'Yes — Etsy is one of the most beginner-friendly ways to start selling online. The marketplace provides built-in traffic, the platform is easy to use, and starting costs are minimal. The main challenge is standing out in competitive categories.'
+      }
+    ],
+    tagline: '90 million buyer marketplace — ideal for handmade, digital products, and vintage',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
