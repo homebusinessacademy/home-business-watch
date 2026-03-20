@@ -3439,4 +3439,174 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '131',
+    slug: 'it-works',
+    name: 'It Works! Global',
+    category: 'mlm',
+    founded_year: 2001,
+    hq_location: 'Palmetto, Florida, USA',
+    website: 'https://itworks.com',
+    products_summary: 'Health and wellness MLM known for its "crazy wrap thing" body wraps and supplement products. Founded by Mark and Cindy Pentecost. Per income disclosure analysis, 97.57% of distributors earn less than a full-time income.',
+    monthly_cost_min: 80,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level with autoship requirements',
+    overall_rating: 2.0,
+    residual_rating: 1.8,
+    simplicity_rating: 2.5,
+    transparency_rating: 2.0,
+    community_rating: 3.0,
+    value_rating: 2.0,
+    pros: [
+      'Recognizable brand with viral "crazy wrap thing" marketing',
+      'Wide product catalog beyond just body wraps (supplements, skincare)',
+      'Active social media community',
+      'Low initial entry cost'
+    ],
+    cons: [
+      '97.57% of distributors earn less than full-time income (per income disclosure analysis)',
+      'Body wrap "results" are temporary — water weight loss, not fat loss',
+      'Required monthly autoship ($80-150) to maintain Distributor status',
+      'Products significantly overpriced vs. retail alternatives',
+      'Heavy social media recruiting pressure creates relationship strain'
+    ],
+    quick_facts: {
+      'Founded': '2001',
+      'Headquarters': 'Palmetto, Florida',
+      'Known For': '"The Crazy Wrap Thing" body wraps',
+      'Income Reality': '97.57% of distributors earn less than full-time income',
+      'Monthly Autoship': '~$80-150 required'
+    },
+    faq: [
+      {
+        question: 'Do It Works body wraps actually work?',
+        answer: 'It Works body wraps may produce temporary inch loss results primarily through fluid reduction. The results are not permanent fat loss. Most medical professionals consider the dramatic before/after photos misleading, as results disappear after rehydration.'
+      },
+      {
+        question: 'How much do It Works distributors earn?',
+        answer: 'Per income disclosure analysis, 97.57% of It Works distributors earn less than a full-time income. After accounting for required autoship purchases (~$80-150/month), the vast majority of distributors operate at a net loss.'
+      },
+      {
+        question: 'Is It Works a pyramid scheme?',
+        answer: 'It Works is a legal MLM with real products. However, the income structure where 97.57% of distributors don\'t earn full-time income, combined with required monthly product purchases, means most participants lose money on the business opportunity.'
+      }
+    ],
+    tagline: 'Body wrap MLM — 97.57% of distributors earn less than full-time income',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '132',
+    slug: 'mannatech',
+    name: 'Mannatech',
+    category: 'mlm',
+    founded_year: 1993,
+    hq_location: 'Flower Mound, Texas, USA',
+    website: 'https://mannatech.com',
+    products_summary: 'Health supplement MLM founded by Samuel Caster in 1993. Known for glyconutrient products (Ambrotose) and the "glycobiology" health claims. Publicly traded (NASDAQ: MTEX). Revenue has been declining — approximately 119,000 associates and preferred customers as of Q3 2025.',
+    monthly_cost_min: 50,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level with associate rank system',
+    overall_rating: 2.2,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.5,
+    community_rating: 2.5,
+    value_rating: 2.0,
+    pros: [
+      'Publicly traded (NASDAQ: MTEX) — financial transparency',
+      'Unique glyconutrient product category',
+      'Founded 1993 — over 30 years in business',
+      'Profitable in recent quarters despite declining revenue'
+    ],
+    cons: [
+      'Paid $7 million to settle Texas AG lawsuit over misleading health claims (2009)',
+      'Revenue and associate count declining significantly',
+      'Glyconutrient health claims not accepted by mainstream medical community',
+      'Products significantly overpriced vs. comparable supplements',
+      'Most associates earn minimal income'
+    ],
+    quick_facts: {
+      'Founded': '1993',
+      'Headquarters': 'Flower Mound, Texas',
+      'Stock Ticker': 'NASDAQ: MTEX',
+      'Associates': '~119,000 (Q3 2025, declining)',
+      'Past Legal Issue': '$7 million Texas AG settlement for health claim violations'
+    },
+    faq: [
+      {
+        question: 'Are Mannatech glyconutrients effective?',
+        answer: 'Mannatech\'s Ambrotose glyconutrient products are based on the concept of glycobiology — the study of sugars in cellular function. While glycobiology is a legitimate scientific field, independent research has not validated the specific health claims made for Mannatech\'s products. Mannatech paid a $7 million settlement with the Texas AG in 2009 for misleading health claims.'
+      },
+      {
+        question: 'Is Mannatech a legitimate company?',
+        answer: 'Mannatech is a legitimate publicly traded company (NASDAQ: MTEX) that has been in business since 1993. However, like most MLMs, the income opportunity is challenging and the company has faced scrutiny over health claims. Revenue and associate counts have been declining.'
+      }
+    ],
+    tagline: 'Glyconutrient MLM — publicly traded (NASDAQ: MTEX), declining revenue',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
+  {
+    id: '133',
+    slug: 'kyani',
+    name: 'Kyäni',
+    category: 'mlm',
+    founded_year: 2005,
+    hq_location: 'Idaho Falls, Idaho, USA',
+    website: 'https://kyani.com',
+    products_summary: 'Health and wellness MLM founded in 2005 in Idaho Falls, Idaho. Known for a triangle of health products: Kyäni Sunrise (superfoods), Kyäni Sunset (omega-3s), and Kyäni Nitro (nitric oxide). Strong presence in European and Latin American markets. Income disclosure data only available through 2020.',
+    monthly_cost_min: 50,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Multi-level binary hybrid',
+    overall_rating: 2.1,
+    residual_rating: 2.0,
+    simplicity_rating: 2.5,
+    transparency_rating: 1.8,
+    community_rating: 2.8,
+    value_rating: 2.0,
+    pros: [
+      'Products focused on real nutritional ingredients (wild Alaskan blueberries, fish oil)',
+      'Strong international presence in European and Latin American markets',
+      'Idaho-based company with roots in traditional values',
+      'Simple three-product "triangle of health" system easy to explain'
+    ],
+    cons: [
+      'Income disclosure not updated since 2020 — major transparency concern',
+      'Binary hybrid plan favors early joiners and heavy recruiters',
+      'Products significantly overpriced vs. comparable supplements',
+      'Most distributors earn minimal income',
+      'Autoship required to stay active and qualify for commissions'
+    ],
+    quick_facts: {
+      'Founded': '2005',
+      'Headquarters': 'Idaho Falls, Idaho',
+      'Core Products': 'Sunrise, Sunset, Nitro (Triangle of Health)',
+      'Income Disclosure': 'Last published 2020 — not updated ⚠️',
+      'Strong Markets': 'Europe, Latin America'
+    },
+    faq: [
+      {
+        question: 'Is Kyäni a legitimate MLM?',
+        answer: 'Kyäni is a legal MLM with real nutritional products. However, the company\'s failure to update its income disclosure since 2020 is a transparency concern. Like most MLMs, the majority of distributors earn minimal income after accounting for autoship costs.'
+      },
+      {
+        question: 'What are the Kyäni products?',
+        answer: 'Kyäni\'s core Triangle of Health includes: Sunrise (superfood blend with wild Alaskan blueberries), Sunset (omega-3 fish oil with tocotrienols), and Nitro (nitric oxide support). The products use genuine nutritional ingredients but are priced at a significant premium over comparable retail alternatives.'
+      },
+      {
+        question: 'Is Kyäni still in business?',
+        answer: 'As of 2025, Kyäni appears to still be operating. However, the lack of an updated income disclosure since 2020 and limited recent news coverage raises questions about the company\'s current scale and direction.'
+      }
+    ],
+    tagline: 'Idaho wellness MLM — income disclosure not updated since 2020',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];

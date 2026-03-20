@@ -51,6 +51,18 @@ const newsItems = [
     impact: 'High',
   },
   {
+    id: 'ftc-mlm-report-2024',
+    date: '2024-09-01',
+    category: 'Regulatory',
+    categoryColor: 'orange',
+    title: 'FTC Staff Report: 70 MLM Income Disclosures Analyzed — Results Are Damning',
+    summary: 'The FTC published a landmark staff report in September 2024 analyzing income disclosure statements from 70 MLM companies. Key findings: most disclosures are misleading or confusing, median annual earnings are extremely low (often under $1,000), and most MLM participants lose money after accounting for required purchases. The report found that income disclosures frequently omit expenses, use confusing formats, and make comparisons that exaggerate typical earnings.',
+    companySlug: 'home-business-academy',
+    companyName: 'Industry Report',
+    source: 'Federal Trade Commission (ftc.gov)',
+    impact: 'High',
+  },
+  {
     id: 'onecoin-reward-2024',
     date: '2024-06-01',
     category: 'Criminal Fraud',
