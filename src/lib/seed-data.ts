@@ -387,6 +387,15 @@ export const companyUpdates: CompanyUpdate[] = [
     source_url: null,
     published_at: new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString(),
     created_at: new Date().toISOString()
+  },
+  {
+    id: '5',
+    company_id: '160',
+    title: 'OLSP System Removes Lifetime Membership in 2026 Relaunch',
+    summary: 'OLSP System relaunched in early 2026 with significant compensation changes. Wayne Crowe removed the lifetime membership option that many affiliates had built their business around, switching to monthly/annual subscriptions only. Affiliates who relied on high-ticket lifetime commissions are expressing frustration with the abrupt change.',
+    source_url: null,
+    published_at: new Date('2026-03-01').toISOString(),
+    created_at: new Date().toISOString()
   }
 ];
 

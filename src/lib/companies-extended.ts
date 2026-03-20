@@ -1475,4 +1475,68 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '160',
+    slug: 'olsp-system',
+    name: 'OLSP System',
+    category: 'affiliate',
+    founded_year: 2019,
+    hq_location: 'United Kingdom',
+    website: 'https://olspsystem.com',
+    products_summary: 'Online marketing platform and affiliate system founded by Wayne Crowe. Provides tools, traffic training, and done-for-you lead generation for affiliate marketers. Recently relaunched in 2026 with significant changes to pricing and compensation structure.',
+    monthly_cost_min: 7,
+    monthly_cost_max: 199,
+    comp_plan_type: '2-tier affiliate commissions — monthly/annual subscriptions (lifetime option removed 2026)',
+    overall_rating: 2.8,
+    residual_rating: 2.5,
+    simplicity_rating: 3.0,
+    transparency_rating: 2.5,
+    community_rating: 3.5,
+    value_rating: 2.5,
+    pros: [
+      'Low entry point — $7 Mega Link to start',
+      'Done-for-you traffic generation appeals to beginners',
+      'Active Facebook community with regular training',
+      'Wayne Crowe is accessible and engages with members',
+      '2-tier commissions allow earning from referrals\' referrals'
+    ],
+    cons: [
+      '⚠️ MAJOR CHANGE 2026: Lifetime membership option removed — moved to monthly/annual only',
+      'Many affiliates who built their business around the lifetime offer are now disrupted',
+      'Total cost can escalate quickly: $7 entry → $99-$199+/month for full tools',
+      'Business model centers on selling OLSP itself, not external products',
+      'Comp plan changes signal instability — exactly the risk Paul Hutchings warned about',
+      '50% commission on $199/month is far less attractive without the high-ticket lifetime option'
+    ],
+    quick_facts: {
+      'Founded': '~2019',
+      'Founder': 'Wayne Crowe (UK)',
+      'Entry Price': '$7 (Mega Link)',
+      'Monthly Cost': '$99–$199+ for full access',
+      '2026 Change': '⚠️ Lifetime membership removed, monthly/annual only'
+    },
+    faq: [
+      {
+        question: 'What happened to OLSP System in 2026?',
+        answer: 'In early 2026, OLSP System was relaunched with significant pricing changes. Wayne Crowe removed the lifetime membership option that many affiliates had relied on for high-ticket commissions. The new structure is monthly or annual subscriptions only, with 50% commissions — a change that frustrated many established affiliates.'
+      },
+      {
+        question: 'Is OLSP System legitimate?',
+        answer: 'OLSP System is a legitimate affiliate marketing platform with real tools and training. However, the 2026 comp plan change is a cautionary example of why income in affiliate programs that frequently change their structure can be unreliable. Affiliates who built businesses around the lifetime offer saw their strategy undermined overnight.'
+      },
+      {
+        question: 'How much does OLSP System cost?',
+        answer: 'OLSP starts with a $7 Mega Link entry point, but full access to tools and training requires monthly subscriptions ranging from $99-$199+/month or $997/year. The previously available lifetime membership option was removed in the 2026 relaunch.'
+      },
+      {
+        question: 'Should I join OLSP System after the 2026 changes?',
+        answer: 'The removal of the lifetime option significantly reduces the earning potential for affiliates. Monthly commissions on $199/month subscriptions are sustainable but less compelling than the high-ticket lifetime commissions were. Consider alternatives with stable, unchanged compensation structures.'
+      }
+    ],
+    tagline: 'Affiliate marketing platform — comp plan changed in 2026, lifetime option removed',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
