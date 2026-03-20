@@ -51,6 +51,18 @@ const newsItems = [
     impact: 'High',
   },
   {
+    id: '7k-metals-pivot-2026',
+    date: '2026-03-03',
+    category: 'Business Model Change',
+    categoryColor: 'blue',
+    title: '7K Metals Exits MLM — Transitions to Direct Retail and Affiliate Model',
+    summary: 'Idaho Falls-based 7K Metals announced on March 3, 2026 that it is transitioning from a network marketing model to a direct retail and affiliate-driven model. CEO Blake Davis cited "changing marketplace dynamics" and the "rising influencer economy" as drivers. Network marketing members who built multi-level teams will lose their downline income streams under the new structure. 7K Metals joins Beachbody and Rodan+Fields in making this MLM-to-affiliate pivot.',
+    companySlug: '7k-metals',
+    companyName: '7K Metals',
+    source: '24-7 Press Release (Official)',
+    impact: 'Medium',
+  },
+  {
     id: 'ftc-mlm-report-2024',
     date: '2024-09-01',
     category: 'Regulatory',

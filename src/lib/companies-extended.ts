@@ -3723,4 +3723,63 @@ export const extendedCompanies: Company[] = [
     is_published: true,
     created_at: new Date().toISOString()
   },
+  {
+    id: '134',
+    slug: '7k-metals',
+    name: '7K Metals',
+    category: 'affiliate',
+    founded_year: 2016,
+    hq_location: 'Idaho Falls, Idaho, USA',
+    website: 'https://7kmetals.com',
+    products_summary: 'Precious metals company (gold and silver coins/bullion) that transitioned from a network marketing model to a direct retail and affiliate model on March 3, 2026. Founded in Idaho Falls in 2016. CEO Blake Davis cited the "rising influencer economy" and desire to simplify participation as drivers of the change.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: 'Affiliate model (pivoted from MLM in March 2026)',
+    overall_rating: 3.0,
+    residual_rating: 2.5,
+    simplicity_rating: 3.5,
+    transparency_rating: 3.0,
+    community_rating: 3.0,
+    value_rating: 3.0,
+    pros: [
+      'Proactively pivoted from MLM to affiliate model — more transparent and accessible',
+      'Gold and silver are real tangible assets with intrinsic value',
+      'CEO acknowledged the transition improves accessibility for participants',
+      'Fintech-oriented platform focus for faster, global transactions',
+      'Idaho-based company with focus on precious metals education'
+    ],
+    cons: [
+      'Network marketing members who built teams lost their multi-level income streams in the March 2026 pivot',
+      'Precious metals purchased through membership programs typically carry significant premiums over spot price',
+      'Previous membership-only model required purchase to access products — limited accessibility',
+      'Affiliate commissions on precious metals are inherently lower than digital products',
+      'Precious metals are volatile assets — not suitable for everyone'
+    ],
+    quick_facts: {
+      'Founded': '2016',
+      'Headquarters': 'Idaho Falls, Idaho',
+      'CEO': 'Blake Davis',
+      'MLM Pivot Date': 'March 3, 2026',
+      'Products': 'Gold and silver coins, bullion, collectibles'
+    },
+    faq: [
+      {
+        question: 'Did 7K Metals leave MLM?',
+        answer: 'Yes. On March 3, 2026, 7K Metals announced a strategic transition from its network marketing model to a direct retail and affiliate-driven model. CEO Blake Davis cited changing marketplace dynamics and the rise of the influencer economy as key drivers. The company joins Beachbody and Rodan+Fields in making this transition.'
+      },
+      {
+        question: 'Is 7K Metals a good investment?',
+        answer: 'Gold and silver are legitimate tangible assets that serve as inflation hedges. However, buying precious metals through a membership program typically involves significant premiums over spot price. For pure investment purposes, buying directly from bullion dealers (APMEX, JM Bullion, SD Bullion) generally offers better pricing than membership-based programs.'
+      },
+      {
+        question: 'What happened to 7K Metals network marketing members?',
+        answer: 'Members who had built multi-level teams under the network marketing model lost their downline commissions when the company transitioned to an affiliate model on March 3, 2026. The new affiliate model pays commissions on direct referrals only — no multi-level structure.'
+      }
+    ],
+    tagline: 'Precious metals company — pivoted from MLM to affiliate model March 2026',
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString()
+  },
 ];
