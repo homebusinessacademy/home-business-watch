@@ -513,7 +513,7 @@ export default function MLMCompensationFlawsPage() {
                     What is a monthly quota in MLM?
                   </h3>
                   <p className="text-gray-600">
-                    Most MLMs require a monthly personal purchase or sales volume minimum to &quot;stay active&quot; and qualify for commissions. If you miss the quota — due to illness, vacation, financial hardship — you lose your commissions. That is not residual income. That is conditional income with a monthly fee. Many health and wellness MLMs require $100-200 in monthly personal volume just to earn on your organization.
+                    In MLM, a quota is a performance requirement that must be met to maintain your rank and commission rate. This can mean enrolling a minimum number of new customers per quarter, maintaining a group volume threshold to keep bonuses, or hitting activity targets to avoid a rank demotion. Miss the quota and your commission percentage drops — or you lose rank-based bonuses like car allowances. The income you thought was residual turns out to be conditional on ongoing performance. True residual income continues whether you work or not. Most MLM income does not.
                   </p>
                 </div>
 
