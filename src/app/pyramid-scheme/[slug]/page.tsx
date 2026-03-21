@@ -245,13 +245,15 @@ export default async function PyramidSchemePage({ params }: PageProps) {
                   : `Why ${data.companyName} Is Not a Pyramid Scheme`
               }
             </h2>
-            <div className={`rounded-lg p-6 ${
-              isActualScheme ? 'bg-red-50 border border-red-200' : 'bg-emerald-50 border border-emerald-200'
-            }`}>
-              <p className={`text-lg ${isActualScheme ? 'text-red-900' : 'text-emerald-900'}`}>
-                {data.whyNotPyramidScheme}
-              </p>
-            </div>
+            {data.whyNotPyramidScheme && (
+              <div className={`rounded-lg p-6 ${
+                isActualScheme ? 'bg-red-50 border border-red-200' : 'bg-emerald-50 border border-emerald-200'
+              }`}>
+                <p className={`text-lg ${isActualScheme ? 'text-red-900' : 'text-emerald-900'}`}>
+                  {data.whyNotPyramidScheme}
+                </p>
+              </div>
+            )}
           </section>
 
           {/* The Better Question (for non-scheme pages) */}
@@ -358,7 +360,7 @@ export default async function PyramidSchemePage({ params }: PageProps) {
           {data.structuralNotes.length > 0 && (
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
-                <span>{isActualScheme ? '&#128680;' : '&#9888;'}</span>
+                <span>{isActualScheme ? '🚨' : '⚠️'}</span>
                 {isActualScheme ? 'Red Flags' : 'Structural Considerations'}
               </h2>
               <div className={`rounded-lg p-6 ${
