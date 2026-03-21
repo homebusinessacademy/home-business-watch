@@ -23,7 +23,7 @@ export default function MLMDuplicationMythPage() {
         name: 'What is the duplication myth in MLM?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The duplication myth is the MLM pitch that if you recruit 2 people who each recruit 2 people, and so on, you will build a massive organization exponentially. The math sounds achievable ("just find 2 serious people") but ignores the Pareto Principle: in every sales organization, approximately 80% of people produce little to no results. This means building 1,000 active customers requires recruiting 5,000-10,000+ people.',
+          text: 'The duplication myth is the MLM pitch that if you recruit 2 people who each recruit 2 people, and so on, you will build a massive organization that generates income for you. The problem: the Pareto Principle means 80% of your team will be inactive, so YOU will end up doing most of the work anyway. When that is the reality, the per-customer residual is the only number that matters — because your income will be built primarily through your own personal effort, not your team.',
         },
       },
       {
@@ -199,92 +199,72 @@ export default function MLMDuplicationMythPage() {
 
             {/* Section 3: Applying Pareto to Duplication Math */}
             <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">What Duplication Actually Looks Like</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">The Real Problem: You&apos;ll Be Doing Most of the Work Anyway</h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Let&apos;s apply the Pareto Principle to real MLM math using <Link href="/companies/amway" className="text-amber-600 hover:underline">Amway</Link> as an example.
-                </p>
-
-                <div className="bg-navy-50 border border-navy-200 rounded-lg p-6 my-6">
-                  <h3 className="font-bold text-navy-900 mb-3">The Setup</h3>
-                  <ul className="space-y-2 text-gray-700">
-                    <li><strong>Per-customer residual:</strong> Approximately $3/customer at entry level</li>
-                    <li><strong>Income goal:</strong> $3,000/month</li>
-                    <li><strong>Customers needed:</strong> 1,000 active customers in your organization</li>
-                  </ul>
-                </div>
-
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  The &quot;2 who get 2&quot; pitch makes this sound achievable. Just 10 levels of duplication and you have your 1,000+ people.
+                  Here is what the Pareto Principle actually means for you in practice:
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  <strong>But apply the Pareto Principle:</strong>
+                  <strong>Because 80% of your team will produce little or nothing, you will end up doing most of the work yourself.</strong>
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  This is not a criticism of the people you recruit — it is simply how every sales organization in history has worked. Most of your team will be passive. The active work of acquiring customers will fall primarily to you and the small percentage of your team who are genuinely motivated.
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  And this is where the duplication pitch collapses. Because if you are going to do most of the heavy lifting yourself, the only question that actually matters is:
                 </p>
 
-                <div className="bg-red-50 border border-red-200 rounded-lg p-6 my-6">
-                  <h3 className="font-bold text-red-800 mb-3">The Reality</h3>
-                  <p className="text-gray-700 mb-4">
-                    If 80% of your recruits do little or nothing (which the Pareto Principle predicts), then:
+                <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-6 rounded-r-lg">
+                  <p className="text-xl font-bold text-gray-900">
+                    &quot;When I personally go out and acquire a customer, how much do I earn per month from that customer?&quot;
                   </p>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold">•</span>
-                      <span>To get <strong>1,000 active customers</strong>, you need to recruit <strong>5,000+ people</strong></span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold">•</span>
-                      <span>Each &quot;level&quot; does not produce 2 active people—it produces 0.4 active people on average</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-red-600 font-bold">•</span>
-                      <span>The &quot;exponential growth&quot; becomes more like grinding through thousands of recruits</span>
-                    </li>
-                  </ul>
                 </div>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  This is not about Amway specifically—it is about the math of any organization where the Pareto Principle applies (which is all of them).
+                  The duplication pitch is designed to make you not ask this question. It directs your attention to the theoretical future team — the dream of 1,000 people in your downline all producing. But Pareto tells you that future is unlikely. <strong>Your income will be built primarily by you.</strong>
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  So what does a realistic income look like when <em>you</em> are doing the work?
                 </p>
 
                 <div className="bg-gray-100 rounded-lg p-6 my-6">
-                  <h3 className="font-bold text-gray-900 mb-3">The Math Nobody Shows You</h3>
+                  <h3 className="font-bold text-gray-900 mb-4">The Math That Actually Matters: Your Personal Effort</h3>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
                       <thead>
                         <tr className="border-b border-gray-300">
                           <th className="text-left py-2 pr-4 font-semibold text-gray-900">Per-Customer Residual</th>
-                          <th className="text-left py-2 pr-4 font-semibold text-gray-900">Goal: $3,000/mo</th>
-                          <th className="text-left py-2 font-semibold text-gray-900">With 80% Inactive</th>
+                          <th className="text-left py-2 pr-4 font-semibold text-gray-900">Customers YOU Acquire</th>
+                          <th className="text-left py-2 font-semibold text-gray-900">Monthly Income</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-gray-200">
                         <tr>
                           <td className="py-2 pr-4 text-gray-700">$3/customer</td>
-                          <td className="py-2 pr-4 text-gray-700">Need 1,000 customers</td>
-                          <td className="py-2 text-red-700 font-medium">Recruit 5,000+ people</td>
+                          <td className="py-2 pr-4 text-gray-700">100 customers</td>
+                          <td className="py-2 text-red-700 font-medium">$300/month</td>
                         </tr>
                         <tr>
-                          <td className="py-2 pr-4 text-gray-700">$10/customer</td>
-                          <td className="py-2 pr-4 text-gray-700">Need 300 customers</td>
-                          <td className="py-2 text-amber-700 font-medium">Recruit 1,500+ people</td>
-                        </tr>
-                        <tr>
-                          <td className="py-2 pr-4 text-gray-700">$50/customer</td>
-                          <td className="py-2 pr-4 text-gray-700">Need 60 customers</td>
-                          <td className="py-2 text-amber-700 font-medium">Recruit 300+ people</td>
+                          <td className="py-2 pr-4 text-gray-700">$3/customer</td>
+                          <td className="py-2 pr-4 text-gray-700">1,000 customers</td>
+                          <td className="py-2 text-amber-700 font-medium">$3,000/month</td>
                         </tr>
                         <tr>
                           <td className="py-2 pr-4 text-gray-700">$128/customer</td>
-                          <td className="py-2 pr-4 text-gray-700">Need 24 customers</td>
-                          <td className="py-2 text-green-700 font-medium">Find 24 customers yourself</td>
+                          <td className="py-2 pr-4 text-gray-700">24 customers</td>
+                          <td className="py-2 text-green-700 font-medium">$3,000/month</td>
                         </tr>
                       </tbody>
                     </table>
                   </div>
+                  <p className="text-xs text-gray-500 mt-3">Based on per-customer monthly residual at entry level. See <Link href="/compensation-plan" className="text-amber-600 hover:underline">compensation plan data</Link> for each company.</p>
                 </div>
 
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  At $3/customer, you need to personally acquire — and retain — 1,000 active customers to earn $3,000/month. That is an enormous personal sales effort. The duplication promise was supposed to make this easier, but Pareto says most of your team will not help.
+                </p>
                 <p className="text-gray-700 leading-relaxed">
-                  At $3/customer, you need a team of thousands to hit a modest income goal. At $128/customer, you do not need a team at all—you need 24 customers.
+                  At $128/customer, you need 24. That is achievable by a single motivated person. And if your team does duplicate — even partially — every customer they add is genuinely meaningful to your income. <strong>High per-customer residual makes duplication a bonus, not a requirement.</strong>
                 </p>
               </div>
             </section>
