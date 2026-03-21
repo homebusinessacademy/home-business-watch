@@ -311,7 +311,7 @@ export default async function ComparisonPage({ params }: PageProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href={`/companies/${winner.slug}`}
-              className="inline-block bg-white text-navy-900 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
+              className="inline-block bg-white text-gray-900 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors"
             >
               Read Full Review
             </Link>
