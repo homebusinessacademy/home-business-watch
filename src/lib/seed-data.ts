@@ -840,3 +840,85 @@ export function getCompanyComparison(companySlug: string): ComparisonPage | unde
   if (!company) return undefined;
   return comparisonPages.find(cp => cp.company_id === company.id);
 }
+
+// All comparison slugs for internal linking
+const allComparisonSlugs: string[] = [
+  // Existing HBA comparisons (derived from comparisonPages)
+  'amway-vs-home-business-academy',
+  'herbalife-vs-home-business-academy',
+  'doterra-vs-home-business-academy',
+  'young-living-vs-home-business-academy',
+  'melaleuca-vs-home-business-academy',
+  'usana-health-sciences-vs-home-business-academy',
+  'primerica-vs-home-business-academy',
+  'mary-kay-vs-home-business-academy',
+  'monat-global-vs-home-business-academy',
+  'isagenix-vs-home-business-academy',
+  'it-works-vs-home-business-academy',
+  'clickbank-vs-home-business-academy',
+  'wealthy-affiliate-vs-home-business-academy',
+  'legendary-marketer-vs-home-business-academy',
+  'exp-realty-vs-home-business-academy',
+  'rodan-fields-vs-home-business-academy',
+  'nu-skin-enterprises-vs-home-business-academy',
+  // MLM vs MLM comparison pages
+  'doterra-vs-young-living',
+  'young-living-vs-doterra',
+  'mary-kay-vs-avon-products',
+  'monat-global-vs-rodan-fields',
+  'arbonne-international-vs-monat-global',
+  'nu-skin-enterprises-vs-arbonne-international',
+  'herbalife-vs-isagenix',
+  'isagenix-vs-amway',
+  'plexus-worldwide-vs-herbalife',
+  'usana-health-sciences-vs-nu-skin-enterprises',
+  'four-life-research-vs-usana-health-sciences',
+  'lularoe-vs-mary-kay',
+  'scentsy-vs-pampered-chef',
+  'forever-living-products-vs-herbalife',
+  'tupperware-vs-pampered-chef',
+  'amway-vs-herbalife',
+  'herbalife-vs-amway',
+  'amway-vs-avon-products',
+  'mary-kay-vs-herbalife',
+  'doterra-vs-herbalife',
+  'amway-vs-clickbank',
+  'herbalife-vs-amazon-associates',
+  'doterra-vs-amazon-associates',
+  'monat-global-vs-amazon-associates',
+  'mary-kay-vs-clickbank',
+];
+
+// Helper to convert slug to title case (e.g., "home-business-academy" → "Home Business Academy")
+function slugToTitleCase(slug: string): string {
+  return slug
+    .split('-')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+// Helper function to get all comparison pages that include a given company
+export function getCompanyComparisons(companySlug: string): { slug: string; otherCompanyName: string }[] {
+  const comparisons: { slug: string; otherCompanyName: string }[] = [];
+
+  for (const compSlug of allComparisonSlugs) {
+    const parts = compSlug.split('-vs-');
+    if (parts.length !== 2) continue;
+
+    const [company1Slug, company2Slug] = parts;
+
+    if (company1Slug === companySlug) {
+      comparisons.push({
+        slug: compSlug,
+        otherCompanyName: slugToTitleCase(company2Slug),
+      });
+    } else if (company2Slug === companySlug) {
+      comparisons.push({
+        slug: compSlug,
+        otherCompanyName: slugToTitleCase(company1Slug),
+      });
+    }
+  }
+
+  return comparisons;
+}

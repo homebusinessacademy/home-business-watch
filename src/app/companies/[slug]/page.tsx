@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { QuickFactsBox, RatingBreakdown, StarRating } from '@/components';
-import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, allCompanies, getCompanyComparison } from '@/lib/seed-data';
+import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, allCompanies, getCompanyComparison, getCompanyComparisons } from '@/lib/seed-data';
 import HBAReviewsSection from '@/components/HBAReviewsSection';
 import { CATEGORY_LABELS } from '@/types';
 
@@ -381,6 +381,27 @@ export default async function CompanyPage({ params }: PageProps) {
           {/* Sidebar */}
           <aside className="space-y-6">
             <QuickFactsBox company={company} />
+
+            {/* Compare Links */}
+            {getCompanyComparisons(company.slug).length > 0 && (
+              <div className="bg-white rounded-lg border border-gray-200 p-6">
+                <h3 className="font-bold text-gray-900 mb-4">Compare {company.name}</h3>
+                <div className="space-y-2">
+                  {getCompanyComparisons(company.slug).slice(0, 5).map((comp) => (
+                    <Link
+                      key={comp.slug}
+                      href={`/compare/${comp.slug}`}
+                      className="flex items-center justify-between p-2 bg-gray-50 rounded hover:bg-gray-100 transition-colors text-sm"
+                    >
+                      <span className="text-gray-700">{company.name} vs {comp.otherCompanyName}</span>
+                      <svg className="w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* CTA Box */}
             {company.is_featured && (
