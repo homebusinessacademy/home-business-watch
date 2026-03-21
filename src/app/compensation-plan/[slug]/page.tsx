@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { EbookBanner } from '@/components';
-import { getCompPlanBySlug, getAllCompPlanSlugs, CompPlanData } from '@/lib/comp-plans';
+import { getCompPlanBySlug, getAllCompPlanSlugs, CompPlanData } from '@/lib/compensation-plans';
 import { getCompanyBySlug } from '@/lib/seed-data';
 
 interface PageProps {
@@ -113,7 +113,7 @@ export default async function CompPlanPage({ params }: PageProps) {
           <nav className="text-sm text-gray-600">
             <Link href="/" className="hover:text-navy-600">Home</Link>
             <span className="mx-2">/</span>
-            <Link href="/comp-plan" className="hover:text-navy-600">Comp Plans</Link>
+            <Link href="/compensation-plan" className="hover:text-navy-600">Comp Plans</Link>
             <span className="mx-2">/</span>
             <span className="text-gray-900">{compPlan.companyName}</span>
           </nav>

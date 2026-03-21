@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 import { allCompanies as companies, comparisonPages } from '@/lib/seed-data';
-import { compPlans } from '@/lib/comp-plans';
+import { compPlans } from '@/lib/compensation-plans';
 import { CompanyCategory } from '@/types';
 
 const BASE_URL = 'https://homebusinesswatch.com';
@@ -61,12 +61,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Comp plan index page
   const compPlanIndexPage: MetadataRoute.Sitemap = [
-    { url: `${BASE_URL}/comp-plan`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE_URL}/compensation-plan`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.9 },
   ];
 
   // Individual comp plan pages
   const compPlanPages: MetadataRoute.Sitemap = compPlans.map((cp) => ({
-    url: `${BASE_URL}/comp-plan/${cp.companySlug}`,
+    url: `${BASE_URL}/compensation-plan/${cp.companySlug}`,
     lastModified: cp.lastUpdated,
     changeFrequency: 'monthly' as const,
     priority: 0.8,

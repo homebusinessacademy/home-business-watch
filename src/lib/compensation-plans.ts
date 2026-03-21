@@ -434,7 +434,7 @@ export const compPlans: CompPlanData[] = [
       goal10000: 800,
       assumptions: 'Based on $12.50 per customer at 25% rate ($500+ PV tier). Lower tiers earn less.',
     },
-    sourceUrl: 'https://static.plexusworldwide.com/cdn/comp-plan-full-en-us.pdf',
+    sourceUrl: 'https://static.plexusworldwide.com/cdn/compensation-plan-full-en-us.pdf',
     keyGotchas: [
       'Average annual earnings in 2020 were only $544',
       'Retail commission is 0% if under $100 PV monthly',

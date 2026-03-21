@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { EbookBanner } from '@/components';
-import { getCompPlansSortedByResidual } from '@/lib/comp-plans';
+import { getCompPlansSortedByResidual } from '@/lib/compensation-plans';
 
 export const metadata: Metadata = {
   title: 'MLM Compensation Plan Comparison: Per-Customer Residual Chart (2026)',
@@ -123,7 +123,7 @@ export default function CompPlansIndexPage() {
                       <td className="px-4 py-4 text-gray-500 font-medium">{index + 1}</td>
                       <td className="px-4 py-4">
                         <Link
-                          href={`/comp-plan/${cp.companySlug}`}
+                          href={`/compensation-plan/${cp.companySlug}`}
                           className="font-semibold text-gray-900 hover:text-navy-600 transition-colors"
                         >
                           {cp.companyName}
@@ -146,7 +146,7 @@ export default function CompPlansIndexPage() {
                       </td>
                       <td className="px-4 py-4 text-center">
                         <Link
-                          href={`/comp-plan/${cp.companySlug}`}
+                          href={`/compensation-plan/${cp.companySlug}`}
                           className="inline-flex items-center gap-1 text-navy-600 hover:text-navy-800 font-medium text-sm transition-colors"
                         >
                           Details
