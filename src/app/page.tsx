@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { SearchBar, CompanyCard } from '@/components';
-import { allCompanies as companies, getRecentlyUpdatedCompanies, getFeaturedCompanies } from '@/lib/seed-data';
+import { allCompanies as companies, getRecentlyUpdatedCompanies, getRecentlyAddedCompanies, getFeaturedCompanies } from '@/lib/seed-data';
 import { RATING_DIMENSIONS } from '@/types';
 
 export default function HomePage() {
   const recentlyUpdated = getRecentlyUpdatedCompanies(6);
+  const recentlyAdded = getRecentlyAddedCompanies(6);
   const featured = getFeaturedCompanies();
 
   const categories = [
@@ -177,6 +178,30 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {recentlyUpdated.map((company) => (
               <CompanyCard key={company.slug} company={company} />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Recently Added */}
+      <section className="py-16 bg-white border-t border-gray-100">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between mb-10">
+            <div>
+              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+                Recently Added
+              </h2>
+              <p className="text-gray-600 mt-2">
+                New companies added to our directory
+              </p>
+            </div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {recentlyAdded.map((company) => (
+              <div key={company.slug} className="relative">
+                <span className="absolute top-3 right-3 z-10 text-xs font-bold text-white bg-amber-500 px-2 py-1 rounded-full">NEW</span>
+                <CompanyCard company={company} />
+              </div>
             ))}
           </div>
         </div>

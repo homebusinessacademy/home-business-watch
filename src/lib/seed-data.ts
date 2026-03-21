@@ -820,6 +820,13 @@ export function getRecentlyUpdatedCompanies(limit: number = 6): Company[] {
     .slice(0, limit);
 }
 
+export function getRecentlyAddedCompanies(limit: number = 6): Company[] {
+  return [...allCompanies]
+    .filter(c => c.is_published)
+    .sort((a, b) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime())
+    .slice(0, limit);
+}
+
 // Helper to get updates for a company
 export function getCompanyUpdates(companyId: string): CompanyUpdate[] {
   return companyUpdates
