@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { allCompanies } from '@/lib/seed-data';
-import { companyUpdates } from '@/lib/seed-data';
+import { createClient } from '@supabase/supabase-js';
 
 export const metadata: Metadata = {
   title: 'Home Business News 2026 — MLM & Affiliate Marketing Updates | HomeBusinessWatch',
@@ -12,8 +11,11 @@ export const metadata: Metadata = {
   },
 };
 
-// Hardcoded news items (will be replaced by Supabase scraper in Phase 2)
-const newsItems = [
+// Revalidate every hour
+export const revalidate = 3600;
+
+// Archive: Hardcoded news items (kept for historical reference)
+const archiveNewsItems = [
   {
     id: 'legendary-closed-2026',
     date: '2026-02-16',
@@ -194,12 +196,121 @@ const categoryColors: Record<string, string> = {
 const impactColors: Record<string, string> = {
   High: 'text-red-600',
   Medium: 'text-amber-600',
+  Low: 'text-gray-600',
   Positive: 'text-emerald-600',
 };
 
-const sortedNews = [...newsItems].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+interface NewsArticle {
+  id: string;
+  title: string;
+  summary: string;
+  source_url: string;
+  source_name: string;
+  published_at: string | null;
+  company_slug: string | null;
+  company_name: string | null;
+  category: string;
+  category_color: string;
+  impact: string;
+}
 
-export default function NewsPage() {
+async function getPublishedArticles(): Promise<NewsArticle[]> {
+  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+
+  if (!supabaseUrl || !supabaseKey) {
+    return [];
+  }
+
+  const supabase = createClient(supabaseUrl, supabaseKey);
+
+  const { data, error } = await supabase
+    .from('news_articles')
+    .select('id, title, summary, source_url, source_name, published_at, company_slug, company_name, category, category_color, impact')
+    .eq('status', 'published')
+    .order('published_at', { ascending: false })
+    .limit(50);
+
+  if (error) {
+    console.error('Error fetching news articles:', error);
+    return [];
+  }
+
+  return data || [];
+}
+
+function NewsCard({
+  title,
+  summary,
+  date,
+  category,
+  categoryColor,
+  impact,
+  companySlug,
+  companyName,
+  source,
+  sourceUrl
+}: {
+  title: string;
+  summary: string;
+  date: string | null;
+  category: string;
+  categoryColor: string;
+  impact: string;
+  companySlug: string | null;
+  companyName: string | null;
+  source: string;
+  sourceUrl?: string;
+}) {
+  const formattedDate = date
+    ? new Date(date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+    : 'Unknown date';
+
+  return (
+    <article className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow">
+      <div className="flex flex-wrap items-center gap-3 mb-3">
+        <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${categoryColors[categoryColor] || 'bg-gray-100 text-gray-600'}`}>
+          {category}
+        </span>
+        <span className="text-sm text-gray-500">{formattedDate}</span>
+        <span className={`text-sm font-medium ml-auto ${impactColors[impact] || 'text-gray-600'}`}>
+          {impact === 'Positive' ? '✅' : impact === 'High' ? '🔴' : '🟡'} {impact} Impact
+        </span>
+      </div>
+
+      <h2 className="text-xl font-bold text-gray-900 mb-3">{title}</h2>
+      <p className="text-gray-600 leading-relaxed mb-4">{summary}</p>
+
+      <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-gray-100">
+        <div className="flex items-center gap-2">
+          {companySlug && companyName && (
+            <>
+              <span className="text-xs text-gray-400">Company:</span>
+              <Link
+                href={`/companies/${companySlug}`}
+                className="text-sm font-medium text-navy-600 hover:text-navy-800 hover:underline"
+              >
+                {companyName} →
+              </Link>
+            </>
+          )}
+        </div>
+        <span className="text-xs text-gray-400">
+          Source: {sourceUrl ? (
+            <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
+              {source}
+            </a>
+          ) : source}
+        </span>
+      </div>
+    </article>
+  );
+}
+
+export default async function NewsPage() {
+  const publishedArticles = await getPublishedArticles();
+  const sortedArchive = [...archiveNewsItems].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
@@ -222,46 +333,49 @@ export default function NewsPage() {
       {/* News Feed */}
       <section className="py-12">
         <div className="container mx-auto px-4 max-w-4xl">
+          {/* Published articles from Supabase */}
+          {publishedArticles.length > 0 && (
+            <div className="space-y-6 mb-12">
+              <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+                <span className="text-green-500">●</span> Latest News
+              </h2>
+              {publishedArticles.map((article) => (
+                <NewsCard
+                  key={article.id}
+                  title={article.title}
+                  summary={article.summary}
+                  date={article.published_at}
+                  category={article.category}
+                  categoryColor={article.category_color}
+                  impact={article.impact}
+                  companySlug={article.company_slug}
+                  companyName={article.company_name}
+                  source={article.source_name || 'Unknown'}
+                  sourceUrl={article.source_url}
+                />
+              ))}
+            </div>
+          )}
+
+          {/* Archive section with hardcoded items */}
           <div className="space-y-6">
-            {sortedNews.map((item) => (
-              <article key={item.id} className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition-shadow">
-                <div className="flex flex-wrap items-center gap-3 mb-3">
-                  <span className={`text-xs font-semibold px-2.5 py-1 rounded-full ${categoryColors[item.categoryColor] || 'bg-gray-100 text-gray-600'}`}>
-                    {item.category}
-                  </span>
-                  <span className="text-sm text-gray-500">{new Date(item.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-                  <span className={`text-sm font-medium ml-auto ${impactColors[item.impact] || 'text-gray-600'}`}>
-                    {item.impact === 'Positive' ? '✅' : item.impact === 'High' ? '🔴' : '🟡'} {item.impact} Impact
-                  </span>
-                </div>
-
-                <h2 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h2>
-                <p className="text-gray-600 leading-relaxed mb-4">{item.summary}</p>
-
-                <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-gray-100">
-                  <div className="flex items-center gap-2">
-                    <span className="text-xs text-gray-400">Company:</span>
-                    <Link
-                      href={`/companies/${item.companySlug}`}
-                      className="text-sm font-medium text-navy-600 hover:text-navy-800 hover:underline"
-                    >
-                      {item.companyName} →
-                    </Link>
-                  </div>
-                  <span className="text-xs text-gray-400">Source: {item.source}</span>
-                </div>
-              </article>
+            <h2 className="text-2xl font-bold text-gray-900 flex items-center gap-2">
+              <span className="text-gray-400">●</span> Archive
+            </h2>
+            {sortedArchive.map((item) => (
+              <NewsCard
+                key={item.id}
+                title={item.title}
+                summary={item.summary}
+                date={item.date}
+                category={item.category}
+                categoryColor={item.categoryColor}
+                impact={item.impact}
+                companySlug={item.companySlug}
+                companyName={item.companyName}
+                source={item.source}
+              />
             ))}
-          </div>
-
-          {/* Coming Soon */}
-          <div className="mt-12 bg-navy-900 text-white rounded-xl p-8 text-center">
-            <div className="text-3xl mb-3">📡</div>
-            <h3 className="text-xl font-bold mb-2">Automated News Coming Soon</h3>
-            <p className="text-gray-300 text-sm max-w-md mx-auto">
-              We're building automated scrapers to pull real-time updates from Reddit, YouTube,
-              BBB, and company announcements. Every listing will have live news feeds.
-            </p>
           </div>
         </div>
       </section>
