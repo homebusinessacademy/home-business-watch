@@ -584,6 +584,35 @@ export const compPlans: CompPlanData[] = [
       'Estimated 35% commission payout rate company-wide',
     ],
   },
+  {
+    companySlug: 'livegood',
+    companyName: 'LiveGood',
+    lastUpdated: '2026-03-20',
+    directCustomerResidual: 0.50,
+    levels: [
+      { level: 1, label: 'Direct referral (Level 1)', residualPerCustomer: 0.50, notes: '$0.50/month per member in your Level 1 (up to 2 positions in forced 2x15 matrix)' },
+      { level: 2, label: 'Level 2', residualPerCustomer: 1.00, notes: '$1/month per member — matrix fills deeper' },
+      { level: 3, label: 'Levels 3-15', residualPerCustomer: 0.50, notes: '$0.50/month per member across remaining 13 levels (potential but rarely reached)' },
+    ],
+    monthlyRequirement: '$9.95/month membership fee to stay active',
+    qualificationNote: 'Unlike most MLMs, LiveGood does NOT require a monthly product purchase to earn commissions — only the $9.95 membership fee.',
+    simpleSummary: 'LiveGood uses a forced 2x15 matrix. You have 2 positions at Level 1, 4 at Level 2, and so on — up to 32,768 positions at Level 15. The catch: your upline fills your matrix from spillover. Earnings are tiny per person ($0.50-$1/month) but theoretically scale with a full matrix. In practice, the forced matrix rewards early joiners most — the later you join, the harder it is to fill your matrix.',
+    teamSizeNeeded: {
+      goal1000: 2000,
+      goal3000: 6000,
+      goal10000: 20000,
+      assumptions: 'Based on $0.50/member/month average across matrix. Assumes active paying members only.',
+    },
+    sourceUrl: 'https://livegood.com/compensation-plan',
+    keyGotchas: [
+      'Forced 2x15 matrix heavily favors early joiners — position in matrix is everything',
+      'Earnings per person are extremely low ($0.50-$1/month) — requires massive team to earn meaningful income',
+      'Matrix spillover from upline sounds appealing but is unpredictable and not guaranteed',
+      '$9.95/month membership required — adds up ($119/year) before earning a dollar',
+      'No published income disclosure statement as of 2026 — red flag for transparency',
+      'Fast-growth companies like LiveGood often see slowdowns — joining late increases risk significantly',
+    ],
+  },
 ];
 
 // Helper to get comp plan by slug
