@@ -264,7 +264,7 @@ export default function MLMDuplicationMythPage() {
                   At $3/customer, you need to personally acquire — and retain — 1,000 active customers to earn $3,000/month. That is an enormous personal sales effort. The duplication promise was supposed to make this easier, but Pareto says most of your team will not help.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  At $128/customer, you need 24. That is achievable by a single motivated person. And if your team does duplicate — even partially — every customer they add is genuinely meaningful to your income. <strong>High per-customer residual makes duplication a bonus, not a requirement.</strong>
+                  Now compare this to a one-tier affiliate program like <Link href="/companies/home-business-academy" className="text-amber-600 hover:underline">Home Business Academy</Link>, which pays $128 per customer per month in residual commissions. At that rate, you need 24 customers to earn $3,000/month — and those 24 customers are something you can personally acquire yourself. No team required. And if your team does add customers — even partially — every one is genuinely meaningful to your income. <strong>High per-customer residual makes duplication a bonus, not a requirement.</strong>
                 </p>
               </div>
             </section>
