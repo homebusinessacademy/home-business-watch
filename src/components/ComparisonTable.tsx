@@ -5,7 +5,24 @@ import Link from 'next/link';
 interface ComparisonTableProps {
   company: Company;
   vsCompany: Company;
-  comparison: ComparisonPage;
+  comparison?: ComparisonPage;
+}
+
+function determineWinner(companyValue: number, vsCompanyValue: number): 'company' | 'vs_company' | 'tie' {
+  if (companyValue > vsCompanyValue) return 'company';
+  if (vsCompanyValue > companyValue) return 'vs_company';
+  return 'tie';
+}
+
+function parseStartupCost(value: string | undefined): number {
+  if (!value) return 0;
+  // Extract first number from strings like "$99-$500", "$199", "Free", etc.
+  const match = value.match(/\$?([\d,]+)/);
+  if (match) {
+    return parseInt(match[1].replace(/,/g, ''), 10);
+  }
+  if (value.toLowerCase().includes('free')) return 0;
+  return 0;
 }
 
 export function ComparisonTable({ company, vsCompany, comparison }: ComparisonTableProps) {
@@ -15,6 +32,52 @@ export function ComparisonTable({ company, vsCompany, comparison }: ComparisonTa
     }
     return <span className="text-xs bg-emerald-100 text-emerald-700 px-2 py-1 rounded">Winner</span>;
   };
+
+  // Generate comparison points from company data when no explicit comparison exists
+  const comparisonPoints = comparison?.content.comparison_points || [
+    {
+      category: 'Overall Rating',
+      company_value: `${company.overall_rating.toFixed(1)}/5`,
+      vs_company_value: `${vsCompany.overall_rating.toFixed(1)}/5`,
+      winner: determineWinner(company.overall_rating, vsCompany.overall_rating),
+    },
+    {
+      category: 'Startup Cost',
+      company_value: company.quick_facts?.startup_cost || 'N/A',
+      vs_company_value: vsCompany.quick_facts?.startup_cost || 'N/A',
+      winner: determineWinner(parseStartupCost(vsCompany.quick_facts?.startup_cost), parseStartupCost(company.quick_facts?.startup_cost)), // Lower is better, so reversed
+    },
+    {
+      category: 'Residual Income',
+      company_value: company.residual_rating.toFixed(1),
+      vs_company_value: vsCompany.residual_rating.toFixed(1),
+      winner: determineWinner(company.residual_rating, vsCompany.residual_rating),
+    },
+    {
+      category: 'Simplicity',
+      company_value: company.simplicity_rating.toFixed(1),
+      vs_company_value: vsCompany.simplicity_rating.toFixed(1),
+      winner: determineWinner(company.simplicity_rating, vsCompany.simplicity_rating),
+    },
+    {
+      category: 'Transparency',
+      company_value: company.transparency_rating.toFixed(1),
+      vs_company_value: vsCompany.transparency_rating.toFixed(1),
+      winner: determineWinner(company.transparency_rating, vsCompany.transparency_rating),
+    },
+    {
+      category: 'Community & Support',
+      company_value: company.community_rating.toFixed(1),
+      vs_company_value: vsCompany.community_rating.toFixed(1),
+      winner: determineWinner(company.community_rating, vsCompany.community_rating),
+    },
+    {
+      category: 'Value for Money',
+      company_value: company.value_rating.toFixed(1),
+      vs_company_value: vsCompany.value_rating.toFixed(1),
+      winner: determineWinner(company.value_rating, vsCompany.value_rating),
+    },
+  ];
 
   return (
     <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
@@ -40,7 +103,7 @@ export function ComparisonTable({ company, vsCompany, comparison }: ComparisonTa
       </div>
 
       {/* Comparison Rows */}
-      {comparison.content.comparison_points.map((point, index) => (
+      {comparisonPoints.map((point, index) => (
         <div
           key={point.category}
           className={`grid grid-cols-3 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}

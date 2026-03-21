@@ -10,13 +10,50 @@ interface PageProps {
 
 // Generate comparison slugs like "amway-vs-home-business-academy"
 export async function generateStaticParams() {
-  return comparisonPages.map((comparison) => {
+  const existingSlugs = comparisonPages.map((comparison) => {
     const company = companies.find(c => c.id === comparison.company_id);
     if (!company) return null;
     return {
       slug: `${company.slug}-vs-${comparison.vs_company_slug}`,
     };
   }).filter(Boolean);
+
+  // MLM vs MLM comparison pages for SEO
+  const mlmComparisonSlugs = [
+    // Essential Oils
+    { slug: "doterra-vs-young-living" },
+    { slug: "young-living-vs-doterra" },
+    // Beauty/Skincare
+    { slug: "mary-kay-vs-avon-products" },
+    { slug: "monat-global-vs-rodan-fields" },
+    { slug: "arbonne-international-vs-monat-global" },
+    { slug: "nu-skin-enterprises-vs-arbonne-international" },
+    // Health/Wellness
+    { slug: "herbalife-vs-isagenix" },
+    { slug: "isagenix-vs-amway" },
+    { slug: "plexus-worldwide-vs-herbalife" },
+    { slug: "usana-health-sciences-vs-nu-skin-enterprises" },
+    { slug: "four-life-research-vs-usana-health-sciences" },
+    // Lifestyle/Products
+    { slug: "lularoe-vs-mary-kay" },
+    { slug: "scentsy-vs-pampered-chef" },
+    { slug: "forever-living-products-vs-herbalife" },
+    { slug: "tupperware-vs-pampered-chef" },
+    // Big Brand vs Big Brand
+    { slug: "amway-vs-herbalife" },
+    { slug: "herbalife-vs-amway" },
+    { slug: "amway-vs-avon-products" },
+    { slug: "mary-kay-vs-herbalife" },
+    { slug: "doterra-vs-herbalife" },
+    // vs Affiliate Programs (non-HBA)
+    { slug: "amway-vs-clickbank" },
+    { slug: "herbalife-vs-amazon-associates" },
+    { slug: "doterra-vs-amazon-associates" },
+    { slug: "monat-global-vs-amazon-associates" },
+    { slug: "mary-kay-vs-clickbank" },
+  ];
+
+  return [...existingSlugs, ...mlmComparisonSlugs];
 }
 
 function parseComparisonSlug(slug: string): { company1Slug: string; company2Slug: string } | null {
@@ -68,16 +105,15 @@ export default async function ComparisonPage({ params }: PageProps) {
     notFound();
   }
 
-  // Find the comparison data
+  // Find the comparison data (optional - page works without it)
   const comparison = comparisonPages.find(
     (cp) => cp.company_id === company1.id && cp.vs_company_slug === company2.slug
   );
 
-  if (!comparison) {
-    notFound();
-  }
-
-  const winner = comparison.content.winner === 'vs_company' ? company2 : company1;
+  // Determine winner based on overall rating when no comparison data exists
+  const winner = comparison
+    ? (comparison.content.winner === 'vs_company' ? company2 : company1)
+    : (company1.overall_rating >= company2.overall_rating ? company1 : company2);
   const winnerColor = winner.overall_rating >= 4 ? 'text-emerald-600' : 'text-amber-600';
 
   return (
@@ -143,7 +179,7 @@ export default async function ComparisonPage({ params }: PageProps) {
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
             Feature Comparison
           </h2>
-          <ComparisonTable company={company1} vsCompany={company2} comparison={comparison} />
+          <ComparisonTable company={company1} vsCompany={company2} comparison={comparison || undefined} />
         </section>
 
         {/* Detailed Breakdown */}
@@ -261,7 +297,7 @@ export default async function ComparisonPage({ params }: PageProps) {
             </div>
 
             <p className="text-gray-700 text-center max-w-2xl mx-auto leading-relaxed">
-              {comparison.content.verdict}
+              {comparison?.content.verdict || `Based on our analysis, ${winner.name} edges out with an overall rating of ${winner.overall_rating.toFixed(1)} compared to ${winner === company1 ? company2.name : company1.name}'s ${(winner === company1 ? company2.overall_rating : company1.overall_rating).toFixed(1)}. Both options have their merits, but ${winner.name} offers a stronger overall opportunity based on our evaluation criteria including compensation structure, product quality, and long-term viability.`}
             </p>
           </div>
         </section>
