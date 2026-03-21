@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 // Revalidate every hour
-export const revalidate = 3600;
+export const revalidate = 60; // Revalidate every 60 seconds
 
 // Archive: Hardcoded news items (kept for historical reference)
 const archiveNewsItems = [
