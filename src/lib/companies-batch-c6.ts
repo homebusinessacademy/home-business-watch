@@ -2204,10 +2204,10 @@ export const companiesBatchC6: Company[] = [
       'Regulatory Action': 'None yet — too new',
       'Blockchain': 'USDT on unspecified blockchain via "Bankus" app',
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-03-21T21:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-03-21T21:00:00.000Z',
     tagline: 'Peer-to-peer crypto matrix with no product — classic pyramid scheme structure',
     faq: [
       {

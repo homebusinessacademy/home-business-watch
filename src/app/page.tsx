@@ -182,8 +182,8 @@ export default function HomePage() {
               const isUpdated = !isNew && new Date(company.last_updated).getTime() > thirtyDaysAgo;
               return (
                 <div key={company.slug} className="relative">
-                  {isNew && <span className="absolute top-3 right-3 z-10 text-xs font-bold text-white bg-amber-500 px-2 py-1 rounded-full">NEW</span>}
-                  {isUpdated && <span className="absolute top-3 right-3 z-10 text-xs font-bold text-white bg-blue-500 px-2 py-1 rounded-full">UPDATED</span>}
+                  {isNew && <span className="absolute top-3 left-3 z-10 text-xs font-bold text-white bg-amber-500 px-2 py-1 rounded-full">NEW</span>}
+                  {isUpdated && <span className="absolute top-3 left-3 z-10 text-xs font-bold text-white bg-blue-500 px-2 py-1 rounded-full">UPDATED</span>}
                   <CompanyCard company={company} />
                 </div>
               );
