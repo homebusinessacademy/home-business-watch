@@ -180,13 +180,8 @@ export default function HomePage() {
               const thirtyDaysAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
               const isNew = new Date(company.created_at).getTime() > thirtyDaysAgo;
               const isUpdated = !isNew && new Date(company.last_updated).getTime() > thirtyDaysAgo;
-              return (
-                <div key={company.slug} className="relative">
-                  {isNew && <span className="absolute top-3 left-3 z-10 text-xs font-bold text-white bg-amber-500 px-2 py-1 rounded-full">NEW</span>}
-                  {isUpdated && <span className="absolute top-3 left-3 z-10 text-xs font-bold text-white bg-blue-500 px-2 py-1 rounded-full">UPDATED</span>}
-                  <CompanyCard company={company} />
-                </div>
-              );
+              const badge = isNew ? 'new' : isUpdated ? 'updated' : undefined;
+              return <CompanyCard key={company.slug} company={company} badge={badge} />;
             })}
           </div>
         </div>

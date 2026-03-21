@@ -4,9 +4,10 @@ import { StarRating } from './StarRating';
 
 interface CompanyCardProps {
   company: Company;
+  badge?: 'new' | 'updated';
 }
 
-export function CompanyCard({ company }: CompanyCardProps) {
+export function CompanyCard({ company, badge }: CompanyCardProps) {
   const costDisplay = company.monthly_cost_min === 0 && company.monthly_cost_max === 0
     ? 'Free'
     : company.monthly_cost_min === company.monthly_cost_max
@@ -24,9 +25,13 @@ export function CompanyCard({ company }: CompanyCardProps) {
       <article className="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg hover:border-navy-300 transition-all duration-200">
         <div className="flex items-start justify-between mb-3">
           <div>
-            <h3 className="text-lg font-semibold text-gray-900 group-hover:text-navy-700 transition-colors">
-              {company.name}
-            </h3>
+            <div className="flex items-center gap-2 flex-wrap">
+              <h3 className="text-lg font-semibold text-gray-900 group-hover:text-navy-700 transition-colors">
+                {company.name}
+              </h3>
+              {badge === 'new' && <span className="text-xs font-bold text-white bg-amber-500 px-2 py-0.5 rounded-full">NEW</span>}
+              {badge === 'updated' && <span className="text-xs font-bold text-white bg-blue-500 px-2 py-0.5 rounded-full">UPDATED</span>}
+            </div>
             <span className="inline-block text-xs font-medium text-gray-500 bg-gray-100 px-2 py-1 rounded mt-1">
               {CATEGORY_LABELS[company.category]}
             </span>
