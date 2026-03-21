@@ -9,7 +9,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1984,
     hq_location: 'Provo, Utah, USA',
     website: 'https://nuskin.com',
-    products_summary: 'Skincare and nutritional supplements sold through direct sales. Known for ageLOC anti-aging products and Pharmanex supplements. Publicly traded company (NYSE: NUS).',
+    products_summary: 'Nu Skin Enterprises is a publicly traded (NYSE: NUS) direct selling company specializing in premium skincare and nutritional supplements. Their flagship ageLOC anti-aging line and Pharmanex supplement brand are sold in over 50 countries through approximately 825,000 independent distributors and preferred customers. The company reported $1.73 billion in revenue for 2024, down 12% from the previous year, with ongoing challenges in Greater China and South Korea. Nu Skin has faced regulatory scrutiny historically, including a $47 million FTC settlement in 1997 over pyramid scheme allegations, though the company continues to operate legally.',
     monthly_cost_min: 50,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level (Stairstep Breakaway)',
@@ -20,35 +20,47 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Publicly traded company with financial transparency',
-      'Products sold in 50+ countries globally',
-      'ageLOC product line has loyal customer base',
-      'Long-established company founded 1984'
+      'Publicly traded company (NYSE: NUS) providing financial transparency and regulatory oversight',
+      'Products sold in 50+ countries with established global distribution network',
+      'ageLOC anti-aging product line has a loyal customer base and clinical research backing',
+      'Long-established company with 40+ years in business since 1984',
+      '2024 revenue of $1.73 billion demonstrates significant scale despite recent declines',
+      'Rhyz technology segment grew 32% in 2024, showing diversification efforts'
     ],
     cons: [
-      'Paid $47M FTC settlement in 1997 over pyramid scheme allegations',
-      'Complex Stairstep Breakaway compensation plan difficult to understand',
-      'High personal sales volume requirements to qualify for commissions',
-      'Income disclosure shows majority of distributors earn under $1,000/year',
-      'Significant revenue decline in recent years'
+      'Paid $47 million FTC settlement in 1997 over pyramid scheme allegations',
+      'Only 12.68% of U.S. Active Distributors earned a commission check monthly',
+      '84.58% of distributors failed to qualify for ANY commission',
+      'Average monthly commission for all active distributors was just $118.05 ($1,416/year)',
+      'Revenue declined 12% in 2024 to $1.73B with continued challenges expected',
+      'Complex Stairstep Breakaway compensation plan difficult for new distributors to understand',
+      'Only top 1.44% of active distributors earned more than $912/month before expenses',
+      'High personal sales volume requirements to qualify for meaningful commissions'
     ],
     quick_facts: {
       'Founded': '1984',
       'Headquarters': 'Provo, Utah, USA',
       'Business Model': 'Multi-level marketing',
       'Stock': 'NYSE: NUS (publicly traded)',
-      'FTC Action': '$47M settlement (1997)',
-      'Monthly Requirement': '$50-200+ in personal volume'
+      '2024 Revenue': '$1.73 billion (down 12%)',
+      '2025 Guidance': '$1.48-1.62 billion',
+      'FTC Settlement': '$47M settlement (1997)',
+      'Active Distributors': '~825,000 globally',
+      'Commission Earners': 'Only 12.68% earned any commission',
+      'Average Annual Earnings': '$1,416 for active distributors (before expenses)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Publicly traded skincare and nutrition MLM',
+    tagline: 'NYSE-traded skincare MLM: 85% of distributors earn $0 in commissions',
     faq: [
-      { question: 'Is Nu Skin a pyramid scheme?', answer: 'Nu Skin paid a $47M settlement to the FTC in 1997 over pyramid scheme allegations but was not shut down. It operates as a legal MLM, though critics note the heavy emphasis on recruitment over retail sales.' },
-      { question: 'How much do Nu Skin distributors earn?', answer: 'According to Nu Skin\'s income disclosure, the majority of active brand affiliates earn less than $1,000 per year before expenses. Only a small percentage at the top earn significant income.' },
-      { question: 'What products does Nu Skin sell?', answer: 'Nu Skin sells skincare (ageLOC line), nutritional supplements (Pharmanex), and beauty devices. Products are generally premium-priced compared to retail alternatives.' }
+      { question: 'Is Nu Skin a pyramid scheme?', answer: 'Nu Skin paid a $47 million settlement to the FTC in 1997 over pyramid scheme allegations but was not shut down. It operates as a legal MLM today. However, income disclosure data shows 84.58% of distributors failed to qualify for any commission, with heavy emphasis on recruitment over retail sales.' },
+      { question: 'How much do Nu Skin distributors earn?', answer: 'According to Nu Skin\'s income disclosure, only 12.68% of U.S. Active Distributors earned a commission check monthly. The average monthly commission for all active distributors was $118.05 ($1,416/year before expenses). Only the top 1.44% earned more than $912/month.' },
+      { question: 'What is Nu Skin\'s income disclosure statement?', answer: 'Nu Skin\'s income disclosure reveals that 84.58% of distributors earned zero commissions. For those who did earn, the average was $930.91/month ($11,170/year) — but this represents only 12.68% of active distributors. These figures are before business expenses are deducted.' },
+      { question: 'Is Nu Skin worth it in 2026?', answer: 'Nu Skin faces significant challenges: 2024 revenue declined 12% to $1.73 billion with continued headwinds expected. With 85% of distributors earning nothing and high monthly purchase requirements, most participants lose money. The company guides for $1.48-1.62 billion in 2025 revenue.' },
+      { question: 'Nu Skin vs buying skincare at retail stores?', answer: 'Nu Skin\'s ageLOC products are premium-priced, often 2-3x comparable retail alternatives. While the company claims clinical backing, similar active ingredients are available in drugstore brands for significantly less without joining an MLM structure.' },
+      { question: 'What products does Nu Skin sell?', answer: 'Nu Skin sells skincare (ageLOC anti-aging line), nutritional supplements (Pharmanex), and beauty devices. Products are generally premium-priced. The company also owns Rhyz, a technology segment that grew 32% in 2024 to $286.6 million in revenue.' }
     ]
   },
   {
@@ -59,7 +71,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1977,
     hq_location: 'Duluth, Georgia, USA',
     website: 'https://primerica.com',
-    products_summary: 'Term life insurance, mutual funds, variable annuities, and financial products sold through a network of licensed representatives. One of the largest independent distributors of term life insurance in North America.',
+    products_summary: 'Primerica is a publicly traded (NYSE: PRI) financial services company that sells term life insurance, mutual funds, variable annuities, and other financial products through a network of licensed representatives. It is one of the largest independent distributors of term life insurance in North America with over 151,600 life-licensed representatives as of December 2024. The company generated $3.09 billion in revenue in 2024, up 12.4% from 2023. Unlike most MLMs, Primerica requires representatives to obtain state insurance licenses, adding legitimacy but also significant upfront costs.',
     monthly_cost_min: 99,
     monthly_cost_max: 199,
     comp_plan_type: 'Multi-level (override commissions on downline)',
@@ -70,35 +82,47 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Publicly traded company (NYSE: PRI) with regulatory oversight',
-      'Legitimate financial products (term life insurance)',
-      'Extensive training and licensing support',
-      'Can build a real career in financial services'
+      'Publicly traded company (NYSE: PRI) with regulatory oversight and financial transparency',
+      'Sells legitimate, regulated financial products (term life insurance, mutual funds)',
+      'Record 151,611 life-licensed representatives as of December 2024',
+      'Average compensation of $7,757 paid to life-licensed sales force in 2024',
+      '$3.09 billion in 2024 revenue with 12.4% year-over-year growth',
+      'Extensive training and licensing support provided to new representatives'
     ],
     cons: [
-      'Upfront licensing fees and required training courses',
-      'High pressure to recruit family and friends',
-      'Products often more expensive than competitors',
-      'MLM structure means commissions heavily favor those who recruit',
-      'Most representatives earn little to nothing before licensing'
+      'Initial $99 background check fee plus $100-300+ for state licensing courses',
+      'Most representatives earn significantly less than the $7,757 average (median likely much lower)',
+      'High pressure to recruit family and friends as both customers and representatives',
+      'Term life insurance products often more expensive than independent alternatives',
+      'MLM structure means commissions heavily favor those who build recruiting networks',
+      'Productivity rate of only 0.20 new policies per licensed rep per month',
+      'Requires significant time investment for licensing before any potential earnings',
+      'Many representatives spend money on licensing/training but earn very little'
     ],
     quick_facts: {
       'Founded': '1977',
       'Headquarters': 'Duluth, Georgia',
       'Business Model': 'MLM — financial services',
       'Stock': 'NYSE: PRI (publicly traded)',
-      'Licensing': 'Requires state insurance license',
-      'Startup Cost': '~$99 + licensing fees'
+      '2024 Revenue': '$3.09 billion (up 12.4%)',
+      'Licensed Representatives': '151,611 (December 2024)',
+      'Average Rep Earnings': '$7,757 in 2024 (not typical)',
+      'Startup Cost': '$99 + $100-300+ licensing fees',
+      'New Licenses (Q4 2024)': '14,620 (up 12% YoY)',
+      'Products': 'Term life insurance, mutual funds, annuities'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'MLM-based life insurance and financial services',
+    tagline: 'NYSE-traded insurance MLM with 151,000+ licensed reps and $3B revenue',
     faq: [
-      { question: 'Is Primerica a legitimate company?', answer: 'Primerica is a legitimate, publicly traded insurance company. However, its MLM recruitment model is controversial — many representatives spend money on licensing and training but earn very little.' },
-      { question: 'How much does it cost to join Primerica?', answer: 'There is typically a $99 background check fee plus the cost of state licensing courses, which can run $100-300+. Most new reps must recruit others to earn meaningful income.' },
-      { question: 'Is Primerica a pyramid scheme?', answer: 'Primerica is not a pyramid scheme — it sells legitimate insurance products. However, its heavy emphasis on recruiting over selling has drawn criticism and comparisons to MLM structures.' }
+      { question: 'Is Primerica a legitimate company?', answer: 'Primerica is a legitimate, publicly traded (NYSE: PRI) insurance company with $3.09 billion in 2024 revenue. It sells real, regulated financial products. However, its MLM recruitment model means many representatives spend money on licensing and training but earn very little, while top recruiters benefit most.' },
+      { question: 'How much do Primerica representatives earn?', answer: 'In 2024, Primerica paid life-licensed sales force members an average of $7,757. However, the company states "most representatives will not achieve such cash flow levels" and earnings "reflect an extraordinary level of success that is not typical." The median earnings are likely far lower than the average.' },
+      { question: 'What is Primerica\'s income disclosure?', answer: 'Primerica reports average earnings of $7,757 in 2024 for licensed reps but explicitly warns this is not typical. Representatives must pay $99 plus $100-300+ for licensing. Productivity averages only 0.20 new policies per rep monthly, suggesting most struggle to generate significant commissions.' },
+      { question: 'Is Primerica worth joining in 2026?', answer: 'Primerica requires real licensing (time and money) but provides legitimate financial products. With 151,600+ licensed reps and productivity of only 0.20 policies/month per rep, the market is saturated. Most reps earn far below the $7,757 average. Consider the $200-400+ upfront cost for licensing before any income potential.' },
+      { question: 'Is Primerica a pyramid scheme?', answer: 'Primerica is not a pyramid scheme — it sells legitimate, state-regulated insurance products. However, its heavy emphasis on recruiting other representatives over selling policies has drawn MLM criticism. Commission structures favor those who build large recruiting networks over individual policy salespeople.' },
+      { question: 'How does Primerica compare to independent insurance agents?', answer: 'Primerica term life insurance is often more expensive than policies available through independent agents or direct insurers. Independent agents can shop multiple carriers for the best rate, while Primerica reps sell only Primerica products. The MLM commission structure adds costs passed to consumers.' }
     ]
   },
   {
@@ -109,7 +133,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1963,
     hq_location: 'Addison, Texas, USA',
     website: 'https://marykay.com',
-    products_summary: 'Direct-sales cosmetics, skincare, and fragrances sold primarily by independent beauty consultants. One of the most recognizable MLM brands in the world, famous for its pink Cadillac car reward program.',
+    products_summary: 'Mary Kay is one of the world\'s most recognizable direct-sales cosmetics companies, selling skincare, makeup, fragrances, and body care products through independent beauty consultants. Founded in 1963 by Mary Kay Ash, the company is famous for its pink Cadillac car reward program. Mary Kay operates in over 35 countries with millions of consultants globally. Despite its iconic brand status, income disclosure data reveals stark realities: in Canada (similar market to U.S.), approximately 88% of consultants earn no commissions, with the average eligible consultant earning just $211 before the ~$1,000 annual cost to remain active.',
     monthly_cost_min: 100,
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level (frontline commissions + director overrides)',
@@ -120,35 +144,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.5,
     value_rating: 2.0,
     pros: [
-      'Iconic brand with 60+ years of history',
-      'Strong community and sisterhood culture',
-      'Flexible working hours and schedule',
-      'Pink Cadillac incentive is aspirational for many'
+      'Iconic 60+ year old brand with global name recognition',
+      'Strong community and sisterhood culture among consultants',
+      'Flexible working hours — work as much or as little as desired',
+      'Pink Cadillac incentive program is aspirational for motivated sellers',
+      '50% profit potential on retail sales if selling at full price',
+      'No mandatory inventory purchases (though strongly encouraged)'
     ],
     cons: [
-      'Required to purchase inventory upfront (\$100+ minimum)',
-      'Front-loading pressure: pushed to buy excessive inventory',
-      'Income disclosure shows ~73% of consultants earned $0 in commissions',
-      'Saturated market — difficult to find new customers and recruits',
-      'Products must be sold at full retail to earn decent margins'
+      'Canadian income disclosure shows ~88% of consultants earned $0 in commissions',
+      'Average eligible Canadian consultant earned just $211/year (before ~$1,000 annual costs)',
+      'Strong pressure to purchase inventory upfront (front-loading)',
+      'Starter kit ~$100 plus ongoing costs to maintain active status',
+      'Sales Directors saw average income drop to $19,658 CAD ($14,000 USD) in 2024',
+      'National Sales Directors average only $122,000 CAD ($88,000 USD) — down from $149,440',
+      'Saturated market — difficult to find customers who don\'t already know a consultant',
+      'Must sell at full retail to earn decent margins; discounting eliminates profit'
     ],
     quick_facts: {
       'Founded': '1963',
       'Headquarters': 'Addison, Texas',
       'Business Model': 'Direct sales / MLM',
       'Starter Kit': '~$100',
-      'Key Stat': '73% of consultants reported $0 in commissions (IDS)',
-      'Famous For': 'Pink Cadillac car reward'
+      'Commission Earners': 'Only ~12% eligible (88% earned $0)',
+      'Average Eligible Earnings': '$211/year (before expenses)',
+      'Sales Director Avg': '$19,658 CAD (~$14,000 USD) in 2024',
+      'Annual Cost to Stay Active': '~$1,000 USD',
+      'Famous For': 'Pink Cadillac car reward program'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Iconic pink cosmetics direct sales company',
+    tagline: 'Iconic pink cosmetics MLM where 88% of consultants earn zero commissions',
     faq: [
-      { question: 'Is Mary Kay worth it?', answer: 'Mary Kay income disclosure shows approximately 73% of Independent Beauty Consultants reported zero commissions. The small percentage who earn substantial income typically have large downlines and spend significant time recruiting.' },
-      { question: 'Do you have to buy inventory with Mary Kay?', answer: 'While not technically required, there is significant pressure to purchase inventory upfront. The starter kit is ~$100, but consultants are encouraged to invest much more in "inventory on hand."' },
-      { question: 'How much do Mary Kay consultants make?', answer: 'Based on income disclosures, the vast majority of consultants earn very little. Only those who build large recruiting networks (directors and above) typically earn meaningful income.' }
+      { question: 'Is Mary Kay worth it?', answer: 'Mary Kay income disclosure (Canada 2024) shows approximately 88% of consultants earned zero commissions. Of the 12% eligible for commissions, the average was just $211/year — but it costs nearly $1,000/year to remain active. This means the typical consultant loses roughly $850 annually.' },
+      { question: 'How much do Mary Kay consultants make?', answer: 'According to 2024 Canadian data: Only 11.7% of consultants are eligible for commissions, averaging $211/year ($150 USD). Sales Directors averaged $19,658 CAD ($14,000 USD), down from $21,050 the prior year. National Sales Directors averaged $122,000 CAD ($88,000 USD). These figures are before expenses.' },
+      { question: 'What is Mary Kay\'s income disclosure statement?', answer: 'Mary Kay does not publish U.S. income disclosures (not legally required). Canadian data shows 88% of consultants earned $0. The 0.04% who reach National Sales Director status averaged $122,000 CAD. Directors (1.6% of sales force) averaged $19,658 CAD. A typical consultant does not earn any commissions or bonuses.' },
+      { question: 'Is Mary Kay worth it in 2026?', answer: 'With 88% of consultants earning nothing and declining average incomes for Directors, Mary Kay presents significant financial risk. The ~$1,000 annual cost to stay active exceeds what most consultants earn. The market is highly saturated, and social media selling has made in-person party sales less effective.' },
+      { question: 'Do you have to buy inventory with Mary Kay?', answer: 'While not technically required, there is significant pressure to purchase inventory upfront. The starter kit is ~$100, but consultants are encouraged to invest much more in "inventory on hand" to have products available for customers. This front-loading practice often leaves consultants with unsold inventory.' },
+      { question: 'Is Mary Kay a pyramid scheme?', answer: 'Mary Kay is a legal MLM that sells real cosmetics products. However, with 88% of consultants earning zero commissions and income heavily concentrated among the top fraction of a percent, critics argue the structure primarily benefits recruiters over product sellers.' }
     ]
   },
   {
@@ -159,7 +194,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1886,
     hq_location: 'London, United Kingdom (owned by Natura &Co)',
     website: 'https://avon.com',
-    products_summary: 'One of the oldest direct sales companies in the world. Sells cosmetics, skincare, fragrance, and fashion through independent representatives (Avon Reps). Acquired by Natura &Co in 2019.',
+    products_summary: 'Avon is one of the oldest direct sales companies in the world, founded in 1886 and famous for its "Avon calling" door-to-door sales model. The company sells cosmetics, skincare, fragrance, and fashion products through independent representatives. Acquired by Natura &Co in 2019 as part of a $2 billion deal, Avon now operates alongside Natura brands with combined revenue of $5.3 billion (2024). Avon has over 4 million active representatives globally but does not publish formal income disclosure statements, making it difficult to verify typical earnings.',
     monthly_cost_min: 0,
     monthly_cost_max: 30,
     comp_plan_type: 'Direct sales with leadership bonuses (multi-level)',
@@ -170,35 +205,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.5,
     value_rating: 3.0,
     pros: [
-      'Free to join as an Avon representative',
-      '138+ year old brand with global recognition',
+      'Free to join as an Avon representative with no upfront costs',
+      '138+ year old brand with global recognition and trust',
       'Catalog-based selling model is simple to understand',
-      'Low startup costs compared to other direct sales'
+      'Low-risk entry compared to MLMs requiring inventory purchases',
+      'Part of Natura &Co with $5.3 billion combined revenue (2024)',
+      'Over 4 million active representatives worldwide shows scale'
     ],
     cons: [
+      'No income disclosure statement published — actual earnings unverified',
       'Declining brand relevance in competitive beauty market',
-      'Representatives must purchase products to sell (catalog model)',
-      'Commission rates relatively low (20-50% depending on tier)',
-      'Company has faced multiple legal/regulatory challenges globally',
-      'Saturated market — most people already know someone who sells Avon'
+      'Estimated typical rep earns $50-150/month after costs (industry surveys)',
+      'Commission rates relatively low (20-30% starting, up to 50% at higher tiers)',
+      'Saturated market — most people already know someone who sells Avon',
+      'Must purchase products to resell, creating inventory risk',
+      'Online competition from Amazon and beauty subscription services growing',
+      'Company faces financial restructuring challenges under Natura ownership'
     ],
     quick_facts: {
       'Founded': '1886',
       'Headquarters': 'London, UK',
       'Parent Company': 'Natura &Co (since 2019)',
       'Startup Cost': 'Free to join',
-      'Business Model': 'Catalog direct sales',
-      'Presence': '100+ countries'
+      'Business Model': 'Catalog direct sales with MLM elements',
+      'Active Representatives': '4+ million globally',
+      'Combined Parent Revenue': '$5.3 billion (Natura &Co, 2024)',
+      'Commission Range': '20-50% depending on tier',
+      'Income Disclosure': 'Not published'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'The original door-to-door beauty company',
+    tagline: 'The 138-year-old door-to-door beauty company now owned by Natura &Co',
     faq: [
-      { question: 'Is selling Avon worth it in 2025?', answer: 'Avon has struggled with declining sales and relevance. While it is free to join, many representatives find it difficult to compete in a market saturated with Avon reps and lower-priced alternatives online.' },
-      { question: 'How much do Avon reps make?', answer: 'Avon reps typically earn 20-50% commission on products they sell. Most earn part-time supplemental income rather than full-time wages, with earnings heavily dependent on personal sales volume.' },
-      { question: 'Is Avon an MLM?', answer: 'Avon is primarily a direct sales company with some MLM-like elements (leadership bonuses for recruiting). It is generally considered less MLM-focused than companies like Amway or Herbalife.' }
+      { question: 'Is selling Avon worth it in 2026?', answer: 'Avon is free to join with low risk, but the brand has struggled with declining relevance. Industry surveys suggest typical reps earn $50-150/month in commissions. Without an official income disclosure, actual earnings are unverified. Competition from online beauty retailers has intensified.' },
+      { question: 'How much do Avon reps make?', answer: 'Avon does not publish income disclosure statements. Based on compensation structure, reps earn 20-50% commission depending on tier. Surveys suggest typical active reps earn roughly $50-150/month in gross commissions. Reaching the President\'s Club requires $10,000+ in annual sales for up to 30% commission.' },
+      { question: 'Is Avon an MLM?', answer: 'Avon is primarily a direct sales company with some MLM-like elements (leadership bonuses for recruiting). It is generally considered less MLM-focused than companies like Amway or Herbalife. The free-to-join model and emphasis on product sales over recruiting makes it more accessible but also means lower earnings potential.' },
+      { question: 'What is Avon\'s income disclosure statement?', answer: 'Unlike most MLMs, Avon does not publish income disclosure statements. This makes it impossible to verify what typical representatives actually earn. The company\'s 2024 compensation plan shows commission tiers from 25% (Contender, $40+ sales) up to 30% (President\'s Club, $10,000+ annual sales).' },
+      { question: 'Is Avon still in business in 2026?', answer: 'Yes, Avon continues operating under Natura &Co ownership (since 2019). The combined company had $5.3 billion in revenue in 2024. However, Avon has faced restructuring and declining sales force numbers as the direct-selling model struggles against e-commerce competition.' },
+      { question: 'How does Avon compare to other beauty MLMs?', answer: 'Avon\'s free-to-join model and catalog-based selling is simpler and lower-risk than MLMs like Mary Kay or Rodan + Fields that require inventory purchases or expensive starter kits. However, commission rates are also lower, and the 138-year-old brand lacks the appeal of newer wellness-focused companies.' }
     ]
   },
   {
@@ -209,7 +255,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 2008,
     hq_location: 'Pleasant Grove, Utah, USA',
     website: 'https://doterra.com',
-    products_summary: 'Premium essential oils, oil blends, and wellness products sold through Wellness Advocates. One of the fastest-growing MLMs, known for high-quality sourcing (Certified Pure Tested Grade). Products are positioned as therapeutic-grade alternatives to conventional medicine.',
+    products_summary: 'doTERRA is one of the world\'s largest essential oils MLM companies, selling premium essential oils, blends, and wellness products through Wellness Advocates. Founded in 2008 by former Young Living executives, the company claims its Certified Pure Tested Grade (CPTG) oils are the industry\'s highest quality. doTERRA has grown rapidly with a passionate community, but income disclosure reveals 50.35% of U.S. distributors earned nothing, and joining gives less than 1% chance of making more than $860/year before expenses. The company received an FTC warning letter in 2019 for income and health claims.',
     monthly_cost_min: 35,
     monthly_cost_max: 150,
     comp_plan_type: 'Unilevel MLM with power of 3 bonus',
@@ -220,36 +266,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 4.0,
     value_rating: 2.0,
     pros: [
-      'Genuinely high quality essential oils with third-party testing',
+      'High-quality essential oils with third-party testing (CPTG standard)',
       'Strong, passionate community of wellness advocates',
-      'Wide product range beyond just oils (supplements, cleaning products)',
-      'Company grew rapidly and has significant brand recognition'
+      'Wide product range beyond oils (supplements, cleaning products, personal care)',
+      'Significant brand recognition in the essential oils market',
+      'New 2024 compensation plan designed to help builders earn $500/month faster',
+      'Company invests in sustainable sourcing practices globally'
     ],
     cons: [
-      '91% of Wellness Advocates earn $0; monthly LRP purchase required',
-      'Products are significantly overpriced vs comparable alternatives',
-      'FTC warning letter received regarding income claims (2019)',
-      'Managers-Executives (9%) avg up to $1,600/yr — vast majority earn nothing',
-      'Pressure to maintain monthly Loyalty Rewards Program (LRP) orders (100 PV)',
-      'Therapeutic claims for oils are not FDA-approved'
+      '50.35% of U.S. Distributors (267,194) earned $0 from doTERRA',
+      'Less than 1% chance of making more than $860/year before expenses',
+      'Must maintain 100 PV monthly (~$150-200) to receive residual income',
+      'FTC warning letter received in 2019 regarding income and health claims',
+      'Products significantly overpriced vs comparable essential oil alternatives',
+      'Only 0.5% of members make more than $9,000/year before expenses',
+      'Entry-level ranks (Manager-Executive) average only up to $1,600/year',
+      'New reps earn $0 on downline until reaching Executive rank (1,000 OV required)'
     ],
     quick_facts: {
       'Founded': '2008',
       'Headquarters': 'Pleasant Grove, Utah',
       'Business Model': 'Multi-level marketing',
-      'Income Disclosure': '91% of Wellness Advocates earned $0. Managers-Executives (9%) avg up to $1,600/yr. Monthly 100 LRP required.',
-      'Monthly Autoship': 'LRP minimum ~100 PV required',
-      'FTC': 'Warning letter for income claims (2019)'
+      'Income Reality': '50.35% earned $0; <1% earn over $860/year',
+      'Entry-Level Earnings': 'Manager-Executive avg up to $1,600/yr',
+      'Monthly Requirement': '100 PV (~$150-200) for residual income',
+      'FTC Action': 'Warning letter for income/health claims (2019)',
+      'Top Earners': 'Leadership ranks (1% of members) earn meaningful income',
+      'Mid-Level Earnings': 'Elite/Premier (4% of members) avg $3,950-$9,950/yr'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Premium essential oils MLM with strong community',
+    tagline: 'Premium essential oils MLM where 50% of distributors earn nothing',
     faq: [
-      { question: 'Is doTERRA a pyramid scheme?', answer: 'doTERRA is a legitimate MLM company, not a pyramid scheme. However, its income disclosure shows most Wellness Advocates earn very little. The FTC sent a warning letter in 2019 regarding exaggerated income and health claims.' },
-      { question: 'Are doTERRA oils worth the price?', answer: 'doTERRA oils are high quality and third-party tested. However, they are significantly more expensive than comparable alternatives. Independent testing has found similar quality oils available at much lower prices.' },
-      { question: 'How much do doTERRA Wellness Advocates earn?', answer: 'According to doTERRA\'s income disclosure, the majority of Wellness Advocates earn less than $1,200 per year. Meaningful income typically requires building a large downline, which few achieve.' }
+      { question: 'Is doTERRA a pyramid scheme?', answer: 'doTERRA is a legitimate MLM company, not a pyramid scheme. However, income disclosure shows 50.35% of U.S. distributors earned $0, and less than 1% made over $860/year. The FTC sent a warning letter in 2019 regarding exaggerated income and health claims made by the company and its Wellness Advocates.' },
+      { question: 'How much do doTERRA Wellness Advocates earn?', answer: 'According to doTERRA\'s income disclosure: 50.35% earned nothing. Entry-level ranks (Manager-Executive, 9% of members) average up to $1,600/year. Mid-level (Elite/Premier, 4%) average $3,950-$9,950/year. Leadership ranks (~1%) earn the only meaningful income. All figures are before expenses including required monthly purchases.' },
+      { question: 'What is doTERRA\'s income disclosure statement?', answer: 'doTERRA\'s disclosure reveals 74% of members are Consultants who don\'t earn commissions. 50.35% of U.S. distributors earned $0. You have less than 1% chance of making over $860/year. Monthly 100 PV purchases (~$150-200) are required to qualify for residual income beyond retail profit.' },
+      { question: 'Is doTERRA worth it in 2026?', answer: 'With 50% earning nothing and required monthly purchases of $150-200, most participants lose money. The new 2024 compensation plan aims to help builders reach $500/month faster, but structural challenges remain. Essential oil alternatives at lower prices make retail sales difficult.' },
+      { question: 'Are doTERRA oils worth the price?', answer: 'doTERRA oils are high quality and third-party tested (CPTG standard). However, they are significantly more expensive than comparable alternatives. Independent testing has found similar quality oils available at much lower prices from non-MLM brands, making the premium hard to justify.' },
+      { question: 'doTERRA vs Young Living — which is better?', answer: 'Both are essential oil MLMs with similar business models and income outcomes. doTERRA (founded 2008) was started by former Young Living executives. Income disclosures show most participants in both companies earn minimal commissions. Product quality is comparable; the main difference is marketing and community culture.' }
     ]
   },
   {
@@ -260,7 +316,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1993,
     hq_location: 'Lehi, Utah, USA',
     website: 'https://youngliving.com',
-    products_summary: 'Essential oils and oil-infused products including supplements, cleaning products, and personal care items. Claims to own its own farms (Seed to Seal standard). One of the two dominant essential oil MLMs alongside doTERRA.',
+    products_summary: 'Young Living is the pioneer of the essential oils MLM industry, founded in 1993. The company sells essential oils, oil-infused products, supplements, cleaning products, and personal care items through Brand Partners. Young Living owns its own farms and promotes a "Seed to Seal" quality standard. Despite being the original essential oil MLM, income disclosures reveal 89% of members attempting to build a business were on the bottom tier earning an average of $4/year, while 98.7% of active members averaged between $4 and $1,551 annually. The FTC issued a warning letter in 2020 for COVID-19 treatment claims.',
     monthly_cost_min: 35,
     monthly_cost_max: 150,
     comp_plan_type: 'Unilevel MLM',
@@ -271,35 +327,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.5,
     value_rating: 2.0,
     pros: [
-      'Pioneered the essential oil MLM industry',
-      'Seed to Seal farming standard adds perceived authenticity',
-      'Large product catalog beyond just oils',
-      'Strong brand loyalty among existing customers'
+      'Pioneered the essential oils MLM industry with 30+ years of history',
+      'Seed to Seal farming standard adds perceived authenticity and quality control',
+      'Owns its own farms for vertical integration of supply chain',
+      'Large product catalog beyond just oils (supplements, cleaning, personal care)',
+      'Strong brand loyalty among existing customers and distributors',
+      'Provides detailed income disclosure statements for transparency'
     ],
     cons: [
-      '~94% of distributors earn near $0; median income $4/yr for business builders',
-      'FTC warning letter for COVID-19 treatment claims (2020)',
-      'Products significantly overpriced vs retail alternatives',
-      'Required Essential Rewards autoship (100 PV monthly) to qualify for commissions',
-      'History of founder controversies (Gary Young)'
+      '89% of business builders on bottom tier earned median of $4/year',
+      '98.7% of active members earned between $4 and $1,551/year before expenses',
+      'FTC warning letter in 2020 for COVID-19 treatment claims',
+      'Required Essential Rewards autoship (100 PV monthly, ~$100-150) to qualify for commissions',
+      'Products significantly overpriced vs retail and non-MLM alternatives',
+      'Founder Gary Young faced multiple controversies before his death in 2018',
+      'Starter kits range from $165-$260 plus ongoing monthly requirements',
+      'Intense market competition from doTERRA and retail essential oil brands'
     ],
     quick_facts: {
       'Founded': '1993',
       'Headquarters': 'Lehi, Utah',
       'Business Model': 'Multi-level marketing',
-      'Income Disclosure': '~94% of members who built a business earned median $4/yr. Monthly 100 PV autoship required to earn.',
+      'Income Reality': '89% earned median $4/yr; 98.7% under $1,551/yr',
       'FTC Action': 'Warning letter for COVID-19 claims (2020)',
-      'Monthly Requirement': 'Essential Rewards ~100 PV minimum'
+      'Monthly Requirement': 'Essential Rewards 100 PV (~$100-150)',
+      'Starter Kits': '$165-$260',
+      'Quality Standard': 'Seed to Seal (owns farms)',
+      'Founder': 'Gary Young (deceased 2018)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'The original essential oils MLM company',
+    tagline: 'The original essential oils MLM: 89% of builders earn median $4/year',
     faq: [
-      { question: 'Is Young Living legit?', answer: 'Young Living is a legitimate company that sells real products. However, the FTC issued a warning letter in 2020 for COVID-19 treatment claims. Income disclosures show most members earn very little.' },
-      { question: 'Young Living vs doTERRA — which is better?', answer: 'Both are legitimate essential oil MLMs with similar business models. doTERRA has slightly more distributor growth in recent years. Both have income disclosures showing most participants earn minimal commissions.' },
-      { question: 'How much does it cost to join Young Living?', answer: 'Starter kits range from $165-$260. To qualify for commissions, members typically need to maintain 100 PV (about $100-150) in monthly Essential Rewards purchases.' }
+      { question: 'Is Young Living legit?', answer: 'Young Living is a legitimate company selling real essential oil products with its Seed to Seal quality standard. However, the FTC issued a warning letter in 2020 for COVID-19 treatment claims. Income disclosures show 89% of business builders earned a median of $4/year, making it a poor income opportunity for most.' },
+      { question: 'How much do Young Living distributors earn?', answer: 'According to income disclosure analysis: 89% of members building a business earned median $4/year. 98.7% of active members earned between $4 and $1,551/year. These figures don\'t account for required monthly purchases of ~$100-150 to qualify for commissions, meaning most actually lose money.' },
+      { question: 'What is Young Living\'s income disclosure statement?', answer: 'Young Living publishes annual income disclosure statements. The 2025 U.S. statement shows income earned by ranking members during 2025. Historical data reveals 89% of business builders earned median $4/year. Required monthly 100 PV purchases (~$100-150) are not deducted from reported earnings.' },
+      { question: 'Young Living vs doTERRA — which is better?', answer: 'Both are legitimate essential oil MLMs with similar business models and income outcomes. Young Living (1993) pioneered the industry; doTERRA (2008) was founded by former Young Living executives. Both show most participants earn minimal commissions. Quality is comparable; choose based on product preference and local community.' },
+      { question: 'Is Young Living worth joining in 2026?', answer: 'With 89% of builders earning $4/year median and 98.7% under $1,551/year before expenses, plus required monthly purchases of $100-150, most participants lose money. Starter kits cost $165-260. The essential oils market is saturated with cheaper alternatives available at retail stores.' },
+      { question: 'How much does it cost to join Young Living?', answer: 'Starter kits range from $165-$260. To qualify for commissions, members must maintain 100 PV (about $100-150) in monthly Essential Rewards purchases. This means annual costs of $1,200-1,800+ just to remain commission-eligible, exceeding what 98.7% of members earn.' }
     ]
   },
   {
@@ -310,7 +377,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1980,
     hq_location: 'Irvine, California, USA',
     website: 'https://arbonne.com',
-    products_summary: 'Vegan, plant-based skincare, nutrition, and personal care products. Positioned as premium, clean-label wellness brand. Sold through Independent Consultants. Filed for bankruptcy in 2009, restructured and relaunched.',
+    products_summary: 'Arbonne is a vegan, plant-based skincare, nutrition, and personal care MLM founded in 1980. The company positions itself as a premium, clean-label wellness brand and has found a niche among health-conscious consumers. Arbonne filed for bankruptcy in 2009 with $600+ million in debt, restructured, and relaunched under new ownership. Recent income disclosure data shows 88% of consultants never earn any commission, with the median earnings for business-building consultants at just $77 in 2023. The BBB Direct Selling Self-Regulatory Council recommended modifications to Arbonne\'s income claims in February 2025.',
     monthly_cost_min: 30,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (Merit Plan)',
@@ -321,35 +388,47 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.5,
     value_rating: 2.0,
     pros: [
-      'Vegan and cruelty-free positioning appeals to modern consumers',
-      'Premium product quality with clean ingredient standards',
-      'Strong community events and culture',
-      'Increasing demand for clean beauty products'
+      'Vegan and cruelty-free positioning appeals to modern health-conscious consumers',
+      'Premium product quality with clean ingredient standards (B Corp certified)',
+      'Strong community events and supportive culture among consultants',
+      'Increasing mainstream demand for clean beauty and plant-based wellness products',
+      'Restructured after 2009 bankruptcy with stable operations since',
+      '40+ year company history provides some business stability'
     ],
     cons: [
-      'Filed for bankruptcy in 2009 — restructured under new ownership',
-      'Income disclosure shows ~68% of consultants earned $0',
-      'Very expensive products compared to vegan alternatives',
-      'Required to maintain preferred client orders to qualify for bonuses',
-      'Pyramid-like structure where top earners dominate income'
+      '88% of Arbonne consultants never earn any commission at all',
+      'Median earnings for business-building consultants: only $77 in 2023',
+      'Filed for Chapter 11 bankruptcy in 2009 with $600+ million in debt',
+      'Required $99 annual fee plus business expenses not included in income disclosures',
+      'Only 0.36% of consultants (1 in 278) earn a full-time income',
+      'BBB/DSSRC recommended modifications to income claims (February 2025)',
+      'Very expensive products compared to retail vegan/clean beauty alternatives',
+      'Top 50 consultants average $2,600/year — showing limited upside even for above-average performers'
     ],
     quick_facts: {
       'Founded': '1980',
       'Headquarters': 'Irvine, California',
       'Business Model': 'Multi-level marketing',
-      'Products': 'Vegan/plant-based wellness',
-      'History': 'Filed bankruptcy 2009, restructured',
-      'Income': '~68% consultants earn $0 (IDS)'
+      'Bankruptcy': 'Filed Chapter 11 in 2009, restructured',
+      'Commission Earners': 'Only 12% (88% earn $0)',
+      'Median Earnings': '$77/year for business builders (2023)',
+      'Full-Time Earners': '0.36% (1 in 278 consultants)',
+      'Annual Fee': '$99 required',
+      'DSSRC Action': 'Recommended income claim modifications (Feb 2025)',
+      'Products': 'Vegan/plant-based wellness, skincare, nutrition'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Vegan wellness MLM with premium positioning',
+    tagline: 'Vegan wellness MLM with 2009 bankruptcy history: 88% of consultants earn $0',
     faq: [
-      { question: 'Did Arbonne go bankrupt?', answer: 'Yes — Arbonne filed for Chapter 11 bankruptcy in 2009 with $600M+ in debt. It was restructured and relaunched, and has operated successfully since, though the event raises questions about long-term stability.' },
-      { question: 'Is Arbonne worth joining?', answer: 'Arbonne income disclosure shows approximately 68% of consultants earned $0 in commissions. Success is heavily concentrated among the top few percent who built large recruiting networks.' },
-      { question: 'Are Arbonne products good quality?', answer: 'Arbonne products are genuinely vegan and cruelty-free with clean ingredient standards. However, they are very expensive compared to other vegan alternatives available in mainstream retail.' }
+      { question: 'Did Arbonne go bankrupt?', answer: 'Yes — Arbonne filed for Chapter 11 bankruptcy in 2009 with $600+ million in debt. The company was restructured under new ownership and has operated successfully since, but this history raises questions about long-term stability and the financial viability of its MLM model.' },
+      { question: 'How much do Arbonne consultants earn?', answer: 'According to Arbonne\'s income disclosure: 88% of consultants earned $0 in commissions. Business-building consultants earned a median of just $77 in 2023. Only 0.36% (1 in 278) earned a full-time income. Entry-level consultants who did earn averaged $830/year. All figures are before the $99 annual fee and expenses.' },
+      { question: 'Is Arbonne worth joining?', answer: 'With 88% of consultants earning nothing, median earnings of $77/year, and a required $99 annual fee, the typical Arbonne consultant loses money. Only 1 in 278 consultants earns a full-time income. The BBB recommended Arbonne modify its income claims in February 2025 due to misleading representations.' },
+      { question: 'What is Arbonne\'s income disclosure statement?', answer: 'Arbonne\'s 2023 disclosure shows 88% earned $0, with median earnings of $77 for business builders. The BBB/DSSRC determined in 2025 that Arbonne should modify language to clarify that income data represents gross earnings, not net after the $99 fee and business expenses.' },
+      { question: 'Are Arbonne products good quality?', answer: 'Arbonne products are genuinely vegan, cruelty-free, and made with clean ingredient standards (B Corp certified). However, they are significantly more expensive than comparable vegan alternatives available at mainstream retailers like Target, Sephora, or Amazon. Quality is good; value is questionable.' },
+      { question: 'Is Arbonne a pyramid scheme?', answer: 'Arbonne is a legal MLM that sells real products. However, with 88% earning nothing, 0.36% earning full-time income, and a 2009 bankruptcy, the business model heavily favors top recruiters over product sellers. Regulators have required modifications to income claims, suggesting ongoing concerns about misleading recruitment.' }
     ]
   },
   {
@@ -360,7 +439,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 2014,
     hq_location: 'Doral, Florida, USA',
     website: 'https://monatglobal.com',
-    products_summary: 'Premium haircare, skincare, and wellness products sold through Market Partners. One of the fastest-growing MLMs of the 2010s, known for anti-aging hair products. Has faced significant controversy over product safety.',
+    products_summary: 'MONAT is a haircare and skincare MLM founded in 2014 that experienced explosive growth through social media marketing. The company sells premium haircare products focused on anti-aging and hair health through Market Partners. MONAT has faced significant controversy including hundreds of lawsuits alleging products caused hair loss and scalp damage, settling a class action for $17.4 million in 2021. Income disclosure shows the average Market Partner earned $758 in 2024 (down from $888 in 2023), with 41% earning nothing. The company faces ongoing scrutiny from Florida AG and BBB/DSSRC.',
     monthly_cost_min: 84,
     monthly_cost_max: 250,
     comp_plan_type: 'Unilevel MLM',
@@ -371,35 +450,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 2.5,
     value_rating: 1.5,
     pros: [
-      'High-growth company — rapid distributor expansion',
-      'Products focus on trendy hair health/anti-aging space',
-      'Strong social media presence and marketing materials'
+      'Rapid growth company with strong social media presence and marketing',
+      'Products focus on trendy hair health and anti-aging niche',
+      'Active community with frequent virtual and in-person events',
+      'Premium positioning appeals to some consumers seeking luxury haircare'
     ],
     cons: [
-      'Hundreds of lawsuits alleging products cause hair loss and scalp damage',
-      'Class action lawsuit settled in 2021 for $17.4M',
-      'FTC investigation into business practices',
-      'Income disclosure shows majority earn under \$500/year',
-      'Requires \$84/month VIP Membership to maintain status',
-      'Very expensive products with high required autoship'
+      'Hundreds of lawsuits alleged products caused hair loss, scalp damage, and balding',
+      'Class action lawsuit settled for $17.4 million in 2021 (without admitting wrongdoing)',
+      'Average Market Partner earned only $758 in 2024 (down from $888 in 2023)',
+      '41% of U.S. Market Partners earned $0 in 2024',
+      'Founding distributor lawsuit claims earnings slashed 75% and subsequent termination',
+      'Former president sued alleging fraud and improper product formula changes',
+      'BBB/DSSRC recommended discontinuing earnings claims (September 2024)',
+      'Ongoing Florida Attorney General scrutiny under compliance agreement',
+      'Only 0.23% earn career-level full-time income'
     ],
     quick_facts: {
       'Founded': '2014',
       'Headquarters': 'Doral, Florida',
       'Business Model': 'Multi-level marketing',
-      'Legal': 'Class action settled for $17.4M (2021)',
-      'Monthly Minimum': '~$84 VIP membership',
-      'Controversy': 'Hair loss and scalp damage lawsuits'
+      '2024 Average Earnings': '$758 (all Market Partners)',
+      'Zero Earners': '41% earned nothing in 2024',
+      'Full-Time Earners': 'Only 0.23%',
+      'Class Action Settlement': '$17.4 million (2021)',
+      'DSSRC Action': 'Recommended discontinuing earnings claims (Sept 2024)',
+      'Ongoing Scrutiny': 'Florida AG compliance agreement',
+      'Product Controversies': 'Hair loss and scalp damage lawsuits'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Controversial haircare MLM with significant legal issues',
+    tagline: 'Controversial haircare MLM: $17.4M hair loss settlement, 41% earn nothing',
     faq: [
-      { question: 'Does MONAT cause hair loss?', answer: 'Hundreds of lawsuits alleged MONAT products caused hair loss, scalp irritation, and damage. MONAT settled a class action lawsuit for $17.4M in 2021 without admitting wrongdoing. Product safety remains controversial.' },
-      { question: 'Is MONAT a scam?', answer: 'MONAT is a legal company, not technically a scam. However, it faces significant legal issues over product safety, and income disclosure shows most Market Partners earn little to nothing.' },
-      { question: 'How much do MONAT Market Partners make?', answer: 'MONAT income disclosure shows the majority of Market Partners earn under $500 per year. Top earners who build large recruiting networks can earn more, but this represents a very small percentage.' }
+      { question: 'Does MONAT cause hair loss?', answer: 'Hundreds of lawsuits alleged MONAT products caused hair loss, scalp irritation, balding, and damage. MONAT settled a class action lawsuit for $17.4 million in 2021 without admitting wrongdoing. Former president\'s lawsuit alleged co-founders insisted on improperly changing formulas ignoring warnings from the chief science officer.' },
+      { question: 'How much do MONAT Market Partners earn?', answer: 'According to MONAT\'s 2024 income disclosure, the average U.S. Market Partner earned $758 annually (down from $888 in 2023). 41% earned $0 in 2024. Only 0.23% earn career-level full-time income. The BBB/DSSRC recommended MONAT discontinue earnings claims in September 2024.' },
+      { question: 'Is MONAT a scam?', answer: 'MONAT is a legal company, not technically a scam. However, it faces serious issues: a $17.4M class action settlement over product safety, ongoing Florida AG scrutiny, founding distributor lawsuits claiming 75% earnings cuts, and income disclosure showing 41% earn nothing while only 0.23% earn full-time income.' },
+      { question: 'What is MONAT\'s income disclosure statement?', answer: 'MONAT\'s 2024 disclosure shows average annual income of $758 for all U.S. Market Partners (including active and inactive). 41% were not active and earned $0. The DSSRC concluded in September 2024 that the number earning full-time income (0.23%) is so atypical that standard disclosures don\'t qualify the marketing claims.' },
+      { question: 'Is MONAT worth joining in 2026?', answer: 'With average earnings of $758/year declining from 2023, 41% earning nothing, product safety lawsuits, regulatory scrutiny, and only 0.23% earning full-time income, MONAT presents significant financial and reputational risk. The ~$84/month VIP membership requirement means most lose money.' },
+      { question: 'What happened with MONAT lawsuits?', answer: 'MONAT settled a class action for $17.4M in 2021 over hair loss claims. A founding distributor sued claiming 75% earnings drop and termination for asking questions. Former president Stuart MacMillan sued alleging breach of contract, defamation, and fraud over profit-sharing disputes and product formula changes.' }
     ]
   },
   {
@@ -410,7 +500,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 2002,
     hq_location: 'Gilbert, Arizona, USA',
     website: 'https://isagenix.com',
-    products_summary: 'Nutritional cleansing and replenishing products including protein shakes, supplements, and weight management systems. Uses a system-based approach (30-day cleanse, etc.) to position products as complete wellness programs.',
+    products_summary: 'Isagenix is a nutritional cleansing and weight management MLM founded in 2002. The company sells protein shakes, supplements, and system-based programs like their 30-day cleanse through independent Associates. Isagenix positions products as complete wellness programs rather than individual supplements. Income disclosure shows the average U.S. Associate earned $986.74 in 2024 (up from $787 in 2023), but Isagenix explicitly states that "most Associates will not achieve a meaningful level of success" even with significant time, effort, and personal funds invested.',
     monthly_cost_min: 150,
     monthly_cost_max: 400,
     comp_plan_type: 'Binary MLM',
@@ -421,35 +511,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.0,
     value_rating: 1.5,
     pros: [
-      'System-based approach makes selling easier than individual products',
-      'Some customers see genuine results from cleanse programs',
-      'Strong culture and community events',
-      'Long-established company with stable operations'
+      'System-based approach (30-day cleanse) makes selling easier than individual products',
+      'Some customers report genuine results from cleanse programs',
+      'Strong community culture with supportive events and training',
+      'Long-established company (20+ years) with stable operations',
+      '2024 average earnings increased to $986.74 from $787 in 2023',
+      'Company explicitly acknowledges earning realities in disclosures'
     ],
     cons: [
-      'Very high monthly product requirements (\$150-400+)',
-      'Binary compensation plan is complex and favors top recruiters',
-      'Products very expensive compared to alternatives',
-      'Income disclosure shows ~79% of associates earn under \$1,000/year',
-      'Cleansing claims are not scientifically validated'
+      'Average 2024 earnings of $986.74 before expenses (for those who earned anything)',
+      'Company states most Associates won\'t achieve "meaningful level of success" even with effort',
+      'Binary compensation plan is complex and heavily favors top recruiters',
+      'Very high monthly product requirements ($150-400+) to remain qualified',
+      'Products extremely expensive compared to retail alternatives',
+      '"Nutritional cleansing" claims are not scientifically validated',
+      'Required autoship creates ongoing costs that exceed most earnings',
+      'BBB/DSSRC conducted inquiry requiring compliance outreach (2025)'
     ],
     quick_facts: {
       'Founded': '2002',
       'Headquarters': 'Gilbert, Arizona',
       'Business Model': 'Binary MLM',
-      'Monthly Cost': '\$150-400+ autoship',
-      'Income': '~79% earn under \$1,000/year',
-      'Key Product': '30-day cleanse system'
+      '2024 Average Earnings': '$986.74 (before expenses)',
+      '2023 Average Earnings': '$787 (before expenses)',
+      'Monthly Requirement': '$150-400+ autoship',
+      'Key Products': '30-day cleanse, protein shakes, supplements',
+      'Company Statement': '"Most Associates will not achieve meaningful success"',
+      'DSSRC': 'Compliance inquiry conducted (2025)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Nutritional cleansing system sold through binary MLM',
+    tagline: 'Nutritional cleansing MLM: company admits most won\'t achieve meaningful success',
     faq: [
-      { question: 'Is Isagenix a pyramid scheme?', answer: 'Isagenix is a legal MLM company. Its income disclosure shows about 79% of associates earn under $1,000 per year. The binary compensation plan is complex and requires significant recruiting to earn meaningful income.' },
-      { question: 'Does Isagenix really work?', answer: 'Some customers report positive results from Isagenix programs. However, nutritional scientists note the cleansing claims are not scientifically validated, and similar results could be achieved with less expensive dietary changes.' },
-      { question: 'How much does Isagenix cost per month?', answer: 'Maintaining active status typically requires $150-400+ in monthly product purchases. This high ongoing cost makes it difficult for most associates to profit after expenses.' }
+      { question: 'Is Isagenix a pyramid scheme?', answer: 'Isagenix is a legal MLM company, not a pyramid scheme. However, the company explicitly states that "most Associates will not achieve a meaningful level of success" even with significant time, effort, and personal funds. The binary compensation plan requires building two equal "legs" which most find very difficult.' },
+      { question: 'How much do Isagenix Associates earn?', answer: 'In 2024, the average earnings of all U.S. Isagenix Associates was $986.74 before expenses (up from $787 in 2023). For Associates who earned money, the average was $4,594 before expenses. However, the company warns that even dedicated Associates may not achieve meaningful success.' },
+      { question: 'Does Isagenix really work?', answer: 'Some customers report positive results from Isagenix cleanse programs. However, nutritional scientists note the "cleansing" claims are not scientifically validated, and similar results could be achieved with less expensive dietary changes. The products are extremely overpriced compared to comparable supplements.' },
+      { question: 'What is Isagenix\'s income disclosure statement?', answer: 'Isagenix discloses average 2024 U.S. earnings of $986.74 for all Associates (active and inactive). The company transparently states it "cannot guarantee any particular level of earnings" and that "even Associates who dedicate significant time, effort, and personal funds may not achieve a meaningful level of success."' },
+      { question: 'How much does Isagenix cost per month?', answer: 'Maintaining active status typically requires $150-400+ in monthly autoship product purchases. With average earnings of $986.74/year before expenses, this means monthly costs of $150+ versus monthly earnings of ~$82 — resulting in net losses for most participants.' },
+      { question: 'Is Isagenix worth joining in 2026?', answer: 'The company itself admits most Associates won\'t achieve meaningful success. With $150-400+/month in required purchases, average annual earnings of only $986 before expenses, and a complex binary plan, most participants lose money. Consider the explicit company warning before investing time and money.' }
     ]
   },
   {
@@ -460,10 +561,10 @@ export const companiesBatch1: Company[] = [
     founded_year: 2002,
     hq_location: 'San Francisco, California, USA',
     website: 'https://rodanandfields.com',
-    products_summary: 'Premium skincare products created by Stanford-trained dermatologists Dr. Katie Rodan and Dr. Kathy Fields (creators of Proactiv). Sold through independent Consultants. Known for REDEFINE and UNBLEMISH skincare regimens.',
+    products_summary: 'Rodan + Fields was a premium skincare MLM created by Stanford-trained dermatologists Dr. Katie Rodan and Dr. Kathy Fields — the same founders of Proactiv. The company sold high-end skincare regimens (REDEFINE, UNBLEMISH) through Consultants. In September 2024, Rodan + Fields made a major shift away from its MLM structure, transitioning to an affiliate-powered direct-to-consumer model. Under the previous MLM model, income disclosure showed the typical paid Consultant earned only $366 annually, with 46% earning zero commissions.',
     monthly_cost_min: 80,
     monthly_cost_max: 250,
-    comp_plan_type: 'Unilevel MLM',
+    comp_plan_type: 'Unilevel MLM (transitioned to affiliate model Sept 2024)',
     overall_rating: 2.4,
     residual_rating: 2.0,
     simplicity_rating: 2.5,
@@ -471,35 +572,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Created by credentialed dermatologists (Proactiv founders)',
+      'Created by credentialed dermatologists (Proactiv founders) with clinical expertise',
       'Products have genuine clinical efficacy for some skin concerns',
       'Strong brand recognition among skincare enthusiasts',
-      'Exited retail stores in 2016 to focus on direct sales'
+      'Transitioned from MLM to simpler affiliate model (September 2024)',
+      'New affiliate model: flat 30% commission, no recruitment requirements',
+      'Entry cost reduced to $9.99 annually under new model'
     ],
     cons: [
-      'Very expensive — regimens cost \$100-200+/month for customers',
-      'Income disclosure shows majority of consultants earn under \$600/year',
-      'High enrollment kit cost (\$295-695)',
+      'Under previous MLM model: typical paid Consultant earned only $366/year',
+      '46% of Consultants earned zero commission under old model',
+      'Only 0.55% of all Consultants earned more than $27,000/year',
+      'Very expensive products — regimens cost $100-200+/month for customers',
       'Extremely saturated market — everyone knows a Rodan+Fields consultant',
-      'Products available cheaper through third-party resellers'
+      'Products available cheaper through third-party resellers',
+      'No longer accepting new Brand Consultants (as of 2024 transition)',
+      'Previous enrollment kits cost $295-695'
     ],
     quick_facts: {
       'Founded': '2002',
       'Headquarters': 'San Francisco, California',
-      'Business Model': 'Multi-level marketing',
-      'Founders': 'Dr. Katie Rodan & Dr. Kathy Fields',
-      'Enrollment Kit': '\$295-695',
-      'Annual Revenue': '~\$1B+ at peak'
+      'Business Model': 'Transitioned from MLM to affiliate (Sept 2024)',
+      'Previous Typical Earnings': '$366/year for paid Consultants',
+      'Previous Zero Earners': '46% earned nothing',
+      'New Affiliate Commission': 'Flat 30% on all sales',
+      'New Entry Cost': '$9.99/year',
+      'Status': 'Not accepting new Brand Consultants',
+      'Founders': 'Dr. Katie Rodan & Dr. Kathy Fields (Proactiv)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Dermatologist-created premium skincare MLM',
+    tagline: 'Dermatologist-created skincare company that abandoned MLM for affiliate model in 2024',
     faq: [
-      { question: 'Are Rodan + Fields products worth it?', answer: 'Products are created by real dermatologists and have clinical support. However, they are significantly overpriced — similar active ingredients are available in drugstore and mid-range brands for much less.' },
-      { question: 'Is Rodan + Fields a good business opportunity?', answer: 'Income disclosure shows the majority of Rodan + Fields Consultants earn under $600 per year. The market is heavily saturated with Consultants, making new customer acquisition very difficult.' },
-      { question: 'How much does it cost to join Rodan + Fields?', answer: 'Enrollment kits range from $295-695. Monthly Preferred Customer subscriptions are required to maintain active status and qualify for commissions, typically $80-250/month.' }
+      { question: 'Did Rodan + Fields leave MLM?', answer: 'Yes. As of September 1, 2024, Rodan + Fields transitioned from its multi-level marketing structure to an affiliate-powered direct-to-consumer model. Brand Consultants now earn a flat 30% commission with no recruitment requirements. The company is not accepting new Brand Consultants, suggesting a more selective approach.' },
+      { question: 'How much did Rodan + Fields Consultants make?', answer: 'Under the previous MLM model: the typical paid Consultant earned $366 annually (2022). 46% earned zero commission. Only 1% of paid consultants (0.55% of all Consultants) earned more than $27,000/year. The new affiliate model offers flat 30% commission without the multi-tier complexity.' },
+      { question: 'Are Rodan + Fields products worth it?', answer: 'Products are created by real dermatologists (Proactiv founders) and have clinical support for some skin concerns. However, they are significantly overpriced — similar active ingredients are available in drugstore and mid-range brands for much less. The premium is largely for the brand name.' },
+      { question: 'Is Rodan + Fields still in business?', answer: 'Yes, but the business model changed significantly in September 2024. The company transitioned from MLM to an affiliate model where consultants earn 30% flat commission without recruitment requirements. Entry costs dropped from $295-695 to $9.99 annually.' },
+      { question: 'Can I become a Rodan + Fields consultant in 2026?', answer: 'As of September 2024, Rodan + Fields stated they are "not accepting new Brand Consultants at this time." The company has moved to a more selective affiliate model. Check their website for current enrollment status.' },
+      { question: 'What is Rodan + Fields income disclosure statement?', answer: 'Under the previous MLM model (pre-September 2024): 46% of Consultants earned $0. The typical paid Consultant earned $366/year. 90% earned less than $200/month, 96% less than $500/month. The new affiliate model eliminates the complex MLM tier structure.' }
     ]
   },
   {
@@ -510,7 +622,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 2012,
     hq_location: 'Corona, California, USA',
     website: 'https://lularoe.com',
-    products_summary: 'Colorful, limited-edition patterned clothing (leggings, tops, dresses) sold through Fashion Retailers via home parties and online boutiques. At its peak, LuLaRoe had hundreds of thousands of consultants. Has faced major legal and operational controversies.',
+    products_summary: 'LuLaRoe is a fashion MLM that sells colorful, limited-edition patterned clothing (leggings, tops, dresses) through Fashion Retailers via home parties and online boutiques. The company peaked around 2017 with 80,000+ consultants before collapsing amid lawsuits, inventory quality issues, and the damning 2021 Amazon Prime documentary "LuLaRich." LuLaRoe paid $4.75 million to settle Washington State AG\'s pyramid scheme lawsuit. 2024 income disclosure shows average gross profit of $11,914.53 but median of only $1,045.55, revealing extreme income concentration among top sellers.',
     monthly_cost_min: 100,
     monthly_cost_max: 500,
     comp_plan_type: 'Multi-level (retail + sponsor bonuses)',
@@ -521,34 +633,46 @@ export const companiesBatch1: Company[] = [
     community_rating: 2.0,
     value_rating: 1.0,
     pros: [
-      'Unique limited-edition prints created scarcity and demand (at peak)',
-      'Flexible model — online boutique or home parties'
+      'Unique limited-edition prints created scarcity and demand at peak',
+      'Flexible model — online boutique or home parties',
+      '2024 average gross profit was $11,914.53 (heavily skewed by top earners)',
+      'Required to publish detailed income disclosure as part of WA settlement'
     ],
     cons: [
-      'Required to purchase \$499-5,000+ in inventory upfront',
-      'Washington State AG lawsuit settled for \$4.75M (pyramid scheme allegations)',
-      'Amazon Prime documentary "LuLaRich" exposed deceptive practices',
-      'Thousands of consultants lost money on unsellable inventory',
-      'Significant decline in company since 2017 peak',
-      'Complex, changing compensation plan with buyback issues'
+      'Paid $4.75 million to settle Washington State AG pyramid scheme lawsuit (2021)',
+      'Median 2024 gross profit only $1,045.55 (average skewed by top earners)',
+      'Required $499-5,000+ upfront inventory purchase',
+      'Amazon Prime documentary "LuLaRich" (2021) exposed deceptive practices',
+      'Thousands of retailers lost money on unsellable inventory',
+      'Only 9.63% participate in Leadership Compensation Plan',
+      'Company significantly declined from 2017 peak of 80,000+ consultants',
+      'California class action alleged pyramid scheme and unfair business practices',
+      'Complex, changing compensation plan with buyback disputes'
     ],
     quick_facts: {
       'Founded': '2012',
       'Headquarters': 'Corona, California',
       'Business Model': 'MLM — fashion/clothing',
-      'Legal': 'WA AG settled for \$4.75M (2021)',
-      'Startup Inventory': '\$499-5,000+ required',
-      'Documentary': '"LuLaRich" (Amazon Prime, 2021)'
+      'WA AG Settlement': '$4.75 million (2021)',
+      '2024 Average Gross Profit': '$11,914.53 (skewed high)',
+      '2024 Median Gross Profit': '$1,045.55 (more realistic)',
+      'Startup Inventory': '$499-5,000+ required',
+      'Documentary': '"LuLaRich" (Amazon Prime, 2021)',
+      'Peak Size': '80,000+ consultants (2017)',
+      'Leadership Plan Participation': 'Only 9.63%'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Controversial fashion MLM with significant legal history',
+    tagline: 'Fashion MLM that paid $4.75M pyramid scheme settlement — exposed in "LuLaRich"',
     faq: [
-      { question: 'What happened to LuLaRoe?', answer: 'LuLaRoe peaked around 2017 with 80,000+ consultants, then collapsed amid lawsuits, inventory quality issues, and a 2021 Amazon Prime documentary "LuLaRich" exposing deceptive practices. The company settled with Washington State AG for $4.75M over pyramid scheme allegations.' },
-      { question: 'Did people lose money with LuLaRoe?', answer: 'Many LuLaRoe Fashion Retailers lost significant money — required to purchase $499-5,000+ in inventory upfront, many were left with unsellable stock when demand collapsed. Class action lawsuits alleged the company operated as a pyramid scheme.' },
-      { question: 'Is LuLaRoe still in business?', answer: 'LuLaRoe is still operating as of 2025 but is a fraction of its peak size. The company has significantly downsized its consultant base and changed operations following legal settlements.' }
+      { question: 'What happened to LuLaRoe?', answer: 'LuLaRoe peaked around 2017 with 80,000+ consultants then collapsed amid lawsuits, inventory quality issues, and the 2021 Amazon Prime documentary "LuLaRich" exposing deceptive practices. The company paid $4.75 million to settle Washington State AG\'s pyramid scheme lawsuit and continues operating at a fraction of peak size.' },
+      { question: 'Did people lose money with LuLaRoe?', answer: 'Yes. Many Fashion Retailers lost significant money — required to purchase $499-5,000+ in inventory upfront, many were left with unsellable stock when demand collapsed. 2024 data shows median gross profit of only $1,045.55 while average was $11,914.53, revealing extreme income concentration among few top sellers.' },
+      { question: 'Is LuLaRoe still in business?', answer: 'LuLaRoe is still operating as of 2025 but is a fraction of its peak size. The company changed operations following legal settlements and must now publish detailed income disclosures. 2024 Washington State disclosure showed 0% of 2023 joiners cancelled or became inactive within a year.' },
+      { question: 'What is LuLaRoe\'s income disclosure statement?', answer: '2024 income disclosure shows average gross profit of $11,914.53 but median of only $1,045.55 — revealing most retailers earn far below average. Only 9.63% participate in the Leadership Compensation Plan. Required as part of the Washington State settlement to provide accurate income potential information.' },
+      { question: 'Is LuLaRoe a pyramid scheme?', answer: 'Washington State AG alleged LuLaRoe operated as a pyramid scheme and the company paid $4.75 million to settle. As part of the settlement, LuLaRoe must calculate bonuses based on retail sales (not inventory purchases) and allow full refunds within 45 days. The company denied wrongdoing.' },
+      { question: 'Should I join LuLaRoe in 2026?', answer: 'Given the $4.75M pyramid scheme settlement, "LuLaRich" documentary exposing practices, median profit of only $1,045.55, and required $499-5,000+ inventory investment, LuLaRoe presents significant risk. The fashion MLM market is oversaturated and the brand reputation has suffered lasting damage.' }
     ]
   },
   {
@@ -559,7 +683,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 2008,
     hq_location: 'Scottsdale, Arizona, USA',
     website: 'https://plexusworldwide.com',
-    products_summary: 'Health and wellness products focused on gut health, weight management, and energy. Most famous for Plexus Slim "Pink Drink" — a fiber and chromium supplement marketed for blood sugar support and weight loss.',
+    products_summary: 'Plexus Worldwide is a health and wellness MLM founded in 2008, focused on gut health, weight management, and energy products. The company is most famous for Plexus Slim "Pink Drink" — a fiber and chromium supplement marketed for blood sugar support and weight loss. Income disclosure shows the average 2024 Ambassador earnings were $742 (up from $537 in 2023). The FTC has issued warning letters regarding unproven health claims, and products are not FDA-evaluated for the marketed health benefits.',
     monthly_cost_min: 35,
     monthly_cost_max: 150,
     comp_plan_type: 'Unilevel MLM',
@@ -570,34 +694,47 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Simple product line centered on one hero product (Slim)',
+      'Simple product line centered on one hero product (Plexus Slim "Pink Drink")',
       'Growing gut health category with genuine consumer interest',
-      'Low startup cost compared to many MLMs'
+      'Low startup cost ($19.95 VIP Customer fee, $39.95 Ambassador renewal)',
+      '2024 average earnings increased to $742 from $537 in 2023',
+      'Products address trendy health topics (gut health, blood sugar)',
+      'Active social media community and marketing support'
     ],
     cons: [
-      'FTC warning letters regarding health claims (unproven)',
-      'Income disclosure shows ~73% of Ambassadors earned $0',
+      '2024 average Ambassador earnings only $742/year before expenses',
+      'FTC warning letters issued regarding unproven health claims',
       'Products not FDA-evaluated for weight loss or blood sugar claims',
-      'Required monthly autoship to qualify for commissions',
-      'Significant competition from retail health products'
+      'Required monthly autoship purchases to qualify for commissions',
+      'BBB/DSSRC required removal of 9 problematic social media posts (2025)',
+      'Health claims made by Ambassadors often exceed what products can deliver',
+      'Significant competition from retail health products at lower prices',
+      'Earnings figures are gross before business expenses'
     ],
     quick_facts: {
       'Founded': '2008',
       'Headquarters': 'Scottsdale, Arizona',
       'Business Model': 'Multi-level marketing',
       'Hero Product': 'Plexus Slim (Pink Drink)',
-      'Income': '~73% of Ambassadors earned $0',
-      'FTC': 'Warning letters for health claims'
+      '2024 Average Earnings': '$742 (before expenses)',
+      '2023 Average Earnings': '$537 (before expenses)',
+      'Startup Costs': 'VIP fee $19.95, Ambassador renewal $39.95',
+      'FTC': 'Warning letters for health claims',
+      'DSSRC': '9 posts removed (2025 compliance)',
+      'Autoship Required': 'Monthly purchase to earn commissions'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Gut health and weight management MLM (The Pink Drink)',
+    tagline: 'The Pink Drink gut health MLM: FTC warnings and $742/year average earnings',
     faq: [
-      { question: 'Does Plexus Slim actually work?', answer: 'Plexus Slim contains fiber and chromium, which have some scientific support for blood sugar support. However, the dramatic weight loss claims made by many Ambassadors are not supported by clinical evidence.' },
-      { question: 'Is Plexus a scam?', answer: 'Plexus is a legal MLM company. However, income disclosure shows ~73% of Ambassadors earned $0, and the FTC has issued warning letters over exaggerated health claims.' },
-      { question: 'How much does it cost to join Plexus?', answer: 'The starter pack costs approximately $34.95-99. To qualify for commissions, Ambassadors must maintain monthly autoship purchases, typically $35-150.' }
+      { question: 'Does Plexus Slim actually work?', answer: 'Plexus Slim contains fiber and chromium, which have some scientific support for blood sugar support. However, the dramatic weight loss claims made by many Ambassadors are not supported by clinical evidence. The FTC has issued warning letters over exaggerated health claims. Products are not FDA-evaluated.' },
+      { question: 'How much do Plexus Ambassadors earn?', answer: 'According to Plexus\'s income disclosure, the average Ambassador earned $742 in 2024 (up from $537 in 2023). These are gross earnings before business expenses including starter fees ($19.95), renewal fees ($39.95), sample purchases, event fees, and required autoship.' },
+      { question: 'Is Plexus a scam?', answer: 'Plexus is a legal MLM company, not a scam. However, with average earnings of only $742/year before expenses and FTC warning letters over health claims, many participants likely lose money. The BBB/DSSRC required removal of 9 problematic social media posts in 2025 compliance actions.' },
+      { question: 'What is Plexus\'s income disclosure statement?', answer: 'Plexus 2024 disclosure shows average Ambassador earnings of $742/year before expenses. Earnings depend on sales volume, effort, and market conditions. Typical expenses include VIP Customer fee ($19.95), Ambassador renewal ($39.95), samples, event registration ($35-200), and shipping costs.' },
+      { question: 'Is Plexus worth joining in 2026?', answer: 'With average 2024 earnings of $742/year before expenses, FTC warnings about health claims, and required monthly autoship costs, most Ambassadors likely lose money. Retail gut health products are widely available at lower prices. Consider whether the Pink Drink\'s market is sustainable.' },
+      { question: 'How much does it cost to join Plexus?', answer: 'The starter pack costs approximately $19.95-99. Ambassador renewal is $39.95 annually. To qualify for commissions, Ambassadors must maintain monthly autoship purchases, typically $35-150. Event tickets range from $35-200. Total annual costs often exceed the $742 average earnings.' }
     ]
   },
   {
@@ -608,7 +745,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1978,
     hq_location: 'Scottsdale, Arizona, USA',
     website: 'https://foreverliving.com',
-    products_summary: 'Aloe vera-based drinks, skincare, nutrition, and personal care products. One of the world\'s largest producers of aloe vera products. Sold through a network of Forever Business Owners (FBOs) globally.',
+    products_summary: 'Forever Living Products (FLP) is one of the world\'s largest producers and distributors of aloe vera products, operating in 160+ countries through Forever Business Owners (FBOs). The company sells aloe vera drinks, skincare, nutrition, and personal care products. Forever Living owns its own aloe farms for vertical integration. Despite nearly 50 years in business and estimated $2.31 billion in 2024 revenue, income disclosure shows 89% of distributors earn absolutely nothing, with TINA.org filing an FTC complaint over 5,500+ deceptive income claims.',
     monthly_cost_min: 100,
     monthly_cost_max: 250,
     comp_plan_type: 'Multi-level (unique case credit system)',
@@ -620,34 +757,46 @@ export const companiesBatch1: Company[] = [
     value_rating: 2.0,
     pros: [
       'Genuinely owns its own aloe vera farms (vertical integration)',
-      'Long-established company with 45+ years in business',
+      'Long-established company with 45+ years in business since 1978',
       'Strong global presence in 160+ countries',
-      'Aloe vera has genuine health benefits and consumer demand'
+      'Aloe vera has genuine health benefits and consumer demand',
+      'Estimated $2.31 billion revenue in 2024',
+      '35% of revenue (~$595 million) paid in commissions'
     ],
     cons: [
+      '89% of Forever Living distributors earn absolutely nothing',
+      'Only 10.2% earned any volume-based bonus from downline sales',
+      'TINA.org filed FTC complaint over 5,500+ deceptive income claims',
       'Very complex "case credit" compensation system confuses new recruits',
-      'Required case credit volume can cost \$100-250+/month',
-      'Income disclosure shows majority earn minimal income',
+      'Required case credit volume costs $100-250+/month',
       'Products significantly overpriced vs retail aloe alternatives',
-      'Heavy emphasis on recruiting to build significant income'
+      'Heavy emphasis on recruiting required to build significant income',
+      'Top 30% of earners average $1,670/month; 69% of earners average only $111/month'
     ],
     quick_facts: {
       'Founded': '1978',
       'Headquarters': 'Scottsdale, Arizona',
       'Business Model': 'Multi-level marketing',
-      'Specialty': 'Aloe vera products',
+      'Estimated 2024 Revenue': '$2.31 billion',
+      'Zero Earners': '89% earn nothing',
+      'Commission Earners': 'Only 10.2% earned bonuses',
+      'Earner Averages': '69% earn $111/month; 30% earn $1,670/month',
       'Presence': '160+ countries',
-      'Monthly Requirement': '2 case credits (~\$100-250)'
+      'TINA.org': 'FTC complaint filed — 5,500+ deceptive income claims',
+      'Monthly Requirement': '2 case credits (~$100-250)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Global aloe vera MLM with 45+ years in business',
+    tagline: 'Global aloe vera MLM: 89% earn nothing despite $2.3B revenue',
     faq: [
-      { question: 'Is Forever Living a legitimate company?', answer: 'Forever Living is a legitimate, long-established MLM company that genuinely owns aloe vera farms. However, like most MLMs, income disclosure data shows most distributors earn little to nothing.' },
-      { question: 'Is Forever Living profitable?', answer: 'Forever Living uses a complex case credit system. Most Forever Business Owners earn minimal income. Significant earnings require building a large international team.' },
-      { question: 'What does Forever Living sell?', answer: 'Primarily aloe vera drinks, gels, skincare, and nutritional supplements. The aloe vera drinks are their flagship product and have genuine consumer demand in health-conscious markets.' }
+      { question: 'Is Forever Living a legitimate company?', answer: 'Forever Living is a legitimate, long-established MLM company that genuinely owns aloe vera farms with 45+ years of history. However, income disclosure shows 89% of distributors earn nothing. TINA.org filed an FTC complaint documenting 5,500+ deceptive income claims made by the company and distributors.' },
+      { question: 'How much do Forever Living distributors earn?', answer: 'According to Forever Living\'s income disclosure: 89% earn absolutely nothing. Only 10.2% earned any volume-based bonus. Of those who earn: 69% average $111/month ($1,332/year), 30% average $1,670/month ($20,040/year). Figures are before required monthly purchases and expenses.' },
+      { question: 'Is Forever Living profitable?', answer: 'Forever Living has estimated revenue of $2.31 billion (2024) and pays 35% (~$595 million) in commissions. However, 89% of distributors earn nothing, with income concentrated among top performers. The complex case credit system makes understanding earnings difficult for most participants.' },
+      { question: 'What is Forever Living\'s income disclosure statement?', answer: 'Forever Living\'s disclosure reveals 89% earn $0. Only 10.2% of monthly purchasers earned volume-based bonuses. Of the 10.2% who earned: 41.4% earned more than $500/year; 69% averaged $111/month; 30% averaged $1,670/month. These figures exclude required monthly purchases and business expenses.' },
+      { question: 'What does Forever Living sell?', answer: 'Forever Living sells aloe vera-based drinks, gels, skincare, and nutritional supplements. The company owns its own aloe farms for quality control. The aloe drinks are flagship products with genuine consumer demand in health-conscious markets. Products are generally premium-priced vs retail alternatives.' },
+      { question: 'Is Forever Living worth joining in 2026?', answer: 'With 89% earning nothing, required monthly purchases of $100-250+, and TINA.org\'s FTC complaint over 5,500+ deceptive income claims, Forever Living presents significant financial risk. While the company is legitimate and products have real demand, the MLM structure benefits few distributors.' }
     ]
   },
   {
@@ -658,7 +807,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1992,
     hq_location: 'Salt Lake City, Utah, USA',
     website: 'https://usana.com',
-    products_summary: 'Premium nutritional supplements, weight management products, and personal care items. Publicly traded company (NYSE: USNA). Known for quality manufacturing standards and NSF certification. Popular with athletes and health-conscious consumers.',
+    products_summary: 'USANA Health Sciences is a publicly traded (NYSE: USNA) MLM selling premium nutritional supplements, weight management products, and personal care items. The company is known for pharmaceutical-grade manufacturing standards and NSF Certified for Sport testing, making products popular with athletes. USANA reported $855 million in 2024 revenue (down from $921 million in 2023) and acquired Hiya Health Products for $206 million in December 2024. Historical income disclosure shows 34% of Associates earned "less than $0" and 72.2% of commissions go to the top 2.31% of Associates.',
     monthly_cost_min: 100,
     monthly_cost_max: 300,
     comp_plan_type: 'Binary MLM',
@@ -669,16 +818,21 @@ export const companiesBatch1: Company[] = [
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Publicly traded (NYSE: USNA) with financial transparency',
+      'Publicly traded (NYSE: USNA) with financial transparency and regulatory oversight',
       'NSF Certified for Sport — supplements tested for banned substances',
       'Manufacturing facility meets pharmaceutical-grade standards',
-      'Positive reviews from athletes and health professionals'
+      'Positive reviews from athletes and health professionals',
+      '$855 million in 2024 revenue demonstrates significant scale',
+      'Acquired Hiya Health Products for $206 million (December 2024)'
     ],
     cons: [
-      'Binary compensation plan requires building two equal "legs" — difficult',
-      'Very high monthly autoship requirement (\$100-300+)',
-      'Income disclosure shows majority of Associates earn under \$1,000/year',
-      'Products extremely expensive vs comparable supplements',
+      'Historical data shows 34% of Associates earned "less than $0" (lost money)',
+      '67% of Associates made no commission at all',
+      '72.2% of all commissions go to the top 2.31% of Associates',
+      'Binary compensation plan requires building two balanced "legs" — very difficult',
+      'Very high monthly autoship requirement ($100-300+)',
+      'Products extremely expensive vs comparable quality supplements',
+      '2024 revenue declined to $855M from $921M in 2023',
       'Binary plan means unbalanced teams earn significantly less'
     ],
     quick_facts: {
@@ -686,18 +840,25 @@ export const companiesBatch1: Company[] = [
       'Headquarters': 'Salt Lake City, Utah',
       'Business Model': 'Binary MLM',
       'Stock': 'NYSE: USNA (publicly traded)',
+      '2024 Revenue': '$855 million (down from $921M)',
+      'Lost Money': '34% of Associates earned "less than $0"',
+      'Zero Earners': '67% made no commission',
+      'Commission Concentration': '72.2% to top 2.31%',
       'Certification': 'NSF Certified for Sport',
-      'Monthly Requirement': '~100+ PV (\$100-300)'
+      'Monthly Requirement': '~100+ PV ($100-300)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Publicly traded nutrition MLM with pharmaceutical-grade standards',
+    tagline: 'NYSE-traded supplement MLM: 34% lose money, 72% of commissions to top 2.3%',
     faq: [
-      { question: 'Is USANA FDA approved?', answer: 'USANA manufactures supplements in an FDA-registered facility meeting pharmaceutical standards. The supplements themselves are not FDA-approved (dietary supplements generally are not), but USANA has NSF certification for many products.' },
-      { question: 'Is USANA worth joining as a business?', answer: 'USANA income disclosure shows the majority of Associates earn minimal income. The binary compensation plan requires building two balanced teams simultaneously, which most find difficult.' },
-      { question: 'Are USANA supplements good quality?', answer: 'USANA supplements are genuinely high quality — pharmaceutical-grade manufacturing, NSF Certified for Sport, and third-party tested. However, similar quality supplements are available for significantly less from other brands.' }
+      { question: 'Is USANA FDA approved?', answer: 'USANA manufactures supplements in an FDA-registered facility meeting pharmaceutical standards. The supplements themselves are not FDA-approved (dietary supplements generally are not), but USANA has NSF Certified for Sport certification for many products, meaning they\'re tested for banned substances.' },
+      { question: 'How much do USANA Associates earn?', answer: 'According to historical income disclosure: 34% of Associates earned "less than $0" (lost money). 67% made no commission. Only 2.31% of Associates earned 72.2% of all commissions. The binary plan requires building two balanced teams, which most find very difficult to achieve.' },
+      { question: 'Is USANA worth joining as a business?', answer: 'With 34% losing money, 67% earning nothing, and 72.2% of commissions going to the top 2.31%, USANA\'s binary MLM presents significant financial risk. Required monthly purchases of $100-300+ often exceed any commissions earned. Revenue declined 7% in 2024.' },
+      { question: 'Are USANA supplements good quality?', answer: 'USANA supplements are genuinely high quality — pharmaceutical-grade manufacturing, NSF Certified for Sport, and third-party tested. Popular with athletes needing verified clean supplements. However, similar quality supplements are available for significantly less from non-MLM brands.' },
+      { question: 'What is USANA\'s income disclosure statement?', answer: 'USANA has disclosed that 34% of Associates earned "less than $0" (lost money), 17.5% earned "$0 to $250," and 67% made no commission at all. 72.2% of commissions are earned by the top 2.31% of Associates, showing extreme income concentration.' },
+      { question: 'Is USANA a pyramid scheme?', answer: 'USANA is a legal, publicly traded MLM company (NYSE: USNA). However, with 34% of Associates losing money, 67% earning nothing, and income concentrated in the top 2.31%, critics argue the structure primarily benefits top recruiters over product sellers. The binary plan requires balanced teams to earn.' }
     ]
   },
   {
@@ -708,7 +869,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 2004,
     hq_location: 'Meridian, Idaho, USA',
     website: 'https://scentsy.com',
-    products_summary: 'Wickless candles, wax warmers, and home fragrance products sold through independent Consultants via home parties, online, and catalog sales. Privately owned company based in Idaho. One of the most successful direct sales companies in the fragrance category.',
+    products_summary: 'Scentsy is a privately owned direct sales company selling wickless candles, wax warmers, and home fragrance products through independent Consultants. Founded in 2004, the company differentiated itself with safer flameless warmers that melt scented wax without an open flame. Scentsy divides its income disclosure by tenure: Consultants with 12 full months in 2024 earned different averages than those who joined mid-year. The party-based model and genuinely popular products set Scentsy apart from many MLMs, though market saturation presents challenges.',
     monthly_cost_min: 0,
     monthly_cost_max: 150,
     comp_plan_type: 'Direct sales with sponsor bonuses (multi-level)',
@@ -722,33 +883,44 @@ export const companiesBatch1: Company[] = [
       'Genuinely popular products with strong repeat customer demand',
       'Wickless candles fill a real safety niche (no open flame)',
       'Party-based model still works well for home fragrance',
-      'Starter kit is reasonable (\$99)',
-      'Strong culture and consultant community'
+      'Reasonable starter kit cost (~$99)',
+      'Strong culture and supportive consultant community',
+      'Commission rates of 20-36% on personal sales',
+      'No ongoing monthly fees (maintain $200 in 3 months to stay active)'
     ],
     cons: [
       'Saturated market — many consultants competing for same customers',
-      'Income heavily dependent on personal retail sales, not just recruiting',
+      'Income heavily dependent on personal retail sales volume',
       'Seasonal product lines require constant inventory management',
       'Online competition from Amazon and retail stores growing',
-      'Must maintain minimum sales to stay active'
+      'Must maintain minimum $200 sales per rolling 3-month period',
+      'Half of consultants earn below median (by definition)',
+      'Leadership bonuses require significant team building',
+      'New consultants (Group 2) earn less than established ones (Group 1)'
     ],
     quick_facts: {
       'Founded': '2004',
       'Headquarters': 'Meridian, Idaho',
-      'Business Model': 'Direct sales',
-      'Starter Kit': '~\$99',
-      'Products': 'Wickless candles, wax warmers, fragrance',
-      'Ownership': 'Privately owned'
+      'Business Model': 'Direct sales with MLM elements',
+      'Starter Kit': '~$99',
+      'Commission Range': '20-36% on personal sales',
+      'Activity Requirement': '$200 sales per rolling 3 months',
+      'Ownership': 'Privately owned',
+      'Products': 'Wickless candles, wax warmers, home fragrance',
+      'Compensation Plan': 'Updated April 1, 2025'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Popular home fragrance direct sales company from Idaho',
+    tagline: 'Home fragrance direct sales with genuinely popular wickless products',
     faq: [
-      { question: 'Is Scentsy worth joining as a consultant?', answer: 'Scentsy has genuinely popular products, which helps with retail sales. Unlike many MLMs, real product demand exists. However, the market is saturated and most consultants earn supplemental rather than full-time income.' },
-      { question: 'How much does it cost to become a Scentsy consultant?', answer: 'The starter kit costs $99. There is no ongoing monthly fee, but consultants must sell $200 in products every rolling 3-month period to stay active.' },
-      { question: 'Is Scentsy an MLM?', answer: 'Scentsy is primarily a direct sales company with some MLM-like elements (sponsor bonuses). It is generally considered more retail-focused than typical MLMs, with real product demand driving sales.' }
+      { question: 'Is Scentsy worth joining as a consultant?', answer: 'Scentsy has genuinely popular products with real customer demand, unlike many MLMs. Commissions of 20-36% on personal sales are reasonable. The $99 starter kit and no monthly fees make it lower-risk. However, the market is saturated with consultants, and most earn supplemental rather than full-time income.' },
+      { question: 'How much do Scentsy consultants earn?', answer: 'Scentsy\'s 2024 disclosure divides earnings by tenure. Group 1 (12 full months) consultants had different averages than Group 2 (less than 12 months). Consultants earn 20% starting commission on first 1,000 PRV lifetime, up to 36% with bonuses based on rank and sales volume.' },
+      { question: 'How much does it cost to become a Scentsy consultant?', answer: 'The starter kit costs $99. There is no ongoing monthly fee — consultants must sell $200 in products every rolling 3-month period to stay active. Additional subscriptions are optional ($15-18/month for digital toolkit after 90-day free trial).' },
+      { question: 'Is Scentsy an MLM?', answer: 'Scentsy is primarily a direct sales company with some MLM-like elements (sponsor bonuses). It is generally considered more retail-focused than typical MLMs, with real product demand driving sales. Consultants earn 20-36% on personal sales, with leadership bonuses requiring team building.' },
+      { question: 'Is Scentsy still popular in 2026?', answer: 'Scentsy remains popular with strong brand recognition in home fragrance. The wickless safety angle and party-based model continue to work. However, competition from Amazon, retail stores, and other consultants has intensified. Seasonal products require staying current with trends.' },
+      { question: 'What makes Scentsy different from other MLMs?', answer: 'Scentsy has genuinely popular products with real repeat customer demand — not just recruits buying. The $99 starter kit, no monthly fees, and focus on retail sales (vs recruitment) make it lower-risk than typical MLMs. Commission is primarily from personal sales, not downline recruiting.' }
     ]
   },
   {
@@ -759,7 +931,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1980,
     hq_location: 'Addison, Illinois, USA',
     website: 'https://pamperedchef.com',
-    products_summary: 'High-quality kitchen tools, cookware, and food products sold through cooking shows (home parties) and online. Founded by Doris Christopher in her basement. Acquired by Warren Buffett\'s Berkshire Hathaway in 2002.',
+    products_summary: 'Pampered Chef is a direct sales company selling high-quality kitchen tools, cookware, and food products through cooking shows (home parties) and online. Founded by Doris Christopher in her basement in 1980, the company was acquired by Warren Buffett\'s Berkshire Hathaway in 2002. The Canadian 2024 income disclosure shows a typical Active Consultant earns $0-262 annually, with 28% of consultants not being "Active" and earning nothing. Pampered Chef does not publish a U.S. income disclosure statement.',
     monthly_cost_min: 0,
     monthly_cost_max: 109,
     comp_plan_type: 'Direct sales with team building bonuses',
@@ -774,32 +946,44 @@ export const companiesBatch1: Company[] = [
       'Genuinely high-quality kitchen products with loyal customers',
       'Cooking show format creates fun, engaging sales experience',
       'Founded by Doris Christopher — classic American success story',
-      'Reasonable starter kit cost (~\$99-109)'
+      'Reasonable starter kit cost (~$99-109)',
+      'Commission of 20-27% on personal sales',
+      'All income earned on product sales, not recruitment'
     ],
     cons: [
+      'Canadian 2024 disclosure: typical Active Consultant earns $0-262 annually',
+      '28% of Canadian Consultants were not "Active" and earned nothing',
+      'No U.S. income disclosure statement published',
       'Cooking show model requires scheduling and hosting logistics',
-      'Online competition from Amazon, Williams Sonoma, etc.',
+      'Online competition from Amazon, Williams Sonoma intensifying',
       'Saturated consultant market in many areas',
-      'Income primarily from personal sales, recruiting bonuses modest',
-      'Must maintain sales minimums to stay active'
+      'Must maintain sales minimums to stay active',
+      'Conference 2024 ticket: $359 ($199 for new consultants) plus travel/lodging'
     ],
     quick_facts: {
       'Founded': '1980',
       'Headquarters': 'Addison, Illinois',
-      'Parent Company': 'Berkshire Hathaway (Warren Buffett)',
+      'Parent Company': 'Berkshire Hathaway (since 2002)',
       'Business Model': 'Direct sales / cooking shows',
-      'Starter Kit': '~\$99-109',
-      'Acquired': '2002 by Berkshire Hathaway'
+      'Starter Kit': '~$99-109',
+      'Commission': '20-27% on personal sales',
+      'Canadian 2024 Disclosure': 'Typical Active: $0-262/year',
+      'Non-Active Rate': '28% (Canada)',
+      'Conference 2024': '$359 ticket (plus travel/lodging)',
+      'Total Consultants (Canada)': '3,077 (Dec 2024)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Berkshire Hathaway-owned kitchen tools direct sales company',
+    tagline: 'Berkshire Hathaway-owned kitchen tools company with cooking show sales model',
     faq: [
-      { question: 'Is Pampered Chef a good company to work for?', answer: 'Pampered Chef has genuine products, a reputable parent company (Berkshire Hathaway), and a fun party-based sales model. It is considered one of the more legitimate direct sales opportunities.' },
-      { question: 'How much do Pampered Chef consultants make?', answer: 'Consultants earn 20-27% commission on personal sales. Income is primarily tied to personal selling rather than recruitment, which means earnings depend heavily on your ability to host and sell at cooking shows.' },
-      { question: 'Is Pampered Chef still relevant?', answer: 'Pampered Chef remains a solid direct sales company, though the cooking show model faces competition from online shopping. Products are genuinely quality kitchen tools that customers use and repurchase.' }
+      { question: 'Is Pampered Chef a good company to work for?', answer: 'Pampered Chef has genuine quality products, a reputable parent company (Berkshire Hathaway since 2002), and a fun cooking show-based sales model. Canadian 2024 disclosure shows typical Active Consultants earn $0-262/year. The U.S. does not require income disclosure, so American earnings are unverified.' },
+      { question: 'How much do Pampered Chef consultants make?', answer: 'Canadian 2024 income disclosure: typical Active Consultant earns $0-262 annually; 28% of consultants are not "Active" and earn nothing. Consultants earn 20-27% commission on personal sales. The U.S. does not publish income disclosure, making American earnings unverified.' },
+      { question: 'Is Pampered Chef an MLM?', answer: 'Pampered Chef is a direct sales company with team-building bonuses (MLM-like elements). Unlike many MLMs, "all income is earned on the sale of Pampered Chef products" with "no commissions, bonuses, or incentive awards paid solely from recruiting." It\'s considered less recruitment-focused than typical MLMs.' },
+      { question: 'How much does it cost to join Pampered Chef?', answer: 'Starter kit is $99-109. PC Digital Toolkit (website, virtual party platform) is free for 90 days, then $15-18/month optional. Conference 2024 ticket was $359 ($199 for new consultants) plus travel and lodging expenses. Consultants must maintain sales minimums to stay active.' },
+      { question: 'Is Pampered Chef still relevant?', answer: 'Pampered Chef remains a solid direct sales company with quality kitchen tools that customers use and repurchase. The Berkshire Hathaway ownership provides stability. However, the cooking show model faces growing competition from online shopping, and saturated markets make customer acquisition challenging.' },
+      { question: 'What is Pampered Chef\'s income disclosure?', answer: 'Canadian 2024 disclosure shows: typical Active Consultant earns $0-262/year; 28% are not Active and earn nothing; 1,808 new consultants joined in 2024 (of 3,077 total in Canada). Pampered Chef does not publish a U.S. income disclosure statement — not legally required in the United States.' }
     ]
   },
   {
@@ -810,10 +994,10 @@ export const companiesBatch1: Company[] = [
     founded_year: 1948,
     hq_location: 'Orlando, Florida, USA',
     website: 'defunct - brand sold after bankruptcy',
-    products_summary: 'Iconic food storage containers and kitchen products. Filed Chapter 11 bankruptcy September 2023, brand sold in 2024. One of the most recognized brand names in the world that failed to adapt to modern retail.',
+    products_summary: 'Tupperware was an iconic American brand synonymous with food storage containers and the party-plan direct sales model. Founded in 1948, the brand became a household name but failed to adapt to modern retail and e-commerce. Tupperware filed for Chapter 11 bankruptcy in September 2024 with over $1.2 billion in debt and only $679 million in assets. A group of lenders purchased the brand for $23.5 million cash plus $63 million in debt relief, with plans to rebrand as "The New Tupperware Co." and continue operations as a privately held company.',
     monthly_cost_min: 0,
     monthly_cost_max: 109,
-    comp_plan_type: 'Direct sales (Defunct)',
+    comp_plan_type: 'Direct sales (Bankrupt - Restructured)',
     overall_rating: 1.5,
     residual_rating: 1.0,
     simplicity_rating: 2.5,
@@ -821,33 +1005,45 @@ export const companiesBatch1: Company[] = [
     community_rating: 2.5,
     value_rating: 2.0,
     pros: [
-      'Iconic brand recognized worldwide',
+      'Iconic brand recognized worldwide with 75+ year history',
       'Products had genuine utility and loyal customer base',
-      '75+ year history and brand legacy'
+      'Sale approved — brand will continue under new ownership',
+      'Plans to rebrand as "The New Tupperware Co."'
     ],
     cons: [
-      'Company no longer operating as direct sales - brand sold after bankruptcy',
-      'Filed Chapter 11 bankruptcy September 2023',
-      'Consultants lost their businesses when company restructured',
-      'Direct sales model disrupted by Amazon and retail competition',
-      'Declining sales for multiple consecutive years before bankruptcy'
+      'Filed Chapter 11 bankruptcy September 2024 with $1.2B+ in debt',
+      'Sold to lenders for only $23.5 million cash plus $63M debt relief',
+      'Direct sales consultants lost their businesses during restructuring',
+      'Failed to develop e-commerce strategy until February 2021 — "absurdly late"',
+      'Consumer shift from plastic to glass containers hurt demand',
+      'Declining sales for multiple consecutive years before bankruptcy',
+      'Transitioned from public to privately held company',
+      'Uncertain long-term future under new ownership'
     ],
     quick_facts: {
-      'Status': 'DEFUNCT - Filed bankruptcy 2023, brand sold',
+      'Status': 'BANKRUPT — Sold and restructured as private company',
       'Founded': '1948',
-      'Headquarters': 'Orlando, Florida',
-      'Bankruptcy': 'Chapter 11 filed September 2023',
-      'Brand Sold': '2024 - direct sales ended'
+      'Former Headquarters': 'Orlando, Florida',
+      'Bankruptcy Filed': 'September 17, 2024 (Chapter 11)',
+      'Debt at Filing': '$1.2+ billion',
+      'Assets at Filing': '$679.5 million',
+      'Sale Price': '$23.5M cash + $63M debt relief',
+      'Buyers': 'Stonehill Capital, Alden Global Capital',
+      'New Entity': '"The New Tupperware Co." (private)',
+      'E-commerce Launch': 'February 2021 (too late)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Iconic brand (Defunct - Filed Bankruptcy 2023, Brand Sold)',
+    tagline: 'Iconic brand filed bankruptcy in 2024 — sold to lenders for $23.5 million',
     faq: [
-      { question: 'Did Tupperware go bankrupt?', answer: 'Yes. Tupperware Brands filed for Chapter 11 bankruptcy protection in September 2023 after years of declining sales and debt problems. The company had warned of potential bankruptcy earlier in 2023.' },
-      { question: 'Is Tupperware still in business?', answer: 'As of 2024, Tupperware is attempting to restructure and continue operations through bankruptcy proceedings. The company is seeking buyers or investors. Business operations continue but the future is uncertain.' },
-      { question: 'Should I become a Tupperware consultant?', answer: 'Given Tupperware\'s bankruptcy filing and uncertain future, joining as a consultant carries significant risk. New consultants should research the company\'s current status before investing.' }
+      { question: 'Did Tupperware go bankrupt?', answer: 'Yes. Tupperware Brands filed for Chapter 11 bankruptcy on September 17, 2024 with $1.2+ billion in debt and only $679.5 million in assets. The company acknowledged its direct-sales model strengths "had begun to turn into weaknesses" and it was "absurdly late to the e-commerce game."' },
+      { question: 'Is Tupperware still in business?', answer: 'Yes, sort of. A group of lenders (Stonehill Capital, Alden Global Capital) purchased Tupperware out of bankruptcy for $23.5 million cash plus $63 million in debt relief. The brand will operate as "The New Tupperware Co." — a privately held company focusing on U.S., Canada, and major international markets.' },
+      { question: 'What happened to Tupperware consultants?', answer: 'The bankruptcy restructuring disrupted the consultant network. The new owners plan to maintain sales through "the brand\'s decades-old network of independent sales consultants" but the transition from public to private company and reduced operations mean many former consultants lost their businesses.' },
+      { question: 'Why did Tupperware fail?', answer: 'Multiple factors: failure to develop e-commerce until February 2021 ("absurdly late"), consumers shifting from plastic to glass containers, declining relevance of the party-plan model, competition from cheaper alternatives, and years of declining sales leading to unsustainable debt levels exceeding $1.2 billion.' },
+      { question: 'Should I become a Tupperware consultant in 2026?', answer: 'Given Tupperware\'s bankruptcy, sale to lenders for a fraction of former value, and uncertain future under "The New Tupperware Co." ownership, joining as a consultant carries significant risk. The party-plan direct selling model that made Tupperware famous has become a liability in the e-commerce era.' },
+      { question: 'Where will Tupperware be sold now?', answer: 'The new owners plan to sell Tupperware products online and through the consultant network. Initial focus will be U.S., Canada, Mexico, Brazil, China, South Korea, India, and Malaysia, followed by European and additional Asian markets. Operations are significantly reduced from peak years.' }
     ]
   },
   {
@@ -858,10 +1054,10 @@ export const companiesBatch1: Company[] = [
     founded_year: 1985,
     hq_location: 'Idaho Falls, Idaho, USA',
     website: 'https://melaleuca.com',
-    products_summary: 'Wellness products including cleaning supplies, supplements, and personal care items sold through a membership model. Members earn commissions by referring other customers (not classic recruiting). Melaleuca emphasizes it is NOT an MLM — customers buy for themselves.',
+    products_summary: 'Melaleuca is a wellness company selling household cleaning supplies, nutritional supplements, and personal care products through a membership-based referral model. Founded in 1985, the company strongly insists it is NOT an MLM — members earn commissions by referring customers who buy for personal use, not through recruitment chains. With over 2 million customers, Melaleuca operates more like a membership club than a traditional MLM. Members must maintain 35 product points monthly (~$55-70) to earn commissions. The company publishes detailed annual income statistics showing what real Marketing Executives earn.',
     monthly_cost_min: 55,
     monthly_cost_max: 75,
-    comp_plan_type: 'Unilevel with Director ranks (Marketing Executive program)',
+    comp_plan_type: 'Referral marketing (Marketing Executive program)',
     overall_rating: 3.4,
     residual_rating: 3.0,
     simplicity_rating: 3.5,
@@ -871,35 +1067,44 @@ export const companiesBatch1: Company[] = [
     pros: [
       'Explicitly not an MLM — focuses on customer referrals, not recruitment chains',
       'Products replace everyday household items (practical repeat purchases)',
-      'Products are concentrated and often cost-competitive when calculated per use',
-      'Long-established and financially stable company',
-      'Mission-based (wellness, eco-friendly positioning)'
+      'Products are concentrated and often cost-competitive per use',
+      'Long-established company (40+ years) with stable operations',
+      'Mission-based (wellness, eco-friendly positioning)',
+      '2+ million customer base demonstrates real product demand',
+      'Publishes detailed annual income statistics for transparency'
     ],
     cons: [
-      '82% of members earn $0; monthly product purchase required to qualify for commissions',
+      'Must maintain 35 product points monthly (~$55-70) to earn commissions',
       'Must convert customers from existing brands they already use',
-      'Monthly membership purchase requirement (35 product points ~$55-70/mo)',
-      'Some people find the business model confusing',
-      'Commissions from referrals can be modest',
-      'Products not available in retail — only through members'
+      'Products only available through members — not in retail',
+      'Some find the business model confusing',
+      'Referral commissions can be modest compared to direct sales',
+      'Marketing Executive status requires meeting ongoing requirements',
+      'Income statistics show part-time earnings for most'
     ],
     quick_facts: {
       'Founded': '1985',
       'Headquarters': 'Idaho Falls, Idaho',
-      'Business Model': 'Customer referral / direct sales (not MLM)',
-      '2022 Income Disclosure': '82% of members earn $0 (customers only). Product Advocates avg $110-510/yr. Monthly 35 product points required to earn.',
-      'Monthly Minimum': '35 product points (~$55-70/mo) to earn commissions',
-      'Member Count': '2+ million customers'
+      'Business Model': 'Customer referral / direct sales (NOT MLM)',
+      'Customer Base': '2+ million customers',
+      'Monthly Minimum': '35 product points (~$55-70) to earn commissions',
+      'Company Position': 'Strongly insists it is NOT an MLM',
+      'Products': 'Household cleaners, supplements, personal care',
+      'Income Statistics': 'Published annually',
+      'Product Availability': 'Only through members (not retail)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Wellness membership company that insists it\'s not an MLM',
+    tagline: 'Wellness membership company that strongly insists it is NOT an MLM',
     faq: [
-      { question: 'Is Melaleuca an MLM?', answer: 'Melaleuca strongly insists it is not an MLM. Unlike traditional MLMs, members earn commissions by referring customers who buy for personal use — there is no emphasis on building recruitment chains. It operates more like a membership club.' },
-      { question: 'Is Melaleuca worth it as a member?', answer: 'Melaleuca products are genuinely quality household and wellness items. The membership requirement (\$35-75/month) can be worth it for members who actually use and like the products, especially the cleaning supplies and supplements.' },
-      { question: 'Can you make money with Melaleuca?', answer: 'Melaleuca marketing executives earn commissions from customer referrals. While income potential is more modest than typical MLMs, the business model is more sustainable since it\'s based on actual product consumption rather than recruitment.' }
+      { question: 'Is Melaleuca an MLM?', answer: 'Melaleuca strongly insists it is not an MLM. Unlike traditional MLMs, members earn commissions by referring customers who buy for personal use — there is no emphasis on building recruitment chains. It operates more like a membership club. However, critics note the commission structure has MLM-like elements.' },
+      { question: 'How do Melaleuca Marketing Executives earn?', answer: 'Marketing Executives earn commissions from customer referrals. Income varies based on the number and quality of referrals. Melaleuca publishes annual income statistics showing what real people earn — most earn part-time supplemental income. Must maintain 35 product points monthly (~$55-70) to qualify for commissions.' },
+      { question: 'Is Melaleuca worth it as a member?', answer: 'Melaleuca products are genuinely quality household and wellness items. The $55-70/month membership requirement can be worth it for members who actually use and like the products, especially concentrated cleaning supplies and supplements. The model works best for people who would buy these products anyway.' },
+      { question: 'What makes Melaleuca different from MLMs?', answer: 'Melaleuca emphasizes customer referrals over recruitment chains. Members earn from customers who buy for personal use, not from building downlines. The company has 2+ million customers and operates for 40+ years, suggesting sustainable product demand rather than recruitment-dependent revenue.' },
+      { question: 'How much do Melaleuca Marketing Executives make?', answer: 'Melaleuca publishes 2024 Annual Income Statistics. Earnings vary widely based on dedication and referrals. Most work part-time, a few hours per week. The company states building a Melaleuca business should not require significant expenses and advocates keeping full-time jobs while building on the side.' },
+      { question: 'Can you make money with Melaleuca?', answer: 'Melaleuca Marketing Executives earn commissions from customer referrals. While income potential is typically more modest than high-profile MLMs, the business model may be more sustainable since it\'s based on actual product consumption rather than recruitment. Success requires consistently referring quality customers.' }
     ]
   },
   {
@@ -910,7 +1115,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1998,
     hq_location: 'Sandy, Utah, USA',
     website: 'https://4life.com',
-    products_summary: 'Nutritional supplements based on Transfer Factor technology — patented immune system support molecules derived from cow colostrum and egg yolks. 4Life holds patents on Transfer Factor extraction and claims unique immune health benefits.',
+    products_summary: '4Life Research is a nutritional supplement MLM founded in 1998, built around patented Transfer Factor technology — immune system support molecules derived from cow colostrum and egg yolks. The company holds patents on Transfer Factor extraction and markets products for immune health benefits. 4Life operates in 70+ countries with estimated 2024 revenue of $300 million. Historical income disclosure shows approximately 80% of distributors received no income at all, with commissions concentrated among top performers.',
     monthly_cost_min: 100,
     monthly_cost_max: 300,
     comp_plan_type: 'Binary MLM',
@@ -924,32 +1129,44 @@ export const companiesBatch1: Company[] = [
       'Unique patented Transfer Factor technology not widely replicated',
       'Some clinical research supporting immune modulation benefits',
       'Privately owned — less pressure for quarterly earnings',
-      'Present in 70+ countries'
+      'Present in 70+ countries with global reach',
+      'Estimated $300 million in 2024 revenue',
+      '35% commission payout (~$105 million annually)'
     ],
     cons: [
-      'Very expensive products — Transfer Factor products cost significantly more than standard supplements',
-      'Binary compensation plan difficult to balance',
-      'Income disclosure shows majority earn minimal income',
+      'Historical data shows ~80% of distributors received no income at all',
+      'Binary compensation plan difficult to balance two "legs"',
       'Health claims for Transfer Factor not FDA-evaluated',
-      'Monthly autoship required to qualify for commissions'
+      'Monthly autoship required to qualify for commissions (~$100-300)',
+      'Very expensive products vs standard supplements',
+      'BBB/DSSRC conducted compliance inquiry (2026) over social media claims',
+      'Binary plan means unbalanced teams earn significantly less',
+      'Transfer Factor benefits largely marketed through anecdotal claims'
     ],
     quick_facts: {
       'Founded': '1998',
       'Headquarters': 'Sandy, Utah',
       'Business Model': 'Binary MLM',
       'Unique Technology': 'Patented Transfer Factor',
+      'Estimated 2024 Revenue': '$300 million',
+      'Commission Payout': '35% (~$105 million)',
+      'Zero Earners': '~80% historically',
       'Presence': '70+ countries',
-      'Monthly Requirement': '~100 LP (\$100-300)'
+      'Monthly Requirement': '~100 LP ($100-300)',
+      'DSSRC': 'Compliance inquiry conducted (2026)'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Transfer Factor immune health supplements sold via binary MLM',
+    tagline: 'Transfer Factor immune supplements MLM: 80% of distributors earn nothing',
     faq: [
-      { question: 'What makes 4Life products unique?', answer: '4Life holds patents on Transfer Factor technology — molecules from cow colostrum and egg yolks that may support immune function. This is a genuinely unique product angle, though health claims are not FDA-evaluated.' },
-      { question: 'Is 4Life a pyramid scheme?', answer: '4Life is a legal MLM company, not a pyramid scheme. Its binary compensation plan requires building two balanced teams, which most distributors find challenging. Income disclosure shows the majority earn minimal commissions.' },
-      { question: 'How much does it cost to join 4Life?', answer: 'Enrollment kits range from $80-200+. To qualify for binary commissions, distributors must maintain monthly autoship orders, typically $100-300 per month depending on their qualification level.' }
+      { question: 'What makes 4Life products unique?', answer: '4Life holds patents on Transfer Factor technology — molecules extracted from cow colostrum and egg yolks that may support immune function. This is a genuinely unique product angle not widely replicated. However, health claims are not FDA-evaluated, and benefits are largely supported by company-funded research.' },
+      { question: 'How much do 4Life distributors earn?', answer: 'Historical income disclosure shows approximately 80% of distributors received no income at all. The remaining 20% includes those who earned commission checks, with income varying based on rank and team structure. The binary plan requires balanced growth in two "legs" to maximize earnings.' },
+      { question: 'Is 4Life a pyramid scheme?', answer: '4Life is a legal MLM company, not a pyramid scheme. Its binary compensation plan requires building two balanced teams, which most find challenging. With ~80% historically earning nothing, income is concentrated among top performers who successfully build large organizations.' },
+      { question: 'What is 4Life\'s income disclosure statement?', answer: '4Life\'s disclosure shows ~80% of distributors received no income. Distributors can earn through retail profit on personal sales and commissions on downline organization sales. Monthly autoship (~$100-300) is required to qualify for residual commissions.' },
+      { question: 'How much does it cost to join 4Life?', answer: 'Enrollment kits range from $80-200+. To qualify for binary commissions, distributors must maintain monthly autoship orders, typically $100-300 per month depending on qualification level. Required monthly investment often exceeds what 80% of distributors earn.' },
+      { question: 'Is 4Life worth joining in 2026?', answer: 'With ~80% historically earning nothing and required monthly purchases of $100-300, most participants lose money. The patented Transfer Factor technology is unique but not FDA-evaluated for health claims. The binary plan heavily favors those who build large, balanced downlines.' }
     ]
   },
   {
@@ -960,7 +1177,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1970,
     hq_location: 'Memphis, Tennessee, USA',
     website: 'https://juiceplus.com',
-    products_summary: 'Fruit and vegetable concentrate supplements (capsules and chewables), protein shakes, and whole food nutrition bars. Founded by Natural Alternatives International (NSA). Over 30 clinical studies cited for products. Sold through Virtual Franchise Partners.',
+    products_summary: 'Juice Plus+ is a nutritional supplement MLM founded in 1970 (under Natural Alternatives International/NSA), selling fruit and vegetable concentrate capsules, chewables, protein shakes, and nutrition bars through Virtual Franchise Partners. The company cites 30+ published clinical studies on its products but faces criticism that studies are industry-funded. Estimated 2024 revenue is $395 million. Analysis suggests 99.1% of partners earn less than minimum wage, with the BBB/DSSRC conducting a 2025 inquiry over "unlimited income potential" claims.',
     monthly_cost_min: 44,
     monthly_cost_max: 120,
     comp_plan_type: 'Multi-level (Juice Plus NSA)',
@@ -972,34 +1189,46 @@ export const companiesBatch1: Company[] = [
     value_rating: 2.0,
     pros: [
       'Claims 30+ published clinical studies on products',
-      'Relatively affordable entry-level pricing (~\$44/mo)',
-      'Long company history (since 1970)',
-      'Genuine focus on whole food nutrition vs synthetic vitamins'
+      'Relatively affordable entry-level pricing (~$44-52/month)',
+      'Long company history since 1970',
+      'Genuine focus on whole food nutrition vs synthetic vitamins',
+      'Estimated $395 million in 2024 revenue',
+      '$52 annual fee to become a partner is relatively low'
     ],
     cons: [
       'Clinical studies cited are industry-funded, limiting independence',
-      'Products are expensive per nutrient vs eating actual fruits/vegetables',
-      'Income disclosure shows majority of distributors earn under \$1,000/year',
-      'Name confusingly similar to juice/beverage products',
-      'Required to buy personally to qualify for commissions'
+      'Analysis suggests 99.1% of partners earn less than minimum wage',
+      'Only National Marketing Directors (0.9%) earn over full-time minimum wage',
+      'BBB/DSSRC 2025 inquiry over "unlimited income potential" and "financial freedom" claims',
+      'Products expensive per nutrient vs eating actual fruits/vegetables',
+      'Company facing double-digit sales declines (fiscal year ending April 2022)',
+      'Moody\'s expressed concern about distributor, revenue, and earnings declines',
+      'New Virtual Franchisees earn 0% commission until reaching 2,000 points/month'
     ],
     quick_facts: {
       'Founded': '1970 (NSA)',
       'Headquarters': 'Memphis, Tennessee',
       'Business Model': 'Multi-level marketing',
-      'Monthly Cost': '~\$44-120',
-      'Products': 'Fruit/vegetable concentrate supplements',
-      'Studies': '30+ cited clinical studies'
+      'Estimated 2024 Revenue': '$395 million',
+      'Annual Partner Fee': '$52',
+      'Monthly Product Cost': '~$44-120',
+      'Studies Cited': '30+ clinical studies (industry-funded)',
+      'Full-Time Earners': 'Only NMDs (0.9%) earn minimum wage+',
+      'DSSRC': '2025 inquiry over income claims',
+      'Commission Start': '6% at 2,000 points/month'
     },
     last_updated: new Date().toISOString(),
     is_featured: false,
     is_published: true,
     created_at: new Date().toISOString(),
-    tagline: 'Fruit and vegetable supplement MLM with 30+ clinical studies cited',
+    tagline: 'Fruit and vegetable supplement MLM: 99.1% earn below minimum wage',
     faq: [
-      { question: 'Is Juice Plus+ evidence-based?', answer: 'Juice Plus+ cites 30+ clinical studies. However, independent nutritionists note that eating actual fruits and vegetables provides equivalent or better nutrition at lower cost. The studies are largely industry-funded.' },
-      { question: 'Can you make money selling Juice Plus?', answer: 'Juice Plus income disclosure shows most Virtual Franchise Partners earn under $1,000 per year. Success requires either strong personal sales or building a large recruitment network.' },
-      { question: 'Is Juice Plus+ worth the cost?', answer: 'At ~$44/month for capsules, Juice Plus is significantly more expensive per nutrient than eating whole foods. For those unable or unwilling to eat adequate fruits and vegetables, it may provide some benefit.' }
+      { question: 'Is Juice Plus+ evidence-based?', answer: 'Juice Plus+ cites 30+ clinical studies. However, independent nutritionists note studies are industry-funded with limited independence. Eating actual fruits and vegetables provides equivalent or better nutrition at lower cost. The studies support some benefits but not the dramatic claims often made by partners.' },
+      { question: 'How much do Juice Plus+ Virtual Franchise Partners earn?', answer: 'Analysis suggests 99.1% of partners earn less than full-time minimum wage. Only National Marketing Directors (0.9% of partners) earn over minimum wage. New Virtual Franchisees earn 0% commission until reaching 2,000 points/month (6% commission) or 12,000 points (22% as Sales Coordinator).' },
+      { question: 'Is Juice Plus+ worth the cost?', answer: 'At ~$44-120/month, Juice Plus+ is significantly more expensive per nutrient than eating whole fruits and vegetables. The products contain concentrated plant compounds, but nutritionists argue dietary changes achieve similar or better results at lower cost. Value depends on your willingness to eat fresh produce.' },
+      { question: 'What is Juice Plus+\'s income disclosure?', answer: 'Juice Plus+ partners should receive an Income Disclosure Statement. Analysis of historical data suggests: 99.1% earn below minimum wage; only 0.9% (National Marketing Directors) earn above minimum wage. The BBB/DSSRC conducted a 2025 inquiry over "unlimited income potential" claims made on social media.' },
+      { question: 'Is Juice Plus+ worth joining in 2026?', answer: 'With 99.1% earning below minimum wage, declining sales, Moody\'s expressing concern about distributor erosion, and BBB/DSSRC 2025 inquiry over income claims, Juice Plus+ presents significant risk. The $52 annual fee is low, but required product purchases and limited earning potential make profitability unlikely for most.' },
+      { question: 'Can you make money selling Juice Plus+?', answer: 'Per analysis: less than 1% chance of making money with Juice Plus+ after expenses. New partners earn 0% commission until reaching 2,000 monthly points. Only those who build significant organizations (National Marketing Directors, 0.9%) earn above minimum wage. Success requires substantial time and customer acquisition.' }
     ]
   },
 ];
