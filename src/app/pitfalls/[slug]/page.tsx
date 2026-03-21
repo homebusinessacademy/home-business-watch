@@ -272,6 +272,16 @@ export default async function PitfallsPage({ params }: PageProps) {
             Official policies: <a href={pitfalls.policyUrl} target="_blank" rel="noopener noreferrer" className="underline hover:text-navy-600">{pitfalls.policyUrl}</a>
           </p>
 
+          {/* Learn More Link */}
+          <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+            <p className="text-gray-700">
+              Want to understand these issues in depth?{' '}
+              <Link href="/guides/mlm-compensation-flaws" className="text-amber-600 hover:text-amber-700 font-medium">
+                Read: 7 Structural Flaws in MLM Compensation Plans →
+              </Link>
+            </p>
+          </div>
+
           {/* Compare Section */}
           <section className="bg-gray-100 rounded-lg p-6">
             <h2 className="text-xl font-bold text-gray-900 mb-3">

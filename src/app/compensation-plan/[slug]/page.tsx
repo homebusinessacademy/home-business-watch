@@ -349,6 +349,14 @@ export default async function CompPlanPage({ params }: PageProps) {
                   </Link>
                 </div>
               )}
+              <div className="mt-4 pt-4 border-t border-red-200">
+                <p className="text-red-800 text-sm">
+                  Want to understand these issues in depth?{' '}
+                  <Link href="/guides/mlm-compensation-flaws" className="text-red-700 hover:text-red-900 font-medium underline">
+                    Read: 7 Structural Flaws in MLM Compensation Plans →
+                  </Link>
+                </p>
+              </div>
             </div>
           </section>
 

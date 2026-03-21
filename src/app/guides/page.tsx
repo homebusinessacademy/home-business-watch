@@ -12,6 +12,12 @@ export const metadata: Metadata = {
 
 const guides = [
   {
+    slug: 'mlm-compensation-flaws',
+    title: '7 Structural Flaws in MLM Compensation Plans',
+    description: 'The hidden traps in most MLM comp plans — from breakage to monthly quotas. Know these before you join.',
+    readTime: '15 min read',
+  },
+  {
     slug: 'mlm-duplication-myth',
     title: 'The MLM Duplication Myth: Why the Math Never Works Out',
     description: 'The "get 2 who get 2" pitch sounds achievable until you apply the Pareto Principle. Learn why duplication math fails and what actually determines income potential.',
