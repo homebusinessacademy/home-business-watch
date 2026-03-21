@@ -12,6 +12,12 @@ export const metadata: Metadata = {
 
 const guides = [
   {
+    slug: 'mlm-duplication-myth',
+    title: 'The MLM Duplication Myth: Why the Math Never Works Out',
+    description: 'The "get 2 who get 2" pitch sounds achievable until you apply the Pareto Principle. Learn why duplication math fails and what actually determines income potential.',
+    readTime: '12 min read',
+  },
+  {
     slug: 'mlm-vs-affiliate-marketing',
     title: 'MLM vs Affiliate Marketing: The Honest Comparison (2026)',
     description: 'Two popular home business models compared using real income data. No bias, just facts about what each path actually pays.',

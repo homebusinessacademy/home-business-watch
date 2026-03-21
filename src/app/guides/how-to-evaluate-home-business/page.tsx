@@ -127,12 +127,9 @@ export default function HowToEvaluateHomeBusinessPage() {
                 </ul>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="font-bold text-gray-900 mb-2">Real Data Examples</h3>
-                <p className="text-gray-600 text-sm mb-2">
-                  <strong><Link href="/companies/young-living" className="text-amber-600 hover:underline">Young Living</Link>:</strong> Median annual earnings of $4 (yes, four dollars)
-                </p>
+                <h3 className="font-bold text-gray-900 mb-2">Why Company Age Matters</h3>
                 <p className="text-gray-600 text-sm">
-                  <strong><Link href="/companies/amway" className="text-amber-600 hover:underline">Amway</Link>:</strong> Median annual earnings of $657 among active distributors
+                  Established companies like <Link href="/companies/amway" className="text-amber-600 hover:underline">Amway</Link> (65+ years) and <Link href="/companies/young-living" className="text-amber-600 hover:underline">Young Living</Link> (30+ years) have proven they can survive market changes. Whether the opportunity is right for <em>you</em> depends on the compensation structure—see our <Link href="/compensation-plan" className="text-amber-600 hover:underline">per-customer residual analysis</Link> for that data.
                 </p>
               </div>
             </section>
@@ -167,12 +164,12 @@ export default function HowToEvaluateHomeBusinessPage() {
                 </li>
               </ul>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Now compare this monthly cost to what the IDS says typical participants earn. If your monthly cost exceeds the typical monthly income for 80%+ of participants, the math simply does not work.
+                Now compare this monthly cost to the per-customer residual income. A better question than &quot;what does the average enrollee earn?&quot; is: <strong>how much do I earn per customer I bring in?</strong> This tells you how many customers you need to cover your costs and hit your income goal. See our <Link href="/compensation-plan" className="text-amber-600 hover:underline">compensation plan analysis</Link> for this data.
               </p>
               <div className="bg-gray-50 rounded-lg p-6">
                 <h3 className="font-bold text-gray-900 mb-2">Example: doTERRA</h3>
                 <p className="text-gray-600 text-sm">
-                  <Link href="/companies/doterra" className="text-amber-600 hover:underline">doTERRA</Link> requires 100 PV/month in their Loyalty Rewards Program (approximately $100-150 in purchases) to qualify for commissions. Yet their income disclosure shows 91% of Wellness Advocates earn $0 in commissions. For most participants, they&apos;re spending $100+/month to earn nothing.
+                  <Link href="/companies/doterra" className="text-amber-600 hover:underline">doTERRA</Link> requires 100 PV/month in their Loyalty Rewards Program (approximately $100-150 in purchases) to qualify for commissions. The key question: how much do you earn per customer to offset this cost? If the per-customer residual is low, you need many customers just to break even on your monthly minimum.
                 </p>
               </div>
             </section>

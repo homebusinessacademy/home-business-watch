@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Guide pages
   const guidePages: MetadataRoute.Sitemap = [
     { url: `${BASE_URL}/guides`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${BASE_URL}/guides/mlm-duplication-myth`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${BASE_URL}/guides/mlm-vs-affiliate-marketing`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${BASE_URL}/guides/best-mlm-companies-2026`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${BASE_URL}/guides/residual-income-math`, lastModified: currentDate, changeFrequency: 'monthly' as const, priority: 0.7 },
