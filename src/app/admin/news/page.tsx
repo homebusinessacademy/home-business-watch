@@ -51,7 +51,7 @@ export default function AdminNewsPage() {
       .from('news_articles')
       .select('*')
       .eq('status', filter)
-      .order('scraped_at', { ascending: false });
+      .order('published_at', { ascending: false });
 
     if (error) {
       console.error('Error fetching articles:', error);
