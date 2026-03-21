@@ -307,7 +307,7 @@ export const compPlans: CompPlanData[] = [
     sourceUrl: 'https://cdnus.melaleuca.com/PDF/BusinessCenter/enus/melaleuca-compensation-book-enus.pdf',
     keyGotchas: [
       '82% of members earned $0 (per income disclosure)',
-      'Product Advocates average only $110-510/year',
+      'Product Advocates average $110-520/year (2024 IDS); Director 1-2 average $2,191/year',
       '50% Product Introduction Commission on first-month orders only',
       '35 product point monthly minimum to stay qualified',
       '20/20 Bonus: 20 customers in 4 months = $500 bonus + permanent 20% rate',
