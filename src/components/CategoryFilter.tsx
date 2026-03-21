@@ -9,7 +9,7 @@ interface CategoryFilterProps {
 }
 
 export function CategoryFilter({ companies }: CategoryFilterProps) {
-  const [sortBy, setSortBy] = useState<'rating' | 'cost_low' | 'alpha' | 'recent'>('rating');
+  const [sortBy, setSortBy] = useState<'rating' | 'cost_low' | 'alpha' | 'recent'>('alpha');
   const [filterRating, setFilterRating] = useState<'all' | 'high' | 'medium' | 'low'>('all');
 
   const filtered = useMemo(() => {
