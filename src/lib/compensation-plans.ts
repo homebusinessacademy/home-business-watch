@@ -55,8 +55,8 @@ export const compPlans: CompPlanData[] = [
   {
     companySlug: 'herbalife',
     companyName: 'Herbalife',
-    lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    lastUpdated: '2026-03-21',
+    directCustomerResidual: 25.0,
     levels: [
       { level: 1, label: 'Member (25% discount)', residualPerCustomer: 12.50, notes: '25% retail margin on $50 order' },
       { level: 2, label: 'Senior Consultant (35-42%)', residualPerCustomer: 17.50, notes: '35% margin on $50 order' },
@@ -64,7 +64,7 @@ export const compPlans: CompPlanData[] = [
       { level: 4, label: 'Royalty override (Supervisor+)', residualPerCustomer: 2.50, notes: '5% per level, up to 3 levels deep' },
     ],
     monthlyRequirement: '$94.10/month autoship minimum',
-    qualificationNote: 'Retail margin varies heavily by rank: 25% for Members, 35-42% for Senior Consultants, 50% for Supervisors. Supervisor requires $4,000 cumulative purchases. Per-customer residual is null because it depends entirely on your rank.',
+    qualificationNote: 'Entry-level recurring commission: Varies. Herbalife uses a discount differential system. New distributors get 25% off retail, but most customers also sign up as members (also 25% off), so the actual recurring margin is often $0. You only profit if selling at full retail to non-members. Higher-level distributors can undercut you with their bigger discounts.',
     simpleSummary: 'Herbalife offers 25-50% retail margins depending on your rank. New members earn 25% margin ($12.50 on a $50 order). Reaching Supervisor ($4,000 in purchases) unlocks 50% margin plus 5% royalty overrides 3 levels deep.',
     teamSizeNeeded: {
       goal1000: 80,
@@ -72,13 +72,13 @@ export const compPlans: CompPlanData[] = [
       goal10000: 800,
       assumptions: 'Based on ~$12.50 retail profit per $50 order at 25% margin. Higher ranks earn more per customer.',
     },
-    sourceUrl: 'https://assets.herbalifenutrition.com/content/dam/regional/nam/en_us/consumable_content/marketing_materials/guides/2020/11-Nov/SalesAndMarketingPlan_EN.pdf',
+    sourceUrl: 'https://www.herbalife.com/content/dam/global-reusable-assets/documents/pd-statement-typical-distributor-earnings-en-us.pdf',
     keyGotchas: [
       'Paid $200M FTC settlement in 2016 for deceptive practices',
       'Approximately 50% of distributors earn $0 in a typical month (2024)',
       'Must reach Supervisor rank ($4,000 in purchases) for 50% margin and royalty overrides',
-      'Commission rate depends heavily on your discount level/rank',
-      'Wholesale commission on downline ranges from 7-25% based on their discount level',
+      'Higher-level distributors can undercut your prices with their bigger discounts (35-50%)',
+      'Most customers sign up as members (25% discount), eliminating your margin entirely',
     ],
   },
   {
@@ -201,7 +201,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'nu-skin-enterprises',
     companyName: 'Nu Skin Enterprises',
     lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    directCustomerResidual: 7.5,
     levels: [
       { level: 1, label: 'Sharing Bonus', residualPerCustomer: 7.50, notes: '5-15% of $50 CSV (paid daily)' },
       { level: 2, label: 'Building Bonus (1 block)', residualPerCustomer: null, notes: '5% on first 500-point block' },
@@ -230,7 +230,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'avon-products',
     companyName: 'Avon Products',
     lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    directCustomerResidual: 20.0,
     levels: [
       { level: 1, label: 'Campaign sales ($40+)', residualPerCustomer: 12.50, notes: '25% on Beauty/Jewelry (20% Home/Fashion)' },
       { level: 2, label: 'Variable campaign commission', residualPerCustomer: null, notes: 'Up to 50% based on campaign volume' },
@@ -258,7 +258,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'primerica',
     companyName: 'Primerica',
     lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    directCustomerResidual: 8.0,
     levels: [
       { level: 1, label: 'Representative', residualPerCustomer: null, notes: '25% commission on life insurance sales' },
       { level: 2, label: 'Senior Representative', residualPerCustomer: null, notes: '35% personal + 10% override on Reps' },
@@ -317,7 +317,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'usana-health-sciences',
     companyName: 'USANA Health Sciences',
     lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    directCustomerResidual: 10.0,
     levels: [
       { level: 1, label: 'Binary commission', residualPerCustomer: null, notes: '20% of lesser leg SVP (min 125 SVP)' },
       { level: 2, label: 'Example: 300/700 SVP', residualPerCustomer: null, notes: '20% of 300 = $60/week' },
@@ -403,7 +403,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'lularoe',
     companyName: 'LuLaRoe',
     lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    directCustomerResidual: 5.0,
     levels: [
       { level: 1, label: 'Retail profit', residualPerCustomer: null, notes: 'Buy wholesale, sell at markup (varies by item)' },
       { level: 2, label: 'Leadership pool', residualPerCustomer: null, notes: 'Team-based bonus pool qualification' },
@@ -430,7 +430,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'plexus-worldwide',
     companyName: 'Plexus Worldwide',
     lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    directCustomerResidual: 7.5,
     levels: [
       { level: 1, label: 'Under 100 PV', residualPerCustomer: 0, notes: '0% retail commission' },
       { level: 2, label: '100-499 PV tier', residualPerCustomer: 7.50, notes: '15% on $50 order' },
@@ -459,7 +459,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'forever-living-products',
     companyName: 'Forever Living Products',
     lastUpdated: '2026-03-20',
-    directCustomerResidual: null,
+    directCustomerResidual: 8.0,
     levels: [
       { level: 1, label: 'Preferred Customer (5%)', residualPerCustomer: 2.50, notes: '5% discount on $50 order (entry level)' },
       { level: 2, label: 'Wholesale Qualified (30%)', residualPerCustomer: 15, notes: '30% margin after 2CC in 2 months' },
