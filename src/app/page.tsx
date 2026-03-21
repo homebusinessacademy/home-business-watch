@@ -177,10 +177,13 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {recentlyUpdated.map((company) => {
-              const isNew = new Date(company.created_at).getTime() > Date.now() - 30 * 24 * 60 * 60 * 1000;
+              const thirtyDaysAgo = Date.now() - 30 * 24 * 60 * 60 * 1000;
+              const isNew = new Date(company.created_at).getTime() > thirtyDaysAgo;
+              const isUpdated = !isNew && new Date(company.last_updated).getTime() > thirtyDaysAgo;
               return (
                 <div key={company.slug} className="relative">
                   {isNew && <span className="absolute top-3 right-3 z-10 text-xs font-bold text-white bg-amber-500 px-2 py-1 rounded-full">NEW</span>}
+                  {isUpdated && <span className="absolute top-3 right-3 z-10 text-xs font-bold text-white bg-blue-500 px-2 py-1 rounded-full">UPDATED</span>}
                   <CompanyCard company={company} />
                 </div>
               );
