@@ -130,31 +130,21 @@ export default function MLMvsAffiliatePage() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td className="border border-gray-200 px-4 py-3 font-medium">Median Annual Income</td>
-                      <td className="border border-gray-200 px-4 py-3">$657/year</td>
-                      <td className="border border-gray-200 px-4 py-3">Varies by referrals</td>
-                    </tr>
                     <tr className="bg-gray-50">
-                      <td className="border border-gray-200 px-4 py-3 font-medium">Commission per Customer</td>
-                      <td className="border border-gray-200 px-4 py-3">~$1.30/month (team-split)</td>
+                      <td className="border border-gray-200 px-4 py-3 font-medium">Commission per Customer/mo</td>
+                      <td className="border border-gray-200 px-4 py-3">~$3/month (entry level)</td>
                       <td className="border border-gray-200 px-4 py-3">$128/month (80% of $160)</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-200 px-4 py-3 font-medium">Customers for $3,072/mo</td>
-                      <td className="border border-gray-200 px-4 py-3">500+ team members</td>
+                      <td className="border border-gray-200 px-4 py-3 font-medium">Customers needed for $3,000/mo</td>
+                      <td className="border border-gray-200 px-4 py-3">1,000 customers</td>
                       <td className="border border-gray-200 px-4 py-3">24 customers</td>
-                    </tr>
-                    <tr className="bg-gray-50">
-                      <td className="border border-gray-200 px-4 py-3 font-medium">Recurring?</td>
-                      <td className="border border-gray-200 px-4 py-3">Only if team stays active</td>
-                      <td className="border border-gray-200 px-4 py-3">Yes, while customer subscribes</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
               <p className="text-gray-700 leading-relaxed">
-                The math reveals a stark contrast: in MLM, your commissions are split across multiple upline levels, leaving you with a tiny fraction per customer. In high-commission affiliate programs, you keep the lion&apos;s share of each referral&apos;s payment.
+                The math is simple: at $3/customer you need 1,000 customers to earn $3,000/month. At $128/customer you need 24. Per-customer residual is the only number that actually determines how hard you have to work — and how realistic your income goal is.
               </p>
             </section>
 
