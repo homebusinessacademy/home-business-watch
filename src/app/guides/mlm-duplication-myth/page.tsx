@@ -263,8 +263,37 @@ export default function MLMDuplicationMythPage() {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   At $3/customer, you need to personally acquire — and retain — 1,000 active customers to earn $3,000/month. That is an enormous personal sales effort. The duplication promise was supposed to make this easier, but Pareto says most of your team will not help.
                 </p>
-                <p className="text-gray-700 leading-relaxed">
+                <p className="text-gray-700 leading-relaxed mb-4">
                   At $128/customer, you need 24. That is achievable by a single motivated person. And if your team does duplicate — even partially — every customer they add is genuinely meaningful to your income. <strong>High per-customer residual makes duplication a bonus, not a requirement.</strong>
+                </p>
+              </div>
+            </section>
+
+            {/* Section: The Tell — Ask a 6-Figure Earner */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">The Tell: Ask Any 6-Figure MLM Earner How Many They Personally Recruited</h2>
+              <div className="prose prose-lg max-w-none">
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Here is a simple test you can run. Find someone making real money in MLM — a top earner, someone on stage at the events, someone held up as proof the system works. Ask them one question:
+                </p>
+                <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-6 rounded-r-lg">
+                  <p className="text-xl font-bold text-gray-900">
+                    &quot;How many people did YOU personally recruit?&quot;
+                  </p>
+                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  The answer is almost never 2. It is rarely 10. The honest answer from real top earners is typically <strong>100, 200, sometimes 300+ personal recruits</strong> over years of relentless work.
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  They succeeded because they are exceptional salespeople who worked extremely hard and personally drove the majority of their organization&apos;s growth. Their team helped — but they built it themselves first.
+                </p>
+                <div className="bg-gray-100 rounded-lg p-6 my-6">
+                  <p className="text-lg font-bold text-gray-900 mb-3">If you are going to personally recruit 100+ people anyway...</p>
+                  <p className="text-gray-700 mb-4">Why do it for $3 per customer in monthly residual?</p>
+                  <p className="text-gray-700">If that same recruiting skill and hustle was applied to a model paying $128 per customer — even with no team at all — the math changes completely. <strong>Your income is in your own hands, not dependent on whether your team duplicates.</strong></p>
+                </div>
+                <p className="text-gray-700 leading-relaxed">
+                  This is the real insight behind per-customer residual. It does not just change the math for people who build teams. It changes what your own personal effort is worth — with or without duplication.
                 </p>
               </div>
             </section>
