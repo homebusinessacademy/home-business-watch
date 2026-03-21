@@ -228,7 +228,7 @@ async function getPublishedArticles(): Promise<NewsArticle[]> {
     .from('news_articles')
     .select('id, title, summary, source_url, source_name, published_at, company_slug, company_name, category, category_color, impact')
     .eq('status', 'published')
-    .order('published_at', { ascending: false })
+    .order('approved_at', { ascending: false })
     .limit(50);
 
   if (error) {
