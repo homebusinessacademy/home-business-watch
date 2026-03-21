@@ -175,7 +175,7 @@ export default function MLMCompensationFlawsPage() {
               </div>
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Unlike a salary or a business you own, MLM residual income exists at the pleasure of the company. Companies go out of business — Tupperware and Beautycounter shut down in 2024, Legendary Marketer closed in February 2026. Others change their compensation plan, typically framed as an &quot;enhancement&quot; that reduces what existing reps earn.
+                  Unlike a salary or a business you own, MLM residual income exists at the pleasure of the company. Companies go out of business — Tupperware and Beautycounter shut down in 2024, 7K Metals exited its MLM model in 2026. Others change their compensation plan, typically framed as an &quot;enhancement&quot; that reduces what existing reps earn.
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-4">
                   You have no contractual right to your current compensation structure. The company can change the rules at any time.

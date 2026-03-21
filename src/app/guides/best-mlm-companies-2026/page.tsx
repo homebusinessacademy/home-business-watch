@@ -352,8 +352,8 @@ export default function BestMLMCompanies2026Page() {
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
                   </svg>
                   <div>
-                    <span className="font-bold text-gray-900"><Link href="/companies/legendary-marketer" className="hover:text-amber-600">Legendary Marketer</Link></span>
-                    <p className="text-gray-600 text-sm">Closed operations entirely in February 2026. Digital marketing education company shut down after regulatory scrutiny.</p>
+                    <span className="font-bold text-gray-900">7K Metals</span>
+                    <p className="text-gray-600 text-sm">Exited MLM in March 2026, transitioning to a direct retail and affiliate model. Members who built multi-level teams lost their downline income streams.</p>
                   </div>
                 </li>
               </ul>
