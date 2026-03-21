@@ -39,7 +39,7 @@ export default function MLMDuplicationMythPage() {
         name: 'How does the Pareto principle apply to MLM?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'The Pareto Principle (80/20 rule) states that roughly 20% of people produce 80% of results. In MLM, this means most of your recruits will not actively build the business. If you need 1,000 active customers in your organization, and only 20% of recruits become active, you need to recruit 5,000+ people. This makes the "duplication" pitch misleading—the math requires massive recruitment, not small teams.',
+          text: 'The Pareto Principle (80/20 rule) states that roughly 20% of people produce 80% of results. In MLM, this means most of your recruits will not actively build the business. The Pareto Principle exposes a false assumption at the core of the duplication pitch: you join believing your team will help find customers, but 80% produce little or nothing. This means YOU end up doing most of the customer acquisition yourself. The duplication was never going to happen as promised — and that makes per-customer residual the only number that actually matters.',
         },
       },
       {
@@ -431,7 +431,7 @@ export default function MLMDuplicationMythPage() {
                     What is the duplication myth in MLM?
                   </h3>
                   <p className="text-gray-600">
-                    The duplication myth is the MLM pitch that if you recruit 2 people who each recruit 2 people, and so on, you will build a massive organization exponentially. The math sounds achievable (&quot;just find 2 serious people&quot;) but ignores the Pareto Principle: in every sales organization, approximately 80% of people produce little to no results. This means building 1,000 active customers requires recruiting 5,000-10,000+ people.
+                    The duplication myth is the belief that your MLM team will multiply your efforts through recruiting — get 2 who get 2 who get 2, and so on. The reality: the Pareto Principle means 80% of your team produces little or nothing. So instead of your team helping you find customers, you end up doing most of the work yourself. The pitch sold you on team leverage. The reality is largely solo effort.
                   </p>
                 </div>
 
@@ -449,7 +449,7 @@ export default function MLMDuplicationMythPage() {
                     How does the Pareto principle apply to MLM?
                   </h3>
                   <p className="text-gray-600">
-                    The Pareto Principle (80/20 rule) states that roughly 20% of people produce 80% of results. In MLM, this means most of your recruits will not actively build the business. If you need 1,000 active customers in your organization, and only 20% of recruits become active, you need to recruit 5,000+ people. This makes the &quot;duplication&quot; pitch misleading—the math requires massive recruitment, not small teams.
+                    The Pareto Principle (80/20 rule) means 80% of your team will produce little or nothing. In an MLM context, this means you join expecting your team to share the customer acquisition work — but most of that work ends up falling on you personally. You still need the same number of customers to hit your income goal. You just end up having to find most of them yourself, not through the team duplication you were promised.
                   </p>
                 </div>
 
