@@ -59,10 +59,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'World\'s largest essential oil MLM company',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '102',
@@ -117,10 +117,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'The original essential oil MLM, founded 1993',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '103',
@@ -176,10 +176,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Publicly traded financial services MLM selling term life insurance',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '104',
@@ -235,10 +235,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Iconic cosmetics MLM founded in 1963',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '105',
@@ -293,10 +293,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Anti-aging MLM, publicly traded since 1996',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
 
   // --- AFFILIATE PROGRAMS ---
@@ -355,10 +355,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'One of the most established affiliate networks with 25,000+ programs',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '152',
@@ -414,10 +414,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Premier affiliate network featuring major brand advertisers',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '153',
@@ -472,10 +472,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Beginner-friendly affiliate marketing training platform since 2005',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '106',
@@ -530,10 +530,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Nutritional cleansing MLM founded in 2002',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '107',
@@ -589,10 +589,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Haircare MLM with controversial product reviews',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '108',
@@ -647,10 +647,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Gut health and weight management MLM known for the Pink Drink',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '109',
@@ -705,10 +705,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Vegan clean beauty MLM, founded 1980, filed bankruptcy 2020',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '110',
@@ -763,10 +763,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Premium dermatologist skincare brand, pivoted from MLM to affiliate in 2024',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '112',
@@ -820,10 +820,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ Iconic food storage brand — filed Chapter 11 bankruptcy September 2024',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '113',
@@ -878,10 +878,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Publicly traded nutrition MLM with declining revenue trend',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '114',
@@ -937,10 +937,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Wickless candle and fragrance direct sales company founded in Idaho',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '154',
@@ -996,10 +996,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Recurring commission affiliate program for popular sales funnel software',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '155',
@@ -1054,10 +1054,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Creator-focused email platform with 30% recurring affiliate commissions',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '156',
@@ -1113,10 +1113,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Earn bounties promoting the world\'s largest e-commerce platform',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '115',
@@ -1171,10 +1171,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'World\'s largest aloe vera MLM — no public income disclosure',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '116',
@@ -1230,10 +1230,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Berkshire Hathaway-owned kitchen products direct sales company',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '157',
@@ -1288,10 +1288,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ CLOSED FEBRUARY 2026 — Online marketing training program after 9-year run',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '158',
@@ -1347,10 +1347,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Digital product marketplace for internet marketing affiliates',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '159',
@@ -1406,10 +1406,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Global affiliate network with premium retail brand partnerships',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '160',
@@ -1472,10 +1472,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Affiliate marketing platform — comp plan changed in 2026, lifetime option removed',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '161',
@@ -1531,10 +1531,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Enterprise affiliate network with premium brand partnerships',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '162',
@@ -1590,10 +1590,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Global affiliate network with 25,000+ advertisers — owns ShareASale',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '163',
@@ -1649,10 +1649,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'European digital product marketplace — strong alternative to ClickBank',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '164',
@@ -1708,10 +1708,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Internet marketing affiliate marketplace with instant PayPal commissions',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '165',
@@ -1767,10 +1767,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'B2B SaaS affiliate network with recurring commissions from top software brands',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '201',
@@ -1828,10 +1828,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'World\'s largest freelance marketplace — work from anywhere, on your terms',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '202',
@@ -1888,10 +1888,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Professional freelance platform with sliding commissions — reward long-term client relationships',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '203',
@@ -1949,10 +1949,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Google\'s display advertising program — the starting point for publisher monetization',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '204',
@@ -2009,10 +2009,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Premium ad management network — 75% revenue share, 2-4x better than AdSense',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '205',
@@ -2069,10 +2069,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'World\'s largest course marketplace — 73M students, passive income potential',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '206',
@@ -2129,10 +2129,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Newsletter platform — writers keep 90%, free to start',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '207',
@@ -2189,10 +2189,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Creator membership platform — genuine recurring income from your biggest fans',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '208',
@@ -2250,10 +2250,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Sell custom apparel on Amazon with zero upfront cost — truly passive income',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '117',
@@ -2315,10 +2315,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Fast-growing $9.95/month wellness MLM — 350,000+ members since 2022',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '118',
@@ -2380,10 +2380,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Iconic fitness brand that pivoted from MLM to affiliate model in November 2024',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '119',
@@ -2439,10 +2439,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ 138-year-old beauty icon — Avon Products Inc. filed bankruptcy August 2024',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '120',
@@ -2498,10 +2498,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Social media makeup MLM — no public income disclosure, Coty exited investment',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '121',
@@ -2557,10 +2557,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Publicly traded weight loss MLM — $1.5B peak revenue in 2022, declining since',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '122',
@@ -2616,10 +2616,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Anti-aging MLM with multiple lawsuits — rapid growth in Asia Pacific',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '123',
@@ -2674,10 +2674,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ Clean beauty brand that terminated ALL MLM distributors on April 17, 2024',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '124',
@@ -2733,10 +2733,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Ketone supplement MLM — R1 Promoters average $304/year per income disclosure',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '125',
@@ -2791,10 +2791,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Transfer factor immune supplement MLM — 26 years, 80+ countries',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '126',
@@ -2850,10 +2850,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'South Korean MLM with 20M+ members — "absolute quality, absolute price"',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '300',
@@ -2913,10 +2913,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ THE LARGEST CRYPTO FRAUD IN HISTORY — $4-25B stolen, founder is FBI fugitive',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '301',
@@ -2970,10 +2970,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ SHUT DOWN BY FTC 2018 — deceptive high-ticket coaching schemes',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '302',
@@ -3028,10 +3028,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ BANKRUPT 2017 — Pioneer internet marketing MLM, co-founded by David Sharpe (Legendary Marketer)',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '127',
@@ -3088,10 +3088,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Patterned leggings MLM — $4.75M pyramid scheme settlement, subject of Amazon documentary',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '128',
@@ -3147,10 +3147,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Telecom MLM with Trump endorsement — only 1% earn top-plan income',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '129',
@@ -3208,10 +3208,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Idaho wellness MLM — 8-level organization, monthly product purchase required to earn commissions',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '303',
@@ -3264,10 +3264,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ $2.4 BILLION CRYPTO PONZI — collapsed January 2018, founder is fugitive',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '304',
@@ -3320,10 +3320,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ $600 MILLION PONZI SCHEME — shut down by SEC 2012, founder convicted',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '305',
@@ -3378,10 +3378,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Energy drink MLM — FTC halted as pyramid scheme 2015, settled 2016, still operating',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '130',
@@ -3437,10 +3437,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Financial services MLM — Transamerica subsidiary, IUL fraud lawsuits, targets immigrant communities',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '131',
@@ -3495,10 +3495,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Body wrap MLM — 97.57% of distributors earn less than full-time income',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '132',
@@ -3549,10 +3549,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Glyconutrient MLM — publicly traded (NASDAQ: MTEX), declining revenue',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '133',
@@ -3607,10 +3607,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Idaho wellness MLM — income disclosure not updated since 2020',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '306',
@@ -3664,10 +3664,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ DEFUNCT — numismatic coin MLM merged with WorldVentures 2013 (also bankrupt)',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '307',
@@ -3721,10 +3721,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '⚠️ CLOSED March 2010 — online education MLM terminated after free content made it obsolete',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '134',
@@ -3780,10 +3780,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Precious metals company — pivoted from MLM to affiliate model March 2026',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '135',
@@ -3833,10 +3833,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Seed-based nutrition MLM — no public income disclosure, BBB income claim referral 2025',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '136',
@@ -3888,10 +3888,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Iaso Tea and hemp wellness MLM with strong social media community',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '137',
@@ -3946,10 +3946,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'First direct selling company to defeat FTC pyramid scheme lawsuit — September 2023',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '138',
@@ -4001,10 +4001,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'One of America\'s oldest nutrition MLMs — founded 1956, first Climate Neutral company',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '139',
@@ -4052,10 +4052,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Aloe vera wellness MLM competing in Forever Living\'s space',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '166',
@@ -4111,10 +4111,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Weekly-paying CPA affiliate network since 2004 — best for performance marketers',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '167',
@@ -4165,10 +4165,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Large affiliate network — 12,000+ advertisers, Net 7 payments',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '168',
@@ -4220,10 +4220,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'AI-powered ad optimization — better than AdSense, accessible to new publishers',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '209',
@@ -4281,10 +4281,10 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: 'Sell products using Amazon\'s warehouse and fulfillment network — scalable e-commerce business',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '210',
@@ -4342,9 +4342,9 @@ export const extendedCompanies: Company[] = [
       }
     ],
     tagline: '90 million buyer marketplace — ideal for handmade, digital products, and vintage',
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
 ];
