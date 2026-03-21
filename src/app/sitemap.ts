@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { allCompanies as companies, comparisonPages } from '@/lib/seed-data';
 import { compPlans } from '@/lib/compensation-plans';
+import { pitfallsData } from '@/lib/pitfalls';
 import { CompanyCategory } from '@/types';
 
 const BASE_URL = 'https://homebusinesswatch.com';
@@ -72,5 +73,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...guidePages, ...categoryPages, ...companyPages, ...comparisonPageUrls, ...compPlanIndexPage, ...compPlanPages];
+  // Pitfalls index page
+  const pitfallsIndexPage: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/pitfalls`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.9 },
+  ];
+
+  // Individual pitfalls pages
+  const pitfallPages: MetadataRoute.Sitemap = pitfallsData.map((p) => ({
+    url: `${BASE_URL}/pitfalls/${p.companySlug}`,
+    lastModified: p.lastUpdated,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...guidePages, ...categoryPages, ...companyPages, ...comparisonPageUrls, ...compPlanIndexPage, ...compPlanPages, ...pitfallsIndexPage, ...pitfallPages];
 }

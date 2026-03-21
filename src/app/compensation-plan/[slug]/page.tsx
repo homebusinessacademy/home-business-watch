@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { EbookBanner } from '@/components';
 import { getCompPlanBySlug, getAllCompPlanSlugs, CompPlanData } from '@/lib/compensation-plans';
 import { getCompanyBySlug } from '@/lib/seed-data';
+import { hasPitfalls } from '@/lib/pitfalls';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -335,6 +336,19 @@ export default async function CompPlanPage({ params }: PageProps) {
                   </li>
                 ))}
               </ul>
+              {hasPitfalls(slug) && (
+                <div className="mt-4 pt-4 border-t border-red-200">
+                  <Link
+                    href={`/pitfalls/${slug}`}
+                    className="inline-flex items-center gap-2 text-red-700 hover:text-red-900 font-medium text-sm transition-colors"
+                  >
+                    View Full Policy Pitfalls Report
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </Link>
+                </div>
+              )}
             </div>
           </section>
 

@@ -70,6 +70,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/pitfalls" className="hover:text-white transition-colors">
+                  Policy Pitfalls
+                </Link>
+              </li>
+              <li>
                 <Link href="/income-disclosure" className="hover:text-white transition-colors">
                   Income Disclosure Database
                 </Link>
