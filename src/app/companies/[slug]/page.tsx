@@ -5,6 +5,7 @@ import { QuickFactsBox, RatingBreakdown, StarRating, ReportInaccuracyButton } fr
 import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, allCompanies, getCompanyComparison, getCompanyComparisons } from '@/lib/seed-data';
 import { hasCompPlan } from '@/lib/compensation-plans';
 import { hasPitfalls } from '@/lib/pitfalls';
+import { hasPyramidSchemePage } from '@/lib/pyramid-scheme-data';
 import HBAReviewsSection from '@/components/HBAReviewsSection';
 import { CATEGORY_LABELS } from '@/types';
 
@@ -427,6 +428,16 @@ export default async function CompanyPage({ params }: PageProps) {
                 className="block w-full bg-red-600 hover:bg-red-700 text-white text-center px-4 py-2.5 rounded-lg font-medium text-sm transition-colors mt-2"
               >
                 View Policy Pitfalls
+              </Link>
+            )}
+
+            {/* Pyramid Scheme Link */}
+            {hasPyramidSchemePage(company.slug) && (
+              <Link
+                href={`/pyramid-scheme/${company.slug}`}
+                className="block w-full bg-amber-500 hover:bg-amber-600 text-gray-900 text-center px-4 py-2.5 rounded-lg font-medium text-sm transition-colors mt-2"
+              >
+                Is {company.name} a Pyramid Scheme?
               </Link>
             )}
 

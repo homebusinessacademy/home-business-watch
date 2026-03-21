@@ -75,6 +75,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/pyramid-scheme" className="hover:text-white transition-colors">
+                  Pyramid Scheme?
+                </Link>
+              </li>
+              <li>
                 <Link href="/income-disclosure" className="hover:text-white transition-colors">
                   Income Disclosure Database
                 </Link>
