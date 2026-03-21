@@ -349,6 +349,20 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     ],
     verdict: 'Crypto MLMs promising guaranteed returns are pyramid/Ponzi schemes. OneCoin and BitConnect are proven frauds. If someone promises daily returns from "trading bots" or "crypto mining" requiring you to recruit others, run.',
   },
+  {
+    companySlug: 'velocity-bank-network',
+    companyName: 'Velocity Bank Network',
+    isActualPyramidScheme: true,
+    directAnswer: 'Yes — Velocity Bank Network meets the actual definition of a pyramid scheme. There is no real product or service. Participants pay money in and receive money from new participants below them. The "two behind one" structure requires infinite recruitment to sustain.',
+    whyNotPyramidScheme: '',
+    mathSummary: 'The "two behind one" momentum engine means every position requires two new $30 deposits to fund it. This is a closed loop with no external revenue — mathematically identical to a Ponzi scheme.',
+    structuralNotes: [
+      'No product or service — pure peer-to-peer money transfer',
+      'Anonymous founders, no legal entity registration',
+      'Claims of $500/day passive income require infinite new recruitment',
+    ],
+    verdict: 'This is not a home business opportunity. It is a peer-to-peer payment matrix with pyramid scheme mechanics dressed in cryptocurrency language. Money paid in by later participants funds returns for earlier participants. When recruitment slows — as it always does — participants lose their money.',
+  },
 ];
 
 // Helper to get pyramid scheme data by slug

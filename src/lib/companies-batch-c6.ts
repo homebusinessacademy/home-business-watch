@@ -2160,5 +2160,76 @@ export const companiesBatchC6: Company[] = [
       { question: 'Does Webex have affiliates?', answer: 'Partner program for resellers and solution providers, not traditional affiliate marketing.' },
       { question: 'Who uses Webex?', answer: 'Large enterprises, government, healthcare, and security-conscious organizations requiring Cisco-grade solutions.' }
     ]
+  },
+  {
+    id: '601',
+    slug: 'velocity-bank-network',
+    name: 'Velocity Bank Network',
+    category: 'mlm',
+    founded_year: 2025,
+    hq_location: 'Unknown — no registered business address',
+    website: 'https://velocitybank.network',
+    products_summary: 'Velocity Bank Network (VBN) is a self-described "decentralized peer-to-peer rewards platform" that launched in late 2025. It has no physical products, no services, and explicitly states it is "not a company." Participants pay $30 to $1,000 to enter one of four "tiers," with the promise of earning up to $500/day in the top "vault" tier. All transactions are conducted in USDT cryptocurrency on a blockchain app called Bankus. VBN is not registered as a company, financial institution, or securities offering in any jurisdiction.',
+    monthly_cost_min: 30,
+    monthly_cost_max: 1000,
+    comp_plan_type: 'Peer-to-peer matrix — "two behind one momentum engine" where each position is funded by two new participants below it',
+    overall_rating: 1.0,
+    residual_rating: 1.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 1.0,
+    community_rating: 1.5,
+    value_rating: 1.0,
+    pros: [
+      'Free to join at Tier 1 (waitlist only)',
+      'Cryptocurrency transactions are technically traceable on-chain',
+    ],
+    cons: [
+      'No real product or service — participants only pay other participants',
+      'Classic pyramid structure: each position requires two new positions to fund it',
+      'Claims of $500/day passive income are mathematically impossible without infinite new recruitment',
+      'Not registered as a company, financial institution, or legal entity anywhere',
+      'No regulatory oversight — no recourse if the platform disappears with funds',
+      '"Smart contract upgrade" in Q3 2025 hasn\'t been completed — manual processing done daily by anonymous team',
+      'Explicitly disclaims any financial guarantees while implying daily returns',
+      'Founded October 2025 — no track record, no audited financials, anonymous founders',
+      'USDT on blockchain does not equal legitimacy — OneCoin also claimed blockchain transparency',
+    ],
+    quick_facts: {
+      'Founded': 'October 2025',
+      'Headquarters': 'Unknown — no registered address',
+      'Business Model': 'Peer-to-peer matrix (no product)',
+      'Entry Cost': '$30 (Tier 2) or $1,000 (Tier 3)',
+      'Claimed Return': '$500/day at "Vault" tier',
+      'Legal Status': 'Not registered as company or financial entity',
+      'Regulatory Action': 'None yet — too new',
+      'Blockchain': 'USDT on unspecified blockchain via "Bankus" app',
+    },
+    last_updated: new Date().toISOString(),
+    is_featured: false,
+    is_published: true,
+    created_at: new Date().toISOString(),
+    tagline: 'Peer-to-peer crypto matrix with no product — classic pyramid scheme structure',
+    faq: [
+      {
+        question: 'Is Velocity Bank Network a scam?',
+        answer: 'Velocity Bank Network has the structural hallmarks of a pyramid scheme by the most basic definition: participants pay money into the platform with the expectation of getting more money back, with no real product or service changing hands. The "two behind one" momentum engine means each position is funded by two new participants below it — a structure that mathematically requires infinite recruitment to sustain. When recruitment slows, participants at the bottom lose their money. Whether it technically meets the legal definition of fraud depends on jurisdiction and regulatory action, which has not yet occurred given its October 2025 launch date.',
+      },
+      {
+        question: 'Is Velocity Bank Network legitimate?',
+        answer: 'VBN is not registered as a company, financial institution, or securities offering anywhere. Its founders are anonymous, it has no physical address, and it explicitly disclaims any financial guarantees while promoting daily income claims. The platform is approximately 5 months old with no audited financials, no regulatory approval, and no track record. These are significant red flags regardless of the blockchain technology it uses.',
+      },
+      {
+        question: 'How does Velocity Bank Network make money?',
+        answer: 'VBN does not appear to generate revenue from any external source. Participant rewards come directly from new participant deposits — the classic structure of a Ponzi scheme. The "smart contract" and blockchain technology are presentation layers over what is fundamentally a peer-to-peer matrix where early participants are paid by later participants.',
+      },
+      {
+        question: 'Can you really earn $500 a day with VBN?',
+        answer: 'The $500/day "vault" earnings would require a constant, exponentially growing flow of new $30 and $1,000 deposits from new participants. This is mathematically impossible to sustain. Every matrix-style system with no external revenue eventually collapses when recruitment slows — and the vast majority of participants (those who joined later) lose their money.',
+      },
+      {
+        question: 'Is VBN the same as an MLM?',
+        answer: 'VBN actually fails even the basic tests that make MLMs legal. Most MLMs sell real products and services. VBN has no product — only peer-to-peer money transfers with a promise of return. By the strictest definition, this is closer to a pyramid scheme than a multi-level marketing company.',
+      },
+    ],
   }
 ];
