@@ -65,6 +65,11 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/comp-plan" className="hover:text-white transition-colors">
+                  Comp Plans
+                </Link>
+              </li>
+              <li>
                 <Link href="/income-disclosure" className="hover:text-white transition-colors">
                   Income Disclosure Database
                 </Link>

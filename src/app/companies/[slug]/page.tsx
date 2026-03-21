@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { QuickFactsBox, RatingBreakdown, StarRating, ReportInaccuracyButton } from '@/components';
 import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, allCompanies, getCompanyComparison, getCompanyComparisons } from '@/lib/seed-data';
+import { hasCompPlan } from '@/lib/comp-plans';
 import HBAReviewsSection from '@/components/HBAReviewsSection';
 import { CATEGORY_LABELS } from '@/types';
 
@@ -406,6 +407,16 @@ export default async function CompanyPage({ params }: PageProps) {
                   ))}
                 </div>
               </div>
+            )}
+
+            {/* Comp Plan Link */}
+            {hasCompPlan(company.slug) && (
+              <Link
+                href={`/comp-plan/${company.slug}`}
+                className="block w-full bg-navy-600 hover:bg-navy-700 text-white text-center px-4 py-2.5 rounded-lg font-medium text-sm transition-colors"
+              >
+                View Comp Plan Breakdown
+              </Link>
             )}
 
             {/* CTA Box */}

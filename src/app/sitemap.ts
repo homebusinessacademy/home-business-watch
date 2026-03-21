@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { allCompanies as companies, comparisonPages } from '@/lib/seed-data';
+import { compPlans } from '@/lib/comp-plans';
 import { CompanyCategory } from '@/types';
 
 const BASE_URL = 'https://homebusinesswatch.com';
@@ -58,5 +59,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   }).filter((page): page is NonNullable<typeof page> => page !== null);
 
-  return [...staticPages, ...guidePages, ...categoryPages, ...companyPages, ...comparisonPageUrls];
+  // Comp plan index page
+  const compPlanIndexPage: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/comp-plan`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.9 },
+  ];
+
+  // Individual comp plan pages
+  const compPlanPages: MetadataRoute.Sitemap = compPlans.map((cp) => ({
+    url: `${BASE_URL}/comp-plan/${cp.companySlug}`,
+    lastModified: cp.lastUpdated,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...guidePages, ...categoryPages, ...companyPages, ...comparisonPageUrls, ...compPlanIndexPage, ...compPlanPages];
 }
