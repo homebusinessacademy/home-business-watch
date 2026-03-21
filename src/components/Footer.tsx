@@ -79,6 +79,11 @@ export function Footer() {
                   Industry News
                 </Link>
               </li>
+              <li>
+                <Link href="/submit" className="hover:text-white transition-colors">
+                  Submit a Company
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

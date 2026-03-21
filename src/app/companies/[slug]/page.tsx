@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { QuickFactsBox, RatingBreakdown, StarRating } from '@/components';
+import { QuickFactsBox, RatingBreakdown, StarRating, ReportInaccuracyButton } from '@/components';
 import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, allCompanies, getCompanyComparison, getCompanyComparisons } from '@/lib/seed-data';
 import HBAReviewsSection from '@/components/HBAReviewsSection';
 import { CATEGORY_LABELS } from '@/types';
@@ -355,6 +355,11 @@ export default async function CompanyPage({ params }: PageProps) {
                 </div>
               </section>
             )}
+
+            {/* Report Inaccuracy */}
+            <div className="flex justify-end">
+              <ReportInaccuracyButton companySlug={company.slug} companyName={company.name} />
+            </div>
 
             {/* Comparison CTA */}
             {comparison && (
