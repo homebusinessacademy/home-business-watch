@@ -47,7 +47,7 @@ export default function MLMCompensationFlawsPage() {
         name: 'What is a monthly quota in MLM?',
         acceptedAnswer: {
           '@type': 'Answer',
-          text: 'Most MLMs require a monthly personal purchase or sales volume minimum to "stay active" and qualify for commissions. If you miss the quota — due to illness, vacation, financial hardship — you lose your commissions. That is not residual income. That is conditional income with a monthly fee. Many health and wellness MLMs require $100-200 in monthly personal volume just to earn on your organization.',
+          text: 'Most MLMs require ongoing performance metrics to maintain your rank and commission rate — things like enrolling a minimum number of new customers per quarter, or maintaining a group volume threshold to keep bonuses. Miss these requirements and your commission percentage drops, or you lose rank-based bonuses like car allowances. Income you thought was residual turns out to be conditional on ongoing performance. True residual income continues whether you work or not — most MLM income does not meet this standard.',
         },
       },
       {
@@ -211,7 +211,7 @@ export default function MLMCompensationFlawsPage() {
                 <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 my-6">
                   <h4 className="font-semibold text-gray-900 mb-2">Real-World Example</h4>
                   <p className="text-gray-700">
-                    Many health and wellness MLMs require $100-200 in monthly personal volume just to earn on your organization. The residual only flows if you keep buying. Stop buying, and the income stops — regardless of how large your organization is.
+                    You have built a team of 200 people and are earning $2,000/month in residual commissions. The comp plan requires you to personally enroll 4 new customers per quarter to maintain your rank — and your rank determines your commission percentage. One quarter you fall short and enroll only 2. Your rank drops, your commission rate drops from 20% to 15%, and your $2,000/month becomes $1,500. Or you hit a group volume threshold and lose your car bonus — a bonus you had budgeted for. The income you thought was &quot;locked in&quot; was conditional on ongoing performance requirements you may not have fully understood when you joined.
                   </p>
                 </div>
                 <div className="bg-navy-50 border border-navy-200 rounded-lg p-6 my-6">
