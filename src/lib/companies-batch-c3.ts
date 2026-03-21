@@ -26,10 +26,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20-30% recurring',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Recurring commissions on email automation',
     faq: [
       { question: 'How long do I earn commissions?', answer: 'You earn 20-30% monthly recurring commission for as long as your referred customer remains an ActiveCampaign subscriber.' },
@@ -61,10 +61,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$100 flat or 33% recurring',
       'Cookie Duration': '120 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Flexible commission structure for marketers',
     faq: [
       { question: 'Can I switch commission types?', answer: 'You must choose between one-time $100 commission or 33% recurring when you join. This choice cannot be changed later.' },
@@ -96,10 +96,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% recurring',
       'Cookie Duration': '365 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Year-long cookie with recurring income',
     faq: [
       { question: 'How long does the cookie last?', answer: 'AWeber offers an industry-leading 365-day cookie duration, giving you a full year to earn credit for referrals.' },
@@ -131,10 +131,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Varies by tier',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Partner program for agencies and consultants',
     faq: [
       { question: 'Is this open to individual affiliates?', answer: 'Mailchimp focuses on agency partners and consultants rather than traditional affiliates. Individual marketers may find limited opportunities.' },
@@ -166,10 +166,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% for 12 months',
       'Cookie Duration': '180 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'High-value CRM commissions with volume bonuses',
     faq: [
       { question: 'How long do commissions last?', answer: 'You earn 30% commission for the first 12 months of each customer subscription, with potential volume bonuses.' },
@@ -201,10 +201,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Varies by partner tier',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise CRM partnership opportunities',
     faq: [
       { question: 'Who can become a Salesforce partner?', answer: 'Salesforce partners are typically agencies, consultants, and resellers with established businesses, not individual affiliates.' },
@@ -236,10 +236,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Up to $250 per sale',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Project management with multi-seat commissions',
     faq: [
       { question: 'How much can I earn per referral?', answer: 'Commissions range from $50 to $250+ per sale depending on the plan and number of seats purchased by your referral.' },
@@ -271,10 +271,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$10 per customer',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Popular workspace tool with growing community',
     faq: [
       { question: 'Is the commission recurring?', answer: 'No, Notion pays a one-time $10 commission per new paying customer, not recurring monthly payments.' },
@@ -306,10 +306,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'No-code database platform for teams',
     faq: [
       { question: 'What are the commission rates?', answer: 'Airtable does not publicly disclose affiliate commission rates. Approved affiliates receive detailed information in their partner dashboard.' },
@@ -341,10 +341,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '25% recurring',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Fast-growing productivity platform with recurring pay',
     faq: [
       { question: 'How long do I earn commissions?', answer: 'You earn 25% recurring commission for the lifetime of each customer subscription you refer.' },
@@ -376,10 +376,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed revenue share',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Automation leader with integration ecosystem',
     faq: [
       { question: 'What kind of partners does Zapier accept?', answer: 'Zapier partners include app developers, consultants, agencies, and content creators focused on business automation and productivity.' },
@@ -411,10 +411,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20% recurring',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Visual automation with lifetime recurring commissions',
     faq: [
       { question: 'How does Make differ from Zapier?', answer: 'Make offers more advanced visual automation capabilities with better pricing for power users, making it attractive for technical audiences.' },
@@ -446,10 +446,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '50% for 12 months',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: '50% commission on designer-favorite web platform',
     faq: [
       { question: 'What can I earn per customer?', answer: 'With Webflow plans ranging from $14-$212/month, you can earn $7-$106 per month per customer for 12 months.' },
@@ -481,10 +481,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$100-200 per sale',
       'Cookie Duration': '45 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium website builder with high payouts',
     faq: [
       { question: 'Are commissions recurring?', answer: 'No, Squarespace pays one-time commissions: $200 for annual plan purchases or $100 for monthly subscriptions.' },
@@ -516,10 +516,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$100 per premium sale',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Global website builder with flat commissions',
     faq: [
       { question: 'What qualifies as a premium sale?', answer: 'You earn $100 when a user you refer purchases any premium Wix plan, including website, business, or e-commerce subscriptions.' },
@@ -551,10 +551,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '200% first month',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'E-commerce platform with enterprise opportunities',
     faq: [
       { question: 'How much is the average commission?', answer: 'Standard plans range $29-$299/month, so 200% of first month means $58-$598 per referral, with $1,500 bonuses for enterprise.' },
@@ -586,10 +586,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20% per sale',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'WordPress e-commerce with extension ecosystem',
     faq: [
       { question: 'What products earn commission?', answer: 'You earn 20% on WooCommerce extensions, themes, WooCommerce Payments, and WooCommerce-branded hosting products.' },
@@ -621,10 +621,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Varies by product',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'European e-commerce platform with modules',
     faq: [
       { question: 'Where is PrestaShop most popular?', answer: 'PrestaShop has strong market share in Europe, particularly France, Spain, and Italy, with growing presence in Latin America.' },
@@ -656,10 +656,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '40% per sale',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: '40% on high-ticket cart platform lifetime deals',
     faq: [
       { question: 'How much can I earn per sale?', answer: 'ThriveCart licenses typically sell for $495-$690, meaning you earn $198-$276 per referral at 40% commission.' },
@@ -691,10 +691,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '40% recurring',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: '40% recurring on course creator checkout platform',
     faq: [
       { question: 'How long do I earn commissions?', answer: 'You earn 40% recurring commission for the entire lifetime of each customer subscription you refer.' },
@@ -726,10 +726,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% recurring',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Marketing scarcity tool with recurring commissions',
     faq: [
       { question: 'What does Deadline Funnel do?', answer: 'It creates authentic, personalized countdown timers for marketing campaigns to create urgency without fake scarcity.' },
@@ -761,10 +761,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '40% recurring',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Automated webinar platform with 40% recurring',
     faq: [
       { question: 'What are EverWebinar commissions?', answer: 'Plans start at $499/year or $83/month, earning you approximately $200/year or $33/month per customer at 40%.' },
@@ -796,10 +796,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '40% recurring',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Live webinar platform with generous recurring pay',
     faq: [
       { question: 'How much can I earn?', answer: 'WebinarJam plans range from $499-$999/year, earning you $200-$400 per year per customer at 40% commission.' },
@@ -831,10 +831,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% recurring',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Modern webinar platform with lifetime commissions',
     faq: [
       { question: 'How much are typical commissions?', answer: 'Demio plans range from $59-$234/month, earning you $17.70-$70.20 per month per customer at 30%.' },
@@ -866,10 +866,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Viral async video tool for remote teams',
     faq: [
       { question: 'What are the commission rates?', answer: 'Loom does not publicly disclose affiliate commission rates. Approved affiliates receive program details in their partner portal.' },
@@ -901,10 +901,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '25% recurring',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Innovative editing tool for creator economy',
     faq: [
       { question: 'What is Descript\'s unique feature?', answer: 'Descript allows editing audio and video by editing the transcript text, making it much faster for podcasters and video creators.' },
@@ -936,10 +936,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$36 per Pro sale',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Global design platform with easy conversions',
     faq: [
       { question: 'Is this recurring?', answer: 'No, Canva pays a one-time $36 commission per Canva Pro or Teams subscription, not recurring monthly payments.' },
@@ -971,10 +971,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed',
       'Cookie Duration': 'N/A'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Design industry leader with partner network',
     faq: [
       { question: 'Is this a traditional affiliate program?', answer: 'No, Figma\'s partner program focuses on agencies, consultants, and educators rather than traditional affiliate marketers.' },
@@ -1006,10 +1006,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '85% of first month',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Industry-standard creative software commissions',
     faq: [
       { question: 'How much can I earn per referral?', answer: 'Creative Cloud plans range from $9.99-$79.99/month, earning you $8.49-$67.99 per referral (85% of first month only).' },
@@ -1041,10 +1041,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% recurring + marketplace',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Creative marketplace with subscription and products',
     faq: [
       { question: 'What products earn commission?', answer: 'You earn 30% on Envato Elements subscriptions ($16.50/month) and varying rates on ThemeForest, CodeCanyon, and marketplace purchases.' },
@@ -1076,10 +1076,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '50% per sale',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Popular Divi builder with 50% commissions',
     faq: [
       { question: 'How much can I earn?', answer: 'Elegant Themes pricing is $89/year or $249 lifetime, earning you $44.50 or $124.50 per sale at 50% commission.' },
@@ -1111,10 +1111,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '50% per sale',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Leading WordPress builder with 50% payouts',
     faq: [
       { question: 'What are typical earnings?', answer: 'Elementor Pro ranges from $59-$999/year, earning you $29.50-$499.50 per sale at 50% commission.' },
@@ -1146,10 +1146,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '50% per sale',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Visual WordPress builder with generous splits',
     faq: [
       { question: 'Is Divi the same as Elegant Themes?', answer: 'Yes, Divi is the flagship product from Elegant Themes. The affiliate program covers all Elegant Themes products including Divi.' },
@@ -1181,10 +1181,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '25% per sale',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Developer-friendly builder with quality focus',
     faq: [
       { question: 'How does Beaver Builder compare?', answer: 'Beaver Builder is known for clean, standards-compliant code making it popular with developers and agencies focused on performance.' },
@@ -1216,10 +1216,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '25% per sale',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Performance-focused builder for developers',
     faq: [
       { question: 'What makes Oxygen different?', answer: 'Oxygen focuses on performance by replacing the WordPress theme entirely, generating minimal code for faster page loads.' },
@@ -1251,10 +1251,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$50-125 + revenue share',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Managed cloud hosting with hybrid commissions',
     faq: [
       { question: 'How does the hybrid model work?', answer: 'You earn a one-time payment of $50-125 per customer plus 7% revenue share for up to 90 days depending on performance tier.' },
@@ -1286,10 +1286,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$50-500 + 10% recurring',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium WordPress hosting with enterprise payouts',
     faq: [
       { question: 'How much can I earn per referral?', answer: 'Standard plans earn $50-100 one-time plus 10% monthly recurring. Enterprise plans can earn up to $500 plus ongoing commission.' },
@@ -1321,10 +1321,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$300 per referral',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Designer-focused hosting with flat payouts',
     faq: [
       { question: 'Is this recurring?', answer: 'No, Flywheel pays a one-time $300 commission per qualified referral, not ongoing recurring payments.' },
@@ -1356,10 +1356,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$50-100 per sale',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'WordPress-recommended hosting with volume bonuses',
     faq: [
       { question: 'How do volume bonuses work?', answer: 'Start at $50 per sale, increasing to $75 at 6-10 sales/month and $100 at 11+ sales per month.' },
@@ -1391,10 +1391,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$85-140 per sale',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Speed-focused hosting with competitive payouts',
     faq: [
       { question: 'What are Turbo servers?', answer: 'A2 Hosting\'s Turbo servers use LiteSpeed, HTTP/2, and caching technology for up to 20x faster page loads than standard hosting.' },
@@ -1426,10 +1426,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '150% of first month',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise hosting with 150% first month payouts',
     faq: [
       { question: 'How much are typical commissions?', answer: 'VPS hosting starts at $25/month (earning $37.50), while dedicated servers range $100-500/month (earning $150-750 per sale).' },
@@ -1461,10 +1461,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$15-100 per sale',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Domain and hosting with tiered commissions',
     faq: [
       { question: 'What are the commission rates?', answer: 'Earn $15-30 per domain/SSL, $50-70 per shared hosting, and up to $100 per server/VPS sale depending on volume tier.' },
@@ -1496,10 +1496,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '10-20% per sale',
       'Cookie Duration': '45 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Industry giant with massive brand recognition',
     faq: [
       { question: 'What are typical earnings?', answer: 'Commissions range from $1-2 per domain registration to $10-30 for hosting plans depending on the product and current promotions.' },
@@ -1531,10 +1531,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '$2-15 per domain',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Privacy-focused domains with simple interface',
     faq: [
       { question: 'What makes Hover different?', answer: 'Hover focuses on simplicity and privacy with no upsells, clean interface, and free WHOIS privacy included with every domain.' },
@@ -1566,10 +1566,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20% per sale',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Transparent domain pricing with 20% commission',
     faq: [
       { question: 'How much can I earn per domain?', answer: 'With .com domains at $10.98, you earn about $2.20 per registration. Premium extensions earn more at 20%.' },
@@ -1601,10 +1601,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Varies by partnership',
       'Cookie Duration': 'N/A'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'CDN and security leader with partner network',
     faq: [
       { question: 'Is this a traditional affiliate program?', answer: 'No, Cloudflare focuses on agency, reseller, and technology partnerships rather than individual affiliate marketers.' },
@@ -1636,10 +1636,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% recurring',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Website security with lifetime recurring income',
     faq: [
       { question: 'What does Sucuri offer?', answer: 'Sucuri provides website firewalls, malware scanning, hack cleanup, and security monitoring primarily for WordPress sites.' },
@@ -1671,10 +1671,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% recurring',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'WordPress security with automated cleanup',
     faq: [
       { question: 'How is MalCare different?', answer: 'MalCare offers one-click automated malware removal without manual intervention, faster than traditional security plugins.' },
@@ -1706,10 +1706,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20% per sale',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Leading WordPress security with 4M+ sites',
     faq: [
       { question: 'What are typical commissions?', answer: 'Wordfence Premium is $119/year for 1 site, earning you $23.80 per sale. Multi-site licenses earn proportionally more.' },
@@ -1741,10 +1741,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20% per sale',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium WordPress forms with developer trust',
     faq: [
       { question: 'How much can I earn?', answer: 'Gravity Forms licenses range from $59-$259/year, earning you $11.80-$51.80 per sale at 20% commission.' },
@@ -1776,10 +1776,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20% recurring',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Beginner-friendly forms with recurring income',
     faq: [
       { question: 'Is this recurring?', answer: 'Yes, you earn 20% recurring commission on annual renewals for the lifetime of each customer subscription.' },
@@ -1811,10 +1811,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '25% per sale',
       'Cookie Duration': '60 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Advanced forms with application builder features',
     faq: [
       { question: 'What makes Formidable different?', answer: 'Formidable Forms offers advanced features like front-end data display (Views) and can build complete applications within WordPress.' },
@@ -1846,10 +1846,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed',
       'Cookie Duration': 'Varies'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Conversational forms with unique engagement',
     faq: [
       { question: 'What is conversational form design?', answer: 'Typeform shows one question at a time in a full-screen, beautiful interface that feels like a conversation, boosting completion rates.' },
@@ -1881,10 +1881,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% per sale',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Established form builder with 30% commissions',
     faq: [
       { question: 'How much can I earn?', answer: 'Jotform pricing ranges from $34-$99/month, earning you $10.20-$29.70 per month per customer at 30%.' },
@@ -1916,10 +1916,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Scheduling automation with viral growth',
     faq: [
       { question: 'What are commission rates?', answer: 'Calendly does not publicly disclose affiliate commission rates. Approved affiliates receive program details in their dashboard.' },
@@ -1951,10 +1951,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '30% recurring',
       'Cookie Duration': '45 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Service business scheduling with recurring pay',
     faq: [
       { question: 'How much can I earn?', answer: 'Acuity plans range from $16-$61/month, earning you $4.80-$18.30 per month per customer at 30% recurring.' },
@@ -1986,10 +1986,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': '20% recurring',
       'Cookie Duration': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Creative business CRM with lifetime recurring',
     faq: [
       { question: 'Who uses Dubsado?', answer: 'Dubsado is popular with photographers, designers, consultants, and other service-based creative entrepreneurs.' },
@@ -2021,10 +2021,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed',
       'Cookie Duration': 'Varies'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Creative business platform with partner program',
     faq: [
       { question: 'Is this a traditional affiliate program?', answer: 'HoneyBook operates a partner program focused on educators and influencers in the creative business space rather than traditional affiliates.' },
@@ -2056,10 +2056,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Varies by product',
       'Cookie Duration': '90 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Customer engagement suite for SMBs',
     faq: [
       { question: 'What products does Freshworks offer?', answer: 'Freshworks includes Freshdesk (support), Freshsales (CRM), Freshchat (messaging), and other customer engagement tools.' },
@@ -2091,10 +2091,10 @@ export const companiesBatchC3: Company[] = [
       'Commission Rate': 'Undisclosed',
       'Cookie Duration': 'N/A'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium customer messaging with partnerships',
     faq: [
       { question: 'Is this a traditional affiliate program?', answer: 'No, Intercom focuses on solution partners, technology partners, and agency partnerships rather than individual affiliate marketers.' },

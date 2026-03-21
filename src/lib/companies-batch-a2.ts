@@ -40,10 +40,10 @@ export const companiesBatchA2: Company[] = [
       'Cookie Duration': '90 days',
       'Minimum Payout': '$100'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'WordPress-recommended hosting affiliate with high payouts',
     faq: [
       { question: 'How much does Bluehost pay affiliates?', answer: 'Bluehost pays $65 per qualified referral at base level, scaling up to $130+ for high-volume affiliates. Payouts are one-time per customer acquisition, not recurring.' },
@@ -90,10 +90,10 @@ export const companiesBatchA2: Company[] = [
       'Bonus': '$50 for each sub-affiliate referral',
       'Includes': 'StudioPress/Genesis theme sales ($35)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium managed WordPress hosting with $200+ affiliate payouts',
     faq: [
       { question: 'How much do WP Engine affiliates earn?', answer: 'WP Engine pays a minimum of $200 per referral or 100% of the customer\'s first monthly payment, whichever is greater. Enterprise plans can earn $500+. StudioPress theme referrals earn an additional $35.' },
@@ -140,10 +140,10 @@ export const companiesBatchA2: Company[] = [
       'Cookie Duration': '30 days',
       'Countries': '178'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Budget hosting affiliate with 60% commissions and global reach',
     faq: [
       { question: 'How much can you earn with Hostinger affiliates?', answer: 'Hostinger pays up to 60% commission on hosting sales. Due to budget pricing (plans from $2.99/mo), actual payouts are lower per sale than premium hosts, but high conversion rates can compensate for volume-focused affiliates.' },
@@ -190,10 +190,10 @@ export const companiesBatchA2: Company[] = [
       'Cookie Duration': '120 days',
       'Plans': '$139-499+/month'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Industry-leading SEO tool with 40% recurring affiliate commissions',
     faq: [
       { question: 'How much do Semrush affiliates earn?', answer: 'Semrush pays 40% recurring commission on all subscription payments. With plans ranging $139-499/month, affiliates can earn $55-200/month per active referral indefinitely.' },
@@ -240,10 +240,10 @@ export const companiesBatchA2: Company[] = [
       'Cookie Duration': '30 days',
       'Funding': '$125M+ raised'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Leading AI writing tool with 30% recurring affiliate commissions',
     faq: [
       { question: 'How much do Jasper affiliates earn?', answer: 'Jasper pays 30% recurring commission on subscription payments. With plans starting at $49/month, affiliates can earn $15+/month per active referral for as long as the customer remains subscribed.' },
@@ -290,10 +290,10 @@ export const companiesBatchA2: Company[] = [
       'Plans': '$89-299/month',
       'Focus': 'Content optimization and on-page SEO'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Content optimization tool with 25% recurring affiliate commissions',
     faq: [
       { question: 'How much do Surfer SEO affiliates earn?', answer: 'Surfer pays 25% recurring commission on all subscription payments. With plans ranging $89-299/month, affiliates earn $22-75/month per active referral for the customer\'s lifetime.' },
@@ -340,10 +340,10 @@ export const companiesBatchA2: Company[] = [
       'Cookie Duration': '90 days',
       'Plans': 'Free to $249/month'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Course creation platform with 30% recurring affiliate commissions',
     faq: [
       { question: 'How much do Teachable affiliates earn?', answer: 'Teachable pays 30% recurring commission on paid plans for up to 12 months. With plans ranging from $59-249/month, affiliates can earn $18-75/month per referral for one year.' },
@@ -390,10 +390,10 @@ export const companiesBatchA2: Company[] = [
       'Cookie Duration': '90 days',
       'Plans': 'Free to $199/month'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Course platform with 30% lifetime recurring commissions',
     faq: [
       { question: 'How much do Thinkific affiliates earn?', answer: 'Thinkific pays 30% recurring commission for the customer\'s lifetime. With plans up to $199/month, affiliates can earn up to $60/month per active referral indefinitely.' },
@@ -440,10 +440,10 @@ export const companiesBatchA2: Company[] = [
       'Plans': '$149-399/month',
       'Payout': 'Monthly via PayPal'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium all-in-one creator platform with 30% lifetime commissions',
     faq: [
       { question: 'How much do Kajabi affiliates earn?', answer: 'Kajabi pays 30% recurring lifetime commission. With plans at $149, $199, and $399/month, affiliates earn $45-120/month per active referral for as long as they remain a customer.' },
@@ -490,10 +490,10 @@ export const companiesBatchA2: Company[] = [
       'Cookie Duration': '30 days',
       'Plans': 'Free to $99/month'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Newsletter platform with 50% affiliate commissions for 12 months',
     faq: [
       { question: 'How much do Beehiiv affiliates earn?', answer: 'Beehiiv pays 50% recurring commission for 12 months. With paid plans up to $99/month, affiliates can earn up to $50/month per referral for one year.' },
@@ -540,10 +540,10 @@ export const companiesBatchA2: Company[] = [
       'Managed Plans': '$11-199/month',
       'Open Source': 'Yes — free self-hosting available'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Popular newsletter platform with NO affiliate program',
     faq: [
       { question: 'Does Ghost have an affiliate program?', answer: 'No — Ghost is a non-profit foundation and does not offer an affiliate or referral program. This is a frequent question from affiliates who want to recommend the platform but cannot earn from it.' },
@@ -590,10 +590,10 @@ export const companiesBatchA2: Company[] = [
       'Ko-fi Gold': '$6/month or $54/year',
       'Model': 'Donations, memberships, digital products'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Zero-fee creator donation platform — alternative to Patreon',
     faq: [
       { question: 'Does Ko-fi have an affiliate program?', answer: 'Ko-fi does not offer a traditional affiliate program. It is a creator monetization platform rather than a product/service for affiliates to promote for commissions.' },
@@ -640,10 +640,10 @@ export const companiesBatchA2: Company[] = [
       'Products': 'Ebooks, courses, software, art, memberships',
       'Affiliate Feature': 'Creators can set up their own programs'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Simple digital product sales with 10% platform fee',
     faq: [
       { question: 'Does Gumroad have an affiliate program?', answer: 'Gumroad does not offer a platform affiliate program where you earn for referring creators. However, individual Gumroad creators can set up their own affiliate programs for their products, which affiliates can join.' },
@@ -690,10 +690,10 @@ export const companiesBatchA2: Company[] = [
       'Integrations': 'Shopify, Etsy, WooCommerce, etc.',
       'Products': 'T-shirts, hoodies, mugs, posters, etc.'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Print-on-demand affiliate with 10% commission for 12 months',
     faq: [
       { question: 'How much do Printful affiliates earn?', answer: 'Printful pays 10% of referred customers\' order totals for their first 12 months. If a customer orders $500 in products over a year, you earn $50. Active POD sellers can generate meaningful recurring income.' },
@@ -740,10 +740,10 @@ export const companiesBatchA2: Company[] = [
       'Artist Model': 'Upload designs, earn royalties',
       'Default Margin': 'Artists choose (typically 15-25%)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'POD marketplace for artists — upload designs, earn royalties',
     faq: [
       { question: 'Does Redbubble have an affiliate program?', answer: 'No — Redbubble does not offer an affiliate program. It is an artist marketplace where creators upload designs and earn royalties, not a platform that pays for referrals.' },

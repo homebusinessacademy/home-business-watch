@@ -27,10 +27,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Landing pages'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Earn recurring commissions promoting landing page software',
     faq: [
       { question: 'How much can I earn per sale?', answer: 'You earn 30% recurring commissions on all customer payments, which typically ranges from $11-$74+ per month depending on the plan.' },
@@ -63,10 +63,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Impact'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Lifetime 20% commissions on AI landing page software',
     faq: [
       { question: 'What is the commission structure?', answer: '20% recurring commission on all monthly or annual plan payments for the lifetime of the customer.' },
@@ -99,10 +99,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Landing pages'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Earn 30% promoting enterprise landing page software',
     faq: [
       { question: 'How long do I earn commissions?', answer: 'You earn 30% recurring commissions for the first 12 months of each customer subscription.' },
@@ -135,10 +135,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '60 days',
       'Platform': 'AMP landing pages'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Promote fast-loading AMP landing pages with 30% recurring',
     faq: [
       { question: 'What makes Swipe Pages different?', answer: 'They specialize in AMP (Accelerated Mobile Pages) technology for ultra-fast mobile landing pages.' },
@@ -171,10 +171,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Agency CRM'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Earn 40% recurring on all-in-one agency platform',
     faq: [
       { question: 'How much can I earn per referral?', answer: 'With plans at $97-$297/month, you can earn $39-$119+ monthly recurring per customer.' },
@@ -207,10 +207,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Free Plan': 'Yes'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Massive 60% recurring commissions on all-in-one platform',
     faq: [
       { question: 'Why is the commission rate so high?', answer: 'Systeme.io focuses on volume and word-of-mouth growth, offering industry-leading 60% recurring commissions.' },
@@ -243,10 +243,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Creator tools'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Promote simple course platform with 30% lifetime recurring',
     faq: [
       { question: 'What makes Podia attractive to customers?', answer: 'Zero transaction fees on all plans, unlimited products, and simple all-in-one platform for creators.' },
@@ -279,10 +279,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Community'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Earn 30% recurring on modern community platform',
     faq: [
       { question: 'What is Circle.so best for?', answer: 'Creators and businesses building engaged communities with courses, events, and discussion forums in one place.' },
@@ -315,10 +315,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Community + Apps'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Promote community platform with native apps',
     faq: [
       { question: 'How long do commissions last?', answer: 'You earn 30% recurring commissions for the first 12 months of each customer subscription.' },
@@ -351,10 +351,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '60 days',
       'Platform': 'Community'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'White-label community software with 20% recurring',
     faq: [
       { question: 'What is the commission structure?', answer: '20% recurring commission for the lifetime of each customer on all paid plans.' },
@@ -387,10 +387,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Membership'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'WordPress membership software with 30% commissions',
     faq: [
       { question: 'How does Memberful pricing work?', answer: 'Free to start with 10% transaction fee, or $25/month for 4.9% fee plus premium features.' },
@@ -423,10 +423,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'WordPress'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Popular WordPress membership plugin affiliate program',
     faq: [
       { question: 'Is this recurring commission?', answer: 'No, you earn 30% on initial sale only. Renewals are not commissioned.' },
@@ -459,10 +459,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '60 days',
       'Platform': 'WordPress'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Free WordPress membership plugin with paid add-ons',
     faq: [
       { question: 'What do you earn commission on?', answer: '20% recurring commission on Plus membership ($297/year) and add-on purchases.' },
@@ -495,10 +495,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'WordPress'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Established WordPress membership solution affiliate',
     faq: [
       { question: 'What are the commission details?', answer: 'Earn 30% one-time commission on sales. No commission on annual renewals.' },
@@ -531,10 +531,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'WordPress'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium WordPress course plugin with 30% recurring',
     faq: [
       { question: 'What makes AccessAlly premium?', answer: 'Advanced automation, gamification, customer journey mapping, and white-glove support for course creators.' },
@@ -567,10 +567,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '60 days',
       'Platform': 'WordPress LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'WordPress LMS plugin affiliate program',
     faq: [
       { question: 'What products earn commission?', answer: 'All purchases including bundles, add-ons, and annual subscriptions earn 20% one-time commission.' },
@@ -603,10 +603,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'WordPress LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Leading WordPress LMS with 30% commissions',
     faq: [
       { question: 'Why is LearnDash popular?', answer: 'Most trusted WordPress LMS used by Fortune 500s, with robust features and excellent support.' },
@@ -639,10 +639,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '60 days',
       'Platform': 'WordPress LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Modern WordPress LMS affiliate program',
     faq: [
       { question: 'What is the commission structure?', answer: 'Earn 25% one-time commission on all Tutor LMS Pro purchases and renewals.' },
@@ -675,10 +675,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'WordPress'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'WooCommerce-powered course plugin affiliate',
     faq: [
       { question: 'What makes Sensei different?', answer: 'Built by WooCommerce team for seamless integration between courses and eCommerce.' },
@@ -711,10 +711,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Enterprise LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise LMS for associations with 20% recurring',
     faq: [
       { question: 'Who is the ideal customer?', answer: 'Professional associations, certification bodies, and compliance training organizations.' },
@@ -747,10 +747,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Course hosting'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Simple course platform with 30% lifetime recurring',
     faq: [
       { question: 'What makes Ruzuku unique?', answer: 'Focus on live cohort-based courses with high completion rates and personal instructor support.' },
@@ -783,10 +783,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'All-in-one'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'All-in-one creator platform with 25% recurring',
     faq: [
       { question: 'What does Simplero include?', answer: 'Courses, memberships, email marketing, automation, website builder, CRM, and payment processing.' },
@@ -819,10 +819,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'All-in-one'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'New all-in-one platform with massive 50% recurring',
     faq: [
       { question: 'Why such high commissions?', answer: 'As a newer platform, New Zenler invests heavily in affiliate marketing for growth and word-of-mouth.' },
@@ -855,10 +855,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Gamified courses'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Gamified course platform with 40% lifetime recurring',
     faq: [
       { question: 'What makes Xperiencify different?', answer: 'Uses game mechanics and behavioral psychology to achieve 10x higher course completion rates.' },
@@ -891,10 +891,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'LMS + Authoring'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Modern LMS with course authoring and 20% recurring',
     faq: [
       { question: 'Who uses Coassemble?', answer: 'Corporate training teams, L&D departments, and businesses creating internal training programs.' },
@@ -927,10 +927,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Cloud LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Simple cloud LMS with 30% recurring commissions',
     faq: [
       { question: 'What is the ideal customer?', answer: 'Small to medium businesses, training companies, and HR teams needing employee training solutions.' },
@@ -963,10 +963,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Enterprise LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise AI learning platform affiliate program',
     faq: [
       { question: 'What are commission rates?', answer: 'Enterprise affiliate commissions are typically negotiated based on deal size and partnership level.' },
@@ -999,10 +999,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Enterprise LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise LMS partner program with high values',
     faq: [
       { question: 'How does the partner program work?', answer: 'Referral and reseller partnerships available with custom commission structures for enterprise deals.' },
@@ -1035,10 +1035,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Corporate LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'SAP-owned corporate LMS partner program',
     faq: [
       { question: 'What is the partner program?', answer: 'Referral and reseller partnerships for corporate training solutions with commission structures by deal.' },
@@ -1071,10 +1071,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Authoring + LMS'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'PowerPoint-based course authoring with 25% recurring',
     faq: [
       { question: 'What makes iSpring unique?', answer: 'Convert PowerPoint presentations into interactive eLearning courses with quizzes and tracking.' },
@@ -1107,10 +1107,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Authoring tools'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Industry-leading eLearning authoring tool partner',
     faq: [
       { question: 'Does Articulate have an affiliate program?', answer: 'They have a partner program for resellers and solution providers, not traditional affiliate marketing.' },
@@ -1143,10 +1143,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '45 days',
       'Platform': 'Impact'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Popular screen recording software affiliate program',
     faq: [
       { question: 'What products are included?', answer: 'Camtasia, Snagit, and other TechSmith products earn 20% commission on purchases.' },
@@ -1179,10 +1179,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '60 days',
       'Platform': 'Mac only'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium Mac screen recording with 25% commissions',
     faq: [
       { question: 'What is the commission structure?', answer: '25% one-time commission on ScreenFlow purchases and upgrades.' },
@@ -1215,10 +1215,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Podcast/Video'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Studio-quality podcast recording with 30% recurring',
     faq: [
       { question: 'What makes Riverside different?', answer: 'Records locally on each participant\'s device for studio-quality 4K video and 48kHz audio, even with poor internet.' },
@@ -1251,10 +1251,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Multi-streaming'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Multi-stream to 30+ platforms with 25% recurring',
     faq: [
       { question: 'What is multi-streaming?', answer: 'Broadcast your live stream simultaneously to multiple platforms like YouTube, Facebook, Twitch, LinkedIn, etc.' },
@@ -1287,10 +1287,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Browser streaming'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Browser-based live streaming with 25% recurring',
     faq: [
       { question: 'Why is StreamYard popular?', answer: 'Works entirely in browser with no downloads, making it incredibly easy for guests to join your stream.' },
@@ -1323,10 +1323,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Mac only'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium Mac live streaming with 30% commissions',
     faq: [
       { question: 'What is the pricing model?', answer: 'One-time purchase at $169, or monthly subscription at $20/month ($240/year).' },
@@ -1359,10 +1359,10 @@ export const companiesBatchC6: Company[] = [
       'Cost': 'Free',
       'Platform': 'Cross-platform'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Free open-source streaming software (no affiliate)',
     faq: [
       { question: 'Can I earn from promoting OBS?', answer: 'No direct commissions, but you can monetize tutorials, courses, or services around OBS Studio.' },
@@ -1395,10 +1395,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '60 days',
       'Platform': 'Professional'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Professional broadcast software affiliate program',
     faq: [
       { question: 'What are Wirecast prices?', answer: 'Wirecast Studio at $599 and Wirecast Pro at $799 for perpetual licenses.' },
@@ -1431,10 +1431,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Windows'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Affordable professional live production software',
     faq: [
       { question: 'What are vMix editions?', answer: 'Free Basic, HD $60, 4K $350, Pro $700, and Max $1,200 with increasing capabilities.' },
@@ -1467,10 +1467,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Webinar'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Webinar platform with 20% lifetime recurring',
     faq: [
       { question: 'What makes Crowdcast different?', answer: 'Focus on engagement and simplicity - attendees join in browser without downloads or complicated setup.' },
@@ -1503,10 +1503,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Virtual events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Leading virtual event platform partner program',
     faq: [
       { question: 'Does Hopin have an affiliate program?', answer: 'They have a partner program for agencies and consultants, not traditional affiliate marketing.' },
@@ -1539,10 +1539,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Virtual events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Virtual events with networking tables and 15% recurring',
     faq: [
       { question: 'What makes Airmeet unique?', answer: 'Social lounge and networking tables that recreate the hallway conversations of in-person events.' },
@@ -1575,10 +1575,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Virtual events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Interactive virtual events with visual tables',
     faq: [
       { question: 'How does Remo work?', answer: 'Visual floor plan with tables where attendees can move around, sit at tables, and have video conversations.' },
@@ -1611,10 +1611,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Virtual spaces'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Gamified virtual office with 15% recurring',
     faq: [
       { question: 'What is Gather.town?', answer: 'Create 2D video game-like virtual spaces where proximity video chat activates as you walk near others.' },
@@ -1647,10 +1647,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Virtual events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Spatial audio virtual events with 20% recurring',
     faq: [
       { question: 'What is spatial audio?', answer: 'Audio volume and direction changes based on distance and position, creating natural conversation dynamics.' },
@@ -1683,10 +1683,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Video calling'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Modern video calls with less fatigue and 20% recurring',
     faq: [
       { question: 'What makes Around different?', answer: 'Floating video bubbles, echo cancellation, auto-framing, and design specifically to reduce video call fatigue.' },
@@ -1719,10 +1719,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Events + Calendar'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Beautiful event pages with 20% recurring',
     faq: [
       { question: 'What is Luma best for?', answer: 'Community events, workshops, meetups, and speaker series with gorgeous event pages and calendar.' },
@@ -1755,10 +1755,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '30 days',
       'Platform': 'Impact'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Major event ticketing platform affiliate program',
     faq: [
       { question: 'How does commission work?', answer: 'Earn 10% of Eventbrite\'s service fees (not ticket price), so earnings vary by event pricing and volume.' },
@@ -1791,10 +1791,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Event marketing'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise event marketing partner program',
     faq: [
       { question: 'Does Splash have affiliates?', answer: 'They have a partner program for agencies and event planners, not traditional affiliate marketing.' },
@@ -1827,10 +1827,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Enterprise events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise event platform partner program',
     faq: [
       { question: 'What is the partner program?', answer: 'Referral and reseller partnerships for enterprise event management with custom commission structures.' },
@@ -1863,10 +1863,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Enterprise'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Enterprise event leader partner program',
     faq: [
       { question: 'Does Cvent have affiliates?', answer: 'Partner program for resellers and solution providers, not traditional affiliate marketing.' },
@@ -1899,10 +1899,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Conference + App'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Conference app platform with 15% recurring',
     faq: [
       { question: 'Who uses Whova?', answer: 'Conference organizers, associations, and event planners for attendee engagement and mobile apps.' },
@@ -1935,10 +1935,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Corporate events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Corporate event platform partner program',
     faq: [
       { question: 'What is the partner program?', answer: 'Referral partnerships for agencies and planners managing corporate events and conferences.' },
@@ -1971,10 +1971,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Hybrid events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Hybrid event platform partner program',
     faq: [
       { question: 'Does Hubilo have affiliates?', answer: 'Partner program for event agencies and planners, not traditional affiliate commissions.' },
@@ -2007,10 +2007,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Hybrid events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Hybrid event platform with 20% recurring',
     faq: [
       { question: 'What makes Accelevents different?', answer: 'Comprehensive all-in-one platform for registration, mobile apps, virtual event, and sponsor management.' },
@@ -2043,10 +2043,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Webinars + Events'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Webinar platform with 30% lifetime recurring',
     faq: [
       { question: 'What makes BigMarker stand out?', answer: 'Combines live webinars, automated evergreen webinars, virtual conferences, and custom branding in one platform.' },
@@ -2079,10 +2079,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'GoTo/LogMeIn'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Established enterprise webinar partner program',
     faq: [
       { question: 'Does GoToWebinar have affiliates?', answer: 'Partner program for resellers and agencies, not traditional affiliate marketing structure.' },
@@ -2115,10 +2115,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': '90 days',
       'Platform': 'Browser webinar'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Browser webinar platform with 30% lifetime recurring',
     faq: [
       { question: 'Why choose Livestorm?', answer: 'Completely browser-based with no downloads, making it frictionless for attendees to join webinars.' },
@@ -2151,10 +2151,10 @@ export const companiesBatchC6: Company[] = [
       'Cookie Duration': 'Varies',
       'Platform': 'Cisco enterprise'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Cisco enterprise collaboration partner program',
     faq: [
       { question: 'Does Webex have affiliates?', answer: 'Partner program for resellers and solution providers, not traditional affiliate marketing.' },

@@ -39,10 +39,10 @@ export const companiesBatchA3: Company[] = [
       'Success Rate': 'Estimated 10-20% of stores become profitable',
       'Key Challenge': 'Paid advertising costs often exceed margins'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Sell products online without holding inventory',
     faq: [
       { question: 'Is dropshipping still profitable in 2025?', answer: 'Dropshipping can be profitable but is increasingly difficult. Rising ad costs, competition from Amazon, and customer expectations for fast shipping have squeezed margins. Success requires finding untapped niches, building a real brand, or exceptional marketing skills.' },
@@ -89,10 +89,10 @@ export const companiesBatchA3: Company[] = [
       'Affiliate Commissions': '1-4% via eBay Partner Network',
       'Business Model': 'Auction and fixed-price marketplace'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The original online auction and marketplace',
     faq: [
       { question: 'Is selling on eBay still worth it?', answer: 'eBay remains viable for specific niches: collectibles, vintage items, used electronics, parts, and unique goods. It\'s less competitive than Amazon for commodity products. Success depends on finding items others overlook and providing excellent service.' },
@@ -139,10 +139,10 @@ export const companiesBatchA3: Company[] = [
       'Products Available': '1,000+ customizable items',
       'Payment Threshold': '$50 minimum payout'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Print-on-demand marketplace for designers',
     faq: [
       { question: 'How much can you make on Zazzle?', answer: 'Most Zazzle designers earn very little — often under $100/year. Successful designers with hundreds of quality designs in popular niches report $500-2,000/month. A small percentage earn $5,000+/month, but this requires thousands of designs and strong SEO.' },
@@ -189,10 +189,10 @@ export const companiesBatchA3: Company[] = [
       'Parent Company': 'Leaf Group (media company)',
       'Payment': 'Monthly, PayPal, $1 minimum'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Artist marketplace for art prints and home decor',
     faq: [
       { question: 'How much do Society6 artists make?', answer: 'Most artists earn very little on Society6 alone. Royalties of $1-5 per product sale mean you need high volume to earn meaningful income. Artists report typical earnings of $50-200/month unless they have large followings driving external traffic.' },
@@ -239,10 +239,10 @@ export const companiesBatchA3: Company[] = [
       'Payment': 'PayPal, $20 minimum',
       'Categories': 'Fonts, graphics, templates, themes, photos'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium marketplace for design assets',
     faq: [
       { question: 'How much can you make on Creative Market?', answer: 'Top sellers report $5,000-20,000+/month, but these are established designers with extensive catalogs. New sellers typically earn $100-500/month in the first year. Success requires a significant library of high-quality, in-demand design assets.' },
@@ -289,10 +289,10 @@ export const companiesBatchA3: Company[] = [
       'Categories': 'Developers, designers, finance, project managers',
       'Screening Process': '3-5 weeks (technical + soft skills)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Exclusive network for top 3% of freelance talent',
     faq: [
       { question: 'How hard is it to get into Toptal?', answer: 'Very hard. The process includes: initial screening, technical assessment, live technical interview, and a test project. Claims suggest only 3% of applicants pass. Strong experience at top companies or demonstrated expertise significantly helps.' },
@@ -339,10 +339,10 @@ export const companiesBatchA3: Company[] = [
       'Owned By': 'Vista (Vistaprint parent company)',
       'Designer Levels': 'Entry, Mid, Top — affects visibility'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Design contest and freelance platform',
     faq: [
       { question: 'Can you make money on 99designs?', answer: 'Some designers do, but it\'s challenging. Contest winners earn $200-2,000+ per logo contest, but most submissions win nothing. Top-level designers with strong portfolios can earn $2,000-5,000/month through 1-to-1 projects, but building to that level takes time.' },
@@ -389,10 +389,10 @@ export const companiesBatchA3: Company[] = [
       'Payment Protection': 'WorkStream escrow system',
       'Focus': 'UK/European freelance market'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'UK-based freelance marketplace',
     faq: [
       { question: 'How much can you earn on PeoplePerHour?', answer: 'Earnings vary widely by skill and experience. Web developers and designers typically charge £30-100/hour. Writers and virtual assistants earn £15-50/hour. Top freelancers report earning £3,000-10,000/month, but this requires consistent client acquisition.' },
@@ -439,10 +439,10 @@ export const companiesBatchA3: Company[] = [
       'Payment': 'SafePay escrow system',
       'Categories': 'Programming, design, writing, admin, finance'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Veteran freelance marketplace since 1998',
     faq: [
       { question: 'Is Guru.com legit?', answer: 'Yes, Guru has operated since 1998 and is a legitimate freelance platform. The SafePay escrow system protects payments. However, like all freelance platforms, watch out for scam job postings and clients who try to move communication off-platform.' },
@@ -489,10 +489,10 @@ export const companiesBatchA3: Company[] = [
       'Availability': '60+ cities (US, Canada, UK, Europe)',
       'Common Tasks': 'Assembly, moving, cleaning, handyman'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Local gig platform for tasks and errands',
     faq: [
       { question: 'How much do TaskRabbit Taskers make?', answer: 'Taskers set their own rates, typically $20-50/hour for general tasks, $50-100+/hour for skilled work like electrical or plumbing. After the 15% fee, full-time Taskers report earning $500-2,000/week depending on city, skills, and availability.' },
@@ -539,10 +539,10 @@ export const companiesBatchA3: Company[] = [
       'Services': 'Boarding, sitting, walking, drop-ins, day care',
       'Merged With': 'DogVacay (2017)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Pet sitting and dog walking marketplace',
     faq: [
       { question: 'How much do Rover sitters make?', answer: 'Rates vary by city and service. Dog boarding averages $25-50/night, dog walking $15-30/walk. After Rover\'s 15-20% fee, active sitters report earning $1,000-3,000/month part-time. Full-time sitters in busy markets can earn $4,000-6,000/month.' },
@@ -589,10 +589,10 @@ export const companiesBatchA3: Company[] = [
       'Owned By': 'IAC (since 2020)',
       'Categories': 'Child care, senior care, pet care, housekeeping, tutoring'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Marketplace for family care services',
     faq: [
       { question: 'How much do Care.com caregivers earn?', answer: 'Rates vary significantly by location and care type. Babysitters typically earn $15-25/hour, nannies $18-35/hour, senior caregivers $15-30/hour. Rates are negotiated directly with families. Big city rates are higher; rural areas lower.' },
@@ -639,10 +639,10 @@ export const companiesBatchA3: Company[] = [
       'Schedule': 'Flexible, on-demand or reservations',
       'Platform': 'Video chat tutoring'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Online English tutoring for conversation practice',
     faq: [
       { question: 'Is Cambly worth it for tutors?', answer: 'At $10.20/hour, Cambly pays well below minimum wage in most developed countries. It can work as pocket money for flexible hours, but it\'s not sustainable as primary income. Consider it supplemental income or for those in lower cost-of-living areas.' },

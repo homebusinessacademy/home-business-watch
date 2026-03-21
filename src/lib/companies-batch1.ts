@@ -49,10 +49,10 @@ export const companiesBatch1: Company[] = [
       'Commission Earners': 'Only 12.68% earned any commission',
       'Average Annual Earnings': '$1,416 for active distributors (before expenses)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'NYSE-traded skincare MLM: 85% of distributors earn $0 in commissions',
     faq: [
       { question: 'Is Nu Skin a pyramid scheme?', answer: 'Nu Skin paid a $47 million settlement to the FTC in 1997 over pyramid scheme allegations but was not shut down. It operates as a legal MLM today. However, income disclosure data shows 84.58% of distributors failed to qualify for any commission, with heavy emphasis on recruitment over retail sales.' },
@@ -111,10 +111,10 @@ export const companiesBatch1: Company[] = [
       'New Licenses (Q4 2024)': '14,620 (up 12% YoY)',
       'Products': 'Term life insurance, mutual funds, annuities'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'NYSE-traded insurance MLM with 151,000+ licensed reps and $3B revenue',
     faq: [
       { question: 'Is Primerica a legitimate company?', answer: 'Primerica is a legitimate, publicly traded (NYSE: PRI) insurance company with $3.09 billion in 2024 revenue. It sells real, regulated financial products. However, its MLM recruitment model means many representatives spend money on licensing and training but earn very little, while top recruiters benefit most.' },
@@ -172,10 +172,10 @@ export const companiesBatch1: Company[] = [
       'Annual Cost to Stay Active': '~$1,000 USD',
       'Famous For': 'Pink Cadillac car reward program'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Iconic pink cosmetics MLM where 88% of consultants earn zero commissions',
     faq: [
       { question: 'Is Mary Kay worth it?', answer: 'Mary Kay income disclosure (Canada 2024) shows approximately 88% of consultants earned zero commissions. Of the 12% eligible for commissions, the average was just $211/year — but it costs nearly $1,000/year to remain active. This means the typical consultant loses roughly $850 annually.' },
@@ -233,10 +233,10 @@ export const companiesBatch1: Company[] = [
       'Commission Range': '20-50% depending on tier',
       'Income Disclosure': 'Not published'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The 138-year-old door-to-door beauty company now owned by Natura &Co',
     faq: [
       { question: 'Is selling Avon worth it in 2026?', answer: 'Avon is free to join with low risk, but the brand has struggled with declining relevance. Industry surveys suggest typical reps earn $50-150/month in commissions. Without an official income disclosure, actual earnings are unverified. Competition from online beauty retailers has intensified.' },
@@ -294,10 +294,10 @@ export const companiesBatch1: Company[] = [
       'Top Earners': 'Leadership ranks (1% of members) earn meaningful income',
       'Mid-Level Earnings': 'Elite/Premier (4% of members) avg $3,950-$9,950/yr'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium essential oils MLM where 50% of distributors earn nothing',
     faq: [
       { question: 'Is doTERRA a pyramid scheme?', answer: 'doTERRA is a legitimate MLM company, not a pyramid scheme. However, income disclosure shows 50.35% of U.S. distributors earned $0, and less than 1% made over $860/year. The FTC sent a warning letter in 2019 regarding exaggerated income and health claims made by the company and its Wellness Advocates.' },
@@ -355,10 +355,10 @@ export const companiesBatch1: Company[] = [
       'Quality Standard': 'Seed to Seal (owns farms)',
       'Founder': 'Gary Young (deceased 2018)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The original essential oils MLM: 89% of builders earn median $4/year',
     faq: [
       { question: 'Is Young Living legit?', answer: 'Young Living is a legitimate company selling real essential oil products with its Seed to Seal quality standard. However, the FTC issued a warning letter in 2020 for COVID-19 treatment claims. Income disclosures show 89% of business builders earned a median of $4/year, making it a poor income opportunity for most.' },
@@ -417,10 +417,10 @@ export const companiesBatch1: Company[] = [
       'DSSRC Action': 'Recommended income claim modifications (Feb 2025)',
       'Products': 'Vegan/plant-based wellness, skincare, nutrition'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Vegan wellness MLM with 2009 bankruptcy history: 88% of consultants earn $0',
     faq: [
       { question: 'Did Arbonne go bankrupt?', answer: 'Yes — Arbonne filed for Chapter 11 bankruptcy in 2009 with $600+ million in debt. The company was restructured under new ownership and has operated successfully since, but this history raises questions about long-term stability and the financial viability of its MLM model.' },
@@ -478,10 +478,10 @@ export const companiesBatch1: Company[] = [
       'Ongoing Scrutiny': 'Florida AG compliance agreement',
       'Product Controversies': 'Hair loss and scalp damage lawsuits'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Controversial haircare MLM: $17.4M hair loss settlement, 41% earn nothing',
     faq: [
       { question: 'Does MONAT cause hair loss?', answer: 'Hundreds of lawsuits alleged MONAT products caused hair loss, scalp irritation, balding, and damage. MONAT settled a class action lawsuit for $17.4 million in 2021 without admitting wrongdoing. Former president\'s lawsuit alleged co-founders insisted on improperly changing formulas ignoring warnings from the chief science officer.' },
@@ -539,10 +539,10 @@ export const companiesBatch1: Company[] = [
       'Company Statement': '"Most Associates will not achieve meaningful success"',
       'DSSRC': 'Compliance inquiry conducted (2025)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Nutritional cleansing MLM: company admits most won\'t achieve meaningful success',
     faq: [
       { question: 'Is Isagenix a pyramid scheme?', answer: 'Isagenix is a legal MLM company, not a pyramid scheme. However, the company explicitly states that "most Associates will not achieve a meaningful level of success" even with significant time, effort, and personal funds. The binary compensation plan requires building two equal "legs" which most find very difficult.' },
@@ -600,10 +600,10 @@ export const companiesBatch1: Company[] = [
       'Status': 'Not accepting new Brand Consultants',
       'Founders': 'Dr. Katie Rodan & Dr. Kathy Fields (Proactiv)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Dermatologist-created skincare company that abandoned MLM for affiliate model in 2024',
     faq: [
       { question: 'Did Rodan + Fields leave MLM?', answer: 'Yes. As of September 1, 2024, Rodan + Fields transitioned from its multi-level marketing structure to an affiliate-powered direct-to-consumer model. Brand Consultants now earn a flat 30% commission with no recruitment requirements. The company is not accepting new Brand Consultants, suggesting a more selective approach.' },
@@ -661,10 +661,10 @@ export const companiesBatch1: Company[] = [
       'Peak Size': '80,000+ consultants (2017)',
       'Leadership Plan Participation': 'Only 9.63%'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Fashion MLM that paid $4.75M pyramid scheme settlement — exposed in "LuLaRich"',
     faq: [
       { question: 'What happened to LuLaRoe?', answer: 'LuLaRoe peaked around 2017 with 80,000+ consultants then collapsed amid lawsuits, inventory quality issues, and the 2021 Amazon Prime documentary "LuLaRich" exposing deceptive practices. The company paid $4.75 million to settle Washington State AG\'s pyramid scheme lawsuit and continues operating at a fraction of peak size.' },
@@ -723,10 +723,10 @@ export const companiesBatch1: Company[] = [
       'DSSRC': '9 posts removed (2025 compliance)',
       'Autoship Required': 'Monthly purchase to earn commissions'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The Pink Drink gut health MLM: FTC warnings and $742/year average earnings',
     faq: [
       { question: 'Does Plexus Slim actually work?', answer: 'Plexus Slim contains fiber and chromium, which have some scientific support for blood sugar support. However, the dramatic weight loss claims made by many Ambassadors are not supported by clinical evidence. The FTC has issued warning letters over exaggerated health claims. Products are not FDA-evaluated.' },
@@ -785,10 +785,10 @@ export const companiesBatch1: Company[] = [
       'TINA.org': 'FTC complaint filed — 5,500+ deceptive income claims',
       'Monthly Requirement': '2 case credits (~$100-250)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Global aloe vera MLM: 89% earn nothing despite $2.3B revenue',
     faq: [
       { question: 'Is Forever Living a legitimate company?', answer: 'Forever Living is a legitimate, long-established MLM company that genuinely owns aloe vera farms with 45+ years of history. However, income disclosure shows 89% of distributors earn nothing. TINA.org filed an FTC complaint documenting 5,500+ deceptive income claims made by the company and distributors.' },
@@ -847,10 +847,10 @@ export const companiesBatch1: Company[] = [
       'Certification': 'NSF Certified for Sport',
       'Monthly Requirement': '~100+ PV ($100-300)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'NYSE-traded supplement MLM: 34% lose money, 72% of commissions to top 2.3%',
     faq: [
       { question: 'Is USANA FDA approved?', answer: 'USANA manufactures supplements in an FDA-registered facility meeting pharmaceutical standards. The supplements themselves are not FDA-approved (dietary supplements generally are not), but USANA has NSF Certified for Sport certification for many products, meaning they\'re tested for banned substances.' },
@@ -909,10 +909,10 @@ export const companiesBatch1: Company[] = [
       'Products': 'Wickless candles, wax warmers, home fragrance',
       'Compensation Plan': 'Updated April 1, 2025'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Home fragrance direct sales with genuinely popular wickless products',
     faq: [
       { question: 'Is Scentsy worth joining as a consultant?', answer: 'Scentsy has genuinely popular products with real customer demand, unlike many MLMs. Commissions of 20-36% on personal sales are reasonable. The $99 starter kit and no monthly fees make it lower-risk. However, the market is saturated with consultants, and most earn supplemental rather than full-time income.' },
@@ -972,10 +972,10 @@ export const companiesBatch1: Company[] = [
       'Conference 2024': '$359 ticket (plus travel/lodging)',
       'Total Consultants (Canada)': '3,077 (Dec 2024)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Berkshire Hathaway-owned kitchen tools company with cooking show sales model',
     faq: [
       { question: 'Is Pampered Chef a good company to work for?', answer: 'Pampered Chef has genuine quality products, a reputable parent company (Berkshire Hathaway since 2002), and a fun cooking show-based sales model. Canadian 2024 disclosure shows typical Active Consultants earn $0-262/year. The U.S. does not require income disclosure, so American earnings are unverified.' },
@@ -1032,10 +1032,10 @@ export const companiesBatch1: Company[] = [
       'New Entity': '"The New Tupperware Co." (private)',
       'E-commerce Launch': 'February 2021 (too late)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Iconic brand filed bankruptcy in 2024 — sold to lenders for $23.5 million',
     faq: [
       { question: 'Did Tupperware go bankrupt?', answer: 'Yes. Tupperware Brands filed for Chapter 11 bankruptcy on September 17, 2024 with $1.2+ billion in debt and only $679.5 million in assets. The company acknowledged its direct-sales model strengths "had begun to turn into weaknesses" and it was "absurdly late to the e-commerce game."' },
@@ -1093,10 +1093,10 @@ export const companiesBatch1: Company[] = [
       'Income Statistics': 'Published annually',
       'Product Availability': 'Only through members (not retail)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Wellness membership company that strongly insists it is NOT an MLM',
     faq: [
       { question: 'Is Melaleuca an MLM?', answer: 'Melaleuca strongly insists it is not an MLM. Unlike traditional MLMs, members earn commissions by referring customers who buy for personal use — there is no emphasis on building recruitment chains. It operates more like a membership club. However, critics note the commission structure has MLM-like elements.' },
@@ -1155,10 +1155,10 @@ export const companiesBatch1: Company[] = [
       'Monthly Requirement': '~100 LP ($100-300)',
       'DSSRC': 'Compliance inquiry conducted (2026)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Transfer Factor immune supplements MLM: 80% of distributors earn nothing',
     faq: [
       { question: 'What makes 4Life products unique?', answer: '4Life holds patents on Transfer Factor technology — molecules extracted from cow colostrum and egg yolks that may support immune function. This is a genuinely unique product angle not widely replicated. However, health claims are not FDA-evaluated, and benefits are largely supported by company-funded research.' },
@@ -1217,10 +1217,10 @@ export const companiesBatch1: Company[] = [
       'DSSRC': '2025 inquiry over income claims',
       'Commission Start': '6% at 2,000 points/month'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Fruit and vegetable supplement MLM: 99.1% earn below minimum wage',
     faq: [
       { question: 'Is Juice Plus+ evidence-based?', answer: 'Juice Plus+ cites 30+ clinical studies. However, independent nutritionists note studies are industry-funded with limited independence. Eating actual fruits and vegetables provides equivalent or better nutrition at lower cost. The studies support some benefits but not the dramatic claims often made by partners.' },

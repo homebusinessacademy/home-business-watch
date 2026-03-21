@@ -26,10 +26,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Gourmet food mixes and seasonings'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Simple ingredients, simply delicious',
     faq: [
       { question: 'What is the startup cost for Tastefully Simple?', answer: 'Starter kits typically range from $99-$199 with product samples and business materials.' },
@@ -61,10 +61,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Premium chocolate and cocoa products'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Chocolate parties worth celebrating',
     faq: [
       { question: 'How much do consultants earn per party?', answer: 'Average party sales range from $200-$500 with 20-25% commission rates.' },
@@ -96,10 +96,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Vinyl wall expressions and home decor'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Express yourself on your walls',
     faq: [
       { question: 'What is the cost to join?', answer: 'Starter kits range from $99-$249 depending on the package selected.' },
@@ -131,10 +131,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Scrapbooking and memory preservation'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Preserve your memories beautifully',
     faq: [
       { question: 'Did Creative Memories go out of business?', answer: 'The company filed bankruptcy in 2013 but was purchased and relaunched in 2014, continuing operations today.' },
@@ -166,10 +166,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Scrapbooking and paper crafting supplies'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Celebrate relationships through scrapbooking',
     faq: [
       { question: 'What does it cost to become a consultant?', answer: 'New consultant kits start at around $99 with product samples and business tools.' },
@@ -201,10 +201,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Rubber stamps and card making supplies'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Create handmade cards with confidence',
     faq: [
       { question: 'How much does the Stampin\' Up starter kit cost?', answer: 'The starter kit costs $99 and includes $125 worth of products you choose, plus business supplies.' },
@@ -236,10 +236,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Candles and home fragrance'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Light up your home with fragrance',
     faq: [
       { question: 'How much can PartyLite consultants earn?', answer: 'Consultants earn 20-25% commission on sales, with higher rates for recruiting and team building.' },
@@ -271,10 +271,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Former party plan (now retail)',
       'Products': 'Scented candles and home fragrance'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'America\'s favorite candle - now retail only',
     faq: [
       { question: 'Can I still become a Yankee Candle consultant?', answer: 'No, Yankee Candle discontinued their direct sales consultant program and now sells through retail stores and their website.' },
@@ -306,10 +306,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate marketing (retail)',
       'Products': 'Body care and home fragrance'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Affiliate program for America\'s fragrance favorite',
     faq: [
       { question: 'How does the Bath & Body Works affiliate program work?', answer: 'Affiliates share links to products and earn a small commission (1-4%) on qualifying purchases made through their links.' },
@@ -341,10 +341,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Personal safety and self-defense'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Equip, Empower, Educate women in self-defense',
     faq: [
       { question: 'What is the cost to join Damsel in Defense?', answer: 'Starter kits range from $99-$299 with product samples and business materials.' },
@@ -376,10 +376,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (defunct 2016)',
       'Products': 'Adult romance and intimacy products'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former romance party plan company',
     faq: [
       { question: 'Is Passion Parties still in business?', answer: 'No, Passion Parties ceased operations in 2016 after 22 years in business.' },
@@ -411,10 +411,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (defunct)',
       'Products': 'Romance and intimacy products'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former romance party company',
     faq: [
       { question: 'Can I still join Slumber Parties?', answer: 'No, Slumber Parties merged with Pure Romance and the Slumber Parties brand was discontinued.' },
@@ -446,10 +446,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Home organization and storage'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Organize your life with clever solutions',
     faq: [
       { question: 'How much does it cost to start?', answer: 'Starter kits range from $99-$249 with product samples and party supplies.' },
@@ -481,10 +481,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Healthy meal solutions and spices'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Good food made easy and healthy',
     faq: [
       { question: 'Is Epicure available in the United States?', answer: 'Yes, Epicure expanded to the US market, though the company is based in Canada.' },
@@ -516,10 +516,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Crystal, glassware, and kitchenware'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Quality crystal and kitchenware since 1963',
     faq: [
       { question: 'Does Princess House still exist?', answer: 'Yes, Princess House continues to operate with a focus on the Hispanic market in the United States.' },
@@ -551,10 +551,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (ceased 2018)',
       'Products': 'Handcrafted baskets and home decor'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former American basket company',
     faq: [
       { question: 'Is Longaberger still in business?', answer: 'The direct sales operation ceased in 2018. There have been attempts to revive the brand, but the original party plan model is defunct.' },
@@ -586,10 +586,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (ceased 2012)',
       'Products': 'Southern-style home decor'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former Southern-style home decor company',
     faq: [
       { question: 'What happened to Southern Living At Home?', answer: 'The company ceased operations in 2012 due to declining sales and the challenging direct sales market.' },
@@ -621,10 +621,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Swarovski crystal jewelry'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Swarovski crystal jewelry for everyone',
     faq: [
       { question: 'Is Touchstone Crystal the same as Swarovski?', answer: 'Touchstone Crystal is the official direct sales division of Swarovski, offering exclusive designs at accessible price points.' },
@@ -656,10 +656,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Educational toys and games'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Play and learn together',
     faq: [
       { question: 'How much does it cost to become a Discovery Toys consultant?', answer: 'Starter kits range from $99-$199 with toy samples and business materials.' },
@@ -691,10 +691,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Children\'s educational books'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Quality children\'s books for every age',
     faq: [
       { question: 'What commission do Usborne consultants earn?', answer: 'Consultants earn 25% commission on sales, with opportunities for additional bonuses.' },
@@ -726,10 +726,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan/retail hybrid',
       'Products': 'Educational books and materials'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Educational resources for growing minds',
     faq: [
       { question: 'Is Learning Tree a direct sales company?', answer: 'Some Learning Tree educational stores operated party plan models, though structures varied by location and franchise.' },
@@ -761,10 +761,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Franchise retail (not MLM)',
       'Products': 'Children\'s resale clothing and items'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Buy and sell kids\' stuff',
     faq: [
       { question: 'Can I work from home with Once Upon A Child?', answer: 'No, this is a brick-and-mortar franchise requiring a retail location, not a home-based business or MLM.' },
@@ -796,10 +796,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Franchise retail (not MLM)',
       'Products': 'Children\'s resale items'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The smarter way to buy and sell kids\' stuff',
     faq: [
       { question: 'Is Kid to Kid an MLM?', answer: 'No, Kid to Kid is a traditional franchise business requiring a retail storefront, not a multi-level marketing or party plan company.' },
@@ -831,10 +831,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Microfiber and eco-friendly cleaning'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Clean without chemicals',
     faq: [
       { question: 'Is Norwex really chemical-free?', answer: 'Norwex microfiber products clean with water only, though some products do contain chemicals. The BacLock antibacterial claims have been questioned.' },
@@ -866,10 +866,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (ceased 2017)',
       'Products': 'Natural beauty and skincare'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former party plan division of The Body Shop',
     faq: [
       { question: 'Can I still become a Body Shop At Home consultant?', answer: 'No, The Body Shop closed their direct sales division in 2017 to focus on retail stores and online sales.' },
@@ -901,10 +901,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (defunct ~2020)',
       'Products': 'All-natural food products'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former all-natural food company',
     faq: [
       { question: 'Is Wildtree still in business?', answer: 'No, Wildtree ceased operations around 2020 and is no longer accepting new representatives or orders.' },
@@ -936,10 +936,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (defunct ~2018)',
       'Products': 'Tools and home repair items'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former women-focused tool company',
     faq: [
       { question: 'What happened to Tomboy Tools?', answer: 'Tomboy Tools ceased operations around 2018 due to market challenges and limited scalability.' },
@@ -971,10 +971,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Licensing/consulting franchise',
       'Products': 'Marketing consulting and training'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Marketing system for small business consultants',
     faq: [
       { question: 'Is Duct Tape Marketing an MLM?', answer: 'No, it\'s a professional licensing and certification program for marketing consultants, not a multi-level marketing company.' },
@@ -1006,10 +1006,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (ceased 2013)',
       'Products': 'Home decor and garden accessories'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former home decor party plan company',
     faq: [
       { question: 'Is Home & Garden Party still around?', answer: 'No, Home & Garden Party ceased operations in 2013 after 17 years in business.' },
@@ -1041,10 +1041,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Gourmet food mixes and seasonings'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Easy gourmet cooking from two sisters',
     faq: [
       { question: 'Is Two Sisters Gourmet still in business?', answer: 'The company appears to have limited operations or may have scaled back significantly in recent years.' },
@@ -1076,10 +1076,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan (defunct ~2012)',
       'Products': 'Gourmet food mixes'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Former gourmet food mix company',
     faq: [
       { question: 'What happened to Homemade Gourmet?', answer: 'Homemade Gourmet ceased operations around 2012 due to market competition and business challenges.' },
@@ -1111,10 +1111,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (not MLM)',
       'Products': 'Organic foods and superfoods'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Organic whole foods and ingredients',
     faq: [
       { question: 'Is Wildly Organic an MLM?', answer: 'No, Wildly Organic operates primarily as a retail company with a standard affiliate program, not multi-level marketing.' },
@@ -1146,10 +1146,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Photo books and digital scrapbooking'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Preserve your heritage in beautiful books',
     faq: [
       { question: 'How is Heritage Makers different from Shutterfly?', answer: 'Heritage Makers uses a consultant model with personal service and design help, while Shutterfly is direct-to-consumer online only.' },
@@ -1181,10 +1181,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Party plan direct sales',
       'Products': 'Multicultural children\'s books'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Books that open children\'s hearts and minds',
     faq: [
       { question: 'How much do Barefoot Books ambassadors earn?', answer: 'Ambassadors earn 20-25% commission on sales, with additional bonuses for team building.' },
@@ -1216,10 +1216,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Retail (former party plan)',
       'Products': 'Custom stationery and invitations'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Custom stationery beautifully designed',
     faq: [
       { question: 'Does Paper Coterie still have independent consultants?', answer: 'The company has shifted primarily to direct-to-consumer retail sales through their website.' },
@@ -1251,10 +1251,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate (software)',
       'Products': 'Recipe management software'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Organize your recipes digitally',
     faq: [
       { question: 'Is Cook\'n an MLM?', answer: 'No, Cook\'n is recipe software with a standard affiliate program for promoters.' },
@@ -1286,10 +1286,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Direct sales and fundraising',
       'Products': 'American-made cutlery'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'American-made cutlery since 1948',
     faq: [
       { question: 'Is Rada Cutlery an MLM?', answer: 'No, Rada operates primarily as a fundraising program and direct sales, without multi-level recruiting structures.' },
@@ -1321,10 +1321,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'In-home demonstration sales',
       'Products': 'Premium stainless cookware'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium American cookware since 1945',
     faq: [
       { question: 'Is Regal Ware worth the price?', answer: 'Regal Ware offers quality cookware with lifetime warranty, but similar quality is available at lower prices from retail brands.' },
@@ -1356,10 +1356,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'In-home demonstration MLM',
       'Products': 'Premium stainless cookware'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium waterless cookware',
     faq: [
       { question: 'Is Saladmaster an MLM?', answer: 'Yes, Saladmaster uses multi-level marketing with recruiting and team building in addition to direct sales.' },
@@ -1391,10 +1391,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Door-to-door direct sales',
       'Products': 'Premium vacuum cleaners'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium vacuum systems since 1914',
     faq: [
       { question: 'Are Kirby vacuums worth the price?', answer: 'While durable, Kirby vacuums are significantly overpriced compared to retail alternatives. The high cost covers commission structure, not superior value.' },
@@ -1426,10 +1426,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'In-home demonstration sales',
       'Products': 'Water-filtration vacuum systems'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Water-based vacuum cleaning system',
     faq: [
       { question: 'Is Rainbow vacuum an MLM?', answer: 'Rainbow uses direct sales with in-home demonstrations and has MLM elements with recruiting and team building.' },
@@ -1461,10 +1461,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'In-home demonstration sales',
       'Products': 'HEPA vacuum and air purifiers'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'HEPA filtration since 1928',
     faq: [
       { question: 'Is Filter Queen worth the money?', answer: 'While the product has quality filtration, similar HEPA performance is available at much lower prices through retail brands.' },
@@ -1496,10 +1496,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Direct sales demonstrations',
       'Products': 'All-in-one cooking appliance'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The ultimate all-in-one kitchen machine',
     faq: [
       { question: 'Is Thermomix worth $1,500?', answer: 'Thermomix is a quality product but very expensive. Similar multi-cookers are available at much lower prices, though build quality may differ.' },
@@ -1531,10 +1531,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Direct sales demonstrations',
       'Products': 'Premium home appliances'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'German premium home appliances',
     faq: [
       { question: 'What products does Vorwerk sell?', answer: 'Vorwerk\'s direct sales division primarily sells Thermomix cooking systems and Kobold vacuum cleaners in various markets.' },
@@ -1566,10 +1566,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Premium French cookware'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Iconic French cookware affiliate program',
     faq: [
       { question: 'How does Le Creuset affiliate program work?', answer: 'Affiliates share product links and earn a small commission (typically 3-5%) on qualifying purchases.' },
@@ -1601,10 +1601,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'American cast iron cookware'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'American cast iron since 1896',
     faq: [
       { question: 'Can I earn money promoting Lodge?', answer: 'Yes, through their affiliate program you earn a commission on sales generated through your links.' },
@@ -1636,10 +1636,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Kitchen and cooking supplies'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Kitchen supplies affiliate program',
     faq: [
       { question: 'How much can I earn as a Sur La Table affiliate?', answer: 'Affiliates earn a small percentage commission (2-4%) on sales generated through their referral links.' },
@@ -1671,10 +1671,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Premium cookware and home goods'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Premium kitchen and home affiliate',
     faq: [
       { question: 'How does the affiliate program work?', answer: 'Share Williams Sonoma product links and earn a commission (typically 3-5%) on qualifying purchases.' },
@@ -1706,10 +1706,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Modern home furnishings'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Modern home goods affiliate',
     faq: [
       { question: 'Can I make money with Crate & Barrel affiliate?', answer: 'Yes, through standard affiliate commissions on sales, though rates are modest (2-4%).' },
@@ -1741,10 +1741,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Home furnishings and decor'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Classic home furnishings affiliate',
     faq: [
       { question: 'How much do Pottery Barn affiliates earn?', answer: 'Affiliates earn a percentage commission on sales, typically in the 2-4% range.' },
@@ -1776,10 +1776,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Retail (bankrupt 2023)',
       'Products': 'Home goods and housewares'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Home goods retailer (restructuring)',
     faq: [
       { question: 'Is Bed Bath & Beyond still in business?', answer: 'The company filed for bankruptcy in 2023. Some stores closed, and the brand was acquired. Current status and affiliate programs are uncertain.' },
@@ -1811,10 +1811,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (e-commerce)',
       'Products': 'Online furniture and home goods'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Home goods e-commerce affiliate',
     faq: [
       { question: 'What commission does Wayfair pay affiliates?', answer: 'Wayfair typically pays 1-3% commission on qualifying purchases, varying by product category.' },
@@ -1846,10 +1846,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (e-commerce)',
       'Products': 'Discount home goods and furniture'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Discount home goods online',
     faq: [
       { question: 'How much do Overstock affiliates earn?', answer: 'Commission rates are typically 1-2% on qualifying sales, which is low but can add up with volume.' },
@@ -1881,10 +1881,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Home improvement and tools'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Home improvement retail affiliate',
     faq: [
       { question: 'Does Home Depot have an affiliate program?', answer: 'Yes, Home Depot partners with affiliate networks to offer commission on online purchases driven by affiliates.' },
@@ -1916,10 +1916,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Home improvement and appliances'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Home improvement affiliate program',
     faq: [
       { question: 'How does Lowe\'s affiliate program work?', answer: 'Affiliates promote Lowe\'s products through links and earn a commission (1-3%) on qualifying online purchases.' },
@@ -1951,10 +1951,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Hardware and home repair'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The helpful hardware place affiliate',
     faq: [
       { question: 'Does Ace Hardware have affiliate marketing?', answer: 'Yes, Ace Hardware offers an affiliate program for promoting their online store products.' },
@@ -1986,10 +1986,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Hardware and home improvement'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Local hardware cooperative affiliate',
     faq: [
       { question: 'Is True Value still in business?', answer: 'Yes, True Value operates as a hardware cooperative, though it has faced financial challenges and store closures in recent years.' },
@@ -2021,10 +2021,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Discount tools and equipment'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Affordable tools for everyone',
     faq: [
       { question: 'Does Harbor Freight have affiliate marketing?', answer: 'Harbor Freight participates in affiliate networks, allowing content creators to earn commission on referred sales.' },
@@ -2056,10 +2056,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (retail)',
       'Products': 'Professional tools and equipment'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Professional tools and equipment',
     faq: [
       { question: 'Does Northern Tool have an affiliate program?', answer: 'Yes, Northern Tool offers affiliate partnerships through various affiliate networks.' },
@@ -2091,10 +2091,10 @@ export const companiesBatchC5: Company[] = [
       'Business Model': 'Affiliate program (B2B retail)',
       'Products': 'Industrial and MRO supplies'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Industrial supplies for businesses',
     faq: [
       { question: 'Is Grainger affiliate program available?', answer: 'Grainger may offer affiliate or referral partnerships, primarily targeting B2B industrial buyers rather than consumers.' },

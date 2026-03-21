@@ -39,10 +39,10 @@ export const companiesBatchB1: Company[] = [
       'Free Content': 'YouTube, podcasts, articles',
       'Paid Products': 'Courses, books, live events ($500-2,000+)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'MLM training platform with free content and paid events',
     faq: [
       { question: 'Is Network Marketing Pro an MLM?', answer: 'No — Network Marketing Pro is an education and training platform, not an MLM. You do not recruit others or buy products to resell. It teaches skills for people already in or considering network marketing businesses.' },
@@ -87,10 +87,10 @@ export const companiesBatchB1: Company[] = [
       'Free Content': '700+ podcast episodes',
       'Paid Products': 'Coaching, courses ($100-1,000+)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'MLM training podcast featuring top earner interviews',
     faq: [
       { question: 'Is MLM Nation an MLM company?', answer: 'No — MLM Nation is a podcast and training platform, not an MLM. Simon Chan interviews network marketing leaders and sells coaching/courses. You do not recruit or sell products through MLM Nation itself.' },
@@ -136,10 +136,10 @@ export const companiesBatchB1: Company[] = [
       'Typical Reward': '$1-10 per course',
       'Requirement': 'Coinbase account with KYC verification'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Free crypto rewards for learning about blockchain',
     faq: [
       { question: 'Is Coinbase Earn legitimate?', answer: 'Yes — Coinbase Earn is a legitimate program from Coinbase, a publicly traded company (NASDAQ: COIN). You watch educational videos and answer quizzes to earn small amounts of free cryptocurrency. No investment required.' },
@@ -185,10 +185,10 @@ export const companiesBatchB1: Company[] = [
       'Cookie Duration': 'Lifetime attribution',
       'US Availability': 'No — Binance.US is separate, limited affiliate program'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Crypto exchange affiliate with regulatory challenges',
     faq: [
       { question: 'Can US residents join the Binance affiliate program?', answer: 'No — Binance is not available to US residents due to regulatory restrictions. Binance.US is a separate entity with its own limited affiliate program. The SEC sued Binance in 2023 for alleged securities violations.' },
@@ -234,10 +234,10 @@ export const companiesBatchB1: Company[] = [
       'Security': 'Never been hacked',
       'Business Model': 'Affiliate revenue share'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'US-based crypto exchange affiliate with strong security record',
     faq: [
       { question: 'Is the Kraken affiliate program available in the US?', answer: 'Yes — unlike Binance, Kraken is a US-based exchange and its affiliate program is available to US residents. Kraken has generally maintained better regulatory standing than offshore competitors.' },
@@ -283,10 +283,10 @@ export const companiesBatchB1: Company[] = [
       'US Availability': 'No — exited US market',
       'Referral Bonus': '$25+ per qualified referral'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Crypto lending platform that exited US market after SEC settlement',
     faq: [
       { question: 'Is Nexo available in the US?', answer: 'No — Nexo withdrew from the US market after settling with the SEC for $45 million in January 2023. US residents cannot use Nexo\'s earn interest products. The platform remains available in other countries.' },
@@ -332,10 +332,10 @@ export const companiesBatchB1: Company[] = [
       'Typical Profit': '$3-8 per item',
       'Integrations': 'YouTube, TikTok, Twitch'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Free print-on-demand merch platform for creators',
     faq: [
       { question: 'Is Spring (Teespring) free to use?', answer: 'Yes — Spring is completely free. You design products, set your selling price above the base cost, and keep the profit margin. There are no monthly fees, listing fees, or upfront costs. Spring handles production and shipping.' },
@@ -381,10 +381,10 @@ export const companiesBatchB1: Company[] = [
       'Premium Plan': '$29/month (20% discount on products)',
       'Print Providers': '90+ globally'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Print-on-demand network with 90+ global providers',
     faq: [
       { question: 'Is Printify free to use?', answer: 'Yes — Printify has a free tier with no monthly fees. You pay product base costs when orders are placed. The Premium plan ($29/month) offers up to 20% discount on products, improving profit margins for active sellers.' },
@@ -430,10 +430,10 @@ export const companiesBatchB1: Company[] = [
       'Paid Plans': '$49-99/month',
       'Supplier Focus': 'US and EU based'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Dropshipping platform focused on US/EU suppliers',
     faq: [
       { question: 'Is Spocket better than AliExpress for dropshipping?', answer: 'Spocket offers faster shipping (US/EU suppliers vs China) and curated quality. However, product prices are higher, eating into margins. AliExpress has more products at lower prices but 2-4 week shipping times.' },
@@ -479,10 +479,10 @@ export const companiesBatchB1: Company[] = [
       'Suppliers': '8,000+ verified',
       'Additional Tools': 'SaleHoo Dropship ($27/mo)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Verified supplier directory for wholesale and dropshipping',
     faq: [
       { question: 'Is SaleHoo worth it for dropshipping?', answer: 'SaleHoo provides a curated directory of 8,000+ verified suppliers, saving research time. However, directory access alone doesn\'t guarantee success. The $67/year cost is reasonable if you actively use it for supplier research.' },
@@ -528,10 +528,10 @@ export const companiesBatchB1: Company[] = [
       'Pricing': '$24.99-249/month',
       'Free Trial': '30 days'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Dropshipping aggregator with mixed reviews and high fees',
     faq: [
       { question: 'Is Doba worth the monthly cost?', answer: 'Doba is expensive ($24-249/month) compared to free alternatives like DSers. The platform aggregates suppliers but recent reviews cite quality issues and poor support. Consider free alternatives before committing.' },
@@ -577,10 +577,10 @@ export const companiesBatchB1: Company[] = [
       'DSers Pricing': 'Free - $49/month',
       'Platforms': 'Shopify, WooCommerce, Wix'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Oberlo shut down 2022 — DSers continues as free replacement',
     faq: [
       { question: 'What happened to Oberlo?', answer: 'Oberlo officially shut down in June 2022. Shopify, which acquired Oberlo in 2017, recommended DSers as the official migration partner. Existing Oberlo users had to transfer their data to DSers or other dropshipping apps.' },
@@ -626,10 +626,10 @@ export const companiesBatchB1: Company[] = [
       'Tools Included': '50+',
       'Affiliate Model': 'Two-tier recurring commissions'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'All-in-one marketing platform with MLM-style affiliate program',
     faq: [
       { question: 'Is Builderall legitimate or a scam?', answer: 'Builderall is a legitimate marketing platform, not a scam. However, the aggressive two-tier affiliate program creates MLM-like dynamics where many promoters earn more from recruiting affiliates than using the tools. Many reviews are biased.' },
@@ -675,10 +675,10 @@ export const companiesBatchB1: Company[] = [
       'Pricing': 'Free - $299/month (or lifetime deals)',
       'Controversy': 'Changed terms from initial "free forever" promises'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Marketing platform with controversial history and ongoing bugs',
     faq: [
       { question: 'Is Groove.cm (GrooveFunnels) worth it?', answer: 'Groove.cm offers many features but has a troubled history. The platform launched with ambitious promises, but bugs and incomplete features persist. Early lifetime deal buyers got value, but current pricing may not justify the issues.' },
@@ -724,10 +724,10 @@ export const companiesBatchB1: Company[] = [
       'Pricing': '$119-549/month',
       'Affiliate': '40% recurring commissions'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Polished all-in-one marketing platform at premium pricing',
     faq: [
       { question: 'Is Kartra worth the price?', answer: 'Kartra consolidates many tools (pages, email, memberships, video, helpdesk) into one platform. At $119+/month, it\'s expensive but can replace multiple subscriptions. Worth it if you\'ll use most features; overkill for simple needs.' },

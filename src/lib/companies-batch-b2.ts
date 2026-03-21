@@ -39,10 +39,10 @@ export const companiesBatchB2: Company[] = [
       'Core Product': '$24.95/month legal services plan',
       'Parent Company': 'MidOcean Partners (private equity)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Prepaid legal services MLM since 1972',
     faq: [
       { question: 'Is LegalShield worth the money?', answer: 'For people who actually use legal services regularly, LegalShield can provide value — access to attorneys, document review, and will preparation for $24.95/month. However, most members underutilize the service, making it poor value for those who rarely need legal help.' },
@@ -88,10 +88,10 @@ export const companiesBatchB2: Company[] = [
       'Products': 'Life insurance, mortgage protection, annuities',
       'Licensing': 'State insurance license required'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Insurance agency MLM with high turnover',
     faq: [
       { question: 'Is Symmetry Financial Group legitimate?', answer: 'Symmetry Financial Group is a legitimate insurance marketing organization (IMO) that sells real insurance products. However, its business model emphasizes recruiting agents over selling insurance, leading to high turnover and poor outcomes for most recruits.' },
@@ -137,10 +137,10 @@ export const companiesBatchB2: Company[] = [
       'Products': 'Kitchen knives and cutlery',
       'Target Recruits': 'College students, young adults'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Knife company that recruits college students',
     faq: [
       { question: 'Is Vector Marketing a scam?', answer: 'Vector Marketing is not a scam — it sells legitimate, quality Cutco knives. However, the business model relies heavily on selling to friends and family, and income typically drops after exhausting personal networks. Vague recruiting tactics have drawn criticism.' },
@@ -186,10 +186,10 @@ export const companiesBatchB2: Company[] = [
       'Products': 'Educational books and software',
       'Program Length': '3-month summer commitment'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Summer book sales program since 1855',
     faq: [
       { question: 'Is Southwestern Advantage worth it?', answer: 'Southwestern can be valuable for highly motivated students seeking intense sales training and personal growth. Many successful executives credit the program for developing their skills. However, the grueling schedule (80+ hour weeks, relocation) and variable income make it unsuitable for most people.' },
@@ -234,10 +234,10 @@ export const companiesBatchB2: Company[] = [
       'Key Product': 'Skincerity breathable mask',
       'Market': 'Skincare and wellness'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Skincare MLM with Skincerity product line',
     faq: [
       { question: 'Is NuCerity a legitimate company?', answer: 'NuCerity is a legal MLM company selling skincare products. However, it has undergone multiple restructurings and provides limited transparency about distributor income. Most MLM participants earn minimal commissions.' },
@@ -282,10 +282,10 @@ export const companiesBatchB2: Company[] = [
       'FTC Action': 'Settlement over deceptive claims (2021)',
       'Products': 'Mangosteen juice, Moringa supplements'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Defunct superfruit MLM merged into Isagenix',
     faq: [
       { question: 'What happened to Xango and Zija?', answer: 'Xango and Zija merged in 2017, then Zija merged into Isagenix in 2020. In 2021, the FTC settled with Zija over deceptive health and income claims. The brands effectively no longer exist as independent companies.' },
@@ -331,10 +331,10 @@ export const companiesBatchB2: Company[] = [
       'Key Product': 'Body by Vi 90-day Challenge',
       'Status': 'Bankruptcy restructuring (2012)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Body by Vi MLM that collapsed after 2012 peak',
     faq: [
       { question: 'What happened to ViSalus?', answer: 'ViSalus peaked at $600 million in revenue in 2012 before collapsing. The company went through bankruptcy restructuring, and revenue fell to under $50 million. Class action lawsuits alleged false product and income claims.' },
@@ -379,10 +379,10 @@ export const companiesBatchB2: Company[] = [
       'Products': 'Freeze-dried emergency food, survival gear',
       'Starter Kit': '~$199-500'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Emergency food storage MLM for preppers',
     faq: [
       { question: 'Is NuManna food good quality?', answer: 'NuManna offers GMO-free emergency food products that receive generally positive reviews for taste and quality. However, similar quality products are available from non-MLM companies like Mountain House or Augason Farms at lower prices.' },
@@ -429,10 +429,10 @@ export const companiesBatchB2: Company[] = [
       'Current Model': 'Single-level affiliate (no MLM)',
       'Previous Endorsers': 'Drew Brees, various NFL players'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Sports nutrition MLM shut down by FTC in 2019',
     faq: [
       { question: 'What happened to AdvoCare?', answer: 'In 2019, the FTC charged AdvoCare with operating as a pyramid scheme and reached a $150 million settlement. The company was required to abandon its MLM structure and convert to single-level affiliate marketing. Top distributors paid $4 million in consumer redress.' },
@@ -478,10 +478,10 @@ export const companiesBatchB2: Company[] = [
       'Products': 'Physical greeting cards, gifts',
       'Monthly Subscription': '$20-60'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Greeting card MLM for relationship marketing',
     faq: [
       { question: 'Is SendOutCards worth it for personal use?', answer: 'SendOutCards can be valuable for users who send many cards for business relationship-building or personal occasions. However, the pricing is higher than alternatives, and casual users may find it more cost-effective to buy cards locally or use cheaper online services.' },
@@ -527,10 +527,10 @@ export const companiesBatchB2: Company[] = [
       'Manufacturing': 'Own facility in Arkansas',
       'Countries': '60+ worldwide'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Old-line supplement MLM since 1936',
     faq: [
       { question: 'Is Life Plus a legitimate company?', answer: 'Life Plus is a legitimate supplement company with a long history dating to 1936. It manufactures products in its own Arkansas facility. However, it operates as an MLM, and like most MLMs, most distributors likely earn minimal income.' },
@@ -575,10 +575,10 @@ export const companiesBatchB2: Company[] = [
       'Products': 'Wearable tech, health monitors',
       'Key Product': 'HELO health wristband'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Wearable tech MLM with cryptocurrency pivot',
     faq: [
       { question: 'Is WOR(l)D Global Network legitimate?', answer: 'WOR(l)D Global Network sells actual wearable technology products. However, the company has pivoted multiple times and integrated cryptocurrency, raising concerns about stability and focus. Most distributors likely earn minimal commissions.' },
@@ -625,10 +625,10 @@ export const companiesBatchB2: Company[] = [
       'Key Product': 'AGE Pill (anti-aging)',
       'Monthly Cost': '~$100-200'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Anti-aging MLM from former Neways founder',
     faq: [
       { question: 'Does the Sisel AGE Pill actually work?', answer: 'The AGE Pill is marketed as an anti-aging supplement, but claims lack independent clinical verification. While ingredients may have some benefits, the dramatic anti-aging claims made by distributors are not supported by peer-reviewed research.' },
@@ -674,10 +674,10 @@ export const companiesBatchB2: Company[] = [
       'Products': 'Financial services, supplements',
       'Monthly Cost': '~$50-150'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Financial services and supplements MLM hybrid',
     faq: [
       { question: 'What does Tranont sell?', answer: 'Tranont sells an unusual combination of financial services (life insurance, debt elimination, financial education) and health supplements (digestive enzymes, probiotics). This hybrid approach is uncommon in the MLM industry.' },
@@ -723,10 +723,10 @@ export const companiesBatchB2: Company[] = [
       'Membership Cost': '$795-2,195 (one-time)',
       'Value Proposition': 'Lifetime discount program access'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Membership discount program MLM with high upfront cost',
     faq: [
       { question: 'Is Team National worth the membership cost?', answer: 'Team National memberships cost $795-2,195 for lifetime access to discount programs. However, many similar discounts are available free through credit card rewards, AAA, Costco, or retailer loyalty programs. Most members may not recoup the membership cost through savings.' },

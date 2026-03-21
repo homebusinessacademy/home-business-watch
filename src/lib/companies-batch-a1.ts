@@ -39,10 +39,10 @@ export const companiesBatchA1: Company[] = [
       'Key Stat': '98.5% earn less than $100/month average',
       'Monthly Autoship': '~$60-150'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Hemp CBD MLM where most affiliates lose money',
     faq: [
       { question: 'Is HempWorx a pyramid scheme?', answer: 'HempWorx/My Daily Choice is a legal MLM, not technically a pyramid scheme. However, their own income disclosure shows 98.5% of affiliates earn less than $100/month on average, while average expenses are $1,608/year — meaning most participants lose money.' },
@@ -89,10 +89,10 @@ export const companiesBatchA1: Company[] = [
       '2024 Revenue': '$454.4 million',
       'Consultants': '500,000+ worldwide'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Publicly traded supplement MLM since 1972',
     faq: [
       { question: "Is Nature's Sunshine a legitimate company?", answer: "Nature's Sunshine is a legitimate, publicly traded company (NASDAQ: NATR) with over 50 years in business. As a public company, it has regulatory oversight and financial transparency. However, like all MLMs, most participants earn minimal income." },
@@ -138,10 +138,10 @@ export const companiesBatchA1: Company[] = [
       'Distributors': '~23,000 active',
       'DSSRC Action': 'Recommended discontinuing claims (Dec 2024)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Nutritional shake MLM facing regulatory scrutiny',
     faq: [
       { question: 'Is Reliv a good business opportunity?', answer: 'The DSSRC recommended in December 2024 that Reliv discontinue earnings and product performance claims made by salesforce members. Historical income disclosure showed average distributor payments of just $125. Most participants earn minimal income.' },
@@ -187,10 +187,10 @@ export const companiesBatchA1: Company[] = [
       'Legal Issues': 'Class action alleging pyramid scheme (2017-present)',
       'Startup Cost': '$449.95+ kit, $1,000+ total initial investment'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Complex UnFranchise MLM with significant legal issues',
     faq: [
       { question: 'Is Market America a pyramid scheme?', answer: 'Market America has faced a class action lawsuit since 2017 alleging it operates as a pyramid scheme where 90%+ of distributors lose money. The company denies these allegations, but the extremely complex compensation plan and high startup costs raise concerns.' },
@@ -237,10 +237,10 @@ export const companiesBatchA1: Company[] = [
       'Presence': '60+ countries',
       'Startup Cost': 'Free to join'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Global cosmetics MLM facing financial challenges',
     faq: [
       { question: 'Is Oriflame free to join?', answer: 'Yes, Oriflame is free to join with no starter kit purchase required. Consultants earn 20-26% commission on personal sales depending on their monthly sales volume. However, most consultants earn very little — estimates suggest average annual earnings under $500.' },
@@ -287,10 +287,10 @@ export const companiesBatchA1: Company[] = [
       'Products': 'Fruit/vegetable concentrate supplements',
       'Studies Claimed': '30+ published clinical studies'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Whole food supplement MLM citing 30+ studies',
     faq: [
       { question: 'Is Juice Plus+ evidence-based?', answer: 'Juice Plus+ cites 30+ clinical studies. However, independent nutritionists note these studies are largely industry-funded. Eating actual fruits and vegetables provides equivalent or better nutrition at lower cost.' },
@@ -336,10 +336,10 @@ export const companiesBatchA1: Company[] = [
       'Starter Kit': '~$129',
       'Key Stat': 'Average annual income $178 (2018)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Nail strip MLM where the same product sells cheaper at Walmart',
     faq: [
       { question: 'Is Color Street worth selling?', answer: 'Income disclosure shows the average Stylist earned just $178 annually (2018). After minimum expenses of ~$729/year, the average Stylist loses over $550. Only 0.34% made over $2,314/month.' },
@@ -386,10 +386,10 @@ export const companiesBatchA1: Company[] = [
       'Legal': 'WA State AG $1.9M settlement',
       'Starter Kit': '~$99'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: '$5 jewelry MLM that paid $1.9M to settle pyramid scheme allegations',
     faq: [
       { question: 'Is Paparazzi a pyramid scheme?', answer: 'Paparazzi paid $1.9 million to settle Washington State AG allegations of operating a pyramid scheme. The settlement reformed how Paparazzi can advertise and required full disclosure of typical consultant income. The company denies wrongdoing.' },
@@ -434,10 +434,10 @@ export const companiesBatchA1: Company[] = [
       'Acquisition Price': '$9.4 million',
       'Key Stat': '84.5% earned $11-31/month (2016)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Wellness drink MLM that went bankrupt in 2024',
     faq: [
       { question: 'What happened to Zurvita?', answer: 'Zurvita filed for Chapter 11 bankruptcy in December 2024 and was immediately acquired by Zinzino for $9.4 million. The company had struggled financially for years with declining distributor numbers.' },
@@ -484,10 +484,10 @@ export const companiesBatchA1: Company[] = [
       'Consultants': '30,000+',
       'Starter Kit': '~$169'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Adult intimacy products MLM where 83% earn nothing',
     faq: [
       { question: 'Is Pure Romance a pyramid scheme?', answer: 'Pure Romance has faced multiple lawsuits alleging pyramid scheme operations, though cases were settled out of court. The DSSRC recommended removing implied earnings claims. Analysis shows 83.45% of consultants earned nothing, with only 0.13% earning full-time income.' },
@@ -534,10 +534,10 @@ export const companiesBatchA1: Company[] = [
       '2024 Revenue': '$3 billion',
       'Income Disclosure': 'NOT PUBLISHED'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: '$3B supplement MLM with no income disclosure',
     faq: [
       { question: 'Does PM International publish an income disclosure?', answer: 'No — PM International does not publish an income disclosure statement. Multiple independent reviewers have highlighted this as a major transparency concern. Without income data, there is no way to know how many distributors actually profit.' },
@@ -584,10 +584,10 @@ export const companiesBatchA1: Company[] = [
       'Income': '75% earn nothing (2022 IDS)',
       'Startup Cost': '$45 Welcome Kit'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Glutathione supplement MLM where 75% earn nothing',
     faq: [
       { question: 'Does Immunotec work?', answer: 'Immunocal is based on legitimate glutathione research by Dr. Gustavo Bounous. The product may support glutathione levels, though health claims are not FDA-evaluated. However, similar supplements are available at lower prices outside the MLM structure.' },
@@ -633,10 +633,10 @@ export const companiesBatchA1: Company[] = [
       'Presence': '150+ countries',
       'Income Disclosure': 'NOT PROVIDED'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Luxury fashion MLM with no income disclosure',
     faq: [
       { question: 'Does Global Wealth Trade publish income data?', answer: 'No — Global Wealth Trade does not publish an income disclosure statement. They provide no average retail figures or income data for prospective consultants to evaluate the business opportunity.' },
@@ -681,10 +681,10 @@ export const companiesBatchA1: Company[] = [
       'Debt': '$149 million at bankruptcy',
       'History': 'Morinda → NewAge → PartnerCo'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Noni juice MLM that went bankrupt and rebranded',
     faq: [
       { question: 'What happened to NewAge and Morinda?', answer: 'Morinda merged with NewAge in 2018, which then merged with ARIIX in 2020. The combined company filed Chapter 11 bankruptcy in August 2022 with $149M in debt. It emerged in March 2023 rebranded as PartnerCo.' },
@@ -732,10 +732,10 @@ export const companiesBatchA1: Company[] = [
       '2024 Revenue': 'Ps.14,264.6 million',
       'Brands': 'Betterware, Jafra Mexico'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Publicly traded Mexican household products direct seller',
     faq: [
       { question: 'Is Betterware de Mexico publicly traded?', answer: 'Yes — Betterware de Mexico trades on NYSE under ticker BWMX. As a public company, it has regulatory oversight and publishes financial disclosures. The company celebrated its 5th anniversary of US IPO in 2024 with 4.6x revenue growth since listing.' },

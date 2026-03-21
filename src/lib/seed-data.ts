@@ -60,10 +60,10 @@ export const companies: Company[] = [
       'Comp Plan Changes': 'Zero since founding in 2016',
       'Income Model': 'One-tier — earn on your direct referrals'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: true,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The highest-paying one-tier affiliate program in the industry',
     faq: [
       {
@@ -127,10 +127,10 @@ export const companies: Company[] = [
       '2023 Income Disclosure': 'Median earnings $657/yr before expenses. 66% earned something; 34% earned $0. Top 1% avg $41,456/yr.',
       'Annual IBO Fee': '$62 renewal'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'One of the oldest MLM companies in the world',
     faq: [
       {
@@ -193,10 +193,10 @@ export const companies: Company[] = [
       'Minimum Autoship': '$94.10/month to stay active',
       'FTC Settlement': '$200 million (2016)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Controversial nutrition MLM',
     faq: [
       {
@@ -264,10 +264,10 @@ export const companies: Company[] = [
       'Cookie Duration': '24 hours',
       'Monthly Requirement': 'None'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The original affiliate program',
     faq: [
       {
@@ -334,10 +334,10 @@ export const companies: Company[] = [
       'Recruiting Required': 'No',
       'Cookie Duration': 'Varies by vendor (often 60 days)'
     },
-    last_updated: new Date().toISOString(),
+    last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: new Date().toISOString(),
+    created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'High-commission digital product marketplace',
     faq: [
       {
@@ -368,7 +368,7 @@ export const companyUpdates: CompanyUpdate[] = [
     summary: 'Home Business Academy released its own integrated emailer — pay-as-you-go credits, 300 free emails to start, no domain setup required, and Email Alchemist AI writing tool included for Premium members.',
     source_url: 'https://thehba.app',
     published_at: new Date('2026-03-17').toISOString(),
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '2',
@@ -377,7 +377,7 @@ export const companyUpdates: CompanyUpdate[] = [
     summary: 'Global MLM giant continues to face headwinds as distributor recruitment slows.',
     source_url: null,
     published_at: new Date(Date.now() - 14 * 24 * 60 * 60 * 1000).toISOString(),
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '3',
@@ -386,7 +386,7 @@ export const companyUpdates: CompanyUpdate[] = [
     summary: 'Class action lawsuit alleges company continues to make misleading income representations.',
     source_url: null,
     published_at: new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString(),
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '4',
@@ -395,7 +395,7 @@ export const companyUpdates: CompanyUpdate[] = [
     summary: 'After years of cuts, Amazon maintains current commission structure.',
     source_url: null,
     published_at: new Date(Date.now() - 60 * 24 * 60 * 60 * 1000).toISOString(),
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '5',
@@ -404,7 +404,7 @@ export const companyUpdates: CompanyUpdate[] = [
     summary: 'OLSP System relaunched in early 2026 with significant compensation changes. Wayne Crowe removed the lifetime membership option that many affiliates had built their business around, switching to monthly/annual subscriptions only. Affiliates who relied on high-ticket lifetime commissions are expressing frustration with the abrupt change.',
     source_url: null,
     published_at: new Date('2026-03-01').toISOString(),
-    created_at: new Date().toISOString()
+    created_at: '2026-01-15T00:00:00.000Z'
   }
 ];
 
@@ -452,7 +452,7 @@ export const comparisonPages: ComparisonPage[] = [
         }
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   {
     id: '2',
@@ -489,7 +489,7 @@ export const comparisonPages: ComparisonPage[] = [
         }
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // doTERRA vs Home Business Academy
   {
@@ -508,7 +508,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Product Type', company_value: 'Essential oils (physical, perishable)', vs_company_value: 'Digital training tools (no inventory)', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Young Living vs Home Business Academy
   {
@@ -527,7 +527,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Income Transparency', company_value: 'IDS shows median $4/year for business builders', vs_company_value: 'Clear math: 2 referrals = profit', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Melaleuca vs Home Business Academy
   {
@@ -546,7 +546,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Products', company_value: 'Physical household/wellness products', vs_company_value: 'Digital training and tools', winner: 'tie' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // USANA vs Home Business Academy
   {
@@ -565,7 +565,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Per-Customer Income', company_value: 'Low per-customer residual due to binary splits', vs_company_value: '$128/mo per full-suite customer (24 = $3,072/mo)', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Primerica vs Home Business Academy
   {
@@ -584,7 +584,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Comp Plan Stability', company_value: 'Multi-level, recruiting required for promotion', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Mary Kay vs Home Business Academy
   {
@@ -603,7 +603,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Product Model', company_value: 'Physical cosmetics, inventory-based selling', vs_company_value: 'Digital tools and training', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // MONAT vs Home Business Academy
   {
@@ -622,7 +622,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Product Type', company_value: 'Physical hair care (shipping, returns)', vs_company_value: 'Digital products (no inventory)', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Isagenix vs Home Business Academy
   {
@@ -641,7 +641,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Comp Plan History', company_value: 'Multiple comp plan changes over the years', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // It Works vs Home Business Academy
   {
@@ -660,7 +660,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Entry Cost', company_value: '$99-500 starter kit', vs_company_value: '$10/month', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // ClickBank vs Home Business Academy
   {
@@ -679,7 +679,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Done-For-You System', company_value: 'No — must build own funnels/email sequences', vs_company_value: 'Full turnkey system included', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Wealthy Affiliate vs Home Business Academy
   {
@@ -698,7 +698,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Community', company_value: 'Large active community, good training', vs_company_value: 'Smaller but focused on affiliate income', winner: 'tie' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Legendary Marketer vs Home Business Academy
   {
@@ -717,7 +717,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Entry Cost', company_value: '$2,500-30,000 courses (while active)', vs_company_value: '$10-160/month', winner: 'vs_company' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // eXp Realty vs Home Business Academy
   {
@@ -736,7 +736,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Residual Potential', company_value: 'High if you recruit top producing agents', vs_company_value: '$128/mo per full-suite customer, all from your effort', winner: 'tie' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Rodan + Fields vs Home Business Academy
   {
@@ -755,7 +755,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Products', company_value: 'Dermatologist skincare regimens', vs_company_value: 'Digital training and marketing tools', winner: 'tie' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   },
   // Nu Skin vs Home Business Academy
   {
@@ -774,7 +774,7 @@ export const comparisonPages: ComparisonPage[] = [
         { category: 'Products', company_value: 'Anti-aging skincare and supplements', vs_company_value: 'Digital training and business tools', winner: 'tie' },
       ]
     },
-    last_updated: new Date().toISOString()
+    last_updated: '2026-01-15T00:00:00.000Z'
   }
 ];
 
