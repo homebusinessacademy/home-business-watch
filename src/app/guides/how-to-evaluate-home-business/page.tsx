@@ -89,40 +89,41 @@ export default function HowToEvaluateHomeBusinessPage() {
 
             {/* Step 1 */}
             <section className="mb-12">
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">Step 1 — Find and Read the Income Disclosure Statement</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">Step 1 — Find Out How Long the Company Has Been in Business</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Every legitimate MLM and network marketing company should publish an Income Disclosure Statement (IDS). This document shows what their distributors actually earn. It&apos;s the closest thing to truth in an industry full of inflated income claims.
+                This is the first question you should ask — before you look at the products, the compensation plan, or anything else. <strong>If the company is less than 5 years old, walk away.</strong>
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                <strong>What to look for:</strong>
+                The hard truth: most businesses fail within their first five years. That statistic applies to home business companies too — maybe more so. MLMs and affiliate programs come and go constantly. You&apos;ve probably heard the names: Vemma, Zija, Vidtel, Vicki&apos;s Organics, Lyoness — all gone. The people who built teams and residual income with those companies lost everything overnight.
               </p>
-              <ul className="space-y-3 mb-6">
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 text-navy-900 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-gray-700"><strong>Percentage who earn nothing:</strong> Many IDS documents reveal that 50-90% of participants earn $0 in commissions</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 text-navy-900 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-gray-700"><strong>Median income (not average):</strong> Averages are skewed by top earners. Median shows what the typical person earns</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <svg className="w-5 h-5 text-navy-900 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                  </svg>
-                  <span className="text-gray-700"><strong>Whether expenses are mentioned:</strong> Income figures should be gross, but expenses (autoship, events, tools) often aren&apos;t deducted</span>
-                </li>
-              </ul>
+              <p className="text-gray-700 leading-relaxed mb-4">
+                Residual income only works if the company is still around to pay it. Building a team takes years. If the company folds before your income compounds, you start over from zero. The risk isn&apos;t worth it.
+              </p>
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-6 mb-6">
+                <h3 className="font-bold text-amber-800 mb-3">The 5-Year Rule</h3>
+                <ul className="space-y-3 text-gray-700 text-sm">
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 font-bold mt-0.5">✓</span>
+                    <span><strong>Under 5 years:</strong> Avoid. High failure risk. You&apos;re betting your time and money on an unproven company.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 font-bold mt-0.5">✓</span>
+                    <span><strong>5-10 years:</strong> Proceed carefully. Check financials, growth trajectory, and whether the comp plan has changed.</span>
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="text-amber-600 font-bold mt-0.5">✓</span>
+                    <span><strong>10+ years:</strong> Proven staying power. Now dig into the income data and compensation plan.</span>
+                  </li>
+                </ul>
+              </div>
               <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-6">
-                <h3 className="font-bold text-red-800 mb-2">Red Flags</h3>
+                <h3 className="font-bold text-red-800 mb-2">Red Flags on Company Age</h3>
                 <ul className="space-y-2 text-gray-700 text-sm">
-                  <li>• No income disclosure statement exists or isn&apos;t publicly available</li>
-                  <li>• Format is confusing or hard to interpret</li>
-                  <li>• Document only highlights top earners without showing the full distribution</li>
-                  <li>• Numbers exclude &quot;inactive&quot; participants (a way to hide zeros)</li>
+                  <li>• Founded less than 5 years ago — no matter how exciting the opportunity sounds</li>
+                  <li>• Can&apos;t find clear founding date or company history online</li>
+                  <li>• Company has changed names, rebranded, or relaunched (often a reset after problems)</li>
+                  <li>• Founders or leadership have a history of starting and shutting down companies</li>
+                  <li>• &quot;Ground floor opportunity&quot; framing — being early is a feature, but only if the company survives</li>
                 </ul>
               </div>
               <div className="bg-gray-50 rounded-lg p-6">
@@ -336,7 +337,7 @@ export default function HowToEvaluateHomeBusinessPage() {
             <section className="mb-12">
               <h2 className="text-2xl font-bold text-gray-900 mb-4">The Bottom Line</h2>
               <p className="text-gray-700 leading-relaxed mb-4">
-                The companies that pass all 7 steps are rare. Most MLMs fail on step 1 (poor income disclosure numbers), step 2 (costs exceed typical earnings), or step 5 (impossible break-even math). That doesn&apos;t mean opportunity doesn&apos;t exist—it means you need to be selective.
+                The companies that pass all 7 steps are rare. Most MLMs fail on step 1 (company too new or unproven), step 2 (costs exceed typical earnings), or step 5 (impossible break-even math). That doesn&apos;t mean opportunity doesn&apos;t exist—it means you need to be selective.
               </p>
               <p className="text-gray-700 leading-relaxed mb-6">
                 When you find a business that passes all seven steps—transparent income data, low monthly costs, clean one-tier structure, no regulatory issues, easy break-even math, stable compensation, and real people willing to show real results—you&apos;ve found something worth your time. <Link href="/companies/home-business-academy" className="text-amber-600 hover:underline font-medium">Home Business Academy</Link> is one program that consistently passes this checklist, which is why it ranks as our top-rated opportunity.
