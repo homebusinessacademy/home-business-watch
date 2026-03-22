@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'How to Evaluate Any Home Business Opportunity: 7-Step Checklist | HomeBusinessWatch',
-  description: 'Before joining any MLM or affiliate program, run it through this 7-step checklist. Includes income disclosure analysis, red flags, and real questions to ask.',
+  description: 'Before you sign up for anything, run it through this 7-step checklist. These are the questions recruiters hope you won\'t ask.',
   keywords: 'how to evaluate mlm, home business checklist, mlm red flags, income disclosure analysis',
   openGraph: {
     title: 'How to Evaluate Any Home Business Opportunity: 7-Step Checklist | HomeBusinessWatch',
-    description: 'Before joining any MLM or affiliate program, run it through this 7-step checklist. Includes income disclosure analysis, red flags, and real questions to ask.',
+    description: 'Before you sign up for anything, run it through this 7-step checklist. These are the questions recruiters hope you won\'t ask.',
     type: 'article',
   },
 };

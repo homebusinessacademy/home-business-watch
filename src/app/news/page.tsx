@@ -4,10 +4,10 @@ import { createClient } from '@supabase/supabase-js';
 
 export const metadata: Metadata = {
   title: 'Home Business News 2026 — MLM & Affiliate Marketing Updates | HomeBusinessWatch',
-  description: 'Latest news on MLM companies, affiliate marketing programs, closures, comp plan changes, and industry updates. Stay informed before you invest your time and money.',
+  description: 'Company closures, comp plan changes, lawsuits — tracked as they happen. If you\'re in an MLM, this page might save you from a surprise.',
   openGraph: {
     title: 'Home Business News 2026 | HomeBusinessWatch',
-    description: 'Latest MLM and affiliate marketing news — closures, comp plan changes, regulatory actions, and industry updates.',
+    description: 'Company closures, comp plan changes, lawsuits — tracked as they happen. Don\'t get blindsided.',
   },
 };
 

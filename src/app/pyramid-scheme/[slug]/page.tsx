@@ -40,12 +40,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const answer = data.isActualPyramidScheme ? 'Yes' : 'No';
 
+  // Create curiosity-driven description (150-160 chars max)
+  const metaDescription = data.isActualPyramidScheme
+    ? `${questionForm} We examined the actual structure and where the money flows. Here's what we found — and why it matters.`
+    : `${questionForm} We read the actual legal definition and distributor agreement. The answer isn't what most people think.`;
+
   return {
     title: `${questionForm} The Honest Answer (${new Date().getFullYear()})`,
-    description: `${answer}. ${data.directAnswer.slice(0, 150)}...`,
+    description: metaDescription,
     openGraph: {
       title: `${questionForm} The Honest Answer`,
-      description: `We looked at the actual definition - not the internet hysteria - and here is what the data shows.`,
+      description: `We looked at the actual definition and structure. Here's what we found — and what really matters for your decision.`,
       type: 'article',
     },
     keywords: [

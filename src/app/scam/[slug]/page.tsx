@@ -28,14 +28,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  const answer = data.isActualScam ? 'Yes' : 'No';
+  // Create curiosity-driven description (150-160 chars max)
+  const metaDescription = data.isActualScam
+    ? `Is ${data.companyName} a scam? We examined the legal record and complaints. What we found confirms the worst fears.`
+    : `Is ${data.companyName} a scam? Before you decide, read what we found in the complaints, lawsuits, and distributor agreement.`;
 
   return {
     title: `Is ${data.companyName} a Scam? The Honest Answer (${new Date().getFullYear()})`,
-    description: `${answer}. ${data.directAnswer.slice(0, 150)}...`,
+    description: metaDescription,
     openGraph: {
       title: `Is ${data.companyName} a Scam? The Honest Answer`,
-      description: `We looked at the actual complaints, the legal record, and the business model. Here is what the evidence shows.`,
+      description: `We looked at actual complaints, legal records, and the business model. Here's what the evidence shows.`,
       type: 'article',
     },
     keywords: [

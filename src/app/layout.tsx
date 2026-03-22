@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | HomeBusinessWatch",
   },
   description:
-    "Research before you join. Honest, unbiased reviews of MLM companies, affiliate programs, and work from home opportunities. Compare compensation plans, startup costs, and real success rates.",
+    "Thinking about joining an MLM or home business? We analyzed 500+ companies using actual income disclosures. What we found might change your decision.",
   keywords: [
     "MLM reviews",
     "network marketing",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "HomeBusinessWatch",
     title: "HomeBusinessWatch - Honest Reviews of 500+ Home Business Opportunities",
     description:
-      "Research before you join. Honest, unbiased reviews of MLM companies, affiliate programs, and work from home opportunities.",
+      "We analyzed 500+ home businesses using real income data. What we found might change your decision.",
     images: [
       {
         url: "/og-image.png",
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "HomeBusinessWatch - Honest Home Business Reviews",
     description:
-      "Research before you join. Honest, unbiased reviews of MLM companies, affiliate programs, and work from home opportunities.",
+      "We analyzed 500+ home businesses using real income data. What we found might change your decision.",
     images: ["/og-image.png"],
   },
   robots: {

@@ -5,10 +5,10 @@ import { getCompPlansSortedByResidual } from '@/lib/compensation-plans';
 
 export const metadata: Metadata = {
   title: 'MLM Compensation Plan Comparison: Per-Customer Residual Chart (2026)',
-  description: 'Compare per-customer residual income across 20 top MLM companies. See exactly how much you earn per customer per month with Amway, Herbalife, doTERRA, and more.',
+  description: 'Which MLM pays the most per customer? We analyzed 20 comp plans and ranked them. Most people focus on the wrong number — here\'s what actually matters.',
   openGraph: {
     title: 'MLM Compensation Plan Comparison: Per-Customer Residual Chart (2026)',
-    description: 'Side-by-side comparison of MLM per-customer earnings. Find out which company pays the most.',
+    description: 'We ranked 20 MLM companies by per-customer earnings. The results expose what recruiters never mention.',
     type: 'website',
   },
 };

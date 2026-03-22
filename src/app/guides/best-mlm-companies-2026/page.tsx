@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Best MLM Companies 2026: Ranked by Real Income Data | HomeBusinessWatch',
-  description: 'We ranked 200+ MLM companies by real income disclosure data, monthly costs, and comp plan stability. Here are the best — and worst — for 2026.',
+  description: 'Most "best MLM" lists are affiliate promotions. Ours uses actual income disclosures. See which companies made the cut — and which failed badly.',
   keywords: 'best mlm companies 2026, top mlm companies, best network marketing companies 2026',
   openGraph: {
     title: 'Best MLM Companies 2026: Ranked by Real Income Data | HomeBusinessWatch',
-    description: 'We ranked 200+ MLM companies by real income disclosure data, monthly costs, and comp plan stability. Here are the best — and worst — for 2026.',
+    description: 'Most "best MLM" lists are affiliate promotions. Ours uses actual income disclosures. See which companies made the cut.',
     type: 'article',
   },
 };

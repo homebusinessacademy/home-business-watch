@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The Real Cost of Building an MLM Team (What Your Upline Won\'t Tell You) | HomeBusinessWatch',
-  description: 'Building a 100-person MLM team costs more than most people realize — in time, money, and relationships. Here\'s the honest math before you start.',
+  description: 'What does a 100-person MLM team actually cost — in time, money, and relationships? We did the math your upline never showed you.',
   keywords: 'mlm team building cost, network marketing true cost, mlm time investment, mlm relationship cost',
   openGraph: {
     title: 'The Real Cost of Building an MLM Team (What Your Upline Won\'t Tell You) | HomeBusinessWatch',
-    description: 'Building a 100-person MLM team costs more than most people realize — in time, money, and relationships. Here\'s the honest math before you start.',
+    description: 'What does a 100-person MLM team actually cost? We did the math your upline never showed you.',
     type: 'article',
   },
 };

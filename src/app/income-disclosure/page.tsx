@@ -4,16 +4,16 @@ import { EbookBanner } from '@/components/EbookBanner';
 
 export const metadata: Metadata = {
   title: 'MLM Income Disclosure Database 2025 | Understanding the Data',
-  description: 'The most comprehensive database of MLM income disclosure statements. Understand what the data shows, its limitations, and how to evaluate opportunities more effectively.',
+  description: 'What do MLM distributors actually earn? We compiled income disclosures from 20 companies. The numbers tell a story recruiters won\'t.',
   openGraph: {
     title: 'MLM Income Disclosure Database 2025 | Understanding the Data',
-    description: 'The most comprehensive database of MLM income disclosure statements. Understand what the data shows, its limitations, and how to evaluate opportunities more effectively.',
+    description: 'We compiled income disclosures from 20 MLM companies. The numbers tell a story recruiters won\'t.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'MLM Income Disclosure Database 2025',
-    description: 'Comprehensive MLM income disclosure data with context on methodology limitations.',
+    description: 'We compiled income disclosures from 20 MLM companies. The numbers tell a story recruiters won\'t.',
   },
 };
 

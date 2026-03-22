@@ -82,10 +82,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   return {
     title: `${company1.name} vs ${company2.name} ${new Date().getFullYear()} - Which Is Better?`,
-    description: `Detailed comparison of ${company1.name} vs ${company2.name}. Compare costs, compensation plans, ratings, and features to find the best option for you.`,
+    description: `${company1.name} vs ${company2.name} — which pays more per customer? We ran the numbers from both comp plans. The gap might surprise you.`,
     openGraph: {
       title: `${company1.name} vs ${company2.name} - Full Comparison`,
-      description: `Which is better: ${company1.name} or ${company2.name}? See our side-by-side analysis.`,
+      description: `Which actually pays more per customer? We compared the real numbers. The winner might surprise you.`,
     },
   };
 }

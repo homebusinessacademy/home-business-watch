@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About HomeBusinessWatch — Independent Home Business Reviews',
-  description: 'HomeBusinessWatch reviews 500+ home business opportunities including MLMs, affiliate programs, and direct sales companies based on real income disclosure data.',
+  description: 'Why we built this site: we got tired of biased MLM reviews. Here\'s how we rate 500+ companies — and why we\'re different from the rest.',
 };
 
 export default function AboutPage() {

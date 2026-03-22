@@ -4,11 +4,11 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'The Real Math Behind Residual Income From Home (2026)',
-  description: 'Everyone talks about residual income. Here\'s what it actually means, how the math works, and which models deliver it in 2026.',
+  description: 'Everyone promises "residual income." Few explain the math. Here\'s exactly how many customers you need — and which models actually deliver.',
   keywords: 'residual income from home 2026, passive income home business, recurring income opportunity',
   openGraph: {
     title: 'The Real Math Behind Residual Income From Home (2026)',
-    description: 'Everyone talks about residual income. Here\'s what it actually means, how the math works, and which models deliver it.',
+    description: 'Everyone promises "residual income." Few explain the math. Here\'s how many customers you actually need.',
     type: 'article',
   },
 };

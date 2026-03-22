@@ -4,11 +4,11 @@ import { EbookBanner } from '@/components/EbookBanner';
 
 export const metadata: Metadata = {
   title: '7 Structural Flaws in MLM Compensation Plans | HomeBusinessWatch',
-  description: 'The hidden traps in most MLM comp plans — from breakage to monthly quotas. Know these seven structural problems before you join any MLM.',
+  description: 'Most MLM distributors don\'t know these 7 traps exist until it\'s too late. Breakage, quotas, non-competes — here\'s what the comp plan actually says.',
   keywords: 'mlm compensation plan flaws, mlm breakage, mlm monthly quota, mlm non-compete, mlm point system, network marketing compensation problems',
   openGraph: {
     title: '7 Structural Flaws in MLM Compensation Plans',
-    description: 'Most people join an MLM without understanding what they are actually agreeing to. These seven problems are built into the compensation plan — not accidents, not exceptions.',
+    description: 'Most distributors don\'t know these traps exist until it\'s too late. Here\'s what the comp plan actually says.',
     type: 'article',
   },
 };

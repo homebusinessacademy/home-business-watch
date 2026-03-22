@@ -4,11 +4,11 @@ import { EbookBanner } from '@/components/EbookBanner';
 
 export const metadata: Metadata = {
   title: 'The MLM Duplication Myth: Why the Math Never Works Out | HomeBusinessWatch',
-  description: 'The "get 2 who get 2" pitch sounds achievable until you apply the Pareto Principle. Learn why duplication math fails and what actually determines MLM income potential.',
+  description: '"Get 2 who get 2" sounds so simple. But one rule — the Pareto Principle — breaks the entire model. Here\'s the math they never show you.',
   keywords: 'mlm duplication, 2 who get 2, pareto principle mlm, mlm math, network marketing duplication',
   openGraph: {
     title: 'The MLM Duplication Myth: Why the Math Never Works Out',
-    description: 'The "get 2 who get 2" pitch sounds achievable until you apply the Pareto Principle. Learn why duplication math fails and what actually determines MLM income potential.',
+    description: '"Get 2 who get 2" sounds so simple. One rule breaks the entire model. Here\'s the math they never show you.',
     type: 'article',
   },
 };
