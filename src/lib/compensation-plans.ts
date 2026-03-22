@@ -632,13 +632,13 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'five-rings-financial',
     companyName: 'Five Rings Financial',
     lastUpdated: '2026-03-22',
-    directCustomerResidual: 8.00,
+    directCustomerResidual: null,
     levels: [
       { level: 1, label: 'Direct insurance sale commission', residualPerCustomer: 8.00, notes: 'Estimated ~5-15% override on annual premium; on $160/yr avg term life = ~$8/mo residual' },
       { level: 2, label: 'Downline override', residualPerCustomer: 3.00, notes: 'Override commission on downline agent sales' },
     ],
     monthlyRequirement: 'State insurance license required; monthly fees vary by state',
-    qualificationNote: 'Entry-level recurring commission on insurance renewals. Actual amount varies significantly by policy type and premium size. Insurance renewals typically pay 2-5% annually after first year.',
+    qualificationNote: 'Commission schedule not publicly available — provided only after agent appointment. Per-customer residual cannot be verified without official carrier commission schedules. Insurance renewal commissions typically 2-5% annually but varies by carrier and policy type. Request the full commission schedule before joining.',
     simpleSummary: 'Five Rings Financial pays commissions on insurance sales plus overrides on downline agents. The recurring residual on an insurance policy is the annual renewal commission — typically 2-5% of premium after the first year. For a $200/yr term life policy, that is $4-10/yr in residual. Building meaningful income requires either large premium clients or a large recruiting downline.',
     teamSizeNeeded: {
       goal1000: null,
@@ -659,7 +659,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'mwr-financial',
     companyName: 'MWR Financial (MWR Life)',
     lastUpdated: '2026-03-22',
-    directCustomerResidual: 5.00,
+    directCustomerResidual: 10.00,
     levels: [
       { level: 1, label: 'Financial Edge subscription commission', residualPerCustomer: 5.00, notes: 'Estimated commission on ~$30-50/mo Financial Edge subscription' },
       { level: 2, label: 'Binary downline volume', residualPerCustomer: 3.00, notes: 'Binary override on lesser leg volume' },
@@ -686,7 +686,7 @@ export const compPlans: CompPlanData[] = [
     companySlug: 'unicity-international',
     companyName: 'Unicity International',
     lastUpdated: '2026-03-22',
-    directCustomerResidual: 9.00,
+    directCustomerResidual: 10.00,
     levels: [
       { level: 1, label: 'Direct customer commission', residualPerCustomer: 9.00, notes: 'Estimated ~15% on ~$60 avg monthly order' },
       { level: 2, label: 'Level 2 override', residualPerCustomer: 4.00, notes: 'Team development bonus on downline volume' },
