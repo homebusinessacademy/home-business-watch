@@ -363,6 +363,20 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     ],
     verdict: 'This is not a home business opportunity. It is a peer-to-peer payment matrix with pyramid scheme mechanics dressed in cryptocurrency language. Money paid in by later participants funds returns for earlier participants. When recruitment slows — as it always does — participants lose their money.',
   },
+  {
+    companySlug: 'superone',
+    companyName: 'SuperOne (Super.One)',
+    isActualPyramidScheme: true,
+    directAnswer: 'Yes — SuperOne operates as a Ponzi scheme with MLM mechanics. Passive income from "holding Lootbox assets" is funded by new participant purchases with no external revenue source. It has collapsed and relaunched three times since 2019, with each cycle leaving participants unable to cash out.',
+    whyNotPyramidScheme: '',
+    mathSummary: 'SuperOne has no external revenue stream sufficient to fund its passive income promises. Rewards flow from new participant purchases to existing holders — a closed loop that requires infinite new recruitment to sustain. Three previous collapse cycles confirm this.',
+    structuralNotes: [
+      'Three relaunches since 2019 — each collapse left participants with worthless/locked tokens',
+      'Compensation plan hidden from consumers — no public income disclosure',
+      'Offshore Singapore registration limits participant recourse',
+    ],
+    verdict: 'SuperOne is a Ponzi scheme that uses a trivia app as a legitimacy front. Its three failed relaunches since 2019, ongoing participant complaints about inability to cash out, and hidden compensation plan make this one of the clearest examples of a crypto-dressed MLM Ponzi in the current market. Avoid.',
+  },
 ];
 
 // Helper to get pyramid scheme data by slug

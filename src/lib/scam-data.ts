@@ -343,6 +343,21 @@ export const scamData: ScamData[] = [
     legalRecord: 'Not registered with SEC, FTC, or any state financial regulator. Anonymous operation. No legal business structure. This is the profile of operations that regulators eventually shut down.',
     verdict: 'This is not a home business opportunity. It is a peer-to-peer payment matrix with pyramid scheme mechanics dressed in cryptocurrency language. When recruitment slows - as it always does - participants lose their money. This is a scam.',
   },
+  {
+    companySlug: 'superone',
+    companyName: 'SuperOne (Super.One)',
+    isActualScam: true,
+    directAnswer: 'Yes — SuperOne displays classic Ponzi scheme characteristics and has a documented history of collapse and rebrand since 2019. Participants from multiple previous versions have been unable to cash out their earnings.',
+    topComplaints: [
+      { complaint: 'Unable to cash out earnings from previous versions', verdict: 'fraud' },
+      { complaint: 'Compensation plan hidden from participants', verdict: 'fraud' },
+      { complaint: 'Three relaunch cycles with same structure each time', verdict: 'fraud' },
+      { complaint: 'Passive income promises not backed by real revenue', verdict: 'fraud' },
+      { complaint: 'Offshore registration makes legal recourse difficult', verdict: 'legitimate_concern' },
+    ],
+    legalRecord: 'No formal regulatory action as of 2026, likely due to offshore Singapore registration. BehindMLM has documented three review cycles (2020, 2022, 2025) each confirming Ponzi characteristics.',
+    verdict: 'SuperOne is one of the more documented Ponzi/MLM hybrids in the crypto-entertainment space. The trivia app is real but does not generate revenue sufficient to support the passive income model. Multiple collapse cycles and participant cashout failures make this a clear avoid.',
+  },
 ];
 
 // Helper to get scam data by slug
