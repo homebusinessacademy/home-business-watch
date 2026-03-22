@@ -6,7 +6,7 @@ import { pyramidSchemeData } from '@/lib/pyramid-scheme-data';
 import { scamData } from '@/lib/scam-data';
 import { CompanyCategory } from '@/types';
 
-const BASE_URL = 'https://homebusinesswatch.com';
+const BASE_URL = 'https://www.homebusinesswatch.com';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const currentDate = new Date().toISOString();

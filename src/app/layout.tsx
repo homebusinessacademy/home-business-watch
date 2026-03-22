@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://homebusinesswatch.com"),
+  metadataBase: new URL("https://www.homebusinesswatch.com"),
   title: {
     default: "HomeBusinessWatch - Honest Reviews of 500+ Home Business Opportunities",
     template: "%s | HomeBusinessWatch",
