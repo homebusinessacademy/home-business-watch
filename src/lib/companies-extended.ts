@@ -4482,11 +4482,12 @@ export const extendedCompanies: Company[] = [
     id: '604',
     slug: 'mwr-financial',
     name: 'MWR Financial (MWR Life)',
+    tagline: 'MWR Life travel savings and MWR Financial services — MLM with binary structure and multiple rebrands',
     category: 'mlm',
     founded_year: 2013,
     hq_location: 'United States',
     website: 'mwrfinancial.com',
-    products_summary: 'MWR Financial (formerly MWR Life) is a financial services MLM that sells a subscription called "Financial Edge" — a suite of credit, tax, and financial wellness tools. Founded by Brian House, the company has operated under multiple names and gone through several pivots. BehindMLM reviewed MWR Life v2 in August 2025, noting binary compensation structure complexity and ambiguity around pyramid scheme characteristics. The company sells travel savings (Travel Advantage) and financial tools through a network of independent representatives who earn commissions and recruitment overrides.',
+    products_summary: 'Formerly known as MWR Life, a travel savings MLM, MWR Financial pivoted to financial services in 2020. The company sells a subscription called Financial Edge covering credit, tax, and financial wellness tools. The original MWR Life product — Travel Advantage (discounted travel bookings) — is still part of the offering. Founded by Brian House, the company has operated under multiple names since 2013. BehindMLM reviewed MWR Life v2 in August 2025, noting binary compensation structure complexity and pyramid scheme ambiguity. Representatives earn commissions on Financial Edge subscriptions and Travel Advantage memberships plus recruitment overrides.',
     monthly_cost_min: 30,
     monthly_cost_max: 150,
     comp_plan_type: 'Binary MLM — Financial Edge subscription commissions + travel savings + recruitment overrides',
@@ -4521,7 +4522,6 @@ export const extendedCompanies: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-03-22T14:00:00.000Z',
-    tagline: 'Financial services MLM with binary structure and multiple rebrands since 2013',
     faq: [
       {
         question: 'Is MWR Financial a pyramid scheme?',

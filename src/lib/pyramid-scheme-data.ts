@@ -377,6 +377,48 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     ],
     verdict: 'SuperOne is a Ponzi scheme that uses a trivia app as a legitimacy front. Its three failed relaunches since 2019, ongoing participant complaints about inability to cash out, and hidden compensation plan make this one of the clearest examples of a crypto-dressed MLM Ponzi in the current market. Avoid.',
   },
+  {
+    companySlug: 'five-rings-financial',
+    companyName: 'Five Rings Financial',
+    isActualPyramidScheme: false,
+    directAnswer: 'No. Five Rings Financial is not a pyramid scheme. They sell real licensed insurance products (life insurance, annuities, retirement planning), agents must be state-licensed, and commissions are earned on actual policy sales.',
+    whyNotPyramidScheme: 'Five Rings Financial sells regulated insurance products that require state licensing. Agents earn commissions on actual insurance policy sales, not just recruitment. The products have real value to customers who need life insurance coverage.',
+    mathSummary: 'Insurance commissions vary significantly by product and premium size. First-year commissions are typically 50-100% of annual premium, with renewal commissions of 2-5% annually thereafter. Building meaningful residual income requires either large premium clients or a large recruiting downline.',
+    structuralNotes: [
+      'Insurance renewals are paid annually, not monthly — different from typical MLM residuals',
+      'State licensing required before earning any commissions',
+      'Income primarily from recruiting downline agents rather than insurance renewals alone',
+    ],
+    verdict: 'Five Rings Financial is not a pyramid scheme — they sell real licensed insurance products. The question is whether it is a good career opportunity. With no BBB accreditation, no public income disclosure, and income heavily dependent on recruiting, evaluate carefully whether the math works for you.',
+  },
+  {
+    companySlug: 'mwr-financial',
+    companyName: 'MWR Financial (MWR Life)',
+    isActualPyramidScheme: false,
+    directAnswer: 'No. MWR Financial is not technically a pyramid scheme. They sell real subscription products (Financial Edge, Travel Advantage) and commissions are based on actual subscription sales. However, BehindMLM has noted "pyramid ambiguity" due to the binary compensation structure.',
+    whyNotPyramidScheme: 'MWR Financial sells actual subscription products — Financial Edge (financial tools) and Travel Advantage (travel discounts). While BehindMLM noted "pyramid ambiguity" in their August 2025 review, the company has real products that provide value independent of the compensation plan.',
+    mathSummary: 'Binary compensation structure pays commissions on the lesser leg volume. With estimated $5/customer/month on Financial Edge subscriptions, building significant income requires large balanced teams. Unbalanced legs create commission "breakage."',
+    structuralNotes: [
+      'Binary structure creates predictable commission loss (breakage) when legs are unbalanced',
+      'Company has rebranded multiple times since 2013 — stability concern',
+      'BehindMLM noted "pyramid scheme ambiguity" but it has real products',
+    ],
+    verdict: 'MWR Financial is not a pyramid scheme in the legal sense — it sells real subscription products. The concerns are the binary compensation complexity, the company\'s rebranding history, and the structural breakage built into binary plans. Whether it is a good opportunity is a separate question from whether it is fraud.',
+  },
+  {
+    companySlug: 'unicity-international',
+    companyName: 'Unicity International',
+    isActualPyramidScheme: false,
+    directAnswer: 'No. Unicity International is not a pyramid scheme. They sell real health and wellness products, have operated since 1991 (as Enrich International, later Unicity), and have over 70 years of combined corporate history through mergers.',
+    whyNotPyramidScheme: 'Unicity sells nutritional supplements, weight management products, and wellness items. The company has a 70+ year history through predecessor companies and operates in multiple countries with real products sold to real consumers.',
+    mathSummary: 'Estimated ~15% commission on direct customer orders (~$9/customer/month on $60 average order). Team overrides add additional earnings. Full compensation plan is not publicly disclosed, making exact calculations difficult.',
+    structuralNotes: [
+      'Long company history (70+ years through mergers) provides stability',
+      'Compensation plan not fully disclosed — transparency concern',
+      'Products are premium-priced compared to retail alternatives',
+    ],
+    verdict: 'Unicity International is not a pyramid scheme. It has a long history and sells real health products. The concern is the undisclosed compensation plan — you cannot fully evaluate an opportunity without knowing the exact pay structure. The premium pricing may also make retail sales challenging.',
+  },
 ];
 
 // Helper to get pyramid scheme data by slug

@@ -358,6 +358,51 @@ export const scamData: ScamData[] = [
     legalRecord: 'No formal regulatory action as of 2026, likely due to offshore Singapore registration. BehindMLM has documented three review cycles (2020, 2022, 2025) each confirming Ponzi characteristics.',
     verdict: 'SuperOne is one of the more documented Ponzi/MLM hybrids in the crypto-entertainment space. The trivia app is real but does not generate revenue sufficient to support the passive income model. Multiple collapse cycles and participant cashout failures make this a clear avoid.',
   },
+  {
+    companySlug: 'five-rings-financial',
+    companyName: 'Five Rings Financial',
+    isActualScam: false,
+    directAnswer: 'No, Five Rings Financial is not a scam. They sell real licensed insurance products (life insurance, annuities, retirement planning), agents must pass state licensing exams, and the company operates legally within the insurance industry.',
+    topComplaints: [
+      { complaint: 'MLM-style recruiting pressure rather than focus on insurance sales', verdict: 'legitimate_concern' },
+      { complaint: 'Company not BBB accredited — limited external oversight visibility', verdict: 'legitimate_concern' },
+      { complaint: 'No public income disclosure statement — cannot verify typical earnings', verdict: 'legitimate_concern' },
+      { complaint: 'Captive agent model — cannot sell competing products or take clients if you leave', verdict: 'business_model' },
+      { complaint: 'State licensing costs and time investment required before earning', verdict: 'business_model' },
+    ],
+    legalRecord: 'No major regulatory actions. Company operates as a licensed insurance agency. Individual agents must maintain state insurance licenses subject to regulatory oversight.',
+    verdict: 'Five Rings Financial is not a scam — they sell real licensed insurance products. The complaints center on MLM-style recruiting dynamics, lack of BBB accreditation, and no public income disclosure. These are legitimate concerns about the business model, not fraud.',
+  },
+  {
+    companySlug: 'mwr-financial',
+    companyName: 'MWR Financial (MWR Life)',
+    isActualScam: false,
+    directAnswer: 'No, MWR Financial is not a scam in the legal sense. They sell real subscription products (Financial Edge financial tools, Travel Advantage travel savings). The concerns are about the binary compensation complexity and company rebranding history, not deliberate fraud.',
+    topComplaints: [
+      { complaint: 'Company has rebranded multiple times since 2013 — suggests business model instability', verdict: 'legitimate_concern' },
+      { complaint: 'Binary compensation structure complexity makes earnings unpredictable', verdict: 'business_model' },
+      { complaint: 'BehindMLM noted "pyramid ambiguity" in compensation structure', verdict: 'legitimate_concern' },
+      { complaint: 'No public income disclosure statement', verdict: 'legitimate_concern' },
+      { complaint: 'Monthly subscription required to earn commissions — ongoing costs', verdict: 'business_model' },
+    ],
+    legalRecord: 'No major regulatory actions. BehindMLM reviewed MWR Life v2 in August 2025, noting binary compensation structure complexity and "pyramid scheme ambiguity" but did not label it a scam.',
+    verdict: 'MWR Financial is not a scam — real subscription products exist and provide value. The concerns are the rebranding history (stability), binary compensation complexity, and BehindMLM\'s "pyramid ambiguity" observation. Evaluate these structural issues, not fraud allegations.',
+  },
+  {
+    companySlug: 'unicity-international',
+    companyName: 'Unicity International',
+    isActualScam: false,
+    directAnswer: 'No, Unicity International is not a scam. They have operated since 1991, sell real health and wellness products, and have over 70 years of combined corporate history through mergers. The company operates legally in multiple countries.',
+    topComplaints: [
+      { complaint: 'Compensation plan not publicly disclosed — cannot evaluate opportunity fully', verdict: 'legitimate_concern' },
+      { complaint: 'Products significantly more expensive than retail alternatives', verdict: 'legitimate_concern' },
+      { complaint: 'No public income disclosure statement', verdict: 'legitimate_concern' },
+      { complaint: 'Auto-order recommended to maintain commission qualification — ongoing costs', verdict: 'business_model' },
+      { complaint: 'Team development bonuses create recruiting pressure', verdict: 'business_model' },
+    ],
+    legalRecord: 'Long operating history with no major regulatory fraud actions. Company has roots dating back to 1950s through predecessor companies. Operates in multiple countries with established regulatory presence.',
+    verdict: 'Unicity International is not a scam — the long company history and real products confirm legitimacy. The concern is the undisclosed compensation plan, which makes it impossible to fully evaluate whether the opportunity math works. Premium pricing may also limit retail sales potential.',
+  },
 ];
 
 // Helper to get scam data by slug
