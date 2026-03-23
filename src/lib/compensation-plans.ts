@@ -20,6 +20,7 @@ export interface CompPlanData {
   };
   sourceUrl: string;
   keyGotchas: string[];
+  metaDescription?: string;
 }
 
 export const compPlans: CompPlanData[] = [
@@ -709,6 +710,35 @@ export const compPlans: CompPlanData[] = [
       'Team development bonuses create strong recruiting incentive',
       'Auto-order recommended to maintain commission qualification',
     ],
+  },
+  {
+    companySlug: 'kajabi-platform',
+    companyName: 'Kajabi Partner Program',
+    lastUpdated: '2026-03-22',
+    directCustomerResidual: 26.70,
+    levels: [
+      { level: 1, label: 'Basic Plan referral (30%)', residualPerCustomer: 26.70, notes: '30% of $89/month = $26.70/month' },
+      { level: 2, label: 'Growth Plan referral (30%)', residualPerCustomer: 59.70, notes: '30% of $199/month = $59.70/month' },
+      { level: 3, label: 'Pro Plan referral (30%)', residualPerCustomer: 119.70, notes: '30% of $399/month = $119.70/month' },
+    ],
+    monthlyRequirement: 'Must be an active paying Kajabi subscriber + 3 new referrals per 12 months',
+    qualificationNote: 'Kajabi is NOT an MLM — it\'s a SaaS affiliate program. Single-tier commissions only (no downline). Legacy partners get 30% flat; new partners are on a tiered structure that increases as referral count grows. Must be an active Kajabi customer to participate.',
+    simpleSummary: 'Kajabi pays 30% recurring commissions on all subscription plans ($89-$399/month). Partners earn $26.70-$119.70/month per active referral — significantly higher than typical MLM per-customer residuals ($3-14). No downline, no team building, no autoship requirements. The catch: you must be a paying Kajabi customer, and you need 3 new referrals per year to maintain eligibility.',
+    teamSizeNeeded: {
+      goal1000: 38,
+      goal3000: 113,
+      goal10000: 375,
+      assumptions: 'Based on $26.70/referral (Basic plan). Higher-tier plans require fewer referrals: ~17 Pro referrals for $2,000/month.',
+    },
+    sourceUrl: 'https://help.kajabi.com/en/articles/12696571-kajabi-partner-program-faq',
+    keyGotchas: [
+      'Must be an active paying Kajabi subscriber to participate in partner program',
+      '12-month inactivity cliff: need 3 new referrals/year or lose commission eligibility',
+      '60-day payout delay on all commissions (paid monthly around 19th-23rd)',
+      'Grandfathered 30% rate lost if you hit inactivity cliff and rejoin',
+      'New partners on tiered structure — not automatic 30% rate',
+    ],
+    metaDescription: "Kajabi pays affiliates $26-120/month per referral. We verified the tier structure, inactivity cliff, and payout schedule from the official partner program docs.",
   },
 ];
 

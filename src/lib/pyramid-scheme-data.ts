@@ -419,6 +419,20 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     ],
     verdict: 'Unicity International is not a pyramid scheme. It has a long history and sells real health products. The concern is the undisclosed compensation plan — you cannot fully evaluate an opportunity without knowing the exact pay structure. The premium pricing may also make retail sales challenging.',
   },
+  {
+    companySlug: 'kajabi-platform',
+    companyName: 'Kajabi',
+    isActualPyramidScheme: false,
+    directAnswer: 'No — and this question doesn\'t even apply. Kajabi is a SaaS company with a standard affiliate program, not an MLM. There\'s no multi-level structure, no downline, and no recruitment requirements. It\'s a single-tier affiliate program like thousands of other software companies.',
+    whyNotPyramidScheme: 'Kajabi fails every criterion for being a pyramid scheme or MLM. It\'s a software company (all-in-one course platform) that pays affiliates for direct referrals only. There\'s no recruitment incentive, no downline commissions, no team building, and no "levels" of any kind. You earn 30% on YOUR referrals — that\'s it. Pyramid scheme analysis simply doesn\'t apply to standard SaaS affiliate programs.',
+    mathSummary: 'Partners earn $26.70-$119.70/month per referral (30% of $89-399 plans). This is 4-20x higher than typical MLM per-customer residuals. With 38 referrals on the Basic plan, you\'d earn ~$1,000/month — without any recruitment or team management.',
+    structuralNotes: [
+      'Single-tier affiliate program — you earn only on YOUR direct referrals',
+      'No recruitment requirements, no downline, no "levels" whatsoever',
+      'Standard SaaS affiliate model used by thousands of software companies',
+    ],
+    verdict: 'Kajabi is not a pyramid scheme because it\'s not even an MLM — it\'s a SaaS affiliate program. The real question isn\'t "is it a pyramid scheme" but "is the affiliate program worth it?" At $26-120/month per referral with no recruitment requirements, it compares favorably to MLM income potential.',
+  },
 ];
 
 // Helper to get pyramid scheme data by slug

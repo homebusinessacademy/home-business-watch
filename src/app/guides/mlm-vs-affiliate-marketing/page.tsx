@@ -293,8 +293,11 @@ export default function MLMvsAffiliatePage() {
                   <span className="text-gray-700"><strong>No autoship</strong> or monthly purchase requirements</span>
                 </li>
               </ul>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed mb-4">
                 Programs like <Link href="/companies/home-business-academy" className="text-amber-600 hover:underline font-medium">Home Business Academy</Link> pay 80% recurring commissions ($128/month per customer). That means 24 customers = $3,072/month in genuine residual income—without building or managing a team.
+              </p>
+              <p className="text-gray-700 leading-relaxed">
+                Another strong example: <Link href="/companies/kajabi-platform" className="text-amber-600 hover:underline font-medium">Kajabi&apos;s Partner Program</Link> pays 30% recurring on their $89-399/month SaaS plans — that&apos;s $26-120/month per referral, 4-20x higher than typical MLM per-customer residuals. See our <Link href="/compensation-plan/kajabi-platform" className="text-amber-600 hover:underline font-medium">full Kajabi comp plan breakdown</Link>.
               </p>
             </section>
 

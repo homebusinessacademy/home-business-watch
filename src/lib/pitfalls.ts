@@ -1554,6 +1554,52 @@ export const pitfallsData: PitfallData[] = [
     bottomLine: 'Unicity International\'s undisclosed compensation plan is the primary concern — you cannot fully evaluate the opportunity without knowing the exact commission structure. Premium product pricing makes retail sales challenging. The auto-order recommendation creates ongoing costs that may exceed your commissions.',
     policyUrl: 'https://unicity.com/usa/en/opportunity',
   },
+  {
+    companySlug: 'kajabi-platform',
+    companyName: 'Kajabi Partner Program',
+    lastUpdated: '2026-03-22',
+    overallRisk: 'low',
+    riskReason: 'SaaS affiliate program (not MLM) with clear terms, but has inactivity cliff and requires active subscription to participate.',
+    pitfalls: [
+      {
+        category: 'Eligibility',
+        severity: 'medium',
+        title: 'Must be an active paying Kajabi subscriber to participate',
+        details: 'Unlike many affiliate programs, Kajabi requires you to be an active paying customer ($89-399/month) to join and maintain partner status. If you cancel your Kajabi subscription, you lose access to the partner program and your commissions.',
+        sourceNote: 'Kajabi Partner Program FAQ (help.kajabi.com/en/articles/12696571-kajabi-partner-program-faq)',
+      },
+      {
+        category: 'Inactivity Cliff',
+        severity: 'high',
+        title: '12-month inactivity cliff: 3 new referrals required per year',
+        details: 'Partners must generate at least 3 new referrals every 12 months to maintain commission eligibility. If you fail to meet this threshold, you lose your partner status and — critically — any grandfathered 30% commission rate. Rejoining puts you on the tiered structure for new partners.',
+        sourceNote: 'Kajabi Partner Program FAQ (help.kajabi.com/en/articles/12696571-kajabi-partner-program-faq)',
+      },
+      {
+        category: 'Payout',
+        severity: 'medium',
+        title: '60-day payout delay on all commissions',
+        details: 'Kajabi holds commissions for approximately 60 days before payout. Payments are processed monthly around the 19th-23rd. This delay means you won\'t see income from new referrals for 2+ months.',
+        sourceNote: 'Kajabi Partner Program FAQ (help.kajabi.com/en/articles/12696571-kajabi-partner-program-faq)',
+      },
+      {
+        category: 'Commission Structure',
+        severity: 'medium',
+        title: 'New partners on tiered structure — not automatic 30% rate',
+        details: 'Legacy partners are grandfathered at 30% flat recurring commission. New partners start on a tiered structure where commission rates increase as referral count grows. The exact tier thresholds are not publicly documented, which creates uncertainty about actual earnings.',
+        sourceNote: 'Kajabi Partner Program FAQ (help.kajabi.com/en/articles/12696571-kajabi-partner-program-faq)',
+      },
+      {
+        category: 'Cookie Duration',
+        severity: 'low',
+        title: 'Cookie duration not specified in official documentation',
+        details: 'Kajabi\'s official partner program FAQ does not specify the cookie/attribution window duration. This matters because if a prospect clicks your link but doesn\'t sign up immediately, you may not receive credit if they sign up later.',
+        sourceNote: 'Kajabi Partner Program FAQ — cookie duration not documented',
+      },
+    ],
+    bottomLine: 'Kajabi is a legitimate SaaS affiliate program (not MLM) with strong per-referral earnings ($26-120/month). The main pitfalls are the subscription requirement to participate, the 12-month inactivity cliff, and the 60-day payout delay. Unlike MLMs, there\'s no autoship, no downline drama, and no complex rank requirements.',
+    policyUrl: 'https://help.kajabi.com/en/articles/12696571-kajabi-partner-program-faq',
+  },
 ];
 
 // Helper to get pitfalls data by company slug

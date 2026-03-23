@@ -27,6 +27,7 @@ export interface Company {
   created_at: string;
   tagline?: string;
   faq?: FAQ[];
+  metaDescription?: string;
 }
 
 export interface CompanyUpdate {

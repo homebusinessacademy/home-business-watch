@@ -1333,50 +1333,61 @@ export const companiesBatchC4b: Company[] = [
     founded_year: 2010,
     hq_location: "Irvine, California",
     website: "https://kajabi.com",
-    products_summary: "Premium all-in-one platform for knowledge entrepreneurs combining courses, community, email marketing, websites, and sales funnels.",
-    monthly_cost_min: 149,
+    products_summary: "Premium all-in-one platform for knowledge entrepreneurs combining courses, community, email marketing, websites, and sales funnels. Partner program pays 30% recurring commissions ($26-120/month per referral) — significantly higher than typical MLM per-customer residuals.",
+    monthly_cost_min: 89,
     monthly_cost_max: 399,
-    comp_plan_type: "subscription",
-    overall_rating: 4.4,
-    residual_rating: 4.2,
-    simplicity_rating: 3.8,
-    transparency_rating: 4.2,
+    comp_plan_type: "SaaS affiliate (30% recurring)",
+    overall_rating: 4.5,
+    residual_rating: 4.8,
+    simplicity_rating: 4.5,
+    transparency_rating: 4.3,
     community_rating: 4.5,
-    value_rating: 4.0,
+    value_rating: 4.2,
     pros: [
-      "Complete business platform - no other tools needed",
-      "Professional design and features",
-      "Strong email marketing and automation",
-      "Community and coaching built-in",
-      "No transaction fees",
-      "Excellent support and Kajabi University"
+      "$26-120/month per referral — 4-20x higher than typical MLM per-customer residual",
+      "True recurring commissions (as long as referral stays subscribed)",
+      "No downline, no recruitment requirements, no autoship",
+      "Single-tier: you earn on YOUR referrals only (no complexity)",
+      "Premium product with strong retention (less churn)",
+      "Complete business platform means referrals stay longer"
     ],
     cons: [
-      "Expensive compared to alternatives",
-      "Steep learning curve for all features",
-      "Overkill for simple course needs"
+      "Must be an active paying Kajabi subscriber to participate",
+      "12-month inactivity cliff: need 3 new referrals/year or lose eligibility",
+      "60-day payout delay on commissions",
+      "Tiered structure for new partners (legacy 30% rate grandfathered)",
+      "High product price ($89-399/mo) limits target audience"
     ],
     quick_facts: {
-      "Kickstarter": "$149/month",
-      "Basic": "$199/month",
-      "Growth": "$399/month",
-      "Transaction Fees": "0%",
-      "Founded": "2010",
-      "Features": "Courses, email, sites, community"
+      "Basic Plan": "$89/month",
+      "Growth Plan": "$199/month",
+      "Pro Plan": "$399/month",
+      "Commission": "30% recurring (tiered for new partners)",
+      "Per-Referral Income": "$26.70-$119.70/month",
+      "Payout Schedule": "Monthly, 60-day delay"
     },
-    last_updated: "2026-03-20",
+    last_updated: "2026-03-22",
     is_featured: false,
     is_published: true,
     created_at: "2026-03-20T00:00:00Z",
-    tagline: "Premium all-in-one knowledge business platform",
+    tagline: "$26-120/month per referral — real recurring SaaS affiliate income",
+    metaDescription: "Thinking about Kajabi's affiliate program? We broke down the actual per-referral residual ($26-120/mo), what happens if you go inactive, and how it compares to typical MLM income.",
     faq: [
       {
-        question: "Is Kajabi worth the price?",
-        answer: "If you need courses, email marketing, websites, and community in one platform, Kajabi can replace $500+/month in separate tools. Worth it for serious course creators."
+        question: "How much do Kajabi affiliates earn per referral?",
+        answer: "Kajabi pays 30% recurring commission. With plans at $89-$399/month, partners earn $26.70-$119.70/month per active referral for as long as they remain subscribed. This is 4-20x higher than typical MLM per-customer residuals."
       },
       {
-        question: "Can beginners use Kajabi?",
-        answer: "Yes, but there's a learning curve. Kajabi University provides excellent training. Start with the Kickstarter plan and grow into the platform."
+        question: "Is Kajabi an MLM?",
+        answer: "No. Kajabi is a SaaS affiliate program, not an MLM. You earn only on your direct referrals — there's no downline, no recruitment requirements, and no team building. Single-tier, straightforward commissions."
+      },
+      {
+        question: "What's the catch with Kajabi's partner program?",
+        answer: "You must be an active paying Kajabi customer to participate. There's also a 12-month inactivity cliff: you need to generate 3 new referrals per year or you lose commission eligibility. Payouts have a 60-day delay."
+      },
+      {
+        question: "How does Kajabi compare to MLM income?",
+        answer: "Kajabi's $26-120/month per referral crushes typical MLM per-customer residuals ($3-14/month). With 25 Kajabi referrals on the Basic plan, you'd earn ~$667/month. Reaching that income in most MLMs requires hundreds of customers and a downline."
       }
     ]
   },

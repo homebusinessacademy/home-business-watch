@@ -30,9 +30,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ? `Earn ~$${compPlan.directCustomerResidual}/customer/month.`
     : 'Commission varies by rank.';
 
+  const defaultDescription = `${compPlan.companyName} comp plan broken down simply. ${residualText} See how much you really earn per customer, team size needed for $1K-$10K/month, and key gotchas.`;
+
   return {
     title: `${compPlan.companyName} Compensation Plan Explained (${new Date().getFullYear()})`,
-    description: `${compPlan.companyName} comp plan broken down simply. ${residualText} See how much you really earn per customer, team size needed for $1K-$10K/month, and key gotchas.`,
+    description: compPlan.metaDescription || defaultDescription,
     openGraph: {
       title: `${compPlan.companyName} Compensation Plan Explained (${new Date().getFullYear()})`,
       description: `Simple breakdown of ${compPlan.companyName} earnings: ${residualText}`,

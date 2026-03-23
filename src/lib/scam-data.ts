@@ -403,6 +403,21 @@ export const scamData: ScamData[] = [
     legalRecord: 'Long operating history with no major regulatory fraud actions. Company has roots dating back to 1950s through predecessor companies. Operates in multiple countries with established regulatory presence.',
     verdict: 'Unicity International is not a scam — the long company history and real products confirm legitimacy. The concern is the undisclosed compensation plan, which makes it impossible to fully evaluate whether the opportunity math works. Premium pricing may also limit retail sales potential.',
   },
+  {
+    companySlug: 'kajabi-platform',
+    companyName: 'Kajabi',
+    isActualScam: false,
+    directAnswer: 'No, Kajabi is not a scam. It\'s a legitimate SaaS company (course platform) founded in 2010 with a standard affiliate program. Unlike MLMs, there\'s no multi-level structure, no recruitment requirements, and no questionable business practices. It\'s used by thousands of course creators and has a solid reputation in the knowledge commerce industry.',
+    topComplaints: [
+      { complaint: 'Must be a paying Kajabi customer ($89-399/month) to join the partner program', verdict: 'business_model' },
+      { complaint: '12-month inactivity cliff requires 3 new referrals/year or you lose partner status', verdict: 'legitimate_concern' },
+      { complaint: '60-day payout delay on commissions', verdict: 'business_model' },
+      { complaint: 'High product price ($89-399/month) limits the target audience for referrals', verdict: 'business_model' },
+      { complaint: 'New partners on tiered structure, not automatic 30% rate', verdict: 'legitimate_concern' },
+    ],
+    legalRecord: 'No regulatory actions, FTC investigations, or fraud charges. Kajabi is a legitimate SaaS company that has operated since 2010. It\'s not an MLM and has never faced the pyramid scheme scrutiny that MLMs encounter.',
+    verdict: 'Kajabi is not a scam — it\'s a legitimate software company with a standard affiliate program. The complaints are about business model choices (subscription requirement to be a partner, inactivity cliff, payout delay), not fraud. At $26-120/month per referral with no recruitment requirements, it\'s actually a stronger income opportunity than most MLMs.',
+  },
 ];
 
 // Helper to get scam data by slug

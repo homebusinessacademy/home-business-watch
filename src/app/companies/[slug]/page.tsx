@@ -30,9 +30,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const defaultDescription = `Honest ${company.name} review with ${company.overall_rating}/5 rating. ${company.products_summary} Costs $${company.monthly_cost_min || 0}-${company.monthly_cost_max || 0}/mo. Read pros, cons, and real user reviews.`.replace('Costs $0-0/mo. ', '');
+
   return {
     title: `${company.name} Review ${new Date().getFullYear()} - Is It Worth It?`,
-    description: `Honest ${company.name} review with ${company.overall_rating}/5 rating. ${company.products_summary} Costs $${company.monthly_cost_min || 0}-${company.monthly_cost_max || 0}/mo. Read pros, cons, and real user reviews.`.replace('Costs $0-0/mo. ', ''),
+    description: company.metaDescription || defaultDescription,
     openGraph: {
       title: `${company.name} Review ${new Date().getFullYear()} - Is It Worth It?`,
       description: `Honest ${company.name} review with ${company.overall_rating}/5 rating. Read our complete analysis.`,
