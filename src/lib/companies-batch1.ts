@@ -40,14 +40,13 @@ export const companiesBatch1: Company[] = [
     quick_facts: {
       'Founded': '1984',
       'Headquarters': 'Provo, Utah, USA',
-      'Business Model': 'Multi-level marketing',
+      'Business Model': 'Multi-level Stairstep Breakaway',
       'Stock': 'NYSE: NUS (publicly traded)',
       '2024 Revenue': '$1.73 billion (down 12%)',
       '2025 Guidance': '$1.48-1.62 billion',
       'FTC Settlement': '$47M settlement (1997)',
       'Active Distributors': '~825,000 globally',
-      'Comp Plan Update': 'November 2024 restructure',
-      'Business Model': 'Multi-level Stairstep Breakaway'
+      'Comp Plan Update': 'November 2024 restructure'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
@@ -286,7 +285,6 @@ export const companiesBatch1: Company[] = [
     quick_facts: {
       'Founded': '2008',
       'Headquarters': 'Pleasant Grove, Utah',
-      'Business Model': 'Multi-level marketing',
       'Business Model': 'Multi-level unilevel structure',
       'Entry-Level Earnings': 'Manager-Executive avg up to $1,600/yr',
       'Monthly Requirement': '100 PV (~$150-200) for residual income',
@@ -347,7 +345,6 @@ export const companiesBatch1: Company[] = [
     quick_facts: {
       'Founded': '1993',
       'Headquarters': 'Lehi, Utah',
-      'Business Model': 'Multi-level marketing',
       'Business Model': 'Unilevel with generation commissions',
       'FTC Action': 'Warning letter for COVID-19 claims (2020)',
       'Monthly Requirement': 'Essential Rewards 100 PV (~$100-150)',

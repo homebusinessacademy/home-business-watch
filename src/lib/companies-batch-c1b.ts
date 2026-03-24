@@ -547,7 +547,6 @@ export const companiesBatchC1b: Company[] = [
       "Headquarters": "New Delhi, India",
       "Market": "Primarily India/Asia",
       "Distributors": "Millions claimed",
-      "Products": "Health, personal care, home",
       "Products": "Health, personal care, home"
     },
     last_updated: "2026-03-20",
@@ -660,8 +659,7 @@ export const companiesBatchC1b: Company[] = [
       "Headquarters": "Salt Lake City, UT",
       "Product Focus": "Glutathione supplements",
       "Flagship": "Cellgevity, MaxONE",
-      "Price Range": "$60-120/month",
-      "Flagship": "Cellgevity, MaxONE"
+      "Price Range": "$60-120/month"
     },
     last_updated: "2026-03-20",
     is_featured: false,

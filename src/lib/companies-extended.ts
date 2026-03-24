@@ -157,9 +157,8 @@ export const extendedCompanies: Company[] = [
     quick_facts: {
       'Founded': '1977',
       'Headquarters': 'Duluth, Georgia',
-      'Stock Ticker': 'NYSE: PRI',
-      'Startup Fee': '$99 USD',
-      'Stock Ticker': 'NYSE: PRI (since 2010)'
+      'Stock Ticker': 'NYSE: PRI (since 2010)',
+      'Startup Fee': '$99 USD'
     },
     faq: [
       {
@@ -509,9 +508,8 @@ export const extendedCompanies: Company[] = [
     quick_facts: {
       'Founded': '2002',
       'Headquarters': 'Chandler, Arizona',
-      'Business Model': 'Multi-level marketing',
-      'Monthly Products': '~$100–$300 to stay active',
-      'Business Model': 'Multi-level marketing with binary cycles'
+      'Business Model': 'Multi-level marketing with binary cycles',
+      'Monthly Products': '~$100–$300 to stay active'
     },
     faq: [
       {
@@ -3816,7 +3814,6 @@ export const extendedCompanies: Company[] = [
     quick_facts: {
       'Founded': '2011',
       'Headquarters': 'American Fork, Utah',
-      'BBB Status': 'National Programs monitoring (2025)',
       'BBB Status': 'Government referral 2025 for income claim issues',
       'Products': 'Seed-based antioxidant supplements'
     },
