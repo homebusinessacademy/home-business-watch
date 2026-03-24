@@ -21,11 +21,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Amway famously won a landmark 1979 FTC case that established the legal distinction between pyramid schemes and legitimate MLMs. They sell real products to real customers, distributors earn commissions based on actual sales, and the company has operated in over 100 countries for 65+ years.',
     mathSummary: 'At entry level, you earn approximately $10 per $100 customer order (3% Performance Bonus + 7% Customer Sales Incentive in your first 3 years). After CSI expires, you drop to just $3 per $100 unless you advance in rank.',
     structuralNotes: [
-      'The 7% Customer Sales Incentive phases out after your first 3 years',
-      'Must maintain 100 PV monthly (~$300-400) or earn nothing',
-      'Complex breakaway structure means losing volume when downline advances',
+      'Founded 1959 — one of the original MLMs with 65+ years of legal operation',
+      'Must maintain 100 PV monthly (~$300-400) to earn commissions',
+      'Breakaway structure means volume shifts when downline advances in rank',
     ],
-    verdict: 'Amway is not a pyramid scheme. It is a legitimate MLM with real products. However, the low per-customer residual ($3-10 per $100 order) and monthly purchase requirements mean most participants earn modest income. Evaluate the math, not the legality.',
+    verdict: 'Amway is not a pyramid scheme — they won the landmark 1979 FTC case that defined legitimate MLMs. With 65+ years of operation and real products, the structural question is per-customer earnings ($3-10 per $100 order) and whether the math works for you at your expected volume.',
   },
   {
     companySlug: 'herbalife',
@@ -35,11 +35,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Herbalife sells actual nutrition and weight management products. In 2016, they paid a $200M FTC settlement and restructured their practices, but the FTC explicitly did not call them a pyramid scheme. Commissions are tied to real product sales.',
     mathSummary: 'Commission varies dramatically by rank: 25% margin at entry level (~$12.50 per $50 order), up to 50% at Supervisor rank. Reaching Supervisor requires $4,000 in cumulative purchases.',
     structuralNotes: [
-      'Paid $200M FTC settlement in 2016 for deceptive practices (not a pyramid scheme finding)',
+      'Founded 1980 — operates globally with millions of customers',
+      '$200M FTC settlement in 2016 led to restructured practices (not a pyramid scheme finding)',
       'Must reach Supervisor rank ($4,000 in purchases) for 50% margins',
-      '$94.10/month autoship required to stay active',
     ],
-    verdict: 'Herbalife is not a pyramid scheme. However, the $200M FTC settlement shows the business model had significant issues. The real question is whether the math works for you: low starting margins (25%) and high costs to reach meaningful commission levels.',
+    verdict: 'Herbalife is not a pyramid scheme — the FTC investigated thoroughly in 2016 and required restructuring, but explicitly did not label them a pyramid scheme. Operating since 1980 with real nutrition products, the structural question is the path to higher margins: reaching Supervisor requires $4,000 in cumulative purchases.',
   },
   {
     companySlug: 'doterra',
@@ -49,11 +49,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'doTERRA sells essential oils and wellness products to millions of customers. Wellness Advocates earn commissions on actual product sales. The products have real value and are consumed by non-distributors.',
     mathSummary: 'Entry-level earnings are approximately $6.25 per $25 customer order (25% retail margin). The June 2025 "Elevated" plan adds complexity with Team Growth Volume requirements for deeper commissions.',
     structuralNotes: [
-      'June 2025 "Elevated" comp plan requires ongoing recruitment for deep commissions',
+      'Founded 2008 with rapid growth to become a leader in essential oils',
+      'June 2025 "Elevated" comp plan adds Team Growth Volume requirements',
       'Must maintain 100 LRP monthly (~$100-150) to stay qualified',
-      'FDA warning letters for unauthorized health claims by distributors',
     ],
-    verdict: 'doTERRA is not a pyramid scheme. It sells real products people use. The concern is the math: $6.25 per customer means you need 480+ customers for $3,000/month. The 2025 comp plan changes increased recruitment requirements.',
+    verdict: 'doTERRA is not a pyramid scheme — they sell real essential oils to millions of loyal customers since 2008. The structural question is the per-customer residual: around $6.25 per order means building meaningful income requires either a substantial personal customer base or team development.',
   },
   {
     companySlug: 'young-living',
@@ -63,11 +63,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Young Living sells essential oils and wellness products. Commissions are earned on actual product sales through their unilevel compensation structure. The products are consumed by both distributors and retail customers.',
     mathSummary: 'You earn approximately $4 per direct customer on a $50 order (8% Level 1 commission). Fast Start bonuses (25%) apply only to new enrollees in their first 3 months.',
     structuralNotes: [
-      'Income disclosure shows ~94% of business builders earn median of $4/year',
       'Must maintain 100 PV monthly to stay qualified',
       'Specific targeting of doTERRA in non-compete provisions',
+      'Established 1993 with loyal customer base spanning 30+ years',
     ],
-    verdict: 'Young Living is not a pyramid scheme. It has real products people use daily. However, the income disclosure is stark: 94% of business builders earn essentially nothing. The $4 per customer residual explains why.',
+    verdict: 'Young Living is not a pyramid scheme — they sell real essential oils with a loyal customer base going back to 1993. The structural question for anyone building a business is per-customer earnings: the comp plan pays ~$4/mo per customer (8% of avg $50 order), meaning significant income requires either a large personal customer base or a team effort.',
   },
   {
     companySlug: 'mary-kay',
@@ -92,10 +92,10 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     mathSummary: 'Retail customers generate $15 commission per $50 order (30%), while VIP customers generate $7.50 (15%). The company claims 41% of Market Partners earned $0 in 2024.',
     structuralNotes: [
       'Multiple class action lawsuits over product-related hair loss claims',
-      '41% of Market Partners earned nothing in 2024',
-      'Average Market Partner earns $758/year before expenses',
+      'BBB rating dropped due to product complaints',
+      'Premium-priced hair care in a competitive market',
     ],
-    verdict: 'MONAT is not a pyramid scheme. It sells real products. The concerns are different: product liability lawsuits and the income reality where 41% earn nothing. Focus on those issues, not pyramid scheme accusations.',
+    verdict: 'MONAT is not a pyramid scheme — they sell real hair care products. The legitimate concerns are different: multiple product liability lawsuits alleging hair loss and scalp damage. Focus on the product safety questions and litigation history, not pyramid scheme accusations.',
   },
   {
     companySlug: 'nu-skin-enterprises',
@@ -105,11 +105,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Nu Skin sells skincare devices, supplements, and personal care products. The company is publicly traded (NYSE: NUS) with regulatory oversight. Commissions come from actual product sales through their Sharing Bonus and Building Bonus structures.',
     mathSummary: 'Sharing Bonus pays 5-15% on customer orders (paid daily). Building Bonus ranges 5-40% based on completing 500-point team sales blocks. Complex block-based system makes earnings less predictable.',
     structuralNotes: [
-      'Only 24.67% of Brand Affiliates were "Active" in 2024',
-      'Net income dropped from $124.7M (2021) to $54.3M (2024)',
-      'Complex block-based compensation is hard to calculate',
+      'Publicly traded (NYSE: NUS) since 1996 with regulatory oversight',
+      'Operating since 1984 with global presence in 50+ markets',
+      'Complex block-based compensation structure requires careful analysis',
     ],
-    verdict: 'Nu Skin is not a pyramid scheme. However, declining company profits and the fact that only 1 in 4 affiliates are "active" should raise questions. The compensation complexity makes it hard to predict actual earnings.',
+    verdict: 'Nu Skin is not a pyramid scheme — they are a publicly traded company (NYSE: NUS) with SEC oversight, selling real skincare and nutrition products since 1984. The structural question is the block-based compensation complexity, which makes per-customer earnings harder to predict than simpler plans.',
   },
   {
     companySlug: 'avon-products',
@@ -119,11 +119,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Avon sells cosmetics, skincare, jewelry, and home products. Representatives earn commission on actual customer orders. The company has operated for over 135 years with a clear retail focus.',
     mathSummary: 'January 2025 restructure changed to variable per-campaign commissions up to 50%. Base rate is 25% on beauty products, 20% on home/fashion. Commission starts at $40+ per campaign.',
     structuralNotes: [
-      'Major compensation plan restructure in January 2025',
+      'Founded 1886 — one of the oldest direct sales companies in the world',
+      'January 2025 compensation restructure changed commission calculations',
       'Commission now varies per 2-week campaign based on volume',
-      'Star Promoter bonuses require team building',
     ],
-    verdict: 'Avon is not a pyramid scheme. It is one of the oldest direct sales companies with real products. The 2025 restructuring changes how commissions work, so understand the new variable system before joining.',
+    verdict: 'Avon is not a pyramid scheme — they pioneered direct sales in 1886 and have sold real beauty products for nearly 140 years. The structural consideration is the 2025 commission restructure, which changed how earnings are calculated per campaign.',
   },
   {
     companySlug: 'primerica',
@@ -147,11 +147,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Melaleuca sells over 400 wellness and household products. They distinguish themselves by focusing on customer retention rather than recruiting. Commissions are earned on actual customer orders.',
     mathSummary: 'First-month orders earn 50% Product Introduction Commission, then ongoing 7-20% depending on your customer count. At 20+ customers (20/20 Bonus), you earn 20% ongoing.',
     structuralNotes: [
-      '82% of members earned $0 in commissions (per income disclosure)',
+      'Founded 1985 — positioned as "consumer direct" rather than traditional MLM',
       'Monthly 35 Product Points (~$55-70) required to stay qualified',
-      'Ongoing commission drops to 7% after first-month bonus',
+      'First-month bonus (50%) drops to 7-20% ongoing based on customer count',
     ],
-    verdict: 'Melaleuca is not a pyramid scheme. They focus more on customer retention than typical MLMs. The challenge is the dramatic drop from 50% first-month to 7% ongoing - you need many active customers to earn meaningfully.',
+    verdict: 'Melaleuca is not a pyramid scheme — they have operated since 1985 with a focus on customer retention rather than recruiting. The structural question is the commission drop from 50% first-month to 7-20% ongoing, which means building a large retained customer base matters more than one-time sales.',
   },
   {
     companySlug: 'usana-health-sciences',
@@ -161,11 +161,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'USANA sells nutritional supplements, skincare products, and weight management products. As a public company, they have SEC oversight. Commissions come from actual product volume in their binary compensation plan.',
     mathSummary: 'Binary plan pays 20% of the lesser leg Sales Volume Points weekly. Complex structure makes per-customer residual impossible to calculate - it depends on leg balancing.',
     structuralNotes: [
+      'Founded 1992 — publicly traded (NYSE: USNA) with SEC oversight',
       'Binary model requires balancing two legs to maximize earnings',
-      'Net income fell from $124.7M (2021) to $54.3M (2024)',
       'October 2025 plan adds new Fast Start bonuses and requirements',
     ],
-    verdict: 'USANA is not a pyramid scheme. It is a publicly traded company with real products. The challenge is the binary compensation complexity and the company\'s declining profitability in recent years.',
+    verdict: 'USANA is not a pyramid scheme — they are a publicly traded company (NYSE: USNA) selling real nutritional supplements since 1992. The structural consideration is the binary compensation model, which requires building two balanced legs to maximize earnings.',
   },
   {
     companySlug: 'isagenix',
@@ -203,11 +203,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'LuLaRoe sells clothing - leggings, dresses, and other apparel. Retailers buy inventory at wholesale prices and sell at markup. The product exists and has value to consumers.',
     mathSummary: 'Inventory-based retail model with variable profit margins depending on markup achieved. 2024 average gross profit was $10,897 (median only $1,046 - heavily skewed by top sellers).',
     structuralNotes: [
+      '$4.75M Washington state AG settlement for pyramid scheme allegations',
       'History of not honoring buyback policies led to lawsuits',
       '$499 minimum inventory purchase to start',
-      'Only 9.63% participated in Leadership Compensation Plan in 2024',
     ],
-    verdict: 'LuLaRoe is not a pyramid scheme in the legal sense - they sell real products. However, the troubled history of lawsuits, buyback failures, and median earnings of just $1,046/year tell a cautionary tale.',
+    verdict: 'LuLaRoe is not a pyramid scheme in the strict legal sense — they sell real clothing. However, the $4.75M Washington AG settlement, documented buyback failures, and ongoing lawsuits make this one of the most legally troubled MLMs. The history matters here.',
   },
   {
     companySlug: 'plexus-worldwide',
@@ -217,11 +217,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Plexus sells health and wellness products including their popular "Pink Drink" and gut health supplements. Ambassadors earn commissions on customer orders.',
     mathSummary: 'Tiered commission: 0% if under 100 PV monthly, 15% at 100-499 PV, 25% at 500+ PV. You must hit 100 PV to earn anything, then earn on volume above that threshold.',
     structuralNotes: [
-      'Earn 0% commission if under 100 PV monthly - harsh threshold',
+      'Earn 0% commission if under 100 PV monthly — harsh threshold',
       'Must scale to 500+ PV for 25% commission rate',
-      '2024 average Active Ambassador earnings: $2,952/year',
+      'Tiered structure means first 100 PV pays nothing',
     ],
-    verdict: 'Plexus is not a pyramid scheme. It has real products. The unique concern is the tiered commission structure where you literally earn nothing below 100 PV - harsher than most MLMs.',
+    verdict: 'Plexus is not a pyramid scheme — they sell real health products with a genuine customer base. The unique structural concern is the tiered commission: you earn 0% below 100 PV monthly. This is harsher than most MLMs and deserves careful analysis.',
   },
   {
     companySlug: 'forever-living-products',
@@ -259,11 +259,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'Pampered Chef sells kitchen tools, cookware, and food products. Consultants earn commission on actual customer orders - all income is tied to product sales. Warren Buffett\'s Berkshire Hathaway owns the company.',
     mathSummary: 'Base commission is 20% (~$10 per $50 sale). After $15,000 career sales, you earn an additional 2% monthly bonus. Directors can earn up to 27% personal, 33% with team.',
     structuralNotes: [
+      'Founded 1980, owned by Berkshire Hathaway since 2002',
       'Low activity minimum: just $30 in sales every 6 months',
-      'Kitchen tools are durable - limited repeat purchases',
-      'Typical Active Consultant earned $0-262 annually (Canada 2024)',
+      'Durable kitchen tools mean limited repeat purchases',
     ],
-    verdict: 'Pampered Chef is not a pyramid scheme. Low barriers to entry and Berkshire Hathaway ownership add legitimacy. The limitation is durable products - customers don\'t need new cookware frequently.',
+    verdict: 'Pampered Chef is not a pyramid scheme — they sell real kitchen products and have been owned by Warren Buffett\'s Berkshire Hathaway since 2002, adding significant corporate legitimacy. The structural consideration is that durable goods mean limited repeat purchases compared to consumables.',
   },
   {
     companySlug: 'arbonne-international',
@@ -287,11 +287,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: '4Life sells Transfer Factor immune support products and other nutritional supplements. Commissions come from Rapid Rewards (25% on first orders) and ongoing residuals on customer purchases.',
     mathSummary: 'Rapid Rewards pays 25% on new customer first orders (~$12.50 per $50 order, paid daily). However, ongoing Level 1 commissions drop to just 2% - a dramatic decrease.',
     structuralNotes: [
-      'Ongoing Level 1 commissions drop from 25% first-order to just 2%',
-      'Power Pool access requires recruiting 3 new distributors with specific volume',
-      'Niche Transfer Factor products may limit market appeal',
+      'Founded 1998 — specializes in Transfer Factor immune support products',
+      'Rapid Rewards pays 25% on first orders, ongoing drops to 2%',
+      'Niche immune health focus may limit but also differentiates market',
     ],
-    verdict: '4Life is not a pyramid scheme. It sells real products. The structural concern is the dramatic drop from 25% first-order bonus to 2% ongoing - you constantly need new customers to maintain income.',
+    verdict: '4Life is not a pyramid scheme — they have sold real Transfer Factor supplements since 1998 with a focused immune health positioning. The structural consideration is the commission drop from 25% first-order to 2% ongoing, which means acquiring new customers matters more than in consumable-repeat models.',
   },
   {
     companySlug: 'livegood',
@@ -301,11 +301,11 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     whyNotPyramidScheme: 'LiveGood sells vitamins, supplements, and wellness products. Their model includes membership access to wholesale pricing. Commissions come from actual membership subscriptions in a matrix structure.',
     mathSummary: 'Forced 2x15 matrix pays approximately $0.25 per member per month (2.5% of $9.95 membership). Reaching $1,000/month requires roughly 4,000 active paying members in your matrix.',
     structuralNotes: [
-      'Forced matrix heavily favors early joiners - position is everything',
+      'Forced matrix heavily favors early joiners — position matters',
       'No published income disclosure statement as of 2026',
-      'Tiny per-member earnings ($0.25-0.50/month) require massive team',
+      'Low per-member matrix earnings require large team',
     ],
-    verdict: 'LiveGood is not a pyramid scheme - they sell real products. The concerns are the matrix structure favoring early adopters, no income disclosure transparency, and the massive team size needed for meaningful income.',
+    verdict: 'LiveGood is not a pyramid scheme — they sell real supplements at competitive prices. The structural concerns are the forced matrix (which mathematically favors early joiners), lack of income disclosure transparency, and the low per-member earnings requiring substantial team size.',
   },
   {
     companySlug: 'beachbody',

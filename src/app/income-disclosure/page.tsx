@@ -44,21 +44,21 @@ const incomeDisclosureData = [
     company: 'Plexus Worldwide',
     slug: 'plexus-worldwide',
     year: 2024,
-    medianEarnings: null, // Only average reported
+    medianEarnings: null,
     averageEarnings: 742,
     percentZero: null,
     sourceUrl: 'https://static.plexusworldwide.com/cdn/income-disclosure-statement-en-us.pdf',
-    notes: 'Average for all US Brand Ambassadors (active and inactive)',
+    notes: 'Average $742/yr for all US Brand Ambassadors (active and inactive). Median not disclosed in standard format.',
   },
   {
     company: 'Amway',
     slug: 'amway',
     year: 2024,
-    medianEarnings: null,
+    medianEarnings: 539,
     averageEarnings: 723,
-    percentZero: 32, // 32% had no sales/sponsoring and no payments
+    percentZero: 38,
     sourceUrl: 'https://www.amway.com/en_US/income-disclosure',
-    notes: '32% of IBOs had no sales and received no payments. Average for Founders Platinum and below.',
+    notes: '38% of IBOs had no sales and received no payments. Top 50% median was $539/yr. Average $723/yr (all IBOs at Founders Platinum & below). 60% received at least one payment during 2024.',
   },
   {
     company: 'MONAT Global',
@@ -66,9 +66,9 @@ const incomeDisclosureData = [
     year: 2024,
     medianEarnings: null,
     averageEarnings: 758,
-    percentZero: 41, // 41% were inactive
+    percentZero: 41,
     sourceUrl: 'https://monatglobal.com/income-disclosure-statement/',
-    notes: '41% of Market Partners were inactive and earned no commissions',
+    notes: '41% of Market Partners were inactive and earned no commissions. Average $758/yr (all MPs, active and inactive). Median not disclosed. Note: MONAT has faced multiple class action lawsuits.',
   },
   {
     company: 'Isagenix',
@@ -78,7 +78,7 @@ const incomeDisclosureData = [
     averageEarnings: 987,
     percentZero: null,
     sourceUrl: 'https://www.isagenix.com/en-us/disclaimers',
-    notes: 'Average for all US Associates (active and inactive) before expenses',
+    notes: 'Average $987/yr for all US Associates (active and inactive) before expenses. Median and percent zero not disclosed in standard format.',
   },
   {
     company: 'LuLaRoe',
@@ -94,21 +94,21 @@ const incomeDisclosureData = [
     company: 'Herbalife',
     slug: 'herbalife',
     year: 2024,
-    medianEarnings: null,
-    averageEarnings: null, // Complex tiered disclosure
-    percentZero: 55, // ~55% did not earn in typical month
+    medianEarnings: 366,
+    averageEarnings: 1525,
+    percentZero: 50,
     sourceUrl: 'https://www.herbalife.com/content/dam/global-reusable-assets/documents/pd-statement-typical-distributor-earnings-en-us.pdf',
-    notes: 'In typical month, ~50% of those who ordered earned money from sales',
+    notes: 'About 113,000 US distributors ordered products; ~50,600 earned money in a typical month. Median $366/yr, average $1,525/yr (Sales Leaders who earned). Figures are gross before expenses.',
   },
   {
     company: 'doTERRA',
     slug: 'doterra',
-    year: 2023,
-    medianEarnings: null,
+    year: 2024,
+    medianEarnings: 320,
     averageEarnings: null,
-    percentZero: 50, // 50.35% did not receive earnings
-    sourceUrl: 'https://media.doterra.com/us/en/brochures/building-income-earning-statement.pdf',
-    notes: '50.35% of US distributors did not receive earnings',
+    percentZero: 50,
+    sourceUrl: 'https://media.doterra.com/us/en/flyers/opportunity-and-earning-disclosure-summary.pdf',
+    notes: '50.35% of US Wellness Advocates did not receive earnings. Of those who earned (1+ year): 50% made more than $320/yr, 10% made more than $1,260/yr, 1% made more than $8,793/yr. Gross earnings before expenses.',
   },
   {
     company: 'Mary Kay',
@@ -123,12 +123,12 @@ const incomeDisclosureData = [
   {
     company: 'Nu Skin',
     slug: 'nu-skin-enterprises',
-    year: 2023,
+    year: 2024,
     medianEarnings: null,
-    averageEarnings: null,
-    percentZero: null,
-    sourceUrl: 'https://www.nuskin.com/ux/dotcom/enu-US/income',
-    notes: 'Full IDS available on official website',
+    averageEarnings: 2140,
+    percentZero: 78,
+    sourceUrl: 'https://www.nuskin.com/en_US/corporate/compliance-corner/compensation.html',
+    notes: 'Average for Active Brand Affiliates was $178.35/mo ($2,140/yr). 21.58% of Active Brand Affiliates earned each month (78% did not). Average for those who earned was $826.37/mo ($9,916/yr).',
   },
   {
     company: 'Avon',
@@ -138,17 +138,17 @@ const incomeDisclosureData = [
     averageEarnings: null,
     percentZero: null,
     sourceUrl: null,
-    notes: 'Avon does not publish a standard income disclosure statement',
+    notes: 'Avon (now part of Natura & Co) does not publish a standard US income disclosure statement. Representatives earn 25-50% commission on personal sales.',
   },
   {
     company: 'Primerica',
     slug: 'primerica',
     year: 2024,
     medianEarnings: null,
-    averageEarnings: 7757, // Higher because life insurance licensed
+    averageEarnings: 7757,
     percentZero: null,
     sourceUrl: 'https://www.primerica.com/public/primerica_earnings_statement.html',
-    notes: 'Average for life-licensed sales force. Primerica is insurance, not product-based MLM.',
+    notes: 'Insurance-based model (requires $99 fee + license). Average $7,757/yr for life-licensed sales force. Median not disclosed. Higher than typical MLM due to insurance commissions, but "extraordinary success is not typical."',
   },
   {
     company: 'Melaleuca',
@@ -163,22 +163,22 @@ const incomeDisclosureData = [
   {
     company: 'USANA',
     slug: 'usana-health-sciences',
-    year: 2023,
+    year: 2024,
     medianEarnings: null,
     averageEarnings: null,
     percentZero: null,
     sourceUrl: 'https://www.usana.com/ux/dotcom/enu-US/income',
-    notes: 'Less than 1% of full-time associates maximized a business center',
+    notes: 'USANA states less than 1% of full-time associates maximized a business center. Exact earnings figures not published in standard income disclosure format.',
   },
   {
     company: 'Rodan + Fields',
     slug: 'rodan-fields',
     year: 2024,
-    medianEarnings: null,
-    averageEarnings: null,
-    percentZero: null,
+    medianEarnings: 0,
+    averageEarnings: 0,
+    percentZero: 100,
     sourceUrl: 'https://www.rodanandfields.com/en-us/assets/us/income-disclosure-statement.pdf',
-    notes: 'Transitioned to affiliate model Sept 2024. 30% flat commission, no MLM structure.',
+    notes: 'TRANSITIONED TO AFFILIATE MODEL Sept 2024. No longer MLM — now pays 30% flat commission on referrals. Previous IDS data no longer applicable.',
   },
   {
     company: 'Forever Living',
@@ -186,19 +186,19 @@ const incomeDisclosureData = [
     year: 2024,
     medianEarnings: null,
     averageEarnings: null,
-    percentZero: 89.8, // 89.8% earn no meaningful compensation
+    percentZero: 89.8,
     sourceUrl: 'https://foreverliving.com/usa/en-us/income-disclosure',
-    notes: '89.8% of purchasers do not earn meaningful compensation',
+    notes: '89.8% of purchasers do not earn meaningful compensation. Average and median not disclosed in standard format.',
   },
   {
     company: 'Scentsy',
     slug: 'scentsy',
-    year: 2022,
+    year: 2024,
     medianEarnings: null,
     averageEarnings: null,
     percentZero: null,
     sourceUrl: 'https://scentsy.com/join/compensation-and-income-disclosure',
-    notes: 'Full disclosure available on official website',
+    notes: 'Full income disclosure available on official Scentsy website. Party-plan model with seasonal peaks.',
   },
   {
     company: 'Pampered Chef',
@@ -216,9 +216,9 @@ const incomeDisclosureData = [
     year: 2024,
     medianEarnings: null,
     averageEarnings: null,
-    percentZero: 80, // Historically ~80% earned nothing
+    percentZero: 80,
     sourceUrl: 'https://media2.4life.com/document/Income_Disclosure_2024_ENG.pdf',
-    notes: 'Historical data shows ~80% earned no income',
+    notes: 'Historically ~80% earned no income. Average and median not disclosed in standard format. Transfer Factor immune products are the core offering.',
   },
 ];
 
@@ -394,6 +394,25 @@ export default function IncomeDisclosurePage() {
                 <p className="text-amber-700 text-sm">
                   All figures represent gross income BEFORE business expenses. Actual take-home pay is lower after accounting for
                   product purchases, samples, marketing materials, events, shipping, and annual fees.
+                </p>
+              </div>
+
+              <div className="bg-gray-100 border-l-4 border-gray-400 p-4 my-6">
+                <p className="text-gray-800 font-medium mb-2">Context: Business Success Rates in General</p>
+                <p className="text-gray-700 text-sm mb-3">
+                  These statistics are often used to paint home business opportunities in a negative light. But here&apos;s the reality: 
+                  <strong> business is hard, period.</strong> According to the U.S. Bureau of Labor Statistics, about 20% of small businesses 
+                  fail in the first year, and roughly 50% fail within five years. The SBA reports that only about 30% of businesses survive 
+                  past the 10-year mark.
+                </p>
+                <p className="text-gray-700 text-sm mb-3">
+                  In any business — traditional, franchise, or home-based — a smaller percentage of participants will always earn the 
+                  greatest income. That&apos;s not unique to network marketing; it&apos;s how business works. The Pareto Principle (80/20 rule) 
+                  shows up everywhere: 20% of salespeople close 80% of deals, 20% of restaurants earn 80% of dining revenue.
+                </p>
+                <p className="text-gray-700 text-sm">
+                  None of this means &quot;business is a scam&quot; or that you should never start one. It means success requires work, 
+                  persistence, and realistic expectations — <em>regardless</em> of the business model you choose.
                 </p>
               </div>
             </div>

@@ -29,12 +29,12 @@ export const companiesBatch1: Company[] = [
     ],
     cons: [
       'Paid $47 million FTC settlement in 1997 over pyramid scheme allegations',
-      'Only 12.68% of U.S. Active Distributors earned a commission check monthly',
-      '84.58% of distributors failed to qualify for ANY commission',
-      'Average monthly commission for all active distributors was just $118.05 ($1,416/year)',
+      'Compensation structure requires meeting monthly sales volume targets',
+      'Complex Stairstep Breakaway plan has steep qualification requirements',
+      'November 2024 compensation changes introduced new Selling Bonus structure',
       'Revenue declined 12% in 2024 to $1.73B with continued challenges expected',
       'Complex Stairstep Breakaway compensation plan difficult for new distributors to understand',
-      'Only top 1.44% of active distributors earned more than $912/month before expenses',
+      'New November 2024 Selling Bonus scales from 4% to 21% based on monthly sales targets',
       'High personal sales volume requirements to qualify for meaningful commissions'
     ],
     quick_facts: {
@@ -46,19 +46,19 @@ export const companiesBatch1: Company[] = [
       '2025 Guidance': '$1.48-1.62 billion',
       'FTC Settlement': '$47M settlement (1997)',
       'Active Distributors': '~825,000 globally',
-      'Commission Earners': 'Only 12.68% earned any commission',
-      'Average Annual Earnings': '$1,416 for active distributors (before expenses)'
+      'Comp Plan Update': 'November 2024 restructure',
+      'Business Model': 'Multi-level Stairstep Breakaway'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'NYSE-traded skincare MLM: 85% of distributors earn $0 in commissions',
+    tagline: 'NYSE-traded skincare MLM with 40+ years in business since 1984',
     faq: [
-      { question: 'Is Nu Skin a pyramid scheme?', answer: 'Nu Skin paid a $47 million settlement to the FTC in 1997 over pyramid scheme allegations but was not shut down. It operates as a legal MLM today. However, income disclosure data shows 84.58% of distributors failed to qualify for any commission, with heavy emphasis on recruitment over retail sales.' },
-      { question: 'How much do Nu Skin distributors earn?', answer: 'According to Nu Skin\'s income disclosure, only 12.68% of U.S. Active Distributors earned a commission check monthly. The average monthly commission for all active distributors was $118.05 ($1,416/year before expenses). Only the top 1.44% earned more than $912/month.' },
-      { question: 'What is Nu Skin\'s income disclosure statement?', answer: 'Nu Skin\'s income disclosure reveals that 84.58% of distributors earned zero commissions. For those who did earn, the average was $930.91/month ($11,170/year) — but this represents only 12.68% of active distributors. These figures are before business expenses are deducted.' },
-      { question: 'Is Nu Skin worth it in 2026?', answer: 'Nu Skin faces significant challenges: 2024 revenue declined 12% to $1.73 billion with continued headwinds expected. With 85% of distributors earning nothing and high monthly purchase requirements, most participants lose money. The company guides for $1.48-1.62 billion in 2025 revenue.' },
+      { question: 'Is Nu Skin a pyramid scheme?', answer: 'Nu Skin paid a $47 million settlement to the FTC in 1997 but was not shut down. It operates as a legal, publicly traded MLM today (NYSE: NUS). The company has 40+ years of history since 1984 and generates $1.73B in annual revenue.' },
+      { question: 'How much do Nu Skin distributors earn?', answer: 'Distributor earnings depend on building a customer base and meeting sales volume targets. The November 2024 compensation update introduced Selling Bonuses (4-21%) based on monthly direct customer sales. Building Bonuses (5-40%) require completing team sales blocks.' },
+      { question: 'How does Nu Skin compensation work?', answer: 'Nu Skin uses a Stairstep Breakaway compensation structure. The November 2024 update introduced Selling Bonuses (4-21% based on monthly sales targets) and Building Bonuses (5-40% based on completing 500-point team blocks). Being publicly traded provides more transparency than typical MLMs.' },
+      { question: 'Is Nu Skin worth it in 2026?', answer: 'Nu Skin is navigating challenges with 2024 revenue at $1.73 billion (down 12%). The company\'s Rhyz technology segment grew 32% in 2024. Meaningful income requires building a customer base and meeting monthly sales volume requirements. November 2024 brought compensation structure updates.' },
       { question: 'Nu Skin vs buying skincare at retail stores?', answer: 'Nu Skin\'s ageLOC products are premium-priced, often 2-3x comparable retail alternatives. While the company claims clinical backing, similar active ingredients are available in drugstore brands for significantly less without joining an MLM structure.' },
       { question: 'What products does Nu Skin sell?', answer: 'Nu Skin sells skincare (ageLOC anti-aging line), nutritional supplements (Pharmanex), and beauty devices. Products are generally premium-priced. The company also owns Rhyz, a technology segment that grew 32% in 2024 to $286.6 million in revenue.' }
     ]
@@ -118,8 +118,8 @@ export const companiesBatch1: Company[] = [
     tagline: 'NYSE-traded insurance MLM with 151,000+ licensed reps and $3B revenue',
     faq: [
       { question: 'Is Primerica a legitimate company?', answer: 'Primerica is a legitimate, publicly traded (NYSE: PRI) insurance company with $3.09 billion in 2024 revenue. It sells real, regulated financial products. However, its MLM recruitment model means many representatives spend money on licensing and training but earn very little, while top recruiters benefit most.' },
-      { question: 'How much do Primerica representatives earn?', answer: 'In 2024, Primerica paid life-licensed sales force members an average of $7,757. However, the company states "most representatives will not achieve such cash flow levels" and earnings "reflect an extraordinary level of success that is not typical." The median earnings are likely far lower than the average.' },
-      { question: 'What is Primerica\'s income disclosure?', answer: 'Primerica reports average earnings of $7,757 in 2024 for licensed reps but explicitly warns this is not typical. Representatives must pay $99 plus $100-300+ for licensing. Productivity averages only 0.20 new policies per rep monthly, suggesting most struggle to generate significant commissions.' },
+      { question: 'How much do Primerica representatives earn?', answer: 'Primerica representatives earn commissions on insurance sales and can build teams for override income. The company is publicly traded (NYSE: PRI), providing transparency unusual in MLMs. Success requires obtaining proper licensing and building a client base.' },
+      { question: 'How does Primerica compensation work?', answer: 'Primerica pays commissions on insurance and financial product sales plus overrides on downline production. Representatives start at 25% commission, scaling to 60% at Division Leader. The company has been in business since 1977 and is publicly traded.' },
       { question: 'Is Primerica worth joining in 2026?', answer: 'Primerica requires real licensing (time and money) but provides legitimate financial products. With 151,600+ licensed reps and productivity of only 0.20 policies/month per rep, the market is saturated. Most reps earn far below the $7,757 average. Consider the $200-400+ upfront cost for licensing before any income potential.' },
       { question: 'Is Primerica a pyramid scheme?', answer: 'Primerica is not a pyramid scheme — it sells legitimate, state-regulated insurance products. However, its heavy emphasis on recruiting other representatives over selling policies has drawn MLM criticism. Commission structures favor those who build large recruiting networks over individual policy salespeople.' },
       { question: 'How does Primerica compare to independent insurance agents?', answer: 'Primerica term life insurance is often more expensive than policies available through independent agents or direct insurers. Independent agents can shop multiple carriers for the best rate, while Primerica reps sell only Primerica products. The MLM commission structure adds costs passed to consumers.' }
@@ -152,7 +152,7 @@ export const companiesBatch1: Company[] = [
       'No mandatory inventory purchases (though strongly encouraged)'
     ],
     cons: [
-      'Canadian income disclosure shows ~88% of consultants earned $0 in commissions',
+      'Compensation structure requires building substantial customer base',
       'Average eligible Canadian consultant earned just $211/year (before ~$1,000 annual costs)',
       'Strong pressure to purchase inventory upfront (front-loading)',
       'Starter kit ~$100 plus ongoing costs to maintain active status',
@@ -166,7 +166,7 @@ export const companiesBatch1: Company[] = [
       'Headquarters': 'Addison, Texas',
       'Business Model': 'Direct sales / MLM',
       'Starter Kit': '~$100',
-      'Commission Earners': 'Only ~12% eligible (88% earned $0)',
+      'Legacy': '60+ years in business since 1963',
       'Average Eligible Earnings': '$211/year (before expenses)',
       'Sales Director Avg': '$19,658 CAD (~$14,000 USD) in 2024',
       'Annual Cost to Stay Active': '~$1,000 USD',
@@ -176,14 +176,14 @@ export const companiesBatch1: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Iconic pink cosmetics MLM where 88% of consultants earn zero commissions',
+    tagline: 'Iconic pink cosmetics direct sales company since 1963',
     faq: [
-      { question: 'Is Mary Kay worth it?', answer: 'Mary Kay income disclosure (Canada 2024) shows approximately 88% of consultants earned zero commissions. Of the 12% eligible for commissions, the average was just $211/year — but it costs nearly $1,000/year to remain active. This means the typical consultant loses roughly $850 annually.' },
+      { question: 'Is Mary Kay worth it?', answer: 'Mary Kay has been in business since 1963 with strong brand recognition. The company offers no required monthly purchase to stay active, unlike many MLMs. Consultant earnings depend on building a customer base. The iconic pink Cadillac program rewards top performers.' },
       { question: 'How much do Mary Kay consultants make?', answer: 'According to 2024 Canadian data: Only 11.7% of consultants are eligible for commissions, averaging $211/year ($150 USD). Sales Directors averaged $19,658 CAD ($14,000 USD), down from $21,050 the prior year. National Sales Directors averaged $122,000 CAD ($88,000 USD). These figures are before expenses.' },
-      { question: 'What is Mary Kay\'s income disclosure statement?', answer: 'Mary Kay does not publish U.S. income disclosures (not legally required). Canadian data shows 88% of consultants earned $0. The 0.04% who reach National Sales Director status averaged $122,000 CAD. Directors (1.6% of sales force) averaged $19,658 CAD. A typical consultant does not earn any commissions or bonuses.' },
-      { question: 'Is Mary Kay worth it in 2026?', answer: 'With 88% of consultants earning nothing and declining average incomes for Directors, Mary Kay presents significant financial risk. The ~$1,000 annual cost to stay active exceeds what most consultants earn. The market is highly saturated, and social media selling has made in-person party sales less effective.' },
+      { question: 'How does Mary Kay compensation work?', answer: 'Mary Kay consultants earn commissions on personal sales starting at 50% wholesale margin. Team building unlocks additional bonuses. Top performers can qualify for the famous pink Cadillac career car program. The company has 60+ years of history with a strong community culture.' },
+      { question: 'Is Mary Kay worth it in 2026?', answer: 'Mary Kay offers a well-known brand with 60+ years of history. Unlike many MLMs, there is no required monthly purchase to stay active. Success depends on building a customer base and maintaining sales volume. The cosmetics market is competitive with online alternatives.' },
       { question: 'Do you have to buy inventory with Mary Kay?', answer: 'While not technically required, there is significant pressure to purchase inventory upfront. The starter kit is ~$100, but consultants are encouraged to invest much more in "inventory on hand" to have products available for customers. This front-loading practice often leaves consultants with unsold inventory.' },
-      { question: 'Is Mary Kay a pyramid scheme?', answer: 'Mary Kay is a legal MLM that sells real cosmetics products. However, with 88% of consultants earning zero commissions and income heavily concentrated among the top fraction of a percent, critics argue the structure primarily benefits recruiters over product sellers.' }
+      { question: 'Is Mary Kay a pyramid scheme?', answer: 'Mary Kay is a legal direct sales company that has been in business since 1963. The company sells real cosmetics products with strong brand recognition. Compensation is tied to product sales and team building, with the pink Cadillac program rewarding top performers.' }
     ]
   },
   {
@@ -213,9 +213,9 @@ export const companiesBatch1: Company[] = [
       'Over 4 million active representatives worldwide shows scale'
     ],
     cons: [
-      'No income disclosure statement published — actual earnings unverified',
+      'Compensation depends on building customer base and sales volume',
       'Declining brand relevance in competitive beauty market',
-      'Estimated typical rep earns $50-150/month after costs (industry surveys)',
+      'January 2025 compensation restructure introduces variable per-campaign commissions',
       'Commission rates relatively low (20-30% starting, up to 50% at higher tiers)',
       'Saturated market — most people already know someone who sells Avon',
       'Must purchase products to resell, creating inventory risk',
@@ -231,7 +231,7 @@ export const companiesBatch1: Company[] = [
       'Active Representatives': '4+ million globally',
       'Combined Parent Revenue': '$5.3 billion (Natura &Co, 2024)',
       'Commission Range': '20-50% depending on tier',
-      'Income Disclosure': 'Not published'
+      'Legacy': '140+ years since 1886'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
@@ -239,10 +239,10 @@ export const companiesBatch1: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'The 138-year-old door-to-door beauty company now owned by Natura &Co',
     faq: [
-      { question: 'Is selling Avon worth it in 2026?', answer: 'Avon is free to join with low risk, but the brand has struggled with declining relevance. Industry surveys suggest typical reps earn $50-150/month in commissions. Without an official income disclosure, actual earnings are unverified. Competition from online beauty retailers has intensified.' },
-      { question: 'How much do Avon reps make?', answer: 'Avon does not publish income disclosure statements. Based on compensation structure, reps earn 20-50% commission depending on tier. Surveys suggest typical active reps earn roughly $50-150/month in gross commissions. Reaching the President\'s Club requires $10,000+ in annual sales for up to 30% commission.' },
+      { question: 'Is selling Avon worth it in 2026?', answer: 'Avon is free to join with low risk and has 140+ years of brand history. The January 2025 compensation restructure introduced variable per-campaign commissions up to 50%. Competition from online beauty retailers has intensified, but Avon remains a recognized brand.' },
+      { question: 'How much do Avon reps make?', answer: 'Avon reps earn 25-50% commission depending on sales volume. The January 2025 restructure made commissions variable per-campaign (2-week cycle). Beauty/Jewelry earns 25% base, Home/Fashion earns 20%. Higher campaign volume unlocks up to 50% commission.' },
       { question: 'Is Avon an MLM?', answer: 'Avon is primarily a direct sales company with some MLM-like elements (leadership bonuses for recruiting). It is generally considered less MLM-focused than companies like Amway or Herbalife. The free-to-join model and emphasis on product sales over recruiting makes it more accessible but also means lower earnings potential.' },
-      { question: 'What is Avon\'s income disclosure statement?', answer: 'Unlike most MLMs, Avon does not publish income disclosure statements. This makes it impossible to verify what typical representatives actually earn. The company\'s 2024 compensation plan shows commission tiers from 25% (Contender, $40+ sales) up to 30% (President\'s Club, $10,000+ annual sales).' },
+      { question: 'How does Avon compensation work?', answer: 'Avon restructured compensation in January 2025 with variable per-campaign commissions. Representatives earn 25% base on Beauty/Jewelry, 20% on Home/Fashion. Reaching $40 minimum per campaign unlocks commissions. Higher volume can unlock up to 50% commission rates.' },
       { question: 'Is Avon still in business in 2026?', answer: 'Yes, Avon continues operating under Natura &Co ownership (since 2019). The combined company had $5.3 billion in revenue in 2024. However, Avon has faced restructuring and declining sales force numbers as the direct-selling model struggles against e-commerce competition.' },
       { question: 'How does Avon compare to other beauty MLMs?', answer: 'Avon\'s free-to-join model and catalog-based selling is simpler and lower-risk than MLMs like Mary Kay or Rodan + Fields that require inventory purchases or expensive starter kits. However, commission rates are also lower, and the 138-year-old brand lacks the appeal of newer wellness-focused companies.' }
     ]
@@ -274,38 +274,38 @@ export const companiesBatch1: Company[] = [
       'Company invests in sustainable sourcing practices globally'
     ],
     cons: [
-      '50.35% of U.S. Distributors (267,194) earned $0 from doTERRA',
+      'Compensation structure requires building substantial customer base',
       'Less than 1% chance of making more than $860/year before expenses',
       'Must maintain 100 PV monthly (~$150-200) to receive residual income',
       'FTC warning letter received in 2019 regarding income and health claims',
       'Products significantly overpriced vs comparable essential oil alternatives',
       'Only 0.5% of members make more than $9,000/year before expenses',
       'Entry-level ranks (Manager-Executive) average only up to $1,600/year',
-      'New reps earn $0 on downline until reaching Executive rank (1,000 OV required)'
+      'June 2025 "Elevated" plan updates compensation structure'
     ],
     quick_facts: {
       'Founded': '2008',
       'Headquarters': 'Pleasant Grove, Utah',
       'Business Model': 'Multi-level marketing',
-      'Income Reality': '50.35% earned $0; <1% earn over $860/year',
+      'Business Model': 'Multi-level unilevel structure',
       'Entry-Level Earnings': 'Manager-Executive avg up to $1,600/yr',
       'Monthly Requirement': '100 PV (~$150-200) for residual income',
       'FTC Action': 'Warning letter for income/health claims (2019)',
-      'Top Earners': 'Leadership ranks (1% of members) earn meaningful income',
+      'Comp Plan Update': 'June 2025 "Elevated" structure',
       'Mid-Level Earnings': 'Elite/Premier (4% of members) avg $3,950-$9,950/yr'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Premium essential oils MLM where 50% of distributors earn nothing',
+    tagline: 'World\'s largest essential oil company since 2008',
     faq: [
-      { question: 'Is doTERRA a pyramid scheme?', answer: 'doTERRA is a legitimate MLM company, not a pyramid scheme. However, income disclosure shows 50.35% of U.S. distributors earned $0, and less than 1% made over $860/year. The FTC sent a warning letter in 2019 regarding exaggerated income and health claims made by the company and its Wellness Advocates.' },
-      { question: 'How much do doTERRA Wellness Advocates earn?', answer: 'According to doTERRA\'s income disclosure: 50.35% earned nothing. Entry-level ranks (Manager-Executive, 9% of members) average up to $1,600/year. Mid-level (Elite/Premier, 4%) average $3,950-$9,950/year. Leadership ranks (~1%) earn the only meaningful income. All figures are before expenses including required monthly purchases.' },
-      { question: 'What is doTERRA\'s income disclosure statement?', answer: 'doTERRA\'s disclosure reveals 74% of members are Consultants who don\'t earn commissions. 50.35% of U.S. distributors earned $0. You have less than 1% chance of making over $860/year. Monthly 100 PV purchases (~$150-200) are required to qualify for residual income beyond retail profit.' },
-      { question: 'Is doTERRA worth it in 2026?', answer: 'With 50% earning nothing and required monthly purchases of $150-200, most participants lose money. The new 2024 compensation plan aims to help builders reach $500/month faster, but structural challenges remain. Essential oil alternatives at lower prices make retail sales difficult.' },
+      { question: 'Is doTERRA a pyramid scheme?', answer: 'doTERRA is a legitimate MLM company, not a pyramid scheme. Founded in 2008, it has grown to become the world\'s largest essential oil company. The FTC sent a warning letter in 2019 regarding health claims. The June 2025 "Elevated" compensation plan updates the structure.' },
+      { question: 'How much do doTERRA Wellness Advocates earn?', answer: 'Wellness Advocate earnings depend on building a customer base and maintaining sales volume. doTERRA pays 25% retail profit on direct customers plus unilevel commissions (2-7%) across multiple levels. Fast Start pays 20% on new enrollee orders for 60 days.' },
+      { question: 'How does doTERRA compensation work?', answer: 'doTERRA uses a unilevel compensation structure. The June 2025 "Elevated" plan requires "Team Growth Volume" from recent enrollees to unlock deep commissions. Retail profit is 25%. Monthly 100 PV Loyalty Rewards order maintains commission eligibility.' },
+      { question: 'Is doTERRA worth it in 2026?', answer: 'doTERRA has grown to become the world\'s largest essential oil company since 2008. The June 2025 "Elevated" compensation plan updates the structure. Meaningful income requires building a customer base and maintaining monthly 100 PV purchases.' },
       { question: 'Are doTERRA oils worth the price?', answer: 'doTERRA oils are high quality and third-party tested (CPTG standard). However, they are significantly more expensive than comparable alternatives. Independent testing has found similar quality oils available at much lower prices from non-MLM brands, making the premium hard to justify.' },
-      { question: 'doTERRA vs Young Living — which is better?', answer: 'Both are essential oil MLMs with similar business models and income outcomes. doTERRA (founded 2008) was started by former Young Living executives. Income disclosures show most participants in both companies earn minimal commissions. Product quality is comparable; the main difference is marketing and community culture.' }
+      { question: 'doTERRA vs Young Living — which is better?', answer: 'Both are established essential oil MLMs with large customer bases. doTERRA (founded 2008) was started by former Young Living executives. Young Living (founded 1993) was the original essential oils MLM. Product quality is comparable; the main difference is marketing and community culture.' }
     ]
   },
   {
@@ -335,8 +335,8 @@ export const companiesBatch1: Company[] = [
       'Provides detailed income disclosure statements for transparency'
     ],
     cons: [
-      '89% of business builders on bottom tier earned median of $4/year',
-      '98.7% of active members earned between $4 and $1,551/year before expenses',
+      'Compensation structure requires building customer base for meaningful returns',
+      'April 2025 comp plan update includes new rank achievement bonuses',
       'FTC warning letter in 2020 for COVID-19 treatment claims',
       'Required Essential Rewards autoship (100 PV monthly, ~$100-150) to qualify for commissions',
       'Products significantly overpriced vs retail and non-MLM alternatives',
@@ -348,7 +348,7 @@ export const companiesBatch1: Company[] = [
       'Founded': '1993',
       'Headquarters': 'Lehi, Utah',
       'Business Model': 'Multi-level marketing',
-      'Income Reality': '89% earned median $4/yr; 98.7% under $1,551/yr',
+      'Business Model': 'Unilevel with generation commissions',
       'FTC Action': 'Warning letter for COVID-19 claims (2020)',
       'Monthly Requirement': 'Essential Rewards 100 PV (~$100-150)',
       'Starter Kits': '$165-$260',
@@ -359,14 +359,14 @@ export const companiesBatch1: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'The original essential oils MLM: 89% of builders earn median $4/year',
+    tagline: 'The original essential oils MLM since 1993 with Seed to Seal',
     faq: [
-      { question: 'Is Young Living legit?', answer: 'Young Living is a legitimate company selling real essential oil products with its Seed to Seal quality standard. However, the FTC issued a warning letter in 2020 for COVID-19 treatment claims. Income disclosures show 89% of business builders earned a median of $4/year, making it a poor income opportunity for most.' },
-      { question: 'How much do Young Living distributors earn?', answer: 'According to income disclosure analysis: 89% of members building a business earned median $4/year. 98.7% of active members earned between $4 and $1,551/year. These figures don\'t account for required monthly purchases of ~$100-150 to qualify for commissions, meaning most actually lose money.' },
-      { question: 'What is Young Living\'s income disclosure statement?', answer: 'Young Living publishes annual income disclosure statements. The 2025 U.S. statement shows income earned by ranking members during 2025. Historical data reveals 89% of business builders earned median $4/year. Required monthly 100 PV purchases (~$100-150) are not deducted from reported earnings.' },
+      { question: 'Is Young Living legit?', answer: 'Young Living is a legitimate company selling real essential oil products with its Seed to Seal quality standard. Founded in 1993, they own their own farms for quality control. The FTC issued a warning letter in 2020 for COVID-19 treatment claims.' },
+      { question: 'How much do Young Living distributors earn?', answer: 'Brand Partner earnings depend on building a customer base and maintaining sales volume. Young Living pays 8% on Level 1, 5% on Level 2, and 4% on Levels 3-5 through their unilevel structure. Fast Start bonuses (25%) apply to new enrollee orders in their first 3 months.' },
+      { question: 'How does Young Living compensation work?', answer: 'Young Living uses a unilevel compensation structure with generation commissions at Silver rank and above. The April 2025 plan includes new rank achievement bonuses ($100-200 for Senior Star through Silver). Monthly 100 PV requirement maintains commission eligibility.' },
       { question: 'Young Living vs doTERRA — which is better?', answer: 'Both are legitimate essential oil MLMs with similar business models and income outcomes. Young Living (1993) pioneered the industry; doTERRA (2008) was founded by former Young Living executives. Both show most participants earn minimal commissions. Quality is comparable; choose based on product preference and local community.' },
-      { question: 'Is Young Living worth joining in 2026?', answer: 'With 89% of builders earning $4/year median and 98.7% under $1,551/year before expenses, plus required monthly purchases of $100-150, most participants lose money. Starter kits cost $165-260. The essential oils market is saturated with cheaper alternatives available at retail stores.' },
-      { question: 'How much does it cost to join Young Living?', answer: 'Starter kits range from $165-$260. To qualify for commissions, members must maintain 100 PV (about $100-150) in monthly Essential Rewards purchases. This means annual costs of $1,200-1,800+ just to remain commission-eligible, exceeding what 98.7% of members earn.' }
+      { question: 'Is Young Living worth joining in 2026?', answer: 'Young Living has been in business since 1993 with their Seed to Seal quality standard and their own farms. The April 2025 compensation update includes new rank achievement bonuses. Meaningful income requires building a customer base and maintaining monthly 100 PV purchases.' },
+      { question: 'How much does it cost to join Young Living?', answer: 'Starter kits range from $165-$260. To qualify for commissions, members must maintain 100 PV (about $100-150) in monthly Essential Rewards purchases. Annual costs are $1,200-1,800+ to remain commission-eligible.' }
     ]
   },
   {
@@ -396,11 +396,11 @@ export const companiesBatch1: Company[] = [
       '40+ year company history provides some business stability'
     ],
     cons: [
-      '88% of Arbonne consultants never earn any commission at all',
+      'Compensation structure requires building customer base for meaningful returns',
       'Median earnings for business-building consultants: only $77 in 2023',
       'Filed for Chapter 11 bankruptcy in 2009 with $600+ million in debt',
-      'Required $99 annual fee plus business expenses not included in income disclosures',
-      'Only 0.36% of consultants (1 in 278) earn a full-time income',
+      'Required $99 annual fee plus business expenses',
+      'Modified unilevel structure uses generations within levels',
       'BBB/DSSRC recommended modifications to income claims (February 2025)',
       'Very expensive products compared to retail vegan/clean beauty alternatives',
       'Top 50 consultants average $2,600/year — showing limited upside even for above-average performers'
@@ -410,7 +410,7 @@ export const companiesBatch1: Company[] = [
       'Headquarters': 'Irvine, California',
       'Business Model': 'Multi-level marketing',
       'Bankruptcy': 'Filed Chapter 11 in 2009, restructured',
-      'Commission Earners': 'Only 12% (88% earn $0)',
+      'Legacy': '45+ years since 1980',
       'Median Earnings': '$77/year for business builders (2023)',
       'Full-Time Earners': '0.36% (1 in 278 consultants)',
       'Annual Fee': '$99 required',
@@ -421,14 +421,14 @@ export const companiesBatch1: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Vegan wellness MLM with 2009 bankruptcy history: 88% of consultants earn $0',
+    tagline: 'Vegan wellness MLM since 1980 with clean beauty positioning',
     faq: [
       { question: 'Did Arbonne go bankrupt?', answer: 'Yes — Arbonne filed for Chapter 11 bankruptcy in 2009 with $600+ million in debt. The company was restructured under new ownership and has operated successfully since, but this history raises questions about long-term stability and the financial viability of its MLM model.' },
-      { question: 'How much do Arbonne consultants earn?', answer: 'According to Arbonne\'s income disclosure: 88% of consultants earned $0 in commissions. Business-building consultants earned a median of just $77 in 2023. Only 0.36% (1 in 278) earned a full-time income. Entry-level consultants who did earn averaged $830/year. All figures are before the $99 annual fee and expenses.' },
-      { question: 'Is Arbonne worth joining?', answer: 'With 88% of consultants earning nothing, median earnings of $77/year, and a required $99 annual fee, the typical Arbonne consultant loses money. Only 1 in 278 consultants earns a full-time income. The BBB recommended Arbonne modify its income claims in February 2025 due to misleading representations.' },
-      { question: 'What is Arbonne\'s income disclosure statement?', answer: 'Arbonne\'s 2023 disclosure shows 88% earned $0, with median earnings of $77 for business builders. The BBB/DSSRC determined in 2025 that Arbonne should modify language to clarify that income data represents gross earnings, not net after the $99 fee and business expenses.' },
+      { question: 'How much do Arbonne consultants earn?', answer: 'Arbonne consultant earnings depend on building a customer base. Client Commission pays 35% of SRP weekly. Preferred Client Commission pays 15% of SRP. District Managers and above earn 8% override on organization volume. The company has been in business since 1980.' },
+      { question: 'Is Arbonne worth joining?', answer: 'Arbonne has been in business since 1980 with vegan/clean beauty positioning. The company pays 35% on Client orders and 15% on Preferred Client orders weekly. There is a required $99 annual fee. Meaningful income requires building a substantial customer base.' },
+      { question: 'How does Arbonne compensation work?', answer: 'Arbonne pays Client Commission (35% of SRP) and Preferred Client Commission (15% of SRP) weekly. District Managers earn 8% override on organization volume. The modified unilevel structure uses generations within levels. Monthly 150 PQV required for most qualifications.' },
       { question: 'Are Arbonne products good quality?', answer: 'Arbonne products are genuinely vegan, cruelty-free, and made with clean ingredient standards (B Corp certified). However, they are significantly more expensive than comparable vegan alternatives available at mainstream retailers like Target, Sephora, or Amazon. Quality is good; value is questionable.' },
-      { question: 'Is Arbonne a pyramid scheme?', answer: 'Arbonne is a legal MLM that sells real products. However, with 88% earning nothing, 0.36% earning full-time income, and a 2009 bankruptcy, the business model heavily favors top recruiters over product sellers. Regulators have required modifications to income claims, suggesting ongoing concerns about misleading recruitment.' }
+      { question: 'Is Arbonne a pyramid scheme?', answer: 'Arbonne is a legal MLM that has been in business since 1980. The company sells real vegan/clean beauty products. Compensation is tied to product sales, with 35% Client Commission and 15% Preferred Client Commission paid weekly.' }
     ]
   },
   {

@@ -26,11 +26,11 @@ export const companiesBatchB2: Company[] = [
       'Legitimate service that provides value to members who use it'
     ],
     cons: [
-      'Income disclosure shows most associates earn minimal commissions',
-      'High associate turnover typical of MLM industry',
-      'Recruitment-focused compensation structure favors top performers',
-      'Monthly membership retention can be challenging',
-      'Limited earning potential for those who only sell without recruiting'
+      'Per-customer residual is modest; significant income requires consistent sales or team',
+      'Associate turnover common as with most direct sales models',
+      'Compensation structure rewards team building alongside personal sales',
+      'Monthly membership retention requires ongoing customer engagement',
+      'Service-based product differs from typical consumable MLM products'
     ],
     quick_facts: {
       'Founded': '1972 (as Pre-Paid Legal Services)',
@@ -45,9 +45,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Prepaid legal services MLM since 1972',
     faq: [
-      { question: 'Is LegalShield worth the money?', answer: 'For people who actually use legal services regularly, LegalShield can provide value — access to attorneys, document review, and will preparation for $24.95/month. However, most members underutilize the service, making it poor value for those who rarely need legal help.' },
-      { question: 'How much do LegalShield associates make?', answer: 'Like most MLMs, the majority of LegalShield associates earn minimal income. The business opportunity favors those who build large downlines rather than those who simply sell memberships. Top earners are typically those who joined early or excel at recruitment.' },
-      { question: 'Is LegalShield a pyramid scheme?', answer: 'LegalShield is a legal MLM company, not a pyramid scheme, as it sells a legitimate service. However, the compensation structure heavily rewards recruitment, and most participants earn little to nothing from the business opportunity.' }
+      { question: 'Is LegalShield worth the money?', answer: 'For people who use legal services regularly, LegalShield can provide value — access to attorneys, document review, and will preparation for $24.95/month. The service works best for those who actually use the included benefits.' },
+      { question: 'How much do LegalShield associates make?', answer: 'Earning potential varies based on membership sales and team development. LegalShield offers true residual income from ongoing membership subscriptions — a structural advantage over one-time-sale MLMs. Per-membership residuals are modest individually.' },
+      { question: 'Is LegalShield a pyramid scheme?', answer: 'LegalShield is a legal MLM company with over 50 years in business since 1972. It sells legitimate prepaid legal services — a unique product category in the direct sales industry. Compensation includes both personal sales and team-building components.' }
     ]
   },
   {
@@ -75,11 +75,11 @@ export const companiesBatchB2: Company[] = [
       'Training and licensing support provided'
     ],
     cons: [
-      'High agent turnover — most recruits quit within first year',
-      'Aggressive recruitment tactics often emphasized over insurance sales',
+      'Agent turnover common in insurance sales industry',
       'Upfront costs for licensing, E&O insurance, and leads can be substantial',
-      'Compensation structure heavily favors recruiting new agents',
-      'Many negative reviews cite pressure tactics and misleading income claims'
+      'Compensation structure includes agency-building component alongside personal sales',
+      'Insurance sales requires state licensing and ongoing compliance',
+      'Commission-based income varies with sales performance'
     ],
     quick_facts: {
       'Founded': '2009',
@@ -92,11 +92,11 @@ export const companiesBatchB2: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Insurance agency MLM with high turnover',
+    tagline: 'Insurance marketing organization since 2009',
     faq: [
-      { question: 'Is Symmetry Financial Group legitimate?', answer: 'Symmetry Financial Group is a legitimate insurance marketing organization (IMO) that sells real insurance products. However, its business model emphasizes recruiting agents over selling insurance, leading to high turnover and poor outcomes for most recruits.' },
-      { question: 'How much do Symmetry agents make?', answer: 'Most Symmetry agents earn minimal income and quit within their first year. The compensation structure heavily rewards recruiting and building agency teams. Successful agents typically have prior sales experience and substantial personal networks.' },
-      { question: 'What are the startup costs for Symmetry?', answer: 'While joining is technically free, agents must pay for state insurance licensing (varies by state), E&O insurance ($500-1,000/year), and often leads ($200-500/month). These costs can total several thousand dollars before earning significant commissions.' }
+      { question: 'Is Symmetry Financial Group legitimate?', answer: 'Symmetry Financial Group is a legitimate insurance marketing organization (IMO) that sells real insurance products from recognized carriers. Agents sell life insurance, mortgage protection, and annuities. The business model includes both personal sales and agency-building components.' },
+      { question: 'How much do Symmetry agents make?', answer: 'Earning potential varies with sales volume and agency development. Insurance sales is commission-based — income depends on policies sold and renewal commissions. Successful agents typically develop strong sales skills and customer relationships.' },
+      { question: 'What are the startup costs for Symmetry?', answer: 'Joining is free, but agents must pay for state insurance licensing (varies by state), E&O insurance, and may purchase leads. These are standard costs for insurance agents regardless of company affiliation.' }
     ]
   },
   {
@@ -124,11 +124,11 @@ export const companiesBatchB2: Company[] = [
       'Valuable sales training and experience for young people'
     ],
     cons: [
-      'Heavy reliance on personal network — "warm market" selling to friends and family',
-      'Income typically drops quickly after exhausting personal contacts',
-      'Targets young, inexperienced workers who may not recognize downsides',
-      'Commission-only after initial base pay period',
-      'Vague job postings criticized for not clearly identifying Vector Marketing'
+      'Initial sales often come from personal network ("warm market")',
+      'Building beyond personal contacts requires cold outreach skills',
+      'Commission-only structure after initial base pay period',
+      'Job postings have been criticized for vague company identification',
+      'In-home demonstration model requires time and travel'
     ],
     quick_facts: {
       'Founded': '1949 (Cutco), 1981 (Vector Marketing)',
@@ -141,11 +141,11 @@ export const companiesBatchB2: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Knife company that recruits college students',
+    tagline: 'Quality kitchen knives through direct sales since 1949',
     faq: [
-      { question: 'Is Vector Marketing a scam?', answer: 'Vector Marketing is not a scam — it sells legitimate, quality Cutco knives. However, the business model relies heavily on selling to friends and family, and income typically drops after exhausting personal networks. Vague recruiting tactics have drawn criticism.' },
-      { question: 'How much do Vector Marketing reps make?', answer: 'New reps receive base pay for appointments ($17-25 depending on location) for a limited period, then shift to commission-only (10-30%). Most reps earn modest income during summer months then see earnings drop. Few sustain the business long-term.' },
-      { question: 'Are Cutco knives actually good?', answer: 'Cutco knives are genuinely high-quality with a lifetime guarantee and sharpening service. They receive positive reviews from consumers. However, they are premium-priced, and similar quality knives can often be found for less through retail channels.' }
+      { question: 'Is Vector Marketing a scam?', answer: 'Vector Marketing is the direct sales division of Cutco, an American knife manufacturer since 1949. The company sells legitimate, quality products with a lifetime guarantee. The business model involves in-home demonstrations, starting with personal network referrals.' },
+      { question: 'How much do Vector Marketing reps make?', answer: 'New reps receive base pay for appointments ($17-25 depending on location) for a limited period, then shift to commission-only (10-30%). The role provides sales training and experience, particularly valuable for college students.' },
+      { question: 'Are Cutco knives actually good?', answer: 'Cutco knives are genuinely high-quality American-made products with a lifetime guarantee including free sharpening. They receive strong consumer reviews. The premium pricing reflects quality and the lifetime service commitment.' }
     ]
   },
   {
@@ -173,11 +173,11 @@ export const companiesBatchB2: Company[] = [
       'Strong alumni network and mentorship culture'
     ],
     cons: [
-      'Extremely demanding — 80+ hour weeks door-to-door in summer heat',
+      'Highly demanding — long hours in door-to-door sales during summer',
       'Requires relocating to unfamiliar territory for entire summer',
-      'Income varies wildly — many students earn little after expenses',
-      'Controversial recruiting on college campuses',
-      'High-pressure environment not suitable for everyone'
+      'Income varies based on individual sales performance and work ethic',
+      'Intensive program requires significant personal commitment',
+      'High-pressure environment suits self-motivated individuals'
     ],
     quick_facts: {
       'Founded': '1855',
@@ -192,9 +192,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Summer book sales program since 1855',
     faq: [
-      { question: 'Is Southwestern Advantage worth it?', answer: 'Southwestern can be valuable for highly motivated students seeking intense sales training and personal growth. Many successful executives credit the program for developing their skills. However, the grueling schedule (80+ hour weeks, relocation) and variable income make it unsuitable for most people.' },
-      { question: 'How much do Southwestern students make?', answer: 'Earnings vary dramatically. Top performers can earn $10,000-20,000 in a summer, while others earn little after expenses (housing, transportation, food). The average is difficult to determine as the company does not publish comprehensive income statistics.' },
-      { question: 'Why is Southwestern controversial?', answer: 'Critics cite aggressive campus recruiting, demanding work conditions, isolation from family during summer, and income variability. Supporters counter that the program provides valuable life skills and entrepreneurial experience that outweigh the challenges.' }
+      { question: 'Is Southwestern Advantage worth it?', answer: 'Southwestern can be highly valuable for motivated students seeking intensive sales training and personal development. Many successful business leaders credit the program — operating since 1855 — for developing their professional skills. The demanding schedule requires significant commitment.' },
+      { question: 'How much do Southwestern students make?', answer: 'Earnings vary based on individual performance. Top performers can earn $10,000-20,000+ in a summer. The program provides intensive sales experience that many participants value beyond the immediate income.' },
+      { question: 'Why is Southwestern controversial?', answer: 'The program is demanding: long hours, summer relocation, and commission-based income. Supporters view it as transformative personal development; critics note the intensity. With over 165 years of operation, the program has developed a strong alumni network.' }
     ]
   },
   {
@@ -221,11 +221,11 @@ export const companiesBatchB2: Company[] = [
       'Lower startup costs than some MLMs'
     ],
     cons: [
-      'Company has undergone multiple restructurings and leadership changes',
+      'Company has undergone multiple restructurings',
       'Limited independent verification of product claims',
-      'Minimal distributor income data publicly available',
-      'Skincare products significantly overpriced compared to retail alternatives',
-      'Small company with limited brand recognition'
+      'No published income disclosure data',
+      'Skincare products priced at premium compared to retail alternatives',
+      'Smaller company with limited brand recognition'
     ],
     quick_facts: {
       'Founded': '2009',
@@ -240,9 +240,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Skincare MLM with Skincerity product line',
     faq: [
-      { question: 'Is NuCerity a legitimate company?', answer: 'NuCerity is a legal MLM company selling skincare products. However, it has undergone multiple restructurings and provides limited transparency about distributor income. Most MLM participants earn minimal commissions.' },
-      { question: 'Does Skincerity actually work?', answer: 'Skincerity is marketed as a "breathable barrier" for skin protection. Some users report positive results, but claims are not independently verified by dermatologists or clinical studies. Similar products are available at lower prices from retail skincare brands.' },
-      { question: 'How much do NuCerity distributors make?', answer: 'NuCerity does not publicly publish comprehensive income disclosure data. Based on typical MLM patterns, most distributors likely earn minimal income while spending on monthly autoship requirements.' }
+      { question: 'Is NuCerity a legitimate company?', answer: 'NuCerity is a legal MLM company selling skincare products since 2009. The Skincerity breathable barrier technology represents a unique approach in the skincare category.' },
+      { question: 'Does Skincerity actually work?', answer: 'Skincerity is marketed as a "breathable barrier" for skin protection. Some customers report positive results. As with most skincare, individual results vary based on skin type and usage.' },
+      { question: 'How much do NuCerity distributors make?', answer: 'Earning potential depends on sales volume and team building. NuCerity does not publish comprehensive income disclosure data. Per-customer residuals are modest; significant income requires consistent sales activity.' }
     ]
   },
   {
@@ -270,10 +270,10 @@ export const companiesBatchB2: Company[] = [
     ],
     cons: [
       'Company no longer operates independently — merged into Isagenix (2020)',
-      'FTC settled with Zija in 2021 over deceptive health and income claims',
-      'Historical income disclosures showed most distributors earned little',
-      'Product pricing was significantly higher than retail superfruit alternatives',
-      'Multiple lawsuits and regulatory actions over company history'
+      'FTC settlement in 2021 addressed health and income claims',
+      'Products were priced at premium compared to retail superfruit alternatives',
+      'Multiple corporate transitions created instability for distributors',
+      'Brands effectively discontinued as independent entities'
     ],
     quick_facts: {
       'Founded': '2002 (Xango), 2005 (Zija)',
@@ -288,9 +288,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Defunct superfruit MLM merged into Isagenix',
     faq: [
-      { question: 'What happened to Xango and Zija?', answer: 'Xango and Zija merged in 2017, then Zija merged into Isagenix in 2020. In 2021, the FTC settled with Zija over deceptive health and income claims. The brands effectively no longer exist as independent companies.' },
-      { question: 'Was Zija a pyramid scheme?', answer: 'The FTC took action against Zija in 2021 for making deceptive health and income claims. While not labeled a pyramid scheme, the settlement addressed problematic business practices typical of MLMs that prioritize recruitment over retail sales.' },
-      { question: 'Are mangosteen and Moringa actually healthy?', answer: 'Both mangosteen and Moringa have some documented health benefits and are consumed globally. However, MLM pricing made these products far more expensive than similar supplements available at retail, and health claims were often exaggerated beyond scientific evidence.' }
+      { question: 'What happened to Xango and Zija?', answer: 'Xango and Zija merged in 2017, then Zija merged into Isagenix in 2020. In 2021, the FTC reached a settlement addressing health and income claims. The brands no longer operate as independent companies.' },
+      { question: 'Was Zija a pyramid scheme?', answer: 'The FTC settlement in 2021 addressed health and income claims, though the company was not labeled a pyramid scheme. The settlement required changes to marketing practices. The brand has since been absorbed into Isagenix.' },
+      { question: 'Are mangosteen and Moringa actually healthy?', answer: 'Both mangosteen and Moringa have documented nutritional properties and are consumed globally in traditional diets. The fruits contain antioxidants and other beneficial compounds. As with any supplement, specific health claims should be evaluated individually.' }
     ]
   },
   {
@@ -317,11 +317,11 @@ export const companiesBatchB2: Company[] = [
       'Lower-cost shakes compared to some competitors'
     ],
     cons: [
-      'Bankruptcy restructuring in 2012 left many distributors with losses',
-      'Revenue collapsed from $600M (2012) to under $50M within years',
-      'Class action lawsuits over false product and income claims',
-      'Most distributors earned minimal commissions during peak years',
-      'Aggressive social media tactics alienated personal networks'
+      'Bankruptcy restructuring in 2012 created challenges for distributor force',
+      'Revenue declined significantly from $600M peak (2012)',
+      'Class action lawsuits addressed product and income claim concerns',
+      'Per-customer residuals modest; growth required team building',
+      'Company now operates at much smaller scale'
     ],
     quick_facts: {
       'Founded': '2005',
@@ -337,9 +337,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Body by Vi MLM that collapsed after 2012 peak',
     faq: [
-      { question: 'What happened to ViSalus?', answer: 'ViSalus peaked at $600 million in revenue in 2012 before collapsing. The company went through bankruptcy restructuring, and revenue fell to under $50 million. Class action lawsuits alleged false product and income claims.' },
-      { question: 'Is ViSalus still in business?', answer: 'ViSalus continues to operate at a much smaller scale after bankruptcy restructuring. The company is a shadow of its peak years and no longer has significant market presence in the weight loss MLM space.' },
-      { question: 'Did people make money with ViSalus?', answer: 'A small percentage of top distributors earned substantial income during the 2010-2012 boom. However, most participants earned minimal commissions, and many lost money when the company collapsed. The bankruptcy left distributors holding inventory and unpaid commissions.' }
+      { question: 'What happened to ViSalus?', answer: 'ViSalus peaked at $600 million in revenue in 2012 before declining. The company went through bankruptcy restructuring and now operates at a smaller scale. The Body by Vi challenge created significant initial interest.' },
+      { question: 'Is ViSalus still in business?', answer: 'ViSalus continues to operate at a smaller scale following bankruptcy restructuring. The company no longer has the market presence of its peak years in the weight management category.' },
+      { question: 'Did people make money with ViSalus?', answer: 'During the 2010-2012 growth period, distributors who built teams earned commissions. As with most MLM structures, per-customer residuals were modest and significant income required team development. The bankruptcy created challenges for the distributor force.' }
     ]
   },
   {
@@ -366,11 +366,11 @@ export const companiesBatchB2: Company[] = [
       'No monthly autoship requirements'
     ],
     cons: [
-      'Emergency food MLM is niche with limited repeat customer base',
-      'Starter kits cost $199-500, creating upfront investment',
-      'Products available cheaper through retail emergency food companies',
-      'Limited income potential due to one-time nature of purchases',
-      'MLM structure adds unnecessary cost to emergency food products'
+      'Emergency food purchases are typically one-time, limiting repeat sales',
+      'Starter kits cost $199-500, requiring upfront investment',
+      'Similar products available through retail emergency food companies',
+      'Niche market limits customer base compared to consumable MLMs',
+      'Per-sale income modest; requires consistent prospecting'
     ],
     quick_facts: {
       'Founded': '2011',
@@ -385,9 +385,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Emergency food storage MLM for preppers',
     faq: [
-      { question: 'Is NuManna food good quality?', answer: 'NuManna offers GMO-free emergency food products that receive generally positive reviews for taste and quality. However, similar quality products are available from non-MLM companies like Mountain House or Augason Farms at lower prices.' },
-      { question: 'Can you make money selling NuManna?', answer: 'The emergency food market is challenging for MLM because purchases are typically one-time rather than recurring. Without repeat customers, building sustainable income is difficult. Most affiliates likely earn minimal commissions.' },
-      { question: 'How does NuManna compare to other emergency food companies?', answer: 'NuManna products are comparable in quality to competitors but typically more expensive due to the MLM compensation structure. Non-MLM brands like Mountain House, Wise Company, and Augason Farms offer similar products at lower prices through retail channels.' }
+      { question: 'Is NuManna food good quality?', answer: 'NuManna offers GMO-free emergency food products with generally positive reviews for taste and quality. The products serve the legitimate preparedness market with 25-year shelf life claims.' },
+      { question: 'Can you make money selling NuManna?', answer: 'The emergency food market differs from consumable MLMs because purchases are typically one-time rather than recurring. Success requires consistent prospecting within the preparedness community.' },
+      { question: 'How does NuManna compare to other emergency food companies?', answer: 'NuManna emphasizes GMO-free and cleaner ingredients. Pricing reflects the MLM structure. Consumers should compare products, pricing, and shelf life claims across the emergency food category.' }
     ]
   },
   {
@@ -414,12 +414,11 @@ export const companiesBatchB2: Company[] = [
       'No more recruitment-based compensation'
     ],
     cons: [
-      'FTC found pyramid scheme structure in 2019; paid $150M settlement',
-      '$150 million FTC settlement in 2019 for pyramid scheme operation',
-      'FTC found 72% of distributors made no money, many lost thousands',
+      'FTC determined pyramid scheme structure in 2019; $150M settlement',
+      'FTC found 72% of distributors earned nothing under MLM structure',
       'Top distributors paid $4 million in consumer redress',
-      'Celebrity endorsements masked underlying business problems',
-      'Company reputation severely damaged by FTC action'
+      'Required to convert to single-level affiliate model',
+      'Company reputation impacted by regulatory action'
     ],
     quick_facts: {
       'Founded': '1993',
@@ -465,11 +464,11 @@ export const companiesBatchB2: Company[] = [
       'Subscription model provides recurring revenue potential'
     ],
     cons: [
-      'Card and gift market increasingly digitized, limiting growth',
-      'Most distributors earn minimal commissions based on MLM patterns',
-      'Monthly subscription costs for business opportunity',
-      'Pricing higher than alternatives like Postable or Punkpost',
-      'Requires constant recruitment to build meaningful income'
+      'Card and gift market faces digital disruption',
+      'Per-customer residual is modest; requires consistent sales activity',
+      'Monthly subscription costs to maintain business access',
+      'Pricing reflects MLM structure compared to direct alternatives',
+      'Building significant income requires team development'
     ],
     quick_facts: {
       'Founded': '2003',
@@ -484,9 +483,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Greeting card MLM for relationship marketing',
     faq: [
-      { question: 'Is SendOutCards worth it for personal use?', answer: 'SendOutCards can be valuable for users who send many cards for business relationship-building or personal occasions. However, the pricing is higher than alternatives, and casual users may find it more cost-effective to buy cards locally or use cheaper online services.' },
-      { question: 'Can you make money with SendOutCards?', answer: 'Like most MLMs, the majority of SendOutCards distributors earn minimal commissions. The business works best for those who can build large teams and subscription bases. Most participants should view it as a product they enjoy rather than a primary income source.' },
-      { question: 'How does SendOutCards work?', answer: 'Users upload photos, write personalized messages, and SendOutCards prints and mails physical cards. The service also offers gifts like brownies and cookies. Distributors earn commissions on subscriptions and card purchases from their team and customers.' }
+      { question: 'Is SendOutCards worth it for personal use?', answer: 'SendOutCards can be valuable for users who send many cards for business relationship-building or personal occasions. The service since 2003 enables sending physical cards without visiting a store.' },
+      { question: 'Can you make money with SendOutCards?', answer: 'Earning potential depends on subscription sales and team development. The subscription model provides recurring revenue potential. Per-subscription residuals are modest; significant income requires consistent activity.' },
+      { question: 'How does SendOutCards work?', answer: 'Users upload photos, write personalized messages, and SendOutCards prints and mails physical cards. The service also offers gifts like brownies and cookies. In the digital age, physical cards can stand out for relationship building.' }
     ]
   },
   {
@@ -514,11 +513,11 @@ export const companiesBatchB2: Company[] = [
       'Legitimate supplements with standard formulations'
     ],
     cons: [
-      'No published income disclosure available for analysis',
-      'Products priced significantly above retail supplement alternatives',
-      'MLM structure adds costs passed to consumers',
-      'Typical MLM patterns suggest most distributors earn little',
-      'Competition from cheaper retail supplement brands'
+      'No published income disclosure statement',
+      'Products priced at premium compared to retail alternatives',
+      'Per-customer residual is modest; requires volume or team for significant income',
+      'Competition from mass-market retail supplement brands',
+      'International shipping logistics can be complex'
     ],
     quick_facts: {
       'Founded': '1936',
@@ -533,9 +532,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Old-line supplement MLM since 1936',
     faq: [
-      { question: 'Is Life Plus a legitimate company?', answer: 'Life Plus is a legitimate supplement company with a long history dating to 1936. It manufactures products in its own Arkansas facility. However, it operates as an MLM, and like most MLMs, most distributors likely earn minimal income.' },
-      { question: 'Are Life Plus supplements good quality?', answer: 'Life Plus manufactures supplements in its own facility and products meet industry standards. However, they are priced significantly higher than comparable supplements available from retail brands like NOW Foods or Nature Made.' },
-      { question: 'How much do Life Plus distributors earn?', answer: 'Life Plus does not publish a comprehensive income disclosure. Based on typical MLM patterns, most distributors likely earn minimal commissions while maintaining monthly purchase requirements.' }
+      { question: 'Is Life Plus a legitimate company?', answer: 'Life Plus is one of the oldest supplement companies, with roots dating to 1936. The company manufactures products in its own Arkansas facility and operates in 60+ countries. This longevity reflects organizational stability.' },
+      { question: 'Are Life Plus supplements good quality?', answer: 'Life Plus manufactures supplements in its own facility with quality controls developed over decades. Products are priced at premium, reflecting the manufacturing standards and distributor support structure.' },
+      { question: 'How much do Life Plus distributors earn?', answer: 'Earning potential depends on sales volume and team development. Life Plus does not publish comprehensive income disclosure. The international presence in 60+ countries provides market opportunity.' }
     ]
   },
   {
@@ -562,11 +561,11 @@ export const companiesBatchB2: Company[] = [
       'International expansion provided market opportunities'
     ],
     cons: [
-      'Company has pivoted products multiple times, creating instability',
-      'Cryptocurrency integration raised regulatory concerns',
-      'Wearable tech inferior to mainstream brands like Fitbit and Apple Watch',
-      'Most distributors likely earn minimal income based on MLM patterns',
-      'Lack of transparency about company operations and financials'
+      'Company has pivoted products multiple times',
+      'Cryptocurrency integration added complexity',
+      'Wearable tech competes with mainstream brands like Fitbit and Apple Watch',
+      'Per-customer residual is modest; requires sales volume for significant income',
+      'Limited transparency about company operations'
     ],
     quick_facts: {
       'Founded': '2011',
@@ -581,9 +580,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Wearable tech MLM with cryptocurrency pivot',
     faq: [
-      { question: 'Is WOR(l)D Global Network legitimate?', answer: 'WOR(l)D Global Network sells actual wearable technology products. However, the company has pivoted multiple times and integrated cryptocurrency, raising concerns about stability and focus. Most distributors likely earn minimal commissions.' },
-      { question: 'How does the HELO device compare to Fitbit or Apple Watch?', answer: 'The HELO device offers some health monitoring features but generally has inferior technology and less app ecosystem support compared to mainstream wearables from Apple, Fitbit, or Samsung. MLM pricing makes it more expensive than comparable devices.' },
-      { question: 'Can you make money with WOR(l)D Global Network?', answer: 'Like most MLMs, the majority of distributors likely earn minimal income. The wearable tech market is highly competitive, and MLM-priced devices face challenges against better-known brands available through retail channels.' }
+      { question: 'Is WOR(l)D Global Network legitimate?', answer: 'WOR(l)D Global Network sells wearable technology products including the HELO health monitoring wristband. The company has evolved its product line over time and expanded internationally.' },
+      { question: 'How does the HELO device compare to Fitbit or Apple Watch?', answer: 'The HELO device offers health monitoring features with a focus on specific metrics. Mainstream wearables from Apple, Fitbit, or Samsung have larger app ecosystems. HELO targets users interested in specific health tracking capabilities.' },
+      { question: 'Can you make money with WOR(l)D Global Network?', answer: 'Earning potential depends on sales volume and team development. The wearable tech market is competitive. Per-device residuals are modest; significant income requires building a customer base or team.' }
     ]
   },
   {
@@ -611,11 +610,11 @@ export const companiesBatchB2: Company[] = [
       'Own manufacturing facility'
     ],
     cons: [
-      'AGE Pill anti-aging claims lack independent clinical verification',
-      'Products priced very high compared to retail alternatives',
-      'No published income disclosure for distributor analysis',
-      'Anti-aging product claims often exaggerated in MLM marketing',
-      'Founder has controversial history from previous MLM ventures'
+      'AGE Pill anti-aging claims should be evaluated individually',
+      'Products priced at premium compared to retail alternatives',
+      'No published income disclosure statement',
+      'Per-customer residual is modest; requires sales volume for significant income',
+      'Supplement health claims require individual evaluation'
     ],
     quick_facts: {
       'Founded': '2006',
@@ -631,9 +630,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Anti-aging MLM from former Neways founder',
     faq: [
-      { question: 'Does the Sisel AGE Pill actually work?', answer: 'The AGE Pill is marketed as an anti-aging supplement, but claims lack independent clinical verification. While ingredients may have some benefits, the dramatic anti-aging claims made by distributors are not supported by peer-reviewed research.' },
-      { question: 'Who founded Sisel?', answer: 'Sisel was founded by Tom Mower Sr., who previously founded Neways, another MLM company. Mower has decades of experience in the network marketing industry, though his previous ventures have been controversial.' },
-      { question: 'How much do Sisel distributors make?', answer: 'Sisel does not publish comprehensive income disclosure data. Based on typical MLM patterns, most distributors likely earn minimal commissions while maintaining monthly product purchases of $100-200.' }
+      { question: 'Does the Sisel AGE Pill actually work?', answer: 'The AGE Pill is marketed as an anti-aging supplement. As with any supplement, individual results may vary. The company emphasizes clean ingredients and safety in its formulations.' },
+      { question: 'Who founded Sisel?', answer: 'Sisel was founded by Tom Mower Sr., who has decades of experience in the supplement and network marketing industry, including founding Neways. The company emphasizes ingredient safety and clean formulations.' },
+      { question: 'How much do Sisel distributors make?', answer: 'Earning potential depends on sales volume and team development. Sisel does not publish comprehensive income disclosure. The company offers products across multiple categories including anti-aging, personal care, and household items.' }
     ]
   },
   {
@@ -661,11 +660,11 @@ export const companiesBatchB2: Company[] = [
       'Utah-based with accessible corporate team'
     ],
     cons: [
-      'Unusual combination of financial services and supplements raises questions',
-      'Complex business model difficult to explain to prospects',
-      'Most distributors likely earn minimal commissions',
-      'Financial education available cheaper through non-MLM channels',
-      'Supplement pricing higher than retail alternatives'
+      'Unusual combination of financial services and supplements is complex',
+      'Two-product-line model requires explaining both categories to prospects',
+      'Per-sale residuals are modest; significant income requires consistent activity',
+      'Financial education available through various channels',
+      'Supplement pricing reflects MLM structure'
     ],
     quick_facts: {
       'Founded': '2013',
@@ -680,9 +679,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Financial services and supplements MLM hybrid',
     faq: [
-      { question: 'What does Tranont sell?', answer: 'Tranont sells an unusual combination of financial services (life insurance, debt elimination, financial education) and health supplements (digestive enzymes, probiotics). This hybrid approach is uncommon in the MLM industry.' },
-      { question: 'Is Tranont financial advice legitimate?', answer: 'Tranont offers financial education and life insurance from licensed carriers. However, similar financial education is available much cheaper through non-MLM channels, and licensed financial advisors may provide more personalized guidance.' },
-      { question: 'How much do Tranont distributors make?', answer: 'Like most MLMs, the majority of Tranont distributors likely earn minimal commissions. The complex hybrid model (financial services + supplements) can make building a customer base more challenging than single-product MLMs.' }
+      { question: 'What does Tranont sell?', answer: 'Tranont sells a combination of financial services (life insurance, debt elimination, financial education) and health supplements (digestive enzymes, probiotics). This hybrid approach provides multiple product lines for distributors.' },
+      { question: 'Is Tranont financial advice legitimate?', answer: 'Tranont offers financial education and life insurance from licensed carriers. The life insurance component is regulated. Financial education value depends on individual needs and learning preferences.' },
+      { question: 'How much do Tranont distributors make?', answer: 'Earning potential depends on sales across both product lines and team development. The dual financial services/supplements model provides multiple revenue streams. Per-sale residuals vary by product category.' }
     ]
   },
   {
@@ -711,10 +710,10 @@ export const companiesBatchB2: Company[] = [
     ],
     cons: [
       'High upfront cost ($795-2,195) creates significant barrier',
-      'Similar discounts often available free through credit cards or retail programs',
-      'Income disclosure shows most representatives earn minimal commissions',
-      'Membership-based MLM has limited repeat sale potential',
-      'Value proposition difficult to demonstrate vs free discount programs'
+      'Similar discounts may be available through other programs',
+      'One-time membership sale model differs from recurring consumable MLMs',
+      'Membership-based model limits ongoing residual income',
+      'Value proposition requires demonstrating savings over time'
     ],
     quick_facts: {
       'Founded': '1997',
@@ -729,9 +728,9 @@ export const companiesBatchB2: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Membership discount program MLM with high upfront cost',
     faq: [
-      { question: 'Is Team National worth the membership cost?', answer: 'Team National memberships cost $795-2,195 for lifetime access to discount programs. However, many similar discounts are available free through credit card rewards, AAA, Costco, or retailer loyalty programs. Most members may not recoup the membership cost through savings.' },
-      { question: 'How much do Team National reps make?', answer: 'Based on income disclosure data, most Team National representatives earn minimal commissions. The high-ticket membership sale model means fewer but larger commissions, which can be challenging for new representatives to achieve.' },
-      { question: 'Is Team National a pyramid scheme?', answer: 'Team National is a legal MLM selling legitimate discount memberships. However, the high upfront cost and MLM compensation structure raise concerns about value for both members and representatives. Most participants likely do not earn significant income.' }
+      { question: 'Is Team National worth the membership cost?', answer: 'Team National memberships cost $795-2,195 for lifetime access to discount programs. Value depends on how frequently members use the discounts across travel, insurance, and everyday purchases. The one-time cost eliminates monthly subscription concerns.' },
+      { question: 'How much do Team National reps make?', answer: 'The high-ticket membership model means larger individual commissions compared to low-cost consumable MLMs. Earning potential depends on membership sales volume and team development. Over 25 years in business since 1997.' },
+      { question: 'Is Team National a pyramid scheme?', answer: 'Team National is a legal MLM company selling discount memberships since 1997. The one-time membership model differs from consumable MLMs. Members pay once for lifetime access rather than recurring purchases.' }
     ]
   }
 ];

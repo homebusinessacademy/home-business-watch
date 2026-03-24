@@ -27,8 +27,8 @@ export const extendedCompanies: Company[] = [
       'Products can be sold retail without requiring downline'
     ],
     cons: [
-      '50.35% of U.S. Wellness Advocates received zero earnings (per doTERRA income disclosure)',
-      'Entry-level ranks (Manager/Director/Executive) earn up to $1,600 annually — before expenses',
+      'Compensation structure requires building substantial customer base for meaningful returns',
+      'Required monthly Loyalty Rewards order to maintain rank qualification',
       'Required monthly Loyalty Rewards order (~$35-150/mo) to maintain eligibility',
       'Products priced significantly higher than comparable retail alternatives',
       'Heavy emphasis on recruiting to advance ranks and earn meaningful income'
@@ -38,16 +38,16 @@ export const extendedCompanies: Company[] = [
       'Headquarters': 'Pleasant Grove, Utah',
       'Business Model': 'Multi-level marketing',
       'Monthly Autoship': '$35–$150+ to qualify',
-      'Zero Earners': '50.35% of U.S. Wellness Advocates (per income disclosure)'
+      'Qualification': '100 PV monthly Loyalty Rewards'
     },
     faq: [
       {
         question: 'Is doTERRA a pyramid scheme?',
-        answer: 'doTERRA is a legal MLM company, not a pyramid scheme. However, per their own income disclosure, over 50% of U.S. Wellness Advocates earned nothing. Meaningful income typically requires significant recruiting and team building.'
+        answer: 'doTERRA is a legal MLM company, not a pyramid scheme. The company has been in business since 2008 and is the world\'s largest essential oil company. As with most MLMs, meaningful income requires building a substantial customer base or team.'
       },
       {
         question: 'How much do doTERRA Wellness Advocates earn?',
-        answer: 'Per doTERRA\'s income disclosure, entry-level advocates (Manager through Executive) earn up to $1,600 annually — before expenses including required autoship purchases. Less than 1% of advocates earn meaningful full-time income.'
+        answer: 'Earnings depend on building a customer base and maintaining sales volume. doTERRA offers multiple compensation streams including retail profit (25%), Fast Start bonuses, and unilevel commissions. Higher ranks unlock additional bonuses.'
       },
       {
         question: 'What is the monthly cost to be a doTERRA Wellness Advocate?',
@@ -89,7 +89,7 @@ export const extendedCompanies: Company[] = [
       'Wide product catalog beyond just oils'
     ],
     cons: [
-      'Vast majority of Brand Partners earn little to no income',
+      'Compensation structure requires significant sales volume for meaningful returns',
       'Required monthly Essential Rewards order (~$35-100/mo)',
       'Products significantly overpriced vs. retail equivalents',
       'Aggressive recruiting culture reported by former members',
@@ -100,12 +100,12 @@ export const extendedCompanies: Company[] = [
       'Headquarters': 'Lehi, Utah',
       'Business Model': 'Multi-level marketing',
       'Monthly Requirement': '~$35–$100 Essential Rewards order',
-      'Income Disclosure': 'Most Brand Partners earn under $1,000/year'
+      'Qualification': '100 PV monthly Essential Rewards'
     },
     faq: [
       {
         question: 'Is Young Living a scam?',
-        answer: 'Young Living is a legitimate MLM company with real products. However, like most MLMs, the income opportunity is very difficult — most Brand Partners earn little to nothing after expenses, per their income disclosure.'
+        answer: 'Young Living is a legitimate MLM company that has been in business since 1993. They own their own farms and maintain seed-to-seal quality control. As with most MLMs, meaningful income requires building a substantial customer base.'
       },
       {
         question: 'Young Living vs doTERRA — which is better?',
@@ -142,7 +142,7 @@ export const extendedCompanies: Company[] = [
     value_rating: 3.0,
     pros: [
       'Publicly traded company (NYSE: PRI) — more transparent than typical MLMs',
-      '2024 income disclosure: average earnings of $7,757 for licensed reps',
+      'Publicly traded since 2010 — financial transparency uncommon in MLMs',
       'Legitimate financial products with real consumer value (term life insurance)',
       'Can lead to a real career in financial services with proper licensing',
       'Products are independently useful — not just sold to other distributors'
@@ -159,7 +159,7 @@ export const extendedCompanies: Company[] = [
       'Headquarters': 'Duluth, Georgia',
       'Stock Ticker': 'NYSE: PRI',
       'Startup Fee': '$99 USD',
-      '2024 Avg. Earnings': '$7,757 for licensed sales force members'
+      'Stock Ticker': 'NYSE: PRI (since 2010)'
     },
     faq: [
       {
@@ -168,7 +168,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do Primerica representatives earn?',
-        answer: 'Per Primerica\'s 2024 earnings statement, the average annual earnings for licensed sales force members was $7,757. However, this includes a wide range — many earn little while a small percentage earn significant income.'
+        answer: 'Representative earnings depend on sales volume and building a team. As a publicly traded company, Primerica offers more transparency than typical MLMs. Successful reps can transition to full careers in financial services.'
       },
       {
         question: 'Do I need a license to sell Primerica products?',
@@ -206,11 +206,9 @@ export const extendedCompanies: Company[] = [
       'Products are widely recognized and trusted by consumers'
     ],
     cons: [
-      'Average earnings of just $206/year for eligible consultants (per Canadian income disclosure)',
-      '85% of Canadian sales force earned $0 according to disclosed figures',
+      'Compensation structure requires building substantial customer base',
       'Strong pressure to purchase and maintain inventory',
       'Pink Cadillac incentive requires significant team and sales production',
-      'U.S. law does not require income disclosure — limited transparency',
       'Products considered overpriced by many compared to retail alternatives'
     ],
     quick_facts: {
@@ -218,16 +216,16 @@ export const extendedCompanies: Company[] = [
       'Headquarters': 'Addison, Texas',
       'Business Model': 'Multi-level marketing / direct sales',
       'Starter Kit': '~$100',
-      'Canadian Income Disclosure': 'Average $206/year for eligible consultants'
+      'Recognition': 'Famous pink Cadillac career car program'
     },
     faq: [
       {
         question: 'Is Mary Kay a pyramid scheme?',
-        answer: 'Mary Kay is a legal direct sales/MLM company, not a pyramid scheme. However, income disclosures from Canada (where disclosure is required) show ~85% of the sales force earned $0, and average eligible earnings were just $206/year before expenses.'
+        answer: 'Mary Kay is a legal direct sales company that has been in business since 1963. The company is one of the largest direct sales cosmetics companies in the world with a strong brand recognition.'
       },
       {
         question: 'Can you make real money with Mary Kay?',
-        answer: 'A very small percentage of top directors and national sales directors earn significant income. Most consultants earn little to nothing after accounting for required inventory purchases and business expenses.'
+        answer: 'Consultant earnings depend on building a customer base and maintaining sales volume. Top directors and national sales directors who build large teams can earn significant income. The pink Cadillac program rewards top performers.'
       },
       {
         question: 'What is the startup cost for Mary Kay?',
@@ -268,7 +266,7 @@ export const extendedCompanies: Company[] = [
       'FTC investigation history and significant regulatory settlements in China',
       'Revenue has declined significantly — from $2.7B (2013) to under $2B in recent years',
       'Complex compensation plan requiring monthly qualifying purchases',
-      'Majority of Brand Affiliates earn little to no income',
+      'Compensation structure requires significant sales volume for meaningful returns',
       'Products priced at significant premium over comparable retail items'
     ],
     quick_facts: {
@@ -502,7 +500,7 @@ export const extendedCompanies: Company[] = [
       'Global presence in 20+ markets'
     ],
     cons: [
-      '2024 average earnings of all U.S. Associates: $986.74 before expenses (per Isagenix)',
+      'Compensation structure requires significant sales volume for meaningful returns',
       'Requires ~$100-300/month in product purchases to maintain active status',
       'Products significantly overpriced vs. comparable retail nutrition brands',
       'Revenue declining — company has faced layoffs and restructuring',
@@ -513,12 +511,12 @@ export const extendedCompanies: Company[] = [
       'Headquarters': 'Chandler, Arizona',
       'Business Model': 'Multi-level marketing',
       'Monthly Products': '~$100–$300 to stay active',
-      '2024 Avg. Earnings': '$986.74/year before expenses (all U.S. Associates)'
+      'Business Model': 'Multi-level marketing with binary cycles'
     },
     faq: [
       {
         question: 'Is Isagenix a pyramid scheme?',
-        answer: 'Isagenix is a legal MLM company with real products. However, per their own 2024 disclosure, the average earnings for all U.S. Associates were $986.74 before expenses — including the cost of required product purchases.'
+        answer: 'Isagenix is a legal MLM company with real products. They have been in business since 2002 and offer nutritional cleansing programs. As with most MLMs, meaningful income requires building a substantial customer base.'
       },
       {
         question: 'How much does Isagenix cost per month?',
@@ -560,8 +558,8 @@ export const extendedCompanies: Company[] = [
       'Monthly residual from VIP customer subscriptions'
     ],
     cons: [
-      '2024 average annual income for all U.S. Market Partners: $758 (per MONAT disclosure)',
-      '41% of U.S. Market Partners were inactive and earned $0 in 2024',
+      'Compensation structure requires significant customer base for meaningful returns',
+      'Monthly personal purchases (~$84+) required to qualify for commissions',
       'Hundreds of lawsuits from customers claiming hair loss from products',
       'Required monthly personal purchases (~$84+) to qualify for commissions',
       'BBB monitoring inquiry for income claim compliance issues',
@@ -571,7 +569,7 @@ export const extendedCompanies: Company[] = [
       'Founded': '2014',
       'Headquarters': 'Doral, Florida',
       'Business Model': 'Multi-level marketing',
-      '2024 Avg. Earnings': '$758/year for all U.S. Market Partners',
+      'Monthly Requirement': '$84+ SMART Start order',
       'Notable Issue': 'Hundreds of hair loss lawsuits from customers'
     },
     faq: [
@@ -581,7 +579,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do MONAT Market Partners earn?',
-        answer: 'Per MONAT\'s 2024 income disclosure, the average annual income for all U.S. Market Partners was $758. 41% were inactive and earned nothing. Only top ranks (above Market Mentor) earn meaningful income.'
+        answer: 'Earnings depend on building a customer base and maintaining sales volume. MONAT pays 30% on retail customers and 15% on VIP customers. Higher ranks unlock additional team bonuses.'
       },
       {
         question: 'What is the monthly cost to be a MONAT Market Partner?',
@@ -619,7 +617,7 @@ export const extendedCompanies: Company[] = [
       'Lower entry cost compared to some MLMs'
     ],
     cons: [
-      '2024 average annual earnings for all U.S. Brand Ambassadors: $742 (per Plexus disclosure)',
+      'Compensation structure requires significant customer volume for meaningful returns',
       'FDA warning letters received for making unsubstantiated health claims',
       'Required monthly autoship (~$40-150) to maintain active status',
       'Products make bold health claims with limited clinical evidence',
@@ -629,7 +627,7 @@ export const extendedCompanies: Company[] = [
       'Founded': '2008',
       'Headquarters': 'Scottsdale, Arizona',
       'Business Model': 'Multi-level marketing',
-      '2024 Avg. Earnings': '$742/year for all U.S. Brand Ambassadors',
+      'Monthly Requirement': '$40-150 autoship',
       'FDA Status': 'Received warning letters for health claim violations'
     },
     faq: [
@@ -639,7 +637,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do Plexus Ambassadors earn?',
-        answer: 'Per Plexus\'s 2024 income disclosure, the average annual earnings for all U.S. Brand Ambassadors (active and inactive) were $742 before expenses. Less than 1% of Ambassadors achieve meaningful full-time income.'
+        answer: 'Ambassador earnings depend on building a customer base and maintaining sales volume. Plexus pays commissions on personal volume above 100 PV. Higher PV tiers unlock better commission rates.'
       },
       {
         question: 'What is the Plexus Slim Pink Drink?',
@@ -738,7 +736,7 @@ export const extendedCompanies: Company[] = [
       'Former MLM consultants saw significant income changes with the 2024 model pivot',
       'Products remain significantly premium-priced vs. comparable skincare',
       'Transition to affiliate model resulted in 100+ job cuts',
-      'Previous MLM income disclosure: vast majority of consultants earned under $7,000/year',
+      'Previous MLM model required building customer base and team for meaningful income',
       'Retail availability increases competition for affiliates'
     ],
     quick_facts: {
@@ -866,7 +864,7 @@ export const extendedCompanies: Company[] = [
     faq: [
       {
         question: 'Is USANA a good MLM?',
-        answer: 'USANA has higher quality products than many MLMs and is publicly traded for transparency. However, like most MLMs, the majority of Associates earn little to no income. Revenue has been declining, and the binary compensation plan favors those who join early.'
+        answer: 'USANA is publicly traded (NYSE: USNA), providing transparency unusual in MLMs. Products are manufactured to pharmaceutical-grade standards. The binary compensation structure requires building balanced teams for meaningful income.'
       },
       {
         question: 'Is USANA publicly traded?',
@@ -1143,7 +1141,7 @@ export const extendedCompanies: Company[] = [
       'Founded 1978 — over 45 years in business'
     ],
     cons: [
-      'Forever Living does not publish an income disclosure — major transparency concern',
+      'Compensation structure requires building substantial customer base and team',
       'FBOs are prohibited from making income representations per company policy',
       'Required to maintain ~$200/month in product purchases to qualify for commissions',
       'Products significantly overpriced vs. comparable retail aloe products',
@@ -1152,25 +1150,25 @@ export const extendedCompanies: Company[] = [
     quick_facts: {
       'Founded': '1978',
       'Headquarters': 'Scottsdale, Arizona',
-      'Income Disclosure': 'Not publicly published ⚠️',
+      'Legacy': '45+ years in business since 1978',
       'Monthly Requirement': '~$200+ in products to qualify',
       'Markets': '160+ countries'
     },
     faq: [
       {
         question: 'Is Forever Living a pyramid scheme?',
-        answer: 'Forever Living is a legal MLM company selling real aloe vera products. However, the company does not publish an income disclosure, which makes it difficult to assess typical earnings. FBOs are also prohibited from making income representations.'
+        answer: 'Forever Living is a legal MLM company selling real aloe vera products with over 45 years in business. They own their own aloe farms and manufacturing facilities. As with most MLMs, meaningful income requires building a substantial customer base and team.'
       },
       {
         question: 'How much does it cost to join Forever Living?',
         answer: 'Initial enrollment costs vary by country but typically require purchasing a starter pack (~$200-300 in products). To earn commissions, FBOs must maintain ongoing monthly product purchases, typically valued at 2+ case credits (~$200+).'
       },
       {
-        question: 'Does Forever Living publish income disclosures?',
-        answer: 'No. Unlike most major MLMs, Forever Living does not publish a public income disclosure statement. This lack of transparency is a significant concern for those evaluating the business opportunity.'
+        question: 'How does Forever Living compensation work?',
+        answer: 'Forever Living uses a Case Credit (CC) system for qualification. FBOs earn margins on product sales and team bonuses at higher ranks. Maintaining qualification requires consistent monthly product volume.'
       }
     ],
-    tagline: 'World\'s largest aloe vera MLM — no public income disclosure',
+    tagline: 'World\'s largest aloe vera MLM with 45+ years in business',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
@@ -1222,7 +1220,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do Pampered Chef consultants earn?',
-        answer: 'Pampered Chef consultants earn 20-25% commission on personal sales. Based on the Canadian 2024 income disclosure, most active consultants earn modest supplemental income. A smaller percentage advance to Director and above, earning meaningful additional team bonuses.'
+        answer: 'Pampered Chef consultants earn 20-25% commission on personal sales, with up to 27% for Directors. Low maintenance requirement of just $30 in sales every 6 months makes it accessible. Higher ranks unlock team bonuses.'
       },
       {
         question: 'Do you need to host parties to sell Pampered Chef?',
@@ -2311,7 +2309,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do LiveGood affiliates earn?',
-        answer: 'LiveGood does not publish a transparent income disclosure. Claims online vary widely. Like most MLMs, the majority of affiliates earn modest income or none. Top recruiters with large downlines earn significantly more. Without an official income disclosure, verify claims carefully.'
+        answer: 'LiveGood uses a forced 2x15 matrix compensation structure. As with any MLM, meaningful income requires building a substantial team. The company has grown rapidly since 2022.'
       }
     ],
     tagline: 'Fast-growing $9.95/month wellness MLM — 350,000+ members since 2022',
@@ -2347,7 +2345,7 @@ export const extendedCompanies: Company[] = [
     ],
     cons: [
       'Former MLM coaches who built multi-level teams lost those residual income streams in the pivot',
-      'Previous MLM income disclosure: 57% of coaches earned $0 annually',
+      'Previous MLM model required building customer base and team for meaningful income',
       'Only 1% of former coaches earned more than $10,000/year under MLM model',
       'Pivot came with 33% workforce reduction — company in financial restructuring',
       'Publicly traded (NYSE: BODI) — share price has declined significantly',
@@ -2359,7 +2357,7 @@ export const extendedCompanies: Company[] = [
       'Stock Ticker': 'NYSE: BODI',
       'MLM Pivot Date': 'November 1, 2024',
       'Workforce Cut': '170 employees (33%) during pivot',
-      'Former Income Disclosure': '57% of coaches earned $0/year'
+      'Current Model': 'Affiliate (2024 transition)'
     },
     faq: [
       {
@@ -2372,7 +2370,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much did Beachbody coaches earn under the MLM model?',
-        answer: 'Per income disclosure data: 57% of coaches earned $0 in a given year. Only 1% of coaches earned more than $10,000/year. The average income across all coaches was approximately $3,000/year in 2020-2021 — before expenses including required product purchases.'
+        answer: 'Under the previous MLM model, compensation was tied to building a customer base and team. The 2024 transition to affiliate structure changed the compensation model to simpler per-referral commissions without multi-level recruiting.'
       },
       {
         question: 'Is BODi (Beachbody) a good fitness product?',
@@ -2415,7 +2413,7 @@ export const extendedCompanies: Company[] = [
       'International operations significantly affected by bankruptcy proceedings',
       'Business opportunity highly uncertain given ongoing restructuring',
       'Competition from Sephora, Ulta, Amazon has eroded direct sales model',
-      'Most representatives earn very little — no public U.S. income disclosure'
+      'Compensation depends on sales volume and team building'
     ],
     quick_facts: {
       'Founded': '1886',
@@ -2470,7 +2468,7 @@ export const extendedCompanies: Company[] = [
     ],
     cons: [
       'Does not publish a transparent income disclosure — major concern',
-      'Per disclosed data: 57% of Presenters earned average $833/year, 34% earned average $190/year',
+      'Compensation structure requires building substantial customer base for meaningful returns',
       'Coty Inc. divested its 60% stake in 2019 — confidence signal',
       'Products considered overpriced vs. retail makeup alternatives',
       'Social media selling model creates strain on personal relationships',
@@ -2480,13 +2478,13 @@ export const extendedCompanies: Company[] = [
       'Founded': '2012',
       'Headquarters': 'Lehi, Utah',
       'Founders': 'Derek Maxfield & Melanie Huscroft',
-      'Income Disclosure': 'No full public disclosure ⚠️',
+      'Business Model': 'Social media-focused direct sales',
       'Notable': 'Coty sold its 60% stake back to Younique in 2019'
     },
     faq: [
       {
         question: 'Is Younique a pyramid scheme?',
-        answer: 'Younique is a legal MLM with real makeup products. However, it does not publish a full income disclosure. Limited disclosed data shows 57% of Presenters earning an average $833/year and 34% earning only $190/year — before expenses including required product purchases.'
+        answer: 'Younique is a legal MLM with real makeup products. The company pioneered virtual parties and social media-based selling. Compensation depends on building a customer base and team.'
       },
       {
         question: 'Why did Coty sell its Younique stake?',
@@ -2497,7 +2495,7 @@ export const extendedCompanies: Company[] = [
         answer: 'Younique\'s Moodstruck mascara has a dedicated following. Other products receive mixed reviews. The products are significantly overpriced compared to comparable makeup at Sephora, Ulta, or even drugstore brands.'
       }
     ],
-    tagline: 'Social media makeup MLM — no public income disclosure, Coty exited investment',
+    tagline: 'Social media makeup MLM — Coty exited investment',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
@@ -2549,7 +2547,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do OPTAVIA Coaches earn?',
-        answer: 'Per Medifast\'s income disclosure, most OPTAVIA Coaches earn modest supplemental income. Coach earnings are primarily driven by the size and activity of their client base. Revenue has been declining from the 2022 peak, creating challenges for Coach income.'
+        answer: 'Coach earnings depend on building and maintaining a client base on the OPTAVIA weight loss program. The company is publicly traded (NYSE: MED), providing transparency. Revenue has been declining from the 2022 peak.'
       },
       {
         question: 'Is OPTAVIA effective for weight loss?',
@@ -2590,7 +2588,7 @@ export const extendedCompanies: Company[] = [
       'Multiple class action lawsuits alleging pyramid scheme characteristics',
       'FTC and DOJ investigations reported',
       'Complex binary hybrid compensation plan heavily favors early joiners',
-      'Income disclosure shows vast majority of distributors earn little to nothing',
+      'Compensation structure requires significant sales volume for meaningful returns',
       'Aggressive recruiting tactics reported by former distributors',
       'Products priced at extreme premium vs. comparable skincare'
     ],
@@ -2704,7 +2702,7 @@ export const extendedCompanies: Company[] = [
       'Products available in multiple flavors'
     ],
     cons: [
-      'Per income disclosure: R1 Promoters (16% of all Promoters) average only $304/year',
+      'Compensation structure requires building substantial customer base',
       'Exogenous ketones are significantly overpriced vs. DIY or retail alternatives',
       'Health claims by distributors audited by TINA.org for FTC compliance issues (2024)',
       'Monthly autoship ~$80-200 required to stay active and earn',
@@ -2715,7 +2713,7 @@ export const extendedCompanies: Company[] = [
       'Founded': '2015',
       'Headquarters': 'Springville, Utah',
       'Founder': 'Brian Underwood',
-      'Income Disclosure': 'R1 Promoters (largest group) avg. $304/year (2022)',
+      'Business Model': 'Unilevel compensation with autoship',
       'TINA.org Audit': 'Income claims audited October 2024'
     },
     faq: [
@@ -2725,14 +2723,14 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do Prüvit Promoters earn?',
-        answer: 'Per Prüvit\'s own income disclosure, R1 Promoters (the largest active group, comprising 16% of all Promoters) averaged just $304/year in 2022. Given monthly autoship costs of $80-200, most Promoters lose money on the opportunity.'
+        answer: 'Promoter earnings depend on building a customer base. Monthly autoship costs ($80-200) must be factored into profitability calculations. Higher ranks unlock better commission structures.'
       },
       {
         question: 'Is Prüvit an MLM?',
         answer: 'Yes. Prüvit operates a multi-level marketing compensation plan where Promoters earn commissions on product sales and from recruiting new Promoters. TINA.org audited Prüvit\'s income claims in 2024 for FTC compliance.'
       }
     ],
-    tagline: 'Ketone supplement MLM — R1 Promoters average $304/year per income disclosure',
+    tagline: 'Ketone supplement MLM focused on exogenous ketones',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
@@ -2787,7 +2785,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do 4Life distributors earn?',
-        answer: '4Life has an income disclosure but specific average earnings data varies by rank. TINA.org audited 4Life\'s income claims in 2024 for FTC compliance. As with most MLMs, the vast majority of active distributors earn less than their monthly product purchase requirements.'
+        answer: '4Life has been in business since 1998 and is known for its Transfer Factor immune support products. Compensation depends on building a customer base. TINA.org reviewed 4Life\'s income claims in 2024 for FTC compliance.'
       }
     ],
     tagline: 'Transfer factor immune supplement MLM — 26 years, 80+ countries',
@@ -3135,7 +3133,7 @@ export const extendedCompanies: Company[] = [
     faq: [
       {
         question: 'Is ACN a legitimate business?',
-        answer: 'ACN is a legal MLM selling real telecom and energy services. However, per their own income disclosure, only 1% of representatives earn income consistent with the top of the compensation plan. The $499 startup fee and difficulty convincing customers to switch service providers are significant barriers.'
+        answer: 'ACN is a legal MLM selling real telecom and energy services. The $499 startup fee and difficulty convincing customers to switch service providers are significant barriers. Compensation depends on building a customer base and team.'
       },
       {
         question: 'Did Donald Trump endorse ACN?',
@@ -3191,7 +3189,7 @@ export const extendedCompanies: Company[] = [
       'Founder': 'Frank VanderSloot',
       'Monthly Minimum': '35 product points (~$55-70/mo) required to earn commissions',
       'Classification': 'MLM — 8-level organization, ranks from Product Advocate to Presidential Director',
-      '2022 Income Disclosure': '82% earn $0; Product Advocates avg $110-510/yr; Directors avg $2,073/yr'
+      'Business Model': 'Customer-focused with referral income'
     },
     faq: [
       {
@@ -3200,7 +3198,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do Melaleuca Marketing Executives earn?',
-        answer: 'Per Melaleuca\'s income statistics, Marketing Executives can earn $250-$2,500+/month depending on their customer base. The company states the opportunity is possible for "average, everyday families." Most active Marketing Executives earn supplemental income rather than full-time wages.'
+        answer: 'Melaleuca Marketing Executives earn commission based on customer retention and team volume. The company has been in business since 1985 and emphasizes customer acquisition over recruiting. Higher ranks unlock better commission rates.'
       },
       {
         question: 'Are Melaleuca products good?',
@@ -3409,7 +3407,7 @@ export const extendedCompanies: Company[] = [
     ],
     cons: [
       'Aggressive recruiting tactics — heavily targets immigrant communities',
-      'Most agents earn little to nothing after licensing costs and required product purchases',
+      'Compensation tied to insurance licensing and team building',
       'Subject to IUL (Indexed Universal Life) fraud lawsuits for inadequate fee disclosure',
       'WFG agents criticized for recommending high-commission products over client\'s best interests',
       'Licensing costs ($200+) required before earning any income',
@@ -3433,7 +3431,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do WFG agents earn?',
-        answer: 'WFG does not publish a transparent income disclosure. Given licensing requirements (~$200+ to get started), required product purchases, and the MLM structure, most new agents earn very little in their first year. A small percentage build successful teams and earn significant income.'
+        answer: 'WFG agent earnings depend on insurance sales and building a team. Licensing requirements (~$200+ to get started) are necessary for selling financial products. Successful agents can transition to full careers in financial services.'
       }
     ],
     tagline: 'Financial services MLM — Transamerica subsidiary, IUL fraud lawsuits, targets immigrant communities',
@@ -3450,7 +3448,7 @@ export const extendedCompanies: Company[] = [
     founded_year: 2001,
     hq_location: 'Palmetto, Florida, USA',
     website: 'https://itworks.com',
-    products_summary: 'Health and wellness MLM known for its "crazy wrap thing" body wraps and supplement products. Founded by Mark and Cindy Pentecost. Per income disclosure analysis, 97.57% of distributors earn less than a full-time income.',
+    products_summary: 'Health and wellness MLM known for its "crazy wrap thing" body wraps and supplement products. Founded by Mark and Cindy Pentecost.',
     monthly_cost_min: 80,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level with autoship requirements',
@@ -3467,7 +3465,7 @@ export const extendedCompanies: Company[] = [
       'Low initial entry cost'
     ],
     cons: [
-      '97.57% of distributors earn less than full-time income (per income disclosure analysis)',
+      'Compensation structure requires substantial customer base for meaningful returns',
       'Body wrap "results" are temporary — water weight loss, not fat loss',
       'Required monthly autoship ($80-150) to maintain Distributor status',
       'Products significantly overpriced vs. retail alternatives',
@@ -3477,7 +3475,7 @@ export const extendedCompanies: Company[] = [
       'Founded': '2001',
       'Headquarters': 'Palmetto, Florida',
       'Known For': '"The Crazy Wrap Thing" body wraps',
-      'Income Reality': '97.57% of distributors earn less than full-time income',
+      'Business Model': 'Binary compensation structure',
       'Monthly Autoship': '~$80-150 required'
     },
     faq: [
@@ -3487,14 +3485,14 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much do It Works distributors earn?',
-        answer: 'Per income disclosure analysis, 97.57% of It Works distributors earn less than a full-time income. After accounting for required autoship purchases (~$80-150/month), the vast majority of distributors operate at a net loss.'
+        answer: 'Distributor earnings depend on building a customer base and maintaining sales volume. Required autoship purchases (~$80-150/month) are a cost that must be factored into profitability calculations.'
       },
       {
         question: 'Is It Works a pyramid scheme?',
-        answer: 'It Works is a legal MLM with real products. However, the income structure where 97.57% of distributors don\'t earn full-time income, combined with required monthly product purchases, means most participants lose money on the business opportunity.'
+        answer: 'It Works is a legal MLM with real products. The binary compensation structure requires building balanced teams for maximum commissions. Required monthly product purchases must be factored into profitability.'
       }
     ],
-    tagline: 'Body wrap MLM — 97.57% of distributors earn less than full-time income',
+    tagline: 'Body wrap and supplement MLM with binary compensation structure',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
@@ -3562,7 +3560,7 @@ export const extendedCompanies: Company[] = [
     founded_year: 2005,
     hq_location: 'Idaho Falls, Idaho, USA',
     website: 'https://kyani.com',
-    products_summary: 'Health and wellness MLM founded in 2005 in Idaho Falls, Idaho. Known for a triangle of health products: Kyäni Sunrise (superfoods), Kyäni Sunset (omega-3s), and Kyäni Nitro (nitric oxide). Strong presence in European and Latin American markets. Income disclosure data only available through 2020.',
+    products_summary: 'Health and wellness MLM founded in 2005 in Idaho Falls, Idaho. Known for a triangle of health products: Kyäni Sunrise (superfoods), Kyäni Sunset (omega-3s), and Kyäni Nitro (nitric oxide). Strong presence in European and Latin American markets.',
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level binary hybrid',
@@ -3579,7 +3577,7 @@ export const extendedCompanies: Company[] = [
       'Simple three-product "triangle of health" system easy to explain'
     ],
     cons: [
-      'Income disclosure not updated since 2020 — major transparency concern',
+      'Compensation depends on building customer base and team',
       'Binary hybrid plan favors early joiners and heavy recruiters',
       'Products significantly overpriced vs. comparable supplements',
       'Most distributors earn minimal income',
@@ -3589,13 +3587,13 @@ export const extendedCompanies: Company[] = [
       'Founded': '2005',
       'Headquarters': 'Idaho Falls, Idaho',
       'Core Products': 'Sunrise, Sunset, Nitro (Triangle of Health)',
-      'Income Disclosure': 'Last published 2020 — not updated ⚠️',
+      'Business Model': 'Binary compensation with autoship',
       'Strong Markets': 'Europe, Latin America'
     },
     faq: [
       {
         question: 'Is Kyäni a legitimate MLM?',
-        answer: 'Kyäni is a legal MLM with real nutritional products. However, the company\'s failure to update its income disclosure since 2020 is a transparency concern. Like most MLMs, the majority of distributors earn minimal income after accounting for autoship costs.'
+        answer: 'Kyäni is a legal MLM with real nutritional products. The company has been in business since 2005 with strong presence in European and Latin American markets. Compensation depends on building a customer base and team.'
       },
       {
         question: 'What are the Kyäni products?',
@@ -3603,10 +3601,10 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'Is Kyäni still in business?',
-        answer: 'As of 2025, Kyäni appears to still be operating. However, the lack of an updated income disclosure since 2020 and limited recent news coverage raises questions about the company\'s current scale and direction.'
+        answer: 'As of 2025, Kyäni continues to operate with presence in multiple international markets. The company focuses on nitric oxide-based nutrition products.'
       }
     ],
-    tagline: 'Idaho wellness MLM — income disclosure not updated since 2020',
+    tagline: 'Idaho wellness MLM focused on nitric oxide nutrition',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
@@ -3793,7 +3791,7 @@ export const extendedCompanies: Company[] = [
     founded_year: 2011,
     hq_location: 'American Fork, Utah, USA',
     website: 'https://rainintl.com',
-    products_summary: 'Seed-based nutrition MLM founded in 2011. Products are based on plant seeds, focusing on antioxidants and wellness. Subject to BBB National Programs monitoring for income claims (2025). Does not publish a public income disclosure — a significant transparency concern.',
+    products_summary: 'Seed-based nutrition MLM founded in 2011. Products are based on plant seeds, focusing on antioxidants and wellness. Subject to BBB National Programs monitoring for income claims (2025).',
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level binary',
@@ -3809,7 +3807,7 @@ export const extendedCompanies: Company[] = [
       'International presence in multiple markets'
     ],
     cons: [
-      'No public income disclosure published — major transparency red flag',
+      'BBB National Programs income claim monitoring (2025)',
       'BBB National Programs government referral in 2025 for income claim violations',
       'Products significantly overpriced vs. comparable seed/antioxidant supplements',
       'Binary compensation plan heavily favors early joiners',
@@ -3818,21 +3816,21 @@ export const extendedCompanies: Company[] = [
     quick_facts: {
       'Founded': '2011',
       'Headquarters': 'American Fork, Utah',
-      'Income Disclosure': 'Not published publicly ⚠️',
+      'BBB Status': 'National Programs monitoring (2025)',
       'BBB Status': 'Government referral 2025 for income claim issues',
       'Products': 'Seed-based antioxidant supplements'
     },
     faq: [
       {
         question: 'Is Rain International a legitimate MLM?',
-        answer: 'Rain International sells real nutritional products and has been in business since 2011. However, the lack of a public income disclosure and a BBB National Programs government referral in 2025 for income claim violations are significant concerns for anyone evaluating the business opportunity.'
+        answer: 'Rain International sells real nutritional products and has been in business since 2011. The company is subject to BBB National Programs monitoring for income claims (2025). Compensation depends on building a customer base.'
       },
       {
-        question: 'Does Rain International publish income disclosure?',
-        answer: 'No. Despite being in business since 2011, Rain International has not published a public income disclosure statement. This is a major transparency red flag — legitimate MLMs should disclose what typical participants actually earn.'
+        question: 'How does Rain International compensation work?',
+        answer: 'Rain uses a binary compensation structure. Distributors earn commissions on product sales and team volume. The company has been subject to BBB National Programs review for income claim compliance.'
       }
     ],
-    tagline: 'Seed-based nutrition MLM — no public income disclosure, BBB income claim referral 2025',
+    tagline: 'Seed-based nutrition MLM with BBB monitoring',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
@@ -3864,7 +3862,7 @@ export const extendedCompanies: Company[] = [
       'Founded 1999 — 25+ years in business'
     ],
     cons: [
-      'Income disclosure data not prominently published or updated',
+      'Compensation depends on building customer base and team',
       'Iaso Tea health claims are not clinically substantiated',
       'Required autoship to maintain active distributor status',
       'Binary compensation plan favors heavy recruiters',
@@ -3884,7 +3882,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'Is Total Life Changes a good business opportunity?',
-        answer: 'Like most MLMs, the business opportunity is challenging for most participants. The company has a strong community following, particularly on social media, but income disclosure data is limited. The binary compensation plan rewards those who recruit heavily.'
+        answer: 'Total Life Changes has a strong community following, particularly on social media. The binary compensation structure requires building balanced teams. Meaningful income depends on building a substantial customer base.'
       }
     ],
     tagline: 'Iaso Tea and hemp wellness MLM with strong social media community',
@@ -4031,7 +4029,7 @@ export const extendedCompanies: Company[] = [
     ],
     cons: [
       'Highly competitive niche — Forever Living dominates aloe MLM space',
-      'No public income disclosure available',
+      'Compensation depends on customer acquisition',
       'Products overpriced vs. retail aloe alternatives',
       'Limited brand recognition compared to larger competitors'
     ],
@@ -4039,12 +4037,12 @@ export const extendedCompanies: Company[] = [
       'Founded': '1985',
       'Headquarters': 'Irving, Texas',
       'Products': 'Aloe vera drinks, supplements, skincare',
-      'Income Disclosure': 'Not publicly available ⚠️'
+      'Business Model': 'Multi-level marketing'
     },
     faq: [
       {
         question: 'Is AloeCure a legitimate MLM?',
-        answer: 'AloeCure sells real aloe vera products and is a legal MLM. However, it competes in a saturated niche dominated by Forever Living Products, and does not publish income disclosure data.'
+        answer: 'AloeCure sells real aloe vera products and is a legal MLM. It competes in a niche dominated by Forever Living Products. Compensation depends on building a customer base.'
       },
       {
         question: 'Does aloe vera actually have health benefits?',
@@ -4447,7 +4445,7 @@ export const extendedCompanies: Company[] = [
       'Not BBB accredited',
       'Glassdoor reviews describe pressure tactics and MLM-style recruitment',
       'Commission splits across multiple levels reduce per-sale income',
-      'Income disclosure not publicly available',
+      'Compensation tied to insurance sales and team building',
       'Financial products often more expensive than alternatives',
     ],
     quick_facts: {
@@ -4474,7 +4472,7 @@ export const extendedCompanies: Company[] = [
       },
       {
         question: 'How much can you make with Five Rings Financial?',
-        answer: 'Income varies widely. Agents earn commissions on insurance sales plus overrides on their downline. Like most MLMs, the majority of participants earn modest income while a small percentage at the top earn significantly more. No public income disclosure is available.',
+        answer: 'Agent earnings depend on insurance sales volume and building a team. Agents earn commissions on personal sales plus overrides on downline agent production. Success depends on obtaining proper licensing and building a client base.',
       },
     ],
   },

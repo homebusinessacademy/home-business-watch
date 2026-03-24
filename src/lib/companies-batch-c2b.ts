@@ -1254,7 +1254,7 @@ export const companiesBatchC2b: Company[] = [
     cons: [
       "Wearable nutrition patch claims lack scientific backing",
       "High monthly cost for THRIVE system",
-      "Income disclosure shows most earn minimal income",
+      "Compensation structure requires significant customer base for meaningful returns",
       "Caffeine content may cause dependency concerns"
     ],
     quick_facts: {

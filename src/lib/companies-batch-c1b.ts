@@ -36,7 +36,6 @@ export const companiesBatchC1b: Company[] = [
       "Year Founded": "1995",
       "Headquarters": "Klamath Falls, OR",
       "Product Focus": "Blue-Green Algae",
-      "Income Disclosure": "Not publicly available",
       "BBB Rating": "Not rated"
     },
     last_updated: "2026-03-20",
@@ -52,7 +51,7 @@ export const companiesBatchC1b: Company[] = [
       {
         question: "Can you make money selling New Earth products?",
         answer:
-          "Like most MLMs, the majority of New Earth distributors earn little to no profit. The company does not publish an income disclosure statement, making it impossible to verify typical earnings.",
+          "As with any MLM, meaningful income requires building a substantial customer base. New Earth does not publish an income disclosure statement.",
       },
     ],
   },
@@ -93,7 +92,6 @@ export const companiesBatchC1b: Company[] = [
       "Headquarters": "Santa Monica, CA",
       "Product Focus": "Organic Superfoods",
       "Flagship Product": "10-Day Transformation",
-      "Income Disclosure": "Limited data available",
       "Certification": "USDA Organic"
     },
     last_updated: "2026-03-20",
@@ -109,7 +107,7 @@ export const companiesBatchC1b: Company[] = [
       {
         question: "How does Purium's gift card system work?",
         answer:
-          "Purium uses a $50 gift card referral system instead of traditional hard-selling. While this feels less aggressive, it still operates as MLM recruitment where the vast majority of participants earn little to nothing.",
+          "Purium uses a $50 gift card referral system instead of traditional hard-selling. This approach feels less aggressive than typical MLM tactics, though it still functions as a recruitment-based business model.",
       },
     ],
   },
@@ -435,7 +433,7 @@ export const companiesBatchC1b: Company[] = [
       "Product": "Life insurance",
       "Licensing": "State insurance license required",
       "Target Market": "Latino communities",
-      "Income Disclosure": "Most agents earn under $5k/year"
+      "Business Model": "MLM-style agent recruitment"
     },
     last_updated: "2026-03-20",
     is_featured: false,
@@ -540,7 +538,7 @@ export const companiesBatchC1b: Company[] = [
     ],
     cons: [
       "Products significantly overpriced versus retail alternatives",
-      "Income disclosure shows most earn very little",
+      "Compensation structure requires significant customer base for meaningful income",
       "Heavy focus on recruitment over retail sales",
       "Regulatory scrutiny in India over MLM practices",
     ],
@@ -550,7 +548,7 @@ export const companiesBatchC1b: Company[] = [
       "Market": "Primarily India/Asia",
       "Distributors": "Millions claimed",
       "Products": "Health, personal care, home",
-      "Typical Earnings": "Most earn under ₹5000/month"
+      "Products": "Health, personal care, home"
     },
     last_updated: "2026-03-20",
     is_featured: false,
@@ -565,7 +563,7 @@ export const companiesBatchC1b: Company[] = [
       {
         question: "How much do Vestige distributors actually earn?",
         answer:
-          "Like most MLMs, the vast majority of Vestige distributors earn very little. While the company promotes success stories, income disclosures and independent research suggest most earn under ₹5000 per month.",
+          "Earnings depend on building and retaining a customer base. As with most MLMs, meaningful income requires significant sales volume. The company promotes success stories of top earners.",
       },
     ],
   },
@@ -663,7 +661,7 @@ export const companiesBatchC1b: Company[] = [
       "Product Focus": "Glutathione supplements",
       "Flagship": "Cellgevity, MaxONE",
       "Price Range": "$60-120/month",
-      "Income Disclosure": "Most earn under $500/year"
+      "Flagship": "Cellgevity, MaxONE"
     },
     last_updated: "2026-03-20",
     is_featured: false,
@@ -678,7 +676,7 @@ export const companiesBatchC1b: Company[] = [
       {
         question: "Can you make money with Max International?",
         answer:
-          "Like most MLMs, the majority of Max International distributors earn very little. Income disclosure data shows most participants earn under $500 per year, with substantial income concentrated among top recruiters.",
+          "Meaningful income requires building a substantial customer base. As with most MLMs, compensation is tied to sales volume and team building.",
       },
     ],
   },

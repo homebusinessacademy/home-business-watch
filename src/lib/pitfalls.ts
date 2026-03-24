@@ -588,11 +588,11 @@ export const pitfallsData: PitfallData[] = [
         sourceNote: 'Primerica Important Disclosures, 2025',
       },
       {
-        category: 'Income Reality',
+        category: 'Commission Structure',
         severity: 'high',
-        title: 'Average $8,199 in 2025 - "extraordinary" and "not typical"',
-        details: 'Primerica paid life-licensed sales force average of $8,199 in 2025. This average "reflects an extraordinary level of success that is not typical of the sales force."',
-        sourceNote: 'Primerica Important Disclosures, 2025',
+        title: 'Starting commissions (25%) are low compared to independent agents',
+        details: 'New representatives start at 25% commission on life insurance sales, scaling to 60% at Division Leader level. Captive agent model means you can only sell Primerica products.',
+        sourceNote: 'Primerica Sales & Marketing Plan, 2025',
       },
       {
         category: 'Ongoing Expenses',
@@ -630,7 +630,7 @@ export const pitfallsData: PitfallData[] = [
         sourceNote: 'Primerica POL Agreement',
       },
     ],
-    bottomLine: 'Primerica\'s own disclosures state the $8,199 average income "reflects an extraordinary level of success that is not typical." Before earning anything: $99 startup + $200-500 licensing + $25/month ongoing subscription. As independent contractors, you receive no employee benefits or income guarantees.',
+    bottomLine: 'Primerica requires significant upfront investment before earning: $99 startup + $200-500 licensing + $25/month ongoing subscription. Starting commission is 25% (vs higher rates for independent agents). As independent contractors, you receive no employee benefits or income guarantees.',
     policyUrl: 'https://www.primerica.com/public/primerica_disclosures.html',
   },
   {
@@ -944,11 +944,11 @@ export const pitfallsData: PitfallData[] = [
         sourceNote: 'LuLaRoe Enrollment Requirements',
       },
       {
-        category: 'Income Disparity',
+        category: 'Business Model',
         severity: 'medium',
-        title: 'Median earnings significantly below average',
-        details: 'Top sellers dramatically skew averages. Most retailers earn modest amounts while a small percentage earn substantial income.',
-        sourceNote: 'LuLaRoe Income Disclosure Statement',
+        title: 'Inventory-based model creates upfront financial risk',
+        details: 'Unlike drop-ship models, LuLaRoe requires purchasing inventory before selling. This creates upfront financial risk, especially if patterns don\'t sell well in your market.',
+        sourceNote: 'LuLaRoe Enrollment Requirements',
       },
       {
         category: 'Product Definitions',
@@ -958,7 +958,7 @@ export const pitfallsData: PitfallData[] = [
         sourceNote: 'LuLaRoe Policies and Procedures Rev.020124.001',
       },
     ],
-    bottomLine: 'LuLaRoe\'s $4.75M Washington settlement confirms the risk. The company can cancel IFR Agreements "at sole discretion" with no claim to your organization. Policy updates happen through the Back Office without direct notification. The 2017 change from 100% to 90% buyback left many retailers financially exposed.',
+    bottomLine: 'LuLaRoe\'s $4.75M Washington AG settlement confirms the regulatory risk. The company can cancel IFR Agreements "at sole discretion" with no claim to your organization. Policy updates happen through Back Office without direct notification. The 2017 change from 100% to 90% buyback left many retailers financially exposed.',
     policyUrl: 'https://d1lmfvj4ldun6m.cloudfront.net/exigo/llrAdmin/documents/LLR_P&Ps.pdf',
   },
   {

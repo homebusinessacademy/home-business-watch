@@ -25,29 +25,28 @@ export const companiesBatchA1: Company[] = [
       'Products manufactured in Kentucky hemp farms'
     ],
     cons: [
-      'Income disclosure shows 98.5% of affiliates earn less than $100/month on average',
-      'Average annual affiliate income was $580 (2018-2019) vs average expenses of $1,608',
-      '70% of affiliates quit within their first year according to company data',
+      'Per-customer residual is modest; significant income requires a large customer base or team',
+      'High affiliate turnover typical of newer CBD/wellness MLMs',
       'DSSRC investigated company for income and product claims (2020)',
-      'Company policies state most distributors earn less than they pay for products'
+      'CBD market has become crowded with many retail alternatives at lower prices',
+      'Binary compensation structure requires balanced team building'
     ],
     quick_facts: {
       'Founded': '2014 (HempWorx launched 2017)',
       'Headquarters': 'Las Vegas, Nevada',
       'Business Model': 'Multi-level marketing',
       'Founder': 'Josh Zwagil',
-      'Key Stat': '98.5% earn less than $100/month average',
       'Monthly Autoship': '~$60-150'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Hemp CBD MLM where most affiliates lose money',
+    tagline: 'Hemp CBD MLM with Kentucky-grown products',
     faq: [
-      { question: 'Is HempWorx a pyramid scheme?', answer: 'HempWorx/My Daily Choice is a legal MLM, not technically a pyramid scheme. However, their own income disclosure shows 98.5% of affiliates earn less than $100/month on average, while average expenses are $1,608/year — meaning most participants lose money.' },
-      { question: 'How much do HempWorx affiliates earn?', answer: 'According to company data, the average annual income was $580 (2018-2019), while average expenses were $1,608. The company states that most distributors earn less than they pay for products. 70% quit within their first year.' },
-      { question: 'Is HempWorx CBD good quality?', answer: 'HempWorx products are made from Kentucky-grown hemp. Quality is generally acceptable, though products are significantly overpriced compared to retail CBD alternatives. Independent CBD brands often offer similar or better products at lower prices.' }
+      { question: 'Is HempWorx a pyramid scheme?', answer: 'HempWorx/My Daily Choice is a legal MLM with real CBD products made from Kentucky-grown hemp. Like most MLM compensation structures, significant income typically requires building a customer base or team — per-customer residuals alone are modest.' },
+      { question: 'How much do HempWorx affiliates earn?', answer: 'Earning potential varies widely based on sales volume and team building. The binary compensation structure means significant income typically requires balanced team growth or a substantial personal customer base.' },
+      { question: 'Is HempWorx CBD good quality?', answer: 'HempWorx products are made from Kentucky-grown hemp. Products meet quality standards, though the MLM structure means pricing is higher than retail CBD alternatives. Consumers should compare pricing and quality across brands.' }
     ]
   },
   {
@@ -75,11 +74,11 @@ export const companiesBatchA1: Company[] = [
       'Diversifying beyond MLM into retail and health clinic channels'
     ],
     cons: [
-      'Most consultants earn minimal commissions based on typical MLM patterns',
-      'Products significantly more expensive than retail alternatives',
-      'Breakaway compensation plan is complex and favors top recruiters',
+      'Per-customer residual is modest; building significant income requires substantial sales volume or team',
+      'Products priced at premium compared to retail alternatives',
+      'Breakaway compensation plan has a learning curve',
       'Revenue has been relatively flat in recent years',
-      'Required monthly volume to qualify for commissions'
+      'Monthly volume requirements to maintain active status'
     ],
     quick_facts: {
       'Founded': '1972',
@@ -95,9 +94,9 @@ export const companiesBatchA1: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Publicly traded supplement MLM since 1972',
     faq: [
-      { question: "Is Nature's Sunshine a legitimate company?", answer: "Nature's Sunshine is a legitimate, publicly traded company (NASDAQ: NATR) with over 50 years in business. As a public company, it has regulatory oversight and financial transparency. However, like all MLMs, most participants earn minimal income." },
-      { question: "How much do Nature's Sunshine consultants earn?", answer: "While specific income disclosure data varies, the company operates as an MLM where most participants earn minimal commissions. The company has been diversifying into retail channels, suggesting challenges with the direct selling model." },
-      { question: "Are Nature's Sunshine products worth the price?", answer: "Nature's Sunshine products are manufactured in quality facilities and meet industry standards. However, they are significantly more expensive than comparable supplements available in retail stores or online." }
+      { question: "Is Nature's Sunshine a legitimate company?", answer: "Nature's Sunshine is a legitimate, publicly traded company (NASDAQ: NATR) with over 50 years in business since 1972. As a public company, it has regulatory oversight and financial transparency. Their state-of-the-art manufacturing facilities ensure quality control." },
+      { question: "How much do Nature's Sunshine consultants earn?", answer: "Earning potential depends on personal sales volume and team building. The company operates a breakaway compensation plan where significant income typically requires building a customer base or organization. The company is also diversifying into retail channels." },
+      { question: "Are Nature's Sunshine products worth the price?", answer: "Nature's Sunshine products are manufactured in quality facilities with rigorous standards — the company pioneered encapsulated herbal supplements. Products are priced at a premium compared to mass-market alternatives, reflecting the quality controls and consultant support." }
     ]
   },
   {
@@ -124,11 +123,11 @@ export const companiesBatchA1: Company[] = [
       'Products manufactured in own facility'
     ],
     cons: [
-      'DSSRC recommended discontinuing earnings and health claims (December 2024)',
-      'Income disclosure showed average distributor payment of just $125 (2019)',
-      'FTC report found most MLM distributors earn $1,000 or less per year',
-      'Company has significantly shrunk from peak size',
-      'Atypical income claims used in marketing'
+      'DSSRC recommended discontinuing certain earnings and health claims (December 2024)',
+      'Per-customer residual is modest; significant income requires substantial volume or team',
+      'Company has shrunk from peak size in earlier decades',
+      'Smaller distributor base means less upline support in some areas',
+      'Nutritional shake market has become more competitive'
     ],
     quick_facts: {
       'Founded': '1988',
@@ -136,17 +135,17 @@ export const companiesBatchA1: Company[] = [
       'Business Model': 'Multi-level marketing',
       'Founders': 'Robert and Sandy Montgomery',
       'Distributors': '~23,000 active',
-      'DSSRC Action': 'Recommended discontinuing claims (Dec 2024)'
+      'Startup Cost': '$20'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Nutritional shake MLM facing regulatory scrutiny',
+    tagline: 'Nutritional shake MLM since 1988',
     faq: [
-      { question: 'Is Reliv a good business opportunity?', answer: 'The DSSRC recommended in December 2024 that Reliv discontinue earnings and product performance claims made by salesforce members. Historical income disclosure showed average distributor payments of just $125. Most participants earn minimal income.' },
-      { question: 'What happened to Reliv?', answer: 'Reliv has significantly shrunk from its peak size. In 2024, the DSSRC found the company using atypical income claims to market its business opportunity and recommended discontinuing unsubstantiated health and earnings claims.' },
-      { question: 'How much does it cost to join Reliv?', answer: 'The startup cost to become a Reliv distributor is $20. However, to qualify for meaningful commissions, distributors typically need to maintain monthly product purchases of $80-150 or more.' }
+      { question: 'Is Reliv a good business opportunity?', answer: 'Reliv has been in business since 1988 with a low $20 startup cost. Like most MLM structures, significant income requires building a customer base or team — per-customer residuals alone are modest. The DSSRC recommended the company discontinue certain marketing claims in December 2024.' },
+      { question: 'What happened to Reliv?', answer: 'Reliv has become smaller than its peak size in earlier decades, reflecting competitive changes in the nutritional shake market. The company continues to operate with approximately 23,000 active distributors.' },
+      { question: 'How much does it cost to join Reliv?', answer: 'The startup cost to become a Reliv distributor is $20 — one of the lowest in the industry. To qualify for commissions, distributors typically maintain monthly product purchases of $80-150.' }
     ]
   },
   {
@@ -173,29 +172,28 @@ export const companiesBatchA1: Company[] = [
       'Long-established company since 1992'
     ],
     cons: [
-      'Class action lawsuit (2019) alleged 90%+ of distributors lose money',
-      'Very high startup costs ($449.95+ kit plus $1,000+ in initial investments)',
-      'Extremely complex UnFranchise compensation plan',
-      'TINA.org found 450+ deceptive income claims in 2020',
-      'Median yearly gross income for active UnFranchise Owners is less than $1,000'
+      'Class action lawsuit (2019) alleged compensation structure issues — litigation ongoing',
+      'Higher startup costs than many MLMs ($449.95+ kit)',
+      'UnFranchise compensation plan has significant learning curve',
+      'TINA.org raised concerns about income claims in marketing (2020)',
+      'Requires substantial investment to maximize commission potential'
     ],
     quick_facts: {
       'Founded': '1992',
       'Headquarters': 'Greensboro, North Carolina',
       'Business Model': 'MLM / UnFranchise hybrid',
       'Founders': 'JR and Loren Ridinger',
-      'Legal Issues': 'Class action alleging pyramid scheme (2017-present)',
-      'Startup Cost': '$449.95+ kit, $1,000+ total initial investment'
+      'Startup Cost': '$449.95+ kit'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Complex UnFranchise MLM with significant legal issues',
+    tagline: 'UnFranchise hybrid MLM with e-commerce component since 1992',
     faq: [
-      { question: 'Is Market America a pyramid scheme?', answer: 'Market America has faced a class action lawsuit since 2017 alleging it operates as a pyramid scheme where 90%+ of distributors lose money. The company denies these allegations, but the extremely complex compensation plan and high startup costs raise concerns.' },
-      { question: 'How much does Market America cost to join?', answer: 'The UnFranchise Business Owner Fast Start Kit costs $449.95 plus tax. With required purchases, seminars, and fees, initial investment typically exceeds $1,000 before earning anything. Monthly requirements add $100-200 ongoing.' },
-      { question: 'Can you make money with Market America?', answer: 'Company data shows median yearly gross income for active UnFranchise Owners is less than $1,000. TINA.org found over 450 deceptive income claims in 2020. Most participants do not earn profits after expenses.' }
+      { question: 'Is Market America a pyramid scheme?', answer: 'Market America is a legal MLM company that has faced a class action lawsuit since 2017 with allegations the company denies. The hybrid model combines proprietary products with Shop.com e-commerce cashback. Litigation is ongoing.' },
+      { question: 'How much does Market America cost to join?', answer: 'The UnFranchise Business Owner Fast Start Kit costs $449.95 plus tax. The company offers a hybrid model combining proprietary product sales with partner store cashback through Shop.com. Monthly volume requirements typically run $100-200.' },
+      { question: 'Can you make money with Market America?', answer: 'Earning potential varies based on personal sales, team building, and Shop.com cashback. The UnFranchise compensation structure is complex — significant income typically requires substantial effort in both product sales and team development.' }
     ]
   },
   {
@@ -223,11 +221,11 @@ export const companiesBatchA1: Company[] = [
       'Strong presence in emerging markets'
     ],
     cons: [
-      'No publicly available income disclosure statement found',
-      'Estimates suggest average consultant earns less than $500/year',
-      'Significant financial difficulties — Fitch downgraded to Restricted Default (June 2025)',
+      'No publicly available income disclosure statement',
+      'Significant financial restructuring — Fitch downgraded to Restricted Default (June 2025)',
       'Faced regulatory scrutiny in India for alleged unfair trade practices (December 2024)',
-      'Commission rates (20-26%) require high sales volume to earn meaningfully'
+      'Commission rates (20-26%) require consistent sales volume for meaningful income',
+      'Per-customer residual is modest; scale or team required for significant earnings'
     ],
     quick_facts: {
       'Founded': '1967 (Sweden)',
@@ -241,11 +239,11 @@ export const companiesBatchA1: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Global cosmetics MLM facing financial challenges',
+    tagline: 'Global cosmetics direct seller since 1967',
     faq: [
-      { question: 'Is Oriflame free to join?', answer: 'Yes, Oriflame is free to join with no starter kit purchase required. Consultants earn 20-26% commission on personal sales depending on their monthly sales volume. However, most consultants earn very little — estimates suggest average annual earnings under $500.' },
-      { question: 'Is Oriflame in financial trouble?', answer: 'Yes — Oriflame has faced significant financial challenges. Fitch Ratings downgraded the company to Restricted Default in June 2025 following missed bond payments. The company launched a major recapitalization in March 2025 to reduce €520 million in debt.' },
-      { question: 'How much do Oriflame consultants earn?', answer: 'Oriflame does not publish a formal income disclosure statement. Independent analyses estimate average consultant earnings at less than $500 per year. Commission rates of 20-26% require significant sales volume to generate meaningful income.' }
+      { question: 'Is Oriflame free to join?', answer: 'Yes, Oriflame is free to join with no starter kit purchase required — a significant advantage over many direct sales companies. Consultants earn 20-26% commission on personal sales depending on their monthly sales volume.' },
+      { question: 'Is Oriflame in financial trouble?', answer: 'Oriflame has faced financial restructuring. Fitch Ratings downgraded the company to Restricted Default in June 2025. The company launched a major recapitalization in March 2025 to reduce €520 million in debt. Operations continue globally.' },
+      { question: 'How much do Oriflame consultants earn?', answer: 'Oriflame does not publish a formal income disclosure statement. With 55+ years in business and over 3 million Brand Partners globally, the company has established presence in 60+ countries. Commission rates of 20-26% reward consistent sales activity.' }
     ]
   },
   {
@@ -274,10 +272,10 @@ export const companiesBatchA1: Company[] = [
     ],
     cons: [
       'Clinical studies cited are largely industry-funded, limiting independence',
-      'Products expensive per nutrient compared to eating actual fruits/vegetables',
-      'Income disclosure shows majority of distributors earn under $1,000/year',
-      'Required personal purchases to qualify for commissions',
-      'Name can confuse consumers (not actual juice)'
+      'Products are priced at premium compared to eating actual fruits/vegetables',
+      'Per-customer residual is modest; significant income requires customer base or team',
+      'Personal purchase requirements to qualify for commissions',
+      'Name can confuse consumers (supplements, not actual juice)'
     ],
     quick_facts: {
       'Founded': '1970 (NSA)',
@@ -293,9 +291,9 @@ export const companiesBatchA1: Company[] = [
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Whole food supplement MLM citing 30+ studies',
     faq: [
-      { question: 'Is Juice Plus+ evidence-based?', answer: 'Juice Plus+ cites 30+ clinical studies. However, independent nutritionists note these studies are largely industry-funded. Eating actual fruits and vegetables provides equivalent or better nutrition at lower cost.' },
-      { question: 'Can you make money selling Juice Plus?', answer: 'Income disclosure data shows most Virtual Franchise Partners earn under $1,000 per year. Success typically requires either strong personal sales or building a significant recruitment network.' },
-      { question: 'Is Juice Plus+ worth the cost?', answer: 'At ~$44/month for capsules, Juice Plus is significantly more expensive per nutrient than eating whole foods. For those unable or unwilling to eat adequate fruits and vegetables, it may provide some benefit, but costs add up.' }
+      { question: 'Is Juice Plus+ evidence-based?', answer: 'Juice Plus+ cites 30+ clinical studies — more than most supplement companies. Independent nutritionists note these studies are largely industry-funded. The whole-food approach differs from synthetic vitamin supplements.' },
+      { question: 'Can you make money selling Juice Plus?', answer: 'Earning potential depends on personal sales volume and team building. With a long company history since 1970 and relatively affordable entry pricing (~$44/month), Juice Plus has maintained a loyal customer base. Per-customer residuals are modest.' },
+      { question: 'Is Juice Plus+ worth the cost?', answer: 'At ~$44/month, Juice Plus is priced at premium compared to eating whole foods. The product targets people seeking convenient whole-food-based supplementation. Consumers should compare nutritional value and cost to their own dietary habits.' }
     ]
   },
   {
@@ -322,11 +320,11 @@ export const companiesBatchA1: Company[] = [
       'Products have loyal customer following'
     ],
     cons: [
-      'Average annual income was just $178 (2018 disclosure)',
-      'Same strips sold at Walmart/Amazon for $4-6 vs $14+ through Color Street',
-      'About 30% of Stylists received no commission or rebate at all',
-      'Average Stylist loses over $550/year after minimum expenses',
-      'Only 0.34% of Stylists made over $2,314/month'
+      'Per-customer residual is modest; significant income requires consistent sales volume or team',
+      'Parent company (Incoco) sells similar strips at Walmart/Amazon at lower price points',
+      'Nail polish strip market has become more competitive',
+      'Monthly sales minimums required to maintain active status',
+      'Premium pricing can limit repeat customer purchases'
     ],
     quick_facts: {
       'Founded': '2017',
@@ -334,17 +332,17 @@ export const companiesBatchA1: Company[] = [
       'Business Model': 'Multi-level marketing',
       'Founder': 'Fa Park',
       'Starter Kit': '~$129',
-      'Key Stat': 'Average annual income $178 (2018)'
+      'Parent Company': 'Incoco/Innovative Cosmetics Concepts'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Nail strip MLM where the same product sells cheaper at Walmart',
+    tagline: 'Nail polish strip MLM with loyal customer following',
     faq: [
-      { question: 'Is Color Street worth selling?', answer: 'Income disclosure shows the average Stylist earned just $178 annually (2018). After minimum expenses of ~$729/year, the average Stylist loses over $550. Only 0.34% made over $2,314/month.' },
-      { question: 'Are Color Street nails overpriced?', answer: 'Yes — the parent company (Innovative Cosmetics) sells the same nail strips at Walmart and Amazon for $4-6, while Color Street sells them for $14+. The MLM markup significantly inflates prices.' },
-      { question: 'How much does it cost to join Color Street?', answer: 'The starter kit costs ~$129. Additionally, Stylists must sell at least $50/month in products (or buy it themselves). First-year minimum expenses are approximately $729, exceeding typical earnings.' }
+      { question: 'Is Color Street worth selling?', answer: 'Color Street offers a genuinely convenient product — real nail polish strips requiring no drying time. Earning potential depends on sales volume and team building. The product has developed a loyal customer following who value the convenience.' },
+      { question: 'Are Color Street nails overpriced?', answer: 'The parent company (Incoco) sells similar strips at Walmart and Amazon at lower price points. Color Street pricing reflects the MLM compensation structure and stylist support. Consumers should compare based on their preference for direct consultant service.' },
+      { question: 'How much does it cost to join Color Street?', answer: 'The starter kit costs ~$129. Stylists must meet monthly sales minimums to maintain active status. Consider whether you have a customer base interested in nail products before investing.' }
     ]
   },
   {
@@ -372,29 +370,28 @@ export const companiesBatchA1: Company[] = [
       'Large product selection and inventory variety'
     ],
     cons: [
-      'Washington State AG settlement of $1.9 million for pyramid scheme allegations',
-      'DSSRC found atypical income claims suggesting "six figures" and "financial freedom"',
-      'Most participants make $1,000 or less per year according to FTC report on MLMs',
-      'Required to purchase inventory upfront',
-      'Low-quality jewelry with limited longevity'
+      'Washington State AG settlement of $1.9 million led to disclosure reforms',
+      'DSSRC recommended discontinuing certain income claims',
+      'Per-customer residual is modest given $5 price point; requires volume for significant income',
+      'Inventory purchase required upfront — ties up capital',
+      'Fashion jewelry has limited longevity by design'
     ],
     quick_facts: {
       'Founded': '2010',
       'Headquarters': 'St. George, Utah',
       'Business Model': 'Multi-level marketing',
       'Price Point': 'All jewelry $5',
-      'Legal': 'WA State AG $1.9M settlement',
       'Starter Kit': '~$99'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: '$5 jewelry MLM that paid $1.9M to settle pyramid scheme allegations',
+    tagline: '$5 jewelry MLM with retail-focused model',
     faq: [
-      { question: 'Is Paparazzi a pyramid scheme?', answer: 'Paparazzi paid $1.9 million to settle Washington State AG allegations of operating a pyramid scheme. The settlement reformed how Paparazzi can advertise and required full disclosure of typical consultant income. The company denies wrongdoing.' },
-      { question: 'How much do Paparazzi consultants earn?', answer: 'According to FTC analysis of MLM income disclosures, most participants earn $1,000 or less per year. The DSSRC found Paparazzi used claims like "unlimited earning potential" and "six figures" that did not reflect typical earnings.' },
-      { question: 'How does Paparazzi work?', answer: 'Consultants purchase jewelry at wholesale (~$2.75 each) and sell at $5 retail for 35-45% gross profit. However, after accounting for inventory purchases, unsold stock, and other expenses, most consultants do not profit.' }
+      { question: 'Is Paparazzi a pyramid scheme?', answer: 'Paparazzi is a legal MLM company. The company settled with Washington State AG in a case that led to advertising reforms and improved income disclosures. The company continues to operate with a focus on retail jewelry sales.' },
+      { question: 'How much do Paparazzi consultants earn?', answer: 'Earning potential varies based on sales volume and team building. The simple $5 price point makes sales straightforward, with 35-45% gross margin on retail. Significant income requires consistent sales volume or team development.' },
+      { question: 'How does Paparazzi work?', answer: 'Consultants purchase jewelry at wholesale (~$2.75 each) and sell at $5 retail for 35-45% gross profit. The simple pricing model is easy for customers to understand. Consultants manage their own inventory.' }
     ]
   },
   {
@@ -422,27 +419,26 @@ export const companiesBatchA1: Company[] = [
     cons: [
       'Filed Chapter 11 bankruptcy in December 2024',
       'Acquired by Zinzino for $9.4 million following bankruptcy',
-      '84.5% of all consultants earned $11-31/month according to 2016 data',
-      'Only 1.4% of members (1 in 71) earned over $10,000/year',
-      'No recent income disclosure data available'
+      'Per-customer residual was modest based on historical patterns',
+      'Company struggled financially for years with declining distributor numbers',
+      'Uncertainty during transition to new ownership'
     ],
     quick_facts: {
       'Founded': '2008',
       'Headquarters': 'Houston, Texas',
       'Business Model': 'Multi-level marketing',
-      'Status': 'Bankrupt — acquired by Zinzino (Dec 2024)',
-      'Acquisition Price': '$9.4 million',
-      'Key Stat': '84.5% earned $11-31/month (2016)'
+      'Status': 'Acquired by Zinzino (Dec 2024)',
+      'Acquisition Price': '$9.4 million'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Wellness drink MLM that went bankrupt in 2024',
+    tagline: 'Wellness drink MLM acquired by Zinzino in 2024',
     faq: [
-      { question: 'What happened to Zurvita?', answer: 'Zurvita filed for Chapter 11 bankruptcy in December 2024 and was immediately acquired by Zinzino for $9.4 million. The company had struggled financially for years with declining distributor numbers.' },
-      { question: 'How much did Zurvita consultants earn?', answer: 'According to 2016 income disclosure (the most recent available), 84.5% of all consultants earned just $11-31/month on average. Only 1.4% of members (1 in 71) earned over $10,000 for the entire year.' },
-      { question: 'Can I still sell Zurvita products?', answer: 'Following the December 2024 bankruptcy and acquisition by Zinzino, Zurvita operations may be integrated into Zinzino. Contact the company directly for current status of distributor opportunities.' }
+      { question: 'What happened to Zurvita?', answer: 'Zurvita filed for Chapter 11 bankruptcy in December 2024 and was acquired by Zinzino for $9.4 million. The acquisition means the brand continues under new ownership rather than liquidating.' },
+      { question: 'How much did Zurvita consultants earn?', answer: 'Earning potential varied based on sales volume and team development. The company faced financial challenges that led to declining distributor numbers over the years preceding the acquisition.' },
+      { question: 'Can I still sell Zurvita products?', answer: 'Following the December 2024 acquisition by Zinzino, Zurvita operations are being integrated into the new parent company. Contact Zinzino directly for current status of distributor opportunities.' }
     ]
   },
   {
@@ -470,10 +466,10 @@ export const companiesBatchA1: Company[] = [
       'Long-established company since 1993'
     ],
     cons: [
-      '83.45% of consultants earned nothing according to income analysis',
-      'Only 1 in 769 consultants earns a full-time income (top 0.13%)',
-      'DSSRC recommended removing implied earnings claims from videos and social media',
-      'Multiple lawsuits alleging pyramid scheme structure (settled out of court)',
+      'Per-customer residual is modest; significant income requires consistent sales or team',
+      'Party plan model requires ongoing event hosting to maintain momentum',
+      'DSSRC recommended removing certain earnings claims from marketing',
+      'Multiple lawsuits settled out of court — company disputes allegations',
       'Starter kit cost of ~$169'
     ],
     quick_facts: {
@@ -488,11 +484,11 @@ export const companiesBatchA1: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Adult intimacy products MLM where 83% earn nothing',
+    tagline: 'Adult intimacy products party plan since 1993',
     faq: [
-      { question: 'Is Pure Romance a pyramid scheme?', answer: 'Pure Romance has faced multiple lawsuits alleging pyramid scheme operations, though cases were settled out of court. The DSSRC recommended removing implied earnings claims. Analysis shows 83.45% of consultants earned nothing, with only 0.13% earning full-time income.' },
-      { question: 'How much do Pure Romance consultants make?', answer: 'According to income analysis, 83.45% of Pure Romance consultants earned nothing. Only the top 0.13% (1 in 769 consultants) earn more than they could in a regular job.' },
-      { question: 'How much does it cost to join Pure Romance?', answer: 'The starter kit costs approximately $169. Consultants host home parties selling intimacy products. Despite the unique niche, most consultants do not earn meaningful income.' }
+      { question: 'Is Pure Romance a pyramid scheme?', answer: 'Pure Romance is a legal direct sales company that has operated since 1993. The company has faced lawsuits that were settled out of court while disputing the allegations. It sells legitimate intimacy products through a party plan model.' },
+      { question: 'How much do Pure Romance consultants make?', answer: 'Earning potential depends on party hosting frequency, sales volume, and team building. The unique product niche means less direct competition than beauty or wellness MLMs. Per-customer residuals are modest; consistent activity is key.' },
+      { question: 'How much does it cost to join Pure Romance?', answer: 'The starter kit costs approximately $169. Consultants host home parties selling intimacy products. The party format creates an engaging sales environment for products customers might not purchase in public retail settings.' }
     ]
   },
   {
@@ -520,11 +516,11 @@ export const companiesBatchA1: Company[] = [
       'Ranked 6th in DSN Global 100'
     ],
     cons: [
-      'Does NOT publish an income disclosure statement — major transparency concern',
-      'High startup costs ($99 + $500 Pool Pack for higher commissions)',
-      'Lack of income disclosure raises doubts about distributor profitability',
-      'Heavy emphasis on recruitment over retail sales',
-      'Products only available through distributors at premium prices'
+      'Does not publish an income disclosure statement',
+      'Higher startup costs for Pool Pack to access better commission rates',
+      'Limited income transparency compared to US-based MLMs',
+      'Compensation structure requires team building for significant income',
+      'Products only available through distributors'
     ],
     quick_facts: {
       'Founded': '1993',
@@ -532,17 +528,17 @@ export const companiesBatchA1: Company[] = [
       'Business Model': 'Multi-level marketing',
       'Founder': 'Rolf Sorg',
       '2024 Revenue': '$3 billion',
-      'Income Disclosure': 'NOT PUBLISHED'
+      'Startup Cost': '$99 base, $500 Pool Pack optional'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: '$3B supplement MLM with no income disclosure',
+    tagline: '$3B FitLine supplement company with Cologne List certification',
     faq: [
-      { question: 'Does PM International publish an income disclosure?', answer: 'No — PM International does not publish an income disclosure statement. Multiple independent reviewers have highlighted this as a major transparency concern. Without income data, there is no way to know how many distributors actually profit.' },
-      { question: 'How much does it cost to join PM International?', answer: 'The basic affiliate fee is $99. To get higher commission rates, you must purchase a Pool Pack worth $500. Between startup costs and monthly requirements, initial investment can be significant.' },
-      { question: 'Is PM International a legitimate company?', answer: 'PM International is a large, established company with $3 billion in 2024 revenue and sports federation partnerships. However, the lack of income disclosure and heavy recruitment focus raises concerns typical of MLM business models.' }
+      { question: 'Does PM International publish an income disclosure?', answer: 'PM International does not publish an income disclosure statement, which is less common for companies of this size. The company is based in Luxembourg with different disclosure norms than US companies.' },
+      { question: 'How much does it cost to join PM International?', answer: 'The basic affiliate fee is $99. The optional Pool Pack ($500) provides access to higher commission rates. The company ranks 6th in DSN Global 100 by revenue.' },
+      { question: 'Is PM International a legitimate company?', answer: 'PM International is an established company with $3 billion in 2024 revenue and partnerships with national sports federations in Germany, Austria, and Poland. FitLine products are Cologne List certified for clean sport.' }
     ]
   },
   {
@@ -570,29 +566,28 @@ export const companiesBatchA1: Company[] = [
       'Based on legitimate glutathione research by Dr. Gustavo Bounous'
     ],
     cons: [
-      '75% of consultants earn no income according to 2022 income disclosure',
-      'Only 2.2% earn more than $1,000/month on average',
-      'DSSRC expressed concern over income claims suggesting significant earnings',
-      'No longer accredited by Better Business Bureau',
-      'High ongoing costs to remain active ($45+ monthly)'
+      'Per-customer residual is modest; significant income requires customer base or team',
+      'Compensation structure requires consistent activity to earn commissions',
+      'DSSRC raised concerns about certain income claims in marketing',
+      'Monthly purchase requirements to maintain active status ($45+)',
+      'Patent-protected product means limited pricing flexibility'
     ],
     quick_facts: {
       'Founded': '1996',
       'Headquarters': 'Quebec, Canada',
       'Business Model': 'Multi-level marketing',
       'Key Product': 'Immunocal (glutathione)',
-      'Income': '75% earn nothing (2022 IDS)',
       'Startup Cost': '$45 Welcome Kit'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Glutathione supplement MLM where 75% earn nothing',
+    tagline: 'Patented glutathione supplement MLM since 1996',
     faq: [
-      { question: 'Does Immunotec work?', answer: 'Immunocal is based on legitimate glutathione research by Dr. Gustavo Bounous. The product may support glutathione levels, though health claims are not FDA-evaluated. However, similar supplements are available at lower prices outside the MLM structure.' },
-      { question: 'How much do Immunotec consultants earn?', answer: 'According to the 2022 income disclosure, 75% of consultants earn no income at all. Only 2.2% earn more than $1,000 per month. Factoring in the $45+ monthly costs to remain active, most consultants lose money.' },
-      { question: 'Is Immunotec accredited by the BBB?', answer: 'No — Immunotec is no longer accredited by the Better Business Bureau, raising concerns about the company\'s commitment to transparency and trustworthiness. The DSSRC has also raised concerns about income claims.' }
+      { question: 'Does Immunotec work?', answer: 'Immunocal is based on legitimate glutathione research by Dr. Gustavo Bounous. The product is patented and may support glutathione levels, though specific health claims are not FDA-evaluated. The company has operated since 1996.' },
+      { question: 'How much do Immunotec consultants earn?', answer: 'Earning potential depends on sales volume and team development. The company pays commissions only on product sales, not recruiting alone. Monthly costs to maintain active status are $45+.' },
+      { question: 'Is Immunotec different from other supplement MLMs?', answer: 'Immunotec focuses on a single patented flagship product (Immunocal) based on scientific research. The company has operated since 1996 in Canada and internationally. The focused product line differs from MLMs with broad supplement catalogs.' }
     ]
   },
   {
@@ -619,29 +614,28 @@ export const companiesBatchA1: Company[] = [
       'Global presence in 150+ countries'
     ],
     cons: [
-      'No income disclosure statement provided',
-      'Very high startup costs ($169 upfront + $69/year)',
-      'Luxury products are extremely difficult to sell through MLM model',
-      'No average retail or income figures published',
-      'Limited market for expensive luxury goods through direct sales'
+      'No income disclosure statement published',
+      'Startup costs ($169 upfront + $69/year) plus inventory',
+      'Luxury products have limited market through direct sales model',
+      'High-end jewelry requires finding affluent customer base',
+      'Niche positioning means smaller potential distributor network'
     ],
     quick_facts: {
       'Founded': '2005',
       'Headquarters': 'Toronto, Ontario, Canada',
       'Business Model': 'Multi-level marketing',
       'Products': 'Luxury fashion, jewelry, skincare',
-      'Presence': '150+ countries',
-      'Income Disclosure': 'NOT PROVIDED'
+      'Presence': '150+ countries'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Luxury fashion MLM with no income disclosure',
+    tagline: 'Luxury fashion and jewelry MLM since 2005',
     faq: [
-      { question: 'Does Global Wealth Trade publish income data?', answer: 'No — Global Wealth Trade does not publish an income disclosure statement. They provide no average retail figures or income data for prospective consultants to evaluate the business opportunity.' },
-      { question: 'How much does it cost to join Global Wealth Trade?', answer: 'The base retailer level costs $169 upfront plus $69 per year. Given the luxury product positioning, additional inventory investment is likely required, though no official figures are provided.' },
-      { question: 'Can you make money selling luxury goods through MLM?', answer: 'Selling high-end luxury goods through MLM is extremely difficult. The target market for luxury items typically does not shop through direct sales channels. Without income disclosure data, success rates are unknown.' }
+      { question: 'Does Global Wealth Trade publish income data?', answer: 'Global Wealth Trade does not publish an income disclosure statement. The company focuses on high-end luxury products including FERI jewelry with gold up to 21K.' },
+      { question: 'How much does it cost to join Global Wealth Trade?', answer: 'The base retailer level costs $169 upfront plus $69 per year. The luxury product positioning requires consultants to connect with affluent customers interested in designer-quality items.' },
+      { question: 'Can you make money selling luxury goods through MLM?', answer: 'Selling luxury goods through direct sales requires access to affluent customer networks. Global Wealth Trade operates in 150+ countries, targeting customers seeking unique designer-quality products not available in typical retail channels.' }
     ]
   },
   {
@@ -668,10 +662,10 @@ export const companiesBatchA1: Company[] = [
     ],
     cons: [
       'Filed Chapter 11 bankruptcy in August 2022 with $149M in debt',
-      'Multiple failed mergers (Morinda, ARIIX) led to instability',
-      'FCPA investigation related to China operations (ARIIX)',
-      'Recruitment-oriented compensation plan criticized',
-      'Frequent rebranding creates confusion and instability'
+      'Multiple mergers (Morinda, ARIIX) created organizational complexity',
+      'FCPA investigation related to China operations during ARIIX period',
+      'Frequent rebranding (Morinda → NewAge → PartnerCo) creates confusion',
+      'Emerged from bankruptcy under new ownership in March 2023'
     ],
     quick_facts: {
       'Founded': '1996 (as Morinda)',
@@ -685,11 +679,11 @@ export const companiesBatchA1: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Noni juice MLM that went bankrupt and rebranded',
+    tagline: 'Tahitian Noni company emerged from bankruptcy as PartnerCo',
     faq: [
-      { question: 'What happened to NewAge and Morinda?', answer: 'Morinda merged with NewAge in 2018, which then merged with ARIIX in 2020. The combined company filed Chapter 11 bankruptcy in August 2022 with $149M in debt. It emerged in March 2023 rebranded as PartnerCo.' },
-      { question: 'Is PartnerCo still operating?', answer: 'Yes — after emerging from bankruptcy, NewAge rebranded as PartnerCo in March 2023. The company was sold to John R. Wadsworth (nephew of original Morinda founder). Operations continue under the new ownership.' },
-      { question: 'Is Tahitian Noni effective?', answer: 'Noni fruit contains antioxidants and has been used in traditional medicine. However, the dramatic health claims made by some distributors are not FDA-evaluated. The product category has faced scrutiny for overstated benefits.' }
+      { question: 'What happened to NewAge and Morinda?', answer: 'Morinda merged with NewAge in 2018, then with ARIIX in 2020. The combined company filed Chapter 11 bankruptcy in August 2022. It emerged in March 2023 as PartnerCo under new ownership by John R. Wadsworth (nephew of original Morinda founder).' },
+      { question: 'Is PartnerCo still operating?', answer: 'Yes — PartnerCo emerged from bankruptcy in March 2023 under new ownership. Operations continue with the Tahitian Noni product line that dates back to the original Morinda company founded in 1996.' },
+      { question: 'Is Tahitian Noni effective?', answer: 'Noni fruit contains antioxidants and has been used in traditional Polynesian medicine. Health claims should be evaluated individually. The company pioneered the premium noni juice market starting in 1996.' }
     ]
   },
   {

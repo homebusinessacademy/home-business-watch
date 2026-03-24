@@ -34,7 +34,7 @@ export const companiesBatchC1a: Company[] = [
       "Countries": "25+",
       "Top Product": "ProArgi-9+",
       "Autoship Minimum": "$75/month",
-      "Income Disclosure": "Available but shows low average earnings"
+      "Parent Company": "Nature's Sunshine Products"
     },
     last_updated: "2026-03-20",
     is_featured: false,
@@ -132,7 +132,7 @@ export const companiesBatchC1a: Company[] = [
     cons: [
       "ABC Primetime investigation questioned health claims",
       "High product prices compared to similar supplements",
-      "Income disclosure shows most distributors earn little"
+      "Compensation structure requires significant sales volume to generate meaningful returns"
     ],
     quick_facts: {
       "Stock Symbol": "NASDAQ: LFVN",
@@ -154,7 +154,7 @@ export const companiesBatchC1a: Company[] = [
       },
       {
         question: "Can you make money with LifeVantage?",
-        answer: "According to their income disclosure, the majority of distributors earn minimal income. Like most MLMs, significant earnings are concentrated at the top of the organization."
+        answer: "As with most MLM compensation structures, significant earnings require building substantial sales volume and team. The per-customer residual is modest, so meaningful income typically requires a large customer base."
       }
     ]
   },
@@ -308,7 +308,7 @@ export const companiesBatchC1a: Company[] = [
     faq: [
       {
         question: "Is Kannaway a legitimate company?",
-        answer: "Kannaway is a legal CBD MLM company, though like all MLMs, the income opportunity statistics show most participants earn little. The CBD products themselves are legal hemp-derived products."
+        answer: "Kannaway is a legal CBD MLM company selling hemp-derived products. As with any MLM, meaningful income requires building a substantial customer base."
       },
       {
         question: "How much does it cost to join Kannaway?",
@@ -719,7 +719,7 @@ export const companiesBatchC1a: Company[] = [
       "High startup costs for inventory-based model",
       "Market saturated with LipSense distributors",
       "Products have learning curve for application",
-      "Income disclosure shows most earn little"
+      "Compensation structure requires building substantial customer base for meaningful income"
     ],
     quick_facts: {
       "Flagship Product": "LipSense long-lasting lip color",
@@ -1255,7 +1255,7 @@ export const companiesBatchC1a: Company[] = [
     cons: [
       "Wearable nutrition claims lack scientific backing",
       "High monthly costs to maintain THRIVE system",
-      "Income disclosure shows most earn little",
+      "Compensation structure requires significant customer volume for meaningful income",
       "Caffeine-heavy products may cause dependency"
     ],
     quick_facts: {
@@ -1442,7 +1442,7 @@ export const companiesBatchC1a: Company[] = [
       },
       {
         question: "Is Zinzino legitimate?",
-        answer: "Zinzino is a publicly traded Swedish company with transparent financials. Their test-based approach is more scientific than most MLMs, though the MLM commission structure still means most participants earn little."
+        answer: "Zinzino is a publicly traded Swedish company with transparent financials. Their test-based approach is more scientific than most MLMs, with measurable before/after results for customers."
       }
     ]
   },

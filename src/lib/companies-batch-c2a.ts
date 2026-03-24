@@ -28,7 +28,7 @@ export const companiesBatchC2a: Company[] = [
     ],
     cons: [
       "MLM division only launched in 2019, less established track record",
-      "Income disclosure shows typical MLM earnings distribution",
+      "Compensation structure requires building customer base for meaningful income",
       "Market saturation concerns in some regions",
       "Quality consistency varies across product lines"
     ],
@@ -85,7 +85,7 @@ export const companiesBatchC2a: Company[] = [
       "Higher-priced starter kits ($199+) to become an Artist",
       "Saturated market on Instagram and TikTok",
       "Niche product requires education to sell effectively",
-      "Income disclosure shows majority earn minimal commissions"
+      "Compensation structure requires significant customer volume for meaningful returns"
     ],
     quick_facts: {
       "Former Name": "Maskcara Beauty (rebranded 2020)",
@@ -138,7 +138,7 @@ export const companiesBatchC2a: Company[] = [
     cons: [
       "Binary compensation plan complexity",
       "Higher starter kit costs than some competitors",
-      "Median earnings under $500 annually per income disclosure",
+      "Binary compensation plan adds complexity for new participants",
       "Monthly activity requirements to earn commissions"
     ],
     quick_facts: {
@@ -160,8 +160,8 @@ export const companiesBatchC2a: Company[] = [
         answer: "LimeLife is the direct sales division of Alcone Company, which has supplied professional makeup to Broadway, film, and TV since 1952. LimeLife launched in 2017 to bring professional-grade products to consumers through MLM."
       },
       {
-        question: "What does the income disclosure show for LimeLife?",
-        answer: "LimeLife's income disclosure shows median annual earnings under $500 for active Beauty Guides, with the majority of income concentrated among top-ranked distributors."
+        question: "How does the LimeLife compensation work?",
+        answer: "LimeLife uses a binary compensation structure. Income depends on building a customer base and team. Like most MLMs, top-ranked distributors earn significantly more than entry-level participants."
       }
     ]
   },
@@ -357,7 +357,7 @@ export const companiesBatchC2a: Company[] = [
       "Charm jewelry trend popularity has fluctuated",
       "Competition from similar floating locket brands",
       "Starter kit costs can exceed $99",
-      "Income disclosure shows typical direct sales earnings distribution"
+      "Compensation depends on building and maintaining customer relationships"
     ],
     quick_facts: {
       "Founded By": "Teen entrepreneur Bella Weems",
@@ -1006,7 +1006,7 @@ export const companiesBatchC2a: Company[] = [
       "Stairstep breakaway plan is complex",
       "Inventory loading has been widely reported",
       "Pink Cadillac requires maintaining production or losing car",
-      "Income statistics show most consultants earn little"
+      "Compensation structure requires substantial customer volume"
     ],
     quick_facts: {
       "Founded": "1963 by Mary Kay Ash",
@@ -1058,7 +1058,7 @@ export const companiesBatchC2a: Company[] = [
     ],
     cons: [
       "Premium pricing limits customer base",
-      "Income disclosure shows low average earnings",
+      "Compensation structure requires significant sales volume for meaningful returns",
       "FTC warning letter in 2020 for COVID claims",
       "Requires consistent personal purchases"
     ],
@@ -1113,7 +1113,7 @@ export const companiesBatchC2a: Company[] = [
     cons: [
       "Complex stairstep breakaway compensation plan",
       "Premium pricing makes retail difficult",
-      "Income disclosure shows concentration at top",
+      "Compensation concentrated among top-ranked affiliates",
       "China investigation in 2014 raised regulatory concerns"
     ],
     quick_facts: {
@@ -1167,7 +1167,7 @@ export const companiesBatchC2a: Company[] = [
     cons: [
       "Very premium pricing ($150-200+ for regimens)",
       "Consultant field has experienced contraction",
-      "Income disclosure shows typical MLM distribution",
+      "Consultant field has experienced contraction",
       "Market saturation among target demographic"
     ],
     quick_facts: {
@@ -1221,7 +1221,7 @@ export const companiesBatchC2a: Company[] = [
     cons: [
       "3D mascara trend has faded significantly",
       "Quality concerns on various products reported",
-      "Income disclosure shows low average earnings",
+      "Compensation structure requires building substantial customer base",
       "Social media saturation among presenters"
     ],
     quick_facts: {
@@ -1406,7 +1406,7 @@ export const companiesBatchC2a: Company[] = [
       },
       {
         question: "How much do Beachbody Coaches actually make?",
-        answer: "According to income disclosures, the majority of Beachbody Coaches earn very little. Most income comes from personal purchases and Challenge Groups rather than building large teams."
+        answer: "Coach income depends on building and maintaining a customer base. Most income comes from personal sales and Challenge Groups. Significant income requires building large teams."
       }
     ]
   },
@@ -1437,7 +1437,7 @@ export const companiesBatchC2a: Company[] = [
     cons: [
       "Body wrap claims scientifically questionable",
       "Binary compensation plan complexity",
-      "Income disclosure shows poor earnings for most",
+      "Compensation structure requires significant customer volume",
       "FTC scrutiny of health and income claims"
     ],
     quick_facts: {

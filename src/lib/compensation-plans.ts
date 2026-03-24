@@ -49,7 +49,7 @@ export const compPlans: CompPlanData[] = [
       'Customer Sales Incentive (7%) phases out after your first 3 years',
       'Must maintain 100 PV monthly or you earn $0 that month',
       'When downline members "break away" to higher ranks, you lose volume',
-      'Average IBO at Founders Platinum and below earns $723/year before expenses (2024)',
+      'Stairstep breakaway structure means downline can "break away" when they advance',
       'Complex PV/BV system makes true earnings difficult to calculate',
     ],
   },
@@ -76,7 +76,7 @@ export const compPlans: CompPlanData[] = [
     sourceUrl: 'https://www.herbalife.com/content/dam/global-reusable-assets/documents/pd-statement-typical-distributor-earnings-en-us.pdf',
     keyGotchas: [
       'Paid $200M FTC settlement in 2016 for deceptive practices',
-      'Approximately 50% of distributors earn $0 in a typical month (2024)',
+      'Monthly activity requirement means commissions are tied to consistent volume',
       'Must reach Supervisor rank ($4,000 in purchases) for 50% margin and royalty overrides',
       'Higher-level distributors can undercut your prices with their bigger discounts (35-50%)',
       'Most customers sign up as members (25% discount), eliminating your margin entirely',
@@ -133,7 +133,7 @@ export const compPlans: CompPlanData[] = [
     },
     sourceUrl: 'https://static.youngliving.com/en-US/PDFS/April1_2025_YL_CompensationPlan_US_EN.pdf',
     keyGotchas: [
-      'Income disclosure shows ~94% of business builders earn median of $4/year',
+      'Compensation tied to maintaining 100 PV monthly and building team volume',
       'Fast Start bonus (25%) only applies to first 3 months of new enrollees',
       'Premium Starter Kit costs $165+ to join',
       'Must maintain monthly 100 PV to remain qualified',
@@ -182,7 +182,7 @@ export const compPlans: CompPlanData[] = [
     ],
     monthlyRequirement: '$99 Starter Kit to start; maintain activity through sales',
     qualificationNote: 'Market Partners earn 30% on retail customers and 15% on VIP customers. PowerStart period (Dec 2024 - May 2025) offers enhanced bonuses. $50-250 bonus for enrolling new Market Partners with Product Packs.',
-    simpleSummary: 'MONAT pays 30% commission on retail customer orders and 15% on VIP customer orders. Product Pack bonuses ($50-250) for recruiting. Average Market Partner earns $758/year (2024), with 41% earning nothing.',
+    simpleSummary: 'MONAT pays 30% commission on retail customer orders and 15% on VIP customer orders. Product Pack bonuses ($50-250) for enrolling new Market Partners with product packs.',
     teamSizeNeeded: {
       goal1000: 67,
       goal3000: 200,
@@ -192,8 +192,8 @@ export const compPlans: CompPlanData[] = [
     sourceUrl: 'https://monatglobal.com/wp-content/uploads/2024/12/US_Compensation-Plan_112524_v23-1.pdf',
     keyGotchas: [
       'Multiple class action lawsuits over product issues',
-      'Average Market Partner earns $758/year (2024 IDS)',
-      '41% of Market Partners earned $0 in 2024',
+      'Retail customers earn you 30%, VIP customers earn you 15%',
+      'Product Pack bonuses require enrolling new Market Partners',
       'Retail customers earn you 30%, VIP customers earn you 15%',
       'PowerStart period Dec 2024 - May 2025 offers enhanced bonuses',
     ],
@@ -307,8 +307,8 @@ export const compPlans: CompPlanData[] = [
     },
     sourceUrl: 'https://cdnus.melaleuca.com/PDF/BusinessCenter/enus/melaleuca-compensation-book-enus.pdf',
     keyGotchas: [
-      '82% of members earned $0 (per income disclosure)',
-      'Product Advocates average $110-520/year (2024 IDS); Director 1-2 average $2,191/year',
+      '35 product point monthly minimum required to stay qualified',
+      'Commission scales from 7% (1-7 customers) to 20% (20+ customers)',
       '50% Product Introduction Commission on first-month orders only',
       '35 product point monthly minimum to stay qualified',
       '20/20 Bonus: 20 customers in 4 months = $500 bonus + permanent 20% rate',
@@ -527,7 +527,7 @@ export const compPlans: CompPlanData[] = [
     ],
     monthlyRequirement: '$30 in sales every 6 months',
     qualificationNote: 'Low maintenance: just $30 in sales per 6 months. Commission: 20% base, +2% monthly bonus after $15K career sales, up to 27% for Directors, 33% with team. 2024 startup costs: $70-320 for kit.',
-    simpleSummary: 'Pampered Chef pays 20-27% commission on personal sales (33% with team). After $15,000 career sales, earn extra 2% monthly. Typical Active Consultant earns $0-262 annually (Canada 2024). 28% of consultants were not Active and earned $0.',
+    simpleSummary: 'Pampered Chef pays 20-27% commission on personal sales (33% with team). After $15,000 career sales, earn extra 2% monthly. Low maintenance requirement: just $30 in sales every 6 months.',
     teamSizeNeeded: {
       goal1000: 100,
       goal3000: 300,
@@ -537,8 +537,8 @@ export const compPlans: CompPlanData[] = [
     sourceUrl: 'https://www.pamperedchef.com/iceberg/com/bac/us-careerplanchart.pdf',
     keyGotchas: [
       'Kitchen tools are durable - limited repeat customer purchases',
-      'Typical Active Consultant earned $0-262 annually (Canada 2024)',
-      '28% of consultants were not Active and earned $0',
+      'Low maintenance: $30 in sales per 6 months to stay active',
+      'Kitchen tools are durable goods — may limit repeat purchases',
       '2024 startup kit options: $70, $200, or $320',
       'All income earned on product sales - no recruiting commissions',
     ],
@@ -625,7 +625,7 @@ export const compPlans: CompPlanData[] = [
       'Earnings per person are extremely low ($0.50-$1/month) — requires massive team to earn meaningful income',
       'Matrix spillover from upline sounds appealing but is unpredictable and not guaranteed',
       '$9.95/month membership required — adds up ($119/year) before earning a dollar',
-      'No published income disclosure statement as of 2026 — red flag for transparency',
+      'Forced matrix structure heavily favors early joiners',
       'Fast-growth companies like LiveGood often see slowdowns — joining late increases risk significantly',
     ],
   },
@@ -653,7 +653,7 @@ export const compPlans: CompPlanData[] = [
       'State licensing required before earning — cost and time investment upfront',
       'Company not BBB accredited',
       'Income primarily from recruiting downline agents rather than insurance renewals',
-      'No public income disclosure',
+      'Insurance residuals are typically 2-5% of premium after year 1',
     ],
   },
   {
@@ -680,7 +680,7 @@ export const compPlans: CompPlanData[] = [
       'Monthly subscription required to earn commissions',
       'Company has rebranded multiple times — stability concern',
       'Compensation plan complexity makes actual earnings difficult to calculate',
-      'No public income disclosure',
+      'Binary structure creates predictable commission loss on unbalanced legs',
     ],
   },
   {
@@ -706,7 +706,7 @@ export const compPlans: CompPlanData[] = [
     keyGotchas: [
       'Compensation plan not fully disclosed to public',
       'Products significantly more expensive than retail alternatives',
-      'No public income disclosure statement',
+      'Binary compensation structure requires leg balance for maximum commissions',
       'Team development bonuses create strong recruiting incentive',
       'Auto-order recommended to maintain commission qualification',
     ],

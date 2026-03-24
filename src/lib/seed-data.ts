@@ -113,18 +113,16 @@ export const companies: Company[] = [
       'Nutrilite is the world\'s #1 selling nutritional supplement brand'
     ],
     cons: [
-      '2023 IDS: Median active IBO earns only $657/year before expenses',
-      '2023 Income Disclosure: 66% earned something; 34% earned $0',
-      'Top 1% average $41,456/yr — vast majority earn near nothing',
-      'Notoriously complex PV/BV compensation system',
+      'Notoriously complex PV/BV compensation system — difficult to understand earnings',
       '$62/year annual renewal fee plus ongoing product purchase expectations',
-      'Strong recruitment culture — meaningful income requires large downline'
+      'Per-customer residual is ~$10/mo first 3 years, then ~$3/mo after — significant income requires a large customer base or team',
+      'Strong recruitment culture embedded in the business model'
     ],
     quick_facts: {
       'Founded': '1959',
       'Headquarters': 'Ada, Michigan, USA',
       'Annual Revenue': '~$7.7 billion',
-      '2023 Income Disclosure': 'Median earnings $657/yr before expenses. 66% earned something; 34% earned $0. Top 1% avg $41,456/yr.',
+      'Global Presence': '100+ countries',
       'Annual IBO Fee': '$62 renewal'
     },
     last_updated: '2026-01-15T00:00:00.000Z',
@@ -135,19 +133,19 @@ export const companies: Company[] = [
     faq: [
       {
         question: 'Is Amway a pyramid scheme?',
-        answer: 'Amway is legally classified as a legitimate MLM company, not a pyramid scheme. However, critics argue the business model heavily emphasizes recruitment over product sales, and income disclosure data shows the vast majority of participants earn very little.'
+        answer: 'No. Amway is a legitimate direct sales company founded in 1959. It sells real products (Nutrilite supplements, Artistry cosmetics) through independent business owners. The structural question is whether the compensation model rewards customer acquisition or primarily team building.'
       },
       {
-        question: 'How much do Amway distributors actually make?',
-        answer: 'According to Amway\'s income disclosure, 80% of IBOs earn less than $2,000/year. After accounting for expenses, product purchases, and the $62/year registration fee, most distributors operate at a net loss.'
+        question: 'How does Amway\'s compensation structure work?',
+        answer: 'Amway uses a multi-level PV/BV (Point Value/Business Volume) system. IBOs earn commissions based on personal sales and team volume. The per-customer residual is ~$10/mo first 3 years (then ~$3/mo after CSI expires), meaning significant income typically requires building a large customer base or recruiting a productive team.'
       },
       {
         question: 'What is required to stay active with Amway?',
         answer: 'To remain active and earn commissions, Amway IBOs must maintain a minimum monthly Personal Volume (PV), typically requiring $100-200 in personal product purchases each month.'
       },
       {
-        question: 'Why do people fail at Amway?',
-        answer: 'Most people fail because the MLM model requires extensive recruiting to succeed. Products are often overpriced compared to retail alternatives, making sales difficult. The complex PV/BV compensation structure heavily favors those at the top.'
+        question: 'What are Amway\'s strengths as a company?',
+        answer: 'Amway has operated since 1959 — over 65 years in business. It has a global presence in 100+ countries and generates roughly $7.7 billion in annual revenue. Nutrilite is the world\'s #1 selling vitamin brand. The company has a loyal distributor base and established brand recognition.'
       }
     ]
   },
@@ -176,20 +174,18 @@ export const companies: Company[] = [
       'Some quality nutritional products'
     ],
     cons: [
-      '2024 IDS: Median earnings ~$3,216/yr; roughly half earn nothing in a typical month',
       'Paid $200M FTC settlement in 2016 for deceptive practices',
       'Very complex compensation structure',
       'Minimum autoship of $94.10/month to stay active',
-      'Products significantly overpriced',
-      'Heavy emphasis on recruitment',
-      'Controversial "nutrition club" model',
-      'Multiple lawsuits and regulatory actions'
+      'Products priced at premium levels',
+      'Controversial "nutrition club" model has faced scrutiny',
+      'Multiple lawsuits and regulatory actions over the years'
     ],
     quick_facts: {
       'Founded': '1980',
       'Headquarters': 'Los Angeles, California',
       'Business Model': 'Multi-Level Marketing',
-      '2024 Income Disclosure': 'Median established distributor earns $3,216/yr. ~50% earn nothing in a typical month.',
+      'Global Presence': '90+ countries',
       'Minimum Autoship': '$94.10/month to stay active',
       'FTC Settlement': '$200 million (2016)'
     },
@@ -200,20 +196,20 @@ export const companies: Company[] = [
     tagline: 'Controversial nutrition MLM',
     faq: [
       {
-        question: 'Is Herbalife a scam?',
-        answer: 'Herbalife (now Herbalife Nutrition) is a legal MLM company, but paid a $200 million FTC settlement in 2016 for deceiving consumers about income potential. The FTC found most participants made little to no money, with many losing money.'
+        question: 'Is Herbalife a legitimate company?',
+        answer: 'Herbalife Nutrition is a publicly traded company (NYSE: HLF) founded in 1980, operating in 90+ countries. The company paid a $200 million FTC settlement in 2016 and restructured its business practices. It sells nutritional products through independent distributors.'
       },
       {
-        question: 'How much does it really cost to join Herbalife?',
-        answer: 'The minimum autoship to stay active is $94.10/month. However, to maintain active status and qualify for commissions, most distributors spend $200-400+ monthly on products. Annual costs often exceed $2,000-5,000.'
+        question: 'How much does it cost to join Herbalife?',
+        answer: 'The minimum autoship to stay active and earn commissions is $94.10/month. To qualify for higher commission tiers, many distributors spend $200-400+ monthly on products. Prospective members should calculate total monthly costs before joining.'
       },
       {
-        question: 'What percentage of Herbalife distributors make money?',
-        answer: 'According to Herbalife\'s own income disclosure, approximately 50% of distributors earned $0. Of those who did earn, the median was just a few hundred dollars annually before expenses.'
+        question: 'How does Herbalife\'s compensation structure work?',
+        answer: 'Herbalife uses a multi-level breakaway compensation plan. Distributors earn retail margins on personal sales plus bonuses on team volume. The per-customer residual is ~$12.50 per $50 order (at 25% discount level) — significant income typically requires building a large customer base or team.'
       },
       {
-        question: 'Why is Herbalife controversial?',
-        answer: 'Herbalife has faced multiple regulatory actions, including a $200M FTC settlement in 2016. Critics argue products are overpriced, the business model primarily rewards recruiting, and income claims are misleading. The company rebranded as "Herbalife Nutrition" but concerns remain.'
+        question: 'What regulatory issues has Herbalife faced?',
+        answer: 'Herbalife paid a $200M FTC settlement in 2016 and agreed to restructure its business model. The company has faced other lawsuits and regulatory scrutiny over the years. Prospective distributors should research the company\'s history before joining.'
       }
     ]
   },
@@ -417,7 +413,7 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy offers a simpler, more affordable alternative to Amway with higher earning potential for most people. While Amway has brand recognition, HBA\'s 80% flat-rate commission structure and low startup costs make it the better choice for those seeking legitimate home business income.',
+      verdict: 'Amway (founded 1959) is one of the most established direct sales companies in the world with quality products and global brand recognition. Home Business Academy offers a simpler one-tier model with 80% flat commissions and lower startup costs. For those seeking a straightforward path to residual income without building a team, HBA\'s structure is more accessible.',
       winner: 'vs_company',
       comparison_points: [
         {
@@ -428,7 +424,7 @@ export const comparisonPages: ComparisonPage[] = [
         },
         {
           category: 'Commission Structure',
-          company_value: 'Complex multi-level PV/BV (avg ~$207/month gross)',
+          company_value: 'Multi-level PV/BV system with team bonuses',
           vs_company_value: '80% flat-rate residual ($128/mo per customer)',
           winner: 'vs_company'
         },
@@ -446,7 +442,7 @@ export const comparisonPages: ComparisonPage[] = [
         },
         {
           category: 'Path to Profit',
-          company_value: 'Complex, most lose money',
+          company_value: 'Requires building team volume for higher earnings',
           vs_company_value: '2 referrals = profit, 24 = full-time potential',
           winner: 'vs_company'
         }
@@ -460,7 +456,7 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy is the clear winner over Herbalife. With no FTC settlements, transparent 80% commissions, and significantly lower costs, HBA provides a sustainable path to online income without the regulatory concerns and high failure rates associated with Herbalife.',
+      verdict: 'Herbalife (founded 1980) is a global nutrition company operating in 90+ countries. However, its $200M FTC settlement and required monthly autoship create legitimate concerns. HBA offers a simpler model with 80% commissions, no autoship requirements, and a clean regulatory record.',
       winner: 'vs_company',
       comparison_points: [
         {
@@ -477,7 +473,7 @@ export const comparisonPages: ComparisonPage[] = [
         },
         {
           category: 'Business Model',
-          company_value: 'MLM with recruiting focus (~50% earn $0)',
+          company_value: 'Multi-level breakaway with team-building focus',
           vs_company_value: 'One-tier affiliate (80% residual commissions)',
           winner: 'vs_company'
         },
@@ -498,11 +494,11 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy wins for most people looking to build residual income. doTERRA has quality products but requires a 100 PV monthly autoship ($100-150/mo) to earn commissions, and 91% of Wellness Advocates earn $0. HBA\'s one-tier model, 80% commissions, and no mandatory recruiting make it a cleaner path to real income.',
+      verdict: 'doTERRA (founded 2008) has built a strong reputation for quality essential oils and a loyal customer base. The structural question is the 100 PV monthly autoship requirement ($100-150/mo) to earn commissions. HBA offers a one-tier model with 80% commissions and no mandatory autoship — a simpler path for those focused on residual income.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Monthly Minimum', company_value: '100 LRP points (~$100-150/mo) required to earn', vs_company_value: '$10-160/month, no earning minimum', winner: 'vs_company' },
-        { category: 'Typical Earnings', company_value: '91% earn $0; top 1% avg $40K/yr', vs_company_value: '80% commissions: $128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Commission Model', company_value: 'Multi-level unilevel with recruiting bonuses', vs_company_value: '80% commissions: $128/mo per full-suite customer', winner: 'vs_company' },
         { category: 'Business Model', company_value: 'MLM — unilevel with recruiting bonuses', vs_company_value: 'One-tier affiliate — earn on direct referrals only', winner: 'vs_company' },
         { category: 'Comp Plan Stability', company_value: 'New comp plan launched 2023', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
         { category: 'Product Type', company_value: 'Essential oils (physical, perishable)', vs_company_value: 'Digital training tools (no inventory)', winner: 'vs_company' },
@@ -517,14 +513,14 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy is the stronger business opportunity. Young Living\'s income disclosure shows ~94% of distributors who tried to build a business earned a median of $4/year. HBA\'s transparent one-tier model, 80% commissions, and never-changed comp plan make it a far more reliable path to residual income.',
+      verdict: 'Young Living (founded 1993) pioneered the essential oils MLM industry and has a devoted customer base. The compensation model requires 100 PV/month to stay active and earn. HBA offers a simpler one-tier model with 80% commissions and no mandatory autoship — a more accessible path for those focused purely on residual income.',
       winner: 'vs_company',
       comparison_points: [
-        { category: 'Typical Earnings', company_value: '~94% earn near $0; median $4/yr for business builders', vs_company_value: '$128/mo per full-suite customer, paid every Thursday', winner: 'vs_company' },
+        { category: 'Per-Customer Residual', company_value: 'Modest per-customer pay — team building required for scale', vs_company_value: '$128/mo per full-suite customer, paid every Thursday', winner: 'vs_company' },
         { category: 'Monthly Autoship', company_value: '100 PV/month required to stay active and earn', vs_company_value: 'No mandatory autoship', winner: 'vs_company' },
         { category: 'Business Model', company_value: 'Stairstep breakaway MLM', vs_company_value: 'One-tier flat affiliate commissions', winner: 'vs_company' },
         { category: 'Startup Cost', company_value: 'Premium Starter Kit $165+', vs_company_value: 'Start for $10/month', winner: 'vs_company' },
-        { category: 'Income Transparency', company_value: 'IDS shows median $4/year for business builders', vs_company_value: 'Clear math: 2 referrals = profit', winner: 'vs_company' },
+        { category: 'Income Transparency', company_value: 'Complex multi-level compensation structure', vs_company_value: 'Clear math: 2 referrals = profit', winner: 'vs_company' },
       ]
     },
     last_updated: '2026-01-15T00:00:00.000Z'
@@ -536,11 +532,11 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Both companies have been around for decades and have loyal communities, but Home Business Academy wins on earning potential. Melaleuca\'s 2022 income disclosure shows 82% of members earn $0, and Product Advocates average just $110-510/year. HBA\'s 80% commissions and one-tier model produce significantly higher income per customer.',
+      verdict: 'Melaleuca (founded 1985) has operated for nearly 40 years with a loyal customer base around eco-friendly wellness products. The structural question is per-customer earnings — the comp plan pays ~$3.50/mo per active customer (7% ongoing). HBA\'s 80% commissions and one-tier model offer higher per-customer income for those focused on direct sales.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Monthly Minimum', company_value: '35 product points (~$55-70/mo) to earn commissions', vs_company_value: 'No monthly purchase required to earn', winner: 'vs_company' },
-        { category: 'Typical Earnings', company_value: '82% earn $0; Product Advocates avg $110-510/yr', vs_company_value: '80% commissions: $128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Per-Customer Residual', company_value: '~$3.50/mo per customer (7% ongoing) in 8-level MLM structure', vs_company_value: '80% commissions: $128/mo per full-suite customer', winner: 'vs_company' },
         { category: 'Company Stability', company_value: 'Founded 1985, 40 years in business', vs_company_value: 'Founded 2016, never changed comp plan', winner: 'tie' },
         { category: 'Business Model', company_value: '8-level MLM organization with Director ranks', vs_company_value: 'One-tier affiliate — income depends on YOU', winner: 'vs_company' },
         { category: 'Products', company_value: 'Physical household/wellness products', vs_company_value: 'Digital training and tools', winner: 'tie' },
@@ -555,14 +551,14 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy is the better business opportunity for most people. USANA requires expensive monthly autoship ($120-200/mo) just to qualify for commissions, and the majority of Associates earn very little. HBA\'s $10 entry point and 80% flat commissions make it far more accessible and profitable.',
+      verdict: 'USANA (founded 1992) is a publicly traded company with a reputation for high-quality nutritional supplements and a loyal customer base. The structural consideration is the $120-200/month autoship required to earn commissions. HBA\'s $10 entry point and 80% flat commissions make it more accessible for those seeking a simpler path to residual income.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Monthly Minimum', company_value: '$120-200/month autoship required', vs_company_value: '$10/month minimum, no earning requirement', winner: 'vs_company' },
         { category: 'Commission Rate', company_value: 'Complex multi-level points system', vs_company_value: '80% flat residual commissions', winner: 'vs_company' },
         { category: 'Startup Cost', company_value: '$30-150 enrollment + monthly autoship', vs_company_value: '$10/month, no inventory', winner: 'vs_company' },
         { category: 'Business Model', company_value: 'Binary MLM with weekly qualifications', vs_company_value: 'One-tier affiliate, earn on direct referrals', winner: 'vs_company' },
-        { category: 'Per-Customer Income', company_value: 'Low per-customer residual due to binary splits', vs_company_value: '$128/mo per full-suite customer (24 = $3,072/mo)', winner: 'vs_company' },
+        { category: 'Per-Customer Income', company_value: 'Binary structure splits commissions across legs', vs_company_value: '$128/mo per full-suite customer (24 = $3,072/mo)', winner: 'vs_company' },
       ]
     },
     last_updated: '2026-01-15T00:00:00.000Z'
@@ -579,7 +575,7 @@ export const comparisonPages: ComparisonPage[] = [
       comparison_points: [
         { category: 'Licensing Required', company_value: 'State insurance license required ($200-500)', vs_company_value: 'No licensing required', winner: 'vs_company' },
         { category: 'Business Model', company_value: 'MLM insurance distribution, recruiting-heavy', vs_company_value: 'One-tier digital affiliate', winner: 'vs_company' },
-        { category: 'Typical Earnings', company_value: '$7,757/yr median for active reps', vs_company_value: '80% residual: $128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Compensation Model', company_value: 'Multi-level insurance commissions with recruiting bonuses', vs_company_value: '80% residual: $128/mo per full-suite customer', winner: 'vs_company' },
         { category: 'Activity Required', company_value: 'Cold calling, meetings, insurance sales', vs_company_value: 'Online marketing, content creation', winner: 'tie' },
         { category: 'Comp Plan Stability', company_value: 'Multi-level, recruiting required for promotion', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
       ]
@@ -593,12 +589,12 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy wins on earning potential and simplicity. Mary Kay requires buying inventory upfront and has a stairstep breakaway compensation structure. Most consultants earn very little — one study found 73% of consultants earned less than $1,000/year before expenses. HBA\'s digital model requires no inventory and pays 80% commissions.',
+      verdict: 'Mary Kay (founded 1963) is one of the most recognized names in direct sales with over 60 years of history and a devoted consultant base. The model requires purchasing inventory upfront. HBA offers a digital alternative with no inventory, 80% commissions, and a simpler one-tier structure for those who prefer online marketing.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Inventory Required', company_value: '$100 starter kit + ongoing inventory purchases', vs_company_value: 'No physical inventory', winner: 'vs_company' },
         { category: 'Commission Structure', company_value: 'Stairstep breakaway MLM', vs_company_value: 'Flat 80% one-tier residual', winner: 'vs_company' },
-        { category: 'Typical Earnings', company_value: '73%+ earn under $1,000/year before expenses', vs_company_value: '2 referrals = in profit; 24 = $3,072/month', winner: 'vs_company' },
+        { category: 'Per-Customer Model', company_value: 'Retail margin on cosmetics sales plus team bonuses', vs_company_value: '2 referrals = in profit; 24 = $3,072/month', winner: 'vs_company' },
         { category: 'Startup Cost', company_value: '$100 starter kit + ongoing product orders', vs_company_value: '$10-160/month, no inventory', winner: 'vs_company' },
         { category: 'Product Model', company_value: 'Physical cosmetics, inventory-based selling', vs_company_value: 'Digital tools and training', winner: 'vs_company' },
       ]
@@ -612,11 +608,11 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy is the stronger opportunity. MONAT has faced thousands of BBB complaints about product issues, multiple class action lawsuits, and a 2024 income disclosure showing average Market Partner earnings of just $758/year. HBA\'s 80% commissions, zero lawsuits, and no recruiting requirement make it a far cleaner choice.',
+      verdict: 'MONAT has faced thousands of BBB complaints about product issues and multiple class action lawsuits — legitimate concerns for prospective distributors. HBA offers a cleaner alternative with 80% commissions, zero lawsuits, no product liability issues, and no recruiting requirement.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Legal Issues', company_value: 'Multiple class action lawsuits, BBB complaints', vs_company_value: 'No FTC actions, no lawsuits', winner: 'vs_company' },
-        { category: 'Typical Earnings', company_value: 'Avg $758/year for all Market Partners (2024)', vs_company_value: '$128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Business Structure', company_value: 'MLM with recruiting-focused compensation', vs_company_value: '$128/mo per full-suite customer', winner: 'vs_company' },
         { category: 'Monthly Cost', company_value: '$30-100/month product requirement', vs_company_value: '$10-160/month, no autoship', winner: 'vs_company' },
         { category: 'Business Model', company_value: 'MLM with recruiting income', vs_company_value: 'One-tier affiliate, no recruiting needed', winner: 'vs_company' },
         { category: 'Product Type', company_value: 'Physical hair care (shipping, returns)', vs_company_value: 'Digital products (no inventory)', winner: 'vs_company' },
@@ -631,13 +627,13 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy offers a more accessible and transparent earning model. Isagenix requires $100-150/month in autoship to qualify for commissions, and most Associates earn very little. HBA\'s digital model with 80% flat commissions and no mandatory autoship is a simpler, more profitable path for most people.',
+      verdict: 'Isagenix has built a community around health and wellness products since 2002. The structural consideration is the $100-150/month autoship requirement to qualify for commissions. HBA offers a digital model with 80% flat commissions and no mandatory autoship — a simpler path for those focused on residual income.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Monthly Autoship', company_value: '100-150 BV/month required to earn', vs_company_value: 'No autoship required', winner: 'vs_company' },
         { category: 'Commission Rate', company_value: 'Binary + team commissions, complex structure', vs_company_value: '80% flat residual commissions', winner: 'vs_company' },
         { category: 'Entry Cost', company_value: '$200-500 enrollment packs', vs_company_value: '$10/month starter', winner: 'vs_company' },
-        { category: 'Income per Customer', company_value: 'Low residual per customer in binary model', vs_company_value: '$128/mo per full-suite customer', winner: 'vs_company' },
+        { category: 'Income per Customer', company_value: 'Binary structure splits commissions', vs_company_value: '$128/mo per full-suite customer', winner: 'vs_company' },
         { category: 'Comp Plan History', company_value: 'Multiple comp plan changes over the years', vs_company_value: 'Unchanged since 2016', winner: 'vs_company' },
       ]
     },
@@ -650,7 +646,7 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy wins convincingly. It Works! is known for the body wrap, but its income model requires monthly autoship and heavy recruiting. Most distributors earn very little. HBA\'s one-tier digital affiliate model with 80% commissions and no inventory is a far cleaner business.',
+      verdict: 'It Works! is known for the body wrap product and has an active distributor community. The model requires monthly autoship ($80-200/mo) and emphasizes team building. HBA offers a one-tier digital affiliate model with 80% commissions and no inventory — a simpler structure for those focused on direct sales.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Monthly Requirement', company_value: '$80-200/month autoship to stay active', vs_company_value: '$10-160/month, no autoship', winner: 'vs_company' },
@@ -764,7 +760,7 @@ export const comparisonPages: ComparisonPage[] = [
     vs_company_name: 'Home Business Academy',
     vs_company_slug: 'home-business-academy',
     content: {
-      verdict: 'Home Business Academy is the better home business choice. Nu Skin requires $50-150/month autoship, has a complex stairstep breakaway comp plan, and has faced multiple FTC and international regulatory actions. HBA\'s simple one-tier model with 80% commissions, zero regulatory issues, and never-changed comp plan is the clear winner.',
+      verdict: 'Nu Skin (founded 1984) is a publicly traded company with a 40-year track record in anti-aging products. The model requires $50-150/month autoship and has faced FTC and international regulatory actions. HBA offers a simpler one-tier model with 80% commissions, no regulatory issues, and a never-changed comp plan.',
       winner: 'vs_company',
       comparison_points: [
         { category: 'Regulatory History', company_value: 'FTC settlements, China government fines', vs_company_value: 'No regulatory actions', winner: 'vs_company' },
