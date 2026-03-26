@@ -132,8 +132,8 @@ export default function HowWeRatePage() {
                 <tr className="border-b"><td className="p-2">No penalties — you keep your rate on whatever volume exists</td><td className="p-2 font-semibold">5.0</td></tr>
                 <tr className="border-b"><td className="p-2">Simple annual renewal fee only</td><td className="p-2 font-semibold">4.0</td></tr>
                 <tr className="border-b"><td className="p-2">Rank/rate drops if team volume falls below threshold</td><td className="p-2 font-semibold">1.5</td></tr>
-                <tr className="border-b"><td className="p-2">Must maintain personal production or enrollment quotas to keep rate</td><td className="p-2 font-semibold">1.0</td></tr>
-                <tr><td className="p-2">Multiple penalty mechanisms combined</td><td className="p-2 font-semibold">0.5</td></tr>
+                <tr className="border-b"><td className="p-2">Must maintain personal production or enrollment quotas to keep rate</td><td className="p-2 font-semibold">1.5</td></tr>
+                <tr className="border-b"><td className="p-2">Multiple penalty mechanisms combined</td><td className="p-2 font-semibold">0.5</td></tr>
               </tbody>
             </table>
           </div>
