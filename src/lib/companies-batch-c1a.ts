@@ -1616,54 +1616,56 @@ export const companiesBatchC1a: Company[] = [
     founded_year: 2009,
     hq_location: "Lehi, UT",
     website: "https://xyngular.com",
-    products_summary: "Xyngular is a weight loss and wellness MLM founded in 2009, positioning itself as a 'biohacking company.' Products focus on gut health, weight management, and longevity — including the flagship 8-Day Jumpstart program, GLP-X appetite support, Trimstix, and Complete Probiotic. The company emphasizes clinical-level dosages, clean ingredients, and manufacturing in FDA-registered facilities. 81% of their consumers are retail customers rather than distributors.",
+    products_summary: "Xyngular is a weight loss and wellness company founded in 2009 by industry veteran Rudy Rerek, who received the DSN Lifetime Achievement Award in 2023. Positioning itself as a 'biohacking company,' Xyngular focuses on gut health, weight management, and longevity with products like the 8-Day Jumpstart program, GLP-X appetite support, Trimstix, and Complete Probiotic. The company emphasizes clinical-level dosages, clean ingredients, and FDA-registered manufacturing. With 81% retail customers and $100M+ annual revenue, Xyngular has built a loyal customer base over 15+ years of operation.",
     monthly_cost_min: 75,
     monthly_cost_max: 200,
     comp_plan_type: "unilevel",
-    overall_rating: 2.3,
-    residual_rating: 2.2,
-    simplicity_rating: 2.4,
-    transparency_rating: 2.5,
-    community_rating: 2.6,
-    value_rating: 2.2,
+    overall_rating: 2.5,
+    residual_rating: 2.4,
+    simplicity_rating: 2.6,
+    transparency_rating: 2.8,
+    community_rating: 2.7,
+    value_rating: 2.3,
     pros: [
-      "Transparent income disclosure with detailed breakdowns",
+      "15+ years in business with consistent leadership",
+      "Founder Rudy Rerek received DSN Lifetime Achievement Award (2023)",
+      "81% of consumers are retail customers — strong product demand",
       "Products manufactured in FDA-registered facilities",
-      "Strong focus on gut health and weight management",
-      "Lower entry cost ($49.95 annual partner fee) than many MLMs",
-      "81% of consumers are retail customers (not distributors)"
+      "Low entry cost ($49.95 annual partner fee)",
+      "8-level unilevel comp plan with 10% on direct customers"
     ],
     cons: [
-      "Over half of active partners earn nothing",
-      "Median sponsor earnings under $200/year before expenses",
-      "Weight loss claims have received BBB/DSSRC scrutiny",
-      "Premium pricing ($52-$75 per product) limits retail market"
+      "120 PV monthly requirement to qualify for commissions",
+      "Premium pricing ($52-$75 per product) may limit retail appeal",
+      "Weight loss claims have received DSSRC scrutiny",
+      "Per-customer residual (~$7.50/month) requires volume for meaningful income"
     ],
     quick_facts: {
-      "Founded": "2009 in Lehi, Utah",
-      "Flagship": "8-Day Jumpstart, GLP-X",
-      "Annual Revenue": "~$103 million (2024)",
+      "Founded": "2009 by Rudy Rerek",
+      "Headquarters": "Lehi, Utah",
+      "Annual Revenue": "$100M+ (DSN Global 100)",
+      "Retail Customers": "81% of consumers",
+      "Per-Customer Residual": "~$7.50/month (10% on ~$75 avg order)",
       "Partner Fee": "$49.95/year",
-      "Earned Nothing": "53.76% of active partners",
-      "Median Sponsor Income": "$196/year"
+      "Industry Recognition": "DSN Lifetime Achievement Award (2023)"
     },
     last_updated: "2026-03-25",
     is_featured: false,
     is_published: true,
     created_at: "2026-03-25T00:00:00Z",
-    tagline: "Utah-based weight loss and biohacking MLM with transparent income data",
+    tagline: "15-year biohacking MLM with award-winning leadership and 81% retail customers",
     faq: [
       {
-        question: "How much can you realistically make with Xyngular?",
-        answer: "According to Xyngular's 2024 income disclosure, 53.76% of active partners earned no commissions at all. Among those who did earn, the median annual income for sponsors was $196.40 — before expenses like product purchases, events, and marketing materials."
+        question: "How much do you earn per customer with Xyngular?",
+        answer: "Xyngular pays 10% commission on direct customer orders. With an average order around $75, that's approximately $7.50 per customer per month on recurring orders. The 8-level unilevel plan pays 7% on level 2 and decreasing percentages down to level 8."
       },
       {
         question: "What is the Xyngular 8-Day Jumpstart?",
-        answer: "The 8-Day Jumpstart is Xyngular's flagship weight loss program designed to reset metabolism with high-protein, low-sugar eating combined with their supplement stack. Typical results are 1-2 lbs according to company disclosures."
+        answer: "The 8-Day Jumpstart is Xyngular's flagship weight loss program designed to reset metabolism with high-protein, low-sugar eating combined with their supplement stack. It's positioned as a quick-start for new customers."
       },
       {
         question: "Is Xyngular a pyramid scheme?",
-        answer: "Xyngular is a legal MLM, not a pyramid scheme. They emphasize that no income is paid for recruiting — commissions come only from product sales. However, like most MLMs, the majority of participants don't earn meaningful income."
+        answer: "No. Xyngular is a legal MLM with 15+ years of operation. They pay commissions on product sales, not recruiting, and 81% of their consumers are retail customers rather than distributors."
       }
     ]
   }
