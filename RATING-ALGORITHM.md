@@ -137,7 +137,7 @@ We evaluate two things: Is this a legitimate product people actually use? And is
 
 ---
 
-### 5. Transparency & Simplicity (10% weight)
+### 5. Transparency & Simplicity (15% weight)
 
 Can an average person understand how they'll get paid?
 
@@ -155,23 +155,7 @@ Can an average person understand how they'll get paid?
 
 ---
 
-### 6. Policies & Procedures (5% weight)
-
-Does the company have loopholes that can strip your residual income?
-
-| Factor | Score |
-|--------|-------|
-| Clean, fair P&P that protect affiliate income | 5.0 |
-| Standard P&P with normal compliance requirements | 3.5 |
-| P&P with some concerning clauses | 2.0 |
-| P&P with multiple pitfalls that could cost residual income | 1.0 |
-| Predatory P&P designed to strip income | 0.5 |
-
-**Examples of pitfalls:** Termination for minor violations, arbitrary volume lapses, "use it or lose it" clauses, company ability to change terms without notice.
-
----
-
-### 7. Startup Costs (0% weight — noted only)
+### 6. Startup Costs (0% weight — noted only)
 
 Startup costs don't affect the residual rating but are documented for accessibility:
 
@@ -187,7 +171,7 @@ Startup costs don't affect the residual rating but are documented for accessibil
 
 ---
 
-### 8. Regulatory History (0% weight — noted only)
+### 7. Regulatory History (0% weight — noted only)
 
 Regulatory actions are documented but don't affect the score unless they resulted in material harm:
 
@@ -241,21 +225,19 @@ Round to one decimal place.
 
 **Example: Home Business Academy**
 - Per-Customer Residual: $128/mo → 5.0 × 0.40 = 2.00
-- Maintenance: None → 5.0 × 0.20 = 1.00
+- Residual Penalties: None → 5.0 × 0.20 = 1.00
 - Stability: 10+ years, never changed comp plan, never missed payment → 5.0 × 0.15 = 0.75
 - Product Value: Digital tools with real utility → 4.5 × 0.10 = 0.45
-- Transparency: Simple one-tier, clear documentation → 5.0 × 0.10 = 0.50
-- P&P: Clean, affiliate-friendly → 5.0 × 0.05 = 0.25
+- Transparency: Simple one-tier, clear documentation → 5.0 × 0.15 = 0.75
 - **Final Score: 4.95 → 5.0**
 
 **Example: Traditional MLM (Physical Products)**
 - Per-Customer Residual: $10/mo → 2.0 × 0.40 = 0.80
-- Maintenance: Monthly volume requirements → 2.0 × 0.20 = 0.40
+- Residual Penalties: Rank drops if volume falls → 1.5 × 0.20 = 0.30
 - Stability: 30 years, but changed comp plan twice → 2.5 × 0.15 = 0.375
 - Product Value: Strong retail base → 4.5 × 0.10 = 0.45
-- Transparency: Complex multi-tier → 2.0 × 0.10 = 0.20
-- P&P: Standard with some volume lapses → 3.0 × 0.05 = 0.15
-- **Final Score: 2.375 → 2.4**
+- Transparency: Complex multi-tier → 2.0 × 0.15 = 0.30
+- **Final Score: 2.325 → 2.3**
 
 ---
 

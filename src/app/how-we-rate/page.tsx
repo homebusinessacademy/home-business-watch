@@ -220,10 +220,10 @@ export default function HowWeRatePage() {
         </div>
 
         {/* Factor 5 */}
-        <div className="mb-8 border-b pb-6">
+        <div className="mb-8">
           <div className="flex items-center justify-between mb-2">
             <h3 className="text-xl font-semibold">5. Transparency & Simplicity</h3>
-            <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">10% weight</span>
+            <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">15% weight</span>
           </div>
           <p className="text-gray-600 mb-4">
             Can an average person understand how they'll get paid?
@@ -233,23 +233,6 @@ export default function HowWeRatePage() {
             <li>Complex with many ranks/bonuses = 2.0</li>
             <li>Hidden or unavailable = 0.5</li>
             <li><strong>No published Income Disclosure:</strong> -1.0 penalty (compliance risk)</li>
-          </ul>
-        </div>
-
-        {/* Factor 6 */}
-        <div className="mb-8">
-          <div className="flex items-center justify-between mb-2">
-            <h3 className="text-xl font-semibold">6. Policies & Procedures</h3>
-            <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">5% weight</span>
-          </div>
-          <p className="text-gray-600 mb-4">
-            Does the company have loopholes that can strip your residual income?
-          </p>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
-            <li>Termination for minor violations</li>
-            <li>Arbitrary volume lapses</li>
-            <li>"Use it or lose it" clauses</li>
-            <li>Company ability to change terms without notice</li>
           </ul>
         </div>
       </section>
@@ -288,11 +271,10 @@ export default function HowWeRatePage() {
         <h2 className="text-2xl font-semibold mb-4">The Formula</h2>
         <div className="bg-gray-900 text-gray-100 p-4 rounded font-mono text-sm overflow-x-auto">
           <pre>{`Final Score = (Per-Customer Residual × 0.40)
-            + (Maintenance Requirements × 0.20)
+            + (Residual Penalties × 0.20)
             + (Company Stability × 0.15)
             + (Product Value × 0.10)
-            + (Transparency × 0.10)
-            + (Policies & Procedures × 0.05)`}</pre>
+            + (Transparency × 0.15)`}</pre>
         </div>
       </section>
 
