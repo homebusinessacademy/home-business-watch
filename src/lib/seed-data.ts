@@ -100,23 +100,23 @@ export const companies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level unilevel with PV/BV qualification system',
-    overall_rating: 2.3,
+    overall_rating: 2.1,
     residual_rating: 2.0,
-    simplicity_rating: 1.5,
-    transparency_rating: 2.5,
-    community_rating: 3.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 3.5,
     value_rating: 2.0,
     pros: [
-      'Founded 1959 — one of the most established direct sales companies',
-      'Global presence in 100+ countries with ~$7.7 billion revenue',
-      'No cost to register as an IBO',
-      'Nutrilite is the world\'s #1 selling nutritional supplement brand'
+      '66 years in business — one of the oldest MLMs still operating',
+      'Never missed a commission payment',
+      'Real products with genuine retail demand (Nutrilite, Artistry)',
+      'Global brand recognition in 100+ countries'
     ],
     cons: [
-      'Notoriously complex PV/BV compensation system — difficult to understand earnings',
-      '$62/year annual renewal fee plus ongoing product purchase expectations',
-      'Per-customer residual is ~$10/mo first 3 years, then ~$3/mo after — significant income requires a large customer base or team',
-      'Strong recruitment culture embedded in the business model'
+      'Low per-customer residual (~$10/mo) due to BV points system',
+      'BV/points system means commissions paid on ~50% of retail dollar value',
+      'Has changed compensation plan multiple times over the decades',
+      'Complex multi-tier compensation structure with many ranks'
     ],
     quick_facts: {
       'Founded': '1959',
@@ -125,11 +125,11 @@ export const companies: Company[] = [
       'Global Presence': '100+ countries',
       'Annual IBO Fee': '$62 renewal'
     },
-    last_updated: '2026-01-15T00:00:00.000Z',
+    last_updated: '2026-03-26T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'One of the oldest MLM companies in the world',
+    tagline: 'World\'s largest MLM — 66 years in business',
     faq: [
       {
         question: 'Is Amway a pyramid scheme?',
@@ -161,25 +161,23 @@ export const companies: Company[] = [
     monthly_cost_min: 94,
     monthly_cost_max: 400,
     comp_plan_type: 'Multi-level breakaway',
-    overall_rating: 1.8,
-    residual_rating: 1.5,
-    simplicity_rating: 1.4,
-    transparency_rating: 1.3,
-    community_rating: 2.8,
-    value_rating: 1.8,
+    overall_rating: 2.4,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 3.5,
+    value_rating: 2.5,
     pros: [
-      'Well-known brand with global recognition',
-      'Large product catalog',
-      'Active community and events',
-      'Some quality nutritional products'
+      '45 years in business with no missed commission payments',
+      'Strong global brand recognition',
+      'Real nutrition products with genuine consumer demand',
+      'Nutrition Club model shows real product consumption'
     ],
     cons: [
-      'Paid $200M FTC settlement in 2016 for deceptive practices',
-      'Very complex compensation structure',
-      'Minimum autoship of $94.10/month to stay active',
-      'Products priced at premium levels',
-      'Controversial "nutrition club" model has faced scrutiny',
-      'Multiple lawsuits and regulatory actions over the years'
+      'Low per-customer residual (~$12.50/mo at entry level)',
+      '$200M FTC settlement (2016) required compensation plan changes',
+      'Complex multi-tier structure (25-50% retail + royalties)',
+      'Products priced at premium levels'
     ],
     quick_facts: {
       'Founded': '1980',
@@ -189,11 +187,11 @@ export const companies: Company[] = [
       'Minimum Autoship': '$94.10/month to stay active',
       'FTC Settlement': '$200 million (2016)'
     },
-    last_updated: '2026-01-15T00:00:00.000Z',
+    last_updated: '2026-03-26T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Controversial nutrition MLM',
+    tagline: 'Global nutrition MLM — FTC settlement led to restructured compensation',
     faq: [
       {
         question: 'Is Herbalife a legitimate company?',
