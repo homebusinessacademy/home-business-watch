@@ -3,6 +3,124 @@ import { Company } from '@/types';
 export const extendedCompanies: Company[] = [
   // --- MLM COMPANIES ---
   {
+    id: '100',
+    slug: 'amway',
+    name: 'Amway',
+    category: 'mlm',
+    founded_year: 1959,
+    hq_location: 'Ada, Michigan, USA',
+    website: 'https://amway.com',
+    products_summary: 'One of the largest MLM companies in the world, selling nutrition (Nutrilite), beauty (Artistry), and home care products. Amway operates in 100+ countries with $8+ billion annual revenue. Uses a BV (Business Volume) points system where commissions are paid on volume points rather than actual dollars spent.',
+    monthly_cost_min: 0,
+    monthly_cost_max: 300,
+    comp_plan_type: 'Multi-level with BV/PV points system',
+    overall_rating: 2.1,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 3.5,
+    value_rating: 2.0,
+    pros: [
+      '66 years in business — one of the oldest MLMs still operating',
+      'Never missed a commission payment',
+      'Real products with genuine retail demand (Nutrilite, Artistry)',
+      'Global brand recognition in 100+ countries',
+      'Low startup cost compared to many MLMs'
+    ],
+    cons: [
+      'Low per-customer residual (~$10/mo) due to BV points system',
+      'Monthly PV requirements to maintain rank and qualify for bonuses',
+      'Has changed compensation plan multiple times over the decades',
+      'Complex multi-tier compensation structure with many ranks'
+    ],
+    quick_facts: {
+      'Founded': '1959',
+      'Headquarters': 'Ada, Michigan, USA',
+      'Annual Revenue': '$8+ billion',
+      'Countries': '100+',
+      'Founders': 'Jay Van Andel & Rich DeVos',
+      'Key Brands': 'Nutrilite, Artistry, eSpring'
+    },
+    faq: [
+      {
+        question: 'Is Amway a pyramid scheme?',
+        answer: 'Amway is a legal multi-level marketing company. The FTC investigated Amway in 1979 and determined it was NOT a pyramid scheme because it sells real products and does not require inventory loading. However, like all MLMs, most participants earn modest income.'
+      },
+      {
+        question: 'How much do Amway distributors actually make?',
+        answer: 'Per-customer residual is approximately $10/month due to the BV points system. Building significant income requires a large customer base or substantial team. The company has published income disclosure statements showing typical earnings.'
+      },
+      {
+        question: 'What is Amway\'s BV/PV system?',
+        answer: 'Amway pays commissions on Business Volume (BV) points rather than actual retail dollars. The BV-to-dollar ratio is typically around 50%, meaning a $100 product might only generate 50 BV for commission calculations.'
+      }
+    ],
+    tagline: 'World\'s largest MLM — 66 years in business',
+    last_updated: '2026-03-26T00:00:00.000Z',
+    is_featured: false,
+    is_published: true,
+    created_at: '2026-03-26T00:00:00.000Z'
+  },
+  {
+    id: '99',
+    slug: 'herbalife',
+    name: 'Herbalife',
+    category: 'mlm',
+    founded_year: 1980,
+    hq_location: 'Los Angeles, California, USA',
+    website: 'https://herbalife.com',
+    products_summary: 'Global nutrition company selling weight management, protein shakes, supplements, and personal care products. Known for Nutrition Clubs where customers consume products on-site. Settled with FTC for $200M in 2016 over business practice concerns, leading to compensation plan restructuring.',
+    monthly_cost_min: 50,
+    monthly_cost_max: 300,
+    comp_plan_type: 'Multi-level with 25-50% retail profit + royalty overrides',
+    overall_rating: 2.4,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 3.5,
+    value_rating: 2.5,
+    pros: [
+      '45 years in business with no missed commission payments',
+      'Strong global brand recognition',
+      'Real nutrition products with genuine consumer demand',
+      'Nutrition Club model shows real product consumption',
+      'Products used by professional athletes and fitness enthusiasts'
+    ],
+    cons: [
+      'Low per-customer residual (~$12.50/mo at entry level)',
+      '$200M FTC settlement (2016) required compensation plan changes',
+      'Complex multi-tier structure (25-50% retail + 8-25% wholesale + royalties)',
+      'Volume requirements to maintain Supervisor rank'
+    ],
+    quick_facts: {
+      'Founded': '1980',
+      'Headquarters': 'Los Angeles, California',
+      'FTC Settlement': '$200M (2016)',
+      'Business Model': 'Multi-level marketing',
+      'Key Products': 'Formula 1 Shake, Nutrition Clubs',
+      'Public Company': 'NYSE: HLF'
+    },
+    faq: [
+      {
+        question: 'Is Herbalife a pyramid scheme?',
+        answer: 'Herbalife is a legal MLM company. The FTC investigated and reached a $200M settlement in 2016, requiring business practice changes but NOT classifying it as a pyramid scheme. The company restructured its compensation to focus more on retail sales.'
+      },
+      {
+        question: 'How much can you make selling Herbalife?',
+        answer: 'New distributors earn 25% retail profit. Supervisors (50% discount level) can earn up to 50% on retail sales plus royalty overrides on team sales. Per-customer monthly residual is approximately $12.50 at entry level, higher at Supervisor rank.'
+      },
+      {
+        question: 'What happened with the Herbalife FTC settlement?',
+        answer: 'In 2016, Herbalife paid $200M to settle FTC charges about misleading income claims. The company was required to restructure compensation to ensure distributors are rewarded for actual retail sales, not just recruitment.'
+      }
+    ],
+    tagline: 'Global nutrition MLM — FTC settlement led to restructured compensation',
+    last_updated: '2026-03-26T00:00:00.000Z',
+    is_featured: false,
+    is_published: true,
+    created_at: '2026-03-26T00:00:00.000Z'
+  },
+  {
     id: '101',
     slug: 'doterra',
     name: 'doTERRA',
