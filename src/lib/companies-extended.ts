@@ -29,7 +29,7 @@ export const extendedCompanies: Company[] = [
     ],
     cons: [
       'Low per-customer residual (~$10/mo) due to BV points system',
-      'Monthly PV requirements to maintain rank and qualify for bonuses',
+      'BV/points system means commissions paid on ~50% of retail dollar value',
       'Has changed compensation plan multiple times over the decades',
       'Complex multi-tier compensation structure with many ranks'
     ],
