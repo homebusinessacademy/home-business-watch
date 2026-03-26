@@ -73,7 +73,7 @@ Does the company penalize your residual payout rate if you stop producing — or
 
 **Penalty (what we score against):** Your team volume drops to $5,000, you "lose your rank," and now you only get 5% instead of 10% — so you earn $250 instead of $500. *The company kept $250 that should have been your residual.*
 
-**The question:** If your customers keep buying but you stop working, do you keep earning the same percentage on their volume? Or does the company cut your rate and pocket the difference?
+**The question:** If your customers keep buying but you stop working, do you keep earning the same percentage on the volume? Or does the company cut your rate and pocket the difference?
 
 | Policy | Score |
 |--------|-------|

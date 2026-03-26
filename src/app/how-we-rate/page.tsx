@@ -138,7 +138,7 @@ export default function HowWeRatePage() {
             </table>
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            <strong>The question:</strong> If your customers keep buying but you stop working, do you keep earning the same percentage on their volume? Or does the company cut your rate and pocket the difference?
+            <strong>The question:</strong> If your customers keep buying but you stop working, do you keep earning the same percentage on the volume? Or does the company cut your rate and pocket the difference?
           </p>
         </div>
 
