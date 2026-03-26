@@ -100,30 +100,23 @@ export const companies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Commission-based affiliate',
-    overall_rating: 3.2,
+    overall_rating: 1.8,
     residual_rating: 1.8,
     simplicity_rating: 4.5,
     transparency_rating: 4.0,
     community_rating: 2.5,
     value_rating: 3.5,
     pros: [
-      'Completely free to join',
-      'Access to millions of products',
-      'Trusted Amazon brand increases conversions',
-      'Easy to use and implement',
-      'Cookie earns commission on any product purchased',
-      'Great for content creators and bloggers',
-      'No selling or recruitment required',
-      'No monthly requirements'
+      '29 years in business — proven platform',
+      'Zero residual (one-time sales only)',
+      'Free to join — millions of products',
+      'Trusted brand increases conversions'
     ],
     cons: [
-      'Low commission rates (1-20%, but most categories are 1-4%)',
-      'Short 24-hour cookie duration',
-      'Commissions cut frequently over the years',
-      'Must make 3 sales in first 180 days or account closed',
-      'No recurring/residual income',
-      'Difficult to scale to significant income',
-      'Account can be terminated for violations'
+      'Zero residual income (one-time sales)',
+      'Low commissions (1-4% most categories)',
+      '24-hour cookie duration',
+      'Must make 3 sales in 180 days'
     ],
     quick_facts: {
       'Founded': '1996',
@@ -171,29 +164,23 @@ export const companies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Commission-based marketplace',
-    overall_rating: 3.0,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 3.5,
     transparency_rating: 3.0,
     community_rating: 2.5,
     value_rating: 3.5,
     pros: [
-      'Free to join as an affiliate',
-      'High commission rates (50-75% typical on digital products)',
-      'Weekly or bi-weekly payments',
-      'Large marketplace of digital products',
-      'No approval needed for most products',
-      'Some products offer recurring commissions',
-      'Cookie duration varies by vendor (often 60 days)'
+      '27 years in business — Boise, Idaho',
+      'Some products offer recurring (per-customer ~$5-20/mo)',
+      'High commissions 50-75% on digital',
+      'Free to join — no approval needed'
     ],
     cons: [
-      'Many low-quality or scammy products',
-      'Reputation issues due to bad vendors',
-      'High refund rates on some products',
-      'Marketplace can be overwhelming',
-      'Some products make exaggerated claims',
-      'Requires careful product vetting',
-      '$49.95 one-time activation fee to sell as a vendor'
+      'Most sales one-time (limited residual)',
+      'Many low-quality products',
+      'High refund rates common',
+      'Reputation issues from bad vendors'
     ],
     quick_facts: {
       'Founded': '1998',

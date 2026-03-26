@@ -422,26 +422,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Commission-based affiliate network (varies by merchant)',
-    overall_rating: 4.0,
+    overall_rating: 3.0,
     residual_rating: 3.0,
     simplicity_rating: 4.0,
     transparency_rating: 4.0,
     community_rating: 3.5,
     value_rating: 4.5,
     pros: [
-      'Free to join — no cost to affiliates',
-      '25,000+ merchant programs across virtually every niche',
-      'Reliable monthly payments with $50 minimum threshold',
-      'Real-time tracking and detailed reporting dashboard',
-      'Includes many recurring commission programs for passive income',
-      'Long cookie durations available (some merchants offer 30-180 days)'
+      '25 years in business — 25,000+ merchants',
+      'Some recurring programs (~$5-25/mo residual)',
+      'Free to join — reliable payments',
+      'Real-time tracking dashboard'
     ],
     cons: [
-      'Interface feels dated compared to newer platforms',
-      'Application required per merchant — not instant access to all programs',
-      'Some merchants have strict approval requirements',
-      'Minimum $50 payout threshold',
-      'Owned by Awin (some consolidation concerns)'
+      'Most programs one-time sales',
+      'Interface dated vs competitors',
+      'Per-merchant approval required',
+      '$50 minimum payout'
     ],
     quick_facts: {
       'Founded': '2000',
@@ -482,25 +479,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Commission-based affiliate network (CPA, CPL, revenue share)',
-    overall_rating: 3.8,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 3.0,
     transparency_rating: 4.0,
     community_rating: 3.0,
     value_rating: 4.0,
     pros: [
-      'Access to major brand advertisers not available on other networks',
-      'Free to join for affiliates',
-      'Advanced tracking technology and cross-device attribution',
-      'Reliable payments from established brands',
-      'Strong compliance and fraud protection'
+      '27 years in business — Fortune 500 brands',
+      'Limited recurring options (~$3-15/mo)',
+      'Free to join — advanced tracking',
+      'Reliable payments from major brands'
     ],
     cons: [
-      'Account deactivated after 6 months of no earnings — must reapply',
-      'Interface has a steep learning curve',
-      'Many top programs require separate approval',
-      'Customer support can be slow',
-      'Less suitable for beginners vs. simpler networks'
+      'Most programs one-time only',
+      'Account deactivated after 6 months no earnings',
+      'Steep learning curve',
+      'Separate approval per program'
     ],
     quick_facts: {
       'Founded': '1998',
@@ -541,24 +536,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 49,
     comp_plan_type: 'Affiliate program for referring new premium members',
-    overall_rating: 3.2,
+    overall_rating: 2.8,
     simplicity_rating: 3.5,
-    residual_rating: 2.5,
+    residual_rating: 2.8,
     transparency_rating: 2.5,
     community_rating: 4.0,
     value_rating: 3.0,
     pros: [
-      'Free starter membership to test the platform',
-      'Active community with peer support and feedback',
-      'All-in-one: training + hosting + keyword research included',
-      'Beginner-friendly step-by-step training approach'
+      '20 years in business — Nevada',
+      'Per-referral residual ~$23.50/mo recurring',
+      'Free starter membership',
+      'Active community + all-in-one tools'
     ],
     cons: [
-      'Heavy emphasis on promoting Wealthy Affiliate itself as the primary affiliate strategy',
-      'Training can feel dated — focused on older SEO/blogging methods',
-      'Premium membership ($49/mo) required to unlock most features',
-      'Some members report limited results outside of promoting WA itself',
-      'Better free/cheaper alternatives exist for most individual tools'
+      'Residual only for WA referrals',
+      'Training emphasizes promoting WA itself',
+      '$49/mo premium required',
+      'Dated SEO/blogging methods'
     ],
     quick_facts: {
       'Founded': '2005',
@@ -1053,25 +1047,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate — 20-40% recurring commissions',
-    overall_rating: 3.5,
+    overall_rating: 4.0,
     residual_rating: 4.0,
     simplicity_rating: 3.0,
     transparency_rating: 3.5,
     community_rating: 4.0,
     value_rating: 3.5,
     pros: [
-      'Strong recurring commissions (20-40%) on software subscriptions',
-      'Proven high-converting sales funnels and webinars for affiliates to promote',
-      'Multiple products to promote: software, books (DotCom Secrets, Expert Secrets), courses',
-      'Large, engaged online marketing community',
-      'Russell Brunson is a well-known authority in the marketing space'
+      '11 years in business — Russell Brunson',
+      'Per-customer residual ~$19-40/mo (20-40%)',
+      'Strong recurring commissions',
+      'Dream Car program at 100+ referrals'
     ],
     cons: [
-      'ClickFunnels product itself is expensive ($97-$297/mo) — limits conversion rate',
-      'Highly competitive affiliate space — many marketers promoting the same offer',
-      'ClickFunnels 2.0 transition caused some affiliate friction',
-      'Affiliate tracking dashboard can be complex for beginners',
-      'Requires marketing knowledge and audience to see meaningful results'
+      '$97-297/mo product limits conversions',
+      'Extremely competitive affiliate space',
+      'CF 2.0 transition caused friction',
+      'Requires audience to succeed'
     ],
     quick_facts: {
       'Founded': '2014',
@@ -1119,17 +1111,16 @@ export const extendedCompanies: Company[] = [
     community_rating: 4.0,
     value_rating: 4.0,
     pros: [
-      '30% recurring commission for 24 months — strong passive income potential',
-      'Free plan available ($0) makes it easy to recommend honestly',
-      'Genuinely popular product among content creators',
-      'Creator-focused features (landing pages, automations, digital products)',
-      'Rebranded to Kit in 2024 — growing beyond just email'
+      '12 years in business — popular creator tool',
+      'Per-customer residual ~$8-30/mo (30% for 24mo)',
+      'Free plan makes honest recommendations easy',
+      'Growing beyond email (Kit rebrand 2024)'
     ],
     cons: [
-      '24-month commission limit (not lifetime recurring like some programs)',
-      'Market getting more competitive from Beehiiv, Ghost, Substack',
-      'Not suitable for e-commerce businesses (focused on creators)',
-      'Free plan has limited features — paid plans start at $25+/month'
+      '24-month limit (not lifetime)',
+      'Beehiiv, Ghost, Substack competition',
+      'Creator-only niche',
+      'Paid plans start $25+/mo'
     ],
     quick_facts: {
       'Founded': '2013',
@@ -1170,25 +1161,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate — flat bounty per new paid merchant (up to $150)',
-    overall_rating: 3.8,
-    residual_rating: 2.5,
+    overall_rating: 2.0,
+    residual_rating: 2.0,
     simplicity_rating: 4.0,
     transparency_rating: 4.0,
     community_rating: 3.5,
     value_rating: 4.0,
     pros: [
-      'Shopify is the world\'s leading e-commerce platform — easy to recommend',
-      'High brand recognition increases conversion rates',
-      'Up to $150 bounty per new merchant referred',
-      'Free 14-day trial offer makes referral easier',
-      'Massive market of potential merchants'
+      '19 years in business — market leader',
+      'Zero residual ($150 one-time bounty)',
+      'Trusted brand increases conversions',
+      'Massive e-commerce market'
     ],
     cons: [
-      'One-time bounty only — no recurring commissions',
-      'Bounty paid only when referred merchant starts paying (after free trial)',
-      'Highly competitive affiliate space',
-      'Shopify pricing has increased — harder conversion at higher price points',
-      'Limited to e-commerce audience'
+      'No recurring — one-time bounty only',
+      'Must convert to paid after trial',
+      'Extremely competitive space',
+      'E-commerce niche only'
     ],
     quick_facts: {
       'Founded': '2006',
@@ -1343,24 +1332,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate program (closed — no longer accepting affiliates)',
-    overall_rating: 2.5,
+    overall_rating: 1.0,
     residual_rating: 1.0,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 1.5,
+    value_rating: 1.0,
     pros: [
-      'Was one of the more transparent high-ticket affiliate programs',
-      'Low $2.95 entry point (15-Day Business Builder Challenge) made it accessible',
-      'David Sharpe was a recognizable and credible face in the industry',
-      'Produced genuinely useful affiliate marketing training content'
+      '9 years in business (2016-2026)',
+      'Was transparent high-ticket program',
+      'Low $2.95 entry — accessible',
+      'David Sharpe was credible leader'
     ],
     cons: [
-      '⚠️ OFFICIALLY CLOSED — announced shutdown in February 2026 after 9 years',
-      'Affiliates can no longer earn commissions — program is defunct',
-      'High-ticket upsells ($2,500-$25,000) were primary revenue source',
-      'Significant income claims by affiliates drew FTC scrutiny concerns',
-      'Many affiliates built entire businesses around LM — those businesses are now disrupted'
+      '⚠️ CLOSED FEBRUARY 2026',
+      'Zero residual — program defunct',
+      'Affiliates can no longer earn',
+      'Businesses built on LM disrupted'
     ],
     quick_facts: {
       'Founded': '2016',
@@ -1519,26 +1507,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 7,
     monthly_cost_max: 199,
     comp_plan_type: '200% commissions + 2-tier — $199/mo or $1,997/yr (lifetime option removed 2026)',
-    overall_rating: 2.8,
-    residual_rating: 2.5,
+    overall_rating: 2.0,
+    residual_rating: 2.0,
     simplicity_rating: 3.0,
-    transparency_rating: 2.5,
+    transparency_rating: 2.0,
     community_rating: 3.5,
     value_rating: 2.5,
     pros: [
-      'Low entry point — $7 Mega Link to start',
-      'Done-for-you traffic generation appeals to beginners',
-      'New 2026 structure: 200% commissions + 2-tier earnings on $199/mo plan',
-      'Active Facebook community with regular training',
-      'Wayne Crowe is accessible and engages with members'
+      '6 years in business — UK',
+      'Per-customer residual ~$40-100/mo (on $199/mo)',
+      'Low $7 entry point',
+      '200% commission + 2-tier (new 2026)'
     ],
     cons: [
-      '⚠️ 2026 RELAUNCH: One-time lifetime membership removed — now $199/mo or $1,997/yr only',
-      'Affiliates say "99% of people will choose monthly over yearly" — killing the big annual commission paydays',
-      'Former affiliates calling the change "an easy way to leave a company" — significant community pushback',
-      'Business model centers on selling OLSP itself rather than independent external products',
-      'Comp plan changes signal instability — exactly the kind of change Paul Hutchings built HBA to avoid',
-      'Entry cost escalates quickly: $7 Mega Link → $199/mo for full community builder access'
+      '⚠️ Comp plan changed 2026',
+      'Lifetime membership removed',
+      'Significant affiliate pushback',
+      'Escalates: $7 → $199/mo quickly'
     ],
     quick_facts: {
       'Founded': '~2019',
