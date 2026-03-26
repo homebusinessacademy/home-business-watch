@@ -60,15 +60,15 @@ export default async function CompanyPage({ params }: PageProps) {
   const reviews = getCompanyReviews(company.id);
   const comparison = getCompanyComparison(slug);
 
-  const ratingColor = company.overall_rating >= 4
+  const ratingColor = company.residual_rating >= 4
     ? 'text-emerald-600'
-    : company.overall_rating >= 3
+    : company.residual_rating >= 3
       ? 'text-amber-600'
       : 'text-red-600';
 
-  const ratingBgColor = company.overall_rating >= 4
+  const ratingBgColor = company.residual_rating >= 4
     ? 'bg-emerald-50 border-emerald-200'
-    : company.overall_rating >= 3
+    : company.residual_rating >= 3
       ? 'bg-amber-50 border-amber-200'
       : 'bg-red-50 border-red-200';
 
@@ -184,10 +184,10 @@ export default async function CompanyPage({ params }: PageProps) {
                 <div className="flex flex-col md:flex-row md:items-center gap-4">
                   <div className="flex items-center gap-4">
                     <div className={`text-4xl font-bold ${ratingColor}`}>
-                      {company.overall_rating.toFixed(1)}
+                      {company.residual_rating.toFixed(1)}
                     </div>
                     <div>
-                      <StarRating rating={company.overall_rating} showValue={false} size="lg" />
+                      <StarRating rating={company.residual_rating} showValue={false} size="lg" />
                       <p className="text-sm text-gray-600 mt-1">
                         <a href="/how-we-rate" className="hover:underline">Residual Rating</a>
                       </p>
