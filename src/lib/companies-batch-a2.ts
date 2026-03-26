@@ -161,24 +161,23 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Recurring revenue share (40%)',
-    overall_rating: 4.4,
-    residual_rating: 4.5,
+    overall_rating: 2.0,
+    residual_rating: 2.0,
     simplicity_rating: 4.0,
     transparency_rating: 4.0,
     community_rating: 4.0,
     value_rating: 4.5,
     pros: [
-      '40% recurring commission — passive income on every renewal',
-      'High-value subscriptions ($139-499/mo) mean substantial payouts',
-      'Industry-leading SEO tool with strong brand recognition',
-      'Publicly traded company (NYSE: SEMR) — stable and transparent'
+      '17 years in business — NYSE: SEMR',
+      'Zero residual ($200-450 one-time bounty)',
+      'High one-time payouts',
+      'Industry-leading SEO tool'
     ],
     cons: [
-      'Premium pricing limits audience to serious marketers/businesses',
-      'Competitive SEO tool market (Ahrefs, Moz, etc.)',
-      '120-day cookie window could be longer for B2B sales cycles',
-      'Approval process can reject low-traffic applicants',
-      'Last-click attribution may miss some referrals'
+      'No recurring — one-time bounty only',
+      'Premium pricing limits audience',
+      'Competitive SEO market (Ahrefs, Moz)',
+      'Approval rejects low-traffic sites'
     ],
     quick_facts: {
       'Founded': '2008',
@@ -311,24 +310,23 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 249,
     comp_plan_type: 'Recurring revenue share (30% for 1 year)',
-    overall_rating: 3.8,
+    overall_rating: 3.5,
     residual_rating: 3.5,
     simplicity_rating: 4.0,
     transparency_rating: 3.5,
     community_rating: 4.0,
     value_rating: 3.5,
     pros: [
-      '30% commission rate is competitive for course platforms',
-      'Popular platform with strong brand in creator economy',
-      'Free plan available — easier to convert first-time creators',
-      'Course creation market continues growing'
+      '12 years in business — NYC (Hotmart)',
+      'Per-customer residual $18-75/mo (30% for 12mo)',
+      'Popular platform — free plan available',
+      'Course creation market growing'
     ],
     cons: [
-      'Recurring commission limited to 12 months (not lifetime)',
-      '90-day cookie window is decent but not exceptional',
-      'Competitive market (Thinkific, Kajabi, Podia, etc.)',
-      'Parent company Hotmart may change terms',
-      'Transaction fees on lower-tier plans reduce creator appeal'
+      '12-month commission limit (not lifetime)',
+      'Competitive market (Thinkific, Kajabi)',
+      'Hotmart ownership may change terms',
+      'Transaction fees on lower plans'
     ],
     quick_facts: {
       'Founded': '2013',
@@ -361,24 +359,23 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 199,
     comp_plan_type: 'Recurring revenue share (30%)',
-    overall_rating: 3.9,
+    overall_rating: 4.0,
     residual_rating: 4.0,
     simplicity_rating: 4.0,
     transparency_rating: 4.0,
     community_rating: 4.0,
     value_rating: 3.5,
     pros: [
-      '30% recurring commission for customer lifetime (not capped)',
-      'Publicly traded (TSX: THNC) — transparent and stable',
-      'Strong free plan converts well for first-time course creators',
-      'Canadian company with good reputation in creator space'
+      '13 years in business — TSX: THNC',
+      'Per-customer residual $15-60/mo (30% lifetime)',
+      'Lifetime recurring (not capped)',
+      'Strong free plan converts well'
     ],
     cons: [
-      'Competitive course platform market with many alternatives',
-      '90-day cookie window is standard, not exceptional',
-      'Stock price decline since IPO raises growth questions',
-      'Plans are priced competitively but not premium',
-      'Requires creator economy audience to convert well'
+      'Competitive course platform market',
+      '90-day cookie is standard',
+      'Stock decline raises questions',
+      'Requires creator economy audience'
     ],
     quick_facts: {
       'Founded': '2012',
@@ -412,25 +409,22 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_max: 0,
     comp_plan_type: 'SaaS affiliate (30% recurring, tiered for new partners)',
     overall_rating: 4.5,
-    residual_rating: 4.8,
+    residual_rating: 4.5,
     simplicity_rating: 4.5,
     transparency_rating: 4.3,
     community_rating: 4.5,
     value_rating: 4.2,
     pros: [
-      '$26-120/month per referral — 4-20x typical MLM per-customer residual',
-      'True recurring commissions (as long as referral stays subscribed)',
-      'No downline, no recruitment requirements, no autoship',
-      'Single-tier simplicity: you earn only on YOUR referrals',
-      'Premium product with strong retention (less churn)',
-      'Legacy partners grandfathered at 30% flat rate'
+      '15 years in business — Irvine, CA',
+      'Per-customer residual $27-120/mo (30% lifetime)',
+      'True lifetime recurring',
+      'Premium product — strong retention'
     ],
     cons: [
-      'Must be an active paying Kajabi subscriber to join partner program',
-      '12-month inactivity cliff: need 3 new referrals/year or lose eligibility',
-      '60-day payout delay on all commissions',
-      'New partners on tiered structure (not 30% flat)',
-      'High product price ($89-399/mo) limits target audience'
+      'Must be paying Kajabi subscriber',
+      '12-month inactivity cliff (3 refs/year)',
+      '60-day payout delay',
+      'High price ($89-399/mo) limits audience'
     ],
     quick_facts: {
       'Founded': '2010',
