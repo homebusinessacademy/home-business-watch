@@ -152,7 +152,7 @@ export default function HowWeRatePage() {
             How likely is the company to be around long-term, protecting your residual income?
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
-            <li><strong>Longevity:</strong> 20+ years = bonus, under 2 years = penalty</li>
+            <li><strong>Longevity:</strong> 10+ years = bonus, under 10 years = penalty</li>
             <li><strong>Comp plan changes:</strong> Never changed = bonus, any changes = penalty</li>
             <li><strong>Commission history:</strong> Never missed a payment = bonus</li>
           </ul>

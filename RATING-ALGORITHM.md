@@ -97,11 +97,8 @@ How likely is the company to be around long-term, protecting your residual incom
 | Factor | Score Adjustment |
 |--------|-----------------|
 | **Longevity** | |
-| 20+ years in business | +1.0 |
-| 10-19 years | +0.5 |
-| 5-9 years | 0 |
-| 2-4 years | -0.5 |
-| Under 2 years | -1.0 |
+| 10+ years in business | +1.0 |
+| Under 10 years | -1.0 |
 | **Comp Plan Changes** | |
 | Never changed compensation plan | +0.5 |
 | Changed comp plan (any change) | -1.0 |
