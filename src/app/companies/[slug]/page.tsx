@@ -6,7 +6,7 @@ import { getCompanyBySlug, getCompanyUpdates, getCompanyReviews, allCompanies, g
 import { hasCompPlan } from '@/lib/compensation-plans';
 import { hasPitfalls } from '@/lib/pitfalls';
 import { hasPyramidSchemePage } from '@/lib/pyramid-scheme-data';
-import { hasScamPage } from '@/lib/scam-data';
+
 import HBAReviewsSection from '@/components/HBAReviewsSection';
 import { CATEGORY_LABELS } from '@/types';
 
@@ -446,16 +446,6 @@ export default async function CompanyPage({ params }: PageProps) {
                 className="block w-full bg-amber-500 hover:bg-amber-600 text-gray-900 text-center px-4 py-2.5 rounded-lg font-medium text-sm transition-colors mt-2"
               >
                 Is {company.name} a Pyramid Scheme?
-              </Link>
-            )}
-
-            {/* Scam Review Link */}
-            {hasScamPage(company.slug) && (
-              <Link
-                href={`/scam/${company.slug}`}
-                className="block w-full bg-gray-600 hover:bg-gray-700 text-white text-center px-4 py-2.5 rounded-lg font-medium text-sm transition-colors mt-2"
-              >
-                Is {company.name} a Scam? &rarr;
               </Link>
             )}
 
