@@ -132,24 +132,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 35,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level unilevel with rank advancement',
-    overall_rating: 2.5,
-    residual_rating: 2.0,
-    simplicity_rating: 2.5,
-    transparency_rating: 2.5,
-    community_rating: 3.5,
-    value_rating: 2.5,
+    overall_rating: 2.0,
+    residual_rating: 1.0,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
+    community_rating: 4.0,
+    value_rating: 3.0,
     pros: [
-      'High-quality, popular essential oil products with strong consumer demand',
-      'Large and passionate community of advocates',
-      'Strong brand recognition — doTERRA is the world\'s largest essential oil company',
-      'Products can be sold retail without requiring downline'
+      'World\'s largest essential oil company with strong brand recognition',
+      '17 years in business with no missed commission payments',
+      'High-quality products with genuine consumer demand',
+      'Passionate community of wellness advocates'
     ],
     cons: [
-      'Compensation structure requires building substantial customer base for meaningful returns',
-      'Required monthly Loyalty Rewards order to maintain rank qualification',
-      'Required monthly Loyalty Rewards order (~$35-150/mo) to maintain eligibility',
-      'Products priced significantly higher than comparable retail alternatives',
-      'Heavy emphasis on recruiting to advance ranks and earn meaningful income'
+      'Low per-customer residual (~$4-6/mo at entry level)',
+      'Complex multi-tier compensation structure with 7+ levels',
+      'Compensation plan has been modified over the years',
+      'Products priced higher than comparable retail alternatives'
     ],
     quick_facts: {
       'Founded': '2008',
