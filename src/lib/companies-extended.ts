@@ -14,24 +14,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level with BV/PV points system',
-    overall_rating: 2.1,
-    residual_rating: 2.0,
+    overall_rating: 2.3,
+    residual_rating: 2.3,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 3.5,
-    value_rating: 2.0,
+    value_rating: 4.0,
     pros: [
       '66 years in business — one of the oldest MLMs still operating',
       'Never missed a commission payment',
       'Real products with genuine retail demand (Nutrilite, Artistry)',
-      'Global brand recognition in 100+ countries',
-      'Low startup cost compared to many MLMs'
+      'Global brand recognition in 100+ countries'
     ],
     cons: [
       'Low per-customer residual (~$10/mo) due to BV points system',
-      'BV/points system means commissions paid on ~50% of retail dollar value',
-      'Has changed compensation plan multiple times over the decades',
-      'Complex multi-tier compensation structure with many ranks'
+      'Rank drops if team volume falls below threshold',
+      'Has changed compensation plan multiple times',
+      'Complex multi-tier compensation structure'
     ],
     quick_facts: {
       'Founded': '1959',
@@ -73,24 +72,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level with 25-50% retail profit + royalty overrides',
-    overall_rating: 2.4,
-    residual_rating: 2.0,
+    overall_rating: 2.2,
+    residual_rating: 2.2,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 3.5,
-    value_rating: 2.5,
+    value_rating: 3.5,
     pros: [
       '45 years in business with no missed commission payments',
       'Strong global brand recognition',
       'Real nutrition products with genuine consumer demand',
-      'Nutrition Club model shows real product consumption',
-      'Products used by professional athletes and fitness enthusiasts'
+      'Nutrition Club model shows real product consumption'
     ],
     cons: [
       'Low per-customer residual (~$12.50/mo at entry level)',
-      '$200M FTC settlement (2016) required compensation plan changes',
-      'Complex multi-tier structure (25-50% retail + 8-25% wholesale + royalties)',
-      'Volume requirements to maintain Supervisor rank'
+      'Rank/rate drops if volume falls below threshold',
+      '$200M FTC settlement (2016) required comp plan changes',
+      'Complex multi-tier structure'
     ],
     quick_facts: {
       'Founded': '1980',
@@ -133,7 +131,7 @@ export const extendedCompanies: Company[] = [
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level unilevel with rank advancement',
     overall_rating: 2.0,
-    residual_rating: 1.0,
+    residual_rating: 2.0,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 4.0,
@@ -193,24 +191,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 35,
     monthly_cost_max: 100,
     comp_plan_type: 'Multi-level unilevel',
-    overall_rating: 2.3,
-    residual_rating: 2.0,
+    overall_rating: 1.9,
+    residual_rating: 1.9,
     simplicity_rating: 2.0,
-    transparency_rating: 2.5,
+    transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Pioneer in the essential oil industry — founded 1993',
-      'Owns its own farms for seed-to-seal quality control',
+      '31 years in business — pioneer in essential oil industry',
+      'Owns farms with seed-to-seal quality control',
       'Large, loyal customer base',
-      'Wide product catalog beyond just oils'
+      'Wide product catalog beyond oils'
     ],
     cons: [
-      'Compensation structure requires significant sales volume for meaningful returns',
-      'Required monthly Essential Rewards order (~$35-100/mo)',
-      'Products significantly overpriced vs. retail equivalents',
-      'Aggressive recruiting culture reported by former members',
-      'FDA has issued warning letters regarding health claims by distributors'
+      'Low per-customer residual (~$4-6/mo at entry level)',
+      '100 PV monthly requirement to stay commission eligible',
+      'Complex 5-level unilevel commission structure',
+      'Products priced 50%+ above retail alternatives'
     ],
     quick_facts: {
       'Founded': '1993',
@@ -251,25 +248,24 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 30,
     comp_plan_type: 'Multi-level with licensing requirements',
-    overall_rating: 3.0,
-    residual_rating: 2.5,
-    simplicity_rating: 2.5,
+    overall_rating: 3.1,
+    residual_rating: 3.1,
+    simplicity_rating: 3.5,
     transparency_rating: 3.5,
     community_rating: 3.5,
-    value_rating: 3.0,
+    value_rating: 5.0,
     pros: [
-      'Publicly traded company (NYSE: PRI) — more transparent than typical MLMs',
-      'Publicly traded since 2010 — financial transparency uncommon in MLMs',
-      'Legitimate financial products with real consumer value (term life insurance)',
-      'Can lead to a real career in financial services with proper licensing',
-      'Products are independently useful — not just sold to other distributors'
+      '47 years in business — public company (NYSE: PRI) since 2010',
+      'Legitimate regulated financial products (term life insurance)',
+      'Per-customer residual ~$15-20/mo on policy renewals',
+      'Regulated industry provides consumer protections',
+      'Real career path in financial services with proper licensing'
     ],
     cons: [
-      '$99 startup fee plus ongoing licensing costs',
-      'Must obtain state life insurance license (costly and time-consuming)',
-      'Recruiting is heavily emphasized alongside sales',
-      'Products often not competitively priced vs. independent insurance brokers',
-      'High turnover rate among new representatives'
+      'Must obtain state life insurance license (cost + time)',
+      '$99 startup fee plus licensing costs',
+      'Moderate per-customer residual compared to digital products',
+      'MLM-style recruiting structure alongside product sales'
     ],
     quick_facts: {
       'Founded': '1977',
@@ -309,22 +305,22 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 200,
     comp_plan_type: '50% retail profit + 4-13% team commissions',
-    overall_rating: 3.4,
-    residual_rating: 3.0,
+    overall_rating: 3.2,
+    residual_rating: 3.2,
     simplicity_rating: 3.0,
     transparency_rating: 3.0,
     community_rating: 4.0,
-    value_rating: 3.5,
+    value_rating: 4.0,
     pros: [
       '62 years in business — one of the longest track records in direct sales',
       '50% retail profit is higher than most MLM commission structures',
-      'Genuine retail customer demand for cosmetics products',
-      'Lighter maintenance requirements than typical MLM (quarterly minimums)',
+      'Per-customer residual ~$25/mo on average orders',
+      'Lighter maintenance requirements (quarterly minimums)',
       'Never missed a commission payment'
     ],
     cons: [
-      'Per-customer residual moderate (~$25/mo on average orders)',
-      'Inventory management and upfront purchase encouraged',
+      'Moderate per-customer residual compared to digital products',
+      'Inventory management encouraged',
       'Competition from mass-market cosmetics brands',
       'Compensation plan has evolved over decades'
     ],
@@ -367,24 +363,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 30,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level with Sales Leader qualification',
-    overall_rating: 2.3,
-    residual_rating: 2.0,
+    overall_rating: 2.1,
+    residual_rating: 2.1,
     simplicity_rating: 2.0,
-    transparency_rating: 2.5,
+    transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Publicly traded company (NYSE: NUS) — financial transparency via SEC filings',
-      'Innovative product line including patented ageLOC skincare technology',
+      '40 years in business — public company (NYSE: NUS)',
+      'Innovative ageLOC skincare technology',
       'Global presence in 50+ markets',
-      'Strong R&D investment compared to typical MLMs'
+      '$122M paid to US Brand Affiliates in 2024'
     ],
     cons: [
-      'FTC investigation history and significant regulatory settlements in China',
-      'Revenue has declined significantly — from $2.7B (2013) to under $2B in recent years',
-      'Complex compensation plan requiring monthly qualifying purchases',
-      'Compensation structure requires significant sales volume for meaningful returns',
-      'Products priced at significant premium over comparable retail items'
+      'Low per-customer residual (~$7/mo)',
+      'Monthly volume requirements for rank maintenance',
+      'New Sales Performance Plan (Nov 2024) adds complexity',
+      'Products priced at significant premium vs retail'
     ],
     quick_facts: {
       'Founded': '1984',
@@ -662,24 +657,22 @@ export const extendedCompanies: Company[] = [
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level unilevel with VIP customer program',
     overall_rating: 2.0,
-    residual_rating: 1.8,
-    simplicity_rating: 2.5,
+    residual_rating: 2.0,
+    simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 1.8,
+    value_rating: 2.5,
     pros: [
-      'Significant VIP customer base shows genuine product demand',
-      'Clean ingredient formulas with no harmful chemicals (per brand claims)',
-      'Strong social media presence and marketing materials provided',
-      'Monthly residual from VIP customer subscriptions'
+      '11 years in business with strong social media presence',
+      'Per-customer residual ~$12/mo on haircare subscriptions',
+      'VIP customer program shows genuine product demand',
+      'Clean ingredient marketing appeals to target audience'
     ],
     cons: [
-      'Compensation structure requires significant customer base for meaningful returns',
-      'Monthly personal purchases (~$84+) required to qualify for commissions',
-      'Hundreds of lawsuits from customers claiming hair loss from products',
-      'Required monthly personal purchases (~$84+) to qualify for commissions',
-      'BBB monitoring inquiry for income claim compliance issues',
-      'Products face significant negative reviews alongside positive ones'
+      'Rank maintenance requirements penalize residual income',
+      'Class action lawsuits over hair loss claims (settled)',
+      'Complex binary compensation structure',
+      'Products priced 50%+ above drugstore alternatives'
     ],
     quick_facts: {
       'Founded': '2014',
@@ -2510,24 +2503,24 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 25,
     comp_plan_type: 'Direct sales with multi-level team earnings',
-    overall_rating: 3.0,
-    residual_rating: 2.0,
+    overall_rating: 2.9,
+    residual_rating: 2.9,
     simplicity_rating: 4.0,
     transparency_rating: 4.0,
     community_rating: 4.0,
-    value_rating: 1.5,
+    value_rating: 4.5,
     pros: [
       '139 years in business — longest track record of any direct sales company',
       'Free to join with no mandatory monthly purchases',
+      'Minimal residual penalties — lighter maintenance than typical MLM',
       'Simple commission structure (25-40% based on sales volume)',
-      'U.S. operations continue under LG Household & Health Care Ltd.',
       'Genuine retail customer base for beauty products'
     ],
     cons: [
-      '⚠️ Avon Products Inc. filed Chapter 11 bankruptcy (August 2024) — stability concern',
-      'Bankruptcy triggered by $225M+ talcum powder lawsuit liabilities',
-      'Lower per-customer residual (~$15/mo at entry level)',
-      'Brand relevance declining — competition from Sephora, Ulta, Amazon'
+      '⚠️ Filed Chapter 11 bankruptcy (Aug 2024) — major stability concern',
+      'Bankruptcy triggered by $225M+ talcum powder lawsuits',
+      'Per-customer residual ~$15/mo at entry level',
+      'Brand relevance declining vs Sephora, Ulta, Amazon'
     ],
     quick_facts: {
       'Founded': '1886',
