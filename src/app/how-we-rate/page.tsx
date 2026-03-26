@@ -249,6 +249,7 @@ export default function HowWeRatePage() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
             <li>Termination for minor violations</li>
             <li>Company ability to change terms without notice</li>
+            <li>Unreasonable restrictions on your freedom as a marketer</li>
           </ul>
         </div>
       </section>

@@ -168,7 +168,7 @@ Does the company have loopholes that can strip your residual income?
 | P&P with multiple pitfalls that could cost residual income | 1.0 |
 | Predatory P&P designed to strip income | 0.5 |
 
-**Examples of pitfalls:** Termination for minor violations, company ability to change terms without notice.
+**Examples of pitfalls:** Termination for minor violations, company ability to change terms without notice, unreasonable restrictions on your freedom as a marketer.
 
 ---
 
