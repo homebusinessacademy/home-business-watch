@@ -1632,7 +1632,7 @@ export const companiesBatchC1a: Company[] = [
       "81% of consumers are retail customers — strong product demand",
       "Products manufactured in FDA-registered facilities",
       "Low entry cost ($49.95 annual partner fee)",
-      "8-level unilevel comp plan with 10% on direct customers"
+      "8-level unilevel: 10% direct customers, 7% level 2, decreasing through level 8"
     ],
     cons: [
       "120 PV monthly requirement to qualify for commissions",
@@ -1645,7 +1645,8 @@ export const companiesBatchC1a: Company[] = [
       "Headquarters": "Lehi, Utah",
       "Annual Revenue": "$100M+ (DSN Global 100)",
       "Retail Customers": "81% of consumers",
-      "Per-Customer Residual": "~$7.50/month (10% on ~$75 avg order)",
+      "Direct Customer": "~$7.50/mo (10% on ~$75 order)",
+      "Downline Customer": "~$5.25/mo (7% on level 2)",
       "Partner Fee": "$49.95/year",
       "Industry Recognition": "DSN Lifetime Achievement Award (2023)"
     },
@@ -1657,7 +1658,7 @@ export const companiesBatchC1a: Company[] = [
     faq: [
       {
         question: "How much do you earn per customer with Xyngular?",
-        answer: "Xyngular pays 10% commission on direct customer orders. With an average order around $75, that's approximately $7.50 per customer per month on recurring orders. The 8-level unilevel plan pays 7% on level 2 and decreasing percentages down to level 8."
+        answer: "Xyngular pays 10% on direct customers (~$7.50/mo on a $75 order) and 7% on level 2 downline customers (~$5.25/mo). Percentages decrease through level 8. The 8-level unilevel structure means most of your income comes from customers you personally enroll."
       },
       {
         question: "What is the Xyngular 8-Day Jumpstart?",
