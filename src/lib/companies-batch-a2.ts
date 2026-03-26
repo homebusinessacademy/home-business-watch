@@ -658,16 +658,17 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Revenue share (10% for 12 months)',
-    overall_rating: 3.7,
+    overall_rating: 3.0,
     residual_rating: 3.0,
     simplicity_rating: 4.0,
     transparency_rating: 4.0,
     community_rating: 3.5,
     value_rating: 3.5,
     pros: [
-      '10% of all orders for 12 months — can add up for active sellers',
-      'POD market growing with ecommerce expansion',
-      'Strong integrations (Shopify, Etsy, WooCommerce)',
+      '12 years in business — Latvia',
+      'Per-customer ~$5-50/mo (10% of orders for 12mo)',
+      'POD market growing',
+      'Strong integrations (Shopify, Etsy)',
       'No minimum traffic requirements to join'
     ],
     cons: [

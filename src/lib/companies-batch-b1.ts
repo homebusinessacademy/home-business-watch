@@ -207,16 +207,17 @@ export const companiesBatchB1: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate (revenue share)',
-    overall_rating: 3.5,
+    overall_rating: 3.0,
     residual_rating: 3.0,
     simplicity_rating: 3.5,
     transparency_rating: 3.5,
     community_rating: 3.0,
     value_rating: 3.5,
     pros: [
-      'Reputable US-based exchange with 13+ year track record',
-      'Available to US affiliates (unlike Binance)',
-      'Strong security reputation — never been hacked',
+      '14 years in business — San Francisco',
+      'Per-customer varies (% of trading fees)',
+      'US-based (unlike Binance)',
+      'Strong security — never hacked',
       'Free to join with straightforward application'
     ],
     cons: [
