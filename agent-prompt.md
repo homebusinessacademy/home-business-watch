@@ -39,12 +39,80 @@ import { Company } from "@/types";
 ## DO NOT duplicate these existing slugs:
 4life-research, 7k-metals, 99designs, acn-inc, advocare, amazon-fba, amazon-merch-on-demand, arbonne-international, atomy, avon-products, awin, beachbody-bodi, beautycounter, beehiiv-affiliate, betterware-de-mexico, binance-affiliate, bitconnect, bluehost-affiliate, builderall, cambly, care-com, cj-affiliate, clickfunnels-affiliate, coinbase-earn, color-street, convertkit, creative-market, cutco-vector-marketing, digistore24, digital-altitude-mobe, doba-dropshipping, doterra, dropshipping-shopify, ebay-selling, empower-network, etsy, ezoic, fiverr, flexoffers, forever-living-aloe, forever-living-products, four-life-research, ghost-newsletter, global-wealth-trade, google-adsense, groove-funnels, gumroad-creator, guru, hempworx-my-daily-choice, hostinger-affiliate, ilearning-global, immunotec, impact-affiliate, isagenix, it-works, jasper-ai-affiliate, jeunesse-global, juice-plus, juice-plus-nsa, jvzoo, kajabi-affiliate, kartra, ko-fi-creator, kraken-affiliate, kyani, legalshield, legendary-marketer, life-plus-international, livegood, lularoe, mannatech, market-america-shop-com, mary-kay, maxbounty, mediavine, melaleuca, mlm-nation, monat-global, natures-sunshine-products, neora, network-marketing-pro, newage-noni, nexo-crypto, nu-skin-enterprises, nucerity-international, numanna-food, numis-network, oberlo, olsp-system, onecoin, optavia-medifast, oriflame, pampered-chef, paparazzi-accessories, partnerstack, patreon, peopleperhour, plexus-worldwide, pm-international, primerica, printful-affiliate, printify, pruvit, pure-romance, rain-international, rakuten-advertising, redbubble-creator, reliv-international, rodan-fields, rover, salehoo, scentsy, semrush-affiliate, send-out-cards, shaklee, shareasale, shopify-affiliate, sisel-international, society6, southwestern-advantage, spocket, substack, surfer-seo-affiliate, symmetry-financial-group, taskrabbit, teachable-affiliate, team-national, teespring-spring, thinkific-affiliate, toptal, total-life-changes, tranont, tupperware, udemy-instructor, upwork, usana-health-sciences, vemma, visalus, warriorplus, wealthy-affiliate, wor-global-network, world-financial-group, wp-engine-affiliate, xango-zija, young-living, younique, zazzle, zeek-rewards, zurvita, home-business-academy, amway, herbalife, amazon-associates, clickbank
 
-## Rating guidelines:
-- HBA-like models (honest, high commissions, simple): 4.0-4.8
-- Solid affiliate programs (established SaaS): 3.0-4.2
-- Traditional MLM (binary comp, monthly minimums): 1.5-2.8
-- Scams/shut down companies: 1.0-1.8
-- Freelance/gig platforms: 3.0-4.0
+## Rating Algorithm — USE THIS FOR ALL RATINGS
+
+**Read RATING-ALGORITHM.md for full details.** Here's the summary:
+
+### Automatic Disqualifiers (Score = 0.0)
+- Promised passive returns without clear product
+- No real product
+- Regulatory shutdown by FTC/state AGs
+
+### 6-Factor Weighted Formula
+```
+Final Score = (Per-Customer Residual × 0.40)
+            + (Residual Penalties × 0.20)
+            + (Company Stability × 0.15)
+            + (Product Value × 0.10)
+            + (Transparency × 0.10)
+            + (Policies × 0.05)
+```
+
+### Factor 1: Per-Customer Residual (40% weight)
+| Monthly $ Per Customer | Score |
+|------------------------|-------|
+| $100+/month | 5.0 |
+| $50-99/month | 4.0 |
+| $25-49/month | 3.0 |
+| $10-24/month | 2.0 |
+| $1-9/month | 1.0 |
+| $0 or unclear | 0.5 |
+**Note:** One-time purchase models cap at 2.0 max.
+
+### Factor 2: Residual Penalties (20% weight)
+| Policy | Score |
+|--------|-------|
+| No penalties — keep your rate on whatever volume exists | 5.0 |
+| Simple annual renewal fee only | 4.0 |
+| Rank/rate drops if team volume falls | 1.5 |
+| Must maintain personal production quotas | 1.5 |
+| Arbitrary commission cuts or clawbacks | 1.0 |
+| Multiple penalty mechanisms combined | 0.5 |
+
+### Factor 3: Company Stability (15% weight)
+Base score: 3.0, then:
+- 10+ years in business: +1.0
+- Under 10 years: -1.0
+- Never changed comp plan: +0.5
+- Changed comp plan: -1.0
+- Never missed commission: +0.5
+- Has missed payments: -1.0
+(Min 0.5, max 5.0)
+
+### Factor 4: Product Value (10% weight)
+Average of: Legitimacy (5.0 = clear useful product, 0.5 = vague/no product) + Price Reasonableness (5.0 = competitive, 1.0 = extreme premium)
+
+### Factor 5: Transparency (10% weight)
+5.0 = simple clear comp plan, 2.0 = complex with many ranks, 0.5 = hidden. No IDS published = -1.0.
+
+### Factor 6: Policies (5% weight)
+5.0 = clean fair P&P, 1.0 = multiple pitfalls, 0.5 = predatory terms
+
+### Rating Labels
+| Score | Label |
+|-------|-------|
+| 4.5-5.0 | Exceptional |
+| 4.0-4.4 | Strong |
+| 3.0-3.9 | Moderate |
+| 2.0-2.9 | Limited |
+| 1.0-1.9 | Poor |
+| 0.0-0.9 | High Risk / Disqualified |
+
+### Typical Ranges (for reference)
+- HBA-style (high per-customer residual, no penalties): 4.5-5.0
+- SaaS affiliate (recurring commissions, no penalties): 3.0-4.0
+- Traditional MLM (low per-customer, rank maintenance): 1.8-2.5
+- Defunct/scam: 0.0-1.5
 
 ## BATCH PLAN — 60 companies per file:
 
