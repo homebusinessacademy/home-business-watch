@@ -1,4 +1,4 @@
-# HomeBusinessWatch Residual Rating Algorithm
+# HomeBusinessWatch Residual Income Rating Algorithm
 
 **Version:** 1.0  
 **Last Updated:** March 26, 2026  
@@ -8,7 +8,7 @@
 
 ## Overview
 
-The Residual Rating measures how well a business opportunity supports **building true residual income** — income that continues without ongoing work requirements. This is the single most important factor for evaluating home business opportunities.
+The Residual Income Rating measures how well a business opportunity supports **building true residual income** — income that continues without ongoing work requirements. This is the single most important factor for evaluating home business opportunities.
 
 Our rating scale is **0.0 to 5.0**, where:
 - **5.0** = Exceptional residual income potential

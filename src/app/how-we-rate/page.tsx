@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "How We Rate | HomeBusinessWatch",
-  description: "Our Residual Rating Algorithm explained. See exactly how we evaluate business opportunities based on per-customer income, maintenance requirements, and more.",
+  description: "Our Residual Income Rating Algorithm explained. See exactly how we evaluate business opportunities based on per-customer income, maintenance requirements, and more.",
 };
 
 export default function HowWeRatePage() {
@@ -11,7 +11,7 @@ export default function HowWeRatePage() {
       <h1 className="text-4xl font-bold mb-6">How We Rate Business Opportunities</h1>
       
       <p className="text-xl text-gray-600 mb-8">
-        Our Residual Rating measures how well a business opportunity supports building <strong>true residual income</strong> — income that continues without ongoing work requirements.
+        Our Residual Income Rating measures how well a business opportunity supports building <strong>true residual income</strong> — income that continues without ongoing work requirements.
       </p>
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-4 mb-8">
@@ -306,7 +306,7 @@ export default function HowWeRatePage() {
           <strong>The real question is:</strong> If I do the work to build customers, will that income continue? Or will I have to keep grinding just to maintain what I built?
         </p>
         <p className="text-gray-700">
-          That's what our Residual Rating measures. A company can have great products and still score poorly if they require monthly volume maintenance. A company can be newer and still score well if they pay high per-customer residuals with no strings attached.
+          That's what our Residual Income Rating measures. A company can have great products and still score poorly if they require monthly volume maintenance. A company can be newer and still score well if they pay high per-customer residuals with no strings attached.
         </p>
       </section>
 

@@ -189,7 +189,7 @@ export default async function CompanyPage({ params }: PageProps) {
                     <div>
                       <StarRating rating={company.residual_rating} showValue={false} size="lg" />
                       <p className="text-sm text-gray-600 mt-1">
-                        <a href="/how-we-rate" className="hover:underline">Residual Rating</a>
+                        <a href="/how-we-rate" className="hover:underline">Residual Income Rating</a>
                       </p>
                     </div>
                   </div>
