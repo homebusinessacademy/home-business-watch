@@ -599,24 +599,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 100,
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level binary with rank advancement',
-    overall_rating: 2.2,
-    residual_rating: 2.0,
+    overall_rating: 2.4,
+    residual_rating: 2.4,
     simplicity_rating: 2.0,
-    transparency_rating: 2.5,
+    transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.5,
     pros: [
-      'Products have a loyal following with genuine repeat customers',
-      'IsaBody Challenge creates strong community and engagement',
-      'Some quality nutritional products backed by research',
-      'Global presence in 20+ markets'
+      '23 years in business — $4B+ paid to associates',
+      'Per-customer residual ~$11/mo on subscriptions',
+      'IsaBody Challenge creates strong community',
+      'Quality nutrition products with research backing'
     ],
     cons: [
-      'Compensation structure requires significant sales volume for meaningful returns',
-      'Requires ~$100-300/month in product purchases to maintain active status',
-      'Products significantly overpriced vs. comparable retail nutrition brands',
-      'Revenue declining — company has faced layoffs and restructuring',
-      'Binary compensation plan is complex and favors early adopters'
+      'Low per-customer residual (~$11/mo)',
+      'Monthly volume requirements for rank maintenance',
+      'Complex binary compensation structure',
+      'Products priced at significant premium'
     ],
     quick_facts: {
       'Founded': '2002',
@@ -713,24 +712,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 40,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level unilevel with rank bonuses',
-    overall_rating: 2.1,
-    residual_rating: 1.8,
-    simplicity_rating: 2.5,
-    transparency_rating: 2.5,
+    overall_rating: 2.3,
+    residual_rating: 2.3,
+    simplicity_rating: 2.0,
+    transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.5,
     pros: [
-      'Popular flagship product (Plexus Slim) with loyal customer base',
-      'Focus on gut health aligns with growing wellness trend',
-      'Transparent income disclosure available on website',
-      'Lower entry cost compared to some MLMs'
+      '17 years in business with transparent income disclosure',
+      'Per-customer residual ~$12/mo on subscriptions',
+      'Popular Pink Drink with loyal customer base',
+      'Gut health focus aligns with wellness trend'
     ],
     cons: [
-      'Compensation structure requires significant customer volume for meaningful returns',
-      'FDA warning letters received for making unsubstantiated health claims',
-      'Required monthly autoship (~$40-150) to maintain active status',
-      'Products make bold health claims with limited clinical evidence',
-      'Recruiting heavily emphasized over retail sales'
+      'Low per-customer residual (~$12/mo)',
+      'Rank maintenance requirements',
+      'FDA warning letters for health claims',
+      'Complex multi-level structure'
     ],
     quick_facts: {
       'Founded': '2008',
@@ -771,24 +769,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 30,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level unilevel',
-    overall_rating: 2.1,
-    residual_rating: 1.8,
-    simplicity_rating: 2.5,
+    overall_rating: 2.4,
+    residual_rating: 2.4,
+    simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Vegan, cruelty-free, gluten-free positioning appeals to clean beauty market',
-      'Founded 1980 — over 40 years in business',
-      'Premium brand perception with lifestyle marketing',
-      'Genuine product fans in the clean beauty space'
+      '44 years in business — now owned by Groupe Rocher',
+      'Vegan, cruelty-free positioning appeals to clean beauty market',
+      'Per-customer residual ~$12/mo on subscriptions',
+      'Genuine product fans in the wellness space'
     ],
     cons: [
-      '2023 typical consultant earned just $265 in gross commissions (per BBB National Programs review)',
-      'Filed Chapter 11 bankruptcy in 2020 before restructuring',
-      'Products priced at extreme premium — similar quality available for much less',
-      'BBB monitoring inquiry for income claim compliance in 2024',
-      'Heavy emphasis on lifestyle and aspiration over realistic income expectations'
+      'Low per-customer residual (~$12/mo)',
+      '$100 PRV monthly required for commissions',
+      'Filed Chapter 11 bankruptcy in 2020 (restructured)',
+      'Complex multi-level structure'
     ],
     quick_facts: {
       'Founded': '1980',
@@ -830,23 +827,22 @@ export const extendedCompanies: Company[] = [
     monthly_cost_max: 80,
     comp_plan_type: 'Affiliate program (pivoted from MLM in September 2024)',
     overall_rating: 3.0,
-    residual_rating: 2.5,
-    simplicity_rating: 3.5,
-    transparency_rating: 3.0,
+    residual_rating: 3.0,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.0,
     community_rating: 3.0,
-    value_rating: 3.0,
+    value_rating: 4.0,
     pros: [
-      'Pivoted away from MLM to affiliate model in September 2024 — more transparent earning structure',
-      'Products developed by credentialed dermatologists (creators of Proactiv)',
-      'Strong brand recognition and loyal customer base',
-      'Raised $75 million in funding — financially stable for growth'
+      'Switched to affiliate model (Sept 2024) — no rank maintenance penalties',
+      'Dermatologist-founded (Proactiv creators)',
+      'Per-customer residual ~$15/mo on subscriptions',
+      'Simple affiliate structure now'
     ],
     cons: [
-      'Former MLM consultants saw significant income changes with the 2024 model pivot',
-      'Products remain significantly premium-priced vs. comparable skincare',
-      'Transition to affiliate model resulted in 100+ job cuts',
-      'Previous MLM model required building customer base and team for meaningful income',
-      'Retail availability increases competition for affiliates'
+      'Major model change in 2024 — stability uncertainty',
+      'Products priced at significant premium',
+      'Per-customer residual still moderate',
+      'Former MLM consultants faced income disruption'
     ],
     quick_facts: {
       'Founded': '2002',
@@ -943,24 +939,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 100,
     monthly_cost_max: 300,
     comp_plan_type: 'Binary multi-level compensation plan',
-    overall_rating: 2.4,
-    residual_rating: 2.0,
+    overall_rating: 2.2,
+    residual_rating: 2.2,
     simplicity_rating: 2.0,
-    transparency_rating: 3.0,
+    transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 4.0,
     pros: [
-      'Publicly traded (NYSE: USNA) — financial transparency via SEC filings',
-      'Products generally well-regarded for quality and manufacturing standards',
-      'Strong presence in Asia Pacific markets',
-      'No required autoship order — flexible purchase structure'
+      '32 years in business — public company (NYSE: USNA)',
+      'Quality supplements with strong manufacturing standards',
+      'No required autoship — flexible purchase structure',
+      'Weekly commission payments'
     ],
     cons: [
-      'Revenue declining — $921M (2023) to $855M (2024), net earnings dropped from $63.8M to $42M',
-      'Binary compensation plan is complex and favors positioning over effort',
-      'Products significantly overpriced vs. comparable retail supplements',
-      'Majority of Associates earn minimal income',
-      'Heavy recruiting emphasis to advance and earn meaningful commissions'
+      'Low per-customer residual (~$9/mo)',
+      'Monthly point requirements for commissions',
+      'Complex binary compensation plan',
+      'Revenue declining ($921M → $855M, 2023-24)'
     ],
     quick_facts: {
       'Founded': '1992',
@@ -1001,25 +996,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 75,
     comp_plan_type: 'Direct sales with multi-level team bonuses',
-    overall_rating: 2.8,
-    residual_rating: 2.0,
-    simplicity_rating: 3.5,
-    transparency_rating: 3.0,
+    overall_rating: 2.6,
+    residual_rating: 2.6,
+    simplicity_rating: 2.5,
+    transparency_rating: 2.5,
     community_rating: 3.5,
-    value_rating: 2.5,
+    value_rating: 4.0,
     pros: [
-      'Unique and popular products with genuine consumer demand',
-      'Wickless candle safety angle resonates with safety-conscious buyers',
-      'Low startup cost — $99 starter kit',
-      'Idaho-based company with reputation for treating consultants well',
-      'Wide product catalog updated seasonally'
+      '21 years in business — stable company',
+      'Per-customer residual ~$12/mo on subscriptions',
+      'Unique wickless candle products with genuine demand',
+      'Detailed income disclosure available'
     ],
     cons: [
-      'Most consultants earn modest supplemental income, not full-time wages',
-      'Fragrance market is competitive with many retail alternatives',
-      'Seasonal products require ongoing purchasing by consultants to demo',
-      'Party plan/social selling model requires continuous networking',
-      'Quarterly minimums (~$150 PRV) required to stay active'
+      'Low per-customer residual (~$12/mo)',
+      '250 PRV monthly to stay Active',
+      'Moderately complex compensation structure',
+      'Fragrance market is competitive'
     ],
     quick_facts: {
       'Founded': '2004',
@@ -1294,25 +1287,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 60,
     comp_plan_type: 'Direct sales with tiered commission (20-25%) and team bonuses',
-    overall_rating: 3.0,
-    residual_rating: 2.0,
+    overall_rating: 2.6,
+    residual_rating: 2.6,
     simplicity_rating: 3.5,
-    transparency_rating: 3.0,
+    transparency_rating: 3.5,
     community_rating: 3.5,
-    value_rating: 3.0,
+    value_rating: 4.5,
     pros: [
-      'Owned by Berkshire Hathaway (Warren Buffett) — financially stable, reputable owner',
-      'High-quality kitchen products with genuine consumer appeal',
-      'No required monthly purchase to stay active',
-      'Cooking show model creates a natural selling environment',
-      '20-25% commissions on personal sales'
+      '44 years in business — owned by Berkshire Hathaway',
+      'Lighter maintenance requirements than typical MLM',
+      'Quality kitchen products with genuine demand',
+      'Simpler compensation than most MLMs'
     ],
     cons: [
-      'Party-based selling model requires ongoing social networking',
-      'Most consultants earn supplemental income, not full-time wages',
-      'Products priced at premium vs. comparable kitchen tools',
-      'Cooking show invitations can strain personal relationships',
-      'Market saturation in some areas'
+      'One-time purchases limit residual income potential',
+      'Per-customer residual low (~$5/mo)',
+      'Party-based model requires ongoing networking',
+      'Products priced at premium vs retail'
     ],
     quick_facts: {
       'Founded': '1980',
