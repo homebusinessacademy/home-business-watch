@@ -4512,6 +4512,62 @@ export const extendedCompanies: Company[] = [
   },
   {
     id: '604',
+    slug: 'mwr-financial',
+    name: 'MWR Financial',
+    tagline: 'Financial wellness MLM offering credit tools, tax services, and financial education subscriptions',
+    category: 'mlm',
+    founded_year: 2013,
+    hq_location: 'United States',
+    website: 'mwrfinancial.com',
+    products_summary: 'MWR Financial is a financial services MLM spun off from MWR Life in 2020. The company sells a subscription called Financial Edge covering credit repair tools, tax services, and financial wellness education. Representatives earn commissions on Financial Edge subscriptions plus recruitment overrides. Founded by Brian House, shares origins with MWR Life (travel club) but operates independently. Binary compensation structure.',
+    monthly_cost_min: 30,
+    monthly_cost_max: 150,
+    comp_plan_type: 'Binary MLM — Financial Edge subscription commissions + recruitment overrides',
+    overall_rating: 2.0,
+    residual_rating: 2.0,
+    simplicity_rating: 1.5,
+    transparency_rating: 2.0,
+    community_rating: 2.0,
+    value_rating: 2.5,
+    pros: [
+      '13 years combined company history',
+      'Real financial tools offered',
+      'Low entry cost',
+      'Per-customer residual ~$5-10/mo'
+    ],
+    cons: [
+      'Very low per-customer residual (~$5-10/mo)',
+      'Binary structure with volume requirements',
+      'Multiple company rebrands',
+      'Heavy recruitment emphasis'
+    ],
+    quick_facts: {
+      'Founded': '2020 (spun off from MWR Life, est. 2013)',
+      'Products': 'Financial Edge subscription',
+      'Business Model': 'Binary MLM — financial services subscriptions',
+      'Related Company': 'MWR Life (travel club)',
+    },
+    last_updated: '2026-03-26T22:55:00.000Z',
+    is_featured: false,
+    is_published: true,
+    created_at: '2026-03-22T14:00:00.000Z',
+    faq: [
+      {
+        question: 'Is MWR Financial a pyramid scheme?',
+        answer: 'MWR Financial is not technically a pyramid scheme — it sells real subscription products including financial tools. However, the binary compensation structure emphasizes recruitment heavily. The company has operated under multiple names since 2013.',
+      },
+      {
+        question: 'Is MWR Financial legit?',
+        answer: 'MWR Financial is a legal MLM operation with real products. The financial tools in the Financial Edge subscription have genuine value. However, like most financial services MLMs, income potential is heavily tied to recruitment rather than product sales alone.',
+      },
+      {
+        question: 'What is MWR Financial vs MWR Life?',
+        answer: 'MWR Financial focuses on financial wellness tools (credit, tax, financial education). MWR Life is the travel savings club with Travel Advantage membership. They share the same founder and origins but operate independently.',
+      },
+    ],
+  },
+  {
+    id: '606',
     slug: 'mwr-life',
     name: 'MWR Life',
     tagline: 'Travel savings club with wholesale pricing on hotels, cruises, and car rentals — 13-year MLM operation',
@@ -4548,12 +4604,12 @@ export const extendedCompanies: Company[] = [
       'Per-Customer Residual': '~$10/month',
       'Members': '500,000+ claimed globally',
       'Trustpilot': '4.8★ (1,330 reviews)',
-      'Also Known As': 'My Warranty Rewards (original name), MWR Financial (sister company)',
+      'Related Company': 'MWR Financial (financial services)',
     },
-    last_updated: '2026-03-26T22:50:00.000Z',
+    last_updated: '2026-03-26T22:55:00.000Z',
     is_featured: false,
     is_published: true,
-    created_at: '2026-03-22T14:00:00.000Z',
+    created_at: '2026-03-26T22:55:00.000Z',
     faq: [
       {
         question: 'Is MWR Life a pyramid scheme?',
