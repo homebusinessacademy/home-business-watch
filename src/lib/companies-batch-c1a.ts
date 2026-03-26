@@ -1616,7 +1616,7 @@ export const companiesBatchC1a: Company[] = [
     founded_year: 2009,
     hq_location: "Lehi, UT",
     website: "https://xyngular.com",
-    products_summary: "Xyngular is a weight loss and wellness MLM founded in 2009, positioning itself as a 'biohacking company.' Products focus on gut health, weight management, and longevity — including the flagship 8-Day Jumpstart program, GLP-X appetite support, Trimstix, and Complete Probiotic. The company emphasizes 'clinical level dosages' and clean ingredients. According to their 2024 income disclosure, 53.76% of active Partners earned no commissions, and among those who did earn, 57.6% made under $250 for the year. The median annual income for sponsors was $196.40.",
+    products_summary: "Xyngular is a weight loss and wellness MLM founded in 2009, positioning itself as a 'biohacking company.' Products focus on gut health, weight management, and longevity — including the flagship 8-Day Jumpstart program, GLP-X appetite support, Trimstix, and Complete Probiotic. The company emphasizes clinical-level dosages, clean ingredients, and manufacturing in FDA-registered facilities. 81% of their consumers are retail customers rather than distributors.",
     monthly_cost_min: 75,
     monthly_cost_max: 200,
     comp_plan_type: "unilevel",
