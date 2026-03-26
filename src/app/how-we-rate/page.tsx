@@ -101,37 +101,45 @@ export default function HowWeRatePage() {
         {/* Factor 2 */}
         <div className="mb-8 border-b pb-6">
           <div className="flex items-center justify-between mb-2">
-            <h3 className="text-xl font-semibold">2. Ongoing Production Requirements</h3>
+            <h3 className="text-xl font-semibold">2. Residual Penalties</h3>
             <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">20% weight</span>
           </div>
           <p className="text-gray-600 mb-4">
-            Once you build residual income, can you keep it? Or does the company require ongoing production to maintain your paycheck?
+            Does the company penalize your residual payout rate if you stop producing — or keep money that should be yours?
           </p>
-          <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
-            <p className="text-red-800 text-sm">
-              <strong>Example of a bad policy:</strong> "You must enroll X new customers per month or your residual payout is penalized and cut." This means you never truly own what you built.
+          
+          <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-4">
+            <p className="text-green-800 text-sm">
+              <strong>Natural and fair:</strong> Your team volume drops from $10,000 to $5,000, so your 10% commission drops from $1,000 to $500. That's just math — less volume means less commission. No problem.
             </p>
           </div>
+          
+          <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
+            <p className="text-red-800 text-sm">
+              <strong>Penalty (what we score against):</strong> Your team volume drops to $5,000, you "lose your rank," and now you only get 5% instead of 10% — so you earn $250 instead of $500. <em>The company kept $250 that should have been your residual.</em>
+            </p>
+          </div>
+
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-gray-100">
                 <tr>
-                  <th className="text-left p-2">Requirement</th>
+                  <th className="text-left p-2">Policy</th>
                   <th className="text-left p-2">Score</th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b"><td className="p-2">No ongoing requirements — keep what you build</td><td className="p-2 font-semibold">5.0</td></tr>
+                <tr className="border-b"><td className="p-2">No penalties — you keep your rate on whatever volume exists</td><td className="p-2 font-semibold">5.0</td></tr>
                 <tr className="border-b"><td className="p-2">Simple annual renewal fee only</td><td className="p-2 font-semibold">4.0</td></tr>
-                <tr className="border-b"><td className="p-2">Monthly new customer/enrollment requirements</td><td className="p-2 font-semibold">1.5</td></tr>
-                <tr className="border-b"><td className="p-2">Monthly team volume requirements</td><td className="p-2 font-semibold">1.5</td></tr>
-                <tr className="border-b"><td className="p-2">Rank maintenance (must hit monthly quotas to keep rank)</td><td className="p-2 font-semibold">1.0</td></tr>
-                <tr><td className="p-2">Multiple requirements combined</td><td className="p-2 font-semibold">0.5</td></tr>
+                <tr className="border-b"><td className="p-2">Rank/rate drops if personal production stops</td><td className="p-2 font-semibold">1.5</td></tr>
+                <tr className="border-b"><td className="p-2">Rank/rate drops if team volume falls below threshold</td><td className="p-2 font-semibold">1.5</td></tr>
+                <tr className="border-b"><td className="p-2">Must maintain monthly enrollment quotas to keep rate</td><td className="p-2 font-semibold">1.0</td></tr>
+                <tr><td className="p-2">Multiple penalty mechanisms combined</td><td className="p-2 font-semibold">0.5</td></tr>
               </tbody>
             </table>
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            <strong>The test:</strong> If you stopped working today, would your residual income continue? Or would it start disappearing because you didn't hit some quota?
+            <strong>The question:</strong> If your team keeps buying but you stop working, do you keep earning the same percentage on their volume? Or does the company cut your rate and pocket the difference?
           </p>
         </div>
 

@@ -65,22 +65,24 @@ Affiliate programs and direct sales with **one-time purchases only** (no recurri
 
 ---
 
-### 2. Ongoing Production Requirements (20% weight)
+### 2. Residual Penalties (20% weight)
 
-Once you build residual income, can you **keep it**? Or does the company require ongoing production to maintain your paycheck?
+Does the company penalize your residual payout rate if you stop producing — or keep money that should be yours?
 
-**The test:** If you stopped working today, would your residual income continue? Or would it start disappearing because you didn't hit some quota?
+**Natural and fair:** Your team volume drops from $10,000 to $5,000, so your 10% commission drops from $1,000 to $500. That's just math — less volume means less commission. No problem.
 
-**Example of a bad policy:** "You must enroll X new customers per month or your residual payout is penalized and cut." This means you never truly own what you built.
+**Penalty (what we score against):** Your team volume drops to $5,000, you "lose your rank," and now you only get 5% instead of 10% — so you earn $250 instead of $500. *The company kept $250 that should have been your residual.*
 
-| Requirement | Score |
-|------------|-------|
-| No ongoing requirements — keep what you build | 5.0 |
+**The question:** If your team keeps buying but you stop working, do you keep earning the same percentage on their volume? Or does the company cut your rate and pocket the difference?
+
+| Policy | Score |
+|--------|-------|
+| No penalties — you keep your rate on whatever volume exists | 5.0 |
 | Simple annual renewal fee only | 4.0 |
-| Monthly new customer/enrollment requirements | 1.5 |
-| Monthly team volume requirements | 1.5 |
-| Rank maintenance (must hit monthly quotas to keep rank) | 1.0 |
-| Multiple requirements combined | 0.5 |
+| Rank/rate drops if personal production stops | 1.5 |
+| Rank/rate drops if team volume falls below threshold | 1.5 |
+| Must maintain monthly enrollment quotas to keep rate | 1.0 |
+| Multiple penalty mechanisms combined | 0.5 |
 
 **Key principle:** If you have to keep working to keep what you built, it's not true residual income.
 
