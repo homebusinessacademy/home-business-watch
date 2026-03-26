@@ -544,7 +544,7 @@ export const extendedCompanies: Company[] = [
     value_rating: 3.0,
     pros: [
       '20 years in business — Nevada',
-      'Per-referral residual ~$23.50/mo recurring',
+      'Per-customer residual $23.75/mo (lifetime recurring)',
       'Free starter membership',
       'Active community + all-in-one tools'
     ],
@@ -1055,9 +1055,9 @@ export const extendedCompanies: Company[] = [
     value_rating: 3.5,
     pros: [
       '11 years in business — Russell Brunson',
-      'Per-customer residual ~$19-40/mo (20-40%)',
-      'Strong recurring commissions',
-      'Dream Car program at 100+ referrals'
+      'Per-customer residual $29-119/mo (30-40% lifetime)',
+      'Dream Car program at 100+ referrals',
+      'Strong SaaS with high retention'
     ],
     cons: [
       '$97-297/mo product limits conversions',
@@ -1112,12 +1112,12 @@ export const extendedCompanies: Company[] = [
     value_rating: 4.0,
     pros: [
       '12 years in business — popular creator tool',
-      'Per-customer residual ~$8-30/mo (30% for 24mo)',
+      'Per-customer residual $7.50-50/mo (30% for 24mo)',
       'Free plan makes honest recommendations easy',
       'Growing beyond email (Kit rebrand 2024)'
     ],
     cons: [
-      '24-month limit (not lifetime)',
+      '24-month limit (not lifetime recurring)',
       'Beehiiv, Ghost, Substack competition',
       'Creator-only niche',
       'Paid plans start $25+/mo'
