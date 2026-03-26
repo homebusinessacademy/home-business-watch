@@ -1229,24 +1229,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 100,
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level with case credit qualification system',
-    overall_rating: 2.2,
-    residual_rating: 2.0,
+    overall_rating: 2.3,
+    residual_rating: 2.3,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Vertically integrated — grows, manufactures, and sells its own aloe vera',
+      '47 years in business — vertically integrated aloe production',
+      'Per-customer residual ~$10-12/mo on autoship',
       'Global presence in 160+ countries',
-      'Aloe vera products have genuine consumer demand',
-      'Founded 1978 — over 45 years in business'
+      'Aloe vera products have genuine demand'
     ],
     cons: [
-      'Compensation structure requires building substantial customer base and team',
-      'FBOs are prohibited from making income representations per company policy',
-      'Required to maintain ~$200/month in product purchases to qualify for commissions',
-      'Products significantly overpriced vs. comparable retail aloe products',
-      'Compensation plan based on complex Case Credit (CC) system'
+      'Low per-customer residual (~$10-12/mo)',
+      '~$200/mo product purchase to qualify for commissions',
+      'Complex Case Credit (CC) system',
+      'Limited income transparency'
     ],
     quick_facts: {
       'Founded': '1978',
@@ -2552,25 +2551,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 75,
     comp_plan_type: 'Multi-level with color status ranks (White through Black)',
-    overall_rating: 2.0,
-    residual_rating: 1.8,
-    simplicity_rating: 3.0,
+    overall_rating: 1.9,
+    residual_rating: 1.9,
+    simplicity_rating: 2.5,
     transparency_rating: 1.5,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 2.5,
     pros: [
-      'Pioneered social media direct sales model on Facebook',
-      'Strong brand recognition among MLM makeup buyers',
-      'Virtual party model allows selling from anywhere',
-      'Some popular products (Moodstruck mascara)'
+      '13 years in business — pioneered social media selling',
+      'Per-customer residual ~$8-10/mo on subscriptions',
+      'Virtual party model allows remote selling',
+      'Popular mascara products'
     ],
     cons: [
-      'Does not publish a transparent income disclosure — major concern',
-      'Compensation structure requires building substantial customer base for meaningful returns',
-      'Coty Inc. divested its 60% stake in 2019 — confidence signal',
-      'Products considered overpriced vs. retail makeup alternatives',
-      'Social media selling model creates strain on personal relationships',
-      'Required monthly purchase (~$125 Presenter Status Volume) to stay active'
+      'Low per-customer residual (~$8-10/mo)',
+      'No transparent income disclosure published',
+      'Coty divested 60% stake in 2019',
+      '~$125/mo PSV to stay active'
     ],
     quick_facts: {
       'Founded': '2012',
@@ -2611,25 +2608,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 300,
     monthly_cost_max: 500,
     comp_plan_type: 'Multi-level with client-based coaching model',
-    overall_rating: 2.4,
-    residual_rating: 2.0,
+    overall_rating: 2.5,
+    residual_rating: 2.5,
     simplicity_rating: 2.5,
     transparency_rating: 3.0,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 2.5,
     pros: [
-      'Publicly traded parent company (NYSE: MED) — financial transparency',
-      'Structured weight loss program with real clinical support',
-      'Coaches earn from client product orders — not purely recruiting',
-      'Some clients achieve genuine weight loss results'
+      '44 years in business — public company (NYSE: MED)',
+      'Per-customer residual ~$20-25/mo on subscriptions',
+      'Revenue per active coach ~$4,672/quarter (2024)',
+      'Structured weight loss with coaching model'
     ],
     cons: [
-      'Very expensive program — clients spend $300-500+/month on fuelings',
-      'Revenue peaked at $1.5B in 2022, declining significantly since — business contraction',
-      'Most Coaches earn very modest income from client base management',
-      'Program is difficult to sustain long-term — high dropout/churn rates',
-      'Products (fuelings) are heavily processed meal replacements',
-      'Coach income heavily dependent on continuous client recruitment'
+      'Per-customer residual moderate (~$20-25/mo)',
+      'Revenue declining from $1.5B peak (2022)',
+      'High client churn — expensive $300-500/mo program',
+      'Active coaches declining (33,900 → 27,100 in 2024)'
     ],
     quick_facts: {
       'Founded': '1981 (Medifast)',
@@ -2670,25 +2665,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 300,
     comp_plan_type: 'Binary hybrid multi-level compensation plan',
-    overall_rating: 2.0,
+    overall_rating: 1.8,
     residual_rating: 1.8,
-    simplicity_rating: 1.8,
+    simplicity_rating: 1.5,
     transparency_rating: 1.5,
     community_rating: 2.5,
-    value_rating: 1.8,
+    value_rating: 2.5,
     pros: [
-      'Rapidly growing company with strong Asia Pacific presence',
-      'Some popular products with genuine before/after results (Instantly Ageless)',
-      'Multiple income streams including retail, team bonuses, and rank bonuses',
-      'Founded by experienced direct sales entrepreneurs'
+      '16 years in business — strong Asia Pacific presence',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      'Popular Instantly Ageless product line',
+      'Multiple income streams available'
     ],
     cons: [
-      'Multiple class action lawsuits alleging pyramid scheme characteristics',
-      'FTC and DOJ investigations reported',
-      'Complex binary hybrid compensation plan heavily favors early joiners',
-      'Compensation structure requires significant sales volume for meaningful returns',
-      'Aggressive recruiting tactics reported by former distributors',
-      'Products priced at extreme premium vs. comparable skincare'
+      'Low per-customer residual (~$8-12/mo)',
+      'Multiple class action lawsuits and regulatory investigations',
+      'Complex binary hybrid compensation plan',
+      'Products priced at extreme premium'
     ],
     quick_facts: {
       'Founded': '2009',
@@ -2787,25 +2780,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 80,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level with rank-based Promoter system',
-    overall_rating: 2.1,
-    residual_rating: 1.8,
+    overall_rating: 2.0,
+    residual_rating: 2.0,
     simplicity_rating: 2.5,
     transparency_rating: 2.0,
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Ketone supplements have growing consumer interest with keto diet trend',
-      'Some users report genuine energy and mental clarity benefits',
-      'Active community with regular challenges and events',
-      'Products available in multiple flavors'
+      '10 years in business — growing with keto trend',
+      'Per-customer residual ~$10-15/mo on subscriptions',
+      'Active community with challenges/events',
+      'Multiple product flavors'
     ],
     cons: [
-      'Compensation structure requires building substantial customer base',
-      'Exogenous ketones are significantly overpriced vs. DIY or retail alternatives',
-      'Health claims by distributors audited by TINA.org for FTC compliance issues (2024)',
-      'Monthly autoship ~$80-200 required to stay active and earn',
-      'Scientific evidence for exogenous ketone benefits is mixed',
-      'Most Promoters earn far below the cost of their required product purchases'
+      'Low per-customer residual (~$10-15/mo)',
+      'TINA.org income claims audit (2024)',
+      '~$80-200/mo autoship to stay active',
+      'Products overpriced vs alternatives'
     ],
     quick_facts: {
       'Founded': '2015',
@@ -2846,24 +2837,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 80,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level with Diamond bonus pool',
-    overall_rating: 2.3,
-    residual_rating: 2.0,
+    overall_rating: 2.2,
+    residual_rating: 2.2,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Transfer Factor is a unique product category with patented technology',
-      'Founded 1998 — stable 26-year track record',
-      'Active in 80+ countries with global distributor base',
-      'Estimated $300M revenue in 2024 — financially stable'
+      '27 years in business — $300M revenue (2024)',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      'Patented Transfer Factor technology',
+      'Active in 80+ countries'
     ],
     cons: [
-      'Income disclosure audited by TINA.org for compliance issues (2024)',
-      'Most distributors earn minimal income — typical MLM income distribution',
-      'Health claims for Transfer Factor products not evaluated by FDA',
-      'Required monthly purchases ($80-200) to maintain active status and qualify for commissions',
-      'Products significantly overpriced vs. comparable immune supplements'
+      'Low per-customer residual (~$8-12/mo)',
+      'TINA.org income claims audit (2024)',
+      '$80-200/mo to stay active',
+      'Health claims not FDA evaluated'
     ],
     quick_facts: {
       'Founded': '1998',
@@ -3141,25 +3131,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 100,
     comp_plan_type: 'Multi-level with inventory purchase requirements',
-    overall_rating: 1.8,
-    residual_rating: 1.5,
+    overall_rating: 1.6,
+    residual_rating: 1.6,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
-    community_rating: 2.5,
+    community_rating: 2.0,
     value_rating: 1.5,
     pros: [
-      'Unique, recognizable patterned clothing with a dedicated fan base',
-      'Flexible home-based business model',
-      'Company still operating post-settlement'
+      '13 years in business — still operating post-settlement',
+      'One-time fashion sales (limited residual)',
+      '2024 avg gross: $11,914 (median: $1,046)',
+      'Recognizable brand with dedicated fans'
     ],
     cons: [
-      'Thousands of consultants lost money; multiple class-action lawsuits',
-      'Paid $4.75 million to settle Washington State pyramid scheme lawsuit',
-      'Settlement prohibits operating a pyramid scheme and requires accurate income disclosures',
-      'Subject of Amazon Prime documentary "LuLaRich" exposing business practices',
-      'Former retailers reported losing tens of thousands of dollars in unsellable inventory',
-      'Peak 80,000+ retailers crashed — massive oversaturation destroyed most businesses',
-      'Clothing quality issues and legging defects generated enormous negative press'
+      'Minimal residual income (one-time sales model)',
+      '$4.75M Washington State pyramid scheme settlement',
+      'Documented in "LuLaRich" Amazon Prime documentary',
+      'Peak 80,000+ retailers crashed from oversaturation'
     ],
     quick_facts: {
       'Founded': '2012',
@@ -3202,24 +3190,22 @@ export const extendedCompanies: Company[] = [
     monthly_cost_max: 500,
     comp_plan_type: 'Multi-level residual commissions on customer service bills',
     overall_rating: 2.2,
-    residual_rating: 2.5,
+    residual_rating: 2.4,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Services people already need (phone, internet, energy) — easier sell than supplements',
-      'Residual commissions on recurring service bills',
-      'International presence in 25+ countries',
-      'Founded 1993 — over 30 years in business'
+      '32 years in business — sells services people already need',
+      'Per-customer residual ~$10-15/mo on utility bills',
+      'True residual on recurring telecom/energy services',
+      'International presence in 25+ countries'
     ],
     cons: [
-      'Only 1% of representatives earn income consistent with top of compensation plan',
-      '$499 startup fee required',
-      'Customers must switch providers — significant barrier vs. supplements',
-      'Federal lawsuit filed against ACN (dismissed January 2024, state courts pending)',
-      'Trump endorsement on Celebrity Apprentice raised ethical concerns — paid endorsement',
-      'Competition from lower-cost telecom providers makes customer acquisition difficult'
+      'Per-customer residual moderate (~$10-15/mo)',
+      '$499 startup fee — high barrier',
+      'Customers must switch providers',
+      'Federal lawsuit (dismissed Jan 2024, state courts pending)'
     ],
     quick_facts: {
       'Founded': '1993',
@@ -3551,15 +3537,15 @@ export const extendedCompanies: Company[] = [
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level with autoship requirements',
     overall_rating: 2.0,
-    residual_rating: 1.8,
+    residual_rating: 2.0,
     simplicity_rating: 2.5,
     transparency_rating: 2.0,
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Recognizable brand with viral "crazy wrap thing" marketing',
-      'Wide product catalog beyond just body wraps (supplements, skincare)',
-      'Active social media community',
+      '24 years in business — recognizable brand',
+      'Per-customer residual ~$10-15/mo on subscriptions',
+      'Wide product catalog (wraps, supplements, skincare)',
       'Low initial entry cost'
     ],
     cons: [
