@@ -1,4 +1,4 @@
-export type CompanyCategory = 'mlm' | 'affiliate' | 'direct_sales' | 'other';
+export type CompanyCategory = 'mlm' | 'affiliate' | 'direct_sales' | 'other' | 'high_risk';
 
 export interface Company {
   id: string;
@@ -117,12 +117,14 @@ export const CATEGORY_LABELS: Record<CompanyCategory, string> = {
   mlm: 'MLM Companies',
   affiliate: 'Affiliate Programs',
   direct_sales: 'Direct Sales',
-  other: 'Work From Home'
+  other: 'Work From Home',
+  high_risk: 'High Risk'
 };
 
 export const CATEGORY_DESCRIPTIONS: Record<CompanyCategory, string> = {
   mlm: 'Multi-level marketing companies with tiered compensation structures',
   affiliate: 'Affiliate marketing programs with commission-based earnings',
   direct_sales: 'Direct sales opportunities selling products directly to consumers',
-  other: 'Other work from home and remote business opportunities'
+  other: 'Other work from home and remote business opportunities',
+  high_risk: 'Opportunities flagged by regulators or exhibiting significant warning signs'
 };

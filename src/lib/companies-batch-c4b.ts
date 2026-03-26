@@ -2,6 +2,63 @@ import { Company } from "@/types";
 
 export const companiesBatchC4b: Company[] = [
   {
+    id: "499",
+    slug: "bg-wealth-sharing",
+    name: "BG Wealth Sharing",
+    category: "high_risk",
+    founded_year: 2024,
+    hq_location: "Unknown",
+    website: null,
+    products_summary: "BG Wealth Sharing (also known as BG Wealth Share LTD) promotes itself as an AI-powered trading platform offering daily returns. The UK Financial Conduct Authority (FCA) has issued a warning that this entity is providing financial services without authorization. Multiple third-party sources including BehindMLM have documented concerns about the business model, and Reddit's r/Scams community has flagged characteristics commonly associated with unsustainable investment schemes. The company's leadership and physical location remain unverified. Exercise extreme caution.",
+    monthly_cost_min: 100,
+    monthly_cost_max: 10000,
+    comp_plan_type: "Investment scheme",
+    overall_rating: 0.5,
+    residual_rating: 0.5,
+    simplicity_rating: 1.0,
+    transparency_rating: 0.5,
+    community_rating: 0.5,
+    value_rating: 0.5,
+    pros: [
+      "None identified"
+    ],
+    cons: [
+      "UK FCA warning: Operating without authorization",
+      "Promises daily returns (1.3%+) that exceed realistic market performance",
+      "Company leadership and location unverified",
+      "BehindMLM reports collapse as of November 2025",
+      "Recruitment-driven compensation structure",
+      "No verifiable product or service beyond investment returns"
+    ],
+    quick_facts: {
+      "FCA Warning": "Yes — unauthorized financial services",
+      "Promised Returns": "1.3%+ daily (unrealistic)",
+      "Headquarters": "Unverified",
+      "Leadership": "Unverified",
+      "BehindMLM Status": "Reported collapsed Nov 2025",
+      "Reddit Consensus": "r/Scams flags as high-risk"
+    },
+    last_updated: "2026-03-26",
+    is_featured: false,
+    is_published: true,
+    created_at: "2026-03-26T00:00:00Z",
+    tagline: "FCA Warning Issued — Exercise Extreme Caution",
+    faq: [
+      {
+        question: "Is BG Wealth Sharing legitimate?",
+        answer: "The UK Financial Conduct Authority (FCA) has issued a warning that BG Wealth Sharing is operating without authorization. BehindMLM reported the platform collapsed in November 2025. Multiple sources flag characteristics associated with unsustainable business models."
+      },
+      {
+        question: "What are the red flags with BG Wealth Sharing?",
+        answer: "Key concerns include: guaranteed daily returns of 1.3%+ (mathematically unsustainable), no verifiable company registration or leadership, FCA regulatory warning, recruitment-based compensation, and no clear product beyond promised investment returns."
+      },
+      {
+        question: "Can I get my money back from BG Wealth Sharing?",
+        answer: "Recovery from unregistered investment schemes is typically very difficult. If you have invested, consult with a financial fraud attorney or your country's financial regulator. Document all transactions and communications."
+      }
+    ]
+  },
+  {
     id: "360",
     slug: "skillshare-teacher",
     name: "Skillshare Teacher",
