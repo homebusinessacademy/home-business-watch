@@ -465,24 +465,23 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 99,
     comp_plan_type: 'Recurring revenue share (50% for 12 months)',
-    overall_rating: 4.1,
-    residual_rating: 3.5,
+    overall_rating: 3.8,
+    residual_rating: 3.8,
     simplicity_rating: 4.5,
     transparency_rating: 4.0,
     community_rating: 4.0,
     value_rating: 4.5,
     pros: [
-      '50% commission rate is industry-leading for SaaS',
-      'Fast-growing platform with strong product-market fit',
-      'Built by Morning Brew team — strong creator credibility',
+      '4 years in business — Morning Brew team',
+      'Per-customer residual $25-60/mo (up to 60% for 12mo)',
+      'Fast-growing platform',
       'Free plan makes conversions easier'
     ],
     cons: [
-      '12-month recurring cap — not lifetime commissions',
-      'Newsletter platform market is increasingly competitive',
-      '30-day cookie window is short for B2B decisions',
-      'Relatively new company (2021) — longevity unproven',
-      'Lower plan prices ($0-99/mo) mean smaller absolute payouts'
+      '12-month commission limit',
+      'Only 4 years old — longevity unproven',
+      '30-day cookie (short)',
+      'Competitive newsletter market'
     ],
     quick_facts: {
       'Founded': '2021',

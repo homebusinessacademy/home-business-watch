@@ -699,20 +699,20 @@ export const companiesBatchB1: Company[] = [
     monthly_cost_max: 549,
     comp_plan_type: 'Marketing platform with affiliate program',
     overall_rating: 3.5,
-    residual_rating: 3.0,
+    residual_rating: 3.5,
     simplicity_rating: 3.5,
     transparency_rating: 3.5,
     community_rating: 3.5,
     value_rating: 3.0,
     pros: [
-      'Polished all-in-one platform with good integration',
-      'More stable than GrooveFunnels competitor',
-      'Comprehensive affiliate management built-in',
-      'Good templates and design options'
+      '8 years in business — Andy Jenkins/Mike Filsaime',
+      'Per-customer residual $40-200/mo (40% for 12mo)',
+      'Polished all-in-one platform',
+      'Comprehensive affiliate management'
     ],
     cons: [
+      '12-month limit (not lifetime)',
       'Expensive — starts at $119/month',
-      'Steep learning curve for full functionality',
       'Video hosting storage limits on lower plans',
       'Less flexible than specialized individual tools',
       'Affiliate program creates promotion incentives affecting reviews'
