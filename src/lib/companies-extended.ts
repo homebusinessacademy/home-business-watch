@@ -2894,25 +2894,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 100,
     comp_plan_type: 'Sliding scale / customer accumulation plan',
-    overall_rating: 2.5,
-    residual_rating: 2.0,
+    overall_rating: 2.4,
+    residual_rating: 2.4,
     simplicity_rating: 2.5,
     transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 3.0,
+    value_rating: 4.0,
     pros: [
-      '"Absolute quality, absolute price" positioning — products claim to offer value vs. premium brands',
-      'Over 20 million members globally — significant scale',
+      '16 years in business — 20M+ members globally',
+      'Per-customer residual ~$8-12/mo on subscriptions',
       'Free to join — no starter kit required',
-      'Strong in Asian markets with well-established infrastructure',
-      'No required monthly purchases to remain a member'
+      'No required monthly purchases'
     ],
     cons: [
-      'Complex "pay to play" rank advancement system',
-      'Income potential heavily dependent on recruiting and team volume',
-      'Limited income disclosure transparency for Western markets',
-      'Primarily designed for and dominant in Asian markets — harder to build in US',
-      'Some critics label as having pyramid scheme characteristics in structure'
+      'Low per-customer residual (~$8-12/mo)',
+      'Complex rank advancement system',
+      'Limited transparency for Western markets',
+      'Primarily Asian market — harder to build in US'
     ],
     quick_facts: {
       'Founded': '2009',
@@ -3477,25 +3475,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level with licensing requirements',
-    overall_rating: 2.0,
-    residual_rating: 2.0,
+    overall_rating: 2.3,
+    residual_rating: 2.3,
     simplicity_rating: 1.8,
     transparency_rating: 1.5,
     community_rating: 2.5,
-    value_rating: 1.8,
+    value_rating: 3.0,
     pros: [
-      'Sells legitimate financial products (life insurance, investments)',
-      'Can lead to a real career in financial services with proper licensing',
-      'Parent company Transamerica (Aegon) is a regulated financial institution',
-      'Training provided for licensing requirements'
+      '34 years in business — Transamerica/Aegon subsidiary',
+      'Per-customer residual ~$15-25/mo on policy renewals',
+      'Real financial services career path possible',
+      'Products are legitimate licensed financial instruments'
     ],
     cons: [
-      'Aggressive recruiting tactics — heavily targets immigrant communities',
-      'Compensation tied to insurance licensing and team building',
-      'Subject to IUL (Indexed Universal Life) fraud lawsuits for inadequate fee disclosure',
-      'WFG agents criticized for recommending high-commission products over client\'s best interests',
-      'Licensing costs ($200+) required before earning any income',
-      'MLM recruiting culture conflicts with fiduciary duty to clients'
+      'Per-customer residual moderate (~$15-25/mo)',
+      'Licensing costs ($200+) before earning',
+      'IUL fraud lawsuits — fee disclosure concerns',
+      'MLM recruiting culture vs fiduciary duty'
     ],
     quick_facts: {
       'Founded': '1991',
@@ -3594,24 +3590,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level with associate rank system',
-    overall_rating: 2.2,
+    overall_rating: 2.0,
     residual_rating: 2.0,
     simplicity_rating: 2.0,
     transparency_rating: 2.5,
     community_rating: 2.5,
     value_rating: 2.0,
     pros: [
-      'Publicly traded (NASDAQ: MTEX) — financial transparency',
+      '32 years in business — public company (NASDAQ: MTEX)',
+      'Per-customer residual ~$5-10/mo on subscriptions',
       'Unique glyconutrient product category',
-      'Founded 1993 — over 30 years in business',
-      'Profitable in recent quarters despite declining revenue'
+      'Still profitable despite revenue decline'
     ],
     cons: [
-      'Paid $7 million to settle Texas AG lawsuit over misleading health claims (2009)',
-      'Revenue and associate count declining significantly',
-      'Glyconutrient health claims not accepted by mainstream medical community',
-      'Products significantly overpriced vs. comparable supplements',
-      'Most associates earn minimal income'
+      'Very low per-customer residual (~$5-10/mo)',
+      '93% earn avg $2.80/mo commissions (2024)',
+      '$7M Texas AG settlement (2009) for health claims',
+      'Revenue and associate count declining'
     ],
     quick_facts: {
       'Founded': '1993',
@@ -3649,23 +3644,22 @@ export const extendedCompanies: Company[] = [
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level binary hybrid',
     overall_rating: 2.1,
-    residual_rating: 2.0,
+    residual_rating: 2.1,
     simplicity_rating: 2.5,
     transparency_rating: 1.8,
     community_rating: 2.8,
-    value_rating: 2.0,
+    value_rating: 2.5,
     pros: [
-      'Products focused on real nutritional ingredients (wild Alaskan blueberries, fish oil)',
-      'Strong international presence in European and Latin American markets',
-      'Idaho-based company with roots in traditional values',
-      'Simple three-product "triangle of health" system easy to explain'
+      '20 years in business — strong international presence',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      'Simple 3-product system easy to explain',
+      'Quality ingredients (Alaskan blueberries, omega-3s)'
     ],
     cons: [
-      'Compensation depends on building customer base and team',
-      'Binary hybrid plan favors early joiners and heavy recruiters',
-      'Products significantly overpriced vs. comparable supplements',
-      'Most distributors earn minimal income',
-      'Autoship required to stay active and qualify for commissions'
+      'Low per-customer residual (~$8-12/mo)',
+      'Limited income transparency',
+      'Binary hybrid favors early adopters',
+      'Autoship required to stay active'
     ],
     quick_facts: {
       'Founded': '2005',
@@ -3879,23 +3873,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level binary',
-    overall_rating: 2.0,
-    residual_rating: 1.8,
+    overall_rating: 1.9,
+    residual_rating: 1.9,
     simplicity_rating: 2.5,
     transparency_rating: 1.5,
     community_rating: 2.8,
     value_rating: 2.0,
     pros: [
-      'Unique seed-based nutrition concept differentiates from typical supplement MLMs',
-      'Founded 2011 — over 13 years in business',
-      'International presence in multiple markets'
+      '14 years in business — unique seed-based concept',
+      'Per-customer residual ~$8-10/mo on subscriptions',
+      'International presence',
+      'Differentiates from typical supplement MLMs'
     ],
     cons: [
-      'BBB National Programs income claim monitoring (2025)',
-      'BBB National Programs government referral in 2025 for income claim violations',
-      'Products significantly overpriced vs. comparable seed/antioxidant supplements',
-      'Binary compensation plan heavily favors early joiners',
-      'Most distributors earn minimal income per third-party reviews'
+      'Low per-customer residual (~$8-10/mo)',
+      'BBB government referral (2025) — income claim issues',
+      'Binary plan favors early joiners',
+      'Products overpriced vs alternatives'
     ],
     quick_facts: {
       'Founded': '2011',
@@ -3931,25 +3925,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 40,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level binary',
-    overall_rating: 2.3,
-    residual_rating: 2.0,
+    overall_rating: 2.2,
+    residual_rating: 2.2,
     simplicity_rating: 3.0,
     transparency_rating: 2.0,
     community_rating: 3.5,
     value_rating: 2.5,
     pros: [
-      'Strong community following, particularly in African American wellness space',
-      'Iaso Tea has genuine viral popularity and brand recognition',
-      'Low entry point compared to many MLMs',
-      'CBD and hemp products align with growing wellness trend',
-      'Founded 1999 — 25+ years in business'
+      '26 years in business — $250M revenue (2024)',
+      'Per-customer residual ~$10-15/mo on subscriptions',
+      'Strong community following',
+      'Viral Iaso Tea product'
     ],
     cons: [
-      'Compensation depends on building customer base and team',
-      'Iaso Tea health claims are not clinically substantiated',
-      'Required autoship to maintain active distributor status',
-      'Binary compensation plan favors heavy recruiters',
-      'Most distributors earn minimal income'
+      'Low per-customer residual (~$10-15/mo)',
+      'Health claims not clinically substantiated',
+      'Binary plan favors recruiters',
+      'Autoship required to stay active'
     ],
     quick_facts: {
       'Founded': '1999',
@@ -3986,24 +3978,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level unilevel',
-    overall_rating: 2.5,
-    residual_rating: 2.0,
+    overall_rating: 2.2,
+    residual_rating: 2.2,
     simplicity_rating: 2.5,
     transparency_rating: 2.5,
     community_rating: 3.0,
-    value_rating: 2.5,
+    value_rating: 3.0,
     pros: [
-      'First direct selling company to defeat FTC in pyramid scheme lawsuit (September 2023)',
-      'Rebranded from Nerium to Neora in 2019 with expanded product line',
-      'Skincare products have genuine consumer following',
-      'Transparency about legal history — posts court victory on website'
+      '14 years in business — defeated FTC lawsuit (Sept 2023)',
+      'Per-customer residual ~$10-15/mo on subscriptions',
+      '37.5% of active partners earned commissions (2024)',
+      'Transparent income disclosure published'
     ],
     cons: [
-      'FTC sued alleging pyramid scheme — won the case but battle signals scrutiny',
-      'Court found FTC\'s position "substantially justified" despite Neora winning',
-      'Most brand partners earn minimal income after product purchase requirements',
-      'Products priced at premium vs. comparable skincare',
-      'Previous Nerium brand had controversial marketing claims'
+      'Low per-customer residual (~$10-15/mo)',
+      '62.5% of active partners earned $0 (2024)',
+      'Avg annual earnings only $1,142',
+      'Products priced at premium'
     ],
     quick_facts: {
       'Founded': '2011 (as Nerium International)',
@@ -4044,25 +4035,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level with rank advancement',
-    overall_rating: 2.8,
-    residual_rating: 2.5,
+    overall_rating: 2.7,
+    residual_rating: 2.7,
     simplicity_rating: 2.5,
     transparency_rating: 3.0,
     community_rating: 3.5,
-    value_rating: 2.5,
+    value_rating: 3.5,
     pros: [
-      'Founded 1956 — 68-year track record, one of the oldest US nutrition MLMs',
-      'First company certified Climate Neutral — strong environmental commitment',
-      'Products generally well-regarded for quality',
-      'Provides public earnings data on website',
-      'Strong legacy brand with loyal long-term customer base'
+      '69 years in business — oldest US nutrition MLM',
+      'Per-customer residual ~$12-18/mo on subscriptions',
+      'First Climate Neutral certified company',
+      'Earnings data published publicly'
     ],
     cons: [
-      'Most Shaklee Ambassadors earn modest supplemental income',
-      'Products significantly overpriced vs. comparable retail supplements',
-      'Required monthly purchases to maintain active status and earn commissions',
-      'MLM income structure still heavily dependent on team building',
-      'Legacy brand has slower growth compared to newer MLMs'
+      'Per-customer residual moderate (~$12-18/mo)',
+      'Monthly purchase requirements',
+      'Products priced at premium',
+      'Slower growth than newer MLMs'
     ],
     quick_facts: {
       'Founded': '1956',
@@ -4499,26 +4488,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level insurance commissions + recruitment overrides',
-    overall_rating: 2.0,
-    residual_rating: 2.0,
+    overall_rating: 2.1,
+    residual_rating: 2.1,
     simplicity_rating: 1.5,
     transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Legitimate insurance products — real value for customers',
-      'Can build a career in financial services with proper licensing',
-      'Part-time entry possible before full commitment',
-      'Insurance commissions can be meaningful with right clientele',
+      '13 years in business — legitimate insurance products',
+      'Per-customer residual ~$10-20/mo on policy renewals',
+      'Real career path in financial services',
+      'Part-time entry possible'
     ],
     cons: [
-      'Heavy recruitment emphasis — income primarily from building a downline',
-      'Requires state insurance licensing (time and money investment upfront)',
+      'Per-customer residual moderate (~$10-20/mo)',
+      'Insurance licensing required before earning',
       'Not BBB accredited',
-      'Glassdoor reviews describe pressure tactics and MLM-style recruitment',
-      'Commission splits across multiple levels reduce per-sale income',
-      'Compensation tied to insurance sales and team building',
-      'Financial products often more expensive than alternatives',
+      'Heavy recruitment emphasis'
     ],
     quick_facts: {
       'Founded': '2012',
@@ -4561,25 +4547,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 30,
     monthly_cost_max: 150,
     comp_plan_type: 'Binary MLM — Financial Edge subscription commissions + travel savings + recruitment overrides',
-    overall_rating: 1.8,
-    residual_rating: 2.0,
+    overall_rating: 1.7,
+    residual_rating: 1.7,
     simplicity_rating: 1.5,
     transparency_rating: 1.5,
     community_rating: 2.0,
     value_rating: 1.5,
     pros: [
-      'Financial Edge subscription has real tools (credit, tax, financial wellness)',
-      'Low entry cost compared to some MLMs',
-      'Travel savings component adds tangible value',
+      '12 years in business — real financial tools offered',
+      'Per-customer residual ~$5-10/mo on subscriptions',
+      'Low entry cost',
+      'Travel savings adds value'
     ],
     cons: [
-      'Complex binary compensation plan with pyramid ambiguity (per BehindMLM 2025)',
-      'Company has operated under multiple names suggesting instability',
-      'Compensation plan requires monthly subscription fees to earn commissions',
-      'Heavy recruitment focus — income primarily from downline building',
-      'Founder Brian House has been accused of trying to hide company MLM origins',
-      'No public income disclosure',
-      'Binary structure can trap commissions through uneven leg requirements',
+      'Very low per-customer residual (~$5-10/mo)',
+      'BehindMLM pyramid ambiguity concern (2025)',
+      'Multiple company rebrands',
+      'No public income disclosure'
     ],
     quick_facts: {
       'Founded': '2013',
@@ -4619,27 +4603,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 40,
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level (3-level approach) — product commissions + team development bonuses',
-    overall_rating: 2.6,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.5,
+    value_rating: 3.5,
     pros: [
-      'Founded 1951 — over 70 years of operation, strong longevity score',
-      'Operates in 60+ countries — established global presence',
-      'Feel Great system has loyal customer following',
-      'No mandatory autoship to join (optional product packages)',
-      '$40 entry fee is low compared to most MLMs',
-      'Products backed by some clinical research',
+      '74 years in business — longest-running on our list',
+      'Per-customer residual ~$10-15/mo on subscriptions',
+      'Operates in 60+ countries',
+      'Low $40 entry fee'
     ],
     cons: [
-      'Compensation plan not fully disclosed to the public — lack of transparency',
-      'Heavy recruitment emphasis according to independent reviewers',
-      'No public income disclosure statement',
-      'Products significantly more expensive than retail alternatives',
-      'Metabolic health claims are bold and not fully substantiated for all products',
-      'Team development bonuses create recruiting incentive over retail focus',
+      'Per-customer residual moderate (~$10-15/mo)',
+      'No public income disclosure',
+      'Products priced at premium',
+      'Heavy team-building emphasis'
     ],
     quick_facts: {
       'Founded': '1951',
