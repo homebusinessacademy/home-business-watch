@@ -13,24 +13,23 @@ export const companiesBatchB1: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Training/Education (not MLM)',
-    overall_rating: 3.8,
+    overall_rating: 2.0,
     residual_rating: 2.0,
     simplicity_rating: 4.0,
     transparency_rating: 4.0,
     community_rating: 4.5,
     value_rating: 3.5,
     pros: [
-      'Extensive free content on YouTube and podcasts',
-      'Eric Worre has legitimate 30+ year industry experience',
-      'Not an MLM — no recruiting or product purchases required',
-      'Go Pro book is a bestselling MLM training resource'
+      '16 years in business — Eric Worre',
+      'Zero residual (one-time course/event sales)',
+      'Free YouTube/podcast content',
+      'Not an MLM itself'
     ],
     cons: [
-      'Premium events and courses can cost $500-2,000+',
-      'Content ultimately promotes MLM industry participation',
-      'Teaching MLM skills for an industry where most participants lose money',
-      'Upsells from free content to expensive live events',
-      'Success stories featured are often top earners (survivorship bias)'
+      'No recurring commission',
+      'Events cost $500-2,000+',
+      'Promotes MLM industry',
+      'Survivorship bias in success stories'
     ],
     quick_facts: {
       'Founded': '2009',
@@ -62,23 +61,23 @@ export const companiesBatchB1: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Training/Education (not MLM)',
-    overall_rating: 3.5,
+    overall_rating: 1.5,
     residual_rating: 1.5,
     simplicity_rating: 4.0,
     transparency_rating: 3.5,
     community_rating: 4.0,
     value_rating: 3.5,
     pros: [
-      'Free podcast with 700+ episodes of MLM interviews',
-      'Practical training focused on recruiting and social media',
-      'Not an MLM — no recruiting requirements'
+      '12 years in business — Simon Chan',
+      'Zero residual (one-time coaching sales)',
+      'Free podcast 700+ episodes',
+      'Not an MLM itself'
     ],
     cons: [
-      'Promotes MLM industry where most participants lose money',
-      'Coaching programs can cost $1,000+',
-      'Interviews primarily feature successful outliers (survivorship bias)',
-      'Content may encourage joining MLMs that have poor success rates',
-      'Limited critical analysis of MLM business model flaws'
+      'No recurring commission',
+      'Promotes MLM industry',
+      'Coaching costs $1,000+',
+      'Survivorship bias in interviews'
     ],
     quick_facts: {
       'Founded': '2013',
