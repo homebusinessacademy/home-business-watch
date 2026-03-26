@@ -80,6 +80,9 @@ Does the company require ongoing activity to **keep** the residual income you've
 
 **Key principle:** If you have to keep working to keep what you built, it's not true residual income.
 
+**Note on Monthly Product Requirements:**  
+Monthly purchase requirements are standard in product-based businesses and are NOT automatically a con. The con is only when the requirement **exceeds reasonable personal consumption** — forcing affiliates to stockpile inventory or buy more than they would naturally use. A $100/month skincare order you actually use is not a penalty. A $300/month requirement that forces overbuying is.
+
 ---
 
 ### 3. Company Stability (15% weight)
