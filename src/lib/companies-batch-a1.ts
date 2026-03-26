@@ -13,23 +13,23 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 60,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (binary with matching bonuses)',
-    overall_rating: 1.8,
-    residual_rating: 1.5,
+    overall_rating: 1.9,
+    residual_rating: 1.9,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 2.5,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Early mover in hemp/CBD MLM space',
+      '11 years in business — early mover in CBD MLM',
+      'Per-customer residual ~$8-12/mo on subscriptions',
       'Wide product range beyond just CBD',
-      'Products manufactured in Kentucky hemp farms'
+      'Kentucky-grown hemp products'
     ],
     cons: [
-      'Per-customer residual is modest; significant income requires a large customer base or team',
-      'High affiliate turnover typical of newer CBD/wellness MLMs',
-      'DSSRC investigated company for income and product claims (2020)',
-      'CBD market has become crowded with many retail alternatives at lower prices',
-      'Binary compensation structure requires balanced team building'
+      'Low per-customer residual (~$8-12/mo)',
+      'DSSRC investigated for income claims (2020)',
+      'Binary compensation requires balanced teams',
+      'CBD market now crowded with cheaper retail options'
     ],
     quick_facts: {
       'Founded': '2014 (HempWorx launched 2017)',
@@ -61,24 +61,23 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (breakaway)',
-    overall_rating: 2.5,
-    residual_rating: 2.0,
+    overall_rating: 2.6,
+    residual_rating: 2.6,
     simplicity_rating: 2.0,
     transparency_rating: 3.0,
     community_rating: 3.0,
-    value_rating: 2.5,
+    value_rating: 3.5,
     pros: [
-      'Publicly traded (NASDAQ: NATR) with financial transparency',
-      'Over 50 years in business — one of the oldest supplement MLMs',
-      'State-of-the-art manufacturing facilities with quality controls',
-      'Diversifying beyond MLM into retail and health clinic channels'
+      '53 years in business — public company (NASDAQ: NATR)',
+      'Per-customer residual ~$12-18/mo on subscriptions',
+      'State-of-the-art manufacturing facilities',
+      '$454M revenue (2024) — diversifying into retail'
     ],
     cons: [
-      'Per-customer residual is modest; building significant income requires substantial sales volume or team',
-      'Products priced at premium compared to retail alternatives',
-      'Breakaway compensation plan has a learning curve',
-      'Revenue has been relatively flat in recent years',
-      'Monthly volume requirements to maintain active status'
+      'Per-customer residual moderate (~$12-18/mo)',
+      'Monthly volume requirements',
+      'Breakaway comp plan has learning curve',
+      'Revenue relatively flat in recent years'
     ],
     quick_facts: {
       'Founded': '1972',
@@ -112,22 +111,22 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (unilevel)',
     overall_rating: 2.0,
-    residual_rating: 1.5,
+    residual_rating: 2.0,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 2.0,
+    value_rating: 2.5,
     pros: [
-      'Long-established company since 1988',
-      'Low startup cost ($20 to become a distributor)',
-      'Products manufactured in own facility'
+      '37 years in business — own manufacturing',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      'Low $20 startup cost',
+      'Unilevel comp plan simpler than binary'
     ],
     cons: [
-      'DSSRC recommended discontinuing certain earnings and health claims (December 2024)',
-      'Per-customer residual is modest; significant income requires substantial volume or team',
-      'Company has shrunk from peak size in earlier decades',
-      'Smaller distributor base means less upline support in some areas',
-      'Nutritional shake market has become more competitive'
+      'Low per-customer residual (~$8-12/mo)',
+      'DSSRC recommended discontinuing claims (Dec 2024)',
+      'Company shrunk from peak size',
+      'Competitive shake market'
     ],
     quick_facts: {
       'Founded': '1988',
@@ -161,22 +160,22 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level (binary/unfranchise system)',
     overall_rating: 1.8,
-    residual_rating: 2.0,
+    residual_rating: 1.8,
     simplicity_rating: 1.0,
     transparency_rating: 1.5,
     community_rating: 2.5,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Hybrid model combines MLM with legitimate e-commerce (Shop.com)',
-      'Partner with major retailers for cashback shopping',
-      'Long-established company since 1992'
+      '33 years in business — hybrid MLM/e-commerce',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      'Shop.com partners with major retailers',
+      'Cashback component adds value'
     ],
     cons: [
-      'Class action lawsuit (2019) alleged compensation structure issues — litigation ongoing',
-      'Higher startup costs than many MLMs ($449.95+ kit)',
-      'UnFranchise compensation plan has significant learning curve',
-      'TINA.org raised concerns about income claims in marketing (2020)',
-      'Requires substantial investment to maximize commission potential'
+      'Low per-customer residual (~$8-12/mo)',
+      'Class action lawsuit ongoing (filed 2017)',
+      'High $449.95 startup kit',
+      'Very complex UnFranchise comp plan'
     ],
     quick_facts: {
       'Founded': '1992',
@@ -208,24 +207,23 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 50,
     comp_plan_type: 'Multi-level (tiered commission)',
-    overall_rating: 2.3,
-    residual_rating: 2.0,
+    overall_rating: 2.2,
+    residual_rating: 2.2,
     simplicity_rating: 2.5,
     transparency_rating: 2.0,
     community_rating: 3.0,
-    value_rating: 2.5,
+    value_rating: 3.0,
     pros: [
-      'Free to join — no starter kit required',
-      'Strong global brand with 55+ years of history',
-      'Over 1,000 products across multiple beauty categories',
-      'Strong presence in emerging markets'
+      '58 years in business — free to join',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      '3M+ Brand Partners in 60+ countries',
+      '1,000+ products across beauty categories'
     ],
     cons: [
-      'No publicly available income disclosure statement',
-      'Significant financial restructuring — Fitch downgraded to Restricted Default (June 2025)',
-      'Faced regulatory scrutiny in India for alleged unfair trade practices (December 2024)',
-      'Commission rates (20-26%) require consistent sales volume for meaningful income',
-      'Per-customer residual is modest; scale or team required for significant earnings'
+      'Low per-customer residual (~$8-12/mo)',
+      'Fitch downgraded to Restricted Default (June 2025)',
+      'India regulatory scrutiny (Dec 2024)',
+      'No income disclosure published'
     ],
     quick_facts: {
       'Founded': '1967 (Sweden)',
@@ -259,23 +257,22 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_max: 120,
     comp_plan_type: 'Multi-level (Juice Plus NSA)',
     overall_rating: 2.4,
-    residual_rating: 2.0,
+    residual_rating: 2.4,
     simplicity_rating: 2.5,
     transparency_rating: 2.5,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Claims 30+ published clinical studies on products',
-      'Relatively affordable entry-level pricing (~$44/month)',
-      'Long company history (since 1970)',
-      'Genuine whole food nutrition focus vs synthetic vitamins'
+      '55 years in business — 30+ clinical studies cited',
+      'Per-customer residual ~$10-15/mo on subscriptions',
+      'Affordable entry (~$44/mo)',
+      'Whole food focus vs synthetic vitamins'
     ],
     cons: [
-      'Clinical studies cited are largely industry-funded, limiting independence',
-      'Products are priced at premium compared to eating actual fruits/vegetables',
-      'Per-customer residual is modest; significant income requires customer base or team',
-      'Personal purchase requirements to qualify for commissions',
-      'Name can confuse consumers (supplements, not actual juice)'
+      'Per-customer residual moderate (~$10-15/mo)',
+      'Studies largely industry-funded',
+      'Personal purchase requirements',
+      'Premium vs eating actual fruits/vegetables'
     ],
     quick_facts: {
       'Founded': '1970 (NSA)',
@@ -308,23 +305,23 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 129,
     comp_plan_type: 'Multi-level (unilevel)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 1.9,
+    residual_rating: 1.9,
     simplicity_rating: 2.5,
     transparency_rating: 2.0,
     community_rating: 3.0,
     value_rating: 1.5,
     pros: [
-      'Genuinely convenient product — real nail polish strips',
+      '8 years in business — convenient nail strips',
+      'Per-customer residual ~$5-8/mo on subscriptions',
       'No drying time or UV lights required',
-      'Products have loyal customer following'
+      'Loyal customer following'
     ],
     cons: [
-      'Per-customer residual is modest; significant income requires consistent sales volume or team',
-      'Parent company (Incoco) sells similar strips at Walmart/Amazon at lower price points',
-      'Nail polish strip market has become more competitive',
-      'Monthly sales minimums required to maintain active status',
-      'Premium pricing can limit repeat customer purchases'
+      'Very low per-customer residual (~$5-8/mo)',
+      'Parent company sells same strips at Walmart cheaper',
+      'Monthly minimums to stay active',
+      'Competitive market'
     ],
     quick_facts: {
       'Founded': '2017',
@@ -357,24 +354,23 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level (retail focus)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 1.8,
+    residual_rating: 1.8,
     simplicity_rating: 3.0,
     transparency_rating: 2.0,
     community_rating: 3.0,
     value_rating: 2.0,
     pros: [
-      'Simple $5 price point easy for customers to understand',
-      'Low starter kit cost (~$99)',
-      '35-45% gross profit margin on retail sales',
-      'Large product selection and inventory variety'
+      '15 years in business — simple $5 price point',
+      'Per-customer residual ~$1-2/sale (one-time)',
+      'Low $99 starter kit',
+      '35-45% gross margin on retail'
     ],
     cons: [
-      'Washington State AG settlement of $1.9 million led to disclosure reforms',
-      'DSSRC recommended discontinuing certain income claims',
-      'Per-customer residual is modest given $5 price point; requires volume for significant income',
-      'Inventory purchase required upfront — ties up capital',
-      'Fashion jewelry has limited longevity by design'
+      'Minimal residual (one-time sales model)',
+      '$1.9M Washington State AG settlement',
+      'Inventory purchase ties up capital',
+      'Fashion jewelry has limited longevity'
     ],
     quick_facts: {
       'Founded': '2010',
@@ -407,21 +403,22 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_max: 100,
     comp_plan_type: 'Multi-level (unilevel)',
     overall_rating: 1.5,
-    residual_rating: 1.0,
+    residual_rating: 1.5,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Simple product line centered on one flagship drink (Zeal)',
-      'Was acquired by Zinzino rather than liquidating'
+      '17 years before bankruptcy — acquired by Zinzino',
+      'Per-customer residual ~$5-8/mo (pre-bankruptcy)',
+      'Simple single flagship product (Zeal)',
+      'Operations continue under new ownership'
     ],
     cons: [
-      'Filed Chapter 11 bankruptcy in December 2024',
-      'Acquired by Zinzino for $9.4 million following bankruptcy',
-      'Per-customer residual was modest based on historical patterns',
-      'Company struggled financially for years with declining distributor numbers',
-      'Uncertainty during transition to new ownership'
+      'Filed Chapter 11 bankruptcy (Dec 2024)',
+      'Acquired for only $9.4M',
+      'Declining distributors for years',
+      'Uncertainty during ownership transition'
     ],
     quick_facts: {
       'Founded': '2008',
@@ -503,16 +500,16 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 100,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level (binary/hybrid)',
-    overall_rating: 2.2,
-    residual_rating: 2.0,
+    overall_rating: 2.3,
+    residual_rating: 2.3,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 3.0,
-    value_rating: 2.0,
+    value_rating: 3.5,
     pros: [
-      'Massive company with $3 billion revenue in 2024',
-      'FitLine products are Cologne List certified (clean sport)',
-      'Partners with national sports federations (Germany, Austria, Poland)',
+      '32 years in business — $3B revenue (2024)',
+      'Per-customer residual ~$12-18/mo on subscriptions',
+      'Cologne List certified (clean sport)',
       'Ranked 6th in DSN Global 100'
     ],
     cons: [
@@ -553,24 +550,23 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 45,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (unilevel)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 2.1,
+    residual_rating: 2.1,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Unique patented product (Immunocal) with scientific research behind it',
-      'Company pays no commission for recruiting alone — only product sales',
-      'Long-established company since 1996',
-      'Based on legitimate glutathione research by Dr. Gustavo Bounous'
+      '29 years in business — patented Immunocal',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      'No commission for recruiting alone',
+      'Scientific research backing'
     ],
     cons: [
-      'Per-customer residual is modest; significant income requires customer base or team',
-      'Compensation structure requires consistent activity to earn commissions',
-      'DSSRC raised concerns about certain income claims in marketing',
-      'Monthly purchase requirements to maintain active status ($45+)',
-      'Patent-protected product means limited pricing flexibility'
+      'Low per-customer residual (~$8-12/mo)',
+      'Monthly $45+ to stay active',
+      'DSSRC concerns about income claims',
+      'Single product focus limits options'
     ],
     quick_facts: {
       'Founded': '1996',
@@ -602,19 +598,20 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 69,
     monthly_cost_max: 300,
     comp_plan_type: 'Multi-level (binary)',
-    overall_rating: 1.8,
-    residual_rating: 1.5,
+    overall_rating: 1.7,
+    residual_rating: 1.7,
     simplicity_rating: 1.5,
     transparency_rating: 1.0,
     community_rating: 2.0,
     value_rating: 1.5,
     pros: [
-      'Unique luxury positioning in MLM space',
-      'High-end products including 19K-21K gold jewelry',
+      '20 years in business — unique luxury positioning',
+      'Per-customer residual ~$5-10/mo (one-time dominant)',
+      'High-end 19K-21K gold jewelry',
       'Global presence in 150+ countries'
     ],
     cons: [
-      'No income disclosure statement published',
+      'Very low per-customer residual (one-time sales)',
       'Startup costs ($169 upfront + $69/year) plus inventory',
       'Luxury products have limited market through direct sales model',
       'High-end jewelry requires finding affluent customer base',
@@ -650,22 +647,23 @@ export const companiesBatchA1: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (unilevel)',
-    overall_rating: 1.5,
-    residual_rating: 1.0,
+    overall_rating: 1.4,
+    residual_rating: 1.4,
     simplicity_rating: 1.5,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Tahitian Noni has genuine antioxidant properties',
-      'Company survived bankruptcy and continues operating as PartnerCo'
+      '29 years total history — now PartnerCo',
+      'Tahitian Noni has genuine antioxidants',
+      'Survived bankruptcy (emerged Mar 2023)',
+      'New ownership under Wadsworth family'
     ],
     cons: [
-      'Filed Chapter 11 bankruptcy in August 2022 with $149M in debt',
-      'Multiple mergers (Morinda, ARIIX) created organizational complexity',
-      'FCPA investigation related to China operations during ARIIX period',
-      'Frequent rebranding (Morinda → NewAge → PartnerCo) creates confusion',
-      'Emerged from bankruptcy under new ownership in March 2023'
+      'Chapter 11 bankruptcy (Aug 2022)',
+      '$149M debt at bankruptcy',
+      'FCPA investigation history',
+      'Multiple rebrands create confusion'
     ],
     quick_facts: {
       'Founded': '1996 (as Morinda)',
