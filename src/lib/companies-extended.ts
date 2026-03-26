@@ -1389,25 +1389,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate marketplace — varies by product (typically 30-70%)',
-    overall_rating: 3.0,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 3.5,
     transparency_rating: 2.5,
     community_rating: 3.0,
     value_rating: 3.0,
     pros: [
-      'Free to join as an affiliate',
-      'High commission rates (30-70% common on digital products)',
-      'Instant or same-day payments via PayPal for approved affiliates',
-      'Large marketplace of internet marketing products',
-      'Good for promoting product launches to email lists'
+      '14 years in business — Florida',
+      'Some recurring products (~$5-15/mo)',
+      'High commissions 30-70%',
+      'Instant PayPal payments'
     ],
     cons: [
-      'Many low-quality "get rich quick" products on the platform',
-      'Product quality varies wildly — due diligence required',
-      'New affiliates must request approval per product — not instant access',
-      'Platform has reputation for promoting overhyped products',
-      'High refund rates on some products damage reputation'
+      'Most sales one-time',
+      'Many low-quality products',
+      'Overhyped reputation',
+      'High refund rates'
     ],
     quick_facts: {
       'Founded': '2011',
@@ -1448,18 +1446,17 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate network — commission rates vary by merchant',
-    overall_rating: 3.7,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 3.0,
     transparency_rating: 3.5,
     community_rating: 3.0,
     value_rating: 3.8,
     pros: [
-      'Access to premium brand advertisers (Walmart, Best Buy, Macy\'s, etc.)',
-      'Free to join for publishers/affiliates',
-      'Backed by Rakuten — financially stable global company',
-      'Strong tracking and attribution technology',
-      'Good for high-volume content sites with established traffic'
+      '29 years in business — Rakuten-backed',
+      'Limited recurring (~$3-10/mo on some)',
+      'Premium brands (Walmart, Best Buy)',
+      'Free to join — stable platform'
     ],
     cons: [
       'Interface less user-friendly than CJ or ShareASale',
@@ -1570,18 +1567,17 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate network — commission rates vary by brand partner',
-    overall_rating: 4.0,
+    overall_rating: 3.0,
     residual_rating: 3.0,
     simplicity_rating: 3.0,
     transparency_rating: 4.0,
     community_rating: 3.5,
     value_rating: 4.0,
     pros: [
-      'Free for publishers/affiliates to join',
-      'Access to premium enterprise brands not available on smaller networks',
-      'Advanced real-time tracking and cross-device attribution',
-      'Flexible payout structures including performance bonuses',
-      'Strong fraud detection protects affiliate earnings'
+      '17 years in business — enterprise-grade',
+      'Some recurring SaaS brands (~$10-30/mo)',
+      'Premium enterprise brands',
+      'Free for publishers'
     ],
     cons: [
       'Steeper learning curve than beginner-friendly networks',
@@ -1629,18 +1625,17 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate network — commission rates vary by advertiser',
-    overall_rating: 3.8,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 3.5,
     transparency_rating: 3.5,
     community_rating: 3.0,
     value_rating: 4.0,
     pros: [
-      'One of the largest global networks — 25,000+ advertisers in 180 countries',
-      'Owns ShareASale — access to both networks from one company',
-      '$5 sign-up deposit refunded on first payment',
-      'Strong international advertiser selection',
-      'Access plan available for smaller publishers'
+      '25 years in business — 180 countries',
+      'Limited recurring options (~$5-15/mo)',
+      '25,000+ advertisers — owns ShareASale',
+      '$5 deposit refunded on first payment'
     ],
     cons: [
       '$5 deposit required upfront (refunded but still a barrier)',
@@ -1688,18 +1683,17 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate marketplace — commission rates set by vendors (typically 40-75%)',
-    overall_rating: 3.3,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 3.8,
     transparency_rating: 3.0,
     community_rating: 3.0,
     value_rating: 3.5,
     pros: [
-      'Free to join as an affiliate',
-      '8,500+ offers across multiple niches',
-      'Fast payout — weekly payments available',
-      'Stronger in European markets than ClickBank',
-      'Good for health, finance, and self-help niches'
+      '13 years in business — Germany',
+      'Some recurring (~$5-15/mo on subscriptions)',
+      '8,500+ offers — 40-75% commissions',
+      'Weekly payments available'
     ],
     cons: [
       'Smaller selection than ClickBank in the US market',
@@ -1747,25 +1741,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate marketplace — 50-100% commissions, instant PayPal payments',
-    overall_rating: 3.0,
+    overall_rating: 2.0,
     residual_rating: 2.0,
     simplicity_rating: 3.5,
     transparency_rating: 2.5,
     community_rating: 3.0,
     value_rating: 3.0,
     pros: [
-      'Free to join as an affiliate',
-      '50-100% commissions — among the highest in digital marketing',
-      'Instant PayPal payments on many offers',
-      'Active marketplace with frequent new product launches',
-      'Good for email list promotions and launches'
+      '11+ years in business',
+      'Minimal recurring (mostly one-time)',
+      '50-100% commissions',
+      'Instant PayPal payments'
     ],
     cons: [
-      'Notorious for low-quality "make money online" products',
-      'Many products make exaggerated income claims',
-      'High refund rates on lower-quality products damage reputation',
-      'Requires vendor approval per product for new affiliates',
-      'Platform dominated by get-rich-quick style offers'
+      'Mostly one-time sales',
+      'Low-quality product reputation',
+      'Exaggerated income claims',
+      'High refund rates'
     ],
     quick_facts: {
       'Founded': '2006',

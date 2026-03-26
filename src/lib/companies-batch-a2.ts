@@ -13,24 +13,23 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'CPA (Cost Per Acquisition)',
-    overall_rating: 4.0,
+    overall_rating: 1.5,
     residual_rating: 1.5,
     simplicity_rating: 4.5,
     transparency_rating: 4.0,
     community_rating: 3.5,
     value_rating: 4.5,
     pros: [
-      'High payouts — $65-130+ per qualified referral',
-      'Free to join with no minimum traffic requirements',
-      'Strong brand recognition in web hosting space',
-      'WordPress.org officially recommends Bluehost'
+      '22 years in business — WordPress recommended',
+      'Zero residual ($65-130 one-time)',
+      'High one-time payouts',
+      'Strong brand recognition'
     ],
     cons: [
-      'One-time commission only — no recurring revenue',
-      'Owned by Newfold Digital, which manages many budget hosting brands',
-      '90-day cookie window is good but payouts take 45-70 days',
-      'Commission only paid for new customers, not renewals',
-      'Support quality has declined according to industry reviews'
+      'No recurring — one-time only',
+      'Newfold Digital ownership concerns',
+      '45-70 day payment delay',
+      'Support quality declined'
     ],
     quick_facts: {
       'Founded': '2003',
@@ -63,21 +62,21 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'CPA (minimum $200 per sale)',
-    overall_rating: 4.3,
+    overall_rating: 2.0,
     residual_rating: 2.0,
     simplicity_rating: 4.0,
     transparency_rating: 4.5,
     community_rating: 4.0,
     value_rating: 4.0,
     pros: [
-      'Industry-leading payouts — $200 minimum or 100% of first month\'s payment',
-      'Premium hosting service converts well with professional audiences',
-      'Includes StudioPress themes (Genesis) referrals ($35/sale)',
-      'Strong brand reputation in WordPress enterprise space'
+      '15 years in business — premium WordPress',
+      'Zero residual ($200+ one-time)',
+      'Industry-leading payouts',
+      'Strong enterprise reputation'
     ],
     cons: [
-      'Higher price point ($30+/month minimum) means smaller audience',
-      'One-time commission only — no recurring revenue share',
+      'No recurring — one-time only',
+      'Higher price point limits audience',
       '180-day cookie is generous but still CPA-only model',
       'Primarily appeals to developers and agencies, not beginners',
       'Competitive managed hosting market with alternatives'
@@ -113,24 +112,23 @@ export const companiesBatchA2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Revenue share (up to 60%)',
-    overall_rating: 3.8,
+    overall_rating: 2.0,
     residual_rating: 2.0,
     simplicity_rating: 4.5,
     transparency_rating: 3.5,
     community_rating: 3.5,
     value_rating: 4.0,
     pros: [
-      'High commission rate — up to 60% of sale value',
-      'Very affordable hosting converts well (plans from $2.99/mo)',
-      'Strong global presence — 29M+ users in 178 countries',
-      'Fast-growing brand with aggressive marketing'
+      '21 years in business — 29M+ users',
+      'Zero residual (one-time up to 60%)',
+      'Affordable pricing converts well',
+      '178 countries — global reach'
     ],
     cons: [
-      'Budget positioning means lower absolute commission amounts',
-      'One-time commission — no recurring revenue',
-      '30-day cookie window is shorter than competitors',
-      'Support quality varies according to reviews',
-      'Aggressive upselling tactics may affect customer retention'
+      'No recurring — one-time only',
+      'Budget = lower absolute payouts',
+      '30-day cookie (shorter than others)',
+      'Support quality varies'
     ],
     quick_facts: {
       'Founded': '2004',
