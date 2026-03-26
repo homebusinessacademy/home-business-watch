@@ -1607,5 +1607,64 @@ export const companiesBatchC1a: Company[] = [
         answer: "X39 patches typically cost $150+ per month, making them one of the more expensive MLM products. Users are expected to wear patches continuously for claimed benefits."
       }
     ]
+  },
+  {
+    id: "165",
+    slug: "xyngular",
+    name: "Xyngular",
+    category: "mlm",
+    founded_year: 2009,
+    hq_location: "Lehi, UT",
+    website: "https://xyngular.com",
+    products_summary: "Xyngular is a weight loss and wellness MLM founded in 2009, positioning itself as a 'biohacking company.' Products focus on gut health, weight management, and longevity — including the flagship 8-Day Jumpstart program, GLP-X appetite support, Trimstix, and Complete Probiotic. The company emphasizes 'clinical level dosages' and clean ingredients. According to their 2024 income disclosure, 53.76% of active Partners earned no commissions, and among those who did earn, 57.6% made under $250 for the year. The median annual income for sponsors was $196.40.",
+    monthly_cost_min: 75,
+    monthly_cost_max: 200,
+    comp_plan_type: "unilevel",
+    overall_rating: 2.3,
+    residual_rating: 2.2,
+    simplicity_rating: 2.4,
+    transparency_rating: 2.5,
+    community_rating: 2.6,
+    value_rating: 2.2,
+    pros: [
+      "Transparent income disclosure with detailed breakdowns",
+      "Products manufactured in FDA-registered facilities",
+      "Strong focus on gut health and weight management",
+      "Lower entry cost ($49.95 annual partner fee) than many MLMs",
+      "81% of consumers are retail customers (not distributors)"
+    ],
+    cons: [
+      "Over half of active partners earn nothing",
+      "Median sponsor earnings under $200/year before expenses",
+      "Weight loss claims have received BBB/DSSRC scrutiny",
+      "Premium pricing ($52-$75 per product) limits retail market"
+    ],
+    quick_facts: {
+      "Founded": "2009 in Lehi, Utah",
+      "Flagship": "8-Day Jumpstart, GLP-X",
+      "Annual Revenue": "~$103 million (2024)",
+      "Partner Fee": "$49.95/year",
+      "Earned Nothing": "53.76% of active partners",
+      "Median Sponsor Income": "$196/year"
+    },
+    last_updated: "2026-03-25",
+    is_featured: false,
+    is_published: true,
+    created_at: "2026-03-25T00:00:00Z",
+    tagline: "Utah-based weight loss and biohacking MLM with transparent income data",
+    faq: [
+      {
+        question: "How much can you realistically make with Xyngular?",
+        answer: "According to Xyngular's 2024 income disclosure, 53.76% of active partners earned no commissions at all. Among those who did earn, the median annual income for sponsors was $196.40 — before expenses like product purchases, events, and marketing materials."
+      },
+      {
+        question: "What is the Xyngular 8-Day Jumpstart?",
+        answer: "The 8-Day Jumpstart is Xyngular's flagship weight loss program designed to reset metabolism with high-protein, low-sugar eating combined with their supplement stack. Typical results are 1-2 lbs according to company disclosures."
+      },
+      {
+        question: "Is Xyngular a pyramid scheme?",
+        answer: "Xyngular is a legal MLM, not a pyramid scheme. They emphasize that no income is paid for recruiting — commissions come only from product sales. However, like most MLMs, the majority of participants don't earn meaningful income."
+      }
+    ]
   }
 ];
