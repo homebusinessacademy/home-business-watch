@@ -13,6 +13,7 @@ export function Header() {
     { href: '/income-disclosure', label: 'Income Data' },
     { href: '/guides', label: 'Guides' },
     { href: '/news', label: '📰 News' },
+    { href: '/how-we-rate', label: '⚖️ How We Rate' },
   ];
 
   return (
