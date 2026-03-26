@@ -2786,7 +2786,7 @@ export const extendedCompanies: Company[] = [
         answer: '4Life has been in business since 1998 and is known for its Transfer Factor immune support products. Compensation depends on building a customer base. TINA.org reviewed 4Life\'s income claims in 2024 for FTC compliance.'
       }
     ],
-    tagline: 'Transfer factor immune supplement MLM — 26 years, 80+ countries',
+    tagline: 'Transfer Factor MLM [25% Commission, ~$20/Customer]',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
     is_published: true,

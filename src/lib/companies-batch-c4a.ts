@@ -751,7 +751,7 @@ export const companiesBatchC4a: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: "2026-03-20T00:00:00Z",
-    tagline: "Leading European freelance marketplace",
+    tagline: "European Freelance Platform [7-10% Commission]",
     faq: [
       {
         question: "Is Malt available outside Europe?",

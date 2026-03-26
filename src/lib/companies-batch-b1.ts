@@ -336,7 +336,7 @@ export const companiesBatchB1: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'Free print-on-demand merch platform for creators',
+    tagline: 'Sell Merch Free [$3-8 Profit Per Item]',
     faq: [
       { question: 'Is Spring (Teespring) free to use?', answer: 'Yes — Spring is completely free. You design products, set your selling price above the base cost, and keep the profit margin. There are no monthly fees, listing fees, or upfront costs. Spring handles production and shipping.' },
       { question: 'How much money can you make on Spring?', answer: 'Profits typically range from $3-8 per item sold, depending on product type and your markup. Success depends heavily on your existing audience. Most sellers make very little, while creators with large followings can earn substantial income.' },
