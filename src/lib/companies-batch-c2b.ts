@@ -921,18 +921,17 @@ export const companiesBatchC2b: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: "direct selling",
-    overall_rating: 3.1,
-    residual_rating: 2.7,
+    overall_rating: 2.8,
+    residual_rating: 2.8,
     simplicity_rating: 3.1,
     transparency_rating: 3.0,
     community_rating: 3.4,
-    value_rating: 3.0,
+    value_rating: 3.5,
     pros: [
-      "Quality activewear competes with retail athletic brands",
-      "Athleisure trend continues to grow",
-      "Strong social media and community presence",
-      "No mandatory inventory purchases required",
-      "Products appeal to fitness-conscious consumers"
+      "8 years in business — quality activewear",
+      "Per-customer residual ~$10-15 (one-time sales)",
+      "No mandatory inventory",
+      "Strong social media presence"
     ],
     cons: [
       "Extremely saturated activewear market",
@@ -1188,15 +1187,16 @@ export const companiesBatchC2b: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 99,
     comp_plan_type: "direct selling",
-    overall_rating: 1.4,
-    residual_rating: 1.0,
+    overall_rating: 1.2,
+    residual_rating: 1.2,
     simplicity_rating: 1.5,
     transparency_rating: 1.3,
     community_rating: 1.6,
     value_rating: 1.3,
     pros: [
-      "Snap jewelry trend was popular during peak years",
-      "Customization appealed to accessory enthusiasts"
+      "9 years before closure — snap jewelry trend",
+      "Minimal residual (one-time jewelry sales)",
+      "Customization appealed to enthusiasts"
     ],
     cons: [
       "DEFUNCT - Ceased operations 2022",
