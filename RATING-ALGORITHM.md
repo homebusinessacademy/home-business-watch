@@ -65,18 +65,22 @@ Affiliate programs and direct sales with **one-time purchases only** (no recurri
 
 ---
 
-### 2. Maintenance Requirements (20% weight)
+### 2. Ongoing Production Requirements (20% weight)
 
-Does the company require ongoing activity to **keep** the residual income you've already built?
+Once you build residual income, can you **keep it**? Or does the company require ongoing production to maintain your paycheck?
+
+**The test:** If you stopped working today, would your residual income continue? Or would it start disappearing because you didn't hit some quota?
+
+**Example of a bad policy:** "You must enroll X new customers per month or your residual payout is penalized and cut." This means you never truly own what you built.
 
 | Requirement | Score |
 |------------|-------|
-| No maintenance requirements — income continues without activity | 5.0 |
-| Minimal requirements (annual renewal, basic compliance) | 4.0 |
-| Personal volume requirements (monthly purchase minimums) | 2.0 |
-| Team volume requirements (organization must maintain levels) | 1.5 |
-| Leadership rank maintenance required | 1.0 |
-| Multiple maintenance requirements combined | 0.5 |
+| No ongoing requirements — keep what you build | 5.0 |
+| Simple annual renewal fee only | 4.0 |
+| Monthly new customer/enrollment requirements | 1.5 |
+| Monthly team volume requirements | 1.5 |
+| Rank maintenance (must hit monthly quotas to keep rank) | 1.0 |
+| Multiple requirements combined | 0.5 |
 
 **Key principle:** If you have to keep working to keep what you built, it's not true residual income.
 

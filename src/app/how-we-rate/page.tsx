@@ -101,12 +101,17 @@ export default function HowWeRatePage() {
         {/* Factor 2 */}
         <div className="mb-8 border-b pb-6">
           <div className="flex items-center justify-between mb-2">
-            <h3 className="text-xl font-semibold">2. Maintenance Requirements</h3>
+            <h3 className="text-xl font-semibold">2. Ongoing Production Requirements</h3>
             <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">20% weight</span>
           </div>
           <p className="text-gray-600 mb-4">
-            Does the company require ongoing activity to <em>keep</em> the residual income you've already built?
+            Once you build residual income, can you keep it? Or does the company require ongoing production to maintain your paycheck?
           </p>
+          <div className="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
+            <p className="text-red-800 text-sm">
+              <strong>Example of a bad policy:</strong> "You must enroll X new customers per month or your residual payout is penalized and cut." This means you never truly own what you built.
+            </p>
+          </div>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <thead className="bg-gray-100">
@@ -116,17 +121,17 @@ export default function HowWeRatePage() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b"><td className="p-2">No maintenance requirements</td><td className="p-2 font-semibold">5.0</td></tr>
-                <tr className="border-b"><td className="p-2">Minimal requirements (annual renewal)</td><td className="p-2 font-semibold">4.0</td></tr>
-                <tr className="border-b"><td className="p-2">Personal volume requirements</td><td className="p-2 font-semibold">2.0</td></tr>
-                <tr className="border-b"><td className="p-2">Team volume requirements</td><td className="p-2 font-semibold">1.5</td></tr>
-                <tr className="border-b"><td className="p-2">Leadership rank maintenance</td><td className="p-2 font-semibold">1.0</td></tr>
+                <tr className="border-b"><td className="p-2">No ongoing requirements — keep what you build</td><td className="p-2 font-semibold">5.0</td></tr>
+                <tr className="border-b"><td className="p-2">Simple annual renewal fee only</td><td className="p-2 font-semibold">4.0</td></tr>
+                <tr className="border-b"><td className="p-2">Monthly new customer/enrollment requirements</td><td className="p-2 font-semibold">1.5</td></tr>
+                <tr className="border-b"><td className="p-2">Monthly team volume requirements</td><td className="p-2 font-semibold">1.5</td></tr>
+                <tr className="border-b"><td className="p-2">Rank maintenance (must hit monthly quotas to keep rank)</td><td className="p-2 font-semibold">1.0</td></tr>
                 <tr><td className="p-2">Multiple requirements combined</td><td className="p-2 font-semibold">0.5</td></tr>
               </tbody>
             </table>
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            <strong>Key principle:</strong> If you have to keep working to keep what you built, it's not true residual income.
+            <strong>The test:</strong> If you stopped working today, would your residual income continue? Or would it start disappearing because you didn't hit some quota?
           </p>
         </div>
 
