@@ -168,25 +168,55 @@ export default function HowWeRatePage() {
             <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">10% weight</span>
           </div>
           <p className="text-gray-600 mb-4">
-            Do real customers actually buy and use the products, independent of the income opportunity?
+            We evaluate two things: Is this a legitimate product people actually use? And is the price reasonable compared to alternatives?
           </p>
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="bg-gray-100">
-                <tr>
-                  <th className="text-left p-2">Indicator</th>
-                  <th className="text-left p-2">Score</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b"><td className="p-2">Strong retail customer base</td><td className="p-2 font-semibold">5.0</td></tr>
-                <tr className="border-b"><td className="p-2">Moderate retail customers</td><td className="p-2 font-semibold">4.0</td></tr>
-                <tr className="border-b"><td className="p-2">Most buyers are also affiliates</td><td className="p-2 font-semibold">2.5</td></tr>
-                <tr className="border-b"><td className="p-2">Almost all customers are distributors</td><td className="p-2 font-semibold">1.5</td></tr>
-                <tr><td className="p-2">No clear product</td><td className="p-2 font-semibold">0.5</td></tr>
-              </tbody>
-            </table>
+          
+          <div className="mb-4">
+            <h4 className="font-semibold mb-2">A. Product Legitimacy</h4>
+            <p className="text-sm text-gray-600 mb-2">Is this a real product that solves a real problem?</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="text-left p-2">Indicator</th>
+                    <th className="text-left p-2">Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b"><td className="p-2">Clear, useful product with genuine demand</td><td className="p-2 font-semibold">5.0</td></tr>
+                  <tr className="border-b"><td className="p-2">Legitimate product but niche appeal</td><td className="p-2 font-semibold">3.5</td></tr>
+                  <tr className="border-b"><td className="p-2">Product exists but questionable utility</td><td className="p-2 font-semibold">2.0</td></tr>
+                  <tr><td className="p-2">Vague, unclear, or no real product</td><td className="p-2 font-semibold">0.5</td></tr>
+                </tbody>
+              </table>
+            </div>
           </div>
+
+          <div>
+            <h4 className="font-semibold mb-2">B. Price Reasonableness</h4>
+            <p className="text-sm text-gray-600 mb-2">How does pricing compare to similar products customers could buy elsewhere?</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="bg-gray-100">
+                  <tr>
+                    <th className="text-left p-2">Pricing</th>
+                    <th className="text-left p-2">Score</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-b"><td className="p-2">Competitive with retail alternatives</td><td className="p-2 font-semibold">5.0</td></tr>
+                  <tr className="border-b"><td className="p-2">Slight premium (10-30% above retail)</td><td className="p-2 font-semibold">4.0</td></tr>
+                  <tr className="border-b"><td className="p-2">Moderate premium (30-50% above retail)</td><td className="p-2 font-semibold">3.0</td></tr>
+                  <tr className="border-b"><td className="p-2">Significant premium (50-100% above retail)</td><td className="p-2 font-semibold">2.0</td></tr>
+                  <tr><td className="p-2">Extreme premium or no comparable products</td><td className="p-2 font-semibold">1.0</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          <p className="mt-4 text-sm text-gray-500">
+            <strong>Final Product Value score:</strong> Average of Legitimacy + Price Reasonableness
+          </p>
         </div>
 
         {/* Factor 5 */}

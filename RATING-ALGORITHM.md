@@ -115,15 +115,28 @@ How likely is the company to be around long-term, protecting your residual incom
 
 ### 4. Product Value (10% weight)
 
-Do real customers actually buy and use the products, independent of the income opportunity?
+We evaluate two things: Is this a legitimate product people actually use? And is the price reasonable compared to alternatives?
+
+**A. Product Legitimacy** — Is this a real product that solves a real problem?
 
 | Indicator | Score |
 |-----------|-------|
-| Strong retail customer base (non-affiliates buying regularly) | 5.0 |
-| Moderate retail customers, products have genuine demand | 4.0 |
-| Some retail customers, most buyers are also affiliates | 2.5 |
-| Almost all customers are affiliates/distributors | 1.5 |
-| No clear product or product is just a vehicle for the comp plan | 0.5 |
+| Clear, useful product with genuine demand | 5.0 |
+| Legitimate product but niche appeal | 3.5 |
+| Product exists but questionable utility | 2.0 |
+| Vague, unclear, or no real product | 0.5 |
+
+**B. Price Reasonableness** — How does pricing compare to similar products customers could buy elsewhere?
+
+| Pricing | Score |
+|---------|-------|
+| Competitive with retail alternatives | 5.0 |
+| Slight premium (10-30% above retail) | 4.0 |
+| Moderate premium (30-50% above retail) | 3.0 |
+| Significant premium (50-100% above retail) | 2.0 |
+| Extreme premium or no comparable products | 1.0 |
+
+**Final Product Value score:** Average of Legitimacy + Price Reasonableness
 
 ---
 
