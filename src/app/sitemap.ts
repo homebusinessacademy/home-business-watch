@@ -3,6 +3,7 @@ import { allCompanies as companies, comparisonPages } from '@/lib/seed-data';
 import { compPlans } from '@/lib/compensation-plans';
 import { pitfallsData } from '@/lib/pitfalls';
 import { pyramidSchemeData } from '@/lib/pyramid-scheme-data';
+import { scamData } from '@/lib/scam-data';
 import { CompanyCategory } from '@/types';
 
 const BASE_URL = 'https://www.homebusinesswatch.com';
@@ -102,5 +103,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...guidePages, ...categoryPages, ...companyPages, ...comparisonPageUrls, ...compPlanIndexPage, ...compPlanPages, ...pitfallsIndexPage, ...pitfallPages, ...pyramidSchemeIndexPage, ...pyramidSchemePages];
+  // Scam index page
+  const scamIndexPage: MetadataRoute.Sitemap = [
+    { url: `${BASE_URL}/scam`, lastModified: currentDate, changeFrequency: 'weekly', priority: 0.9 },
+  ];
+
+  // Individual scam pages
+  const scamPages: MetadataRoute.Sitemap = scamData.map((s) => ({
+    url: `${BASE_URL}/scam/${s.companySlug}`,
+    lastModified: currentDate,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...guidePages, ...categoryPages, ...companyPages, ...comparisonPageUrls, ...compPlanIndexPage, ...compPlanPages, ...pitfallsIndexPage, ...pitfallPages, ...pyramidSchemeIndexPage, ...pyramidSchemePages, ...scamIndexPage, ...scamPages];
 }
