@@ -971,7 +971,7 @@ export const companiesBatchC1b: Company[] = [
     slug: "im-mastery-academy",
     name: "IM Mastery Academy",
     category: "mlm",
-    tagline: "Forex trading education MLM with pyramid scheme red flags",
+    tagline: "Forex Education MLM — Regulatory Warnings in Multiple Countries",
     founded_year: 2013,
     hq_location: "Boca Raton, FL",
     website: "https://imarketslive.com",
@@ -1014,7 +1014,7 @@ export const companiesBatchC1b: Company[] = [
       {
         question: "Has IM Mastery Academy received regulatory warnings?",
         answer:
-          "Yes. Financial regulators in Spain, Belgium, Italy, and other countries have issued warnings about iMarketsLive/IM Mastery Academy, citing pyramid scheme characteristics and concerns about the educational claims.",
+          "Yes. Financial regulators in Spain, Belgium, Italy, and other countries have issued warnings about iMarketsLive/IM Mastery Academy, citing concerns about the compensation structure and educational claims.",
       },
       {
         question: "Can you learn forex trading from IM Academy?",
@@ -1028,12 +1028,12 @@ export const companiesBatchC1b: Company[] = [
     slug: "lyoness-myworld",
     name: "Lyoness / myWorld",
     category: "mlm",
-    tagline: "Cashback shopping network investigated as pyramid scheme in EU",
+    tagline: "Cashback Shopping Network — EU Regulatory Investigations",
     founded_year: 2003,
     hq_location: "Graz, Austria",
     website: "https://myworld-benefits.com",
     products_summary:
-      "Cashback loyalty shopping program and membership network. Investigated as pyramid scheme in multiple European countries with mixed legal outcomes.",
+      "Cashback loyalty shopping program and membership network. Has faced regulatory investigations in multiple European countries with mixed legal outcomes.",
     monthly_cost_min: 0,
     monthly_cost_max: 3000,
     comp_plan_type: "matrix",

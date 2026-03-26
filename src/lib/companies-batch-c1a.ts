@@ -844,11 +844,11 @@ export const companiesBatchC1a: Company[] = [
     faq: [
       {
         question: "Is Qnet legal?",
-        answer: "Qnet's legality varies by country. It has been banned or faces restrictions in India, Sri Lanka, Rwanda, and other nations due to pyramid scheme allegations and fraud complaints."
+        answer: "Qnet's legality varies by country. It has been banned or faces restrictions in India, Sri Lanka, Rwanda, and other nations due to regulatory concerns and consumer complaints."
       },
       {
         question: "Is Qnet a pyramid scheme?",
-        answer: "Multiple governments have classified Qnet as a pyramid scheme or investigated it for fraud. The company denies these allegations, but numerous court cases and bans exist globally."
+        answer: "Multiple governments have investigated or restricted Qnet operations. The company denies wrongdoing, but numerous court cases and bans exist globally. Check your country's regulatory status before participating."
       }
     ]
   },
@@ -1166,11 +1166,11 @@ export const companiesBatchC1a: Company[] = [
     faq: [
       {
         question: "Is Longrich legal in Africa?",
-        answer: "Longrich operates in many African countries but has faced pyramid scheme allegations and regulatory scrutiny in several nations. Legal status varies by country."
+        answer: "Longrich operates in many African countries but has faced regulatory scrutiny in several nations. Legal status varies by country."
       },
       {
         question: "Is Longrich a pyramid scheme?",
-        answer: "Longrich has faced pyramid scheme allegations in multiple countries, particularly in Africa. While they sell products, critics argue the business model emphasizes recruitment over retail sales."
+        answer: "Longrich has faced regulatory scrutiny in multiple countries, particularly in Africa. While they sell products, critics note the business model emphasizes recruitment alongside retail sales."
       }
     ]
   },
