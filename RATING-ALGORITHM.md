@@ -81,6 +81,7 @@ Does the company penalize your residual payout rate if you stop producing — or
 | Simple annual renewal fee only | 4.0 |
 | Rank/rate drops if team volume falls below threshold | 1.5 |
 | Must maintain personal production or enrollment quotas to keep rate | 1.5 |
+| Arbitrary commission cuts or clawbacks | 1.0 |
 | Multiple penalty mechanisms combined | 0.5 |
 
 **Key principle:** If you have to keep working to keep what you built, it's not true residual income.
@@ -167,7 +168,7 @@ Does the company have loopholes that can strip your residual income?
 | P&P with multiple pitfalls that could cost residual income | 1.0 |
 | Predatory P&P designed to strip income | 0.5 |
 
-**Examples of pitfalls:** Termination for minor violations, arbitrary commission cuts or clawbacks, company ability to change terms without notice.
+**Examples of pitfalls:** Termination for minor violations, company ability to change terms without notice.
 
 ---
 

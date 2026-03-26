@@ -133,6 +133,7 @@ export default function HowWeRatePage() {
                 <tr className="border-b"><td className="p-2">Simple annual renewal fee only</td><td className="p-2 font-semibold">4.0</td></tr>
                 <tr className="border-b"><td className="p-2">Rank/rate drops if team volume falls below threshold</td><td className="p-2 font-semibold">1.5</td></tr>
                 <tr className="border-b"><td className="p-2">Must maintain personal production or enrollment quotas to keep rate</td><td className="p-2 font-semibold">1.5</td></tr>
+                <tr className="border-b"><td className="p-2">Arbitrary commission cuts or clawbacks</td><td className="p-2 font-semibold">1.0</td></tr>
                 <tr className="border-b"><td className="p-2">Multiple penalty mechanisms combined</td><td className="p-2 font-semibold">0.5</td></tr>
               </tbody>
             </table>
@@ -247,7 +248,6 @@ export default function HowWeRatePage() {
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
             <li>Termination for minor violations</li>
-            <li>Arbitrary commission cuts or clawbacks</li>
             <li>Company ability to change terms without notice</li>
           </ul>
         </div>
