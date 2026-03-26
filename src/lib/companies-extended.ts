@@ -188,27 +188,28 @@ export const extendedCompanies: Company[] = [
     founded_year: 1963,
     hq_location: 'Addison, Texas, USA',
     website: 'https://marykay.com',
-    products_summary: 'Cosmetics, skincare, and fragrance products sold through a network of independent Beauty Consultants. One of the oldest and largest direct sales cosmetics companies in the world.',
+    products_summary: 'Cosmetics, skincare, and fragrance products sold through a network of independent Beauty Consultants. One of the oldest and largest direct sales cosmetics companies in the world. Beauty Consultants earn 50% profit on retail sales plus 4-13% team commissions.',
     monthly_cost_min: 0,
     monthly_cost_max: 200,
-    comp_plan_type: 'Multi-level with inventory purchase requirements',
-    overall_rating: 2.2,
-    residual_rating: 1.5,
-    simplicity_rating: 2.5,
-    transparency_rating: 2.0,
-    community_rating: 3.0,
-    value_rating: 2.0,
+    comp_plan_type: '50% retail profit + 4-13% team commissions',
+    overall_rating: 3.4,
+    residual_rating: 3.0,
+    simplicity_rating: 3.0,
+    transparency_rating: 3.0,
+    community_rating: 4.0,
+    value_rating: 3.5,
     pros: [
-      'Iconic brand with 60+ years of history',
-      'Strong community culture and recognition programs',
-      'No mandatory monthly purchase to stay active',
-      'Products are widely recognized and trusted by consumers'
+      '62 years in business — one of the longest track records in direct sales',
+      '50% retail profit is higher than most MLM commission structures',
+      'Genuine retail customer demand for cosmetics products',
+      'Lighter maintenance requirements than typical MLM (quarterly minimums)',
+      'Never missed a commission payment'
     ],
     cons: [
-      'Compensation structure requires building substantial customer base',
-      'Strong pressure to purchase and maintain inventory',
-      'Pink Cadillac incentive requires significant team and sales production',
-      'Products considered overpriced by many compared to retail alternatives'
+      'Per-customer residual moderate (~$25/mo on average orders)',
+      'Inventory management and upfront purchase encouraged',
+      'Competition from mass-market cosmetics brands',
+      'Compensation plan has evolved over decades'
     ],
     quick_facts: {
       'Founded': '1963',
@@ -776,23 +777,22 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 100,
     comp_plan_type: 'Direct sales / party plan (operations winding down post-bankruptcy)',
-    overall_rating: 1.5,
-    residual_rating: 1.0,
-    simplicity_rating: 2.0,
-    transparency_rating: 2.0,
-    community_rating: 2.0,
-    value_rating: 2.0,
+    overall_rating: 2.4,
+    residual_rating: 2.0,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.0,
+    community_rating: 3.0,
+    value_rating: 1.0,
     pros: [
-      'Iconic brand with 76 years of history and genuine product recognition',
-      'Products are functional and durable',
-      'Strong nostalgia factor — many consumers grew up with Tupperware'
+      'Iconic 79-year-old brand with genuine consumer recognition',
+      'Simple 25% commission structure',
+      'Quality products with loyal following'
     ],
     cons: [
-      'Filed Chapter 11 bankruptcy in September 2024 — future highly uncertain',
-      'Business opportunity is NOT recommended — company is in liquidation proceedings',
-      'Sales declining for years as consumers shift to Amazon, TikTok Shop',
-      'Consultant income was already low before bankruptcy',
-      'Party plan model considered outdated in digital age'
+      'Filed Chapter 11 bankruptcy (September 2024) — major stability concern',
+      'One-time purchase model means minimal residual income potential',
+      'Brand relevance declining — consumers shifted to Amazon, mass retail',
+      'Acquired out of bankruptcy by Party Products LLC — future uncertain'
     ],
     quick_facts: {
       'Founded': '1948',
@@ -2393,25 +2393,24 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 25,
     comp_plan_type: 'Direct sales with multi-level team earnings',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
-    simplicity_rating: 3.0,
-    transparency_rating: 2.0,
-    community_rating: 2.5,
-    value_rating: 2.0,
+    overall_rating: 3.0,
+    residual_rating: 2.0,
+    simplicity_rating: 4.0,
+    transparency_rating: 4.0,
+    community_rating: 4.0,
+    value_rating: 1.5,
     pros: [
-      'Iconic 138-year-old brand with global recognition',
+      '139 years in business — longest track record of any direct sales company',
+      'Free to join with no mandatory monthly purchases',
+      'Simple commission structure (25-40% based on sales volume)',
       'U.S. operations continue under LG Household & Health Care Ltd.',
-      'Low startup cost — starter kit available',
-      'Broad product catalog: cosmetics, skincare, fashion accessories'
+      'Genuine retail customer base for beauty products'
     ],
     cons: [
-      '⚠️ Avon Products Inc. filed for Chapter 11 bankruptcy in August 2024',
-      'Bankruptcy triggered by $225M+ in talcum powder personal injury lawsuit liabilities',
-      'International operations significantly affected by bankruptcy proceedings',
-      'Business opportunity highly uncertain given ongoing restructuring',
-      'Competition from Sephora, Ulta, Amazon has eroded direct sales model',
-      'Compensation depends on sales volume and team building'
+      '⚠️ Avon Products Inc. filed Chapter 11 bankruptcy (August 2024) — stability concern',
+      'Bankruptcy triggered by $225M+ talcum powder lawsuit liabilities',
+      'Lower per-customer residual (~$15/mo at entry level)',
+      'Brand relevance declining — competition from Sephora, Ulta, Amazon'
     ],
     quick_facts: {
       'Founded': '1886',
