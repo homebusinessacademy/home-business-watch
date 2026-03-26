@@ -1,12 +1,12 @@
 export interface ScamComplaint {
   complaint: string;
-  verdict: 'legitimate_concern' | 'business_model' | 'exaggerated' | 'fraud';
+  verdict: 'legitimate_concern' | 'business_model' | 'exaggerated' | 'red_flag';
 }
 
 export interface ScamData {
   companySlug: string;
   companyName: string;
-  isActualScam: boolean;
+  isHighRisk: boolean;
   directAnswer: string;
   topComplaints: ScamComplaint[];
   legalRecord: string;
@@ -17,7 +17,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'amway',
     companyName: 'Amway',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Amway is not a scam. They sell real consumer products and have operated legally since 1959. The FTC investigated them in 1979 and ruled they are a legitimate MLM, not a pyramid scheme.',
     topComplaints: [
       { complaint: 'Income opportunity exaggerated by upline recruiters who show lifestyle without showing actual income disclosures', verdict: 'legitimate_concern' },
@@ -32,7 +32,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'herbalife',
     companyName: 'Herbalife',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Herbalife is not a scam in the legal sense. The FTC investigated them thoroughly and required a $200M settlement and restructuring in 2016, but explicitly did not label them a pyramid scheme.',
     topComplaints: [
       { complaint: 'Income claims by distributors are often misleading - most earn little to nothing', verdict: 'legitimate_concern' },
@@ -47,7 +47,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'doterra',
     companyName: 'doTERRA',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, doTERRA is not a scam. They sell real essential oil products to millions of customers and have operated legally since 2008. No major FTC action has been taken against them.',
     topComplaints: [
       { complaint: 'Required 100 PV/month (~$100-150) personal purchase to earn commissions', verdict: 'business_model' },
@@ -62,7 +62,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'young-living',
     companyName: 'Young Living',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Young Living is not a scam. They sell real essential oil products and have operated legally since 1993. The company has faced FDA warnings but not fraud charges.',
     topComplaints: [
       { complaint: '100 PV monthly requirement to stay qualified', verdict: 'business_model' },
@@ -77,7 +77,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'mary-kay',
     companyName: 'Mary Kay',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Mary Kay is not a scam. They sell real cosmetics products and have operated legally since 1963. The primary income method is genuine retail profit (50% margin), not recruitment.',
     topComplaints: [
       { complaint: 'Pressure to purchase large inventory upfront before building customer base', verdict: 'legitimate_concern' },
@@ -92,7 +92,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'monat-global',
     companyName: 'MONAT Global',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, MONAT is not a scam in the legal sense. They sell real hair care products. The controversies center on product liability claims and income expectations, not deliberate fraud.',
     topComplaints: [
       { complaint: 'Multiple class action lawsuits claiming products caused hair loss and scalp damage', verdict: 'legitimate_concern' },
@@ -107,7 +107,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'nu-skin-enterprises',
     companyName: 'Nu Skin Enterprises',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Nu Skin is not a scam. They are a publicly traded company (NYSE: NUS) with SEC oversight, selling real skincare and nutrition products since 1984.',
     topComplaints: [
       { complaint: 'Complex block-based compensation makes earnings unpredictable', verdict: 'business_model' },
@@ -122,7 +122,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'avon-products',
     companyName: 'Avon Products',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Avon is not a scam. They have sold real beauty products since 1886 and pioneered door-to-door direct sales. The company has faced financial struggles but not fraud accusations.',
     topComplaints: [
       { complaint: 'Company has changed ownership multiple times and faced bankruptcy concerns', verdict: 'legitimate_concern' },
@@ -137,7 +137,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'primerica',
     companyName: 'Primerica',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Primerica is not a scam. They sell regulated financial products (life insurance, investments), representatives must be state-licensed, and the company is publicly traded (NYSE: PRI).',
     topComplaints: [
       { complaint: 'Captive agent model - can only sell Primerica products, limiting options for clients', verdict: 'legitimate_concern' },
@@ -152,7 +152,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'melaleuca',
     companyName: 'Melaleuca',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Melaleuca is not a scam. They sell real wellness and household products and position themselves as a "consumer direct" company rather than a traditional MLM.',
     topComplaints: [
       { complaint: 'Monthly 35 Product Points (~$55-70) required to stay qualified', verdict: 'business_model' },
@@ -167,7 +167,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'usana-health-sciences',
     companyName: 'USANA Health Sciences',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, USANA is not a scam. They are a publicly traded company (NYSE: USNA) selling real nutritional supplements and skincare products since 1992.',
     topComplaints: [
       { complaint: 'Binary compensation model requires balancing two legs to maximize earnings', verdict: 'business_model' },
@@ -182,7 +182,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'isagenix',
     companyName: 'Isagenix',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Isagenix is not a scam. They sell real weight loss and nutrition products and have operated legally since 2002. No major FTC action has been taken against them.',
     topComplaints: [
       { complaint: 'Binary structure requires building two balanced legs to earn', verdict: 'business_model' },
@@ -197,7 +197,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'rodan-fields',
     companyName: 'Rodan + Fields',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Rodan + Fields is not a scam. They sold real dermatologist-developed skincare products through their MLM model. In September 2024, they ended the MLM structure entirely and became a single-level affiliate program.',
     topComplaints: [
       { complaint: 'Multi-level income eliminated overnight in September 2024 - consultants lost downline income', verdict: 'legitimate_concern' },
@@ -211,7 +211,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'lularoe',
     companyName: 'LuLaRoe',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, LuLaRoe is not a scam in the strict legal sense - they sell real clothing products. However, they have faced more legal action than most MLMs, including a Washington state AG lawsuit and settlement.',
     topComplaints: [
       { complaint: 'Failed to honor buyback policies, leaving retailers stuck with unsellable inventory', verdict: 'legitimate_concern' },
@@ -226,7 +226,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'plexus-worldwide',
     companyName: 'Plexus Worldwide',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Plexus is not a scam. They sell real health and wellness products including their popular "Pink Drink" and gut health supplements. No major FTC action has been taken.',
     topComplaints: [
       { complaint: 'Earn 0% commission if under 100 PV monthly — harsh threshold', verdict: 'business_model' },
@@ -241,7 +241,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'forever-living-products',
     companyName: 'Forever Living Products',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Forever Living is not a scam. They sell real aloe vera-based health and beauty products and have operated legally since 1978. They are one of the world\'s largest aloe vera product manufacturers.',
     topComplaints: [
       { complaint: 'Only 5% discount at entry level - must invest to reach 30% wholesale pricing', verdict: 'business_model' },
@@ -256,7 +256,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'scentsy',
     companyName: 'Scentsy',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Scentsy is not a scam. They sell real wax warmers and home fragrance products with genuine customer demand. The company has operated legally since 2004.',
     topComplaints: [
       { complaint: 'April 2025: Active status now requires 250 PRV (up from 200)', verdict: 'business_model' },
@@ -271,7 +271,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'pampered-chef',
     companyName: 'Pampered Chef',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Pampered Chef is not a scam. They sell real kitchen tools and cookware, owned by Berkshire Hathaway since 2002. Warren Buffett does not invest in scams.',
     topComplaints: [
       { complaint: 'Kitchen tools are durable — limited repeat purchase opportunities', verdict: 'legitimate_concern' },
@@ -286,7 +286,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'arbonne-international',
     companyName: 'Arbonne International',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Arbonne is not a scam. They sell real vegan, cruelty-free skincare and nutrition products and have operated legally since 1980.',
     topComplaints: [
       { complaint: '150 PQV monthly required for most rank qualifications', verdict: 'business_model' },
@@ -301,7 +301,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'four-life-research',
     companyName: '4Life Research',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, 4Life Research is not a scam. They sell real immune support supplements (Transfer Factor products) and have operated legally since 1998.',
     topComplaints: [
       { complaint: 'Ongoing Level 1 commissions drop from 25% first-order to 2%', verdict: 'business_model' },
@@ -316,7 +316,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'livegood',
     companyName: 'LiveGood',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, LiveGood is not technically a scam. They sell real nutritional supplements with a membership model. However, the compensation structure raises concerns about sustainability.',
     topComplaints: [
       { complaint: 'Forced 2x15 matrix heavily favors early joiners — position matters', verdict: 'legitimate_concern' },
@@ -331,37 +331,37 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'velocity-bank-network',
     companyName: 'Velocity Bank Network',
-    isActualScam: true,
-    directAnswer: 'Yes - Velocity Bank Network meets the actual definition of a scam and pyramid scheme. There is no real product or service. Money paid by new participants funds returns to earlier participants. This is textbook pyramid scheme mechanics.',
+    isHighRisk: true,
+    directAnswer: 'Velocity Bank Network exhibits multiple high-risk characteristics. There is no real product or service — money paid by new participants funds returns to earlier participants. Exercise extreme caution.',
     topComplaints: [
-      { complaint: 'No actual product or service - pure peer-to-peer money transfer dressed in crypto language', verdict: 'fraud' },
-      { complaint: 'Anonymous founders with no verifiable identities or business registration', verdict: 'fraud' },
-      { complaint: '"Two behind one" structure requires infinite recruitment to sustain payouts', verdict: 'fraud' },
-      { complaint: 'Claims of $500/day passive income are mathematically impossible without endless new money', verdict: 'fraud' },
-      { complaint: 'Unregistered with any financial regulatory body', verdict: 'fraud' },
+      { complaint: 'No actual product or service - pure peer-to-peer money transfer dressed in crypto language', verdict: 'red_flag' },
+      { complaint: 'Anonymous founders with no verifiable identities or business registration', verdict: 'red_flag' },
+      { complaint: '"Two behind one" structure requires continuous recruitment to sustain payouts', verdict: 'red_flag' },
+      { complaint: 'Claims of $500/day passive income appear mathematically unsustainable', verdict: 'red_flag' },
+      { complaint: 'Unregistered with any financial regulatory body', verdict: 'red_flag' },
     ],
-    legalRecord: 'Not registered with SEC, FTC, or any state financial regulator. Anonymous operation. No legal business structure. This is the profile of operations that regulators eventually shut down.',
-    verdict: 'This is not a home business opportunity. It is a peer-to-peer payment matrix with pyramid scheme mechanics dressed in cryptocurrency language. When recruitment slows - as it always does - participants lose their money. This is a scam.',
+    legalRecord: 'Not registered with SEC, FTC, or any state financial regulator. Anonymous operation. No legal business structure.',
+    verdict: 'Velocity Bank Network displays characteristics that regulators have historically associated with high-risk investment schemes. The peer-to-peer payment structure with no external revenue source raises significant concerns. Exercise extreme caution.',
   },
   {
     companySlug: 'superone',
     companyName: 'SuperOne (Super.One)',
-    isActualScam: true,
-    directAnswer: 'Yes — SuperOne displays classic Ponzi scheme characteristics and has a documented history of collapse and rebrand since 2019. Participants from multiple previous versions have been unable to cash out their earnings.',
+    isHighRisk: true,
+    directAnswer: 'SuperOne exhibits multiple high-risk characteristics. BehindMLM has documented three relaunch cycles since 2019, with participants from previous versions reporting withdrawal difficulties.',
     topComplaints: [
-      { complaint: 'Unable to cash out earnings from previous versions', verdict: 'fraud' },
-      { complaint: 'Compensation plan hidden from participants', verdict: 'fraud' },
-      { complaint: 'Three relaunch cycles with same structure each time', verdict: 'fraud' },
-      { complaint: 'Passive income promises not backed by real revenue', verdict: 'fraud' },
-      { complaint: 'Offshore registration makes legal recourse difficult', verdict: 'legitimate_concern' },
+      { complaint: 'Participants from previous versions have reported withdrawal difficulties', verdict: 'red_flag' },
+      { complaint: 'Compensation plan not fully transparent to participants', verdict: 'red_flag' },
+      { complaint: 'Three relaunch cycles documented by BehindMLM (2020, 2022, 2025)', verdict: 'red_flag' },
+      { complaint: 'Passive income model tied to new participant activity', verdict: 'red_flag' },
+      { complaint: 'Offshore registration in Singapore limits legal recourse', verdict: 'legitimate_concern' },
     ],
-    legalRecord: 'No formal regulatory action as of 2026, likely due to offshore Singapore registration. BehindMLM has documented three review cycles (2020, 2022, 2025) each confirming Ponzi characteristics.',
-    verdict: 'SuperOne is one of the more documented Ponzi/MLM hybrids in the crypto-entertainment space. The trivia app is real but does not generate revenue sufficient to support the passive income model. Multiple collapse cycles and participant cashout failures make this a clear avoid.',
+    legalRecord: 'No formal regulatory action as of 2026, likely due to offshore Singapore registration. BehindMLM has documented three review cycles (2020, 2022, 2025) noting concerns about the business model.',
+    verdict: 'SuperOne has been reviewed by BehindMLM three times since 2019, with each review documenting participant withdrawal concerns. The trivia app is functional but the passive income model raises questions about sustainability. Exercise extreme caution.',
   },
   {
     companySlug: 'five-rings-financial',
     companyName: 'Five Rings Financial',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Five Rings Financial is not a scam. They sell real licensed insurance products (life insurance, annuities, retirement planning), agents must pass state licensing exams, and the company operates legally within the insurance industry.',
     topComplaints: [
       { complaint: 'MLM-style recruiting pressure rather than focus on insurance sales', verdict: 'legitimate_concern' },
@@ -376,7 +376,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'mwr-financial',
     companyName: 'MWR Financial (MWR Life)',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, MWR Financial is not a scam in the legal sense. They sell real subscription products (Financial Edge financial tools, Travel Advantage travel savings). The concerns are about the binary compensation complexity and company rebranding history, not deliberate fraud.',
     topComplaints: [
       { complaint: 'Company has rebranded multiple times since 2013 — suggests business model instability', verdict: 'legitimate_concern' },
@@ -391,7 +391,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'unicity-international',
     companyName: 'Unicity International',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Unicity International is not a scam. They have operated since 1991, sell real health and wellness products, and have over 70 years of combined corporate history through mergers. The company operates legally in multiple countries.',
     topComplaints: [
       { complaint: 'Compensation plan not publicly disclosed — cannot evaluate opportunity fully', verdict: 'legitimate_concern' },
@@ -406,7 +406,7 @@ export const scamData: ScamData[] = [
   {
     companySlug: 'kajabi-platform',
     companyName: 'Kajabi',
-    isActualScam: false,
+    isHighRisk: false,
     directAnswer: 'No, Kajabi is not a scam. It\'s a legitimate SaaS company (course platform) founded in 2010 with a standard affiliate program. Unlike MLMs, there\'s no multi-level structure, no recruitment requirements, and no questionable business practices. It\'s used by thousands of course creators and has a solid reputation in the knowledge commerce industry.',
     topComplaints: [
       { complaint: 'Must be a paying Kajabi customer ($89-399/month) to join the partner program', verdict: 'business_model' },
@@ -435,12 +435,12 @@ export function getAllScamSlugs(): string[] {
   return scamData.map((s) => s.companySlug);
 }
 
-// Get scam data sorted (actual scams last, then alphabetically)
+// Get scam data sorted (high risk first, then alphabetically)
 export function getScamDataSorted(): ScamData[] {
   return [...scamData].sort((a, b) => {
-    // Put actual scams last
-    if (a.isActualScam && !b.isActualScam) return 1;
-    if (!a.isActualScam && b.isActualScam) return -1;
+    // Put high risk first
+    if (a.isHighRisk && !b.isHighRisk) return -1;
+    if (!a.isHighRisk && b.isHighRisk) return 1;
     // Alphabetically
     return a.companyName.localeCompare(b.companyName);
   });

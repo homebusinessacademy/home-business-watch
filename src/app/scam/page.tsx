@@ -25,8 +25,8 @@ export default function ScamIndexPage() {
   const scamData = getScamDataSorted();
 
   // Separate actual scams from legitimate companies
-  const legitimateCompanies = scamData.filter((s) => !s.isActualScam);
-  const actualScams = scamData.filter((s) => s.isActualScam);
+  const legitimateCompanies = scamData.filter((s) => !s.isHighRisk);
+  const actualScams = scamData.filter((s) => s.isHighRisk);
 
   // Build FAQ Schema
   const faqSchema = {

@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   }
 
   // Create curiosity-driven description (150-160 chars max)
-  const metaDescription = data.isActualScam
+  const metaDescription = data.isHighRisk
     ? `Is ${data.companyName} a scam? We examined the legal record and complaints. What we found confirms the worst fears.`
     : `Is ${data.companyName} a scam? Before you decide, read what we found in the complaints, lawsuits, and distributor agreement.`;
 
@@ -61,7 +61,7 @@ export default async function ScamPage({ params }: PageProps) {
   }
 
   const company = getCompanyBySlug(slug);
-  const isActualScam = data.isActualScam;
+  const isHighRisk = data.isHighRisk;
 
   // Build FAQ Schema
   const faqItems = [
@@ -75,7 +75,7 @@ export default async function ScamPage({ params }: PageProps) {
     },
   ];
 
-  if (!isActualScam) {
+  if (!isHighRisk) {
     faqItems.push(
       {
         '@type': 'Question',
@@ -132,14 +132,14 @@ export default async function ScamPage({ params }: PageProps) {
     legitimate_concern: 'bg-amber-100 text-amber-800 border-amber-200',
     business_model: 'bg-blue-100 text-blue-800 border-blue-200',
     exaggerated: 'bg-gray-100 text-gray-800 border-gray-200',
-    fraud: 'bg-red-100 text-red-800 border-red-200',
+    red_flag: 'bg-red-100 text-red-800 border-red-200',
   };
 
   const verdictLabels = {
     legitimate_concern: 'Legitimate Concern',
     business_model: 'Business Model Issue',
     exaggerated: 'Exaggerated',
-    fraud: 'Red Flag',
+    red_flag: 'Red Flag',
   };
 
   return (
@@ -185,19 +185,16 @@ export default async function ScamPage({ params }: PageProps) {
 
           {/* The Direct Answer Box */}
           <section className={`rounded-xl border-2 p-6 md:p-8 ${
-            isActualScam
+            isHighRisk
               ? 'bg-red-50 border-red-400'
-              : 'bg-amber-50 border-amber-400'
+              : 'bg-green-50 border-green-400'
           }`}>
             <div className="flex items-center gap-3 mb-4">
-              <span className={`text-4xl font-bold ${isActualScam ? 'text-red-700' : 'text-emerald-700'}`}>
-                {isActualScam ? 'Yes.' : 'No.'}
-              </span>
-              <span className={`text-xl ${isActualScam ? 'text-red-800' : 'text-gray-800'}`}>
-                {data.companyName} is {isActualScam ? '' : 'not '}a scam{isActualScam ? '' : ' in the legal sense'}.
+              <span className={`text-3xl font-bold ${isHighRisk ? 'text-red-700' : 'text-emerald-700'}`}>
+                {isHighRisk ? '⚠️ High Risk' : '✓ Legitimate Company'}
               </span>
             </div>
-            <p className={`text-lg ${isActualScam ? 'text-red-900' : 'text-gray-800'}`}>
+            <p className={`text-lg ${isHighRisk ? 'text-red-900' : 'text-gray-800'}`}>
               {data.directAnswer}
             </p>
           </section>
@@ -215,7 +212,7 @@ export default async function ScamPage({ params }: PageProps) {
                 Examples of actual scams: OneCoin (fake cryptocurrency, $4-25 billion stolen), BitConnect (Ponzi scheme with fake trading bots), or "work from home" schemes that take your money and disappear.
               </p>
               <p className="text-gray-600 italic">
-                {isActualScam
+                {isHighRisk
                   ? `${data.companyName} fits this definition - there is no real product, and money from new participants funds returns to earlier ones.`
                   : `Most MLM complaints are about the business model being unfavorable, not criminal fraud. A bad business opportunity is not the same as a scam. ${data.companyName} sells real products and operates legally.`
                 }
@@ -240,7 +237,7 @@ export default async function ScamPage({ params }: PageProps) {
                 </div>
               ))}
             </div>
-            {!isActualScam && hasPitfalls(slug) && (
+            {!isHighRisk && hasPitfalls(slug) && (
               <div className="mt-4">
                 <Link
                   href={`/pitfalls/${slug}`}
@@ -261,16 +258,16 @@ export default async function ScamPage({ params }: PageProps) {
               What the Legal Record Shows
             </h2>
             <div className={`rounded-lg p-6 ${
-              isActualScam ? 'bg-red-50 border border-red-200' : 'bg-gray-50 border border-gray-200'
+              isHighRisk ? 'bg-red-50 border border-red-200' : 'bg-gray-50 border border-gray-200'
             }`}>
-              <p className={`text-lg ${isActualScam ? 'text-red-900' : 'text-gray-800'}`}>
+              <p className={`text-lg ${isHighRisk ? 'text-red-900' : 'text-gray-800'}`}>
                 {data.legalRecord}
               </p>
             </div>
           </section>
 
           {/* Red Flags vs Normal Business Complaints */}
-          {!isActualScam && (
+          {!isHighRisk && (
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">
                 Red Flags vs Normal Business Complaints
@@ -341,18 +338,18 @@ export default async function ScamPage({ params }: PageProps) {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Verdict</h2>
             <div className={`rounded-xl border-2 p-6 ${
-              isActualScam
+              isHighRisk
                 ? 'bg-red-50 border-red-400'
                 : 'bg-emerald-50 border-emerald-400'
             }`}>
-              <p className={`text-lg ${isActualScam ? 'text-red-900' : 'text-emerald-900'}`}>
+              <p className={`text-lg ${isHighRisk ? 'text-red-900' : 'text-emerald-900'}`}>
                 {data.verdict}
               </p>
             </div>
           </section>
 
           {/* Related Links */}
-          {!isActualScam && (
+          {!isHighRisk && (
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Related Resources</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -397,7 +394,7 @@ export default async function ScamPage({ params }: PageProps) {
           )}
 
           {/* For actual scams, show warning resources */}
-          {isActualScam && (
+          {isHighRisk && (
             <section>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Protect Yourself</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
