@@ -117,7 +117,7 @@ How likely is the company to be around long-term, protecting your residual incom
 
 We evaluate two things: Is this a legitimate product people actually use? And is the price reasonable compared to alternatives?
 
-**A. Product Legitimacy** — Is this a real product that solves a real problem?
+**A. Product Legitimacy** — Is this a real product that solves a real problem or provides a real benefit?
 
 | Indicator | Score |
 |-----------|-------|

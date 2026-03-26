@@ -173,7 +173,7 @@ export default function HowWeRatePage() {
           
           <div className="mb-4">
             <h4 className="font-semibold mb-2">A. Product Legitimacy</h4>
-            <p className="text-sm text-gray-600 mb-2">Is this a real product that solves a real problem?</p>
+            <p className="text-sm text-gray-600 mb-2">Is this a real product that solves a real problem or provides a real benefit?</p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
                 <thead className="bg-gray-100">
