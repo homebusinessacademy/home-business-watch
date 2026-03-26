@@ -13,24 +13,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 25,
     monthly_cost_max: 100,
     comp_plan_type: 'Multi-level (hybrid with residual)',
-    overall_rating: 2.5,
-    residual_rating: 3.0,
+    overall_rating: 2.8,
+    residual_rating: 2.8,
     simplicity_rating: 2.5,
     transparency_rating: 2.5,
     community_rating: 2.5,
-    value_rating: 2.5,
+    value_rating: 4.0,
     pros: [
-      'Unique product offering — legal services rather than consumables',
-      'True residual income from ongoing membership subscriptions',
-      'Over 50 years in business with established infrastructure',
-      'Legitimate service that provides value to members who use it'
+      '53 years in business — true subscription residual',
+      'Per-customer residual ~$5-8/mo on memberships',
+      'Unique legal services product category',
+      'Legitimate service with real value to users'
     ],
     cons: [
-      'Per-customer residual is modest; significant income requires consistent sales or team',
-      'Associate turnover common as with most direct sales models',
-      'Compensation structure rewards team building alongside personal sales',
-      'Monthly membership retention requires ongoing customer engagement',
-      'Service-based product differs from typical consumable MLM products'
+      'Per-customer residual modest (~$5-8/mo)',
+      'Associate turnover common',
+      'Retention requires engagement',
+      'Team-building component in comp plan'
     ],
     quick_facts: {
       'Founded': '1972 (as Pre-Paid Legal Services)',
@@ -62,22 +61,22 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level (insurance agency hierarchy)',
-    overall_rating: 2.3,
-    residual_rating: 2.5,
+    overall_rating: 2.4,
+    residual_rating: 2.4,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'No inventory or product purchases required',
-      'Legitimate insurance products from recognized carriers',
-      'Residual commissions from policy renewals',
-      'Training and licensing support provided'
+      '16 years in business — no inventory required',
+      'Per-customer residual ~$10-20/mo on policy renewals',
+      'Legitimate insurance from recognized carriers',
+      'Training and licensing support'
     ],
     cons: [
-      'Agent turnover common in insurance sales industry',
-      'Upfront costs for licensing, E&O insurance, and leads can be substantial',
-      'Compensation structure includes agency-building component alongside personal sales',
+      'Per-customer residual moderate (~$10-20/mo)',
+      'Licensing costs upfront',
+      'High agent turnover',
       'Insurance sales requires state licensing and ongoing compliance',
       'Commission-based income varies with sales performance'
     ],
@@ -209,23 +208,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 75,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (binary)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 1.8,
+    residual_rating: 1.8,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Unique product concept with Skincerity barrier technology',
-      'Some customers report positive results with skincare products',
-      'Lower startup costs than some MLMs'
+      '16 years in business — unique Skincerity tech',
+      'Per-customer residual ~$5-8/mo on subscriptions',
+      'Lower startup costs than some MLMs',
+      'Some positive customer results'
     ],
     cons: [
-      'Company has undergone multiple restructurings',
-      'Limited independent verification of product claims',
-      'No published income disclosure data',
-      'Skincare products priced at premium compared to retail alternatives',
-      'Smaller company with limited brand recognition'
+      'Very low per-customer residual (~$5-8/mo)',
+      'Multiple restructurings',
+      'No income disclosure',
+      'Limited brand recognition'
     ],
     quick_facts: {
       'Founded': '2009',
@@ -257,23 +256,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 75,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (unilevel/merged company)',
-    overall_rating: 2.0,
+    overall_rating: 1.5,
     residual_rating: 1.5,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Featured exotic "superfruits" that attracted health-conscious consumers',
-      'International expansion brought products to multiple markets',
-      'Mangosteen and Moringa have some documented health benefits'
+      'Merged into Isagenix (2020) — still accessible',
+      'Exotic superfruit products had loyal base',
+      'International presence before merger',
+      'Mangosteen/Moringa have health benefits'
     ],
     cons: [
-      'Company no longer operates independently — merged into Isagenix (2020)',
-      'FTC settlement in 2021 addressed health and income claims',
-      'Products were priced at premium compared to retail superfruit alternatives',
-      'Multiple corporate transitions created instability for distributors',
-      'Brands effectively discontinued as independent entities'
+      'No longer operates independently',
+      'FTC settlement 2021 — deceptive claims',
+      'Multiple corporate transitions',
+      'Brands discontinued as independent entities'
     ],
     quick_facts: {
       'Founded': '2002 (Xango), 2005 (Zija)',
@@ -305,19 +304,21 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (binary)',
-    overall_rating: 1.8,
-    residual_rating: 1.5,
+    overall_rating: 1.7,
+    residual_rating: 1.7,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Challenge-based marketing created community engagement',
-      'Products helped some participants with weight loss goals',
-      'Lower-cost shakes compared to some competitors'
+      '20 years in business — challenge format engaging',
+      'Per-customer residual ~$5-8/mo on subscriptions',
+      'Lower-cost shakes vs some competitors',
+      'Some weight loss success stories'
     ],
     cons: [
-      'Bankruptcy restructuring in 2012 created challenges for distributor force',
+      'Very low per-customer residual (~$5-8/mo)',
+      'Bankruptcy restructuring (2012)',
       'Revenue declined significantly from $600M peak (2012)',
       'Class action lawsuits addressed product and income claim concerns',
       'Per-customer residuals modest; growth required team building',
@@ -354,23 +355,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 100,
     comp_plan_type: 'Multi-level (affiliate/referral)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 1.7,
+    residual_rating: 1.7,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 2.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Products serve legitimate preparedness market',
-      'GMO-free and cleaner ingredients than some competitors',
-      'No monthly autoship requirements'
+      '14 years in business — legitimate prep market',
+      'GMO-free products with 25-year shelf life',
+      'No monthly autoship',
+      'Real preparedness value'
     ],
     cons: [
-      'Emergency food purchases are typically one-time, limiting repeat sales',
-      'Starter kits cost $199-500, requiring upfront investment',
-      'Similar products available through retail emergency food companies',
-      'Niche market limits customer base compared to consumable MLMs',
-      'Per-sale income modest; requires consistent prospecting'
+      'One-time purchases = minimal residual',
+      '$199-500 starter kit upfront',
+      'Niche market limits customer base',
+      'Similar products in retail cheaper'
     ],
     quick_facts: {
       'Founded': '2011',
@@ -402,23 +403,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 100,
     comp_plan_type: 'Single-level affiliate (converted 2019)',
-    overall_rating: 1.5,
-    residual_rating: 1.0,
+    overall_rating: 1.3,
+    residual_rating: 1.3,
     simplicity_rating: 2.5,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Now operates as single-level affiliate without pyramid structure',
-      'Products are legitimate sports nutrition supplements',
-      'No more recruitment-based compensation'
+      'Now single-level affiliate (reformed)',
+      'Products still legitimate sports nutrition',
+      'No recruitment compensation now',
+      'Simpler structure post-settlement'
     ],
     cons: [
-      'FTC determined pyramid scheme structure in 2019; $150M settlement',
-      'FTC found 72% of distributors earned nothing under MLM structure',
-      'Top distributors paid $4 million in consumer redress',
-      'Required to convert to single-level affiliate model',
-      'Company reputation impacted by regulatory action'
+      'FTC found pyramid scheme — $150M settlement (2019)',
+      '72% of distributors earned nothing',
+      'Top distributors paid $4M redress',
+      'Reputation severely damaged'
     ],
     quick_facts: {
       'Founded': '1993',
@@ -451,21 +452,21 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 20,
     monthly_cost_max: 60,
     comp_plan_type: 'Multi-level (unilevel)',
-    overall_rating: 2.3,
-    residual_rating: 2.0,
+    overall_rating: 2.2,
+    residual_rating: 2.2,
     simplicity_rating: 2.5,
     transparency_rating: 2.0,
     community_rating: 2.5,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Unique product — physical cards and gifts in digital age',
-      'Legitimate service that customers actually use',
-      'Good for relationship-building and customer appreciation',
-      'Subscription model provides recurring revenue potential'
+      '22 years in business — unique physical card service',
+      'Per-customer residual ~$5-10/mo on subscriptions',
+      'Legitimate service customers actually use',
+      'Good for relationship building'
     ],
     cons: [
-      'Card and gift market faces digital disruption',
-      'Per-customer residual is modest; requires consistent sales activity',
+      'Low per-customer residual (~$5-10/mo)',
+      'Digital disruption threatens market',
       'Monthly subscription costs to maintain business access',
       'Pricing reflects MLM structure compared to direct alternatives',
       'Building significant income requires team development'
@@ -500,24 +501,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (unilevel)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 2.3,
+    residual_rating: 2.3,
     simplicity_rating: 2.0,
     transparency_rating: 2.0,
     community_rating: 2.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Long company history — among oldest supplement companies',
-      'Own manufacturing facility provides quality control',
-      'International presence in 60+ countries',
-      'Legitimate supplements with standard formulations'
+      '89 years in business — one of the oldest',
+      'Per-customer residual ~$8-12/mo on subscriptions',
+      'Own manufacturing facility',
+      '60+ countries worldwide'
     ],
     cons: [
-      'No published income disclosure statement',
-      'Products priced at premium compared to retail alternatives',
-      'Per-customer residual is modest; requires volume or team for significant income',
-      'Competition from mass-market retail supplement brands',
-      'International shipping logistics can be complex'
+      'Low per-customer residual (~$8-12/mo)',
+      'No income disclosure published',
+      'Premium vs retail alternatives',
+      'Competition from mass-market brands'
     ],
     quick_facts: {
       'Founded': '1936',
@@ -549,23 +549,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 100,
     comp_plan_type: 'Multi-level (binary)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 1.7,
+    residual_rating: 1.7,
     simplicity_rating: 1.5,
     transparency_rating: 1.5,
     community_rating: 2.0,
     value_rating: 1.5,
     pros: [
-      'Wearable tech market has genuine consumer interest',
-      'HELO device offered unique health monitoring features',
-      'International expansion provided market opportunities'
+      '14 years in business — wearable tech market',
+      'Per-customer residual ~$3-5/mo (one-time dominant)',
+      'HELO health monitoring features',
+      'International expansion'
     ],
     cons: [
-      'Company has pivoted products multiple times',
-      'Cryptocurrency integration added complexity',
-      'Wearable tech competes with mainstream brands like Fitbit and Apple Watch',
-      'Per-customer residual is modest; requires sales volume for significant income',
-      'Limited transparency about company operations'
+      'Minimal residual (one-time sales model)',
+      'Multiple product pivots',
+      'Competes with Apple/Fitbit',
+      'Limited operational transparency'
     ],
     quick_facts: {
       'Founded': '2011',
@@ -598,23 +598,22 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_max: 200,
     comp_plan_type: 'Multi-level (binary)',
     overall_rating: 2.0,
-    residual_rating: 1.5,
+    residual_rating: 2.0,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'Founder has decades of industry experience from Neways',
-      'Products emphasize clean ingredients and safety',
-      'Wide product range across multiple categories',
-      'Own manufacturing facility'
+      '19 years in business — own manufacturing',
+      'Per-customer residual ~$10-15/mo on subscriptions',
+      'Clean ingredient emphasis',
+      'Experienced founder (Tom Mower Sr.)'
     ],
     cons: [
-      'AGE Pill anti-aging claims should be evaluated individually',
-      'Products priced at premium compared to retail alternatives',
-      'No published income disclosure statement',
-      'Per-customer residual is modest; requires sales volume for significant income',
-      'Supplement health claims require individual evaluation'
+      'Low per-customer residual (~$10-15/mo)',
+      'No income disclosure',
+      'AGE Pill claims unverified',
+      'Premium pricing'
     ],
     quick_facts: {
       'Founded': '2006',
@@ -647,24 +646,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 50,
     monthly_cost_max: 150,
     comp_plan_type: 'Multi-level (unilevel)',
-    overall_rating: 2.0,
-    residual_rating: 2.0,
+    overall_rating: 2.1,
+    residual_rating: 2.1,
     simplicity_rating: 1.5,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 2.0,
+    value_rating: 3.0,
     pros: [
-      'Financial education component can provide genuine value',
-      'Combines multiple revenue streams (insurance, supplements)',
-      'Life insurance products are from legitimate carriers',
-      'Utah-based with accessible corporate team'
+      '12 years in business — dual revenue streams',
+      'Per-customer residual ~$10-20/mo (insurance + supplements)',
+      'Financial education provides value',
+      'Life insurance from legitimate carriers'
     ],
     cons: [
-      'Unusual combination of financial services and supplements is complex',
-      'Two-product-line model requires explaining both categories to prospects',
-      'Per-sale residuals are modest; significant income requires consistent activity',
-      'Financial education available through various channels',
-      'Supplement pricing reflects MLM structure'
+      'Per-customer residual modest (~$10-20/mo)',
+      'Complex dual-product model',
+      'Financial education available elsewhere',
+      'Supplement pricing reflects MLM'
     ],
     quick_facts: {
       'Founded': '2013',
@@ -696,24 +694,23 @@ export const companiesBatchB2: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Multi-level (membership sales)',
-    overall_rating: 2.0,
-    residual_rating: 1.5,
+    overall_rating: 1.8,
+    residual_rating: 1.8,
     simplicity_rating: 2.0,
     transparency_rating: 1.5,
     community_rating: 2.0,
-    value_rating: 1.5,
+    value_rating: 2.0,
     pros: [
-      'One-time membership fee rather than ongoing autoship',
-      'Discounts on legitimate products and services',
-      'Lifetime membership eliminates monthly subscription concerns',
-      'Over 25 years in business'
+      '28 years in business — one-time fee model',
+      'No autoship requirements',
+      'Lifetime membership access',
+      'Discounts on legitimate services'
     ],
     cons: [
-      'High upfront cost ($795-2,195) creates significant barrier',
-      'Similar discounts may be available through other programs',
-      'One-time membership sale model differs from recurring consumable MLMs',
-      'Membership-based model limits ongoing residual income',
-      'Value proposition requires demonstrating savings over time'
+      'One-time sales = minimal residual',
+      '$795-2,195 upfront cost barrier',
+      'Similar discounts available elsewhere',
+      'High-ticket hard sell'
     ],
     quick_facts: {
       'Founded': '1997',
