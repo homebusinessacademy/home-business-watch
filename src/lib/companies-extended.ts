@@ -4175,24 +4175,23 @@ export const extendedCompanies: Company[] = [
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: 'Affiliate network — CPA and revenue share (varies by advertiser)',
-    overall_rating: 3.7,
+    overall_rating: 2.5,
     residual_rating: 2.5,
     simplicity_rating: 3.5,
     transparency_rating: 3.5,
     community_rating: 3.0,
     value_rating: 4.0,
     pros: [
-      'Free to join',
-      '12,000+ advertisers — one of the largest networks',
-      'Strong financial services and insurance category',
-      'Net 7 payments for approved publishers (very fast)',
-      'Deep links and flexible tracking options'
+      '17 years in business — Florida',
+      'Some recurring programs (varies by advertiser)',
+      '12,000+ advertisers — one of largest',
+      'Net 7 payments (fast)'
     ],
     cons: [
-      '$25 minimum payout threshold',
-      'Interface not as polished as CJ or Impact',
-      'Some advertisers have traffic quality requirements',
-      'Less brand recognition than CJ or ShareASale among newcomers'
+      'Most programs one-time',
+      '$25 minimum payout',
+      'Interface less polished',
+      'Traffic quality requirements'
     ],
     quick_facts: {
       'Founded': '2008',
