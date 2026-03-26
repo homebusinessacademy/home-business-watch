@@ -3206,7 +3206,7 @@ export const extendedCompanies: Company[] = [
     tagline: 'Idaho wellness MLM — 8-level organization, monthly product purchase required to earn commissions',
     last_updated: '2026-01-15T00:00:00.000Z',
     is_featured: false,
-    is_published: true,
+    is_published: false,
     created_at: '2026-01-15T00:00:00.000Z'
   },
   {
