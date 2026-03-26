@@ -650,7 +650,8 @@ export const comparisonPages: ComparisonPage[] = [
 ];
 
 // Helper function to get a company by slug
-export const allCompanies: Company[] = [
+// Combine all companies, then dedupe by slug (first occurrence wins)
+const rawCompanies: Company[] = [
   ...companies,
   ...extendedCompanies,
   ...companiesBatchA1,
@@ -668,6 +669,11 @@ export const allCompanies: Company[] = [
   ...companiesBatchC5,
   ...companiesBatchC6,
 ];
+
+// Dedupe by slug - first occurrence wins (companies-extended has our algorithm-rated versions)
+export const allCompanies: Company[] = rawCompanies.filter(
+  (company, index, self) => index === self.findIndex(c => c.slug === company.slug)
+);
 
 export function getCompanyBySlug(slug: string): Company | undefined {
   return allCompanies.find(c => c.slug === slug);
