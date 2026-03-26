@@ -538,7 +538,7 @@ export const companiesBatchC4b: Company[] = [
     is_featured: false,
     is_published: true,
     created_at: "2026-03-20T00:00:00Z",
-    tagline: "Stock media for Adobe Creative Cloud users",
+    tagline: "Sell Photos & Vectors [33% Royalties, Millions of Buyers]",
     faq: [
       {
         question: "How does Adobe Stock compare to Shutterstock?",
@@ -547,6 +547,71 @@ export const companiesBatchC4b: Company[] = [
       {
         question: "What sells best on Adobe Stock?",
         answer: "Design-ready assets like vectors, templates, and quality photos that integrate well with Adobe workflows tend to perform best."
+      }
+    ]
+  },
+  {
+    id: "498",
+    slug: "amazon-associates",
+    name: "Amazon Associates",
+    category: "affiliate",
+    founded_year: 1996,
+    hq_location: "Seattle, WA",
+    website: "https://affiliate-program.amazon.com",
+    products_summary: "Amazon's affiliate program lets you earn commissions by linking to any of Amazon's 350+ million products. The world's largest affiliate program with instant brand recognition and high conversion rates. Commission rates range from 1-10% depending on product category (1% electronics, 3% home, 4.5% physical books, up to 10% luxury beauty). 24-hour cookie means you earn on anything the customer buys within 24 hours of clicking your link, not just the product you linked to.",
+    monthly_cost_min: 0,
+    monthly_cost_max: 0,
+    comp_plan_type: "affiliate",
+    overall_rating: 3.8,
+    residual_rating: 2.5,
+    simplicity_rating: 4.5,
+    transparency_rating: 4.0,
+    community_rating: 3.5,
+    value_rating: 3.5,
+    pros: [
+      "350+ million products to promote — something for every niche",
+      "Highest conversion rates in affiliate marketing (brand trust)",
+      "24-hour cookie earns on entire cart, not just linked product",
+      "Free to join, no approval needed for most products",
+      "Reliable monthly payments via direct deposit or Amazon gift card",
+      "Native shopping ads and product widgets available"
+    ],
+    cons: [
+      "Low commission rates (1-10%) compared to direct affiliate programs",
+      "24-hour cookie is short vs. 30-90 day cookies elsewhere",
+      "Account can be terminated for inactivity (no sales in 180 days)",
+      "Commission rates have been cut multiple times over the years",
+      "Must disclose affiliate relationship per FTC guidelines"
+    ],
+    quick_facts: {
+      "Commission Range": "1-10% by category",
+      "Cookie Duration": "24 hours",
+      "Payment Threshold": "$10 (direct deposit/gift card)",
+      "Products": "350+ million",
+      "Founded": "1996",
+      "Best For": "Product review sites, comparison content"
+    },
+    last_updated: "2026-03-25",
+    is_featured: false,
+    is_published: true,
+    created_at: "2026-03-25T00:00:00Z",
+    tagline: "World's Largest Affiliate Program [1-10% on 350M Products]",
+    faq: [
+      {
+        question: "How much can you make with Amazon Associates?",
+        answer: "Earnings vary wildly — from $0 to six figures monthly. Most beginners earn $100-500/month after 6-12 months of consistent content. The low commission rates (1-10%) mean you need high traffic volume. A site with 100,000 monthly visitors might earn $1,000-5,000/month depending on niche and conversion rate."
+      },
+      {
+        question: "Is Amazon Associates worth it in 2026?",
+        answer: "Yes for beginners — it's the easiest program to join and Amazon's brand trust means higher conversion rates than unknown merchants. No for high-ticket niches — you can often find direct affiliate programs paying 20-50% commission. Best used as a baseline while building relationships with higher-paying programs."
+      },
+      {
+        question: "What are Amazon Associates commission rates?",
+        answer: "Rates vary by category: Amazon Games 20%, Luxury Beauty 10%, Furniture/Home 8%, Headphones/Beauty 6%, Outdoors/Tools 5.5%, Digital Music/Video 5%, Physical Books 4.5%, Kitchen/Auto 4.5%, Amazon Fresh 3%, Toys/PC 2.5%, Video Games/Electronics 1%."
+      },
+      {
+        question: "How does the 24-hour cookie work?",
+        answer: "When someone clicks your Amazon affiliate link, you earn commission on ANYTHING they buy within 24 hours — not just the product you linked. If they add items to cart but buy within 89 days, you still earn. This 'cart addition' extends the cookie significantly for deliberate shoppers."
       }
     ]
   },
