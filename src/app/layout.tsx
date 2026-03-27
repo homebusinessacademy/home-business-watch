@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Header, Footer } from "@/components";
 import "./globals.css";
 
@@ -90,6 +91,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <Analytics />
+        <GoogleAnalytics gaId="G-F221KBWY34" />
       </body>
     </html>
   );

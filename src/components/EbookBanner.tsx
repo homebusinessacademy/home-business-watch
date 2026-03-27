@@ -1,4 +1,17 @@
+'use client';
+
+import { sendGAEvent } from '@next/third-parties/google';
+
+const CTA_URL = "https://onlinegoldrush.com?TID=HomeBizWatch";
+
 export function EbookBanner() {
+  const handleClick = () => {
+    sendGAEvent('event', 'cta_click', {
+      cta_location: 'ebook-banner',
+      cta_type: 'ebook',
+    });
+  };
+
   return (
     <div className="bg-gradient-to-r from-amber-50 to-amber-100 border border-amber-300 rounded-xl p-5 mb-10 flex flex-col sm:flex-row items-center gap-4">
       <div className="text-4xl flex-shrink-0">📖</div>
@@ -11,10 +24,11 @@ export function EbookBanner() {
         </p>
       </div>
       <a
-        href="https://onlinegoldrush.com"
+        href={CTA_URL}
         target="_blank"
         rel="noopener noreferrer"
         className="whitespace-nowrap bg-amber-500 hover:bg-amber-600 text-white font-bold px-5 py-2.5 rounded-lg text-sm transition-colors flex-shrink-0"
+        onClick={handleClick}
       >
         Get it Free →
       </a>

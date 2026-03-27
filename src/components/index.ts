@@ -9,3 +9,4 @@ export { Footer } from './Footer';
 export { CategoryFilter } from './CategoryFilter';
 export { EbookBanner } from './EbookBanner';
 export { ReportInaccuracyButton } from './ReportInaccuracyButton';
+export { TrackedCTA } from './TrackedCTA';

@@ -79,7 +79,7 @@ export default function HomePage() {
                 <p className="text-gray-300 text-xs">The model that replaced 600 MLM team members with 24 customers</p>
               </div>
               <a
-                href="https://onlinegoldrush.com"
+                href="https://onlinegoldrush.com?TID=HomeBizWatch"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="whitespace-nowrap bg-amber-500 hover:bg-amber-600 text-white text-sm font-bold px-4 py-2 rounded-lg transition-colors"

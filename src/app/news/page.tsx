@@ -392,7 +392,7 @@ export default async function NewsPage() {
             The free ebook shows you the model that replaced a 600-person MLM team with 24 customers.
           </p>
           <a
-            href="https://onlinegoldrush.com"
+            href="https://onlinegoldrush.com?TID=HomeBizWatch"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-amber-500 hover:bg-amber-600 text-white font-bold px-8 py-3 rounded-lg transition-colors"

@@ -467,7 +467,7 @@ export default async function CompanyPage({ params }: PageProps) {
                   Join thousands of successful affiliates with {company.name}
                 </p>
                 <a
-                  href="https://onlinegoldrush.com"
+                  href="https://onlinegoldrush.com?TID=HomeBizWatch"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full bg-amber-500 hover:bg-amber-600 text-navy-900 text-center px-4 py-3 rounded-lg font-semibold transition-colors"
@@ -490,7 +490,7 @@ export default async function CompanyPage({ params }: PageProps) {
                 Tired of MLM math that never adds up? This free guide shows the model that replaced a 600-person team with 24 customers.
               </p>
               <a
-                href="https://onlinegoldrush.com"
+                href="https://onlinegoldrush.com?TID=HomeBizWatch"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-amber-500 hover:bg-amber-600 text-white text-center px-4 py-2.5 rounded-lg font-semibold text-sm transition-colors"
