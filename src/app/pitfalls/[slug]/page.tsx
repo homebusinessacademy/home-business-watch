@@ -31,6 +31,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${pitfalls.companyName} Pitfalls: Hidden Policy Gotchas (${new Date().getFullYear()})`,
     description: `${pitfalls.companyName} policy pitfalls exposed. ${topPitfall.title}. ${pitfalls.riskReason} Know before you join.`,
+    alternates: {
+      canonical: `https://www.homebusinesswatch.com/pitfalls/${slug}`,
+    },
     openGraph: {
       title: `${pitfalls.companyName} Pitfalls: What They Don't Tell You`,
       description: `${pitfalls.pitfalls.length} hidden policy gotchas in ${pitfalls.companyName}'s fine print.`,

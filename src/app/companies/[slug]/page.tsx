@@ -40,6 +40,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: seoTitle,
     description: company.metaDescription || defaultDescription,
+    alternates: {
+      canonical: `https://www.homebusinesswatch.com/companies/${slug}`,
+    },
     openGraph: {
       title: seoTitle,
       description: `Honest ${company.name} review with ${company.overall_rating}/5 rating. Read our complete analysis.`,

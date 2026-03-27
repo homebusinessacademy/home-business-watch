@@ -48,6 +48,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${questionForm} The Honest Answer (${new Date().getFullYear()})`,
     description: metaDescription,
+    alternates: {
+      canonical: `https://www.homebusinesswatch.com/pyramid-scheme/${slug}`,
+    },
     openGraph: {
       title: `${questionForm} The Honest Answer`,
       description: `We looked at the actual definition and structure. Here's what we found — and what really matters for your decision.`,

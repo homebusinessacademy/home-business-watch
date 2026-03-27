@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `Is ${data.companyName} a Scam? The Honest Answer (${new Date().getFullYear()})`,
     description: metaDescription,
+    alternates: {
+      canonical: `https://www.homebusinesswatch.com/scam/${slug}`,
+    },
     openGraph: {
       title: `Is ${data.companyName} a Scam? The Honest Answer`,
       description: `We looked at actual complaints, legal records, and the business model. Here's what the evidence shows.`,

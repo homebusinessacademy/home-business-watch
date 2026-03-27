@@ -83,6 +83,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${company1.name} vs ${company2.name} ${new Date().getFullYear()} - Which Is Better?`,
     description: `${company1.name} vs ${company2.name} — which pays more per customer? We ran the numbers from both comp plans. The gap might surprise you.`,
+    alternates: {
+      canonical: `https://www.homebusinesswatch.com/compare/${slug}`,
+    },
     openGraph: {
       title: `${company1.name} vs ${company2.name} - Full Comparison`,
       description: `Which actually pays more per customer? We compared the real numbers. The winner might surprise you.`,
