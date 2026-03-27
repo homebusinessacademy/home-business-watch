@@ -4691,4 +4691,68 @@ export const extendedCompanies: Company[] = [
       },
     ],
   },
+  {
+    id: '607',
+    slug: 'power-lead-system',
+    name: 'Power Lead System',
+    tagline: 'Lead generation platform with marketing tools, landing pages, and affiliate commissions — 13 years in operation',
+    category: 'mlm',
+    founded_year: 2013,
+    hq_location: 'United States',
+    website: 'powerleadsystem.com',
+    products_summary: 'Power Lead System (PLS) is a subscription-based marketing platform offering lead generation tools including landing page builders, autoresponders, sales funnels, ad tracking, and SEO optimization. Founded by Neil Guess in 2013, the platform runs on technology from Priceless Possibilities (est. 1996). Basic membership is $30/mo; Gold Membership (affiliate-eligible) is $53.97/mo. Affiliates earn $20/mo residual per Gold referral plus one-time commissions on upsells: Free Ad Secrets ($147), Social Profit Academy ($497), and Master Traffic Institute ($1,497). The official Facebook group has 48,951 members. Weekly webinars and a VIP club are included. The platform has an MLM "Accelerated Leverage" compensation structure with 100% commissions on frontline sales.',
+    monthly_cost_min: 30,
+    monthly_cost_max: 54,
+    comp_plan_type: 'MLM with Accelerated Leverage — $20/mo residual + 100% frontline commissions on product upsells',
+    overall_rating: 2.7,
+    residual_rating: 2.7,
+    simplicity_rating: 3.0,
+    transparency_rating: 2.5,
+    community_rating: 3.5,
+    value_rating: 2.5,
+    pros: [
+      '13 years in business (since 2013)',
+      '$20/mo per-customer residual on Gold referrals',
+      'Weekly payouts (every Wednesday)',
+      'Large Facebook community (48,951 members)'
+    ],
+    cons: [
+      'Low per-customer residual (~$20/mo)',
+      'Heavy upsell culture ($147-$1,497 products)',
+      'Dated website and tools compared to modern alternatives',
+      'Affiliate focus — most content promotes commissions, not product value'
+    ],
+    quick_facts: {
+      'Founded': '2013',
+      'Founder': 'Neil Guess',
+      'Basic Membership': '$30/month',
+      'Gold Membership': '$53.97/month (affiliate-eligible)',
+      'Per-Customer Residual': '$20/month on Gold referrals',
+      'Product Upsells': 'Free Ad Secrets ($147), Social Profit Academy ($497), Master Traffic Institute ($1,497)',
+      'Payout Schedule': 'Weekly (every Wednesday)',
+      'Facebook Community': '48,951 members',
+    },
+    last_updated: '2026-03-27T00:55:00.000Z',
+    is_featured: false,
+    is_published: true,
+    created_at: '2026-03-27T00:55:00.000Z',
+    faq: [
+      {
+        question: 'Is Power Lead System a pyramid scheme?',
+        answer: 'No — Power Lead System sells real marketing tools (landing pages, autoresponders, funnels). However, its MLM compensation structure heavily incentivizes recruitment. Most affiliate content focuses on commissions rather than product value. It is a legitimate business, but income depends significantly on building a downline.',
+      },
+      {
+        question: 'Is Power Lead System legit?',
+        answer: 'Yes — Power Lead System is a legitimate company that has been operating since 2013. You get real marketing tools for your payment, and affiliates do receive commissions. However, the platform is dated compared to modern alternatives like ClickFunnels or Systeme.io, and most success stories come from heavy recruiters.',
+      },
+      {
+        question: 'How much does Power Lead System cost?',
+        answer: 'Basic membership is $30/month with a 7-day free trial. Gold Membership (required to earn affiliate commissions) is $53.97/month. Higher-tier products include Free Ad Secrets ($147 one-time), Social Profit Academy ($497), and Master Traffic Institute ($1,497).',
+      },
+      {
+        question: 'Can you make money with Power Lead System?',
+        answer: 'Yes, but primarily through affiliate commissions, not from using the tools for clients. Affiliates earn $20/month per Gold referral plus up to $1,000 per product upsell sale. Most users report limited success unless they aggressively recruit others into the system.',
+      },
+    ],
+  },
 ];
