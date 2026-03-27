@@ -633,6 +633,26 @@ export const comparisonPages: ComparisonPage[] = [
       ]
     },
     last_updated: '2026-01-15T00:00:00.000Z'
+  },
+  // Power Lead System vs Home Business Academy
+  {
+    id: '18',
+    company_id: '607',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Both are marketing/training platforms with residual affiliate income. The math difference is stark: Power Lead System pays $20/month per customer, HBA pays $128/month — 6.4x more per referral. PLS has been around 13 years (vs HBA\'s 10), but the one-tier simplicity and higher per-customer residual make HBA the clear winner for income-focused affiliates.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Per-Customer Residual', company_value: '$20/month on Gold referrals', vs_company_value: '$128/month (full suite)', winner: 'vs_company' },
+        { category: 'Monthly Cost', company_value: '$54/month (Gold membership)', vs_company_value: '$160/month (full suite)', winner: 'company' },
+        { category: 'Business Model', company_value: 'MLM with "Accelerated Leverage" structure', vs_company_value: 'One-tier affiliate — no downline building', winner: 'vs_company' },
+        { category: 'Customers to Full-Time', company_value: '~150 customers for $3K/month', vs_company_value: '24 customers for $3K/month', winner: 'vs_company' },
+        { category: 'Years in Business', company_value: '13 years (since 2013)', vs_company_value: '10 years (since 2016)', winner: 'company' },
+        { category: 'Payout Frequency', company_value: 'Weekly (Wednesdays)', vs_company_value: 'Weekly (Thursdays)', winner: 'tie' },
+      ]
+    },
+    last_updated: '2026-03-27T00:00:00.000Z'
   }
 ];
 
@@ -732,6 +752,7 @@ const allComparisonSlugs: string[] = [
   'exp-realty-vs-home-business-academy',
   'rodan-fields-vs-home-business-academy',
   'nu-skin-enterprises-vs-home-business-academy',
+  'power-lead-system-vs-home-business-academy',
   // MLM vs MLM comparison pages
   'doterra-vs-young-living',
   'young-living-vs-doterra',
