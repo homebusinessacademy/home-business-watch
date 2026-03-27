@@ -13,6 +13,12 @@ const nextConfig: NextConfig = {
         destination: '/compensation-plan',
         permanent: true,
       },
+      // Fix misspelled comparison URL (four-life -> 4life)
+      {
+        source: '/compare/four-life-research-vs-home-business-academy',
+        destination: '/compare/4life-research-vs-home-business-academy',
+        permanent: true,
+      },
     ];
   },
 };
