@@ -3,6 +3,13 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // Force www canonical (non-www → www)
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'homebusinesswatch.com' }],
+        destination: 'https://www.homebusinesswatch.com/:path*',
+        permanent: true,
+      },
       {
         source: '/comp-plan/:path*',
         destination: '/compensation-plan/:path*',

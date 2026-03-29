@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://homebusinesswatch.com",
+    url: "https://www.homebusinesswatch.com",
     siteName: "HomeBusinessWatch",
     title: "HomeBusinessWatch - Honest Reviews of 500+ Home Business Opportunities",
     description:
