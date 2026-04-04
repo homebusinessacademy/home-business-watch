@@ -2989,7 +2989,7 @@ export const extendedCompanies: Company[] = [
     founded_year: 2014,
     hq_location: 'USA / Malaysia (operations shut down)',
     website: 'N/A — shut down by FTC',
-    products_summary: '⚠️ SHUT DOWN BY FTC. Digital Altitude and MOBE (My Online Business Education) were high-ticket internet marketing coaching programs shut down by the FTC in 2018. Digital Altitude settled with the FTC for fraud. MOBE\'s Matt Lloyd was ordered to pay $12.9 million. Both programs claimed members could make "six figures in 90 days" — claims the FTC deemed deceptive.',
+    products_summary: '⚠️ SHUT DOWN BY FTC. Digital Altitude (branded as "Aspire") and MOBE (My Online Business Education) were two of the most notorious high-ticket internet marketing coaching programs in history, both shut down by the FTC in 2018. Together, they bilked consumers out of an estimated $379 million before regulators intervened.\n\nDigital Altitude was founded around 2015 by Michael Force and marketed as a digital education platform. In reality, it used a step-ladder upsell model with product tiers ranging from a $1 trial up to approximately $27,997. Members had to purchase each tier themselves before they could earn commissions on it — a classic "pay to play" structure. The FTC filed suit in February 2018 in the Central District of California, alleging approximately $54 million in consumer losses. Michael Force was permanently banned from MLM and multi-level marketing as part of a 2019 settlement with a monetary judgment of approximately $14 million.\n\nMOBE was founded around 2011 by Matt Lloyd (Matthew Lloyd McPhee), an Australian national operating from Malaysia. It was significantly larger, with product tiers escalating from a $49 application fee up to approximately $59,997 for "Inner Circle / Elite" access. The FTC halted MOBE in June 2018, calling it a "massive Internet business coaching scheme." Of approximately 350,000+ consumers who paid MOBE, fewer than 3% made more than they spent. Total consumer losses were approximately $325 million. A default judgment of roughly $332 million was entered against Lloyd, who was permanently banned from selling coaching programs.\n\nBoth programs used the same playbook: low-cost entry, an assigned "coach" (commissioned salesperson) who guided prospects through escalating purchases, pay-to-play commission requirements, and heavy luxury lifestyle marketing. The "education" was largely about how to sell the same program — a circular model the FTC found had minimal independent value. Many victims took on personal debt, drained retirement savings, or maxed out credit cards. Court-appointed receivers recovered only a fraction of losses for partial distribution to victims.',
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: '⚠️ SHUT DOWN BY FTC 2018 — high-ticket coaching scheme',
@@ -3000,40 +3000,129 @@ export const extendedCompanies: Company[] = [
     community_rating: 1.0,
     value_rating: 1.0,
     pros: [
-      'No legitimate pros — both programs were shut down by the FTC for fraud'
+      'No legitimate pros — both programs were shut down by the FTC for fraud',
+      'Serve as important case studies in how high-ticket coaching scams operate',
+      'FTC enforcement helped warn consumers and establish legal precedent',
+      'FTC refunded $4.7M to Digital Altitude victims and $27.6M to MOBE victims — partial recovery',
+      'Cases established legal precedent that affiliate promoters can be held liable for promoting fraudulent schemes',
+      'Both shutdowns in 2018 helped expose the high-ticket coaching scam playbook for consumer awareness',
+      'Cases inspired FTC\'s proposed Earnings Claims Rule (January 2025) — aimed at requiring income claim substantiation across all MLMs',
+      'FTC\'s September 2024 MLM Income Disclosure Report analyzed 70 companies — found most participants earned $84/month or less'
     ],
     cons: [
-      '⚠️ Digital Altitude: FTC settlement 2019 for deceptive income claims',
-      '⚠️ MOBE: FTC shut down June 2018, Matt Lloyd ordered to pay $12.9 million',
+      '⚠️ Digital Altitude: ~$54M in consumer losses, founder Michael Force banned from MLM',
+      '⚠️ MOBE: ~$325M in consumer losses, $332M default judgment against Matt Lloyd',
       'Both programs claimed "six figures in 90 days" — deemed deceptive by FTC',
-      'Thousands of victims paid $1,000-$50,000+ in high-ticket upsells',
-      'Both programs are permanently shut down',
-      'David Sharpe (later of Legendary Marketer) was a co-founder of Empower Network, a similar program that also went bankrupt'
+      'Fewer than 3% of MOBE participants made more than they spent',
+      'Product tiers escalated from $1 up to $59,997 — exploiting sunk cost fallacy',
+      '"Pay to play" requirement: must buy each tier before earning commissions on it',
+      'Assigned "coaches" were commissioned salespeople, not educators',
+      'Victims took on personal debt, drained retirement accounts, maxed credit cards',
+      'Court-appointed receivers recovered only a fraction of losses for victim refunds',
+      'Both programs are permanently shut down with founders banned',
+      'Digital Altitude: only 0.6% of 145,000 affiliates earned ANY commissions — 57.7% of those still lost $15,345 avg',
+      'MOBE specifically targeted service members, veterans, and older adults through online ads and direct mailers',
+      'MOBE affiliate promoters also held liable — John Chow ordered to pay $3.35M, others $31.6M judgment',
+      'Matt Lloyd reportedly launched new ventures post-settlement (Scale Fast Advertising, Strive Courses) — same pattern despite permanent ban',
+      'Victim recovery rate was only ~8.7% for Digital Altitude and ~7.3% for MOBE — massive judgments were largely uncollectible',
+      'David Sharpe\'s successor company Legendary Marketer also closed February 2026 — the entire high-ticket coaching MLM model keeps collapsing'
     ],
     quick_facts: {
-      'Digital Altitude Founded': '2014 (by Michael Force)',
-      'MOBE Founded': '~2012 (by Matt Lloyd)',
+      'Digital Altitude Founded': '~2015 (by Michael Force)',
+      'MOBE Founded': '~2011 (by Matt Lloyd, Australian)',
       'FTC Action': 'Both shut down 2018',
-      'MOBE Settlement': 'Matt Lloyd ordered to pay $12.9 million',
-      'Digital Altitude': 'Executives settled 2019 for deceptive income claims',
+      'Digital Altitude Losses': '~$54 million in consumer losses',
+      'MOBE Losses': '~$325 million in consumer losses',
+      'MOBE Judgment': '$332M default judgment against Matt Lloyd',
+      'Digital Altitude': 'Michael Force banned from MLM; ~$14M judgment',
+      'MOBE Participants': '350,000+ consumers; fewer than 3% profited',
+      'Max Product Price': 'Up to ~$59,997 (MOBE Inner Circle)',
       'Status': '⚠️ PERMANENTLY SHUT DOWN'
     },
     faq: [
       {
         question: 'What happened to Digital Altitude?',
-        answer: 'The FTC took action against Digital Altitude in 2018, and four executives settled in March 2019 over allegations of deceiving consumers with claims of making "six figures in 90 days." The program was permanently shut down.'
+        answer: 'The FTC filed suit against Digital Altitude in February 2018 in the U.S. District Court for the Central District of California, alleging it operated as a pyramid scheme with approximately $54 million in consumer losses. A temporary restraining order froze assets and a receiver was appointed. In 2019, founder Michael Force was permanently banned from multi-level marketing and deceptive business opportunity claims, with a monetary judgment of approximately $14 million.'
       },
       {
         question: 'What happened to MOBE?',
-        answer: 'The FTC halted MOBE (My Online Business Education) in June 2018, calling it a "massive internet business coaching scheme." MOBE\'s founder Matt Lloyd was ordered to pay $12.9 million. The program was permanently shut down and consumers were warned not to pay any money to MOBE.'
+        answer: 'The FTC halted MOBE in June 2018, calling it a "massive Internet business coaching scheme" that bilked consumers out of approximately $325 million. Of 350,000+ consumers who paid MOBE, fewer than 3% made more than they spent. A default judgment of roughly $332 million was entered against founder Matt Lloyd after he failed to adequately respond to FTC claims and was held in contempt for transferring assets in violation of the restraining order. Lloyd was permanently banned from selling coaching programs.'
       },
       {
         question: 'Were Digital Altitude and MOBE related?',
-        answer: 'Both were similar high-ticket internet marketing coaching programs operating at the same time. Both used similar business models with escalating upsells ranging from hundreds to tens of thousands of dollars. Both were shut down by the FTC for deceptive income claims in 2018.'
+        answer: 'They were not directly related but used an identical business model: low-cost entry, assigned "coaches" (commissioned salespeople) who guided prospects through escalating purchases from $1 up to $27,997-$59,997, pay-to-play commission requirements, and luxury lifestyle marketing. Both were part of a broader wave of high-ticket coaching schemes that the FTC targeted in 2018. MOBE was roughly six times larger by consumer losses ($325M vs $54M).'
+      },
+      {
+        question: 'How did the high-ticket upsell model work?',
+        answer: 'Both programs used a step-ladder approach: a $1-$49 trial got prospects in the door, then an assigned "coach" systematically guided them through escalating purchases ($297 → $997 → $2,497 → $9,997 → $16,997 → $30,000+), framing each as "investing in yourself." To earn commissions on any tier, members had to first purchase that tier themselves. This exploited the sunk cost fallacy — each purchase made the next one feel more necessary ("I\'ve already invested $10,000, I need the $30,000 level to make it work").'
+      },
+      {
+        question: 'Did MOBE and Digital Altitude victims get refunds?',
+        answer: 'Court-appointed receivers collected remaining assets including bank accounts, real estate, and other property, and made partial distributions to affected consumers. However, given the scale of losses ($325M+ for MOBE, $54M+ for Digital Altitude) versus recovered assets, most victims received only a small fraction of what they lost. Many victims had taken on personal debt, drained retirement savings, or maxed out credit cards — losses that could not be recovered through the receivership process.'
+      },
+      {
+        question: 'What similar programs should I watch out for?',
+        answer: 'The high-ticket coaching model continues to operate under new names and founders. Red flags include: tiered pricing escalating to tens of thousands of dollars, assigned "coaches" who pressure you to upgrade, requirements to buy products before earning commissions, and income testimonials featuring luxury lifestyles. Other programs shut down or sanctioned by the FTC include Empower Network (collapsed 2016-2017), Success By Health (2020 FTC action), and AdvoCare ($150M FTC settlement, forced to abandon MLM model in 2019).'
+      },
+      {
+        question: 'Is there a legitimate version of high-ticket coaching?',
+        answer: 'Legitimate coaching programs have standalone educational value independent of the business opportunity, do not require you to purchase products to earn commissions, and do not rely on recruitment as the primary revenue source. If the main thing a coaching program teaches is how to sell the same coaching program, that\'s a circular model — and exactly what the FTC found deceptive about Digital Altitude and MOBE.'
+      },
+      {
+        question: 'Who was Matt Lloyd (MOBE founder)?',
+        answer: 'Matthew Lloyd McPhee is an Australian national who operated MOBE primarily from Malaysia before expanding to the United States. He built MOBE into a $325M+ operation before the FTC shut it down. He was held in contempt for transferring assets in violation of a court order and received a $332M default judgment. He was permanently banned from selling business coaching programs and making deceptive earnings claims. The case was civil, not criminal, so he was not imprisoned.'
+      },
+      {
+        question: 'How much did Digital Altitude victims actually get back?',
+        answer: 'In February 2021, the FTC sent nearly $4.7 million in refunds to 10,249 victims — an average of approximately $456 per person. Given that many victims lost $10,000-$50,000+, this represents a tiny fraction of actual losses. The $54 million judgment against Michael Force was suspended after defendants surrendered all remaining assets totaling approximately $1.9 million.'
+      },
+      {
+        question: 'How many MOBE participants actually made money?',
+        answer: 'Of approximately 145,000 Digital Altitude affiliates, only 0.6% (837 people) earned any commissions at all. Of those 837, 57.7% still lost an average of $15,345 each. For MOBE, fewer than 3% of 350,000+ consumers made more than they spent. Only ONE Digital Altitude affiliate who paid over $60,000 made over $100,000 — and it took over 10 months, not the promised 90 days.'
+      },
+      {
+        question: 'What happened to MOBE\'s affiliate promoters?',
+        answer: 'In March 2020, the FTC went after MOBE\'s top affiliate promoters. John Chow was ordered to pay $3.35 million. Michael Giannulis and Michael Williams received a $31.6 million judgment (suspended after paying $760,000 and surrendering assets). All were permanently banned from selling business coaching or money-making methods. This established that affiliate promoters can be held liable for schemes they promote.'
+      },
+      {
+        question: 'How much did the FTC return to MOBE victims?',
+        answer: 'The FTC returned approximately $27.6 million total to MOBE victims across multiple distributions: $23 million to over 37,000 consumers in April 2022 (average ~$633 via PayPal), plus an additional $4.6 million to 25,260 people in 2023. This represents a fraction of the estimated $125-318 million in total consumer losses.'
+      },
+      {
+        question: 'Is Matt Lloyd (MOBE founder) in prison?',
+        answer: 'No. The FTC case against Matt Lloyd was civil, not criminal, so he was not imprisoned. He received a $318.5 million default judgment and was permanently banned from selling business coaching programs. He must keep the FTC informed of his activities for 20 years (through approximately 2040). He surrendered Bounty Island resort in Fiji, Sunset del Mar Resort in Costa Rica, and two apartments in Kuala Lumpur as part of his settlement.'
+      },
+      {
+        question: 'What is a better alternative to Digital Altitude / MOBE?',
+        answer: 'If you\'re looking for a legitimate home business with high commissions and no recruiting requirements, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions ($128/mo residual per full-suite customer), has never changed its comp plan in 10 years, and requires only 24 customers for a full-time income — not a team of hundreds.'
+      },
+      {
+        question: 'What happened to Legendary Marketer (David Sharpe)?',
+        answer: 'Legendary Marketer, founded by former Empower Network co-founder David Sharpe in 2016, voluntarily closed in February 2026 after 9 years. Commission earning ended February 28, 2026, with final platform access on March 31, 2026. Sharpe described it as closing "from a position of strength" rather than due to legal action. This completes the arc: Empower Network (co-founded 2011, bankrupt 2017) and Legendary Marketer (founded 2016, closed 2026) — two major platforms, both gone within a decade.'
+      },
+      {
+        question: 'What similar schemes has the FTC shut down in 2025-2026?',
+        answer: 'The FTC has continued aggressive enforcement against high-ticket coaching scams. Major 2025-2026 actions include: IM Mastery Academy ($1.2 billion in consumer losses — the largest such case since MOBE), Growth Cave/Lucas Lee-Tyson (~$50M, permanently banned January 2026), Ecommerce Empire Builders/Peter Pru ($9.8M judgment, May 2025), Click Profit ($14M+, claiming AI-powered passive income through Amazon/Walmart stores), and RivX trucking opportunity (shut down January 2026). The pattern continues: false income promises, high-ticket upsells, and luxury lifestyle marketing.'
+      },
+      {
+        question: 'Has Matt Lloyd started any new businesses since MOBE?',
+        answer: 'Despite being permanently banned from selling business coaching programs, Matt Lloyd reportedly launched "Scale Fast Advertising" (with a $5,000 setup fee) and a venture called "Strive Courses" after his FTC settlement. He also reportedly hosted an in-person workshop in Costa Rica. Under terms of his settlement, he must disclose any new business entity to the FTC and MOBE Receiver and keep the FTC informed of his activities for 20 years (through approximately 2040). His post-settlement activity raises questions about enforcement of permanent bans.'
+      },
+      {
+        question: 'What was the FTC\'s proposed Earnings Claims Rule?',
+        answer: 'In January 2025, the FTC proposed a new Earnings Claims Rule specifically targeting MLMs. It would prohibit misleading earnings claims, require income claim substantiation, prohibit misrepresenting MLMs as employment, and potentially require a waiting period before recruits pay money. However, the rule was frozen by a January 20, 2025 executive order, and FTC Chair Andrew Ferguson closed public comment. The rule\'s future is uncertain, though case-by-case enforcement against specific scams has continued through 2025-2026.'
+      },
+      {
+        question: 'What percentage of losses did victims actually recover?',
+        answer: 'Victims of both schemes recovered only single-digit percentages of their losses. Digital Altitude victims received approximately $4.7 million in FTC refunds — roughly 8.7% of $54 million in total losses, averaging about $456 per person. MOBE victims received approximately $27.6 million across multiple distributions — roughly 7-8% of $325+ million in losses, averaging about $633 per person. The massive court judgments ($54M and $318.5M) were largely uncollectible because the money had already been spent or hidden.'
+      },
+      {
+        question: 'What assets did Matt Lloyd surrender to the FTC?',
+        answer: 'As part of his February 2020 settlement, Matt Lloyd surrendered approximately $16 million from personal and company accounts, plus significant real estate: Bounty Island resort in Fiji, Sunset del Mar Resort in Costa Rica, and two apartments in Kuala Lumpur, Malaysia. These luxury assets — heavily marketed in MOBE promotional materials as proof of the program\'s success — were liquidated by the court-appointed receiver to fund victim refunds.'
       }
     ],
     tagline: '⚠️ SHUT DOWN BY FTC 2018 — deceptive high-ticket coaching schemes',
-    last_updated: '2026-01-15T00:00:00.000Z',
+    last_updated: '2026-04-04T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z'
@@ -4519,7 +4608,7 @@ export const extendedCompanies: Company[] = [
     founded_year: 2013,
     hq_location: 'United States',
     website: 'mwrfinancial.com',
-    products_summary: 'MWR Financial is a financial services MLM spun off from MWR Life in 2020. The company sells a subscription called Financial Edge covering credit repair tools, tax services, and financial wellness education. Representatives earn commissions on Financial Edge subscriptions plus recruitment overrides. Founded by Brian House, shares origins with MWR Life (travel club) but operates independently. Binary compensation structure.',
+    products_summary: 'MWR Financial is a financial services MLM that pivoted from MWR Life (a travel discount club) around 2020, when COVID-19 made travel-based MLMs less viable. Founded by Brian House — a career network marketer, not a licensed financial advisor — the company sells a monthly subscription called "Financial Edge" priced at approximately $99-149/month. The subscription includes credit monitoring and repair tools, financial literacy training modules, budgeting and debt elimination calculators, identity theft protection, and access to a financial dashboard.\n\nThe core criticism of MWR Financial is its pricing: comparable credit monitoring, credit repair education, and budgeting tools are available for free or at a fraction of the cost through services like Credit Karma, NerdWallet, and Mint. The premium pricing is widely attributed to funding the MLM compensation plan rather than reflecting the intrinsic value of the tools. Unlike legitimate financial services MLMs such as Primerica or World Financial Group — which sell actual regulated financial products like insurance and investments and require agents to hold proper licenses — MWR Financial sells access to information and tools that require no financial licensing to distribute.\n\nMWR Financial uses a binary compensation plan where distributors build two legs and earn commissions based on the weaker leg\'s volume. The comp plan includes fast start bonuses for enrolling new members, residual binary commissions, matching bonuses on downline earnings, rank advancement bonuses, and leadership pools for top ranks. Distributors must maintain their own monthly subscription and meet personal enrollment volume requirements to remain commission-qualified — meaning many distributors are effectively their own best customers.\n\nCommon complaints include overpriced products relative to free alternatives, heavy recruitment emphasis over retail sales, difficulty canceling subscriptions, exaggerated income claims on social media by distributors, and the opportunistic-looking pivot from travel to financial services. The company does not appear to publish a comprehensive income disclosure statement, which is a transparency red flag.',
     monthly_cost_min: 30,
     monthly_cost_max: 150,
     comp_plan_type: 'Binary MLM — Financial Edge subscription commissions + recruitment overrides',
@@ -4530,40 +4619,100 @@ export const extendedCompanies: Company[] = [
     community_rating: 2.0,
     value_rating: 2.5,
     pros: [
-      '13 years combined company history',
-      'Real financial tools offered',
-      'Low entry cost',
-      'Per-customer residual ~$5-10/mo'
+      '10+ years combined company history (MWR Life since ~2015)',
+      'Real financial tools offered (credit monitoring, budgeting, ID protection)',
+      'Low barrier to entry — no financial licensing required',
+      'Per-customer residual ~$5-10/mo on subscriptions',
+      'Financial literacy is a genuine market need',
+      'Binary plan can build passive income if positioned well',
+      'March 2026 North America Launch Event — actively expanding US presence',
+      'Trustpilot 4-star rating with 1,331 reviews (though flagged for potential review manipulation)',
+      'Claims $100M+ in cumulative global sales over 12+ years'
     ],
     cons: [
       'Very low per-customer residual (~$5-10/mo)',
-      'Binary structure with volume requirements',
-      'Multiple company rebrands',
-      'Heavy recruitment emphasis'
+      'Product overpriced at $99-149/mo — free alternatives exist (Credit Karma, Mint)',
+      'Binary structure with volume requirements to stay qualified',
+      'Pivoted from travel to financial services during COVID — appears opportunistic',
+      'Founder is a career MLM networker, not a licensed financial professional',
+      'No published income disclosure statement',
+      'Heavy recruitment emphasis over genuine retail sales',
+      'Difficulty canceling subscriptions reported by members',
+      'Distributors often become their own primary customers to maintain qualification',
+      'Top promoter Catherine Techer arrested on pyramid fraud charges in Andorra — 400+ victims, 6M+ euros',
+      'Russia Central Bank issued formal pyramid scheme warning in September 2025',
+      'DSSRC found 24 problematic income claims (2022) and 17 more (2025) — pattern of misleading salesforce posts'
     ],
     quick_facts: {
-      'Founded': '2020 (spun off from MWR Life, est. 2013)',
-      'Products': 'Financial Edge subscription',
-      'Business Model': 'Binary MLM — financial services subscriptions',
-      'Related Company': 'MWR Life (travel club)',
+      'Founded': '~2020 (pivoted from MWR Life, est. ~2015)',
+      'Founder': 'Brian House (career network marketer)',
+      'Products': 'Financial Edge subscription ($99-149/mo)',
+      'Business Model': 'Binary MLM — financial tools subscriptions',
+      'Related Company': 'MWR Life (travel discount club)',
+      'Licensing': 'No financial licenses required to sell',
+      'Income Disclosure': 'Not published'
     },
-    last_updated: '2026-03-26T22:55:00.000Z',
+    last_updated: '2026-04-04T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-03-22T14:00:00.000Z',
     faq: [
       {
         question: 'Is MWR Financial a pyramid scheme?',
-        answer: 'MWR Financial is not technically a pyramid scheme — it sells real subscription products including financial tools. However, the binary compensation structure emphasizes recruitment heavily. The company has operated under multiple names since 2013.',
+        answer: 'MWR Financial is not technically a pyramid scheme — it sells a real subscription product (Financial Edge) with actual financial tools. However, the binary compensation structure heavily emphasizes recruitment, and the FTC\'s general finding is that in most MLMs, more than 99% of participants lose money. The company has operated under multiple names since approximately 2015 and does not publish an income disclosure statement.'
       },
       {
         question: 'Is MWR Financial legit?',
-        answer: 'MWR Financial is a legal MLM operation with real products. The financial tools in the Financial Edge subscription have genuine value. However, like most financial services MLMs, income potential is heavily tied to recruitment rather than product sales alone.',
+        answer: 'MWR Financial is a legal MLM operation selling a real product. However, the Financial Edge subscription at $99-149/month is widely criticized as overpriced given that comparable tools (Credit Karma, NerdWallet, Mint) are free. Unlike Primerica or World Financial Group, which sell actual regulated financial products requiring agent licensing, MWR Financial sells access to information and tools — a key distinction that means lower barriers to entry but also less tangible product value.'
       },
       {
         question: 'What is MWR Financial vs MWR Life?',
-        answer: 'MWR Financial focuses on financial wellness tools (credit, tax, financial education). MWR Life is the travel savings club with Travel Advantage membership. They share the same founder and origins but operate independently.',
+        answer: 'MWR Financial focuses on financial wellness tools (credit monitoring, financial literacy, budgeting). MWR Life is the travel savings club with discount hotel, cruise, and car rental memberships. They share the same founder (Brian House) and origins, but MWR Financial was created around 2020 when COVID-19 made the travel-based business model less viable. The pivot struck many observers as opportunistic rather than mission-driven.'
       },
+      {
+        question: 'How much does MWR Financial cost?',
+        answer: 'The Financial Edge subscription runs approximately $99-149 per month depending on the membership tier. There are also enrollment and startup fees for new members. Distributors must maintain their own monthly subscription to remain commission-qualified, meaning many representatives are effectively paying $100+/month to participate in the business opportunity rather than genuinely using the financial tools.'
+      },
+      {
+        question: 'What is included in MWR Financial Edge?',
+        answer: 'Financial Edge includes credit monitoring and repair tools, financial literacy training modules, budgeting and debt elimination calculators, identity theft protection, and access to a financial dashboard. Some versions also include discount travel perks carried over from MWR Life. Critics note that every component is available free or at a fraction of the cost through mainstream fintech apps.'
+      },
+      {
+        question: 'How does MWR Financial compensation plan work?',
+        answer: 'MWR Financial uses a binary compensation plan where distributors build two legs (left and right teams) and earn commissions based on the weaker leg\'s volume. The plan includes fast start bonuses for new enrollments, residual binary commissions, matching bonuses on downline earnings, rank advancement bonuses, and leadership pools for top ranks. Distributors must maintain their own subscription and meet minimum personal volume requirements to remain qualified.'
+      },
+      {
+        question: 'Does MWR Financial publish an income disclosure?',
+        answer: 'MWR Financial does not appear to publish a comprehensive income disclosure statement, which is a significant transparency concern. The FTC and DSA (Direct Selling Association) increasingly pressure MLMs to disclose income data. Without an income disclosure, there is no way to verify what percentage of MWR Financial distributors actually earn money versus how many lose money on monthly subscriptions and fees.'
+      },
+      {
+        question: 'Who is Brian House (MWR Financial founder)?',
+        answer: 'Brian House is the founder and CEO of MWR Financial and its predecessor MWR Life. He is a career network marketer who positions himself as a financial literacy advocate. Notably, he does not appear to hold financial advisor licenses (Series 65, CFP, etc.) based on publicly available information — he built a financial services MLM from an MLM background, not a financial services background.'
+      },
+      {
+        question: 'Has MWR Financial faced regulatory action?',
+        answer: 'The BBB\'s Direct Selling Self-Regulatory Council (DSSRC) found 24 problematic social media posts from MWR Life salesforce members in Case #87-2022, including claims of "$500 per month, EVERY month" and "financial freedom." In Case #233-2025, DSSRC reviewed 17 more earnings and lifestyle claims. Russia\'s Central Bank issued a formal pyramid scheme warning about MWR Life in September 2025.'
+      },
+      {
+        question: 'What happened with Catherine Techer and MWR Life?',
+        answer: 'Top MWR Life promoter Catherine Techer was arrested in Andorra in July 2021 on pyramid fraud charges. She allegedly scammed more than 400 victims out of over 6 million euros through a company called "To The Top" — money supposed to buy MWR Life tokens but reportedly kept by Techer. She is out on 500,000 EUR bail and the case remains ongoing as of September 2025.'
+      },
+      {
+        question: 'Who founded MWR Financial and MWR Life?',
+        answer: 'MWR Life was founded in 2013 by Yoni Ashurov (CEO, York University/Schulich graduate, former investment banker) and Jay Tuerk (since departed). MWR Financial is led by Brian House (CEO, attended Cincinnati Bible College, previously ran My Financial Advantage LLC) and Andamo Tolson (President). Both companies share the same Fort Lauderdale corporate address despite claims of being separate entities.'
+      },
+      {
+        question: 'Is MWR Life expanding in 2026?',
+        answer: 'Yes. MWR Life held a major "North America Launch Event" in March 2026 signaling aggressive US expansion. Experienced network marketing leader Donna Valdes publicly aligned with MWR Life for the US push. The platform now incorporates AI-powered booking tools and cryptocurrency payment options. The company claims 12+ years of presence and over $100 million in global sales.'
+      },
+      {
+        question: 'What does MWR Life Travel Advantage include?',
+        answer: 'MWR Life Travel Advantage has three membership tiers: Guest (free, basic hotel discounts), VIP ($19.97/month, deeper discounts plus 150% best price guarantee), and Elite ($120 activation + $119.97/month, exclusive offers plus 120 loyalty points worth $1 each per month). Representatives earn approximately $10/month per customer residual plus up to $50 bonus per service enrolled.'
+      },
+      {
+        question: 'What is a better alternative to MWR Financial?',
+        answer: 'If you\'re looking for a legitimate home business with high commissions and no recruiting requirements, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions ($128/mo residual per full-suite customer), has never changed its comp plan in 10 years, and requires only 24 customers for a full-time income — not a team of hundreds.'
+      }
     ],
   },
   {

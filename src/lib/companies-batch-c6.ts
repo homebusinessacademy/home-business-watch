@@ -2204,7 +2204,7 @@ export const companiesBatchC6: Company[] = [
       'Regulatory Action': 'None yet — too new',
       'Blockchain': 'USDT on unspecified blockchain via "Bankus" app',
     },
-    last_updated: '2026-03-21T21:00:00.000Z',
+    last_updated: '2026-04-04T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-03-21T21:00:00.000Z',
@@ -2229,6 +2229,50 @@ export const companiesBatchC6: Company[] = [
       {
         question: 'Is VBN the same as an MLM?',
         answer: 'VBN actually fails even the basic tests that make MLMs legal. Most MLMs sell real products and services. VBN has no product — only peer-to-peer money transfers with a promise of return. By the strictest definition, this is closer to a pyramid scheme than a multi-level marketing company.',
+      },
+      {
+        question: 'What happens when you try to withdraw from Velocity Bank Network?',
+        answer: 'VBN processes all transactions through the "Bankus" app in USDT cryptocurrency, but the promised "smart contract upgrade" for automated payouts (originally scheduled for Q3 2025) has never been completed. Payouts are processed manually by an anonymous team on a daily batch basis, meaning withdrawals are entirely at the discretion of unknown operators with no contractual obligation, no regulatory oversight, and no legal recourse. Once your USDT is sent to the platform, blockchain transactions are irreversible — there is no chargeback mechanism like a credit card or bank transfer.',
+      },
+      {
+        question: 'Has anyone been arrested or investigated for Velocity Bank Network?',
+        answer: 'As of April 2026, no regulatory agency (SEC, FTC, CFTC, or state-level regulators like the California DFPI) has publicly listed Velocity Bank Network on any scam tracker or issued enforcement action. However, this is not a sign of legitimacy — it simply reflects that the platform is too new and too small to have attracted regulatory attention. For comparison, the SEC charged eleven individuals in the Forsage crypto pyramid scheme only after it had operated for years. Regulatory action against schemes like VBN typically comes after the scheme has already collapsed and victims have filed complaints.',
+      },
+      {
+        question: 'What is the Bankus app used by Velocity Bank Network?',
+        answer: 'Bankus is the crypto wallet app VBN uses to process USDT transactions between participants. It does not appear in the Apple App Store or Google Play Store, is not listed on any reputable crypto wallet comparison site, and has no independent reviews or security audits. Unlike established USDT wallets (Exodus, Ledger, Kraken, Atomic Wallet), Bankus has no verifiable development team, no public company behind it, and no regulatory registration. Using an unverified proprietary wallet means your private keys and funds are controlled by unknown parties — a critical security risk.',
+      },
+      {
+        question: 'How can you get your money back if you already paid into VBN?',
+        answer: 'Cryptocurrency transactions on the blockchain are irreversible, so there is no chargeback or refund mechanism. Victims should immediately file reports with the FBI\'s Internet Crime Complaint Center (IC3) at ic3.gov, the FTC at reportfraud.ftc.gov, and the SEC at sec.gov/tcr, including all transaction details (wallet addresses, amounts, dates). In rare cases, law enforcement has successfully seized USDT through federal warrants. Be extremely cautious of "crypto recovery services" that promise to retrieve your funds for an upfront fee — the FBI warns these are frequently scams themselves that target people who have already been victimized.',
+      },
+      {
+        question: 'What are similar schemes to watch out for?',
+        answer: 'VBN\'s structure — peer-to-peer payments through a matrix where each position is funded by two new recruits, with no real product — is a modern crypto update of the "Blessing Loom" or "gifting table" pyramid scheme, which multiple state attorneys general have declared illegal. Similar crypto-based matrix schemes use USDT on Tron or other blockchains to create a veneer of technological legitimacy while operating the same unsustainable math. Any platform that requires payment in cryptocurrency, promises daily passive returns, has anonymous founders, is not registered as a legal entity, and has no product or service is following this same playbook.',
+      },
+      {
+        question: 'What is velocity banking and how does it relate to VBN?',
+        answer: 'Velocity banking is a legitimate debt payoff strategy that uses a Home Equity Line of Credit (HELOC) to accelerate mortgage repayment by making lump-sum principal payments and parking income in the HELOC to reduce average daily balance. Velocity Bank Network (VBN) has nothing to do with actual velocity banking — it co-opts the terminology to sound financially legitimate while operating a peer-to-peer payment matrix with no real product or financial service.',
+      },
+      {
+        question: 'Does velocity banking actually work according to financial experts?',
+        answer: 'Financial experts are largely skeptical of velocity banking itself. Multiple analyses show that nearly all savings come from making extra principal payments — not from the HELOC. One detailed comparison found velocity banking paid off a mortgage only one month faster than simply making the same extra payments directly, saving just $1,458 in interest over the entire loan. Most advisors recommend the simpler approach of direct extra payments without the added risk and complexity.',
+      },
+      {
+        question: 'What are the risks of real velocity banking strategies?',
+        answer: 'Legitimate velocity banking risks include variable HELOC interest rates that can spike unexpectedly, the possibility of lenders freezing credit lines during economic downturns, and foreclosure risk since the HELOC takes a second lien on your home. The strategy requires exceptional financial discipline and consistent positive cash flow. If your income drops or you overspend, you could end up deeper in debt with less liquidity.',
+      },
+      {
+        question: 'Why do pyramid schemes use financial terminology?',
+        answer: 'Crypto matrix schemes like VBN deliberately borrow terms from legitimate financial strategies (velocity banking, peer-to-peer lending, decentralized finance) to create a veneer of credibility. This tactic makes it harder for potential victims to distinguish between genuine financial tools and fraudulent recruitment schemes. Always verify that a platform is registered as a financial entity and has real products or services.',
+      },
+      {
+        question: 'How do crypto pyramid schemes differ from legitimate DeFi platforms?',
+        answer: 'Legitimate DeFi platforms generate returns through actual financial activities like lending, liquidity provision, or yield farming with transparent smart contracts audited by reputable firms. VBN generates no external revenue — participant rewards come entirely from new participant deposits. Key differences: legitimate platforms have audited smart contracts, known development teams, regulatory registrations, and revenue from genuine financial services rather than from new deposits.',
+      },
+      {
+        question: 'What is a better alternative to Velocity Bank Network?',
+        answer: 'If you\'re looking for a legitimate home business with high commissions and no recruiting requirements, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions ($128/mo residual per full-suite customer), has never changed its comp plan in 10 years, and requires only 24 customers for a full-time income — not a team of hundreds.',
       },
     ],
   }

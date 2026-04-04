@@ -9,7 +9,7 @@ export const companiesBatchC1a: Company[] = [
     founded_year: 1999,
     hq_location: "Pleasant Grove, UT",
     website: "https://synergyworldwide.com",
-    products_summary: "Nutritional supplements featuring proprietary formulas distributed through a binary compensation plan with global reach across 25+ countries.",
+    products_summary: "Synergy WorldWide is a nutritional supplement MLM founded in 1999 by Dan Higginson and acquired by Nature's Sunshine Products (NASDAQ: NATR) in 2000 for approximately $4.7 million. It operates as a wholly owned subsidiary sharing manufacturing at NSP's Spanish Fork, Utah facility. Parent company NSP reported net sales of $480.1 million in 2025 (up 5.7% YoY), though Synergy-specific revenue is not broken out in public filings. The company employs approximately 919 people globally and operates in 25+ countries across North America, Europe, and Asia-Pacific.\n\nThe flagship product is ProArgi-9+, an l-arginine supplement powder named the world's #1 l-arginine supplement by Euromonitor International in December 2025. Priced at approximately $90 per box (30 packets), it contains l-arginine, l-citrulline, Vitamin C, D3, and folate, and is USDA Organic certified. Other major product lines include the Elite Health System (a holistic gut microbiome program beginning with the patent-pending Purify Program), Core Nutrition, Fitness, Elemence Body Care, Trulum Skin Care, and Weight Management — all developed at The Hughes Center for Research and Innovation.\n\nThe binary compensation plan has seven income streams: retail commissions (30% markup), Fast Start Bonus ($25-100 per recruit), Elite Rebates (25% on personal sales above 150 CV/month), Basic Commission (up to 10% of weaker leg volume), Mega-Match Bonus (100% match on sponsored members' basic commissions), Leadership Bonus (up to 4%), and Global Share Bonus (1% of company-wide CV). Entry costs include a $24.95 membership fee plus $330-550 starter packs, with recommended monthly autoship of 150 CV (~$165/month) for Elite qualification.\n\nSynergy WorldWide does not publish an income disclosure statement — a significant transparency gap. TINA.org documented false and unsubstantiated income claims across Facebook, Twitter, YouTube, and at least 15 pages of the company's website in a 2017 investigation. Trustpilot reviews are highly polarized: 68% five-star and 32% one-star with nothing in between, with complaints about unauthorized subscription charges being the most common issue.",
     monthly_cost_min: 75,
     monthly_cost_max: 200,
     comp_plan_type: "binary",
@@ -20,35 +20,134 @@ export const companiesBatchC1a: Company[] = [
     community_rating: 2.5,
     value_rating: 2.3,
     pros: [
-      "Part of Nature's Sunshine parent company with decades of track record",
-      "Products backed by some clinical research",
-      "Global presence in multiple countries",
-      "Binary plan can build passive income if positioned well"
+      "Part of Nature's Sunshine Products (NASDAQ: NATR) — $480M parent company revenue in 2025",
+      "ProArgi-9+ named #1 l-arginine supplement globally by Euromonitor International (Dec 2025)",
+      "Products developed at The Hughes Center for Research and Innovation with patented formulas",
+      "Global presence in 25+ countries across North America, Europe, and Asia-Pacific",
+      "USDA Organic certified and GMP compliant manufacturing",
+      "Binary plan with 30% retail commission and Mega-Match bonus structure",
+      "~919 employees — substantial operational infrastructure",
+      "South Korea is the largest single market — strong Asian distribution network",
+      "Parent company Nature's Sunshine is publicly traded (NATR) with audited financials",
+      "Elite Health System and Purify Program expand product line beyond cardiovascular supplements",
+      "Products manufactured at NSP's pharma-grade Spanish Fork facility — shared infrastructure with publicly traded parent",
+      "25+ year track record under Nature's Sunshine ownership provides stability through parent company backing",
+      "Flagship ProArgi-9+ has independent Euromonitor International validation — not just in-house marketing claims"
     ],
     cons: [
-      "High monthly autoship requirements to stay qualified",
-      "Binary plan complexity leads to commission loss",
-      "Premium pricing makes retail sales difficult"
+      "High monthly autoship: ~$165/month (150 CV) recommended for Elite qualification",
+      "Entry costs: $24.95 membership + $330-550 starter pack before earning commissions",
+      "No income disclosure statement published — major transparency gap",
+      "TINA.org documented false income claims across website, Facebook, Twitter, YouTube (2017)",
+      "ProArgi-9+ priced at ~$90/box — significantly premium vs generic l-arginine supplements",
+      "Binary plan complexity — commissions based on weaker leg, leading to potential commission loss",
+      "Trustpilot reviews are extremely polarized (68% five-star, 32% one-star, nothing in between)",
+      "Reports of unauthorized autoship charges — customers enrolled without clear consent",
+      "BBB F rating — company has failed to respond to complaints and displays accreditation logo without being accredited",
+      "Parent company paid $600K FCPA penalty in 2009 for bribery in Brazilian subsidiary",
+      "BehindMLM compares revenue sourcing model to Vemma ($200M pyramid scheme shut down by FTC)",
+      "Synergy-specific revenue not disclosed in parent company SEC filings — impossible to evaluate subsidiary financial health independently",
+      "Heavy South Korea market concentration makes revenue vulnerable to single-market regulatory changes or economic shifts",
+      "No refund policy on starter packs once activated — $330-550 investment is non-recoverable if distributors decide MLM isn't for them"
     ],
     quick_facts: {
-      "Countries": "25+",
-      "Top Product": "ProArgi-9+",
-      "Autoship Minimum": "$75/month",
-      "Parent Company": "Nature's Sunshine Products"
+      "Parent Company": "Nature's Sunshine Products (NASDAQ: NATR)",
+      "Parent Revenue": "$480.1M (2025, up 5.7% YoY)",
+      "Founded": "1999 by Dan Higginson; acquired by NSP in 2000",
+      "Headquarters": "Lehi, Utah",
+      "Countries": "25+ across 5 continents",
+      "Employees": "~919 globally",
+      "Top Product": "ProArgi-9+ (#1 l-arginine supplement — Euromonitor)",
+      "Entry Cost": "$24.95 membership + $330-550 starter pack",
+      "Recommended Autoship": "150 CV/month (~$165)",
+      "Income Disclosure": "Not published",
+      "TINA.org": "False income claims documented (2017)"
     },
-    last_updated: "2026-03-20",
+    last_updated: "2026-04-04T00:00:00.000Z",
     is_featured: false,
     is_published: true,
     created_at: "2026-03-20T00:00:00Z",
-    tagline: "Binary supplement MLM under Nature's Sunshine umbrella",
+    tagline: "Binary supplement MLM under Nature's Sunshine umbrella — no income disclosure",
     faq: [
       {
         question: "Is Synergy WorldWide the same as Nature's Sunshine?",
-        answer: "Synergy WorldWide is a subsidiary of Nature's Sunshine Products, operating as a separate MLM brand with its own product line and compensation plan."
+        answer: "Synergy WorldWide is a wholly owned subsidiary of Nature's Sunshine Products (NASDAQ: NATR), acquired in 2000 for approximately $4.7 million. Both brands share manufacturing at NSP's Spanish Fork, Utah facility, but Synergy operates its own product line, compensation plan, and distributor network. NSP reported combined net sales of $480.1 million in 2025, though Synergy-specific revenue is not broken out separately in public filings."
       },
       {
         question: "What is the monthly requirement to earn commissions?",
-        answer: "Distributors typically need to maintain $75-100 in monthly autoship purchases to remain commission-qualified in the binary compensation plan."
+        answer: "Synergy WorldWide has three qualification tiers: Basic (60 PV/month minimum), Standard (120 PV/month or 100 PV autoship), and Elite (150 PV/month, approximately $165). The Elite tier is required to earn Elite Rebate commissions (25% on personal sales above 150 CV). Additionally, distributors must maintain a minimum of 240 CV ($264) every six months to keep their membership active."
+      },
+      {
+        question: "What is ProArgi-9+ and is it worth the price?",
+        answer: "ProArgi-9+ is Synergy's flagship l-arginine supplement powder, named the world's #1 l-arginine supplement by Euromonitor International in December 2025. It contains l-arginine, l-citrulline, Vitamin C, D3, and folate in a patented formula developed at The Hughes Center. At approximately $90 per box (30 packets), it is significantly more expensive than generic l-arginine supplements available for $15-30 on Amazon — the premium price reflects both the proprietary formula and the MLM distributor cost structure."
+      },
+      {
+        question: "How much does it cost to join Synergy WorldWide?",
+        answer: "Joining requires a $24.95 membership fee plus a starter pack: the Executive option costs $330 (300 CV) or the Elite Distributor activation costs $550 (500 CV). To qualify for full commissions, the recommended monthly autoship is 150 CV (~$165/month). This means a new distributor can expect to spend $495-715 in the first month and $165+/month ongoing before earning any commission — a significant financial commitment with no guarantee of return."
+      },
+      {
+        question: "Does Synergy WorldWide publish an income disclosure?",
+        answer: "No. Synergy WorldWide does not publish an income disclosure statement, which is a significant transparency concern. Without an IDS, there is no way to verify what percentage of distributors actually earn money. Industry-wide MLM statistics suggest 95-99% of participants earn little or nothing. TINA.org documented false and unsubstantiated income claims across Synergy's Facebook, Twitter, YouTube, and at least 15 pages of its website in a 2017 investigation."
+      },
+      {
+        question: "How does Synergy WorldWide's compensation plan work?",
+        answer: "Synergy uses a binary plan with seven income streams: retail commissions (30% markup), Fast Start Bonus ($25-100 per new recruit based on their initial order), Elite Rebates (25% on personal sales above 150 CV/month), Basic Commission (up to 10% of weaker leg's group volume), Mega-Match Bonus (100% match on sponsored members' basic commissions), Leadership Bonus (up to 4%), and Global Share Bonus (1% of company-wide CV for top ranks). The plan has 14 ranks from Star (500 GV weak leg) up to Triple Presidential Executive (1,200,000 GV weak leg)."
+      },
+      {
+        question: "What are the main complaints about Synergy WorldWide?",
+        answer: "The most common complaints include unauthorized autoship charges (customers report being enrolled in recurring orders without clear consent), premium product pricing ($90/box for ProArgi-9+ vs $15-30 for generic alternatives), the absence of an income disclosure statement, and the pay-to-play cost structure requiring $330-550 upfront plus ~$165/month ongoing. Trustpilot reviews are extremely polarized — 68% five-star and 32% one-star with nothing in between, suggesting manufactured positive reviews."
+      },
+      {
+        question: "Is Synergy WorldWide a pyramid scheme?",
+        answer: "Synergy WorldWide is a legal MLM company backed by publicly traded parent Nature's Sunshine Products (NATR). It sells real products with genuine consumer demand, particularly ProArgi-9+. However, the compensation plan heavily rewards recruitment through Fast Start Bonuses and Mega-Match Bonuses, the recommended $165/month autoship creates a pay-to-play dynamic, and TINA.org has documented deceptive income claims. Whether it provides a realistic income opportunity for most participants is unclear because the company refuses to publish earnings data."
+      },
+      {
+        question: "Has Synergy WorldWide's parent company faced legal issues?",
+        answer: "Yes. Parent company Nature's Sunshine Products paid a $600,000 civil penalty in 2009 for FCPA violations after its Brazilian subsidiary made approximately $1 million in disguised cash payments to customs brokers, some of which went to Brazilian customs officials. CEO Douglas Faggioli and CFO Craig Huff each paid $25,000 penalties. A separate securities fraud class-action was settled for $6 million."
+      },
+      {
+        question: "Does Synergy WorldWide have a BBB rating?",
+        answer: "Synergy WorldWide holds an F rating from the Better Business Bureau and is not BBB accredited. The company has failed to respond to BBB complaints. Notably, Synergy reportedly displays the BBB accreditation logo on its website despite not actually being accredited — a misrepresentation that has been flagged by consumer watchdogs."
+      },
+      {
+        question: "How big is Synergy WorldWide compared to Nature's Sunshine?",
+        answer: "Synergy WorldWide operates as a wholly owned subsidiary within Nature's Sunshine Products (NASDAQ: NATR). NSP reported total net sales of $480.1 million in 2025, but Synergy-specific revenue is not broken out in public filings. Third-party estimates place Synergy's revenue between $165 million and $300 million. South Korea is reportedly Synergy's largest single market."
+      },
+      {
+        question: "What is the Synergy Purify Program?",
+        answer: "The Purify Program is Synergy's patent-pending gut microbiome cleansing system, part of the Elite Health System. It includes Biome DT, Biome Shake, Biome Actives, and Body Prime — a 5-product system designed to support digestive health. The program represents Synergy's expansion beyond cardiovascular health (ProArgi-9+) into the growing gut health supplement market."
+      },
+      {
+        question: "Is Synergy WorldWide growing or declining?",
+        answer: "Parent company Nature's Sunshine reported record Q4 2024 revenue of $118.2 million (up 8.5% YoY) and Q3 2025 revenue of $128.3 million (up 12% YoY). However, full-year 2025 saw a 7.5% decrease in local currency net sales vs. 2024. In December 2025, Synergy announced the US Founders 2026 Bonus incentive program with new Jade Executive and Ruby Executive ranks."
+      },
+      {
+        question: "What is a better alternative to Synergy WorldWide?",
+        answer: "If you're looking for a legitimate home business with high commissions and no recruiting requirements, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions ($128/mo residual per full-suite customer), has never changed its comp plan in 10 years, and requires only 24 customers for a full-time income — not a team of hundreds."
+      },
+      {
+        question: "What is Synergy WorldWide's BBB rating?",
+        answer: "Synergy WorldWide has a BBB F rating — the lowest possible. The company has failed to respond to consumer complaints filed with the Better Business Bureau and displays the BBB accreditation logo on its materials without actually being an accredited business. This combination of unresponsiveness and unauthorized use of the BBB mark is a significant red flag for potential distributors and customers."
+      },
+      {
+        question: "Is ProArgi-9+ FDA approved?",
+        answer: "No. ProArgi-9+ is a dietary supplement and, like all dietary supplements in the United States, it is not FDA approved. The FDA does not approve dietary supplements before they go to market — it only takes action if a product is found unsafe after sale. While Synergy's manufacturing facility follows GMP (Good Manufacturing Practices) standards, the health claims made about ProArgi-9+ have not been evaluated or approved by the FDA."
+      },
+      {
+        question: "What markets is Synergy WorldWide strongest in?",
+        answer: "South Korea is Synergy WorldWide's largest single market, followed by other Asia-Pacific countries, Europe, and North America. The company operates in 25+ countries across five continents. The heavy concentration in South Korea is both a strength (large established distributor base) and a risk (vulnerability to regulatory changes or economic conditions in a single market). The US market is relatively small compared to Asian operations."
+      },
+      {
+        question: "Has Synergy WorldWide or Nature's Sunshine faced regulatory action?",
+        answer: "In 2009, parent company Nature's Sunshine Products paid a $600,000 penalty to settle FCPA (Foreign Corrupt Practices Act) charges related to bribery in its Brazilian subsidiary. TINA.org documented false and unsubstantiated income claims across Synergy's website and social media in 2017. While no direct FTC action has been taken against Synergy specifically, the BBB F rating and TINA.org investigation represent significant compliance concerns."
+      },
+      {
+        question: "What is the Elite Health System?",
+        answer: "The Elite Health System is Synergy WorldWide's holistic gut microbiome program that begins with the patent-pending Purify Program — a cleansing regimen designed to prepare the body for optimal nutrient absorption. It represents Synergy's expansion beyond cardiovascular supplements (ProArgi-9+) into the gut health market. Products in this line are developed at The Hughes Center for Research and Innovation and are positioned as a complete wellness system rather than individual supplements."
+      },
+      {
+        question: "Can you sell Synergy WorldWide products online?",
+        answer: "Synergy WorldWide restricts how distributors can sell products online. Products are primarily sold through personal distributor websites provided by the company and through direct relationships. Third-party marketplace listings (Amazon, eBay) are generally prohibited under distributor agreements. This limits the reach of individual distributors compared to businesses that can leverage e-commerce platforms freely, and means most sales require personal outreach and relationship building."
       }
     ]
   },

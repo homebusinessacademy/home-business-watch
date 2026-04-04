@@ -717,7 +717,7 @@ export const companiesBatchC4a: Company[] = [
     founded_year: 2013,
     hq_location: "Paris, France",
     website: "https://malt.com",
-    products_summary: "European freelance marketplace connecting independent professionals with companies across France, Germany, Spain, and other EU countries.",
+    products_summary: "Malt is the leading European freelance marketplace, founded in Paris in 2013 (originally as Hopwork, rebranded in 2017) by Vincent Huguet (CEO) and Hugo Lassiège (CTO). The platform connects over 700,000 registered freelancers with 70,000+ client companies — including major European enterprises like Airbus, BNP Paribas, L'Oréal, Schneider Electric, and Société Générale — and has facilitated over €1 billion in cumulative freelancer billings since launch.\n\nMalt operates in six European countries: France (its dominant core market), Spain, Germany, Belgium, the Netherlands, and Switzerland. The platform differentiates from US-based competitors like Upwork and Fiverr through a no-bidding model where freelancers set their own daily rates (averaging €400-700/day for tech freelancers in France) and clients browse profiles and reach out directly. This avoids the price undercutting that plagues bid-based platforms.\n\nKey EU-specific features include professional liability insurance through AXA partnerships, automated VAT-compliant invoicing, payment protection (Malt acts as intermediary guaranteeing freelancer payment), portage salarial compatibility for French freelancers, standardized contracts compliant with local employment law, and the annual 'Malt Freelance Barometer' published with BCG. The commission structure is 10% on the first project with a new client and 7% on repeat projects — charged to the freelancer, not the client.\n\nWith approximately €115 million in total funding (including an €80M Series C in 2022 led by Eurazeo and Goldman Sachs Asset Management) and an estimated valuation of €400-500 million, Malt is well-capitalized but still far smaller than global giants like Upwork. The main limitations are heavy concentration in France, limited traction outside Europe, and an enterprise bias that can make it harder for early-career freelancers to gain visibility.",
     monthly_cost_min: 0,
     monthly_cost_max: 0,
     comp_plan_type: "freelance",
@@ -728,26 +728,50 @@ export const companiesBatchC4a: Company[] = [
     community_rating: 3.5,
     value_rating: 3.6,
     pros: [
-      "Strong presence in European market",
-      "Quality clients from major companies",
-      "Direct client relationships",
-      "Good rates for European freelancers",
-      "Insurance and administrative support options"
+      "Leading European freelance marketplace — 700,000+ freelancers, 70,000+ clients",
+      "Quality enterprise clients (Airbus, BNP Paribas, L'Oréal, Schneider Electric)",
+      "No-bidding model — freelancers set own rates, avoiding race to the bottom",
+      "EU-compliant invoicing, contracts, and professional liability insurance via AXA",
+      "Payment protection — Malt guarantees freelancer payment as intermediary",
+      "Good rates for European freelancers (€400-700/day average for tech in France)",
+      "Well-funded: €115M+ raised, €400-500M valuation",
+      "Loyalty commission discount (7% repeat vs 10% first project)",
+      "Commission decreases from 10% to 5% to 2% based on client relationship tenure",
+      "Acquired Comatch (2022) — added premium management consulting vertical (Malt Strategy)",
+      "Platform crossed €1 billion in cumulative business volume in early 2025",
+      "SAP Fieldglass, Coupa, and Workday integrations — 85+ enterprise procurement system connections",
+      "Works with 80% of CAC-40 and DAX-40 companies post-Comatch acquisition — premium client base",
+      "700+ employees from 44 nationalities — substantial operational team for a freelance platform",
+      "'Super Malter' rewards program recognizes and promotes top-performing freelancers"
     ],
     cons: [
-      "Limited to European market",
-      "Commission on projects",
-      "Less volume than global platforms"
+      "Heavily concentrated in France — other markets have significantly fewer opportunities",
+      "Not suitable for freelancers outside Europe or seeking non-EU clients",
+      "7% commission on repeat clients can feel excessive for established relationships",
+      "Enterprise bias — early-career freelancers struggle to gain traction",
+      "Profile visibility algorithm is opaque — ranking factors unclear",
+      "Dispute resolution reportedly less robust than Upwork's escrow system",
+      "Limited niche categories compared to Upwork/Fiverr (no voiceover, translation, etc.)",
+      "Slow international expansion despite years of stated ambition",
+      "Payment delays are the top complaint — some freelancers report waiting 133+ days for payment",
+      "Comatch acquisition reportedly poorly integrated — described as 'Europe\\'s biggest acquisition failure' by critics",
+      "AI disruption threatening traditional freelance categories (graphic design, copywriting, web development)",
+      "DAC7 EU directive (January 2027) will require Malt to report freelancer earnings to tax authorities — increased compliance burden",
+      "No IPO announced despite €400M+ valuation — early investors may face liquidity constraints",
+      "UK market charges 0% commission to freelancers — unsustainable acquisition strategy that may change"
     ],
     quick_facts: {
-      "Markets": "France, Germany, Spain, Belgium, Netherlands",
-      "Freelancers": "500,000+",
-      "Focus": "Tech, creative, consulting",
-      "Commission": "10% on first project, 7% after",
-      "Founded": "2013 in Paris",
-      "Clients": "Major European companies"
+      "Markets": "France, Germany, Spain, Belgium, Netherlands, Switzerland",
+      "Freelancers": "700,000+",
+      "Clients": "70,000+ (including Airbus, BNP Paribas, L'Oréal)",
+      "Focus": "Tech, creative, consulting, data, project management",
+      "Commission": "10% first project, 7% repeat (freelancer-side)",
+      "Founded": "2013 in Paris (as Hopwork, rebranded 2017)",
+      "Total Funding": "€115M+ (Series C €80M in 2022)",
+      "Valuation": "~€400-500M (estimated)",
+      "Avg Daily Rate": "€400-700/day (tech, France)"
     },
-    last_updated: "2026-03-20",
+    last_updated: "2026-04-04T00:00:00.000Z",
     is_featured: false,
     is_published: true,
     created_at: "2026-03-20T00:00:00Z",
@@ -755,11 +779,79 @@ export const companiesBatchC4a: Company[] = [
     faq: [
       {
         question: "Is Malt available outside Europe?",
-        answer: "Malt focuses on the European market, primarily France, Germany, Spain, Belgium, and Netherlands. It's ideal for freelancers in or targeting EU clients."
+        answer: "Malt operates exclusively in six European countries: France, Germany, Spain, Belgium, the Netherlands, and Switzerland. It is not available for freelancers or clients in the US, UK, Asia, or other regions. If you need a global freelance platform, Upwork or Fiverr are better options, though they lack Malt's EU-specific compliance features."
       },
       {
         question: "What makes Malt different from Upwork?",
-        answer: "Malt focuses on quality over quantity with European clients, offers direct client relationships, and provides localized features like insurance options for EU freelancers."
+        answer: "Malt's key differentiator is its no-bidding model — freelancers set their own daily rates and clients browse profiles directly, avoiding the price undercutting common on Upwork and Fiverr. Malt also provides EU-specific features like professional liability insurance through AXA, VAT-compliant automated invoicing, payment guarantee as intermediary, and contracts that comply with local European employment law. The tradeoff is a much smaller market (Europe-only) with fewer opportunities outside France."
+      },
+      {
+        question: "How much does Malt charge freelancers?",
+        answer: "Malt charges freelancers a 10% commission on the first project with a new client, dropping to 7% on subsequent projects with the same client. There are no subscription fees or listing fees for either freelancers or clients. The commission is deducted from the freelancer's invoice — clients pay the freelancer's quoted rate with no additional platform markup on their side."
+      },
+      {
+        question: "What types of freelancers use Malt?",
+        answer: "The largest categories on Malt are tech and development (web, mobile, data, DevOps), followed by design and creative (UX/UI, graphic design), marketing and communications (content, SEO, growth), project management and consulting (Agile coaches, product managers), and data and analytics. Average daily rates for tech freelancers in France are €400-700/day, reflecting Malt's mid-to-premium positioning aimed at experienced professionals rather than entry-level task work."
+      },
+      {
+        question: "Does Malt offer insurance for freelancers?",
+        answer: "Yes — Malt provides professional liability insurance (RC Pro) through a partnership with AXA, which is often legally required for freelancers operating in France. The platform also offers payment protection by acting as an intermediary (the client pays Malt, then Malt pays the freelancer), reducing the risk of non-payment that freelancers commonly face when invoicing directly."
+      },
+      {
+        question: "Can you make a full-time income on Malt?",
+        answer: "Many freelancers on Malt earn full-time incomes, particularly experienced tech, design, and consulting professionals in France. With average daily rates of €400-700 for tech freelancers and the platform handling invoicing and payment collection, it's a viable primary income source. However, success depends on your skills, experience, and location — freelancers outside France report significantly fewer opportunities, and early-career professionals may struggle to gain visibility against more experienced profiles."
+      },
+      {
+        question: "How does Malt handle payments?",
+        answer: "Malt acts as a payment intermediary — clients pay Malt, and Malt pays the freelancer within 30 days. This provides a payment guarantee that significantly reduces the risk of non-payment. The platform generates VAT-compliant invoices automatically and handles the administrative complexity of cross-border EU billing. For French freelancers using portage salarial (umbrella company) arrangements, Malt accommodates this workflow."
+      },
+      {
+        question: "Is Malt better than Fiverr for European freelancers?",
+        answer: "For experienced European freelancers seeking mid-to-premium rates, Malt is generally a better fit than Fiverr. Fiverr's marketplace encourages low-price competition and takes a 20% commission from freelancers, while Malt's no-bidding model and 7-10% commission support higher rates. Malt also provides EU-regulatory compliance features that Fiverr lacks. However, Fiverr offers a global audience and broader category range — for niche skills like voiceover or translation, Fiverr has far more demand."
+      },
+      {
+        question: "Who founded Malt and what is the company's history?",
+        answer: "Malt was founded in 2013 in Paris by Vincent Huguet (CEO, former e-commerce startup founder), Hugo Lassiège (CTO, freelance developer and founder of the Lateral Thoughts tech community), and Jean-Baptiste Lemée. Originally named Hopwork, the company rebranded to Malt in 2017 due to pronunciation issues across European languages. Alexandre Fretti joined as Co-CEO in 2020. In 2022, Malt acquired Berlin-based Comatch (ex-McKinsey consultants' marketplace) to create the Malt Strategy premium consulting vertical."
+      },
+      {
+        question: "How much funding has Malt raised?",
+        answer: "Malt has raised approximately €115 million in total funding across 6 rounds, including an €80 million Series C in 2022 led by Eurazeo and Goldman Sachs Asset Management. Key investors include Goldman Sachs Growth Equity, Eurazeo, Idinvest Partners, ISAI, Serena Capital, and Acton Capital. The estimated valuation is €400-500 million. No new funding rounds have been publicly disclosed since the 2022 Series C."
+      },
+      {
+        question: "What is the biggest complaint about Malt?",
+        answer: "Payment delays are the most common complaint on Trustpilot (3.9/5 stars, 1,521 reviews). One freelancer reported 25% of payments were delayed in 2025. A design firm reported waiting 133 days for payment after invoice submission. While Malt acts as a payment intermediary guaranteeing freelancer payment, the actual timing of those payments has been a consistent pain point, with some cases exceeding 6 months."
+      },
+      {
+        question: "Has Malt expanded outside Europe?",
+        answer: "As of 2026, Malt operates in 9 countries: France (core market), Germany, Spain, Belgium, Netherlands, Switzerland, United Kingdom (launched more recently with 15,000 freelancers as of mid-2024), the Nordics, and the United Arab Emirates. The company has not expanded to the US, Asia, or other non-European regions despite years of stated ambition. France remains by far the dominant market."
+      },
+      {
+        question: "How does Malt's commission decrease over time?",
+        answer: "Malt charges freelancers a 10% commission on the first project with a new client, which drops to 5% after 6 months of collaboration with the same client. If freelancers bring their own existing clients onto the platform, the commission is just 2%. In the UK specifically, no commission is charged to freelancers. This declining commission structure incentivizes long-term client relationships and platform loyalty."
+      },
+      {
+        question: "What is a better alternative to Malt?",
+        answer: "If you're looking for a legitimate home business with high commissions and no recruiting requirements, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions ($128/mo residual per full-suite customer), has never changed its comp plan in 10 years, and requires only 24 customers for a full-time income — not a team of hundreds."
+      },
+      {
+        question: "Does Malt integrate with enterprise procurement systems?",
+        answer: "Yes — Malt integrates with 85+ enterprise procurement and workforce management systems, including SAP Fieldglass, Coupa, and Workday. This makes Malt one of the most enterprise-ready freelance platforms in Europe, allowing large companies to manage freelancer procurement through their existing vendor management workflows. This is a significant advantage over competitors like Upwork for European enterprise clients."
+      },
+      {
+        question: "What is a Super Malter?",
+        answer: "Super Malter is Malt's rewards tier for top-performing freelancers who maintain high ratings, complete multiple projects successfully, and demonstrate consistent reliability on the platform. Super Malters receive enhanced profile visibility, priority in search results, and access to premium client opportunities. The designation helps experienced freelancers stand out in a growing marketplace."
+      },
+      {
+        question: "Is Malt planning an IPO?",
+        answer: "As of early 2026, Malt has not announced any IPO plans. The company remains private after raising approximately €115 million in total funding through its Series C round (May 2022). With an estimated valuation of €400-500 million, the company may pursue an IPO in the future, but no timeline has been publicly disclosed. The focus appears to be on growing market share in existing European markets rather than preparing for a public listing."
+      },
+      {
+        question: "What is DAC7 and how will it affect Malt freelancers?",
+        answer: "DAC7 is an EU directive requiring digital platforms like Malt to report freelancer income to tax authorities starting January 1, 2027. Malt will be required to declare the pre-tax revenue earned by each self-employed freelancer on a monthly basis. While this doesn't change tax obligations (freelancers should already be reporting income), it means tax authorities will have automatic visibility into freelance earnings, making underreporting significantly riskier."
+      },
+      {
+        question: "How big is Malt compared to Upwork?",
+        answer: "Malt is significantly smaller than Upwork. Malt has 700,000+ registered freelancers and 70,000-100,000 clients across 9 European countries with approximately €115 million in funding. Upwork has millions of freelancers globally, reported $689 million in revenue in 2024, and is publicly traded (NASDAQ: UPWK). However, for European enterprise clients seeking EU-compliant freelancer procurement, Malt's specialized features, no-bidding model, and local compliance tools make it a stronger choice than Upwork."
       }
     ]
   },

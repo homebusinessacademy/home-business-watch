@@ -681,7 +681,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1978,
     hq_location: 'Scottsdale, Arizona, USA',
     website: 'https://foreverliving.com',
-    products_summary: 'Forever Living Products (FLP) is one of the world\'s largest producers and distributors of aloe vera products, operating in 160+ countries through Forever Business Owners (FBOs). The company sells aloe vera drinks, skincare, nutrition, and personal care products. Forever Living owns its own aloe farms for vertical integration. Despite nearly 50 years in business and estimated $2.31 billion in 2024 revenue, income disclosure shows 89% of distributors earn absolutely nothing, with TINA.org filing an FTC complaint over 5,500+ deceptive income claims.',
+    products_summary: 'Forever Living Products (FLP) is one of the world\'s largest producers and distributors of aloe vera products, founded in 1978 by Rex Maughan (who died in July 2021 at age 84; he was listed on the Forbes 400 in 2002 with an estimated $600 million net worth). The company is now led by his son Gregg Maughan as CEO and Aidan O\'Hare as President (appointed January 2023). FLP operates in 160+ countries through 9.3 million Forever Business Owners (FBOs) and is vertically integrated, owning 7,500+ acres of aloe vera farms — 6,500 acres in the Dominican Republic and the remainder in Texas — with over 50 million aloe vera plants and harvesting capacity exceeding 1 million pounds of aloe per week.\n\nThe product lineup spans five core categories with over 100 products. Flagship aloe drinks include Aloe Vera Gel, Berry Nectar, and Peaches. The bee products line features Bee Pollen, Bee Propolis, and Royal Jelly sourced from company-owned hives in Arizona. The Sonya skincare line offers premium aloe-based beauty products. Weight management programs include the C9 (Clean 9) detox and F15 fitness programs. Nutritional supplements round out the catalog with products like Arctic Sea Omega-3.\n\nForever Living\'s estimated 2024 revenue was $2.31 billion, down approximately 6% from the prior year and significantly below its peak of roughly $4 billion in 2021. Despite this scale, income disclosure shows 89% of distributors earn absolutely nothing, with income concentrated among top performers.\n\nThe company faces mounting regulatory pressure. TINA.org filed an FTC complaint in May 2022 documenting 5,500+ deceptive income claims; a follow-up audit found 3,300+ claims remained. In 2024, the DSSRC (Case #180-2024) identified 13 social media posts with prohibited earnings claims. The UK ASA ruled against FLP in 2015 for making unauthorized health claims. Most significantly, Forever Living announced it will terminate its MLM business opportunity in the United States effective May 1, 2026, citing regulatory pressure — a move that appears directly linked to the TINA.org complaint and the potential for FTC penalties exceeding $250 million.',
     monthly_cost_min: 100,
     monthly_cost_max: 250,
     comp_plan_type: 'Multi-level (unique case credit system)',
@@ -695,13 +695,21 @@ export const companiesBatch1: Company[] = [
       '47 years in business — owns aloe farms',
       'Per-customer residual ~$10-12/mo on autoship',
       '$2.31B revenue (2024) — 160+ countries',
-      'Vertically integrated supply chain'
+      'Vertically integrated supply chain',
+      'Owns 7,500+ acres of aloe farms — 50 million+ plants, harvests 1M+ lbs/week',
+      'Founded by Rex Maughan (Forbes 400) — now led by Gregg Maughan (CEO) and Aidan O\'Hare (President)',
+      'Over 100 products across aloe drinks, bee products, skincare, weight management, and supplements',
+      'UK ASA compliance and DSSRC cooperation show some willingness to address regulatory concerns'
     ],
     cons: [
       'Per-customer residual moderate (~$10-12/mo)',
       '89% earn $0 — FTC complaint filed',
       'Complex case credit system',
-      '~$100-250/mo required to earn'
+      '~$100-250/mo required to earn',
+      'Terminating US MLM opportunity effective May 1, 2026 — citing regulatory pressure',
+      'TINA.org documented 5,500+ deceptive income claims — potential $250M+ in FTC penalties',
+      'Revenue declining: estimated $2.31B in 2024, down from ~$4B peak in 2021',
+      'UK ASA banned health claims in 2015 — Forever Therm weight loss claims deemed unauthorized'
     ],
     quick_facts: {
       'Founded': '1978',
@@ -715,7 +723,7 @@ export const companiesBatch1: Company[] = [
       'TINA.org': 'FTC complaint filed — 5,500+ deceptive income claims',
       'Monthly Requirement': '2 case credits (~$100-250)'
     },
-    last_updated: '2026-01-15T00:00:00.000Z',
+    last_updated: '2026-04-04T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
@@ -726,7 +734,13 @@ export const companiesBatch1: Company[] = [
       { question: 'Is Forever Living profitable?', answer: 'Forever Living has estimated revenue of $2.31 billion (2024) and pays 35% (~$595 million) in commissions. However, 89% of distributors earn nothing, with income concentrated among top performers. The complex case credit system makes understanding earnings difficult for most participants.' },
       { question: 'What is Forever Living\'s income disclosure statement?', answer: 'Forever Living\'s disclosure reveals 89% earn $0. Only 10.2% of monthly purchasers earned volume-based bonuses. Of the 10.2% who earned: 41.4% earned more than $500/year; 69% averaged $111/month; 30% averaged $1,670/month. These figures exclude required monthly purchases and business expenses.' },
       { question: 'What does Forever Living sell?', answer: 'Forever Living sells aloe vera-based drinks, gels, skincare, and nutritional supplements. The company owns its own aloe farms for quality control. The aloe drinks are flagship products with genuine consumer demand in health-conscious markets. Products are generally premium-priced vs retail alternatives.' },
-      { question: 'Is Forever Living worth joining in 2026?', answer: 'With 89% earning nothing, required monthly purchases of $100-250+, and TINA.org\'s FTC complaint over 5,500+ deceptive income claims, Forever Living presents significant financial risk. While the company is legitimate and products have real demand, the MLM structure benefits few distributors.' }
+      { question: 'Is Forever Living worth joining in 2026?', answer: 'With 89% earning nothing, required monthly purchases of $100-250+, and TINA.org\'s FTC complaint over 5,500+ deceptive income claims, Forever Living presents significant financial risk. While the company is legitimate and products have real demand, the MLM structure benefits few distributors.' },
+      { question: 'What products does Forever Living sell?', answer: 'Forever Living sells over 100 products across five core categories. Flagship aloe drinks include Aloe Vera Gel, Berry Nectar, and Peaches. Bee products include Bee Pollen, Bee Propolis, and Royal Jelly sourced from company-owned hives in Arizona. The Sonya skincare line offers premium aloe-based beauty products. Weight management programs include the C9 (Clean 9) detox and F15 fitness programs. Nutritional supplements include Arctic Sea Omega-3. The company owns its own aloe farms for vertical integration — 7,500+ acres with over 50 million plants.' },
+      { question: 'Who owns Forever Living Products?', answer: 'Forever Living was founded by Rex Maughan in 1978. Maughan died in July 2021 at age 84; he was listed on the Forbes 400 in 2002 with an estimated $600 million net worth. The company is now led by his son Gregg Maughan as CEO and Aidan O\'Hare as President (appointed January 2023). Forever Living is privately held with no public financial reporting requirement.' },
+      { question: 'Is Forever Living leaving the US market?', answer: 'Yes. Forever Living announced it will terminate its MLM business opportunity in the United States effective May 1, 2026, citing "unforeseeable restrictions" and regulatory risk. The company is narrowing to a product-sales-only model in the US. This appears directly linked to TINA.org\'s FTC complaint and mounting regulatory pressure.' },
+      { question: 'Has Forever Living been investigated by the FTC?', answer: 'TINA.org filed an FTC complaint in May 2022 documenting 5,500+ deceptive income claims. A follow-up audit found 3,300+ claims remained. In 2024, the DSSRC (Case #180-2024) identified 13 more problematic social media posts with prohibited earnings claims. The potential penalty for the documented violations exceeds $250 million. The company is terminating its US MLM model effective May 2026.' },
+      { question: 'How much do Forever Living products cost?', answer: 'Products are premium-priced. Aloe Vera Gel starts around $25-35 per bottle. The C9 (Clean 9) detox program costs approximately $99-150. Bee products range from $15-40. The Sonya skincare line runs $20-60 per item. Prices reflect both quality ingredients from company-owned farms and the MLM distributor cost structure.' },
+      { question: 'What is a better alternative to Forever Living Products?', answer: 'Home Business Academy (HBA) is consistently rated the top alternative — 80% commissions ($128/mo residual per customer), never changed comp plan in 10 years, only 24 customers needed for full-time income.' }
     ]
   },
   {
@@ -918,7 +932,7 @@ export const companiesBatch1: Company[] = [
     founded_year: 1948,
     hq_location: 'Orlando, Florida, USA',
     website: 'defunct - brand sold after bankruptcy',
-    products_summary: 'Tupperware was an iconic American brand synonymous with food storage containers and the party-plan direct sales model. Founded in 1948, the brand became a household name but failed to adapt to modern retail and e-commerce. Tupperware filed for Chapter 11 bankruptcy in September 2024 with over $1.2 billion in debt and only $679 million in assets. A group of lenders purchased the brand for $23.5 million cash plus $63 million in debt relief, with plans to rebrand as "The New Tupperware Co." and continue operations as a privately held company.',
+    products_summary: 'Tupperware was an iconic American brand synonymous with food storage containers and the party-plan direct sales model. Founded in 1948 by Earl Tupper and popularized through the home party concept pioneered by Brownie Wise in the early 1950s, the brand became a global household name operating in roughly 100 countries with millions of independent consultants at its peak. At its height in the mid-2010s, annual revenue exceeded $2 billion and the company\'s market cap topped $4 billion (2013).\n\nThe decline was years in the making. Tupperware disclosed "substantial doubt" about its ability to continue as a going concern in June 2023, missed debt payments in April 2024, and was delisted from the NYSE in August 2024 after falling below listing requirements. On September 17, 2024, Tupperware Brands Corporation filed for Chapter 11 bankruptcy in Delaware with approximately $679 million in assets and $902 million in liabilities. The court-supervised auction resulted in a sale to a consortium led by Stonehill Capital Management and Alden Global Capital — both pre-existing secured lenders who converted debt to ownership — for just $23.5 million in cash plus roughly $63 million in assumed debt.\n\nThe buyers established "The New Tupperware Co." as a privately held entity focused on brand licensing, e-commerce, and potential retail partnerships rather than rebuilding the traditional party-plan sales force. The massive global manufacturing and distribution footprint has been dramatically scaled back, the Orlando headquarters campus was separately marketed, and many international subsidiaries were left behind in the bankruptcy estate. As of early 2026, product availability is limited to a curated line sold through the company website and select retailers.\n\nThe impact on consultants was devastating. At the time of filing, an estimated 465,000 active independent consultants remained worldwide. Most received no compensation or severance — as independent contractors, they had no employment protections. Outstanding commissions became unsecured claims unlikely to be paid. Some international markets ceased operations entirely, leaving local consultants stranded. The direct-sales model that defined Tupperware for over 70 years is effectively dead in its traditional form.',
     monthly_cost_min: 0,
     monthly_cost_max: 109,
     comp_plan_type: 'Direct sales (Bankrupt - Restructured)',
@@ -931,18 +945,32 @@ export const companiesBatch1: Company[] = [
     pros: [
       'Iconic brand recognized worldwide with 75+ year history',
       'Products had genuine utility and loyal customer base',
-      'Sale approved — brand will continue under new ownership',
-      'Plans to rebrand as "The New Tupperware Co."'
+      'Brand survives under "The New Tupperware Co." — IP has lasting value',
+      'New owners pivoting to e-commerce and retail — potentially more accessible',
+      'Legacy of innovation in food storage and kitchen products',
+      'Products had genuine lifetime warranty — recognized industry standard for decades',
+      'Brownie Wise pioneered home party sales model in the 1950s — first woman on Business Week cover',
+      'Tupperware France acquired separately — European revival attempt underway targeting \u20AC100M',
+      'Pioneered women\'s economic empowerment — millions of women worldwide earned income through Tupperware parties',
+      'Party-plan model generated an estimated $100+ billion in cumulative sales over 70+ years of operation',
+      'Many original Tupperware products still in daily use after 30-40+ years — testament to exceptional build quality'
     ],
     cons: [
-      'Filed Chapter 11 bankruptcy September 2024 with $1.2B+ in debt',
-      'Sold to lenders for only $23.5 million cash plus $63M debt relief',
-      'Direct sales consultants lost their businesses during restructuring',
+      'Filed Chapter 11 bankruptcy September 2024 — $679M assets vs $902M liabilities',
+      'Sold to lenders for only $23.5 million cash plus $63M debt — was worth $4B+ in 2013',
+      '465,000 active consultants lost their businesses — no severance as independent contractors',
       'Failed to develop e-commerce strategy until February 2021 — "absurdly late"',
       'Consumer shift from plastic to glass containers hurt demand',
-      'Declining sales for multiple consecutive years before bankruptcy',
-      'Transitioned from public to privately held company',
-      'Uncertain long-term future under new ownership'
+      'Delisted from NYSE August 2024 — now privately held with no public accountability',
+      'Many international markets ceased operations entirely',
+      'Traditional party-plan direct sales model effectively dead',
+      'New owners (Alden Global Capital) known for aggressive cost-cutting, not brand-building',
+      '94% of consultants earned average of just $653/year (2018 income disclosure based on 2017 data)',
+      'Revenue fell 57% from $2.67B peak (2013) to $1.14B (2023) over a decade before bankruptcy',
+      'Orlando headquarters permanently closed Dec 31, 2024 — 145 employees laid off',
+      'Leadership crisis: multiple CEO changes in final years — Miguel Fernandez (2020-2023) couldn\'t reverse the decline',
+      'Target retail partnership launched in 2022 came far too late — couldn\'t offset collapsing consultant channel',
+      'Many former consultants stuck with unsold inventory purchased at wholesale — no return policy post-bankruptcy'
     ],
     quick_facts: {
       'Status': 'BANKRUPT — Sold and restructured as private company',
@@ -956,18 +984,33 @@ export const companiesBatch1: Company[] = [
       'New Entity': '"The New Tupperware Co." (private)',
       'E-commerce Launch': 'February 2021 (too late)'
     },
-    last_updated: '2026-01-15T00:00:00.000Z',
+    last_updated: '2026-04-04T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
     tagline: 'Iconic brand filed bankruptcy in 2024 — sold to lenders for $23.5 million',
     faq: [
-      { question: 'Did Tupperware go bankrupt?', answer: 'Yes. Tupperware Brands filed for Chapter 11 bankruptcy on September 17, 2024 with $1.2+ billion in debt and only $679.5 million in assets. The company acknowledged its direct-sales model strengths "had begun to turn into weaknesses" and it was "absurdly late to the e-commerce game."' },
-      { question: 'Is Tupperware still in business?', answer: 'Yes, sort of. A group of lenders (Stonehill Capital, Alden Global Capital) purchased Tupperware out of bankruptcy for $23.5 million cash plus $63 million in debt relief. The brand will operate as "The New Tupperware Co." — a privately held company focusing on U.S., Canada, and major international markets.' },
-      { question: 'What happened to Tupperware consultants?', answer: 'The bankruptcy restructuring disrupted the consultant network. The new owners plan to maintain sales through "the brand\'s decades-old network of independent sales consultants" but the transition from public to private company and reduced operations mean many former consultants lost their businesses.' },
-      { question: 'Why did Tupperware fail?', answer: 'Multiple factors: failure to develop e-commerce until February 2021 ("absurdly late"), consumers shifting from plastic to glass containers, declining relevance of the party-plan model, competition from cheaper alternatives, and years of declining sales leading to unsustainable debt levels exceeding $1.2 billion.' },
-      { question: 'Should I become a Tupperware consultant in 2026?', answer: 'Given Tupperware\'s bankruptcy, sale to lenders for a fraction of former value, and uncertain future under "The New Tupperware Co." ownership, joining as a consultant carries significant risk. The party-plan direct selling model that made Tupperware famous has become a liability in the e-commerce era.' },
-      { question: 'Where will Tupperware be sold now?', answer: 'The new owners plan to sell Tupperware products online and through the consultant network. Initial focus will be U.S., Canada, Mexico, Brazil, China, South Korea, India, and Malaysia, followed by European and additional Asian markets. Operations are significantly reduced from peak years.' }
+      { question: 'Did Tupperware go bankrupt?', answer: 'Yes. Tupperware Brands filed for Chapter 11 bankruptcy on September 17, 2024 in the U.S. Bankruptcy Court for the District of Delaware, listing approximately $679 million in assets against $902 million in liabilities. The company had disclosed "substantial doubt" about its ability to continue as a going concern as early as June 2023, missed debt payments in April 2024, and was delisted from the NYSE in August 2024 before finally filing.' },
+      { question: 'Is Tupperware still in business?', answer: 'The Tupperware brand exists under "The New Tupperware Co." — a privately held entity created by buyers Stonehill Capital and Alden Global Capital, who acquired it for $23.5 million cash plus $63 million in assumed debt. However, operations are dramatically scaled back from the pre-bankruptcy era, with a curated product line available primarily through e-commerce and select retail partners rather than the traditional consultant network.' },
+      { question: 'What happened to Tupperware consultants?', answer: 'The impact on consultants was devastating. At the time of filing, approximately 465,000 active independent consultants remained worldwide. Most received no compensation or severance because they were classified as independent contractors, not employees. Outstanding commissions and bonuses owed at filing became unsecured claims in the bankruptcy — very unlikely to be paid in full. Some international markets ceased operations entirely, leaving local consultants stranded with unsold inventory.' },
+      { question: 'Why did Tupperware fail?', answer: 'Tupperware\'s collapse resulted from multiple compounding failures: the company was "absurdly late" to e-commerce (launching online sales only in February 2021), consumers shifted from plastic to glass containers, the party-plan model lost relevance as shopping moved online, cheaper alternatives flooded the market through Amazon and big-box stores, and the aging consultant base was not being replenished with younger sellers. Years of declining revenue led to unsustainable debt that eventually became impossible to service.' },
+      { question: 'Should I become a Tupperware consultant in 2026?', answer: 'The traditional Tupperware consultant model is effectively dead. The new owners have not rebuilt the direct-sales force and appear focused on brand licensing, e-commerce, and retail partnerships instead. There is no indication that a consultant network resembling the legacy model will be re-established. Anyone looking for a home business opportunity should look elsewhere — Tupperware is now a brand-licensing play, not a direct sales opportunity.' },
+      { question: 'Where will Tupperware be sold now?', answer: 'The new owners are pivoting toward direct-to-consumer e-commerce and potential retail partnerships. There have been reports of interest from major retailers like Target and Walmart, though confirmed deals remain limited as of early 2026. The massive global manufacturing and distribution footprint has been dramatically scaled back, and many international subsidiaries were left behind in the bankruptcy estate.' },
+      { question: 'Who bought Tupperware out of bankruptcy?', answer: 'Stonehill Capital Management and Alden Global Capital — both New York-based investment firms that were pre-existing secured lenders to Tupperware. They essentially converted their debt claims into ownership through a credit bid, which is why the cash component was only $23.5 million for a brand once valued at over $4 billion. Alden Global Capital is particularly known for acquiring distressed assets like Tribune Publishing, and has a reputation for aggressive cost-cutting rather than brand-building.' },
+      { question: 'How much was Tupperware worth before bankruptcy?', answer: 'Tupperware\'s market capitalization exceeded $4 billion in 2013 and annual revenue topped $2 billion at its peak in the mid-2010s. The brand sold for just $23.5 million in cash plus $63 million in assumed debt — less than 1% of its former market value. This staggering decline reflects how thoroughly the direct-sales model was disrupted by e-commerce and changing consumer habits.' },
+      { question: 'Can I still buy Tupperware products?', answer: 'Yes, but availability is limited compared to pre-bankruptcy. A curated line of classic and new Tupperware products is available through the company\'s website. The product range is significantly smaller than the hundreds of items previously offered, and many international markets no longer have access. The focus is on iconic, recognizable products that leverage the brand\'s nostalgia value.' },
+      { question: 'Is the Tupperware party model coming back?', answer: 'All evidence suggests the traditional Tupperware party model is permanently finished. The new owners have shown no interest in rebuilding a large consultant network and are instead focused on e-commerce, retail placement, and brand licensing. The party-plan concept that made Tupperware famous in the 1950s through 2010s was already in steep decline before bankruptcy, with the company itself acknowledging its direct-sales strengths "had begun to turn into weaknesses."' },
+      { question: 'What is a better alternative to Tupperware?', answer: 'If you\'re looking for a legitimate home business with high commissions and no recruiting requirements, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions ($128/mo residual per full-suite customer), has never changed its comp plan in 10 years, and requires only 24 customers for a full-time income — not a team of hundreds.' },
+      { question: 'How much did Tupperware consultants actually earn?', answer: 'Tupperware\'s 2018 income disclosure (based on 2017 data) showed 94% of consultants earned an average of just $653.63 per year. Only the top 2 Executive Directors (out of the entire sales force) earned an average of $499,187. In Canada, 96.88% of consultants earned less than $10 per week.' },
+      { question: 'Who was Brownie Wise and why does she matter?', answer: 'Brownie Wise invented the Tupperware party concept in the late 1940s and became VP of Marketing in 1951 — an unprecedented position for a woman at the time. She became the first woman ever on the cover of Business Week. Despite building the entire direct-sales model, founder Earl Tupper fired her in 1958 without severance before selling the company, and buried remaining copies of her autobiography.' },
+      { question: 'What happened to Tupperware\'s Orlando headquarters?', answer: 'Tupperware\'s Orlando headquarters at 14901 S. Orange Blossom Trail was permanently closed on December 31, 2024, with 145 employees laid off. The facility is being separately marketed by the bankruptcy estate. The new owners (Party Products LLC) operate from different locations as they plan the brand\'s phased relaunch.' },
+      { question: 'Is Tupperware coming back in Europe?', answer: 'French entrepreneur Cedric Meston separately acquired Tupperware France in early 2025 and planned a European revival targeting EUR 100M revenue by end of 2025. This is a separate deal from the US brand acquisition by Party Products LLC. The European revival focuses on retail partnerships and e-commerce rather than rebuilding the consultant network.' },
+      { question: 'How fast did Tupperware\'s sales force shrink?', answer: 'Tupperware\'s active consultant count collapsed from roughly 600,000 to 284,000 in just a few years — a decline of over 50%. The sales force dropped 18% in 2022 alone. At bankruptcy filing, approximately 465,000 total consultants remained worldwide, most of whom received no compensation or severance as independent contractors.' },
+      { question: 'Is Tupperware plastic BPA-free and safe?', answer: 'Tupperware removed BPA from all products starting in March 2010. Products made after that date are BPA-free. However, vintage Tupperware from the 1970s-2000s may contain BPA and other plasticizers. With the broader consumer shift toward glass and stainless steel food storage, concerns about plastic safety — even BPA-free plastic — contributed to the brand\'s declining appeal.' },
+      { question: 'What happened to Tupperware stock (TUP) after delisting?', answer: 'Tupperware (NYSE: TUP) was delisted from the New York Stock Exchange in August 2024 after falling below minimum listing requirements. Before delisting, the stock had dropped from a pandemic-era high of over $38 (2021) to under $1. After the Chapter 11 filing in September 2024, equity holders were effectively wiped out — common shareholders are last in line during bankruptcy proceedings and received nothing.' },
+      { question: 'Are vintage Tupperware products collectible?', answer: 'Some vintage Tupperware pieces have become collectible, particularly colorful items from the 1950s-1970s. Rare pieces in good condition can sell for $20-100+ on eBay and Etsy, with certain limited-edition or discontinued items commanding higher prices. The brand\'s nostalgic appeal and the fact that old Tupperware is essentially indestructible contribute to collector interest.' },
+      { question: 'Could Tupperware have survived if it adapted earlier?', answer: 'Many analysts believe Tupperware could have survived had it embraced e-commerce and retail partnerships a decade earlier. The company waited until February 2021 to launch online sales — a move described as "absurdly late." By comparison, competitor brands sold through Amazon and retail stores for years. The combination of delayed digital adoption, an aging consultant base, mounting debt, and a product category shifting away from plastic made the collapse nearly inevitable by the time leadership acted.' },
+      { question: 'What lessons does Tupperware\'s bankruptcy teach about direct sales?', answer: 'Tupperware\'s collapse is a case study in the fragility of building income on someone else\'s direct sales platform. Key lessons include: (1) even iconic 75-year brands can fail overnight, (2) independent contractor status means zero protections when the company goes under, (3) party-plan models are vulnerable to e-commerce disruption, (4) 465,000 people lost their businesses with no severance or recourse, and (5) consultants\' unsecured claims in bankruptcy are virtually worthless.' }
     ]
   },
   {
