@@ -28,6 +28,7 @@ export interface Company {
   tagline?: string;
   faq?: FAQ[];
   metaDescription?: string;
+  detailed_content?: string; // Markdown content for extended reviews
 }
 
 export interface CompanyUpdate {

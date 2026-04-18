@@ -217,6 +217,36 @@ export default async function CompanyPage({ params }: PageProps) {
               </section>
             )}
 
+            {/* Detailed Content (Extended Review) */}
+            {company.detailed_content && (
+              <section className="prose prose-gray max-w-none">
+                <div 
+                  className="text-gray-700 leading-relaxed"
+                  dangerouslySetInnerHTML={{ 
+                    __html: company.detailed_content
+                      .replace(/^### (.*$)/gim, '<h3 class="text-lg font-bold text-gray-900 mt-8 mb-3">$1</h3>')
+                      .replace(/^## (.*$)/gim, '<h2 class="text-xl font-bold text-gray-900 mt-10 mb-4">$1</h2>')
+                      .replace(/^# (.*$)/gim, '<h2 class="text-2xl font-bold text-gray-900 mt-10 mb-4">$1</h2>')
+                      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                      .replace(/\*(.*?)\*/g, '<em>$1</em>')
+                      .replace(/^- (.*$)/gim, '<li class="ml-4">$1</li>')
+                      .replace(/(<li.*<\/li>)/s, '<ul class="list-disc pl-6 my-4">$1</ul>')
+                      .replace(/\n\n/g, '</p><p class="mb-4">')
+                      .replace(/^(.+)$/gim, '<p class="mb-4">$1</p>')
+                      .replace(/<p class="mb-4"><h/g, '<h')
+                      .replace(/<\/h([1-3])><\/p>/g, '</h$1>')
+                      .replace(/<p class="mb-4"><ul/g, '<ul')
+                      .replace(/<\/ul><\/p>/g, '</ul>')
+                      .replace(/<p class="mb-4"><\/p>/g, '')
+                      .replace(/\|(.+)\|/g, (match) => {
+                        const cells = match.split('|').filter(c => c.trim());
+                        return '<tr>' + cells.map(c => `<td class="border border-gray-300 px-4 py-2">${c.trim()}</td>`).join('') + '</tr>';
+                      })
+                  }}
+                />
+              </section>
+            )}
+
             {/* Pros and Cons */}
             <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-emerald-50 rounded-lg p-6 border border-emerald-100">
