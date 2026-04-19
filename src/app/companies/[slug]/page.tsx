@@ -230,7 +230,7 @@ export default async function CompanyPage({ params }: PageProps) {
                       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
                       .replace(/\*(.*?)\*/g, '<em>$1</em>')
                       .replace(/^- (.*$)/gim, '<li class="ml-4">$1</li>')
-                      .replace(/(<li.*<\/li>)/s, '<ul class="list-disc pl-6 my-4">$1</ul>')
+                      .replace(/(<li[\s\S]*<\/li>)/, '<ul class="list-disc pl-6 my-4">$1</ul>')
                       .replace(/\n\n/g, '</p><p class="mb-4">')
                       .replace(/^(.+)$/gim, '<p class="mb-4">$1</p>')
                       .replace(/<p class="mb-4"><h/g, '<h')
