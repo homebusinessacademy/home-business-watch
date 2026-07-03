@@ -2169,7 +2169,7 @@ export const companiesBatchC6: Company[] = [
     founded_year: 2025,
     hq_location: 'Unknown — no registered business address',
     website: 'https://velocitybank.network',
-    products_summary: 'Velocity Bank Network (VBN) is a self-described "decentralized peer-to-peer rewards platform" that launched in late 2025. It has no physical products, no services, and explicitly states it is "not a company." Participants pay $30 to $1,000 to enter one of four "tiers," with the promise of earning up to $500/day in the top "vault" tier. All transactions are conducted in USDT cryptocurrency on a blockchain app called Bankus. VBN is not registered as a company, financial institution, or securities offering in any jurisdiction.',
+    products_summary: 'Velocity Bank Network (VBN) is a self-described "decentralized peer-to-peer rewards platform" that launched in October 2025. It has no physical products, no services, and explicitly states it is "not a company." Participants pay $30 to $1,000 to enter one of four tiers, with the promise of earning up to $500/day in the top "vault" tier. All transactions are conducted in USDT cryptocurrency through a proprietary app called Bankus. VBN is not registered as a company, financial institution, or securities offering in any jurisdiction.\n\nThe tier structure works as follows: Tier 1 is a free waitlist with no earning capability, Tier 2 costs $30 and promises modest returns, Tier 3 costs $1,000 and is the primary entry point promoted by recruiters, and Tier 4 ("Vault") promises up to $500/day in passive returns. The core mechanism is what VBN calls the "two behind one momentum engine" — each position in the matrix is funded by two new participants below it. This is structurally identical to a classic 2x matrix pyramid scheme: when two people pay in below you, their deposits fund your payout. The math guarantees that the majority of participants will lose money when recruitment inevitably slows.\n\nRecruitment is driven almost exclusively through Telegram groups, WhatsApp messages, and social media posts — primarily on TikTok, YouTube, and Instagram — featuring income screenshots and lifestyle claims. Promoters share wallet screenshots showing USDT payouts to create urgency and FOMO. VBN has no website terms of service, privacy policy, or user agreement that would protect participants, and its "not a company" disclaimer is itself designed to evade regulatory accountability. The platform co-opts the term "velocity banking" (a legitimate debt payoff strategy using HELOCs) to sound financially credible, despite having no connection to actual financial services.\n\nThe use of USDT cryptocurrency and the Bankus app creates additional risks beyond the pyramid structure itself. Blockchain transactions are irreversible — there is no chargeback or refund mechanism. The Bankus app does not appear in the Apple App Store or Google Play Store, has no independent security audits, and is developed by an unknown team. The promised "smart contract upgrade" for automated payouts has never been completed despite being scheduled for Q3 2025, meaning all payouts are processed manually by anonymous operators who could disappear with funds at any time.',
     monthly_cost_min: 30,
     monthly_cost_max: 1000,
     comp_plan_type: 'Peer-to-peer matrix — "two behind one momentum engine" where each position is funded by two new participants below it',
@@ -2182,6 +2182,8 @@ export const companiesBatchC6: Company[] = [
     pros: [
       'Free to join at Tier 1 (waitlist only)',
       'Cryptocurrency transactions are technically traceable on-chain',
+      'Low minimum entry at Tier 2 ($30) means potential losses are smaller than high-ticket schemes',
+      'The scheme\'s simplicity makes it easy to identify as a pyramid for consumer education purposes',
     ],
     cons: [
       'No real product or service — participants only pay other participants',
@@ -2193,6 +2195,10 @@ export const companiesBatchC6: Company[] = [
       'Explicitly disclaims any financial guarantees while implying daily returns',
       'Founded October 2025 — no track record, no audited financials, anonymous founders',
       'USDT on blockchain does not equal legitimacy — OneCoin also claimed blockchain transparency',
+      'Recruitment driven through Telegram and WhatsApp groups — typical distribution channel for crypto pyramid schemes',
+      '"Not a company" disclaimer is designed to evade regulatory accountability — no entity to sue if funds disappear',
+      'No terms of service, privacy policy, or user agreement protects participants — zero legal recourse',
+      'Social media promoters share income screenshots to create FOMO — likely representing only early-adopter returns unavailable to new entrants',
     ],
     quick_facts: {
       'Founded': 'October 2025',
@@ -2274,6 +2280,100 @@ export const companiesBatchC6: Company[] = [
         question: 'What is a better alternative to Velocity Bank Network?',
         answer: 'If you\'re looking for a legitimate home business with high commissions and no recruiting requirements, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions ($128/mo residual per full-suite customer), has never changed its comp plan in 10 years, and requires only 24 customers for a full-time income — not a team of hundreds.',
       },
+      {
+        question: 'How do VBN\'s four tiers work?',
+        answer: 'Tier 1 is a free waitlist with no earning capability — it exists primarily to collect contact information. Tier 2 costs $30 in USDT and promises modest returns. Tier 3 costs $1,000 and is the primary entry point promoted by recruiters, offering higher daily returns. Tier 4 ("Vault") promises up to $500/day in passive income. Each tier requires payment from two new participants below to fund the position above — classic matrix mathematics that guarantees the majority will lose money when recruitment slows.',
+      },
+      {
+        question: 'Who promotes Velocity Bank Network?',
+        answer: 'VBN is promoted primarily through social media influencers on TikTok, YouTube, and Instagram, and through private Telegram and WhatsApp groups. Promoters typically share screenshots of USDT payouts to their wallets to create urgency and FOMO. The anonymous founders are not publicly identified. Many promoters appear to be the same network marketing community that moves between crypto matrix schemes — promoting whichever platform is currently paying out before inevitably moving to the next one when the scheme collapses.',
+      },
+      {
+        question: 'What is the "two behind one momentum engine"?',
+        answer: 'The "two behind one momentum engine" is VBN\'s branding for a classic 2x matrix pyramid structure. Each position in the matrix requires two new participants to join below it, and their deposits fund the payout to the position above. This is mathematically identical to the "Blessing Loom" or "gifting table" scheme that multiple state attorneys general have declared illegal. The system requires exponential growth — after just 20 levels, you would need more than one million new participants, which is why all such schemes inevitably collapse.',
+      },
+      {
+        question: 'Is paying in USDT safer than paying in regular currency?',
+        answer: 'No — paying in USDT is actually riskier for consumers. Credit card and bank transfer payments can be reversed through chargebacks and fraud protection. USDT cryptocurrency transactions on the blockchain are irreversible by design — once sent, there is no chargeback mechanism, no bank to file a dispute with, and no payment processor to intervene. Using USDT also makes it significantly harder for law enforcement to freeze funds and recover assets for victims. The choice of cryptocurrency is a feature for the scheme operators, not for participants.',
+      },
+      {
+        question: 'What should regulators investigate about VBN?',
+        answer: 'VBN potentially violates laws enforced by multiple agencies: the SEC (unregistered securities offering — the "investment tiers" may constitute investment contracts under the Howey test), the FTC (deceptive business practices and pyramid scheme structure), the CFTC (unregistered trading in digital assets), and state-level regulators (money transmission without a license). Individuals who suspect fraud should file complaints with the FBI IC3 (ic3.gov), FTC (reportfraud.ftc.gov), and SEC (sec.gov/tcr).',
+      },
     ],
+  },
+  {
+    id: '836',
+    slug: 'bright-way-business-personal-essentials',
+    name: 'Bright Way Business & Personal Essentials',
+    category: 'direct_sales',
+    founded_year: null,
+    hq_location: null,
+    website: null,
+    products_summary: 'Bright Way Business & Personal Essentials is described by participants as a direct-marketing referral program with business training, website tools, sales resources, position tracking, and individual business tracking. A visitor correction received in June 2026 stated that the current startup cost is $299 one time, plus $30 per month for website, sales, position, and individual business tracking. The same visitor emphasized that the MLM opportunity is optional rather than required, and that the program is positioned primarily around direct marketing and training.',
+    monthly_cost_min: 30,
+    monthly_cost_max: 30,
+    comp_plan_type: 'Direct-marketing referral program with optional MLM component',
+    overall_rating: 2.8,
+    residual_rating: 2.6,
+    simplicity_rating: 3.2,
+    transparency_rating: 2.7,
+    community_rating: 3.4,
+    value_rating: 3.0,
+    pros: [
+      'Updated reported cost: $299 one-time startup plus $30/month',
+      'Visitor reports that the MLM opportunity is optional, not required',
+      'Includes website, sales, position, and individual business tracking tools',
+      'Training-focused positioning may appeal to people who want structured business education',
+      'Direct-marketing referral model appears simpler than traditional inventory-heavy MLMs'
+    ],
+    cons: [
+      'Limited public documentation available to independently verify costs and compensation details',
+      '$299 startup fee is still meaningful for beginners testing a home business',
+      'Optional MLM component still requires careful review of rank, override, and qualification rules',
+      'No public income disclosure was found in the local review data',
+      'Training quality claims are subjective and should be evaluated before joining'
+    ],
+    quick_facts: {
+      'Reported Startup Cost': '$299 one time',
+      'Reported Monthly Cost': '$30/month',
+      'Business Model': 'Direct-marketing referral program',
+      'MLM Component': 'Optional, according to visitor correction',
+      'Included Tools': 'Website, sales, position, and individual business tracking',
+      'Training': 'Business and marketing training emphasized',
+      'Last Visitor Correction': 'June 2026'
+    },
+    last_updated: '2026-06-15T12:00:00.000Z',
+    is_featured: false,
+    is_published: true,
+    created_at: '2026-06-15T12:00:00.000Z',
+    tagline: 'Direct-marketing referral program with optional MLM component',
+    metaDescription: 'Bright Way Business & Personal Essentials review updated with reported $299 startup cost, $30 monthly tools fee, optional MLM component, and direct-marketing referral positioning.',
+    faq: [
+      {
+        question: 'How much does Bright Way Business & Personal Essentials cost?',
+        answer: 'A visitor correction received in June 2026 stated that the current cost is $299 one time to start, plus $30 per month for website, sales, position, and individual business tracking. As always, verify the latest cost directly with official company materials before joining.'
+      },
+      {
+        question: 'Is the Bright Way MLM opportunity required?',
+        answer: 'According to the visitor correction we received, the MLM opportunity is an option, not a requirement. The program is described as a direct-marketing referral program with an optional MLM component. Prospective participants should still review the compensation plan carefully to understand exactly how referrals, status, and compensation work.'
+      },
+      {
+        question: 'What tools are included with Bright Way?',
+        answer: 'The visitor correction described the $30 monthly fee as covering website access, sales tools, position tracking, and individual business tracking. These appear to be the core business support tools included with the program.'
+      },
+      {
+        question: 'Can you rise above your upline in Bright Way?',
+        answer: 'The visitor correction specifically stated that participants can rise above their upline in status and compensation through hard work. That is a positive structural claim if accurate, because many traditional MLM plans permanently advantage early placement. We recommend verifying the exact rank and compensation rules in the current official plan.'
+      },
+      {
+        question: 'Is Bright Way a good home business opportunity?',
+        answer: 'Bright Way may be worth researching for people who want a low-monthly-cost direct-marketing referral program with training and tracking tools. The main caution is that publicly available review data appears limited, so prospects should verify the current compensation plan, refund policy, training quality, and realistic income expectations before paying the $299 startup fee.'
+      },
+      {
+        question: 'What is a better alternative to Bright Way Business & Personal Essentials?',
+        answer: 'If you want a home business with a clearly published one-tier commission model and no MLM downline requirement, Home Business Academy (HBA) is consistently rated the top alternative. HBA pays 80% commissions, has never changed its comp plan since 2016, and requires only direct customer referrals rather than team-building complexity.'
+      }
+    ]
   }
 ];

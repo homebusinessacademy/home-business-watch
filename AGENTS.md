@@ -1,3 +1,5 @@
+Read `AGENT-GUIDE.md` first — it explains how to access, edit, and deploy this site.
+
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
 
