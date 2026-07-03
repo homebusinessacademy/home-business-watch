@@ -7,6 +7,8 @@ description: Create or upgrade a company review page on HomeBusinessWatch.com fo
 
 You are producing a company review page for HomeBusinessWatch.com (repo: `/Volumes/MAINSTORAGE/04-HomeBusinessWatch.org`, a git clone of `homebusinessacademy/home-business-watch`; push to main → Vercel auto-deploys). Read `AGENT-GUIDE.md` and `CONTENT-ROADMAP.md` in that folder first if you haven't this session.
 
+**ALSO READ `reference-company-adder.md` in this skill folder** — the original March 2026 playbook with binding editorial decisions: the 5-page-type requirement, acceptable-sources list, tone rules, full rating-algorithm weights, internal-linking checklist, meta-description formula, data-file templates, and anti-patterns. Its file paths are outdated (`~/Projects/...` → use the repo path above) and it predates IndexNow, but its editorial decisions stand. Key ones inlined below.
+
 **Audience insight (from Bing AI Performance data):** these pages earn income primarily via AI-assistant citations (ChatGPT ≈95%). AIs cite entity pages that lead with a quotable verdict, contain hard verified numbers, and have FAQs phrased like real user questions ("is X legit", "how much does X pay", "X review 2026").
 
 ## Workflow
@@ -23,7 +25,15 @@ You are producing a company review page for HomeBusinessWatch.com (repo: `/Volum
    - CHECK PROGRAM STATUS — programs get discontinued (BigCommerce closed its affiliate program May 2025 and stale reviews were still citing it as open). If closed, the page becomes "the definitive closure answer" — that wins citation share.
    Never state a number you can't source. Prefer "Company does not publish X (verified <month year>)" over an estimate.
 
-4. **Rate per `RATING-ALGORITHM.md`** (in the repo root): 5 dimensions, residual income weighted 40%, automatic disqualifiers → 0.0 and High Risk (promised passive returns, no real product, regulatory shutdown). Compute per-customer residual in REAL dollars, not BV/points.
+4. **Rate per `RATING-ALGORITHM.md`** (repo root) — never manually assign. Weights: per-customer residual 40%, maintenance requirements 20%, company stability 15%, product value 10%, transparency 10%, policies 5%. Automatic disqualifiers → 0.0 and High Risk (promised passive returns, no real product, regulatory shutdown). Compute per-customer residual in REAL dollars, not BV/points. One-time-purchase models cap residual score at 2.0.
+
+4b. **Editorial decisions that bind (from the original playbook):**
+   - **Acceptable sources**: official comp plan/agreement/IDS PDFs, FTC/SEC/court documents. BehindMLM and third-party blogs = context only, never data. Never "industry standard," never "approximately."
+   - **Tone: fair, not attack-first.** Lead `products_summary` with what the company DOES and its genuine achievements (longevity, comp-plan stability, never-missed commissions, charity, revenue milestones, patents, clean FTC record). The per-customer residual number is the useful metric; "X% earned $0" framing is reserved for cons/quick_facts and dedicated analysis pages, never the opening narrative.
+   - **Meta descriptions / tagline: never reveal the verdict.** Curiosity gap: "Is X a pyramid scheme? We read the actual [document]. The answer isn't what most people think."
+   - **Full coverage (new MLM/direct-sales companies)**: main entry + `compensation-plans.ts` + `pitfalls.ts` + `pyramid-scheme-data.ts` + `scam-data.ts` — all 5 page types, with templates in reference-company-adder.md. (Affiliate programs and gig platforms: main entry + comp plan at minimum.)
+   - **Internal linking (pages without inbound links don't get crawled or cited)**: link the new company FROM 2-3 existing same-category company pages with keyword anchor text; create a compare page vs the closest competitor; supporting pages link back to the main review.
+   - **llms.txt**: add the company to the comparison table in `public/llms.txt` if its per-customer residual is verified.
 
 5. **Write the entry** (see the `atomy` entry in `src/lib/companies-extended.ts` for the gold-standard example):
    - `products_summary`: 2-4 sentences, leads with what it is + the headline verdict fact.
