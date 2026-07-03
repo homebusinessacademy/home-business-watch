@@ -16,7 +16,7 @@ the actual queries below, and hard numbers (income disclosure, fees, payout math
 
 | Page | Citations (3mo) | Share | Notes |
 |---|---|---|---|
-| `/companies/atomy` | **1,395** | **9.8%** | Single biggest lever on the site. Query is just "atomy" + "atomy company profile 2026". Korean MLM, international audience. Add 2026 updates, income data, region availability. |
+| `/companies/atomy` ✅ DONE 2026-07-03 | **1,395** | **9.8%** | Upgraded: verdict box, 2026 profile w/ revenue trend, official comp-plan breakdown, 7 FAQs matching query shapes, IndexNow pinged. Watch share in next monthly export. |
 | `/companies/bigcommerce-affiliate` | ~700 across variants | 8–25% | Queries are country-specific: "BigCommerce affiliate program review Turkey/France/Spain/Germany/UK/Belgium/Sweden/US". Add a per-country availability + payout section. |
 | `/companies/teespring-spring` | ~300 | 30–52% | Queries pair Teespring with "Etsy dropshipping" and "Amazon dropshipping" — add sections addressing those angles explicitly. |
 | `/companies/monat-global` | 247 | 25.5% | Refresh + verdict box. |
