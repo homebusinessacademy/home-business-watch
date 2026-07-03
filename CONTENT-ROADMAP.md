@@ -17,7 +17,7 @@ the actual queries below, and hard numbers (income disclosure, fees, payout math
 | Page | Citations (3mo) | Share | Notes |
 |---|---|---|---|
 | `/companies/atomy` ✅ DONE 2026-07-03 | **1,395** | **9.8%** | Upgraded: verdict box, 2026 profile w/ revenue trend, official comp-plan breakdown, 7 FAQs matching query shapes, IndexNow pinged. Watch share in next monthly export. |
-| `/companies/bigcommerce-affiliate` | ~700 across variants | 8–25% | Queries are country-specific: "BigCommerce affiliate program review Turkey/France/Spain/Germany/UK/Belgium/Sweden/US". Add a per-country availability + payout section. |
+| `/companies/bigcommerce-affiliate` ✅ DONE 2026-07-03 | ~700 across variants | 8–25% | **Program CLOSED May 17, 2025 (verified from official closure notice)** — page rewritten as the definitive closure answer: dates, payout terms, per-country "no", alternatives (Shopify/Wix/HBA). Being the site with the CORRECT answer should win share as stale competitors get filtered. |
 | `/companies/teespring-spring` | ~300 | 30–52% | Queries pair Teespring with "Etsy dropshipping" and "Amazon dropshipping" — add sections addressing those angles explicitly. |
 | `/companies/monat-global` | 247 | 25.5% | Refresh + verdict box. |
 | `/companies/wix-affiliate` | ~80 | 6–30% | Same country-variant pattern as BigCommerce. |
@@ -29,7 +29,7 @@ the actual queries below, and hard numbers (income disclosure, fees, payout math
 Comparison content wins the highest citation shares on the site. Use the existing `/compare/`
 route pattern.
 
-1. **Neora vs Monat** — "Neora vs Monat compensation plan comparison" = 165 citations @ 44% share already, without a dedicated page.
+1. **Neora vs Monat** ✅ DONE 2026-07-03 — live at `/compare/neora-vs-monat-global` with tailored verdict + 8 comparison points (first non-HBA comparison on the site).
 2. **Neora vs Amway vs Monat vs Arbonne** (beauty-MLM commissions roundup) — 66 @ 67% share.
 3. **Primerica vs PHP Agency vs World Financial Group** (insurance MLM cluster — "is primerica legit", "PHP agency reviews", WFG queries all fire).
 4. **Teespring vs Zazzle vs Printful vs Redbubble** (print-on-demand roundup; all four pages exist).
