@@ -51,6 +51,34 @@ Supabase does **not** hold company reviews. It only backs:
 
 Credentials (`NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, plus Resend and `ANTHROPIC_API_KEY`) live in the Vercel project's environment variables, not on this Mac. Schema: `supabase/schema.sql`.
 
+## After every content deploy: ping IndexNow
+
+Bing's index is what ChatGPT search cites, and AI-assistant referrals are the site's top real traffic channel (Google deindexed the site algorithmically in April 2026 — see SEO notes below). After pushing new or updated pages, once the Vercel deploy is live, ping IndexNow:
+
+```bash
+curl "https://www.homebusinesswatch.com/api/indexnow?paths=/companies/new-slug,/scam/other-slug"
+```
+
+Use `?all=1` only for rare full re-seeds. The key file lives at `public/<key>.txt`; the route is `src/app/api/indexnow/route.ts` and reuses the sitemap for URL generation.
+
+## Analytics access (GA4 + Search Console, read-only via API)
+
+Service account `hbw-reader@hbw-analytics-reader.iam.gserviceaccount.com` has GA4 Viewer (property **530218971**) and Search Console Restricted access (`sc-domain:homebusinesswatch.com`). Mint a token via impersonation (Paul's gcloud login has tokenCreator):
+
+```bash
+TOKEN=$(gcloud auth print-access-token \
+  --impersonate-service-account=hbw-reader@hbw-analytics-reader.iam.gserviceaccount.com \
+  --scopes=https://www.googleapis.com/auth/analytics.readonly,https://www.googleapis.com/auth/webmasters.readonly)
+# GA4:            POST https://analyticsdata.googleapis.com/v1beta/properties/530218971:runReport
+# Search Console: POST https://searchconsole.googleapis.com/webmasters/v3/sites/sc-domain:homebusinesswatch.com/searchAnalytics/query
+```
+
+## SEO / AI-visibility strategy (July 2026)
+
+- Google **algorithmically deindexed** nearly all pages ~Apr 20–May 1 2026 (1 page indexed, 1,016 "Crawled – currently not indexed", no manual action). Don't expect Google traffic; don't panic about it either.
+- The growing channel is **AI assistants** (~95% ChatGPT, 200–370 sessions/mo). They cite **entity pages only** (`/companies/X`, `/compensation-plan/X`, `/scam/X`) — never guides. Hot clusters: financial/insurance MLMs (MWR Life is #1), international MLMs with thin English coverage (Farmasi, Atomy, Vestige, LiveGood), creator/gig platforms (Zazzle, Adobe Stock).
+- When adding content, favor new entity pages in those clusters, lead with a quotable 2–3 sentence verdict + hard income-disclosure numbers, keep FAQ sections, and show "last verified" dates. Freshness matters to AI search ranking.
+
 ## Editorial context
 
 The site reviews MLM / affiliate / direct-sales / work-from-home opportunities with a skeptical, consumer-protection voice. Home Business Academy (HBA, company id '1') is Paul's own company and the site's benchmark "top alternative" — reviews of weak opportunities often point to it. Keep the factual, research-backed tone; every claim in a review should be defensible.

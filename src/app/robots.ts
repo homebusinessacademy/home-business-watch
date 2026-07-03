@@ -22,6 +22,16 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/admin/', '/_next/static/'],
       },
       {
+        userAgent: 'OAI-SearchBot',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/_next/static/'],
+      },
+      {
+        userAgent: 'bingbot',
+        allow: '/',
+        disallow: ['/api/', '/admin/', '/_next/static/'],
+      },
+      {
         userAgent: 'PerplexityBot',
         allow: '/',
         disallow: ['/api/', '/admin/', '/_next/static/'],
