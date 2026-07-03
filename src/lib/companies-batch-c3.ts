@@ -534,31 +534,76 @@ export const companiesBatchC3: Company[] = [
     founded_year: 2009,
     hq_location: 'Austin, Texas, USA',
     website: 'https://www.bigcommerce.com/partners/',
-    products_summary: 'E-commerce platform offering 200% of first month payment (average $300-600) plus $1,500 for enterprise referrals through partner program.',
+    products_summary: 'IMPORTANT UPDATE: BigCommerce permanently closed its affiliate program on May 17, 2025. The program formerly paid 200% of a referral\'s first monthly payment (typically $58–$798) plus $1,500 per Enterprise referral through the Impact network. All tracking links stopped working at closure, final commissions were paid out by August 16, 2025, and BigCommerce offers no replacement affiliate program. This page documents the closure and the best alternatives for e-commerce affiliates.',
     monthly_cost_min: 0,
     monthly_cost_max: 0,
-    comp_plan_type: 'Commission-based affiliate',
-    overall_rating: 2.5,
-    residual_rating: 2.5,
-    simplicity_rating: 3.5,
-    transparency_rating: 4.0,
-    community_rating: 3.5,
-    value_rating: 4.0,
-    pros: ['16 years in business — Austin', 'Zero residual (200% first month bounty)', 'High one-time payouts $300-600', 'Enterprise bonus $1,500'],
-    cons: ['No recurring — one-time only', 'Requires e-commerce audience', 'Competitive onboarding'],
+    comp_plan_type: 'CLOSED — affiliate program discontinued May 17, 2025',
+    overall_rating: 1.0,
+    residual_rating: 0.5,
+    simplicity_rating: 1.0,
+    transparency_rating: 3.5,
+    community_rating: 2.0,
+    value_rating: 1.0,
+    pros: [
+      'Closure was handled transparently — 90-day notice, all earned commissions paid out by August 16, 2025',
+      'BigCommerce itself remains a healthy e-commerce platform (renamed plans in 2026: Core, Growth, Scale, Performance)',
+      'Agency/technology partner program still exists for those who build or migrate stores'
+    ],
+    cons: [
+      'Affiliate program permanently closed May 17, 2025 — no new referrals accepted in any country',
+      'All existing affiliate tracking links are dead — traffic sent to them earns nothing',
+      'No replacement program: BigCommerce cited "more efficient return on investment" as the reason',
+      'Affiliates with BigCommerce-focused content lost the income stream with only ~90 days notice'
+    ],
     quick_facts: {
-      'Founded': '2009',
-      'Commission Rate': '200% first month',
-      'Cookie Duration': '90 days'
+      'Program Status': 'CLOSED May 17, 2025',
+      'Final Payouts': 'Completed August 16, 2025',
+      'Former Commission': '200% of first month + $1,500 Enterprise',
+      'Former Network': 'Impact',
+      'Replacement Program': 'None',
+      'Last Verified': 'July 2026'
     },
-    last_updated: '2026-01-15T00:00:00.000Z',
+    detailed_content: `## Quick Verdict (Verified July 2026)
+
+The BigCommerce affiliate program no longer exists. BigCommerce shut it down permanently on May 17, 2025 at 8:00 AM US Central Time, citing "a shift in current business strategy, driven by the need to drive more efficient return on investment." All affiliate tracking links stopped working on that date — in every country — and final commissions were paid out by August 16, 2025. Any site still telling you how to "join the BigCommerce affiliate program" is out of date.
+
+## What the Program Paid Before It Closed
+
+For reference (and because thousands of affiliate sites still list these terms as current): the program ran on the Impact network with a 90-day cookie and paid 200% of the referred customer's first monthly payment — $58 to $798 on self-serve plans — and up to $1,500 for Enterprise referrals. Those were genuinely strong one-time bounties, which is why the closure caught many affiliates by surprise.
+
+## Is the BigCommerce Affiliate Program Available in My Country?
+
+No — anywhere. The closure was global. Whether you are in the United States, the United Kingdom, Germany, France, Spain, Turkey, Belgium, Sweden, or anywhere else, there is no BigCommerce affiliate program to join as of May 17, 2025, and no country-specific exception exists. The company has stated there is no replacement program.
+
+## What BigCommerce Offers Instead
+
+- **Agency and technology partner program** (bigcommerce.com/partners): for agencies and developers who build, migrate, or service BigCommerce stores. This is a services relationship with revenue share — not a link-and-earn affiliate model.
+- **Organic promotion**: BigCommerce suggests former affiliates simply link to its homepage. There is no compensation for this.
+
+## Best Alternatives for E-commerce Affiliates (July 2026)
+
+- **Shopify Affiliate Program** — the largest e-commerce platform still runs an open affiliate program paying one-time referral bounties. See our full Shopify Affiliate review.
+- **Wix Affiliate Program** — pays per Premium-plan conversion, open internationally. See our full Wix Affiliate review.
+- **WooCommerce Affiliate** — 20% on extensions and themes within the WordPress ecosystem.
+- **Recurring-commission alternative**: one-time bounties die with a single payment. If your goal is residual income, Home Business Academy pays 80% recurring monthly commissions (~$128/month per customer) for as long as the customer stays — a structurally different and, for long-term income, mathematically superior model.
+
+## What This Closure Teaches About Affiliate Risk
+
+BigCommerce affiliates lost their income stream with roughly 90 days notice — through no fault of their own. One-time-bounty programs owned by a single company carry platform risk: the program can vanish by business decision, and content built around it loses its monetization overnight. Diversify across programs, favor recurring commissions where possible, and treat any single program as temporary.
+
+*Sources: BigCommerce official affiliate program closure notice (bigcommerce.com/partners/affiliate-program-closure), BigCommerce 2026 pricing pages. Last verified: July 3, 2026.*`,
+    last_updated: '2026-07-03T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z',
-    tagline: 'E-commerce platform with enterprise opportunities',
+    tagline: 'Affiliate program CLOSED May 2025 — what happened and where to go instead',
     faq: [
-      { question: 'How much is the average commission?', answer: 'Standard plans range $29-$299/month, so 200% of first month means $58-$598 per referral, with $1,500 bonuses for enterprise.' },
-      { question: 'Are there ongoing commissions?', answer: 'No, you receive 200% of the customer\'s first monthly payment only, not recurring commissions.' }
+      { question: 'Is the BigCommerce affiliate program still open in 2026?', answer: 'No. BigCommerce permanently closed its affiliate program on May 17, 2025, in all countries. All tracking links stopped working on that date, final commissions were paid by August 16, 2025, and the company has stated there is no replacement program.' },
+      { question: 'Why did BigCommerce shut down its affiliate program?', answer: 'The official reason was "a shift in current business strategy, driven by the need to drive more efficient return on investment and to maintain strongly disciplined marketing programs." In plain terms: the company decided affiliate commissions were not efficient customer-acquisition spend compared to its other channels.' },
+      { question: 'How much did the BigCommerce affiliate program pay before it closed?', answer: 'It paid 200% of the referred customer\'s first monthly payment — roughly $58 to $798 depending on plan — plus up to $1,500 per Enterprise referral, through the Impact network with a 90-day cookie. Those terms are historical only; the program no longer accepts referrals.' },
+      { question: 'Can I join the BigCommerce affiliate program from the UK, Germany, France, Spain, Turkey, or other countries?', answer: 'No. The May 2025 closure was global — there is no country where the BigCommerce affiliate program still operates, and no regional replacement exists. Former international affiliates should look at the Shopify or Wix affiliate programs, both of which remain open internationally.' },
+      { question: 'What are the best alternatives to the BigCommerce affiliate program?', answer: 'For e-commerce platform bounties: the Shopify Affiliate Program (one-time referral payments) and Wix Affiliate Program (pay-per-Premium-conversion) both remain open. WooCommerce pays 20% on extensions. If you want recurring rather than one-time income, Home Business Academy pays 80% monthly recurring commissions (~$128/month per customer), which compounds instead of ending at the first payment.' },
+      { question: 'Does BigCommerce still have any partner program?', answer: 'Yes — an agency/technology partner program for firms that build, migrate, or service BigCommerce stores, found at bigcommerce.com/partners. It is a services partnership, not a link-based affiliate program, so it only fits agencies and developers, not content publishers.' }
     ]
   },
   {

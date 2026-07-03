@@ -653,6 +653,27 @@ export const comparisonPages: ComparisonPage[] = [
       ]
     },
     last_updated: '2026-03-27T00:00:00.000Z'
+  },
+  {
+    id: '19',
+    company_id: '137',
+    vs_company_name: 'MONAT Global',
+    vs_company_slug: 'monat-global',
+    content: {
+      verdict: 'Neora and MONAT are both beauty/wellness MLMs with multi-level comp plans, and neither is a strong income opportunity: Neora\'s own 2024 income disclosure shows 62.5% of active Brand Partners earned $0, while MONAT requires an $84+ monthly SMART Start order just to stay commission-qualified. Neora wins narrowly on comp-plan mechanics — no required monthly product order, lower typical monthly spend, and a cleaner product-liability record (Neora defeated the FTC\'s pyramid-scheme lawsuit in September 2023; MONAT settled class actions over hair-loss claims). For beauty entrepreneurs who want residual income rather than an MLM downline, neither model compares well to a flat high-percentage affiliate structure. Verified July 2026.',
+      winner: 'company',
+      comparison_points: [
+        { category: 'Commission Structure', company_value: 'Unilevel — pays on personal customers + downline levels', vs_company_value: '30% retail / 15% VIP customer commissions + team bonuses', winner: 'tie' },
+        { category: 'Monthly Requirement to Earn', company_value: 'No required monthly product order', vs_company_value: '$84+ SMART Start order to stay commission-qualified', winner: 'company' },
+        { category: 'Typical Monthly Cost', company_value: '$50-150 (products optional)', vs_company_value: '$84-200 + $99-599 starter kit', winner: 'company' },
+        { category: 'Per-Customer Residual', company_value: '~$10-15/month per subscription customer', vs_company_value: '~$12/month per haircare subscription', winner: 'tie' },
+        { category: 'Official Income Data', company_value: '62.5% of active Brand Partners earned $0 (2024 IDS)', vs_company_value: 'FTC\'s review of MLM income disclosures finds most participants earn under $1,000/year', winner: 'tie' },
+        { category: 'Legal / Regulatory Record', company_value: 'Defeated FTC pyramid-scheme suit on all 5 claims (Sept 2023)', vs_company_value: 'Settled class-action lawsuits over hair-loss claims', winner: 'company' },
+        { category: 'Product Line', company_value: 'Anti-aging skincare + wellness (ex-Nerium)', vs_company_value: 'Haircare, skincare, wellness — strong social-media brand', winner: 'vs_company' },
+        { category: 'Years in Business', company_value: '15 years (as Nerium since 2011, Neora since 2019)', vs_company_value: '12 years (since 2014)', winner: 'company' },
+      ]
+    },
+    last_updated: '2026-07-03T00:00:00.000Z'
   }
 ];
 
