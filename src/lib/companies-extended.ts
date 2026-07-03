@@ -2869,10 +2869,10 @@ export const extendedCompanies: Company[] = [
     founded_year: 2009,
     hq_location: 'Gongju, South Korea',
     website: 'https://atomy.com',
-    products_summary: 'South Korean MLM founded by Han-Gil Park selling health, beauty, and household products. Known for its "absolute quality, absolute price" positioning offering premium products at accessible prices. Strong in Asia Pacific markets with over 20 million members globally.',
+    products_summary: 'South Korean MLM founded by Han-Gill Park selling health supplements (flagship: HemoHIM), skincare, and household consumables under an "absolute quality, absolute price" positioning. One of the world\'s largest direct sellers — $1.83 billion revenue in 2024, operating in 27+ countries with 20 million+ registered members. Membership is genuinely free with no starter kit and no required monthly purchases, which is rare among MLMs. The trade-off: its binary, accumulation-based compensation plan pays meaningful income only at Sales Master rank and above, which requires two balanced legs of roughly 2.5 million group PV each.',
     monthly_cost_min: 0,
     monthly_cost_max: 100,
-    comp_plan_type: 'Sliding scale / customer accumulation plan',
+    comp_plan_type: 'Binary with lifetime PV accumulation + 7-tier mastership bonuses',
     overall_rating: 2.4,
     residual_rating: 2.4,
     simplicity_rating: 2.5,
@@ -2880,40 +2880,110 @@ export const extendedCompanies: Company[] = [
     community_rating: 3.0,
     value_rating: 4.0,
     pros: [
-      '16 years in business — 20M+ members globally',
-      'Per-customer residual ~$8-12/mo on subscriptions',
-      'Free to join — no starter kit required',
-      'No required monthly purchases'
+      '17 years in business, $1.83B revenue (2024) — 12th largest direct seller globally (DSN Global 100)',
+      'Genuinely free to join — no starter kit, no autoship, no monthly purchase requirement',
+      'Accumulated PV never resets — progress toward rank is lifetime, not monthly',
+      'Consumable products people actually reorder (HemoHIM, toothpaste, skincare)',
+      'Zero downside financial risk for members who just buy products at member prices'
     ],
     cons: [
-      'Low per-customer residual (~$8-12/mo)',
-      'Complex rank advancement system',
-      'Limited transparency for Western markets',
-      'Primarily Asian market — harder to build in US'
+      'No published US income disclosure statement (as of July 2026)',
+      'Meaningful income starts at Sales Master: ~2.5 million group PV required in EACH of two legs',
+      'Company-wide payout legally capped at 35% of sales under Korean Fair Trade law',
+      '20M+ "members" are mostly discount shoppers, not earners — member count is a vanity metric',
+      'Binary structure means an unbalanced team earns on the smaller leg only',
+      'Brand recognition still Asia-centric — US/EU builders start from near zero'
     ],
     quick_facts: {
       'Founded': '2009',
       'Headquarters': 'Gongju, South Korea',
-      'Founder': 'Han-Gil Park',
-      'Members': '20 million+ globally',
-      'Cost to Join': 'Free'
+      'Founder / CEO': 'Han-Gill Park',
+      'Revenue (2024)': '$1.83 billion',
+      'Members': '20 million+ registered globally',
+      'Markets': '27+ countries',
+      'Cost to Join': 'Free — no kit, no autoship',
+      'Payout Cap': '35% of sales (Korean law)',
+      'Last Verified': 'July 2026'
     },
+    detailed_content: `## Quick Verdict (Verified July 2026)
+
+Atomy is a legitimate, 17-year-old Korean MLM with genuinely free membership and consumable products people actually reorder — the rare MLM where a member who never recruits loses nothing but time. But the compensation plan is a binary accumulation system in which meaningful income begins at Sales Master, a rank requiring roughly 2.5 million group PV in each of two legs. For the overwhelming majority of its 20+ million registered members, Atomy functions as a discount buying club, not an income opportunity.
+
+## Atomy Company Profile 2026
+
+**Revenue trend (Direct Selling News / company reports):**
+
+- 2021: $1.84 billion
+- 2022: $1.54 billion
+- 2023: $1.71 billion — 12th on the DSN Global 100
+- 2024: $1.83 billion
+- 2025: ~$1.70 billion (estimated)
+
+Atomy operates in 27+ countries across five continents. China is its largest overseas branch (KRW 417 billion in 2024, up 6%), followed by Russia, Taiwan, and the United States — each exceeding KRW 100 billion (~$70M+). Latin America is the fastest-growing region: Colombia grew 70%+ and Brazil 49%+ in 2024. Flagship products are the HemoHIM supplement, the Absolute skincare line, and everyday household consumables.
+
+## How the Compensation Plan Actually Works
+
+All figures below come from Atomy USA's official published marketing plan (verified July 2026).
+
+**Joining is free.** No starter kit, no autoship, no monthly minimum to stay a member. This is Atomy's single biggest structural difference from typical MLMs.
+
+**Rank is based on lifetime accumulated PV — it never resets.** You qualify for commissions only after accumulating 10,000 personal PV. Dealership levels then climb by total group PV in a two-leg binary structure:
+
+- Sales Rep: 10,000–299,999 PV accumulated
+- Agent: 300,000+ PV
+- Special Agent: 700,000+ PV
+- Dealer: 1.5 million+ PV
+- Exclusive Distributor: 2.4 million+ PV
+
+**General Commission: 44% of total sales PV is distributed weekly** among qualified members, calculated on the smaller of your two legs — an unbalanced team earns on its weak leg only.
+
+**Mastership bonuses: another 20% of total sales PV** is split across seven tiers — Sales Master (10%), Diamond Master (5%), Sharon Rose Master (2%), Star Master (1.2%), Royal Master (1%), Crown Master (0.5%), Imperial Master (0.3%). Sales Master, the entry point to this pool, requires Special Agent rank plus roughly 2.5 million group PV per leg. One-time promotion bonuses range from ~$450 (Sales Master) to ~$913,000 plus a luxury car, office, and driver (Imperial Master).
+
+**The cap that governs everything:** total commissions cannot exceed 35% of sales revenue — a hard ceiling under Korean Fair Trade law. On $1.83 billion of 2024 revenue, that is a maximum global commission pool of roughly $640 million shared across every qualified member in 27+ countries.
+
+## The Income Reality
+
+Atomy does not publish a US income disclosure statement (verified July 2026), so unlike Amway or Herbalife, there is no official per-member earnings data to cite — a transparency gap we weight in our rating. What the structure itself tells us: the 44% weekly pool pays small amounts to many members, while the 20% mastership pool concentrates at seven ranks whose entry point already requires a large organization. The FTC's September 2024 staff report on 70 MLM income disclosures found most participants at comparable companies earn under $1,000 per year before expenses; nothing in Atomy's structure suggests its median member fares better — though its median member also spends nothing to participate.
+
+**The honest framing:** as a place to buy Korean supplements and skincare at member prices, Atomy is low-risk. As a business, it demands building a balanced two-leg organization of thousands of ordering customers before the income becomes meaningful.
+
+## Atomy in the United States
+
+Atomy USA is one of the company's larger overseas branches (over KRW 100 billion in sales), but brand recognition remains Asia-centric. A US builder is introducing an unknown Korean brand against established supplement and K-beauty retail competition, typically recruiting within Korean-American and broader Asian-American communities first. The free membership makes the pitch easy; the binary accumulation math makes the income slow.
+
+*Sources: Atomy USA official marketing plan (us.atomy.com), Atomy global newsroom, Direct Selling News Global 100, BusinessForHome company tracker, FTC staff report on MLM income disclosures (Sept 2024). Last verified: July 3, 2026.*`,
     faq: [
       {
         question: 'Is Atomy a pyramid scheme?',
-        answer: 'Atomy is a legal MLM company with real products and free membership. However, its compensation structure requires significant team-building to advance ranks and earn meaningful income. Critics note the "pay to play" nature of rank advancement. Atomy operates legally under South Korea\'s Fair Trade Commission regulations.'
+        answer: 'No. Atomy is a legal MLM registered with South Korea\'s Fair Trade Commission and operating in 27+ countries, with real consumable products and free membership — people can and do buy its products with no business involvement, which is the key legal distinction from a pyramid scheme. That said, its binary compensation plan concentrates meaningful income at Sales Master rank and above, which requires building two legs of roughly 2.5 million group PV each.'
       },
       {
         question: 'Is Atomy free to join?',
-        answer: 'Yes. Unlike most MLMs, Atomy has no starter kit cost and no required monthly purchases to remain a member. This low barrier to entry has contributed to their 20+ million member count, though membership numbers don\'t directly translate to active earners.'
+        answer: 'Yes — genuinely. There is no starter kit, no autoship, and no required monthly purchase to remain a member. You only need 10,000 accumulated personal PV to qualify for commissions. This is rare among MLMs and means the financial downside of joining is essentially zero; the real cost of building an Atomy business is time.'
+      },
+      {
+        question: 'How does the Atomy compensation plan work?',
+        answer: 'It is a two-leg binary with lifetime PV accumulation (your progress never resets). 44% of total sales PV is distributed weekly as General Commission among qualified members, calculated on your smaller leg. Another 20% funds seven Mastership tiers from Sales Master (10%) down to Imperial Master (0.3%). Total payout is legally capped at 35% of company sales under Korean Fair Trade law.'
+      },
+      {
+        question: 'What is Atomy\'s revenue and how big is the company in 2026?',
+        answer: 'Atomy reported $1.83 billion in 2024 revenue (12th on the DSN Global 100 by 2023 revenue) with an estimated ~$1.70 billion for 2025. It operates in 27+ countries; China is its largest overseas market, followed by Russia, Taiwan, and the US, with Latin America growing fastest. It claims 20 million+ registered members, though most are discount customers rather than active business-builders.'
+      },
+      {
+        question: 'How much do Atomy members actually earn?',
+        answer: 'Atomy does not publish a US income disclosure statement (verified July 2026), so no official per-member figures exist. Structurally, the 35% payout cap on ~$1.83B revenue means a maximum global commission pool of roughly $640 million shared among all qualified members worldwide, with the richest 20% (mastership pool) reserved for seven high ranks. The FTC found most participants at comparable MLMs earn under $1,000/year before expenses.'
       },
       {
         question: 'Can you make money with Atomy in the US?',
-        answer: 'Atomy\'s business model works best in Asian markets where the company has strong brand recognition. Building an Atomy business in the US is challenging due to limited brand awareness, competition from established supplement brands, and the general difficulty of MLM income generation.'
+        answer: 'It is possible but slow. Atomy USA is one of the company\'s larger overseas branches, yet brand recognition is still Asia-centric, and US builders typically start within Korean-American and Asian-American communities. Because rank depends on accumulated group PV in two balanced legs, meaningful US income requires an organization of thousands of consistently ordering customers — realistically a multi-year build.'
+      },
+      {
+        question: 'What is a better alternative to Atomy?',
+        answer: 'If your goal is residual income rather than discounted products, compare the math: Atomy pays small weekly commissions that scale only with a large balanced binary organization. Home Business Academy (HBA), our top-rated alternative, pays 80% flat commissions (~$128/month per direct customer) with no downline, no legs to balance, and a comp plan unchanged since 2016.'
       }
     ],
-    tagline: 'South Korean MLM with 20M+ members — "absolute quality, absolute price"',
-    last_updated: '2026-01-15T00:00:00.000Z',
+    tagline: 'Free-to-join Korean MLM giant — great buying club, slow business',
+    last_updated: '2026-07-03T00:00:00.000Z',
     is_featured: false,
     is_published: true,
     created_at: '2026-01-15T00:00:00.000Z'
