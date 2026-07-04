@@ -537,9 +537,18 @@ export default async function CompanyPage({ params }: PageProps) {
             <div className="bg-white rounded-lg border border-gray-200 p-6">
               <h3 className="font-bold text-gray-900 mb-4">Related Companies</h3>
               <div className="space-y-3">
-                {allCompanies
-                  .filter(c => c.category === company.category && c.slug !== company.slug)
-                  .slice(0, 3)
+                {(() => {
+                  // Rotate the selection per page (seeded by slug) so inbound links
+                  // distribute across every company in the category instead of always
+                  // pointing at the same first three — new pages would otherwise be orphans.
+                  const pool = allCompanies.filter(c => c.category === company.category && c.slug !== company.slug && c.is_published);
+                  const seed = Array.from(company.slug).reduce((sum, ch) => sum + ch.charCodeAt(0), 0);
+                  const start = pool.length > 0 ? seed % pool.length : 0;
+                  const picks = pool.length <= 3
+                    ? pool
+                    : [0, 1, 2].map(i => pool[(start + i) % pool.length]);
+                  return picks;
+                })()
                   .map((related) => (
                     <Link
                       key={related.slug}
