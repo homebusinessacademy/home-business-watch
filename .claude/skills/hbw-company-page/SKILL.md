@@ -35,6 +35,14 @@ You are producing a company review page for HomeBusinessWatch.com (repo: `/Volum
    - **Internal linking (pages without inbound links don't get crawled or cited)**: link the new company FROM 2-3 existing same-category company pages with keyword anchor text; create a compare page vs the closest competitor; supporting pages link back to the main review.
    - **llms.txt**: add the company to the comparison table in `public/llms.txt` if its per-customer residual is verified.
 
+4c. **AEO quality bar (from `AEO-STRATEGY.md` in the repo — read it):** every page must pass these before shipping:
+   - **Extractable**: 2-3 sentence verdict block FIRST, clean `##` sections, quick-facts with hard numbers, FAQ entries phrased as real buyer queries. Short answers above long analysis.
+   - **Buyer-question coverage**: FAQs must cover the evaluative shapes — "is X legit/a pyramid scheme", "how much does X cost", "how much do X members earn", "what is the best alternative to X". Cost data is a first-class answer (we hold monthly_cost on 800+ companies — surface it).
+   - **Citable proof over adjectives**: every claim carries a number, document name, or regulator reference. One unverifiable earnings number can disqualify the domain for strict engines (Claude cites most strictly; our verified-or-null standard is the moat).
+   - **Freshness + attribution**: "Last verified: <month year>" in quick_facts AND detailed_content; on significant UPDATES add a short "What changed in this review (<month year>)" note. Attribution is editorial ("HomeBusinessWatch Research Team" + methodology at /how-we-rate) — NEVER a personal byline (standing SPEC decision: Paul is not named on the site).
+   - **Finance-trust extras**: regulator citations (FTC/SEC/state AG), earnings disclaimers where income is discussed, primary-document links, fair tone.
+   - **Decision-page bias**: comparison pages earn our highest AI citation shares (44-67% measured) — when adding a company, the compare-page-vs-closest-competitor step is not optional.
+
 5. **Write the entry** (see the `atomy` entry in `src/lib/companies-extended.ts` for the gold-standard example):
    - `products_summary`: 2-4 sentences, leads with what it is + the headline verdict fact.
    - `pros`/`cons`: specific and numeric, not generic.

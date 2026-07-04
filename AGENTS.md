@@ -1,4 +1,5 @@
 Read `AGENT-GUIDE.md` first — it explains how to access, edit, and deploy this site.
+For content or strategy work, also read `AEO-STRATEGY.md` (the 10 answer-engine-optimization rules this site runs on) and `CONTENT-ROADMAP.md` (data-ranked priorities).
 
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know

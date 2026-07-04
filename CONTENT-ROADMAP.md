@@ -45,6 +45,13 @@ route pattern.
 | Family First Life (insurance MLM) | Cluster logic: PHP/Primerica/WFG demand proves insurance-MLM queries. |
 | Trending crypto-matrix schemes as they emerge | VBN page is the template — "is X legit" is the #1 AI question shape when people get pitched. |
 
+## Tier 4 — AEO buyer-question pages (added 2026-07-04, per AEO-STRATEGY.md)
+
+- "Best alternative to [company]" pages for the top-cited MLMs (highest-intent query shape; we already own the answer).
+- "[Category] cost comparison" roundups from our monthly_cost data (800+ companies — nobody else has this table).
+- "How to choose a [home business / MLM / affiliate program]" decision-criteria pages.
+- Off-site authority workstream: directory profiles, offering income-disclosure datasets as citation source, monthly citable industry report.
+
 ## Ongoing ops
 
 - After every content deploy: `curl "https://www.homebusinesswatch.com/api/indexnow?paths=..."` (see AGENT-GUIDE.md).

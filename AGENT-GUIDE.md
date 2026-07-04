@@ -75,6 +75,8 @@ TOKEN=$(gcloud auth print-access-token \
 
 ## SEO / AI-visibility strategy (July 2026)
 
+**Full strategy: `AEO-STRATEGY.md`** — the 10 answer-engine-optimization rules (buyer-question pages, citable proof, multi-engine tracking, extractable structure, freshness+attribution, off-site authority, finance-trust requirements). Read it before any content or strategy work. Summary of the situation:
+
 - Google **algorithmically deindexed** nearly all pages ~Apr 20–May 1 2026 (1 page indexed, 1,016 "Crawled – currently not indexed", no manual action). Don't expect Google traffic; don't panic about it either.
 - The growing channel is **AI assistants** (~95% ChatGPT, 200–370 sessions/mo). They cite **entity pages only** (`/companies/X`, `/compensation-plan/X`, `/scam/X`) — never guides. Hot clusters: financial/insurance MLMs (MWR Life is #1), international MLMs with thin English coverage (Farmasi, Atomy, Vestige, LiveGood), creator/gig platforms (Zazzle, Adobe Stock).
 - When adding content, favor new entity pages in those clusters, lead with a quotable 2–3 sentence verdict + hard income-disclosure numbers, keep FAQ sections, and show "last verified" dates. Freshness matters to AI search ranking.
