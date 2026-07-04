@@ -740,6 +740,75 @@ export const compPlans: CompPlanData[] = [
     ],
     metaDescription: "Kajabi pays affiliates $26-120/month per referral. We verified the tier structure, inactivity cliff, and payout schedule from the official partner program docs.",
   },
+  {
+    companySlug: 'velocity-bank-network',
+    companyName: 'Velocity Bank Network',
+    lastUpdated: '2026-07-04',
+    directCustomerResidual: 0,
+    levels: [
+      {
+        level: 1,
+        label: 'Tier buy-in "returns"',
+        residualPerCustomer: 0,
+        notes: 'There are no customers and no products. Payouts are funded entirely by the $30-$1,000 USDT deposits of newer participants in the 2x matrix ("two behind one momentum engine").'
+      },
+      {
+        level: 2,
+        label: 'Vault tier ($500/day claim)',
+        residualPerCustomer: null,
+        notes: 'The promised "up to $500/day" has no revenue source other than new deposits. No published formula, no audited payout records, all payouts processed manually by anonymous operators.'
+      }
+    ],
+    monthlyRequirement: 'None — one-time tier buy-ins of $30 to $1,000, paid in USDT (irreversible)',
+    qualificationNote: 'VBN publishes no compensation plan document, has no terms of service, and is not a registered company in any jurisdiction. There is nothing to verify because nothing is disclosed. Per our rating algorithm, promised passive returns with no product is an automatic disqualifier (0.0).',
+    simpleSummary: 'Velocity Bank Network has no compensation plan in any meaningful sense — no products, no customers, no commissions. Money flows from newer participants\' USDT deposits to earlier participants through a 2x matrix. When recruitment slows, the math guarantees the majority lose their deposit.',
+    teamSizeNeeded: {
+      goal1000: null,
+      goal3000: null,
+      goal10000: null,
+      assumptions: 'Not applicable — income depends entirely on recruiting new depositors, not customers. A 2x matrix requires exponential growth: 20 levels deep needs over one million new participants.'
+    },
+    sourceUrl: '',
+    keyGotchas: [
+      'USDT payments are irreversible — no chargebacks, no refunds, no bank disputes',
+      'No terms of service, user agreement, or registered legal entity — zero legal recourse',
+      'Payouts processed manually by anonymous operators (the promised smart contract was never delivered)',
+      'The "not a company" disclaimer is designed to evade regulatory accountability',
+      'Classic 2x matrix math: majority of participants lose money when recruitment slows'
+    ],
+    metaDescription: 'Velocity Bank Network compensation plan explained: we traced where the money actually comes from in the "two behind one momentum engine." Read this before you deposit USDT.',
+  },
+  {
+    companySlug: 'bright-way-business-personal-essentials',
+    companyName: 'Bright Way Business & Personal Essentials',
+    lastUpdated: '2026-07-04',
+    directCustomerResidual: null,
+    levels: [
+      {
+        level: 1,
+        label: 'Direct-marketing referral commissions',
+        residualPerCustomer: null,
+        notes: 'Commission rates are not published publicly. Reported structure (visitor correction, June 2026): direct-marketing referral program with optional MLM component; participants can reportedly rise above their upline in status and compensation.'
+      }
+    ],
+    monthlyRequirement: '$30/month platform fee (website, sales tools, position tracking, and business tracking), after a $299 one-time startup cost',
+    qualificationNote: 'Compensation plan documents are not publicly available. Figures above come from a visitor correction received in June 2026 and have not been verified against official documents. Request the official compensation plan and participant agreement before joining.',
+    simpleSummary: 'Bright Way is reported to be a direct-marketing referral program with training, website, and tracking tools for $299 one-time plus $30/month, with an optional (not required) MLM component. Because no official comp plan is published, per-customer earnings cannot be verified — get the documents in writing before paying.',
+    teamSizeNeeded: {
+      goal1000: null,
+      goal3000: null,
+      goal10000: null,
+      assumptions: 'Cannot be calculated — per-customer commission amounts are not publicly documented.'
+    },
+    sourceUrl: '',
+    keyGotchas: [
+      '$299 startup + $30/month = $659 first-year cost before any verified income math',
+      'No publicly available compensation plan, income disclosure, or participant agreement',
+      'All current structural details come from a single visitor report, not company documents',
+      'MLM component is reportedly optional — confirm in writing that income does not depend on recruiting'
+    ],
+    metaDescription: 'Bright Way Business & Personal Essentials costs $299 + $30/month. We looked for the official comp plan — what we found (and couldn\'t find) matters before you join.',
+  },
 ];
 
 // Helper to get comp plan by slug

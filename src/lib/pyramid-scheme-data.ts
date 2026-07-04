@@ -433,6 +433,20 @@ export const pyramidSchemeData: PyramidSchemeData[] = [
     ],
     verdict: 'Kajabi is not a pyramid scheme because it\'s not even an MLM — it\'s a SaaS affiliate program. The real question isn\'t "is it a pyramid scheme" but "is the affiliate program worth it?" At $26-120/month per referral with no recruitment requirements, it compares favorably to MLM income potential.',
   },
+  {
+    companySlug: 'bright-way-business-personal-essentials',
+    companyName: 'Bright Way Business & Personal Essentials',
+    isActualPyramidScheme: false,
+    directAnswer: 'Based on available information, Bright Way does not appear to be a pyramid scheme — it is described as a direct-marketing referral program selling real business tools (website, sales, and tracking systems) where the MLM component is reportedly optional, not required. However, the company does not publish its compensation plan publicly, so this assessment rests on limited documentation.',
+    whyNotPyramidScheme: 'A pyramid scheme pays primarily for recruitment rather than product sales. Bright Way reportedly sells tangible business services — website tools, sales resources, training, and tracking systems for $30/month — and a visitor correction (June 2026) states that the MLM opportunity is optional and that income does not depend on building a downline. Participants can reportedly rise above their upline, which is inconsistent with rigid pyramid positioning.',
+    mathSummary: 'The cost structure is $299 one-time plus $30/month (about $659 in year one). Per-customer commission amounts are not publicly documented, so break-even math cannot be calculated. Request the official compensation plan before joining.',
+    structuralNotes: [
+      'Real deliverables reported: website, sales tools, position tracking, business tracking, training',
+      'MLM component reportedly optional — a positive structural sign if confirmed in the official documents',
+      'No published compensation plan or income disclosure — the key structural details remain unverified',
+    ],
+    verdict: 'Bright Way does not show pyramid-scheme red flags in the limited information available: there are real tools and training, and recruitment is reportedly optional. But "no red flags visible" is not the same as "verified clean" — the company publishes no compensation plan, so get the official documents in writing and confirm income comes from sales, not recruitment, before paying $299.',
+  },
 ];
 
 // Helper to get pyramid scheme data by slug

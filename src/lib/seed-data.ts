@@ -674,6 +674,44 @@ export const comparisonPages: ComparisonPage[] = [
       ]
     },
     last_updated: '2026-07-03T00:00:00.000Z'
+  },
+  {
+    id: '20',
+    company_id: '836',
+    vs_company_name: 'Home Business Academy',
+    vs_company_slug: 'home-business-academy',
+    content: {
+      verdict: 'Bright Way is reported to be a direct-marketing referral program with training and tracking tools ($299 one-time + $30/month, MLM component optional), but it publishes no compensation plan, so per-customer earnings cannot be verified. HBA publishes everything: 80% flat commissions (~$128/month per customer), $10-160/month cost, and a comp plan unchanged since 2016. When one program\'s math is public and the other\'s must be requested, the transparent one wins by default. Verified July 2026.',
+      winner: 'vs_company',
+      comparison_points: [
+        { category: 'Startup Cost', company_value: '$299 one-time + $30/month (per visitor report)', vs_company_value: '$10-160/month, no startup fee', winner: 'vs_company' },
+        { category: 'Commission Structure', company_value: 'Not publicly documented — must request comp plan', vs_company_value: '80% flat-rate residual ($128/mo per customer), published', winner: 'vs_company' },
+        { category: 'Transparency', company_value: 'No public comp plan, income disclosure, or agreement', vs_company_value: 'Comp plan public and unchanged since 2016', winner: 'vs_company' },
+        { category: 'Recruiting Required', company_value: 'MLM component reportedly optional', vs_company_value: 'One-tier: earn on direct referrals only', winner: 'tie' },
+        { category: 'Tools Included', company_value: 'Website, sales, position + business tracking', vs_company_value: 'Funnel builder, hosting, traffic training, community', winner: 'tie' },
+        { category: 'Verifiability', company_value: 'Single visitor report (June 2026)', vs_company_value: '10-year public track record', winner: 'vs_company' },
+      ]
+    },
+    last_updated: '2026-07-04T00:00:00.000Z'
+  },
+  {
+    id: '21',
+    company_id: '601',
+    vs_company_name: 'OneCoin',
+    vs_company_slug: 'onecoin',
+    content: {
+      verdict: 'This comparison exists as a warning, not a recommendation: Velocity Bank Network\'s structure in 2026 closely mirrors OneCoin\'s before its collapse — no real product, anonymous leadership, crypto-denominated deposits, recruitment-funded payouts, and income promises with no external revenue source. OneCoin ended as one of history\'s largest frauds (~$4 billion; its founder is on the FBI\'s Ten Most Wanted list). VBN is smaller and younger, but the mathematical structure is the same, and structure — not size — is what determines how these end. Avoid both. Verified July 2026.',
+      winner: 'tie',
+      comparison_points: [
+        { category: 'Real Product or Service', company_value: 'None — "peer-to-peer rewards platform" with no product', vs_company_value: 'None — fake cryptocurrency with no real blockchain', winner: 'tie' },
+        { category: 'Where Payouts Come From', company_value: 'New participants\' USDT deposits (2x matrix)', vs_company_value: 'New investors\' package purchases', winner: 'tie' },
+        { category: 'Leadership', company_value: 'Anonymous — no verifiable identities', vs_company_value: 'Ruja Ignatova — vanished 2017, on FBI Ten Most Wanted', winner: 'tie' },
+        { category: 'Legal Registration', company_value: 'Not registered anywhere; states it is "not a company"', vs_company_value: 'Shell companies; convicted co-founders', winner: 'tie' },
+        { category: 'Outcome', company_value: 'Still operating (launched Oct 2025) — collapse is structural, timing unknown', vs_company_value: 'Collapsed ~$4B fraud; criminal convictions', winner: 'tie' },
+        { category: 'Recourse If It Fails', company_value: 'None — irreversible USDT, no legal entity', vs_company_value: 'Years of litigation recovered only a fraction', winner: 'tie' },
+      ]
+    },
+    last_updated: '2026-07-04T00:00:00.000Z'
   }
 ];
 
@@ -800,6 +838,9 @@ const allComparisonSlugs: string[] = [
   'doterra-vs-amazon-associates',
   'monat-global-vs-amazon-associates',
   'mary-kay-vs-clickbank',
+  'neora-vs-monat-global',
+  'bright-way-business-personal-essentials-vs-home-business-academy',
+  'velocity-bank-network-vs-onecoin',
 ];
 
 // Helper to convert slug to title case (e.g., "home-business-academy" → "Home Business Academy")

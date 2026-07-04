@@ -418,6 +418,20 @@ export const scamData: ScamData[] = [
     legalRecord: 'No regulatory actions, FTC investigations, or fraud charges. Kajabi is a legitimate SaaS company that has operated since 2010. It\'s not an MLM and has never faced the pyramid scheme scrutiny that MLMs encounter.',
     verdict: 'Kajabi is not a scam — it\'s a legitimate software company with a standard affiliate program. The complaints are about business model choices (subscription requirement to be a partner, inactivity cliff, payout delay), not fraud. At $26-120/month per referral with no recruitment requirements, it\'s actually a stronger income opportunity than most MLMs.',
   },
+  {
+    companySlug: 'bright-way-business-personal-essentials',
+    companyName: 'Bright Way Business & Personal Essentials',
+    isHighRisk: false,
+    directAnswer: 'We found no evidence that Bright Way is a scam — no regulatory actions, no fraud complaints, and a visitor report describes real business tools delivered for the fees paid. The honest caveat: the company has a limited public footprint and does not publish its compensation plan, so key terms cannot be independently verified.',
+    topComplaints: [
+      { complaint: 'Very limited public information — no published compensation plan, income disclosure, or participant agreement', verdict: 'legitimate_concern' },
+      { complaint: '$299 one-time startup cost plus $30/month is required before earning anything', verdict: 'business_model' },
+      { complaint: 'Income potential cannot be verified because commission rates are not publicly documented', verdict: 'legitimate_concern' },
+      { complaint: 'Company details (founding year, headquarters, leadership) are not readily available online', verdict: 'legitimate_concern' },
+    ],
+    legalRecord: 'No FTC, SEC, or state attorney general actions found as of July 2026. No pattern of fraud complaints located. The company has a small public footprint, which limits what can be verified either way.',
+    verdict: 'Bright Way does not appear to be a scam — a visitor correction (June 2026) describes real tools (website, sales, tracking systems) delivered for the $299 + $30/month cost, and the MLM component is reportedly optional. But absence of complaints is not proof of quality: with no published comp plan and a thin public record, do the verification yourself — request the official documents and refund policy in writing before paying.',
+  },
 ];
 
 // Helper to get scam data by slug
